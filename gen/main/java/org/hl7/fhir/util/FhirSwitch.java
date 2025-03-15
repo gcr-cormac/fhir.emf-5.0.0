@@ -6061,7 +6061,12 @@ public class FhirSwitch<T> extends Switch<T> {
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
-			case FhirPackage.IMPLEMENTATION_GUIDE_DEPENDS_ON: {
+			default: return defaultCase(theEObject);
+		}
+	}
+	protected T doSwitch2(int classifierID, EObject theEObject) {
+		switch (classifierID) {
+		case FhirPackage.IMPLEMENTATION_GUIDE_DEPENDS_ON: {
 				ImplementationGuideDependsOn implementationGuideDependsOn = (ImplementationGuideDependsOn)theEObject;
 				T result = caseImplementationGuideDependsOn(implementationGuideDependsOn);
 				if (result == null) result = caseBackboneElement(implementationGuideDependsOn);
@@ -10950,7 +10955,7 @@ public class FhirSwitch<T> extends Switch<T> {
 				if (result == null) result = caseBase(visionPrescriptionPrism);
 				if (result == null) result = defaultCase(theEObject);
 				return result;
-			}
+			}	
 			default: return defaultCase(theEObject);
 		}
 	}
