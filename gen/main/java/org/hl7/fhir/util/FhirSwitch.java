@@ -6061,6 +6061,4896 @@ public class FhirSwitch<T> extends Switch<T> {
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
+			case FhirPackage.IMPLEMENTATION_GUIDE_DEPENDS_ON: {
+				ImplementationGuideDependsOn implementationGuideDependsOn = (ImplementationGuideDependsOn)theEObject;
+				T result = caseImplementationGuideDependsOn(implementationGuideDependsOn);
+				if (result == null) result = caseBackboneElement(implementationGuideDependsOn);
+				if (result == null) result = caseElement(implementationGuideDependsOn);
+				if (result == null) result = caseBase(implementationGuideDependsOn);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.IMPLEMENTATION_GUIDE_GLOBAL: {
+				ImplementationGuideGlobal implementationGuideGlobal = (ImplementationGuideGlobal)theEObject;
+				T result = caseImplementationGuideGlobal(implementationGuideGlobal);
+				if (result == null) result = caseBackboneElement(implementationGuideGlobal);
+				if (result == null) result = caseElement(implementationGuideGlobal);
+				if (result == null) result = caseBase(implementationGuideGlobal);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.IMPLEMENTATION_GUIDE_GROUPING: {
+				ImplementationGuideGrouping implementationGuideGrouping = (ImplementationGuideGrouping)theEObject;
+				T result = caseImplementationGuideGrouping(implementationGuideGrouping);
+				if (result == null) result = caseBackboneElement(implementationGuideGrouping);
+				if (result == null) result = caseElement(implementationGuideGrouping);
+				if (result == null) result = caseBase(implementationGuideGrouping);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.IMPLEMENTATION_GUIDE_MANIFEST: {
+				ImplementationGuideManifest implementationGuideManifest = (ImplementationGuideManifest)theEObject;
+				T result = caseImplementationGuideManifest(implementationGuideManifest);
+				if (result == null) result = caseBackboneElement(implementationGuideManifest);
+				if (result == null) result = caseElement(implementationGuideManifest);
+				if (result == null) result = caseBase(implementationGuideManifest);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.IMPLEMENTATION_GUIDE_PAGE: {
+				ImplementationGuidePage implementationGuidePage = (ImplementationGuidePage)theEObject;
+				T result = caseImplementationGuidePage(implementationGuidePage);
+				if (result == null) result = caseBackboneElement(implementationGuidePage);
+				if (result == null) result = caseElement(implementationGuidePage);
+				if (result == null) result = caseBase(implementationGuidePage);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.IMPLEMENTATION_GUIDE_PAGE1: {
+				ImplementationGuidePage1 implementationGuidePage1 = (ImplementationGuidePage1)theEObject;
+				T result = caseImplementationGuidePage1(implementationGuidePage1);
+				if (result == null) result = caseBackboneElement(implementationGuidePage1);
+				if (result == null) result = caseElement(implementationGuidePage1);
+				if (result == null) result = caseBase(implementationGuidePage1);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.IMPLEMENTATION_GUIDE_PARAMETER: {
+				ImplementationGuideParameter implementationGuideParameter = (ImplementationGuideParameter)theEObject;
+				T result = caseImplementationGuideParameter(implementationGuideParameter);
+				if (result == null) result = caseBackboneElement(implementationGuideParameter);
+				if (result == null) result = caseElement(implementationGuideParameter);
+				if (result == null) result = caseBase(implementationGuideParameter);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.IMPLEMENTATION_GUIDE_RESOURCE: {
+				ImplementationGuideResource implementationGuideResource = (ImplementationGuideResource)theEObject;
+				T result = caseImplementationGuideResource(implementationGuideResource);
+				if (result == null) result = caseBackboneElement(implementationGuideResource);
+				if (result == null) result = caseElement(implementationGuideResource);
+				if (result == null) result = caseBase(implementationGuideResource);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.IMPLEMENTATION_GUIDE_RESOURCE1: {
+				ImplementationGuideResource1 implementationGuideResource1 = (ImplementationGuideResource1)theEObject;
+				T result = caseImplementationGuideResource1(implementationGuideResource1);
+				if (result == null) result = caseBackboneElement(implementationGuideResource1);
+				if (result == null) result = caseElement(implementationGuideResource1);
+				if (result == null) result = caseBase(implementationGuideResource1);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.IMPLEMENTATION_GUIDE_TEMPLATE: {
+				ImplementationGuideTemplate implementationGuideTemplate = (ImplementationGuideTemplate)theEObject;
+				T result = caseImplementationGuideTemplate(implementationGuideTemplate);
+				if (result == null) result = caseBackboneElement(implementationGuideTemplate);
+				if (result == null) result = caseElement(implementationGuideTemplate);
+				if (result == null) result = caseBase(implementationGuideTemplate);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INGREDIENT: {
+				Ingredient ingredient = (Ingredient)theEObject;
+				T result = caseIngredient(ingredient);
+				if (result == null) result = caseDomainResource(ingredient);
+				if (result == null) result = caseResource(ingredient);
+				if (result == null) result = caseBase(ingredient);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INGREDIENT_MANUFACTURER: {
+				IngredientManufacturer ingredientManufacturer = (IngredientManufacturer)theEObject;
+				T result = caseIngredientManufacturer(ingredientManufacturer);
+				if (result == null) result = caseBackboneElement(ingredientManufacturer);
+				if (result == null) result = caseElement(ingredientManufacturer);
+				if (result == null) result = caseBase(ingredientManufacturer);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INGREDIENT_MANUFACTURER_ROLE: {
+				IngredientManufacturerRole ingredientManufacturerRole = (IngredientManufacturerRole)theEObject;
+				T result = caseIngredientManufacturerRole(ingredientManufacturerRole);
+				if (result == null) result = caseElement(ingredientManufacturerRole);
+				if (result == null) result = caseBase(ingredientManufacturerRole);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INGREDIENT_REFERENCE_STRENGTH: {
+				IngredientReferenceStrength ingredientReferenceStrength = (IngredientReferenceStrength)theEObject;
+				T result = caseIngredientReferenceStrength(ingredientReferenceStrength);
+				if (result == null) result = caseBackboneElement(ingredientReferenceStrength);
+				if (result == null) result = caseElement(ingredientReferenceStrength);
+				if (result == null) result = caseBase(ingredientReferenceStrength);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INGREDIENT_STRENGTH: {
+				IngredientStrength ingredientStrength = (IngredientStrength)theEObject;
+				T result = caseIngredientStrength(ingredientStrength);
+				if (result == null) result = caseBackboneElement(ingredientStrength);
+				if (result == null) result = caseElement(ingredientStrength);
+				if (result == null) result = caseBase(ingredientStrength);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INGREDIENT_SUBSTANCE: {
+				IngredientSubstance ingredientSubstance = (IngredientSubstance)theEObject;
+				T result = caseIngredientSubstance(ingredientSubstance);
+				if (result == null) result = caseBackboneElement(ingredientSubstance);
+				if (result == null) result = caseElement(ingredientSubstance);
+				if (result == null) result = caseBase(ingredientSubstance);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INSTANT: {
+				Instant instant = (Instant)theEObject;
+				T result = caseInstant(instant);
+				if (result == null) result = caseElement(instant);
+				if (result == null) result = caseBase(instant);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INSURANCE_PLAN: {
+				InsurancePlan insurancePlan = (InsurancePlan)theEObject;
+				T result = caseInsurancePlan(insurancePlan);
+				if (result == null) result = caseDomainResource(insurancePlan);
+				if (result == null) result = caseResource(insurancePlan);
+				if (result == null) result = caseBase(insurancePlan);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INSURANCE_PLAN_BENEFIT: {
+				InsurancePlanBenefit insurancePlanBenefit = (InsurancePlanBenefit)theEObject;
+				T result = caseInsurancePlanBenefit(insurancePlanBenefit);
+				if (result == null) result = caseBackboneElement(insurancePlanBenefit);
+				if (result == null) result = caseElement(insurancePlanBenefit);
+				if (result == null) result = caseBase(insurancePlanBenefit);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INSURANCE_PLAN_BENEFIT1: {
+				InsurancePlanBenefit1 insurancePlanBenefit1 = (InsurancePlanBenefit1)theEObject;
+				T result = caseInsurancePlanBenefit1(insurancePlanBenefit1);
+				if (result == null) result = caseBackboneElement(insurancePlanBenefit1);
+				if (result == null) result = caseElement(insurancePlanBenefit1);
+				if (result == null) result = caseBase(insurancePlanBenefit1);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INSURANCE_PLAN_COST: {
+				InsurancePlanCost insurancePlanCost = (InsurancePlanCost)theEObject;
+				T result = caseInsurancePlanCost(insurancePlanCost);
+				if (result == null) result = caseBackboneElement(insurancePlanCost);
+				if (result == null) result = caseElement(insurancePlanCost);
+				if (result == null) result = caseBase(insurancePlanCost);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INSURANCE_PLAN_COVERAGE: {
+				InsurancePlanCoverage insurancePlanCoverage = (InsurancePlanCoverage)theEObject;
+				T result = caseInsurancePlanCoverage(insurancePlanCoverage);
+				if (result == null) result = caseBackboneElement(insurancePlanCoverage);
+				if (result == null) result = caseElement(insurancePlanCoverage);
+				if (result == null) result = caseBase(insurancePlanCoverage);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INSURANCE_PLAN_GENERAL_COST: {
+				InsurancePlanGeneralCost insurancePlanGeneralCost = (InsurancePlanGeneralCost)theEObject;
+				T result = caseInsurancePlanGeneralCost(insurancePlanGeneralCost);
+				if (result == null) result = caseBackboneElement(insurancePlanGeneralCost);
+				if (result == null) result = caseElement(insurancePlanGeneralCost);
+				if (result == null) result = caseBase(insurancePlanGeneralCost);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INSURANCE_PLAN_LIMIT: {
+				InsurancePlanLimit insurancePlanLimit = (InsurancePlanLimit)theEObject;
+				T result = caseInsurancePlanLimit(insurancePlanLimit);
+				if (result == null) result = caseBackboneElement(insurancePlanLimit);
+				if (result == null) result = caseElement(insurancePlanLimit);
+				if (result == null) result = caseBase(insurancePlanLimit);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INSURANCE_PLAN_PLAN: {
+				InsurancePlanPlan insurancePlanPlan = (InsurancePlanPlan)theEObject;
+				T result = caseInsurancePlanPlan(insurancePlanPlan);
+				if (result == null) result = caseBackboneElement(insurancePlanPlan);
+				if (result == null) result = caseElement(insurancePlanPlan);
+				if (result == null) result = caseBase(insurancePlanPlan);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INSURANCE_PLAN_SPECIFIC_COST: {
+				InsurancePlanSpecificCost insurancePlanSpecificCost = (InsurancePlanSpecificCost)theEObject;
+				T result = caseInsurancePlanSpecificCost(insurancePlanSpecificCost);
+				if (result == null) result = caseBackboneElement(insurancePlanSpecificCost);
+				if (result == null) result = caseElement(insurancePlanSpecificCost);
+				if (result == null) result = caseBase(insurancePlanSpecificCost);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INTEGER: {
+				org.hl7.fhir.Integer integer = (org.hl7.fhir.Integer)theEObject;
+				T result = caseInteger(integer);
+				if (result == null) result = caseElement(integer);
+				if (result == null) result = caseBase(integer);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INTEGER64: {
+				Integer64 integer64 = (Integer64)theEObject;
+				T result = caseInteger64(integer64);
+				if (result == null) result = caseElement(integer64);
+				if (result == null) result = caseBase(integer64);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INTERACTION_TRIGGER: {
+				InteractionTrigger interactionTrigger = (InteractionTrigger)theEObject;
+				T result = caseInteractionTrigger(interactionTrigger);
+				if (result == null) result = caseElement(interactionTrigger);
+				if (result == null) result = caseBase(interactionTrigger);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INVENTORY_COUNT_TYPE: {
+				InventoryCountType inventoryCountType = (InventoryCountType)theEObject;
+				T result = caseInventoryCountType(inventoryCountType);
+				if (result == null) result = caseElement(inventoryCountType);
+				if (result == null) result = caseBase(inventoryCountType);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INVENTORY_ITEM: {
+				InventoryItem inventoryItem = (InventoryItem)theEObject;
+				T result = caseInventoryItem(inventoryItem);
+				if (result == null) result = caseDomainResource(inventoryItem);
+				if (result == null) result = caseResource(inventoryItem);
+				if (result == null) result = caseBase(inventoryItem);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INVENTORY_ITEM_ASSOCIATION: {
+				InventoryItemAssociation inventoryItemAssociation = (InventoryItemAssociation)theEObject;
+				T result = caseInventoryItemAssociation(inventoryItemAssociation);
+				if (result == null) result = caseBackboneElement(inventoryItemAssociation);
+				if (result == null) result = caseElement(inventoryItemAssociation);
+				if (result == null) result = caseBase(inventoryItemAssociation);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INVENTORY_ITEM_CHARACTERISTIC: {
+				InventoryItemCharacteristic inventoryItemCharacteristic = (InventoryItemCharacteristic)theEObject;
+				T result = caseInventoryItemCharacteristic(inventoryItemCharacteristic);
+				if (result == null) result = caseBackboneElement(inventoryItemCharacteristic);
+				if (result == null) result = caseElement(inventoryItemCharacteristic);
+				if (result == null) result = caseBase(inventoryItemCharacteristic);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INVENTORY_ITEM_DESCRIPTION: {
+				InventoryItemDescription inventoryItemDescription = (InventoryItemDescription)theEObject;
+				T result = caseInventoryItemDescription(inventoryItemDescription);
+				if (result == null) result = caseBackboneElement(inventoryItemDescription);
+				if (result == null) result = caseElement(inventoryItemDescription);
+				if (result == null) result = caseBase(inventoryItemDescription);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INVENTORY_ITEM_INSTANCE: {
+				InventoryItemInstance inventoryItemInstance = (InventoryItemInstance)theEObject;
+				T result = caseInventoryItemInstance(inventoryItemInstance);
+				if (result == null) result = caseBackboneElement(inventoryItemInstance);
+				if (result == null) result = caseElement(inventoryItemInstance);
+				if (result == null) result = caseBase(inventoryItemInstance);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INVENTORY_ITEM_NAME: {
+				InventoryItemName inventoryItemName = (InventoryItemName)theEObject;
+				T result = caseInventoryItemName(inventoryItemName);
+				if (result == null) result = caseBackboneElement(inventoryItemName);
+				if (result == null) result = caseElement(inventoryItemName);
+				if (result == null) result = caseBase(inventoryItemName);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INVENTORY_ITEM_RESPONSIBLE_ORGANIZATION: {
+				InventoryItemResponsibleOrganization inventoryItemResponsibleOrganization = (InventoryItemResponsibleOrganization)theEObject;
+				T result = caseInventoryItemResponsibleOrganization(inventoryItemResponsibleOrganization);
+				if (result == null) result = caseBackboneElement(inventoryItemResponsibleOrganization);
+				if (result == null) result = caseElement(inventoryItemResponsibleOrganization);
+				if (result == null) result = caseBase(inventoryItemResponsibleOrganization);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INVENTORY_ITEM_STATUS_CODES: {
+				InventoryItemStatusCodes inventoryItemStatusCodes = (InventoryItemStatusCodes)theEObject;
+				T result = caseInventoryItemStatusCodes(inventoryItemStatusCodes);
+				if (result == null) result = caseElement(inventoryItemStatusCodes);
+				if (result == null) result = caseBase(inventoryItemStatusCodes);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INVENTORY_REPORT: {
+				InventoryReport inventoryReport = (InventoryReport)theEObject;
+				T result = caseInventoryReport(inventoryReport);
+				if (result == null) result = caseDomainResource(inventoryReport);
+				if (result == null) result = caseResource(inventoryReport);
+				if (result == null) result = caseBase(inventoryReport);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INVENTORY_REPORT_INVENTORY_LISTING: {
+				InventoryReportInventoryListing inventoryReportInventoryListing = (InventoryReportInventoryListing)theEObject;
+				T result = caseInventoryReportInventoryListing(inventoryReportInventoryListing);
+				if (result == null) result = caseBackboneElement(inventoryReportInventoryListing);
+				if (result == null) result = caseElement(inventoryReportInventoryListing);
+				if (result == null) result = caseBase(inventoryReportInventoryListing);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INVENTORY_REPORT_ITEM: {
+				InventoryReportItem inventoryReportItem = (InventoryReportItem)theEObject;
+				T result = caseInventoryReportItem(inventoryReportItem);
+				if (result == null) result = caseBackboneElement(inventoryReportItem);
+				if (result == null) result = caseElement(inventoryReportItem);
+				if (result == null) result = caseBase(inventoryReportItem);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INVENTORY_REPORT_STATUS: {
+				InventoryReportStatus inventoryReportStatus = (InventoryReportStatus)theEObject;
+				T result = caseInventoryReportStatus(inventoryReportStatus);
+				if (result == null) result = caseElement(inventoryReportStatus);
+				if (result == null) result = caseBase(inventoryReportStatus);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INVOICE: {
+				Invoice invoice = (Invoice)theEObject;
+				T result = caseInvoice(invoice);
+				if (result == null) result = caseDomainResource(invoice);
+				if (result == null) result = caseResource(invoice);
+				if (result == null) result = caseBase(invoice);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INVOICE_LINE_ITEM: {
+				InvoiceLineItem invoiceLineItem = (InvoiceLineItem)theEObject;
+				T result = caseInvoiceLineItem(invoiceLineItem);
+				if (result == null) result = caseBackboneElement(invoiceLineItem);
+				if (result == null) result = caseElement(invoiceLineItem);
+				if (result == null) result = caseBase(invoiceLineItem);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INVOICE_PARTICIPANT: {
+				InvoiceParticipant invoiceParticipant = (InvoiceParticipant)theEObject;
+				T result = caseInvoiceParticipant(invoiceParticipant);
+				if (result == null) result = caseBackboneElement(invoiceParticipant);
+				if (result == null) result = caseElement(invoiceParticipant);
+				if (result == null) result = caseBase(invoiceParticipant);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.INVOICE_STATUS: {
+				InvoiceStatus invoiceStatus = (InvoiceStatus)theEObject;
+				T result = caseInvoiceStatus(invoiceStatus);
+				if (result == null) result = caseElement(invoiceStatus);
+				if (result == null) result = caseBase(invoiceStatus);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.ISSUE_SEVERITY: {
+				IssueSeverity issueSeverity = (IssueSeverity)theEObject;
+				T result = caseIssueSeverity(issueSeverity);
+				if (result == null) result = caseElement(issueSeverity);
+				if (result == null) result = caseBase(issueSeverity);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.ISSUE_TYPE: {
+				IssueType issueType = (IssueType)theEObject;
+				T result = caseIssueType(issueType);
+				if (result == null) result = caseElement(issueType);
+				if (result == null) result = caseBase(issueType);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.JURISDICTION_VALUE_SET: {
+				JurisdictionValueSet jurisdictionValueSet = (JurisdictionValueSet)theEObject;
+				T result = caseJurisdictionValueSet(jurisdictionValueSet);
+				if (result == null) result = caseElement(jurisdictionValueSet);
+				if (result == null) result = caseBase(jurisdictionValueSet);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.KIND: {
+				Kind kind = (Kind)theEObject;
+				T result = caseKind(kind);
+				if (result == null) result = caseElement(kind);
+				if (result == null) result = caseBase(kind);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.LIBRARY: {
+				Library library = (Library)theEObject;
+				T result = caseLibrary(library);
+				if (result == null) result = caseMetadataResource(library);
+				if (result == null) result = caseCanonicalResource(library);
+				if (result == null) result = caseDomainResource(library);
+				if (result == null) result = caseResource(library);
+				if (result == null) result = caseBase(library);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.LINKAGE: {
+				Linkage linkage = (Linkage)theEObject;
+				T result = caseLinkage(linkage);
+				if (result == null) result = caseDomainResource(linkage);
+				if (result == null) result = caseResource(linkage);
+				if (result == null) result = caseBase(linkage);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.LINKAGE_ITEM: {
+				LinkageItem linkageItem = (LinkageItem)theEObject;
+				T result = caseLinkageItem(linkageItem);
+				if (result == null) result = caseBackboneElement(linkageItem);
+				if (result == null) result = caseElement(linkageItem);
+				if (result == null) result = caseBase(linkageItem);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.LINKAGE_TYPE: {
+				LinkageType linkageType = (LinkageType)theEObject;
+				T result = caseLinkageType(linkageType);
+				if (result == null) result = caseElement(linkageType);
+				if (result == null) result = caseBase(linkageType);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.LINK_RELATION_TYPES: {
+				LinkRelationTypes linkRelationTypes = (LinkRelationTypes)theEObject;
+				T result = caseLinkRelationTypes(linkRelationTypes);
+				if (result == null) result = caseElement(linkRelationTypes);
+				if (result == null) result = caseBase(linkRelationTypes);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.LINK_TYPE: {
+				LinkType linkType = (LinkType)theEObject;
+				T result = caseLinkType(linkType);
+				if (result == null) result = caseElement(linkType);
+				if (result == null) result = caseBase(linkType);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.LIST: {
+				List list = (List)theEObject;
+				T result = caseList(list);
+				if (result == null) result = caseDomainResource(list);
+				if (result == null) result = caseResource(list);
+				if (result == null) result = caseBase(list);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.LIST_ENTRY: {
+				ListEntry listEntry = (ListEntry)theEObject;
+				T result = caseListEntry(listEntry);
+				if (result == null) result = caseBackboneElement(listEntry);
+				if (result == null) result = caseElement(listEntry);
+				if (result == null) result = caseBase(listEntry);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.LIST_MODE: {
+				ListMode listMode = (ListMode)theEObject;
+				T result = caseListMode(listMode);
+				if (result == null) result = caseElement(listMode);
+				if (result == null) result = caseBase(listMode);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.LIST_STATUS: {
+				ListStatus listStatus = (ListStatus)theEObject;
+				T result = caseListStatus(listStatus);
+				if (result == null) result = caseElement(listStatus);
+				if (result == null) result = caseBase(listStatus);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.LOCATION: {
+				Location location = (Location)theEObject;
+				T result = caseLocation(location);
+				if (result == null) result = caseDomainResource(location);
+				if (result == null) result = caseResource(location);
+				if (result == null) result = caseBase(location);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.LOCATION_MODE: {
+				LocationMode locationMode = (LocationMode)theEObject;
+				T result = caseLocationMode(locationMode);
+				if (result == null) result = caseElement(locationMode);
+				if (result == null) result = caseBase(locationMode);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.LOCATION_POSITION: {
+				LocationPosition locationPosition = (LocationPosition)theEObject;
+				T result = caseLocationPosition(locationPosition);
+				if (result == null) result = caseBackboneElement(locationPosition);
+				if (result == null) result = caseElement(locationPosition);
+				if (result == null) result = caseBase(locationPosition);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.LOCATION_STATUS: {
+				LocationStatus locationStatus = (LocationStatus)theEObject;
+				T result = caseLocationStatus(locationStatus);
+				if (result == null) result = caseElement(locationStatus);
+				if (result == null) result = caseBase(locationStatus);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MANUFACTURED_ITEM_DEFINITION: {
+				ManufacturedItemDefinition manufacturedItemDefinition = (ManufacturedItemDefinition)theEObject;
+				T result = caseManufacturedItemDefinition(manufacturedItemDefinition);
+				if (result == null) result = caseDomainResource(manufacturedItemDefinition);
+				if (result == null) result = caseResource(manufacturedItemDefinition);
+				if (result == null) result = caseBase(manufacturedItemDefinition);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MANUFACTURED_ITEM_DEFINITION_COMPONENT: {
+				ManufacturedItemDefinitionComponent manufacturedItemDefinitionComponent = (ManufacturedItemDefinitionComponent)theEObject;
+				T result = caseManufacturedItemDefinitionComponent(manufacturedItemDefinitionComponent);
+				if (result == null) result = caseBackboneElement(manufacturedItemDefinitionComponent);
+				if (result == null) result = caseElement(manufacturedItemDefinitionComponent);
+				if (result == null) result = caseBase(manufacturedItemDefinitionComponent);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MANUFACTURED_ITEM_DEFINITION_CONSTITUENT: {
+				ManufacturedItemDefinitionConstituent manufacturedItemDefinitionConstituent = (ManufacturedItemDefinitionConstituent)theEObject;
+				T result = caseManufacturedItemDefinitionConstituent(manufacturedItemDefinitionConstituent);
+				if (result == null) result = caseBackboneElement(manufacturedItemDefinitionConstituent);
+				if (result == null) result = caseElement(manufacturedItemDefinitionConstituent);
+				if (result == null) result = caseBase(manufacturedItemDefinitionConstituent);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MANUFACTURED_ITEM_DEFINITION_PROPERTY: {
+				ManufacturedItemDefinitionProperty manufacturedItemDefinitionProperty = (ManufacturedItemDefinitionProperty)theEObject;
+				T result = caseManufacturedItemDefinitionProperty(manufacturedItemDefinitionProperty);
+				if (result == null) result = caseBackboneElement(manufacturedItemDefinitionProperty);
+				if (result == null) result = caseElement(manufacturedItemDefinitionProperty);
+				if (result == null) result = caseBase(manufacturedItemDefinitionProperty);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MARKDOWN: {
+				Markdown markdown = (Markdown)theEObject;
+				T result = caseMarkdown(markdown);
+				if (result == null) result = caseElement(markdown);
+				if (result == null) result = caseBase(markdown);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MARKETING_STATUS: {
+				MarketingStatus marketingStatus = (MarketingStatus)theEObject;
+				T result = caseMarketingStatus(marketingStatus);
+				if (result == null) result = caseBackboneType(marketingStatus);
+				if (result == null) result = caseDataType(marketingStatus);
+				if (result == null) result = caseElement(marketingStatus);
+				if (result == null) result = caseBase(marketingStatus);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEASURE: {
+				Measure measure = (Measure)theEObject;
+				T result = caseMeasure(measure);
+				if (result == null) result = caseMetadataResource(measure);
+				if (result == null) result = caseCanonicalResource(measure);
+				if (result == null) result = caseDomainResource(measure);
+				if (result == null) result = caseResource(measure);
+				if (result == null) result = caseBase(measure);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEASURE_COMPONENT: {
+				MeasureComponent measureComponent = (MeasureComponent)theEObject;
+				T result = caseMeasureComponent(measureComponent);
+				if (result == null) result = caseBackboneElement(measureComponent);
+				if (result == null) result = caseElement(measureComponent);
+				if (result == null) result = caseBase(measureComponent);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEASURE_GROUP: {
+				MeasureGroup measureGroup = (MeasureGroup)theEObject;
+				T result = caseMeasureGroup(measureGroup);
+				if (result == null) result = caseBackboneElement(measureGroup);
+				if (result == null) result = caseElement(measureGroup);
+				if (result == null) result = caseBase(measureGroup);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEASURE_POPULATION: {
+				MeasurePopulation measurePopulation = (MeasurePopulation)theEObject;
+				T result = caseMeasurePopulation(measurePopulation);
+				if (result == null) result = caseBackboneElement(measurePopulation);
+				if (result == null) result = caseElement(measurePopulation);
+				if (result == null) result = caseBase(measurePopulation);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEASURE_REPORT: {
+				MeasureReport measureReport = (MeasureReport)theEObject;
+				T result = caseMeasureReport(measureReport);
+				if (result == null) result = caseDomainResource(measureReport);
+				if (result == null) result = caseResource(measureReport);
+				if (result == null) result = caseBase(measureReport);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEASURE_REPORT_COMPONENT: {
+				MeasureReportComponent measureReportComponent = (MeasureReportComponent)theEObject;
+				T result = caseMeasureReportComponent(measureReportComponent);
+				if (result == null) result = caseBackboneElement(measureReportComponent);
+				if (result == null) result = caseElement(measureReportComponent);
+				if (result == null) result = caseBase(measureReportComponent);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEASURE_REPORT_GROUP: {
+				MeasureReportGroup measureReportGroup = (MeasureReportGroup)theEObject;
+				T result = caseMeasureReportGroup(measureReportGroup);
+				if (result == null) result = caseBackboneElement(measureReportGroup);
+				if (result == null) result = caseElement(measureReportGroup);
+				if (result == null) result = caseBase(measureReportGroup);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEASURE_REPORT_POPULATION: {
+				MeasureReportPopulation measureReportPopulation = (MeasureReportPopulation)theEObject;
+				T result = caseMeasureReportPopulation(measureReportPopulation);
+				if (result == null) result = caseBackboneElement(measureReportPopulation);
+				if (result == null) result = caseElement(measureReportPopulation);
+				if (result == null) result = caseBase(measureReportPopulation);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEASURE_REPORT_POPULATION1: {
+				MeasureReportPopulation1 measureReportPopulation1 = (MeasureReportPopulation1)theEObject;
+				T result = caseMeasureReportPopulation1(measureReportPopulation1);
+				if (result == null) result = caseBackboneElement(measureReportPopulation1);
+				if (result == null) result = caseElement(measureReportPopulation1);
+				if (result == null) result = caseBase(measureReportPopulation1);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEASURE_REPORT_STATUS: {
+				MeasureReportStatus measureReportStatus = (MeasureReportStatus)theEObject;
+				T result = caseMeasureReportStatus(measureReportStatus);
+				if (result == null) result = caseElement(measureReportStatus);
+				if (result == null) result = caseBase(measureReportStatus);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEASURE_REPORT_STRATIFIER: {
+				MeasureReportStratifier measureReportStratifier = (MeasureReportStratifier)theEObject;
+				T result = caseMeasureReportStratifier(measureReportStratifier);
+				if (result == null) result = caseBackboneElement(measureReportStratifier);
+				if (result == null) result = caseElement(measureReportStratifier);
+				if (result == null) result = caseBase(measureReportStratifier);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEASURE_REPORT_STRATUM: {
+				MeasureReportStratum measureReportStratum = (MeasureReportStratum)theEObject;
+				T result = caseMeasureReportStratum(measureReportStratum);
+				if (result == null) result = caseBackboneElement(measureReportStratum);
+				if (result == null) result = caseElement(measureReportStratum);
+				if (result == null) result = caseBase(measureReportStratum);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEASURE_REPORT_TYPE: {
+				MeasureReportType measureReportType = (MeasureReportType)theEObject;
+				T result = caseMeasureReportType(measureReportType);
+				if (result == null) result = caseElement(measureReportType);
+				if (result == null) result = caseBase(measureReportType);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEASURE_STRATIFIER: {
+				MeasureStratifier measureStratifier = (MeasureStratifier)theEObject;
+				T result = caseMeasureStratifier(measureStratifier);
+				if (result == null) result = caseBackboneElement(measureStratifier);
+				if (result == null) result = caseElement(measureStratifier);
+				if (result == null) result = caseBase(measureStratifier);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEASURE_SUPPLEMENTAL_DATA: {
+				MeasureSupplementalData measureSupplementalData = (MeasureSupplementalData)theEObject;
+				T result = caseMeasureSupplementalData(measureSupplementalData);
+				if (result == null) result = caseBackboneElement(measureSupplementalData);
+				if (result == null) result = caseElement(measureSupplementalData);
+				if (result == null) result = caseBase(measureSupplementalData);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEASURE_TERM: {
+				MeasureTerm measureTerm = (MeasureTerm)theEObject;
+				T result = caseMeasureTerm(measureTerm);
+				if (result == null) result = caseBackboneElement(measureTerm);
+				if (result == null) result = caseElement(measureTerm);
+				if (result == null) result = caseBase(measureTerm);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION: {
+				Medication medication = (Medication)theEObject;
+				T result = caseMedication(medication);
+				if (result == null) result = caseDomainResource(medication);
+				if (result == null) result = caseResource(medication);
+				if (result == null) result = caseBase(medication);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_ADMINISTRATION: {
+				MedicationAdministration medicationAdministration = (MedicationAdministration)theEObject;
+				T result = caseMedicationAdministration(medicationAdministration);
+				if (result == null) result = caseDomainResource(medicationAdministration);
+				if (result == null) result = caseResource(medicationAdministration);
+				if (result == null) result = caseBase(medicationAdministration);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_ADMINISTRATION_DOSAGE: {
+				MedicationAdministrationDosage medicationAdministrationDosage = (MedicationAdministrationDosage)theEObject;
+				T result = caseMedicationAdministrationDosage(medicationAdministrationDosage);
+				if (result == null) result = caseBackboneElement(medicationAdministrationDosage);
+				if (result == null) result = caseElement(medicationAdministrationDosage);
+				if (result == null) result = caseBase(medicationAdministrationDosage);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_ADMINISTRATION_PERFORMER: {
+				MedicationAdministrationPerformer medicationAdministrationPerformer = (MedicationAdministrationPerformer)theEObject;
+				T result = caseMedicationAdministrationPerformer(medicationAdministrationPerformer);
+				if (result == null) result = caseBackboneElement(medicationAdministrationPerformer);
+				if (result == null) result = caseElement(medicationAdministrationPerformer);
+				if (result == null) result = caseBase(medicationAdministrationPerformer);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_ADMINISTRATION_STATUS_CODES: {
+				MedicationAdministrationStatusCodes medicationAdministrationStatusCodes = (MedicationAdministrationStatusCodes)theEObject;
+				T result = caseMedicationAdministrationStatusCodes(medicationAdministrationStatusCodes);
+				if (result == null) result = caseElement(medicationAdministrationStatusCodes);
+				if (result == null) result = caseBase(medicationAdministrationStatusCodes);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_BATCH: {
+				MedicationBatch medicationBatch = (MedicationBatch)theEObject;
+				T result = caseMedicationBatch(medicationBatch);
+				if (result == null) result = caseBackboneElement(medicationBatch);
+				if (result == null) result = caseElement(medicationBatch);
+				if (result == null) result = caseBase(medicationBatch);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_DISPENSE: {
+				MedicationDispense medicationDispense = (MedicationDispense)theEObject;
+				T result = caseMedicationDispense(medicationDispense);
+				if (result == null) result = caseDomainResource(medicationDispense);
+				if (result == null) result = caseResource(medicationDispense);
+				if (result == null) result = caseBase(medicationDispense);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_DISPENSE_PERFORMER: {
+				MedicationDispensePerformer medicationDispensePerformer = (MedicationDispensePerformer)theEObject;
+				T result = caseMedicationDispensePerformer(medicationDispensePerformer);
+				if (result == null) result = caseBackboneElement(medicationDispensePerformer);
+				if (result == null) result = caseElement(medicationDispensePerformer);
+				if (result == null) result = caseBase(medicationDispensePerformer);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_DISPENSE_STATUS_CODES: {
+				MedicationDispenseStatusCodes medicationDispenseStatusCodes = (MedicationDispenseStatusCodes)theEObject;
+				T result = caseMedicationDispenseStatusCodes(medicationDispenseStatusCodes);
+				if (result == null) result = caseElement(medicationDispenseStatusCodes);
+				if (result == null) result = caseBase(medicationDispenseStatusCodes);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_DISPENSE_SUBSTITUTION: {
+				MedicationDispenseSubstitution medicationDispenseSubstitution = (MedicationDispenseSubstitution)theEObject;
+				T result = caseMedicationDispenseSubstitution(medicationDispenseSubstitution);
+				if (result == null) result = caseBackboneElement(medicationDispenseSubstitution);
+				if (result == null) result = caseElement(medicationDispenseSubstitution);
+				if (result == null) result = caseBase(medicationDispenseSubstitution);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_INGREDIENT: {
+				MedicationIngredient medicationIngredient = (MedicationIngredient)theEObject;
+				T result = caseMedicationIngredient(medicationIngredient);
+				if (result == null) result = caseBackboneElement(medicationIngredient);
+				if (result == null) result = caseElement(medicationIngredient);
+				if (result == null) result = caseBase(medicationIngredient);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_KNOWLEDGE: {
+				MedicationKnowledge medicationKnowledge = (MedicationKnowledge)theEObject;
+				T result = caseMedicationKnowledge(medicationKnowledge);
+				if (result == null) result = caseMetadataResource(medicationKnowledge);
+				if (result == null) result = caseCanonicalResource(medicationKnowledge);
+				if (result == null) result = caseDomainResource(medicationKnowledge);
+				if (result == null) result = caseResource(medicationKnowledge);
+				if (result == null) result = caseBase(medicationKnowledge);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_KNOWLEDGE_COST: {
+				MedicationKnowledgeCost medicationKnowledgeCost = (MedicationKnowledgeCost)theEObject;
+				T result = caseMedicationKnowledgeCost(medicationKnowledgeCost);
+				if (result == null) result = caseBackboneElement(medicationKnowledgeCost);
+				if (result == null) result = caseElement(medicationKnowledgeCost);
+				if (result == null) result = caseBase(medicationKnowledgeCost);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_KNOWLEDGE_DEFINITIONAL: {
+				MedicationKnowledgeDefinitional medicationKnowledgeDefinitional = (MedicationKnowledgeDefinitional)theEObject;
+				T result = caseMedicationKnowledgeDefinitional(medicationKnowledgeDefinitional);
+				if (result == null) result = caseBackboneElement(medicationKnowledgeDefinitional);
+				if (result == null) result = caseElement(medicationKnowledgeDefinitional);
+				if (result == null) result = caseBase(medicationKnowledgeDefinitional);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_KNOWLEDGE_DOSAGE: {
+				MedicationKnowledgeDosage medicationKnowledgeDosage = (MedicationKnowledgeDosage)theEObject;
+				T result = caseMedicationKnowledgeDosage(medicationKnowledgeDosage);
+				if (result == null) result = caseBackboneElement(medicationKnowledgeDosage);
+				if (result == null) result = caseElement(medicationKnowledgeDosage);
+				if (result == null) result = caseBase(medicationKnowledgeDosage);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_KNOWLEDGE_DOSING_GUIDELINE: {
+				MedicationKnowledgeDosingGuideline medicationKnowledgeDosingGuideline = (MedicationKnowledgeDosingGuideline)theEObject;
+				T result = caseMedicationKnowledgeDosingGuideline(medicationKnowledgeDosingGuideline);
+				if (result == null) result = caseBackboneElement(medicationKnowledgeDosingGuideline);
+				if (result == null) result = caseElement(medicationKnowledgeDosingGuideline);
+				if (result == null) result = caseBase(medicationKnowledgeDosingGuideline);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_KNOWLEDGE_DRUG_CHARACTERISTIC: {
+				MedicationKnowledgeDrugCharacteristic medicationKnowledgeDrugCharacteristic = (MedicationKnowledgeDrugCharacteristic)theEObject;
+				T result = caseMedicationKnowledgeDrugCharacteristic(medicationKnowledgeDrugCharacteristic);
+				if (result == null) result = caseBackboneElement(medicationKnowledgeDrugCharacteristic);
+				if (result == null) result = caseElement(medicationKnowledgeDrugCharacteristic);
+				if (result == null) result = caseBase(medicationKnowledgeDrugCharacteristic);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_KNOWLEDGE_ENVIRONMENTAL_SETTING: {
+				MedicationKnowledgeEnvironmentalSetting medicationKnowledgeEnvironmentalSetting = (MedicationKnowledgeEnvironmentalSetting)theEObject;
+				T result = caseMedicationKnowledgeEnvironmentalSetting(medicationKnowledgeEnvironmentalSetting);
+				if (result == null) result = caseBackboneElement(medicationKnowledgeEnvironmentalSetting);
+				if (result == null) result = caseElement(medicationKnowledgeEnvironmentalSetting);
+				if (result == null) result = caseBase(medicationKnowledgeEnvironmentalSetting);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_KNOWLEDGE_INDICATION_GUIDELINE: {
+				MedicationKnowledgeIndicationGuideline medicationKnowledgeIndicationGuideline = (MedicationKnowledgeIndicationGuideline)theEObject;
+				T result = caseMedicationKnowledgeIndicationGuideline(medicationKnowledgeIndicationGuideline);
+				if (result == null) result = caseBackboneElement(medicationKnowledgeIndicationGuideline);
+				if (result == null) result = caseElement(medicationKnowledgeIndicationGuideline);
+				if (result == null) result = caseBase(medicationKnowledgeIndicationGuideline);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_KNOWLEDGE_INGREDIENT: {
+				MedicationKnowledgeIngredient medicationKnowledgeIngredient = (MedicationKnowledgeIngredient)theEObject;
+				T result = caseMedicationKnowledgeIngredient(medicationKnowledgeIngredient);
+				if (result == null) result = caseBackboneElement(medicationKnowledgeIngredient);
+				if (result == null) result = caseElement(medicationKnowledgeIngredient);
+				if (result == null) result = caseBase(medicationKnowledgeIngredient);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_KNOWLEDGE_MAX_DISPENSE: {
+				MedicationKnowledgeMaxDispense medicationKnowledgeMaxDispense = (MedicationKnowledgeMaxDispense)theEObject;
+				T result = caseMedicationKnowledgeMaxDispense(medicationKnowledgeMaxDispense);
+				if (result == null) result = caseBackboneElement(medicationKnowledgeMaxDispense);
+				if (result == null) result = caseElement(medicationKnowledgeMaxDispense);
+				if (result == null) result = caseBase(medicationKnowledgeMaxDispense);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_KNOWLEDGE_MEDICINE_CLASSIFICATION: {
+				MedicationKnowledgeMedicineClassification medicationKnowledgeMedicineClassification = (MedicationKnowledgeMedicineClassification)theEObject;
+				T result = caseMedicationKnowledgeMedicineClassification(medicationKnowledgeMedicineClassification);
+				if (result == null) result = caseBackboneElement(medicationKnowledgeMedicineClassification);
+				if (result == null) result = caseElement(medicationKnowledgeMedicineClassification);
+				if (result == null) result = caseBase(medicationKnowledgeMedicineClassification);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_KNOWLEDGE_MONITORING_PROGRAM: {
+				MedicationKnowledgeMonitoringProgram medicationKnowledgeMonitoringProgram = (MedicationKnowledgeMonitoringProgram)theEObject;
+				T result = caseMedicationKnowledgeMonitoringProgram(medicationKnowledgeMonitoringProgram);
+				if (result == null) result = caseBackboneElement(medicationKnowledgeMonitoringProgram);
+				if (result == null) result = caseElement(medicationKnowledgeMonitoringProgram);
+				if (result == null) result = caseBase(medicationKnowledgeMonitoringProgram);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_KNOWLEDGE_MONOGRAPH: {
+				MedicationKnowledgeMonograph medicationKnowledgeMonograph = (MedicationKnowledgeMonograph)theEObject;
+				T result = caseMedicationKnowledgeMonograph(medicationKnowledgeMonograph);
+				if (result == null) result = caseBackboneElement(medicationKnowledgeMonograph);
+				if (result == null) result = caseElement(medicationKnowledgeMonograph);
+				if (result == null) result = caseBase(medicationKnowledgeMonograph);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_KNOWLEDGE_PACKAGING: {
+				MedicationKnowledgePackaging medicationKnowledgePackaging = (MedicationKnowledgePackaging)theEObject;
+				T result = caseMedicationKnowledgePackaging(medicationKnowledgePackaging);
+				if (result == null) result = caseBackboneElement(medicationKnowledgePackaging);
+				if (result == null) result = caseElement(medicationKnowledgePackaging);
+				if (result == null) result = caseBase(medicationKnowledgePackaging);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_KNOWLEDGE_PATIENT_CHARACTERISTIC: {
+				MedicationKnowledgePatientCharacteristic medicationKnowledgePatientCharacteristic = (MedicationKnowledgePatientCharacteristic)theEObject;
+				T result = caseMedicationKnowledgePatientCharacteristic(medicationKnowledgePatientCharacteristic);
+				if (result == null) result = caseBackboneElement(medicationKnowledgePatientCharacteristic);
+				if (result == null) result = caseElement(medicationKnowledgePatientCharacteristic);
+				if (result == null) result = caseBase(medicationKnowledgePatientCharacteristic);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_KNOWLEDGE_REGULATORY: {
+				MedicationKnowledgeRegulatory medicationKnowledgeRegulatory = (MedicationKnowledgeRegulatory)theEObject;
+				T result = caseMedicationKnowledgeRegulatory(medicationKnowledgeRegulatory);
+				if (result == null) result = caseBackboneElement(medicationKnowledgeRegulatory);
+				if (result == null) result = caseElement(medicationKnowledgeRegulatory);
+				if (result == null) result = caseBase(medicationKnowledgeRegulatory);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_KNOWLEDGE_RELATED_MEDICATION_KNOWLEDGE: {
+				MedicationKnowledgeRelatedMedicationKnowledge medicationKnowledgeRelatedMedicationKnowledge = (MedicationKnowledgeRelatedMedicationKnowledge)theEObject;
+				T result = caseMedicationKnowledgeRelatedMedicationKnowledge(medicationKnowledgeRelatedMedicationKnowledge);
+				if (result == null) result = caseBackboneElement(medicationKnowledgeRelatedMedicationKnowledge);
+				if (result == null) result = caseElement(medicationKnowledgeRelatedMedicationKnowledge);
+				if (result == null) result = caseBase(medicationKnowledgeRelatedMedicationKnowledge);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_KNOWLEDGE_STATUS_CODES: {
+				MedicationKnowledgeStatusCodes medicationKnowledgeStatusCodes = (MedicationKnowledgeStatusCodes)theEObject;
+				T result = caseMedicationKnowledgeStatusCodes(medicationKnowledgeStatusCodes);
+				if (result == null) result = caseElement(medicationKnowledgeStatusCodes);
+				if (result == null) result = caseBase(medicationKnowledgeStatusCodes);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_KNOWLEDGE_STORAGE_GUIDELINE: {
+				MedicationKnowledgeStorageGuideline medicationKnowledgeStorageGuideline = (MedicationKnowledgeStorageGuideline)theEObject;
+				T result = caseMedicationKnowledgeStorageGuideline(medicationKnowledgeStorageGuideline);
+				if (result == null) result = caseBackboneElement(medicationKnowledgeStorageGuideline);
+				if (result == null) result = caseElement(medicationKnowledgeStorageGuideline);
+				if (result == null) result = caseBase(medicationKnowledgeStorageGuideline);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_KNOWLEDGE_SUBSTITUTION: {
+				MedicationKnowledgeSubstitution medicationKnowledgeSubstitution = (MedicationKnowledgeSubstitution)theEObject;
+				T result = caseMedicationKnowledgeSubstitution(medicationKnowledgeSubstitution);
+				if (result == null) result = caseBackboneElement(medicationKnowledgeSubstitution);
+				if (result == null) result = caseElement(medicationKnowledgeSubstitution);
+				if (result == null) result = caseBase(medicationKnowledgeSubstitution);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_REQUEST: {
+				MedicationRequest medicationRequest = (MedicationRequest)theEObject;
+				T result = caseMedicationRequest(medicationRequest);
+				if (result == null) result = caseDomainResource(medicationRequest);
+				if (result == null) result = caseResource(medicationRequest);
+				if (result == null) result = caseBase(medicationRequest);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_REQUEST_DISPENSE_REQUEST: {
+				MedicationRequestDispenseRequest medicationRequestDispenseRequest = (MedicationRequestDispenseRequest)theEObject;
+				T result = caseMedicationRequestDispenseRequest(medicationRequestDispenseRequest);
+				if (result == null) result = caseBackboneElement(medicationRequestDispenseRequest);
+				if (result == null) result = caseElement(medicationRequestDispenseRequest);
+				if (result == null) result = caseBase(medicationRequestDispenseRequest);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_REQUEST_INITIAL_FILL: {
+				MedicationRequestInitialFill medicationRequestInitialFill = (MedicationRequestInitialFill)theEObject;
+				T result = caseMedicationRequestInitialFill(medicationRequestInitialFill);
+				if (result == null) result = caseBackboneElement(medicationRequestInitialFill);
+				if (result == null) result = caseElement(medicationRequestInitialFill);
+				if (result == null) result = caseBase(medicationRequestInitialFill);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_REQUEST_INTENT: {
+				MedicationRequestIntent medicationRequestIntent = (MedicationRequestIntent)theEObject;
+				T result = caseMedicationRequestIntent(medicationRequestIntent);
+				if (result == null) result = caseElement(medicationRequestIntent);
+				if (result == null) result = caseBase(medicationRequestIntent);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATIONREQUEST_STATUS: {
+				MedicationrequestStatus medicationrequestStatus = (MedicationrequestStatus)theEObject;
+				T result = caseMedicationrequestStatus(medicationrequestStatus);
+				if (result == null) result = caseElement(medicationrequestStatus);
+				if (result == null) result = caseBase(medicationrequestStatus);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_REQUEST_SUBSTITUTION: {
+				MedicationRequestSubstitution medicationRequestSubstitution = (MedicationRequestSubstitution)theEObject;
+				T result = caseMedicationRequestSubstitution(medicationRequestSubstitution);
+				if (result == null) result = caseBackboneElement(medicationRequestSubstitution);
+				if (result == null) result = caseElement(medicationRequestSubstitution);
+				if (result == null) result = caseBase(medicationRequestSubstitution);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_STATEMENT: {
+				MedicationStatement medicationStatement = (MedicationStatement)theEObject;
+				T result = caseMedicationStatement(medicationStatement);
+				if (result == null) result = caseDomainResource(medicationStatement);
+				if (result == null) result = caseResource(medicationStatement);
+				if (result == null) result = caseBase(medicationStatement);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_STATEMENT_ADHERENCE: {
+				MedicationStatementAdherence medicationStatementAdherence = (MedicationStatementAdherence)theEObject;
+				T result = caseMedicationStatementAdherence(medicationStatementAdherence);
+				if (result == null) result = caseBackboneElement(medicationStatementAdherence);
+				if (result == null) result = caseElement(medicationStatementAdherence);
+				if (result == null) result = caseBase(medicationStatementAdherence);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_STATEMENT_STATUS_CODES: {
+				MedicationStatementStatusCodes medicationStatementStatusCodes = (MedicationStatementStatusCodes)theEObject;
+				T result = caseMedicationStatementStatusCodes(medicationStatementStatusCodes);
+				if (result == null) result = caseElement(medicationStatementStatusCodes);
+				if (result == null) result = caseBase(medicationStatementStatusCodes);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICATION_STATUS_CODES: {
+				MedicationStatusCodes medicationStatusCodes = (MedicationStatusCodes)theEObject;
+				T result = caseMedicationStatusCodes(medicationStatusCodes);
+				if (result == null) result = caseElement(medicationStatusCodes);
+				if (result == null) result = caseBase(medicationStatusCodes);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICINAL_PRODUCT_DEFINITION: {
+				MedicinalProductDefinition medicinalProductDefinition = (MedicinalProductDefinition)theEObject;
+				T result = caseMedicinalProductDefinition(medicinalProductDefinition);
+				if (result == null) result = caseDomainResource(medicinalProductDefinition);
+				if (result == null) result = caseResource(medicinalProductDefinition);
+				if (result == null) result = caseBase(medicinalProductDefinition);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICINAL_PRODUCT_DEFINITION_CHARACTERISTIC: {
+				MedicinalProductDefinitionCharacteristic medicinalProductDefinitionCharacteristic = (MedicinalProductDefinitionCharacteristic)theEObject;
+				T result = caseMedicinalProductDefinitionCharacteristic(medicinalProductDefinitionCharacteristic);
+				if (result == null) result = caseBackboneElement(medicinalProductDefinitionCharacteristic);
+				if (result == null) result = caseElement(medicinalProductDefinitionCharacteristic);
+				if (result == null) result = caseBase(medicinalProductDefinitionCharacteristic);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICINAL_PRODUCT_DEFINITION_CONTACT: {
+				MedicinalProductDefinitionContact medicinalProductDefinitionContact = (MedicinalProductDefinitionContact)theEObject;
+				T result = caseMedicinalProductDefinitionContact(medicinalProductDefinitionContact);
+				if (result == null) result = caseBackboneElement(medicinalProductDefinitionContact);
+				if (result == null) result = caseElement(medicinalProductDefinitionContact);
+				if (result == null) result = caseBase(medicinalProductDefinitionContact);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICINAL_PRODUCT_DEFINITION_CROSS_REFERENCE: {
+				MedicinalProductDefinitionCrossReference medicinalProductDefinitionCrossReference = (MedicinalProductDefinitionCrossReference)theEObject;
+				T result = caseMedicinalProductDefinitionCrossReference(medicinalProductDefinitionCrossReference);
+				if (result == null) result = caseBackboneElement(medicinalProductDefinitionCrossReference);
+				if (result == null) result = caseElement(medicinalProductDefinitionCrossReference);
+				if (result == null) result = caseBase(medicinalProductDefinitionCrossReference);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICINAL_PRODUCT_DEFINITION_NAME: {
+				MedicinalProductDefinitionName medicinalProductDefinitionName = (MedicinalProductDefinitionName)theEObject;
+				T result = caseMedicinalProductDefinitionName(medicinalProductDefinitionName);
+				if (result == null) result = caseBackboneElement(medicinalProductDefinitionName);
+				if (result == null) result = caseElement(medicinalProductDefinitionName);
+				if (result == null) result = caseBase(medicinalProductDefinitionName);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICINAL_PRODUCT_DEFINITION_OPERATION: {
+				MedicinalProductDefinitionOperation medicinalProductDefinitionOperation = (MedicinalProductDefinitionOperation)theEObject;
+				T result = caseMedicinalProductDefinitionOperation(medicinalProductDefinitionOperation);
+				if (result == null) result = caseBackboneElement(medicinalProductDefinitionOperation);
+				if (result == null) result = caseElement(medicinalProductDefinitionOperation);
+				if (result == null) result = caseBase(medicinalProductDefinitionOperation);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICINAL_PRODUCT_DEFINITION_PART: {
+				MedicinalProductDefinitionPart medicinalProductDefinitionPart = (MedicinalProductDefinitionPart)theEObject;
+				T result = caseMedicinalProductDefinitionPart(medicinalProductDefinitionPart);
+				if (result == null) result = caseBackboneElement(medicinalProductDefinitionPart);
+				if (result == null) result = caseElement(medicinalProductDefinitionPart);
+				if (result == null) result = caseBase(medicinalProductDefinitionPart);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MEDICINAL_PRODUCT_DEFINITION_USAGE: {
+				MedicinalProductDefinitionUsage medicinalProductDefinitionUsage = (MedicinalProductDefinitionUsage)theEObject;
+				T result = caseMedicinalProductDefinitionUsage(medicinalProductDefinitionUsage);
+				if (result == null) result = caseBackboneElement(medicinalProductDefinitionUsage);
+				if (result == null) result = caseElement(medicinalProductDefinitionUsage);
+				if (result == null) result = caseBase(medicinalProductDefinitionUsage);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MESSAGE_DEFINITION: {
+				MessageDefinition messageDefinition = (MessageDefinition)theEObject;
+				T result = caseMessageDefinition(messageDefinition);
+				if (result == null) result = caseCanonicalResource(messageDefinition);
+				if (result == null) result = caseDomainResource(messageDefinition);
+				if (result == null) result = caseResource(messageDefinition);
+				if (result == null) result = caseBase(messageDefinition);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MESSAGE_DEFINITION_ALLOWED_RESPONSE: {
+				MessageDefinitionAllowedResponse messageDefinitionAllowedResponse = (MessageDefinitionAllowedResponse)theEObject;
+				T result = caseMessageDefinitionAllowedResponse(messageDefinitionAllowedResponse);
+				if (result == null) result = caseBackboneElement(messageDefinitionAllowedResponse);
+				if (result == null) result = caseElement(messageDefinitionAllowedResponse);
+				if (result == null) result = caseBase(messageDefinitionAllowedResponse);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MESSAGE_DEFINITION_FOCUS: {
+				MessageDefinitionFocus messageDefinitionFocus = (MessageDefinitionFocus)theEObject;
+				T result = caseMessageDefinitionFocus(messageDefinitionFocus);
+				if (result == null) result = caseBackboneElement(messageDefinitionFocus);
+				if (result == null) result = caseElement(messageDefinitionFocus);
+				if (result == null) result = caseBase(messageDefinitionFocus);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MESSAGE_HEADER: {
+				MessageHeader messageHeader = (MessageHeader)theEObject;
+				T result = caseMessageHeader(messageHeader);
+				if (result == null) result = caseDomainResource(messageHeader);
+				if (result == null) result = caseResource(messageHeader);
+				if (result == null) result = caseBase(messageHeader);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MESSAGE_HEADER_DESTINATION: {
+				MessageHeaderDestination messageHeaderDestination = (MessageHeaderDestination)theEObject;
+				T result = caseMessageHeaderDestination(messageHeaderDestination);
+				if (result == null) result = caseBackboneElement(messageHeaderDestination);
+				if (result == null) result = caseElement(messageHeaderDestination);
+				if (result == null) result = caseBase(messageHeaderDestination);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MESSAGE_HEADER_RESPONSE: {
+				MessageHeaderResponse messageHeaderResponse = (MessageHeaderResponse)theEObject;
+				T result = caseMessageHeaderResponse(messageHeaderResponse);
+				if (result == null) result = caseBackboneElement(messageHeaderResponse);
+				if (result == null) result = caseElement(messageHeaderResponse);
+				if (result == null) result = caseBase(messageHeaderResponse);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MESSAGEHEADER_RESPONSE_REQUEST: {
+				MessageheaderResponseRequest messageheaderResponseRequest = (MessageheaderResponseRequest)theEObject;
+				T result = caseMessageheaderResponseRequest(messageheaderResponseRequest);
+				if (result == null) result = caseElement(messageheaderResponseRequest);
+				if (result == null) result = caseBase(messageheaderResponseRequest);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MESSAGE_HEADER_SOURCE: {
+				MessageHeaderSource messageHeaderSource = (MessageHeaderSource)theEObject;
+				T result = caseMessageHeaderSource(messageHeaderSource);
+				if (result == null) result = caseBackboneElement(messageHeaderSource);
+				if (result == null) result = caseElement(messageHeaderSource);
+				if (result == null) result = caseBase(messageHeaderSource);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MESSAGE_SIGNIFICANCE_CATEGORY: {
+				MessageSignificanceCategory messageSignificanceCategory = (MessageSignificanceCategory)theEObject;
+				T result = caseMessageSignificanceCategory(messageSignificanceCategory);
+				if (result == null) result = caseElement(messageSignificanceCategory);
+				if (result == null) result = caseBase(messageSignificanceCategory);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.META: {
+				Meta meta = (Meta)theEObject;
+				T result = caseMeta(meta);
+				if (result == null) result = caseDataType(meta);
+				if (result == null) result = caseElement(meta);
+				if (result == null) result = caseBase(meta);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.METADATA_RESOURCE: {
+				MetadataResource metadataResource = (MetadataResource)theEObject;
+				T result = caseMetadataResource(metadataResource);
+				if (result == null) result = caseCanonicalResource(metadataResource);
+				if (result == null) result = caseDomainResource(metadataResource);
+				if (result == null) result = caseResource(metadataResource);
+				if (result == null) result = caseBase(metadataResource);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MOLECULAR_SEQUENCE: {
+				MolecularSequence molecularSequence = (MolecularSequence)theEObject;
+				T result = caseMolecularSequence(molecularSequence);
+				if (result == null) result = caseDomainResource(molecularSequence);
+				if (result == null) result = caseResource(molecularSequence);
+				if (result == null) result = caseBase(molecularSequence);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MOLECULAR_SEQUENCE_EDIT: {
+				MolecularSequenceEdit molecularSequenceEdit = (MolecularSequenceEdit)theEObject;
+				T result = caseMolecularSequenceEdit(molecularSequenceEdit);
+				if (result == null) result = caseBackboneElement(molecularSequenceEdit);
+				if (result == null) result = caseElement(molecularSequenceEdit);
+				if (result == null) result = caseBase(molecularSequenceEdit);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MOLECULAR_SEQUENCE_RELATIVE: {
+				MolecularSequenceRelative molecularSequenceRelative = (MolecularSequenceRelative)theEObject;
+				T result = caseMolecularSequenceRelative(molecularSequenceRelative);
+				if (result == null) result = caseBackboneElement(molecularSequenceRelative);
+				if (result == null) result = caseElement(molecularSequenceRelative);
+				if (result == null) result = caseBase(molecularSequenceRelative);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MOLECULAR_SEQUENCE_STARTING_SEQUENCE: {
+				MolecularSequenceStartingSequence molecularSequenceStartingSequence = (MolecularSequenceStartingSequence)theEObject;
+				T result = caseMolecularSequenceStartingSequence(molecularSequenceStartingSequence);
+				if (result == null) result = caseBackboneElement(molecularSequenceStartingSequence);
+				if (result == null) result = caseElement(molecularSequenceStartingSequence);
+				if (result == null) result = caseBase(molecularSequenceStartingSequence);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MONETARY_COMPONENT: {
+				MonetaryComponent monetaryComponent = (MonetaryComponent)theEObject;
+				T result = caseMonetaryComponent(monetaryComponent);
+				if (result == null) result = caseDataType(monetaryComponent);
+				if (result == null) result = caseElement(monetaryComponent);
+				if (result == null) result = caseBase(monetaryComponent);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.MONEY: {
+				Money money = (Money)theEObject;
+				T result = caseMoney(money);
+				if (result == null) result = caseDataType(money);
+				if (result == null) result = caseElement(money);
+				if (result == null) result = caseBase(money);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.NAME_USE: {
+				NameUse nameUse = (NameUse)theEObject;
+				T result = caseNameUse(nameUse);
+				if (result == null) result = caseElement(nameUse);
+				if (result == null) result = caseBase(nameUse);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.NAMING_SYSTEM: {
+				NamingSystem namingSystem = (NamingSystem)theEObject;
+				T result = caseNamingSystem(namingSystem);
+				if (result == null) result = caseMetadataResource(namingSystem);
+				if (result == null) result = caseCanonicalResource(namingSystem);
+				if (result == null) result = caseDomainResource(namingSystem);
+				if (result == null) result = caseResource(namingSystem);
+				if (result == null) result = caseBase(namingSystem);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.NAMING_SYSTEM_IDENTIFIER_TYPE: {
+				NamingSystemIdentifierType namingSystemIdentifierType = (NamingSystemIdentifierType)theEObject;
+				T result = caseNamingSystemIdentifierType(namingSystemIdentifierType);
+				if (result == null) result = caseElement(namingSystemIdentifierType);
+				if (result == null) result = caseBase(namingSystemIdentifierType);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.NAMING_SYSTEM_TYPE: {
+				NamingSystemType namingSystemType = (NamingSystemType)theEObject;
+				T result = caseNamingSystemType(namingSystemType);
+				if (result == null) result = caseElement(namingSystemType);
+				if (result == null) result = caseBase(namingSystemType);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.NAMING_SYSTEM_UNIQUE_ID: {
+				NamingSystemUniqueId namingSystemUniqueId = (NamingSystemUniqueId)theEObject;
+				T result = caseNamingSystemUniqueId(namingSystemUniqueId);
+				if (result == null) result = caseBackboneElement(namingSystemUniqueId);
+				if (result == null) result = caseElement(namingSystemUniqueId);
+				if (result == null) result = caseBase(namingSystemUniqueId);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.NARRATIVE: {
+				Narrative narrative = (Narrative)theEObject;
+				T result = caseNarrative(narrative);
+				if (result == null) result = caseDataType(narrative);
+				if (result == null) result = caseElement(narrative);
+				if (result == null) result = caseBase(narrative);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.NARRATIVE_STATUS: {
+				NarrativeStatus narrativeStatus = (NarrativeStatus)theEObject;
+				T result = caseNarrativeStatus(narrativeStatus);
+				if (result == null) result = caseElement(narrativeStatus);
+				if (result == null) result = caseBase(narrativeStatus);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.NOTE_TYPE: {
+				NoteType noteType = (NoteType)theEObject;
+				T result = caseNoteType(noteType);
+				if (result == null) result = caseElement(noteType);
+				if (result == null) result = caseBase(noteType);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.NUTRITION_INTAKE: {
+				NutritionIntake nutritionIntake = (NutritionIntake)theEObject;
+				T result = caseNutritionIntake(nutritionIntake);
+				if (result == null) result = caseDomainResource(nutritionIntake);
+				if (result == null) result = caseResource(nutritionIntake);
+				if (result == null) result = caseBase(nutritionIntake);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.NUTRITION_INTAKE_CONSUMED_ITEM: {
+				NutritionIntakeConsumedItem nutritionIntakeConsumedItem = (NutritionIntakeConsumedItem)theEObject;
+				T result = caseNutritionIntakeConsumedItem(nutritionIntakeConsumedItem);
+				if (result == null) result = caseBackboneElement(nutritionIntakeConsumedItem);
+				if (result == null) result = caseElement(nutritionIntakeConsumedItem);
+				if (result == null) result = caseBase(nutritionIntakeConsumedItem);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.NUTRITION_INTAKE_INGREDIENT_LABEL: {
+				NutritionIntakeIngredientLabel nutritionIntakeIngredientLabel = (NutritionIntakeIngredientLabel)theEObject;
+				T result = caseNutritionIntakeIngredientLabel(nutritionIntakeIngredientLabel);
+				if (result == null) result = caseBackboneElement(nutritionIntakeIngredientLabel);
+				if (result == null) result = caseElement(nutritionIntakeIngredientLabel);
+				if (result == null) result = caseBase(nutritionIntakeIngredientLabel);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.NUTRITION_INTAKE_PERFORMER: {
+				NutritionIntakePerformer nutritionIntakePerformer = (NutritionIntakePerformer)theEObject;
+				T result = caseNutritionIntakePerformer(nutritionIntakePerformer);
+				if (result == null) result = caseBackboneElement(nutritionIntakePerformer);
+				if (result == null) result = caseElement(nutritionIntakePerformer);
+				if (result == null) result = caseBase(nutritionIntakePerformer);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.NUTRITION_ORDER: {
+				NutritionOrder nutritionOrder = (NutritionOrder)theEObject;
+				T result = caseNutritionOrder(nutritionOrder);
+				if (result == null) result = caseDomainResource(nutritionOrder);
+				if (result == null) result = caseResource(nutritionOrder);
+				if (result == null) result = caseBase(nutritionOrder);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.NUTRITION_ORDER_ADDITIVE: {
+				NutritionOrderAdditive nutritionOrderAdditive = (NutritionOrderAdditive)theEObject;
+				T result = caseNutritionOrderAdditive(nutritionOrderAdditive);
+				if (result == null) result = caseBackboneElement(nutritionOrderAdditive);
+				if (result == null) result = caseElement(nutritionOrderAdditive);
+				if (result == null) result = caseBase(nutritionOrderAdditive);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.NUTRITION_ORDER_ADMINISTRATION: {
+				NutritionOrderAdministration nutritionOrderAdministration = (NutritionOrderAdministration)theEObject;
+				T result = caseNutritionOrderAdministration(nutritionOrderAdministration);
+				if (result == null) result = caseBackboneElement(nutritionOrderAdministration);
+				if (result == null) result = caseElement(nutritionOrderAdministration);
+				if (result == null) result = caseBase(nutritionOrderAdministration);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.NUTRITION_ORDER_ENTERAL_FORMULA: {
+				NutritionOrderEnteralFormula nutritionOrderEnteralFormula = (NutritionOrderEnteralFormula)theEObject;
+				T result = caseNutritionOrderEnteralFormula(nutritionOrderEnteralFormula);
+				if (result == null) result = caseBackboneElement(nutritionOrderEnteralFormula);
+				if (result == null) result = caseElement(nutritionOrderEnteralFormula);
+				if (result == null) result = caseBase(nutritionOrderEnteralFormula);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.NUTRITION_ORDER_NUTRIENT: {
+				NutritionOrderNutrient nutritionOrderNutrient = (NutritionOrderNutrient)theEObject;
+				T result = caseNutritionOrderNutrient(nutritionOrderNutrient);
+				if (result == null) result = caseBackboneElement(nutritionOrderNutrient);
+				if (result == null) result = caseElement(nutritionOrderNutrient);
+				if (result == null) result = caseBase(nutritionOrderNutrient);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.NUTRITION_ORDER_ORAL_DIET: {
+				NutritionOrderOralDiet nutritionOrderOralDiet = (NutritionOrderOralDiet)theEObject;
+				T result = caseNutritionOrderOralDiet(nutritionOrderOralDiet);
+				if (result == null) result = caseBackboneElement(nutritionOrderOralDiet);
+				if (result == null) result = caseElement(nutritionOrderOralDiet);
+				if (result == null) result = caseBase(nutritionOrderOralDiet);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.NUTRITION_ORDER_SCHEDULE: {
+				NutritionOrderSchedule nutritionOrderSchedule = (NutritionOrderSchedule)theEObject;
+				T result = caseNutritionOrderSchedule(nutritionOrderSchedule);
+				if (result == null) result = caseBackboneElement(nutritionOrderSchedule);
+				if (result == null) result = caseElement(nutritionOrderSchedule);
+				if (result == null) result = caseBase(nutritionOrderSchedule);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.NUTRITION_ORDER_SCHEDULE1: {
+				NutritionOrderSchedule1 nutritionOrderSchedule1 = (NutritionOrderSchedule1)theEObject;
+				T result = caseNutritionOrderSchedule1(nutritionOrderSchedule1);
+				if (result == null) result = caseBackboneElement(nutritionOrderSchedule1);
+				if (result == null) result = caseElement(nutritionOrderSchedule1);
+				if (result == null) result = caseBase(nutritionOrderSchedule1);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.NUTRITION_ORDER_SCHEDULE2: {
+				NutritionOrderSchedule2 nutritionOrderSchedule2 = (NutritionOrderSchedule2)theEObject;
+				T result = caseNutritionOrderSchedule2(nutritionOrderSchedule2);
+				if (result == null) result = caseBackboneElement(nutritionOrderSchedule2);
+				if (result == null) result = caseElement(nutritionOrderSchedule2);
+				if (result == null) result = caseBase(nutritionOrderSchedule2);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.NUTRITION_ORDER_SUPPLEMENT: {
+				NutritionOrderSupplement nutritionOrderSupplement = (NutritionOrderSupplement)theEObject;
+				T result = caseNutritionOrderSupplement(nutritionOrderSupplement);
+				if (result == null) result = caseBackboneElement(nutritionOrderSupplement);
+				if (result == null) result = caseElement(nutritionOrderSupplement);
+				if (result == null) result = caseBase(nutritionOrderSupplement);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.NUTRITION_ORDER_TEXTURE: {
+				NutritionOrderTexture nutritionOrderTexture = (NutritionOrderTexture)theEObject;
+				T result = caseNutritionOrderTexture(nutritionOrderTexture);
+				if (result == null) result = caseBackboneElement(nutritionOrderTexture);
+				if (result == null) result = caseElement(nutritionOrderTexture);
+				if (result == null) result = caseBase(nutritionOrderTexture);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.NUTRITION_PRODUCT: {
+				NutritionProduct nutritionProduct = (NutritionProduct)theEObject;
+				T result = caseNutritionProduct(nutritionProduct);
+				if (result == null) result = caseDomainResource(nutritionProduct);
+				if (result == null) result = caseResource(nutritionProduct);
+				if (result == null) result = caseBase(nutritionProduct);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.NUTRITION_PRODUCT_CHARACTERISTIC: {
+				NutritionProductCharacteristic nutritionProductCharacteristic = (NutritionProductCharacteristic)theEObject;
+				T result = caseNutritionProductCharacteristic(nutritionProductCharacteristic);
+				if (result == null) result = caseBackboneElement(nutritionProductCharacteristic);
+				if (result == null) result = caseElement(nutritionProductCharacteristic);
+				if (result == null) result = caseBase(nutritionProductCharacteristic);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.NUTRITION_PRODUCT_INGREDIENT: {
+				NutritionProductIngredient nutritionProductIngredient = (NutritionProductIngredient)theEObject;
+				T result = caseNutritionProductIngredient(nutritionProductIngredient);
+				if (result == null) result = caseBackboneElement(nutritionProductIngredient);
+				if (result == null) result = caseElement(nutritionProductIngredient);
+				if (result == null) result = caseBase(nutritionProductIngredient);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.NUTRITION_PRODUCT_INSTANCE: {
+				NutritionProductInstance nutritionProductInstance = (NutritionProductInstance)theEObject;
+				T result = caseNutritionProductInstance(nutritionProductInstance);
+				if (result == null) result = caseBackboneElement(nutritionProductInstance);
+				if (result == null) result = caseElement(nutritionProductInstance);
+				if (result == null) result = caseBase(nutritionProductInstance);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.NUTRITION_PRODUCT_NUTRIENT: {
+				NutritionProductNutrient nutritionProductNutrient = (NutritionProductNutrient)theEObject;
+				T result = caseNutritionProductNutrient(nutritionProductNutrient);
+				if (result == null) result = caseBackboneElement(nutritionProductNutrient);
+				if (result == null) result = caseElement(nutritionProductNutrient);
+				if (result == null) result = caseBase(nutritionProductNutrient);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.NUTRITION_PRODUCT_STATUS: {
+				NutritionProductStatus nutritionProductStatus = (NutritionProductStatus)theEObject;
+				T result = caseNutritionProductStatus(nutritionProductStatus);
+				if (result == null) result = caseElement(nutritionProductStatus);
+				if (result == null) result = caseBase(nutritionProductStatus);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.OBSERVATION: {
+				Observation observation = (Observation)theEObject;
+				T result = caseObservation(observation);
+				if (result == null) result = caseDomainResource(observation);
+				if (result == null) result = caseResource(observation);
+				if (result == null) result = caseBase(observation);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.OBSERVATION_COMPONENT: {
+				ObservationComponent observationComponent = (ObservationComponent)theEObject;
+				T result = caseObservationComponent(observationComponent);
+				if (result == null) result = caseBackboneElement(observationComponent);
+				if (result == null) result = caseElement(observationComponent);
+				if (result == null) result = caseBase(observationComponent);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.OBSERVATION_DATA_TYPE: {
+				ObservationDataType observationDataType = (ObservationDataType)theEObject;
+				T result = caseObservationDataType(observationDataType);
+				if (result == null) result = caseElement(observationDataType);
+				if (result == null) result = caseBase(observationDataType);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.OBSERVATION_DEFINITION: {
+				ObservationDefinition observationDefinition = (ObservationDefinition)theEObject;
+				T result = caseObservationDefinition(observationDefinition);
+				if (result == null) result = caseMetadataResource(observationDefinition);
+				if (result == null) result = caseCanonicalResource(observationDefinition);
+				if (result == null) result = caseDomainResource(observationDefinition);
+				if (result == null) result = caseResource(observationDefinition);
+				if (result == null) result = caseBase(observationDefinition);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.OBSERVATION_DEFINITION_COMPONENT: {
+				ObservationDefinitionComponent observationDefinitionComponent = (ObservationDefinitionComponent)theEObject;
+				T result = caseObservationDefinitionComponent(observationDefinitionComponent);
+				if (result == null) result = caseBackboneElement(observationDefinitionComponent);
+				if (result == null) result = caseElement(observationDefinitionComponent);
+				if (result == null) result = caseBase(observationDefinitionComponent);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.OBSERVATION_DEFINITION_QUALIFIED_VALUE: {
+				ObservationDefinitionQualifiedValue observationDefinitionQualifiedValue = (ObservationDefinitionQualifiedValue)theEObject;
+				T result = caseObservationDefinitionQualifiedValue(observationDefinitionQualifiedValue);
+				if (result == null) result = caseBackboneElement(observationDefinitionQualifiedValue);
+				if (result == null) result = caseElement(observationDefinitionQualifiedValue);
+				if (result == null) result = caseBase(observationDefinitionQualifiedValue);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.OBSERVATION_RANGE_CATEGORY: {
+				ObservationRangeCategory observationRangeCategory = (ObservationRangeCategory)theEObject;
+				T result = caseObservationRangeCategory(observationRangeCategory);
+				if (result == null) result = caseElement(observationRangeCategory);
+				if (result == null) result = caseBase(observationRangeCategory);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.OBSERVATION_REFERENCE_RANGE: {
+				ObservationReferenceRange observationReferenceRange = (ObservationReferenceRange)theEObject;
+				T result = caseObservationReferenceRange(observationReferenceRange);
+				if (result == null) result = caseBackboneElement(observationReferenceRange);
+				if (result == null) result = caseElement(observationReferenceRange);
+				if (result == null) result = caseBase(observationReferenceRange);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.OBSERVATION_STATUS: {
+				ObservationStatus observationStatus = (ObservationStatus)theEObject;
+				T result = caseObservationStatus(observationStatus);
+				if (result == null) result = caseElement(observationStatus);
+				if (result == null) result = caseBase(observationStatus);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.OBSERVATION_TRIGGERED_BY: {
+				ObservationTriggeredBy observationTriggeredBy = (ObservationTriggeredBy)theEObject;
+				T result = caseObservationTriggeredBy(observationTriggeredBy);
+				if (result == null) result = caseBackboneElement(observationTriggeredBy);
+				if (result == null) result = caseElement(observationTriggeredBy);
+				if (result == null) result = caseBase(observationTriggeredBy);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.OID: {
+				Oid oid = (Oid)theEObject;
+				T result = caseOid(oid);
+				if (result == null) result = caseElement(oid);
+				if (result == null) result = caseBase(oid);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.OPERATION_DEFINITION: {
+				OperationDefinition operationDefinition = (OperationDefinition)theEObject;
+				T result = caseOperationDefinition(operationDefinition);
+				if (result == null) result = caseCanonicalResource(operationDefinition);
+				if (result == null) result = caseDomainResource(operationDefinition);
+				if (result == null) result = caseResource(operationDefinition);
+				if (result == null) result = caseBase(operationDefinition);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.OPERATION_DEFINITION_BINDING: {
+				OperationDefinitionBinding operationDefinitionBinding = (OperationDefinitionBinding)theEObject;
+				T result = caseOperationDefinitionBinding(operationDefinitionBinding);
+				if (result == null) result = caseBackboneElement(operationDefinitionBinding);
+				if (result == null) result = caseElement(operationDefinitionBinding);
+				if (result == null) result = caseBase(operationDefinitionBinding);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.OPERATION_DEFINITION_OVERLOAD: {
+				OperationDefinitionOverload operationDefinitionOverload = (OperationDefinitionOverload)theEObject;
+				T result = caseOperationDefinitionOverload(operationDefinitionOverload);
+				if (result == null) result = caseBackboneElement(operationDefinitionOverload);
+				if (result == null) result = caseElement(operationDefinitionOverload);
+				if (result == null) result = caseBase(operationDefinitionOverload);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.OPERATION_DEFINITION_PARAMETER: {
+				OperationDefinitionParameter operationDefinitionParameter = (OperationDefinitionParameter)theEObject;
+				T result = caseOperationDefinitionParameter(operationDefinitionParameter);
+				if (result == null) result = caseBackboneElement(operationDefinitionParameter);
+				if (result == null) result = caseElement(operationDefinitionParameter);
+				if (result == null) result = caseBase(operationDefinitionParameter);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.OPERATION_DEFINITION_REFERENCED_FROM: {
+				OperationDefinitionReferencedFrom operationDefinitionReferencedFrom = (OperationDefinitionReferencedFrom)theEObject;
+				T result = caseOperationDefinitionReferencedFrom(operationDefinitionReferencedFrom);
+				if (result == null) result = caseBackboneElement(operationDefinitionReferencedFrom);
+				if (result == null) result = caseElement(operationDefinitionReferencedFrom);
+				if (result == null) result = caseBase(operationDefinitionReferencedFrom);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.OPERATION_KIND: {
+				OperationKind operationKind = (OperationKind)theEObject;
+				T result = caseOperationKind(operationKind);
+				if (result == null) result = caseElement(operationKind);
+				if (result == null) result = caseBase(operationKind);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.OPERATION_OUTCOME: {
+				OperationOutcome operationOutcome = (OperationOutcome)theEObject;
+				T result = caseOperationOutcome(operationOutcome);
+				if (result == null) result = caseDomainResource(operationOutcome);
+				if (result == null) result = caseResource(operationOutcome);
+				if (result == null) result = caseBase(operationOutcome);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.OPERATION_OUTCOME_CODES: {
+				OperationOutcomeCodes operationOutcomeCodes = (OperationOutcomeCodes)theEObject;
+				T result = caseOperationOutcomeCodes(operationOutcomeCodes);
+				if (result == null) result = caseElement(operationOutcomeCodes);
+				if (result == null) result = caseBase(operationOutcomeCodes);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.OPERATION_OUTCOME_ISSUE: {
+				OperationOutcomeIssue operationOutcomeIssue = (OperationOutcomeIssue)theEObject;
+				T result = caseOperationOutcomeIssue(operationOutcomeIssue);
+				if (result == null) result = caseBackboneElement(operationOutcomeIssue);
+				if (result == null) result = caseElement(operationOutcomeIssue);
+				if (result == null) result = caseBase(operationOutcomeIssue);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.OPERATION_PARAMETER_SCOPE: {
+				OperationParameterScope operationParameterScope = (OperationParameterScope)theEObject;
+				T result = caseOperationParameterScope(operationParameterScope);
+				if (result == null) result = caseElement(operationParameterScope);
+				if (result == null) result = caseBase(operationParameterScope);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.OPERATION_PARAMETER_USE: {
+				OperationParameterUse operationParameterUse = (OperationParameterUse)theEObject;
+				T result = caseOperationParameterUse(operationParameterUse);
+				if (result == null) result = caseElement(operationParameterUse);
+				if (result == null) result = caseBase(operationParameterUse);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.ORGANIZATION: {
+				Organization organization = (Organization)theEObject;
+				T result = caseOrganization(organization);
+				if (result == null) result = caseDomainResource(organization);
+				if (result == null) result = caseResource(organization);
+				if (result == null) result = caseBase(organization);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.ORGANIZATION_AFFILIATION: {
+				OrganizationAffiliation organizationAffiliation = (OrganizationAffiliation)theEObject;
+				T result = caseOrganizationAffiliation(organizationAffiliation);
+				if (result == null) result = caseDomainResource(organizationAffiliation);
+				if (result == null) result = caseResource(organizationAffiliation);
+				if (result == null) result = caseBase(organizationAffiliation);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.ORGANIZATION_QUALIFICATION: {
+				OrganizationQualification organizationQualification = (OrganizationQualification)theEObject;
+				T result = caseOrganizationQualification(organizationQualification);
+				if (result == null) result = caseBackboneElement(organizationQualification);
+				if (result == null) result = caseElement(organizationQualification);
+				if (result == null) result = caseBase(organizationQualification);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.ORIENTATION_TYPE: {
+				OrientationType orientationType = (OrientationType)theEObject;
+				T result = caseOrientationType(orientationType);
+				if (result == null) result = caseElement(orientationType);
+				if (result == null) result = caseBase(orientationType);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PACKAGED_PRODUCT_DEFINITION: {
+				PackagedProductDefinition packagedProductDefinition = (PackagedProductDefinition)theEObject;
+				T result = casePackagedProductDefinition(packagedProductDefinition);
+				if (result == null) result = caseDomainResource(packagedProductDefinition);
+				if (result == null) result = caseResource(packagedProductDefinition);
+				if (result == null) result = caseBase(packagedProductDefinition);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PACKAGED_PRODUCT_DEFINITION_CONTAINED_ITEM: {
+				PackagedProductDefinitionContainedItem packagedProductDefinitionContainedItem = (PackagedProductDefinitionContainedItem)theEObject;
+				T result = casePackagedProductDefinitionContainedItem(packagedProductDefinitionContainedItem);
+				if (result == null) result = caseBackboneElement(packagedProductDefinitionContainedItem);
+				if (result == null) result = caseElement(packagedProductDefinitionContainedItem);
+				if (result == null) result = caseBase(packagedProductDefinitionContainedItem);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PACKAGED_PRODUCT_DEFINITION_LEGAL_STATUS_OF_SUPPLY: {
+				PackagedProductDefinitionLegalStatusOfSupply packagedProductDefinitionLegalStatusOfSupply = (PackagedProductDefinitionLegalStatusOfSupply)theEObject;
+				T result = casePackagedProductDefinitionLegalStatusOfSupply(packagedProductDefinitionLegalStatusOfSupply);
+				if (result == null) result = caseBackboneElement(packagedProductDefinitionLegalStatusOfSupply);
+				if (result == null) result = caseElement(packagedProductDefinitionLegalStatusOfSupply);
+				if (result == null) result = caseBase(packagedProductDefinitionLegalStatusOfSupply);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PACKAGED_PRODUCT_DEFINITION_PACKAGING: {
+				PackagedProductDefinitionPackaging packagedProductDefinitionPackaging = (PackagedProductDefinitionPackaging)theEObject;
+				T result = casePackagedProductDefinitionPackaging(packagedProductDefinitionPackaging);
+				if (result == null) result = caseBackboneElement(packagedProductDefinitionPackaging);
+				if (result == null) result = caseElement(packagedProductDefinitionPackaging);
+				if (result == null) result = caseBase(packagedProductDefinitionPackaging);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PACKAGED_PRODUCT_DEFINITION_PROPERTY: {
+				PackagedProductDefinitionProperty packagedProductDefinitionProperty = (PackagedProductDefinitionProperty)theEObject;
+				T result = casePackagedProductDefinitionProperty(packagedProductDefinitionProperty);
+				if (result == null) result = caseBackboneElement(packagedProductDefinitionProperty);
+				if (result == null) result = caseElement(packagedProductDefinitionProperty);
+				if (result == null) result = caseBase(packagedProductDefinitionProperty);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PARAMETER_DEFINITION: {
+				ParameterDefinition parameterDefinition = (ParameterDefinition)theEObject;
+				T result = caseParameterDefinition(parameterDefinition);
+				if (result == null) result = caseDataType(parameterDefinition);
+				if (result == null) result = caseElement(parameterDefinition);
+				if (result == null) result = caseBase(parameterDefinition);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PARAMETERS: {
+				Parameters parameters = (Parameters)theEObject;
+				T result = caseParameters(parameters);
+				if (result == null) result = caseResource(parameters);
+				if (result == null) result = caseBase(parameters);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PARAMETERS_PARAMETER: {
+				ParametersParameter parametersParameter = (ParametersParameter)theEObject;
+				T result = caseParametersParameter(parametersParameter);
+				if (result == null) result = caseBackboneElement(parametersParameter);
+				if (result == null) result = caseElement(parametersParameter);
+				if (result == null) result = caseBase(parametersParameter);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PARTICIPANT_RESOURCE_TYPES: {
+				ParticipantResourceTypes participantResourceTypes = (ParticipantResourceTypes)theEObject;
+				T result = caseParticipantResourceTypes(participantResourceTypes);
+				if (result == null) result = caseElement(participantResourceTypes);
+				if (result == null) result = caseBase(participantResourceTypes);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PARTICIPATION_STATUS: {
+				ParticipationStatus participationStatus = (ParticipationStatus)theEObject;
+				T result = caseParticipationStatus(participationStatus);
+				if (result == null) result = caseElement(participationStatus);
+				if (result == null) result = caseBase(participationStatus);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PATIENT: {
+				Patient patient = (Patient)theEObject;
+				T result = casePatient(patient);
+				if (result == null) result = caseDomainResource(patient);
+				if (result == null) result = caseResource(patient);
+				if (result == null) result = caseBase(patient);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PATIENT_COMMUNICATION: {
+				PatientCommunication patientCommunication = (PatientCommunication)theEObject;
+				T result = casePatientCommunication(patientCommunication);
+				if (result == null) result = caseBackboneElement(patientCommunication);
+				if (result == null) result = caseElement(patientCommunication);
+				if (result == null) result = caseBase(patientCommunication);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PATIENT_CONTACT: {
+				PatientContact patientContact = (PatientContact)theEObject;
+				T result = casePatientContact(patientContact);
+				if (result == null) result = caseBackboneElement(patientContact);
+				if (result == null) result = caseElement(patientContact);
+				if (result == null) result = caseBase(patientContact);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PATIENT_LINK: {
+				PatientLink patientLink = (PatientLink)theEObject;
+				T result = casePatientLink(patientLink);
+				if (result == null) result = caseBackboneElement(patientLink);
+				if (result == null) result = caseElement(patientLink);
+				if (result == null) result = caseBase(patientLink);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PAYMENT_NOTICE: {
+				PaymentNotice paymentNotice = (PaymentNotice)theEObject;
+				T result = casePaymentNotice(paymentNotice);
+				if (result == null) result = caseDomainResource(paymentNotice);
+				if (result == null) result = caseResource(paymentNotice);
+				if (result == null) result = caseBase(paymentNotice);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PAYMENT_OUTCOME: {
+				PaymentOutcome paymentOutcome = (PaymentOutcome)theEObject;
+				T result = casePaymentOutcome(paymentOutcome);
+				if (result == null) result = caseElement(paymentOutcome);
+				if (result == null) result = caseBase(paymentOutcome);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PAYMENT_RECONCILIATION: {
+				PaymentReconciliation paymentReconciliation = (PaymentReconciliation)theEObject;
+				T result = casePaymentReconciliation(paymentReconciliation);
+				if (result == null) result = caseDomainResource(paymentReconciliation);
+				if (result == null) result = caseResource(paymentReconciliation);
+				if (result == null) result = caseBase(paymentReconciliation);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PAYMENT_RECONCILIATION_ALLOCATION: {
+				PaymentReconciliationAllocation paymentReconciliationAllocation = (PaymentReconciliationAllocation)theEObject;
+				T result = casePaymentReconciliationAllocation(paymentReconciliationAllocation);
+				if (result == null) result = caseBackboneElement(paymentReconciliationAllocation);
+				if (result == null) result = caseElement(paymentReconciliationAllocation);
+				if (result == null) result = caseBase(paymentReconciliationAllocation);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PAYMENT_RECONCILIATION_PROCESS_NOTE: {
+				PaymentReconciliationProcessNote paymentReconciliationProcessNote = (PaymentReconciliationProcessNote)theEObject;
+				T result = casePaymentReconciliationProcessNote(paymentReconciliationProcessNote);
+				if (result == null) result = caseBackboneElement(paymentReconciliationProcessNote);
+				if (result == null) result = caseElement(paymentReconciliationProcessNote);
+				if (result == null) result = caseBase(paymentReconciliationProcessNote);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PERIOD: {
+				Period period = (Period)theEObject;
+				T result = casePeriod(period);
+				if (result == null) result = caseDataType(period);
+				if (result == null) result = caseElement(period);
+				if (result == null) result = caseBase(period);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PERMISSION: {
+				Permission permission = (Permission)theEObject;
+				T result = casePermission(permission);
+				if (result == null) result = caseDomainResource(permission);
+				if (result == null) result = caseResource(permission);
+				if (result == null) result = caseBase(permission);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PERMISSION_ACTIVITY: {
+				PermissionActivity permissionActivity = (PermissionActivity)theEObject;
+				T result = casePermissionActivity(permissionActivity);
+				if (result == null) result = caseBackboneElement(permissionActivity);
+				if (result == null) result = caseElement(permissionActivity);
+				if (result == null) result = caseBase(permissionActivity);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PERMISSION_DATA: {
+				PermissionData permissionData = (PermissionData)theEObject;
+				T result = casePermissionData(permissionData);
+				if (result == null) result = caseBackboneElement(permissionData);
+				if (result == null) result = caseElement(permissionData);
+				if (result == null) result = caseBase(permissionData);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PERMISSION_JUSTIFICATION: {
+				PermissionJustification permissionJustification = (PermissionJustification)theEObject;
+				T result = casePermissionJustification(permissionJustification);
+				if (result == null) result = caseBackboneElement(permissionJustification);
+				if (result == null) result = caseElement(permissionJustification);
+				if (result == null) result = caseBase(permissionJustification);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PERMISSION_RESOURCE: {
+				PermissionResource permissionResource = (PermissionResource)theEObject;
+				T result = casePermissionResource(permissionResource);
+				if (result == null) result = caseBackboneElement(permissionResource);
+				if (result == null) result = caseElement(permissionResource);
+				if (result == null) result = caseBase(permissionResource);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PERMISSION_RULE: {
+				PermissionRule permissionRule = (PermissionRule)theEObject;
+				T result = casePermissionRule(permissionRule);
+				if (result == null) result = caseBackboneElement(permissionRule);
+				if (result == null) result = caseElement(permissionRule);
+				if (result == null) result = caseBase(permissionRule);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PERMISSION_RULE_COMBINING: {
+				PermissionRuleCombining permissionRuleCombining = (PermissionRuleCombining)theEObject;
+				T result = casePermissionRuleCombining(permissionRuleCombining);
+				if (result == null) result = caseElement(permissionRuleCombining);
+				if (result == null) result = caseBase(permissionRuleCombining);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PERMISSION_STATUS: {
+				PermissionStatus permissionStatus = (PermissionStatus)theEObject;
+				T result = casePermissionStatus(permissionStatus);
+				if (result == null) result = caseElement(permissionStatus);
+				if (result == null) result = caseBase(permissionStatus);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PERSON: {
+				Person person = (Person)theEObject;
+				T result = casePerson(person);
+				if (result == null) result = caseDomainResource(person);
+				if (result == null) result = caseResource(person);
+				if (result == null) result = caseBase(person);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PERSON_COMMUNICATION: {
+				PersonCommunication personCommunication = (PersonCommunication)theEObject;
+				T result = casePersonCommunication(personCommunication);
+				if (result == null) result = caseBackboneElement(personCommunication);
+				if (result == null) result = caseElement(personCommunication);
+				if (result == null) result = caseBase(personCommunication);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PERSON_LINK: {
+				PersonLink personLink = (PersonLink)theEObject;
+				T result = casePersonLink(personLink);
+				if (result == null) result = caseBackboneElement(personLink);
+				if (result == null) result = caseElement(personLink);
+				if (result == null) result = caseBase(personLink);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PLAN_DEFINITION: {
+				PlanDefinition planDefinition = (PlanDefinition)theEObject;
+				T result = casePlanDefinition(planDefinition);
+				if (result == null) result = caseMetadataResource(planDefinition);
+				if (result == null) result = caseCanonicalResource(planDefinition);
+				if (result == null) result = caseDomainResource(planDefinition);
+				if (result == null) result = caseResource(planDefinition);
+				if (result == null) result = caseBase(planDefinition);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PLAN_DEFINITION_ACTION: {
+				PlanDefinitionAction planDefinitionAction = (PlanDefinitionAction)theEObject;
+				T result = casePlanDefinitionAction(planDefinitionAction);
+				if (result == null) result = caseBackboneElement(planDefinitionAction);
+				if (result == null) result = caseElement(planDefinitionAction);
+				if (result == null) result = caseBase(planDefinitionAction);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PLAN_DEFINITION_ACTOR: {
+				PlanDefinitionActor planDefinitionActor = (PlanDefinitionActor)theEObject;
+				T result = casePlanDefinitionActor(planDefinitionActor);
+				if (result == null) result = caseBackboneElement(planDefinitionActor);
+				if (result == null) result = caseElement(planDefinitionActor);
+				if (result == null) result = caseBase(planDefinitionActor);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PLAN_DEFINITION_CONDITION: {
+				PlanDefinitionCondition planDefinitionCondition = (PlanDefinitionCondition)theEObject;
+				T result = casePlanDefinitionCondition(planDefinitionCondition);
+				if (result == null) result = caseBackboneElement(planDefinitionCondition);
+				if (result == null) result = caseElement(planDefinitionCondition);
+				if (result == null) result = caseBase(planDefinitionCondition);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PLAN_DEFINITION_DYNAMIC_VALUE: {
+				PlanDefinitionDynamicValue planDefinitionDynamicValue = (PlanDefinitionDynamicValue)theEObject;
+				T result = casePlanDefinitionDynamicValue(planDefinitionDynamicValue);
+				if (result == null) result = caseBackboneElement(planDefinitionDynamicValue);
+				if (result == null) result = caseElement(planDefinitionDynamicValue);
+				if (result == null) result = caseBase(planDefinitionDynamicValue);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PLAN_DEFINITION_GOAL: {
+				PlanDefinitionGoal planDefinitionGoal = (PlanDefinitionGoal)theEObject;
+				T result = casePlanDefinitionGoal(planDefinitionGoal);
+				if (result == null) result = caseBackboneElement(planDefinitionGoal);
+				if (result == null) result = caseElement(planDefinitionGoal);
+				if (result == null) result = caseBase(planDefinitionGoal);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PLAN_DEFINITION_INPUT: {
+				PlanDefinitionInput planDefinitionInput = (PlanDefinitionInput)theEObject;
+				T result = casePlanDefinitionInput(planDefinitionInput);
+				if (result == null) result = caseBackboneElement(planDefinitionInput);
+				if (result == null) result = caseElement(planDefinitionInput);
+				if (result == null) result = caseBase(planDefinitionInput);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PLAN_DEFINITION_OPTION: {
+				PlanDefinitionOption planDefinitionOption = (PlanDefinitionOption)theEObject;
+				T result = casePlanDefinitionOption(planDefinitionOption);
+				if (result == null) result = caseBackboneElement(planDefinitionOption);
+				if (result == null) result = caseElement(planDefinitionOption);
+				if (result == null) result = caseBase(planDefinitionOption);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PLAN_DEFINITION_OUTPUT: {
+				PlanDefinitionOutput planDefinitionOutput = (PlanDefinitionOutput)theEObject;
+				T result = casePlanDefinitionOutput(planDefinitionOutput);
+				if (result == null) result = caseBackboneElement(planDefinitionOutput);
+				if (result == null) result = caseElement(planDefinitionOutput);
+				if (result == null) result = caseBase(planDefinitionOutput);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PLAN_DEFINITION_PARTICIPANT: {
+				PlanDefinitionParticipant planDefinitionParticipant = (PlanDefinitionParticipant)theEObject;
+				T result = casePlanDefinitionParticipant(planDefinitionParticipant);
+				if (result == null) result = caseBackboneElement(planDefinitionParticipant);
+				if (result == null) result = caseElement(planDefinitionParticipant);
+				if (result == null) result = caseBase(planDefinitionParticipant);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PLAN_DEFINITION_RELATED_ACTION: {
+				PlanDefinitionRelatedAction planDefinitionRelatedAction = (PlanDefinitionRelatedAction)theEObject;
+				T result = casePlanDefinitionRelatedAction(planDefinitionRelatedAction);
+				if (result == null) result = caseBackboneElement(planDefinitionRelatedAction);
+				if (result == null) result = caseElement(planDefinitionRelatedAction);
+				if (result == null) result = caseBase(planDefinitionRelatedAction);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PLAN_DEFINITION_TARGET: {
+				PlanDefinitionTarget planDefinitionTarget = (PlanDefinitionTarget)theEObject;
+				T result = casePlanDefinitionTarget(planDefinitionTarget);
+				if (result == null) result = caseBackboneElement(planDefinitionTarget);
+				if (result == null) result = caseElement(planDefinitionTarget);
+				if (result == null) result = caseBase(planDefinitionTarget);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.POSITIVE_INT: {
+				PositiveInt positiveInt = (PositiveInt)theEObject;
+				T result = casePositiveInt(positiveInt);
+				if (result == null) result = caseElement(positiveInt);
+				if (result == null) result = caseBase(positiveInt);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PRACTITIONER: {
+				Practitioner practitioner = (Practitioner)theEObject;
+				T result = casePractitioner(practitioner);
+				if (result == null) result = caseDomainResource(practitioner);
+				if (result == null) result = caseResource(practitioner);
+				if (result == null) result = caseBase(practitioner);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PRACTITIONER_COMMUNICATION: {
+				PractitionerCommunication practitionerCommunication = (PractitionerCommunication)theEObject;
+				T result = casePractitionerCommunication(practitionerCommunication);
+				if (result == null) result = caseBackboneElement(practitionerCommunication);
+				if (result == null) result = caseElement(practitionerCommunication);
+				if (result == null) result = caseBase(practitionerCommunication);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PRACTITIONER_QUALIFICATION: {
+				PractitionerQualification practitionerQualification = (PractitionerQualification)theEObject;
+				T result = casePractitionerQualification(practitionerQualification);
+				if (result == null) result = caseBackboneElement(practitionerQualification);
+				if (result == null) result = caseElement(practitionerQualification);
+				if (result == null) result = caseBase(practitionerQualification);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PRACTITIONER_ROLE: {
+				PractitionerRole practitionerRole = (PractitionerRole)theEObject;
+				T result = casePractitionerRole(practitionerRole);
+				if (result == null) result = caseDomainResource(practitionerRole);
+				if (result == null) result = caseResource(practitionerRole);
+				if (result == null) result = caseBase(practitionerRole);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PRIMITIVE_TYPE: {
+				PrimitiveType primitiveType = (PrimitiveType)theEObject;
+				T result = casePrimitiveType(primitiveType);
+				if (result == null) result = caseDataType(primitiveType);
+				if (result == null) result = caseElement(primitiveType);
+				if (result == null) result = caseBase(primitiveType);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PROCEDURE: {
+				Procedure procedure = (Procedure)theEObject;
+				T result = caseProcedure(procedure);
+				if (result == null) result = caseDomainResource(procedure);
+				if (result == null) result = caseResource(procedure);
+				if (result == null) result = caseBase(procedure);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PROCEDURE_FOCAL_DEVICE: {
+				ProcedureFocalDevice procedureFocalDevice = (ProcedureFocalDevice)theEObject;
+				T result = caseProcedureFocalDevice(procedureFocalDevice);
+				if (result == null) result = caseBackboneElement(procedureFocalDevice);
+				if (result == null) result = caseElement(procedureFocalDevice);
+				if (result == null) result = caseBase(procedureFocalDevice);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PROCEDURE_PERFORMER: {
+				ProcedurePerformer procedurePerformer = (ProcedurePerformer)theEObject;
+				T result = caseProcedurePerformer(procedurePerformer);
+				if (result == null) result = caseBackboneElement(procedurePerformer);
+				if (result == null) result = caseElement(procedurePerformer);
+				if (result == null) result = caseBase(procedurePerformer);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PRODUCT_SHELF_LIFE: {
+				ProductShelfLife productShelfLife = (ProductShelfLife)theEObject;
+				T result = caseProductShelfLife(productShelfLife);
+				if (result == null) result = caseBackboneType(productShelfLife);
+				if (result == null) result = caseDataType(productShelfLife);
+				if (result == null) result = caseElement(productShelfLife);
+				if (result == null) result = caseBase(productShelfLife);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PROPERTY_REPRESENTATION: {
+				PropertyRepresentation propertyRepresentation = (PropertyRepresentation)theEObject;
+				T result = casePropertyRepresentation(propertyRepresentation);
+				if (result == null) result = caseElement(propertyRepresentation);
+				if (result == null) result = caseBase(propertyRepresentation);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PROPERTY_TYPE: {
+				PropertyType propertyType = (PropertyType)theEObject;
+				T result = casePropertyType(propertyType);
+				if (result == null) result = caseElement(propertyType);
+				if (result == null) result = caseBase(propertyType);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PROVENANCE: {
+				Provenance provenance = (Provenance)theEObject;
+				T result = caseProvenance(provenance);
+				if (result == null) result = caseDomainResource(provenance);
+				if (result == null) result = caseResource(provenance);
+				if (result == null) result = caseBase(provenance);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PROVENANCE_AGENT: {
+				ProvenanceAgent provenanceAgent = (ProvenanceAgent)theEObject;
+				T result = caseProvenanceAgent(provenanceAgent);
+				if (result == null) result = caseBackboneElement(provenanceAgent);
+				if (result == null) result = caseElement(provenanceAgent);
+				if (result == null) result = caseBase(provenanceAgent);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PROVENANCE_ENTITY: {
+				ProvenanceEntity provenanceEntity = (ProvenanceEntity)theEObject;
+				T result = caseProvenanceEntity(provenanceEntity);
+				if (result == null) result = caseBackboneElement(provenanceEntity);
+				if (result == null) result = caseElement(provenanceEntity);
+				if (result == null) result = caseBase(provenanceEntity);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PROVENANCE_ENTITY_ROLE: {
+				ProvenanceEntityRole provenanceEntityRole = (ProvenanceEntityRole)theEObject;
+				T result = caseProvenanceEntityRole(provenanceEntityRole);
+				if (result == null) result = caseElement(provenanceEntityRole);
+				if (result == null) result = caseBase(provenanceEntityRole);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.PUBLICATION_STATUS: {
+				PublicationStatus publicationStatus = (PublicationStatus)theEObject;
+				T result = casePublicationStatus(publicationStatus);
+				if (result == null) result = caseElement(publicationStatus);
+				if (result == null) result = caseBase(publicationStatus);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.QUANTITY: {
+				Quantity quantity = (Quantity)theEObject;
+				T result = caseQuantity(quantity);
+				if (result == null) result = caseDataType(quantity);
+				if (result == null) result = caseElement(quantity);
+				if (result == null) result = caseBase(quantity);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.QUANTITY_COMPARATOR: {
+				QuantityComparator quantityComparator = (QuantityComparator)theEObject;
+				T result = caseQuantityComparator(quantityComparator);
+				if (result == null) result = caseElement(quantityComparator);
+				if (result == null) result = caseBase(quantityComparator);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.QUESTIONNAIRE: {
+				Questionnaire questionnaire = (Questionnaire)theEObject;
+				T result = caseQuestionnaire(questionnaire);
+				if (result == null) result = caseMetadataResource(questionnaire);
+				if (result == null) result = caseCanonicalResource(questionnaire);
+				if (result == null) result = caseDomainResource(questionnaire);
+				if (result == null) result = caseResource(questionnaire);
+				if (result == null) result = caseBase(questionnaire);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.QUESTIONNAIRE_ANSWER_CONSTRAINT: {
+				QuestionnaireAnswerConstraint questionnaireAnswerConstraint = (QuestionnaireAnswerConstraint)theEObject;
+				T result = caseQuestionnaireAnswerConstraint(questionnaireAnswerConstraint);
+				if (result == null) result = caseElement(questionnaireAnswerConstraint);
+				if (result == null) result = caseBase(questionnaireAnswerConstraint);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.QUESTIONNAIRE_ANSWER_OPTION: {
+				QuestionnaireAnswerOption questionnaireAnswerOption = (QuestionnaireAnswerOption)theEObject;
+				T result = caseQuestionnaireAnswerOption(questionnaireAnswerOption);
+				if (result == null) result = caseBackboneElement(questionnaireAnswerOption);
+				if (result == null) result = caseElement(questionnaireAnswerOption);
+				if (result == null) result = caseBase(questionnaireAnswerOption);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.QUESTIONNAIRE_ENABLE_WHEN: {
+				QuestionnaireEnableWhen questionnaireEnableWhen = (QuestionnaireEnableWhen)theEObject;
+				T result = caseQuestionnaireEnableWhen(questionnaireEnableWhen);
+				if (result == null) result = caseBackboneElement(questionnaireEnableWhen);
+				if (result == null) result = caseElement(questionnaireEnableWhen);
+				if (result == null) result = caseBase(questionnaireEnableWhen);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.QUESTIONNAIRE_INITIAL: {
+				QuestionnaireInitial questionnaireInitial = (QuestionnaireInitial)theEObject;
+				T result = caseQuestionnaireInitial(questionnaireInitial);
+				if (result == null) result = caseBackboneElement(questionnaireInitial);
+				if (result == null) result = caseElement(questionnaireInitial);
+				if (result == null) result = caseBase(questionnaireInitial);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.QUESTIONNAIRE_ITEM: {
+				QuestionnaireItem questionnaireItem = (QuestionnaireItem)theEObject;
+				T result = caseQuestionnaireItem(questionnaireItem);
+				if (result == null) result = caseBackboneElement(questionnaireItem);
+				if (result == null) result = caseElement(questionnaireItem);
+				if (result == null) result = caseBase(questionnaireItem);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.QUESTIONNAIRE_ITEM_DISABLED_DISPLAY: {
+				QuestionnaireItemDisabledDisplay questionnaireItemDisabledDisplay = (QuestionnaireItemDisabledDisplay)theEObject;
+				T result = caseQuestionnaireItemDisabledDisplay(questionnaireItemDisabledDisplay);
+				if (result == null) result = caseElement(questionnaireItemDisabledDisplay);
+				if (result == null) result = caseBase(questionnaireItemDisabledDisplay);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.QUESTIONNAIRE_ITEM_OPERATOR: {
+				QuestionnaireItemOperator questionnaireItemOperator = (QuestionnaireItemOperator)theEObject;
+				T result = caseQuestionnaireItemOperator(questionnaireItemOperator);
+				if (result == null) result = caseElement(questionnaireItemOperator);
+				if (result == null) result = caseBase(questionnaireItemOperator);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.QUESTIONNAIRE_ITEM_TYPE: {
+				QuestionnaireItemType questionnaireItemType = (QuestionnaireItemType)theEObject;
+				T result = caseQuestionnaireItemType(questionnaireItemType);
+				if (result == null) result = caseElement(questionnaireItemType);
+				if (result == null) result = caseBase(questionnaireItemType);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.QUESTIONNAIRE_RESPONSE: {
+				QuestionnaireResponse questionnaireResponse = (QuestionnaireResponse)theEObject;
+				T result = caseQuestionnaireResponse(questionnaireResponse);
+				if (result == null) result = caseDomainResource(questionnaireResponse);
+				if (result == null) result = caseResource(questionnaireResponse);
+				if (result == null) result = caseBase(questionnaireResponse);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.QUESTIONNAIRE_RESPONSE_ANSWER: {
+				QuestionnaireResponseAnswer questionnaireResponseAnswer = (QuestionnaireResponseAnswer)theEObject;
+				T result = caseQuestionnaireResponseAnswer(questionnaireResponseAnswer);
+				if (result == null) result = caseBackboneElement(questionnaireResponseAnswer);
+				if (result == null) result = caseElement(questionnaireResponseAnswer);
+				if (result == null) result = caseBase(questionnaireResponseAnswer);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.QUESTIONNAIRE_RESPONSE_ITEM: {
+				QuestionnaireResponseItem questionnaireResponseItem = (QuestionnaireResponseItem)theEObject;
+				T result = caseQuestionnaireResponseItem(questionnaireResponseItem);
+				if (result == null) result = caseBackboneElement(questionnaireResponseItem);
+				if (result == null) result = caseElement(questionnaireResponseItem);
+				if (result == null) result = caseBase(questionnaireResponseItem);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.QUESTIONNAIRE_RESPONSE_STATUS: {
+				QuestionnaireResponseStatus questionnaireResponseStatus = (QuestionnaireResponseStatus)theEObject;
+				T result = caseQuestionnaireResponseStatus(questionnaireResponseStatus);
+				if (result == null) result = caseElement(questionnaireResponseStatus);
+				if (result == null) result = caseBase(questionnaireResponseStatus);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.RANGE: {
+				Range range = (Range)theEObject;
+				T result = caseRange(range);
+				if (result == null) result = caseDataType(range);
+				if (result == null) result = caseElement(range);
+				if (result == null) result = caseBase(range);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.RATIO: {
+				Ratio ratio = (Ratio)theEObject;
+				T result = caseRatio(ratio);
+				if (result == null) result = caseDataType(ratio);
+				if (result == null) result = caseElement(ratio);
+				if (result == null) result = caseBase(ratio);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.RATIO_RANGE: {
+				RatioRange ratioRange = (RatioRange)theEObject;
+				T result = caseRatioRange(ratioRange);
+				if (result == null) result = caseDataType(ratioRange);
+				if (result == null) result = caseElement(ratioRange);
+				if (result == null) result = caseBase(ratioRange);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.REFERENCE: {
+				Reference reference = (Reference)theEObject;
+				T result = caseReference(reference);
+				if (result == null) result = caseDataType(reference);
+				if (result == null) result = caseElement(reference);
+				if (result == null) result = caseBase(reference);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.REFERENCE_HANDLING_POLICY: {
+				ReferenceHandlingPolicy referenceHandlingPolicy = (ReferenceHandlingPolicy)theEObject;
+				T result = caseReferenceHandlingPolicy(referenceHandlingPolicy);
+				if (result == null) result = caseElement(referenceHandlingPolicy);
+				if (result == null) result = caseBase(referenceHandlingPolicy);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.REFERENCE_VERSION_RULES: {
+				ReferenceVersionRules referenceVersionRules = (ReferenceVersionRules)theEObject;
+				T result = caseReferenceVersionRules(referenceVersionRules);
+				if (result == null) result = caseElement(referenceVersionRules);
+				if (result == null) result = caseBase(referenceVersionRules);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.REGULATED_AUTHORIZATION: {
+				RegulatedAuthorization regulatedAuthorization = (RegulatedAuthorization)theEObject;
+				T result = caseRegulatedAuthorization(regulatedAuthorization);
+				if (result == null) result = caseDomainResource(regulatedAuthorization);
+				if (result == null) result = caseResource(regulatedAuthorization);
+				if (result == null) result = caseBase(regulatedAuthorization);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.REGULATED_AUTHORIZATION_CASE: {
+				RegulatedAuthorizationCase regulatedAuthorizationCase = (RegulatedAuthorizationCase)theEObject;
+				T result = caseRegulatedAuthorizationCase(regulatedAuthorizationCase);
+				if (result == null) result = caseBackboneElement(regulatedAuthorizationCase);
+				if (result == null) result = caseElement(regulatedAuthorizationCase);
+				if (result == null) result = caseBase(regulatedAuthorizationCase);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.RELATED_ARTIFACT: {
+				RelatedArtifact relatedArtifact = (RelatedArtifact)theEObject;
+				T result = caseRelatedArtifact(relatedArtifact);
+				if (result == null) result = caseDataType(relatedArtifact);
+				if (result == null) result = caseElement(relatedArtifact);
+				if (result == null) result = caseBase(relatedArtifact);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.RELATED_ARTIFACT_TYPE: {
+				RelatedArtifactType relatedArtifactType = (RelatedArtifactType)theEObject;
+				T result = caseRelatedArtifactType(relatedArtifactType);
+				if (result == null) result = caseElement(relatedArtifactType);
+				if (result == null) result = caseBase(relatedArtifactType);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.RELATED_ARTIFACT_TYPE_EXPANDED: {
+				RelatedArtifactTypeExpanded relatedArtifactTypeExpanded = (RelatedArtifactTypeExpanded)theEObject;
+				T result = caseRelatedArtifactTypeExpanded(relatedArtifactTypeExpanded);
+				if (result == null) result = caseElement(relatedArtifactTypeExpanded);
+				if (result == null) result = caseBase(relatedArtifactTypeExpanded);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.RELATED_PERSON: {
+				RelatedPerson relatedPerson = (RelatedPerson)theEObject;
+				T result = caseRelatedPerson(relatedPerson);
+				if (result == null) result = caseDomainResource(relatedPerson);
+				if (result == null) result = caseResource(relatedPerson);
+				if (result == null) result = caseBase(relatedPerson);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.RELATED_PERSON_COMMUNICATION: {
+				RelatedPersonCommunication relatedPersonCommunication = (RelatedPersonCommunication)theEObject;
+				T result = caseRelatedPersonCommunication(relatedPersonCommunication);
+				if (result == null) result = caseBackboneElement(relatedPersonCommunication);
+				if (result == null) result = caseElement(relatedPersonCommunication);
+				if (result == null) result = caseBase(relatedPersonCommunication);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.REMITTANCE_OUTCOME: {
+				RemittanceOutcome remittanceOutcome = (RemittanceOutcome)theEObject;
+				T result = caseRemittanceOutcome(remittanceOutcome);
+				if (result == null) result = caseElement(remittanceOutcome);
+				if (result == null) result = caseBase(remittanceOutcome);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.REPORT_RELATIONSHIP_TYPE: {
+				ReportRelationshipType reportRelationshipType = (ReportRelationshipType)theEObject;
+				T result = caseReportRelationshipType(reportRelationshipType);
+				if (result == null) result = caseElement(reportRelationshipType);
+				if (result == null) result = caseBase(reportRelationshipType);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.REQUEST_INTENT: {
+				RequestIntent requestIntent = (RequestIntent)theEObject;
+				T result = caseRequestIntent(requestIntent);
+				if (result == null) result = caseElement(requestIntent);
+				if (result == null) result = caseBase(requestIntent);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.REQUEST_ORCHESTRATION: {
+				RequestOrchestration requestOrchestration = (RequestOrchestration)theEObject;
+				T result = caseRequestOrchestration(requestOrchestration);
+				if (result == null) result = caseDomainResource(requestOrchestration);
+				if (result == null) result = caseResource(requestOrchestration);
+				if (result == null) result = caseBase(requestOrchestration);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.REQUEST_ORCHESTRATION_ACTION: {
+				RequestOrchestrationAction requestOrchestrationAction = (RequestOrchestrationAction)theEObject;
+				T result = caseRequestOrchestrationAction(requestOrchestrationAction);
+				if (result == null) result = caseBackboneElement(requestOrchestrationAction);
+				if (result == null) result = caseElement(requestOrchestrationAction);
+				if (result == null) result = caseBase(requestOrchestrationAction);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.REQUEST_ORCHESTRATION_CONDITION: {
+				RequestOrchestrationCondition requestOrchestrationCondition = (RequestOrchestrationCondition)theEObject;
+				T result = caseRequestOrchestrationCondition(requestOrchestrationCondition);
+				if (result == null) result = caseBackboneElement(requestOrchestrationCondition);
+				if (result == null) result = caseElement(requestOrchestrationCondition);
+				if (result == null) result = caseBase(requestOrchestrationCondition);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.REQUEST_ORCHESTRATION_DYNAMIC_VALUE: {
+				RequestOrchestrationDynamicValue requestOrchestrationDynamicValue = (RequestOrchestrationDynamicValue)theEObject;
+				T result = caseRequestOrchestrationDynamicValue(requestOrchestrationDynamicValue);
+				if (result == null) result = caseBackboneElement(requestOrchestrationDynamicValue);
+				if (result == null) result = caseElement(requestOrchestrationDynamicValue);
+				if (result == null) result = caseBase(requestOrchestrationDynamicValue);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.REQUEST_ORCHESTRATION_INPUT: {
+				RequestOrchestrationInput requestOrchestrationInput = (RequestOrchestrationInput)theEObject;
+				T result = caseRequestOrchestrationInput(requestOrchestrationInput);
+				if (result == null) result = caseBackboneElement(requestOrchestrationInput);
+				if (result == null) result = caseElement(requestOrchestrationInput);
+				if (result == null) result = caseBase(requestOrchestrationInput);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.REQUEST_ORCHESTRATION_OUTPUT: {
+				RequestOrchestrationOutput requestOrchestrationOutput = (RequestOrchestrationOutput)theEObject;
+				T result = caseRequestOrchestrationOutput(requestOrchestrationOutput);
+				if (result == null) result = caseBackboneElement(requestOrchestrationOutput);
+				if (result == null) result = caseElement(requestOrchestrationOutput);
+				if (result == null) result = caseBase(requestOrchestrationOutput);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.REQUEST_ORCHESTRATION_PARTICIPANT: {
+				RequestOrchestrationParticipant requestOrchestrationParticipant = (RequestOrchestrationParticipant)theEObject;
+				T result = caseRequestOrchestrationParticipant(requestOrchestrationParticipant);
+				if (result == null) result = caseBackboneElement(requestOrchestrationParticipant);
+				if (result == null) result = caseElement(requestOrchestrationParticipant);
+				if (result == null) result = caseBase(requestOrchestrationParticipant);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.REQUEST_ORCHESTRATION_RELATED_ACTION: {
+				RequestOrchestrationRelatedAction requestOrchestrationRelatedAction = (RequestOrchestrationRelatedAction)theEObject;
+				T result = caseRequestOrchestrationRelatedAction(requestOrchestrationRelatedAction);
+				if (result == null) result = caseBackboneElement(requestOrchestrationRelatedAction);
+				if (result == null) result = caseElement(requestOrchestrationRelatedAction);
+				if (result == null) result = caseBase(requestOrchestrationRelatedAction);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.REQUEST_PRIORITY: {
+				RequestPriority requestPriority = (RequestPriority)theEObject;
+				T result = caseRequestPriority(requestPriority);
+				if (result == null) result = caseElement(requestPriority);
+				if (result == null) result = caseBase(requestPriority);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.REQUEST_RESOURCE_TYPES: {
+				RequestResourceTypes requestResourceTypes = (RequestResourceTypes)theEObject;
+				T result = caseRequestResourceTypes(requestResourceTypes);
+				if (result == null) result = caseElement(requestResourceTypes);
+				if (result == null) result = caseBase(requestResourceTypes);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.REQUEST_STATUS: {
+				RequestStatus requestStatus = (RequestStatus)theEObject;
+				T result = caseRequestStatus(requestStatus);
+				if (result == null) result = caseElement(requestStatus);
+				if (result == null) result = caseBase(requestStatus);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.REQUIREMENTS: {
+				Requirements requirements = (Requirements)theEObject;
+				T result = caseRequirements(requirements);
+				if (result == null) result = caseCanonicalResource(requirements);
+				if (result == null) result = caseDomainResource(requirements);
+				if (result == null) result = caseResource(requirements);
+				if (result == null) result = caseBase(requirements);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.REQUIREMENTS_STATEMENT: {
+				RequirementsStatement requirementsStatement = (RequirementsStatement)theEObject;
+				T result = caseRequirementsStatement(requirementsStatement);
+				if (result == null) result = caseBackboneElement(requirementsStatement);
+				if (result == null) result = caseElement(requirementsStatement);
+				if (result == null) result = caseBase(requirementsStatement);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.RESEARCH_STUDY: {
+				ResearchStudy researchStudy = (ResearchStudy)theEObject;
+				T result = caseResearchStudy(researchStudy);
+				if (result == null) result = caseDomainResource(researchStudy);
+				if (result == null) result = caseResource(researchStudy);
+				if (result == null) result = caseBase(researchStudy);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.RESEARCH_STUDY_ASSOCIATED_PARTY: {
+				ResearchStudyAssociatedParty researchStudyAssociatedParty = (ResearchStudyAssociatedParty)theEObject;
+				T result = caseResearchStudyAssociatedParty(researchStudyAssociatedParty);
+				if (result == null) result = caseBackboneElement(researchStudyAssociatedParty);
+				if (result == null) result = caseElement(researchStudyAssociatedParty);
+				if (result == null) result = caseBase(researchStudyAssociatedParty);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.RESEARCH_STUDY_COMPARISON_GROUP: {
+				ResearchStudyComparisonGroup researchStudyComparisonGroup = (ResearchStudyComparisonGroup)theEObject;
+				T result = caseResearchStudyComparisonGroup(researchStudyComparisonGroup);
+				if (result == null) result = caseBackboneElement(researchStudyComparisonGroup);
+				if (result == null) result = caseElement(researchStudyComparisonGroup);
+				if (result == null) result = caseBase(researchStudyComparisonGroup);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.RESEARCH_STUDY_LABEL: {
+				ResearchStudyLabel researchStudyLabel = (ResearchStudyLabel)theEObject;
+				T result = caseResearchStudyLabel(researchStudyLabel);
+				if (result == null) result = caseBackboneElement(researchStudyLabel);
+				if (result == null) result = caseElement(researchStudyLabel);
+				if (result == null) result = caseBase(researchStudyLabel);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.RESEARCH_STUDY_OBJECTIVE: {
+				ResearchStudyObjective researchStudyObjective = (ResearchStudyObjective)theEObject;
+				T result = caseResearchStudyObjective(researchStudyObjective);
+				if (result == null) result = caseBackboneElement(researchStudyObjective);
+				if (result == null) result = caseElement(researchStudyObjective);
+				if (result == null) result = caseBase(researchStudyObjective);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.RESEARCH_STUDY_OUTCOME_MEASURE: {
+				ResearchStudyOutcomeMeasure researchStudyOutcomeMeasure = (ResearchStudyOutcomeMeasure)theEObject;
+				T result = caseResearchStudyOutcomeMeasure(researchStudyOutcomeMeasure);
+				if (result == null) result = caseBackboneElement(researchStudyOutcomeMeasure);
+				if (result == null) result = caseElement(researchStudyOutcomeMeasure);
+				if (result == null) result = caseBase(researchStudyOutcomeMeasure);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.RESEARCH_STUDY_PROGRESS_STATUS: {
+				ResearchStudyProgressStatus researchStudyProgressStatus = (ResearchStudyProgressStatus)theEObject;
+				T result = caseResearchStudyProgressStatus(researchStudyProgressStatus);
+				if (result == null) result = caseBackboneElement(researchStudyProgressStatus);
+				if (result == null) result = caseElement(researchStudyProgressStatus);
+				if (result == null) result = caseBase(researchStudyProgressStatus);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.RESEARCH_STUDY_RECRUITMENT: {
+				ResearchStudyRecruitment researchStudyRecruitment = (ResearchStudyRecruitment)theEObject;
+				T result = caseResearchStudyRecruitment(researchStudyRecruitment);
+				if (result == null) result = caseBackboneElement(researchStudyRecruitment);
+				if (result == null) result = caseElement(researchStudyRecruitment);
+				if (result == null) result = caseBase(researchStudyRecruitment);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.RESEARCH_SUBJECT: {
+				ResearchSubject researchSubject = (ResearchSubject)theEObject;
+				T result = caseResearchSubject(researchSubject);
+				if (result == null) result = caseDomainResource(researchSubject);
+				if (result == null) result = caseResource(researchSubject);
+				if (result == null) result = caseBase(researchSubject);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.RESEARCH_SUBJECT_PROGRESS: {
+				ResearchSubjectProgress researchSubjectProgress = (ResearchSubjectProgress)theEObject;
+				T result = caseResearchSubjectProgress(researchSubjectProgress);
+				if (result == null) result = caseBackboneElement(researchSubjectProgress);
+				if (result == null) result = caseElement(researchSubjectProgress);
+				if (result == null) result = caseBase(researchSubjectProgress);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.RESOURCE: {
+				Resource resource = (Resource)theEObject;
+				T result = caseResource(resource);
+				if (result == null) result = caseBase(resource);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.RESOURCE_CONTAINER: {
+				ResourceContainer resourceContainer = (ResourceContainer)theEObject;
+				T result = caseResourceContainer(resourceContainer);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.RESOURCE_TYPE: {
+				ResourceType resourceType = (ResourceType)theEObject;
+				T result = caseResourceType(resourceType);
+				if (result == null) result = caseElement(resourceType);
+				if (result == null) result = caseBase(resourceType);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.RESOURCE_VERSION_POLICY: {
+				ResourceVersionPolicy resourceVersionPolicy = (ResourceVersionPolicy)theEObject;
+				T result = caseResourceVersionPolicy(resourceVersionPolicy);
+				if (result == null) result = caseElement(resourceVersionPolicy);
+				if (result == null) result = caseBase(resourceVersionPolicy);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.RESPONSE_TYPE: {
+				ResponseType responseType = (ResponseType)theEObject;
+				T result = caseResponseType(responseType);
+				if (result == null) result = caseElement(responseType);
+				if (result == null) result = caseBase(responseType);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.RESTFUL_CAPABILITY_MODE: {
+				RestfulCapabilityMode restfulCapabilityMode = (RestfulCapabilityMode)theEObject;
+				T result = caseRestfulCapabilityMode(restfulCapabilityMode);
+				if (result == null) result = caseElement(restfulCapabilityMode);
+				if (result == null) result = caseBase(restfulCapabilityMode);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.RISK_ASSESSMENT: {
+				RiskAssessment riskAssessment = (RiskAssessment)theEObject;
+				T result = caseRiskAssessment(riskAssessment);
+				if (result == null) result = caseDomainResource(riskAssessment);
+				if (result == null) result = caseResource(riskAssessment);
+				if (result == null) result = caseBase(riskAssessment);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.RISK_ASSESSMENT_PREDICTION: {
+				RiskAssessmentPrediction riskAssessmentPrediction = (RiskAssessmentPrediction)theEObject;
+				T result = caseRiskAssessmentPrediction(riskAssessmentPrediction);
+				if (result == null) result = caseBackboneElement(riskAssessmentPrediction);
+				if (result == null) result = caseElement(riskAssessmentPrediction);
+				if (result == null) result = caseBase(riskAssessmentPrediction);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SAMPLED_DATA: {
+				SampledData sampledData = (SampledData)theEObject;
+				T result = caseSampledData(sampledData);
+				if (result == null) result = caseDataType(sampledData);
+				if (result == null) result = caseElement(sampledData);
+				if (result == null) result = caseBase(sampledData);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SAMPLED_DATA_DATA_TYPE: {
+				SampledDataDataType sampledDataDataType = (SampledDataDataType)theEObject;
+				T result = caseSampledDataDataType(sampledDataDataType);
+				if (result == null) result = caseElement(sampledDataDataType);
+				if (result == null) result = caseBase(sampledDataDataType);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SCHEDULE: {
+				Schedule schedule = (Schedule)theEObject;
+				T result = caseSchedule(schedule);
+				if (result == null) result = caseDomainResource(schedule);
+				if (result == null) result = caseResource(schedule);
+				if (result == null) result = caseBase(schedule);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SEARCH_COMPARATOR: {
+				SearchComparator searchComparator = (SearchComparator)theEObject;
+				T result = caseSearchComparator(searchComparator);
+				if (result == null) result = caseElement(searchComparator);
+				if (result == null) result = caseBase(searchComparator);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SEARCH_ENTRY_MODE: {
+				SearchEntryMode searchEntryMode = (SearchEntryMode)theEObject;
+				T result = caseSearchEntryMode(searchEntryMode);
+				if (result == null) result = caseElement(searchEntryMode);
+				if (result == null) result = caseBase(searchEntryMode);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SEARCH_MODIFIER_CODE: {
+				SearchModifierCode searchModifierCode = (SearchModifierCode)theEObject;
+				T result = caseSearchModifierCode(searchModifierCode);
+				if (result == null) result = caseElement(searchModifierCode);
+				if (result == null) result = caseBase(searchModifierCode);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SEARCH_PARAMETER: {
+				SearchParameter searchParameter = (SearchParameter)theEObject;
+				T result = caseSearchParameter(searchParameter);
+				if (result == null) result = caseCanonicalResource(searchParameter);
+				if (result == null) result = caseDomainResource(searchParameter);
+				if (result == null) result = caseResource(searchParameter);
+				if (result == null) result = caseBase(searchParameter);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SEARCH_PARAMETER_COMPONENT: {
+				SearchParameterComponent searchParameterComponent = (SearchParameterComponent)theEObject;
+				T result = caseSearchParameterComponent(searchParameterComponent);
+				if (result == null) result = caseBackboneElement(searchParameterComponent);
+				if (result == null) result = caseElement(searchParameterComponent);
+				if (result == null) result = caseBase(searchParameterComponent);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SEARCH_PARAM_TYPE: {
+				SearchParamType searchParamType = (SearchParamType)theEObject;
+				T result = caseSearchParamType(searchParamType);
+				if (result == null) result = caseElement(searchParamType);
+				if (result == null) result = caseBase(searchParamType);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SEARCH_PROCESSING_MODE_TYPE: {
+				SearchProcessingModeType searchProcessingModeType = (SearchProcessingModeType)theEObject;
+				T result = caseSearchProcessingModeType(searchProcessingModeType);
+				if (result == null) result = caseElement(searchProcessingModeType);
+				if (result == null) result = caseBase(searchProcessingModeType);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SEQUENCE_TYPE: {
+				SequenceType sequenceType = (SequenceType)theEObject;
+				T result = caseSequenceType(sequenceType);
+				if (result == null) result = caseElement(sequenceType);
+				if (result == null) result = caseBase(sequenceType);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SERVICE_REQUEST: {
+				ServiceRequest serviceRequest = (ServiceRequest)theEObject;
+				T result = caseServiceRequest(serviceRequest);
+				if (result == null) result = caseDomainResource(serviceRequest);
+				if (result == null) result = caseResource(serviceRequest);
+				if (result == null) result = caseBase(serviceRequest);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SERVICE_REQUEST_ORDER_DETAIL: {
+				ServiceRequestOrderDetail serviceRequestOrderDetail = (ServiceRequestOrderDetail)theEObject;
+				T result = caseServiceRequestOrderDetail(serviceRequestOrderDetail);
+				if (result == null) result = caseBackboneElement(serviceRequestOrderDetail);
+				if (result == null) result = caseElement(serviceRequestOrderDetail);
+				if (result == null) result = caseBase(serviceRequestOrderDetail);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SERVICE_REQUEST_PARAMETER: {
+				ServiceRequestParameter serviceRequestParameter = (ServiceRequestParameter)theEObject;
+				T result = caseServiceRequestParameter(serviceRequestParameter);
+				if (result == null) result = caseBackboneElement(serviceRequestParameter);
+				if (result == null) result = caseElement(serviceRequestParameter);
+				if (result == null) result = caseBase(serviceRequestParameter);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SERVICE_REQUEST_PATIENT_INSTRUCTION: {
+				ServiceRequestPatientInstruction serviceRequestPatientInstruction = (ServiceRequestPatientInstruction)theEObject;
+				T result = caseServiceRequestPatientInstruction(serviceRequestPatientInstruction);
+				if (result == null) result = caseBackboneElement(serviceRequestPatientInstruction);
+				if (result == null) result = caseElement(serviceRequestPatientInstruction);
+				if (result == null) result = caseBase(serviceRequestPatientInstruction);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SIGNATURE: {
+				Signature signature = (Signature)theEObject;
+				T result = caseSignature(signature);
+				if (result == null) result = caseDataType(signature);
+				if (result == null) result = caseElement(signature);
+				if (result == null) result = caseBase(signature);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SLICING_RULES: {
+				SlicingRules slicingRules = (SlicingRules)theEObject;
+				T result = caseSlicingRules(slicingRules);
+				if (result == null) result = caseElement(slicingRules);
+				if (result == null) result = caseBase(slicingRules);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SLOT: {
+				Slot slot = (Slot)theEObject;
+				T result = caseSlot(slot);
+				if (result == null) result = caseDomainResource(slot);
+				if (result == null) result = caseResource(slot);
+				if (result == null) result = caseBase(slot);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SLOT_STATUS: {
+				SlotStatus slotStatus = (SlotStatus)theEObject;
+				T result = caseSlotStatus(slotStatus);
+				if (result == null) result = caseElement(slotStatus);
+				if (result == null) result = caseBase(slotStatus);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SORT_DIRECTION: {
+				SortDirection sortDirection = (SortDirection)theEObject;
+				T result = caseSortDirection(sortDirection);
+				if (result == null) result = caseElement(sortDirection);
+				if (result == null) result = caseBase(sortDirection);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SPDX_LICENSE: {
+				SPDXLicense spdxLicense = (SPDXLicense)theEObject;
+				T result = caseSPDXLicense(spdxLicense);
+				if (result == null) result = caseElement(spdxLicense);
+				if (result == null) result = caseBase(spdxLicense);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SPECIMEN: {
+				Specimen specimen = (Specimen)theEObject;
+				T result = caseSpecimen(specimen);
+				if (result == null) result = caseDomainResource(specimen);
+				if (result == null) result = caseResource(specimen);
+				if (result == null) result = caseBase(specimen);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SPECIMEN_COLLECTION: {
+				SpecimenCollection specimenCollection = (SpecimenCollection)theEObject;
+				T result = caseSpecimenCollection(specimenCollection);
+				if (result == null) result = caseBackboneElement(specimenCollection);
+				if (result == null) result = caseElement(specimenCollection);
+				if (result == null) result = caseBase(specimenCollection);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SPECIMEN_COMBINED: {
+				SpecimenCombined specimenCombined = (SpecimenCombined)theEObject;
+				T result = caseSpecimenCombined(specimenCombined);
+				if (result == null) result = caseElement(specimenCombined);
+				if (result == null) result = caseBase(specimenCombined);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SPECIMEN_CONTAINED_PREFERENCE: {
+				SpecimenContainedPreference specimenContainedPreference = (SpecimenContainedPreference)theEObject;
+				T result = caseSpecimenContainedPreference(specimenContainedPreference);
+				if (result == null) result = caseElement(specimenContainedPreference);
+				if (result == null) result = caseBase(specimenContainedPreference);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SPECIMEN_CONTAINER: {
+				SpecimenContainer specimenContainer = (SpecimenContainer)theEObject;
+				T result = caseSpecimenContainer(specimenContainer);
+				if (result == null) result = caseBackboneElement(specimenContainer);
+				if (result == null) result = caseElement(specimenContainer);
+				if (result == null) result = caseBase(specimenContainer);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SPECIMEN_DEFINITION: {
+				SpecimenDefinition specimenDefinition = (SpecimenDefinition)theEObject;
+				T result = caseSpecimenDefinition(specimenDefinition);
+				if (result == null) result = caseMetadataResource(specimenDefinition);
+				if (result == null) result = caseCanonicalResource(specimenDefinition);
+				if (result == null) result = caseDomainResource(specimenDefinition);
+				if (result == null) result = caseResource(specimenDefinition);
+				if (result == null) result = caseBase(specimenDefinition);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SPECIMEN_DEFINITION_ADDITIVE: {
+				SpecimenDefinitionAdditive specimenDefinitionAdditive = (SpecimenDefinitionAdditive)theEObject;
+				T result = caseSpecimenDefinitionAdditive(specimenDefinitionAdditive);
+				if (result == null) result = caseBackboneElement(specimenDefinitionAdditive);
+				if (result == null) result = caseElement(specimenDefinitionAdditive);
+				if (result == null) result = caseBase(specimenDefinitionAdditive);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SPECIMEN_DEFINITION_CONTAINER: {
+				SpecimenDefinitionContainer specimenDefinitionContainer = (SpecimenDefinitionContainer)theEObject;
+				T result = caseSpecimenDefinitionContainer(specimenDefinitionContainer);
+				if (result == null) result = caseBackboneElement(specimenDefinitionContainer);
+				if (result == null) result = caseElement(specimenDefinitionContainer);
+				if (result == null) result = caseBase(specimenDefinitionContainer);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SPECIMEN_DEFINITION_HANDLING: {
+				SpecimenDefinitionHandling specimenDefinitionHandling = (SpecimenDefinitionHandling)theEObject;
+				T result = caseSpecimenDefinitionHandling(specimenDefinitionHandling);
+				if (result == null) result = caseBackboneElement(specimenDefinitionHandling);
+				if (result == null) result = caseElement(specimenDefinitionHandling);
+				if (result == null) result = caseBase(specimenDefinitionHandling);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SPECIMEN_DEFINITION_TYPE_TESTED: {
+				SpecimenDefinitionTypeTested specimenDefinitionTypeTested = (SpecimenDefinitionTypeTested)theEObject;
+				T result = caseSpecimenDefinitionTypeTested(specimenDefinitionTypeTested);
+				if (result == null) result = caseBackboneElement(specimenDefinitionTypeTested);
+				if (result == null) result = caseElement(specimenDefinitionTypeTested);
+				if (result == null) result = caseBase(specimenDefinitionTypeTested);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SPECIMEN_FEATURE: {
+				SpecimenFeature specimenFeature = (SpecimenFeature)theEObject;
+				T result = caseSpecimenFeature(specimenFeature);
+				if (result == null) result = caseBackboneElement(specimenFeature);
+				if (result == null) result = caseElement(specimenFeature);
+				if (result == null) result = caseBase(specimenFeature);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SPECIMEN_PROCESSING: {
+				SpecimenProcessing specimenProcessing = (SpecimenProcessing)theEObject;
+				T result = caseSpecimenProcessing(specimenProcessing);
+				if (result == null) result = caseBackboneElement(specimenProcessing);
+				if (result == null) result = caseElement(specimenProcessing);
+				if (result == null) result = caseBase(specimenProcessing);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SPECIMEN_STATUS: {
+				SpecimenStatus specimenStatus = (SpecimenStatus)theEObject;
+				T result = caseSpecimenStatus(specimenStatus);
+				if (result == null) result = caseElement(specimenStatus);
+				if (result == null) result = caseBase(specimenStatus);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.STRAND_TYPE: {
+				StrandType strandType = (StrandType)theEObject;
+				T result = caseStrandType(strandType);
+				if (result == null) result = caseElement(strandType);
+				if (result == null) result = caseBase(strandType);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.STRING: {
+				org.hl7.fhir.String string = (org.hl7.fhir.String)theEObject;
+				T result = caseString(string);
+				if (result == null) result = caseElement(string);
+				if (result == null) result = caseBase(string);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.STRUCTURE_DEFINITION: {
+				StructureDefinition structureDefinition = (StructureDefinition)theEObject;
+				T result = caseStructureDefinition(structureDefinition);
+				if (result == null) result = caseCanonicalResource(structureDefinition);
+				if (result == null) result = caseDomainResource(structureDefinition);
+				if (result == null) result = caseResource(structureDefinition);
+				if (result == null) result = caseBase(structureDefinition);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.STRUCTURE_DEFINITION_CONTEXT: {
+				StructureDefinitionContext structureDefinitionContext = (StructureDefinitionContext)theEObject;
+				T result = caseStructureDefinitionContext(structureDefinitionContext);
+				if (result == null) result = caseBackboneElement(structureDefinitionContext);
+				if (result == null) result = caseElement(structureDefinitionContext);
+				if (result == null) result = caseBase(structureDefinitionContext);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.STRUCTURE_DEFINITION_DIFFERENTIAL: {
+				StructureDefinitionDifferential structureDefinitionDifferential = (StructureDefinitionDifferential)theEObject;
+				T result = caseStructureDefinitionDifferential(structureDefinitionDifferential);
+				if (result == null) result = caseBackboneElement(structureDefinitionDifferential);
+				if (result == null) result = caseElement(structureDefinitionDifferential);
+				if (result == null) result = caseBase(structureDefinitionDifferential);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.STRUCTURE_DEFINITION_KIND: {
+				StructureDefinitionKind structureDefinitionKind = (StructureDefinitionKind)theEObject;
+				T result = caseStructureDefinitionKind(structureDefinitionKind);
+				if (result == null) result = caseElement(structureDefinitionKind);
+				if (result == null) result = caseBase(structureDefinitionKind);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.STRUCTURE_DEFINITION_MAPPING: {
+				StructureDefinitionMapping structureDefinitionMapping = (StructureDefinitionMapping)theEObject;
+				T result = caseStructureDefinitionMapping(structureDefinitionMapping);
+				if (result == null) result = caseBackboneElement(structureDefinitionMapping);
+				if (result == null) result = caseElement(structureDefinitionMapping);
+				if (result == null) result = caseBase(structureDefinitionMapping);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.STRUCTURE_DEFINITION_SNAPSHOT: {
+				StructureDefinitionSnapshot structureDefinitionSnapshot = (StructureDefinitionSnapshot)theEObject;
+				T result = caseStructureDefinitionSnapshot(structureDefinitionSnapshot);
+				if (result == null) result = caseBackboneElement(structureDefinitionSnapshot);
+				if (result == null) result = caseElement(structureDefinitionSnapshot);
+				if (result == null) result = caseBase(structureDefinitionSnapshot);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.STRUCTURE_MAP: {
+				StructureMap structureMap = (StructureMap)theEObject;
+				T result = caseStructureMap(structureMap);
+				if (result == null) result = caseCanonicalResource(structureMap);
+				if (result == null) result = caseDomainResource(structureMap);
+				if (result == null) result = caseResource(structureMap);
+				if (result == null) result = caseBase(structureMap);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.STRUCTURE_MAP_CONST: {
+				StructureMapConst structureMapConst = (StructureMapConst)theEObject;
+				T result = caseStructureMapConst(structureMapConst);
+				if (result == null) result = caseBackboneElement(structureMapConst);
+				if (result == null) result = caseElement(structureMapConst);
+				if (result == null) result = caseBase(structureMapConst);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.STRUCTURE_MAP_DEPENDENT: {
+				StructureMapDependent structureMapDependent = (StructureMapDependent)theEObject;
+				T result = caseStructureMapDependent(structureMapDependent);
+				if (result == null) result = caseBackboneElement(structureMapDependent);
+				if (result == null) result = caseElement(structureMapDependent);
+				if (result == null) result = caseBase(structureMapDependent);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.STRUCTURE_MAP_GROUP: {
+				StructureMapGroup structureMapGroup = (StructureMapGroup)theEObject;
+				T result = caseStructureMapGroup(structureMapGroup);
+				if (result == null) result = caseBackboneElement(structureMapGroup);
+				if (result == null) result = caseElement(structureMapGroup);
+				if (result == null) result = caseBase(structureMapGroup);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.STRUCTURE_MAP_GROUP_TYPE_MODE: {
+				StructureMapGroupTypeMode structureMapGroupTypeMode = (StructureMapGroupTypeMode)theEObject;
+				T result = caseStructureMapGroupTypeMode(structureMapGroupTypeMode);
+				if (result == null) result = caseElement(structureMapGroupTypeMode);
+				if (result == null) result = caseBase(structureMapGroupTypeMode);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.STRUCTURE_MAP_INPUT: {
+				StructureMapInput structureMapInput = (StructureMapInput)theEObject;
+				T result = caseStructureMapInput(structureMapInput);
+				if (result == null) result = caseBackboneElement(structureMapInput);
+				if (result == null) result = caseElement(structureMapInput);
+				if (result == null) result = caseBase(structureMapInput);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.STRUCTURE_MAP_INPUT_MODE: {
+				StructureMapInputMode structureMapInputMode = (StructureMapInputMode)theEObject;
+				T result = caseStructureMapInputMode(structureMapInputMode);
+				if (result == null) result = caseElement(structureMapInputMode);
+				if (result == null) result = caseBase(structureMapInputMode);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.STRUCTURE_MAP_MODEL_MODE: {
+				StructureMapModelMode structureMapModelMode = (StructureMapModelMode)theEObject;
+				T result = caseStructureMapModelMode(structureMapModelMode);
+				if (result == null) result = caseElement(structureMapModelMode);
+				if (result == null) result = caseBase(structureMapModelMode);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.STRUCTURE_MAP_PARAMETER: {
+				StructureMapParameter structureMapParameter = (StructureMapParameter)theEObject;
+				T result = caseStructureMapParameter(structureMapParameter);
+				if (result == null) result = caseBackboneElement(structureMapParameter);
+				if (result == null) result = caseElement(structureMapParameter);
+				if (result == null) result = caseBase(structureMapParameter);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.STRUCTURE_MAP_RULE: {
+				StructureMapRule structureMapRule = (StructureMapRule)theEObject;
+				T result = caseStructureMapRule(structureMapRule);
+				if (result == null) result = caseBackboneElement(structureMapRule);
+				if (result == null) result = caseElement(structureMapRule);
+				if (result == null) result = caseBase(structureMapRule);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.STRUCTURE_MAP_SOURCE: {
+				StructureMapSource structureMapSource = (StructureMapSource)theEObject;
+				T result = caseStructureMapSource(structureMapSource);
+				if (result == null) result = caseBackboneElement(structureMapSource);
+				if (result == null) result = caseElement(structureMapSource);
+				if (result == null) result = caseBase(structureMapSource);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.STRUCTURE_MAP_SOURCE_LIST_MODE: {
+				StructureMapSourceListMode structureMapSourceListMode = (StructureMapSourceListMode)theEObject;
+				T result = caseStructureMapSourceListMode(structureMapSourceListMode);
+				if (result == null) result = caseElement(structureMapSourceListMode);
+				if (result == null) result = caseBase(structureMapSourceListMode);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.STRUCTURE_MAP_STRUCTURE: {
+				StructureMapStructure structureMapStructure = (StructureMapStructure)theEObject;
+				T result = caseStructureMapStructure(structureMapStructure);
+				if (result == null) result = caseBackboneElement(structureMapStructure);
+				if (result == null) result = caseElement(structureMapStructure);
+				if (result == null) result = caseBase(structureMapStructure);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.STRUCTURE_MAP_TARGET: {
+				StructureMapTarget structureMapTarget = (StructureMapTarget)theEObject;
+				T result = caseStructureMapTarget(structureMapTarget);
+				if (result == null) result = caseBackboneElement(structureMapTarget);
+				if (result == null) result = caseElement(structureMapTarget);
+				if (result == null) result = caseBase(structureMapTarget);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.STRUCTURE_MAP_TARGET_LIST_MODE: {
+				StructureMapTargetListMode structureMapTargetListMode = (StructureMapTargetListMode)theEObject;
+				T result = caseStructureMapTargetListMode(structureMapTargetListMode);
+				if (result == null) result = caseElement(structureMapTargetListMode);
+				if (result == null) result = caseBase(structureMapTargetListMode);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.STRUCTURE_MAP_TRANSFORM: {
+				StructureMapTransform structureMapTransform = (StructureMapTransform)theEObject;
+				T result = caseStructureMapTransform(structureMapTransform);
+				if (result == null) result = caseElement(structureMapTransform);
+				if (result == null) result = caseBase(structureMapTransform);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBMIT_DATA_UPDATE_TYPE: {
+				SubmitDataUpdateType submitDataUpdateType = (SubmitDataUpdateType)theEObject;
+				T result = caseSubmitDataUpdateType(submitDataUpdateType);
+				if (result == null) result = caseElement(submitDataUpdateType);
+				if (result == null) result = caseBase(submitDataUpdateType);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSCRIPTION: {
+				Subscription subscription = (Subscription)theEObject;
+				T result = caseSubscription(subscription);
+				if (result == null) result = caseDomainResource(subscription);
+				if (result == null) result = caseResource(subscription);
+				if (result == null) result = caseBase(subscription);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSCRIPTION_FILTER_BY: {
+				SubscriptionFilterBy subscriptionFilterBy = (SubscriptionFilterBy)theEObject;
+				T result = caseSubscriptionFilterBy(subscriptionFilterBy);
+				if (result == null) result = caseBackboneElement(subscriptionFilterBy);
+				if (result == null) result = caseElement(subscriptionFilterBy);
+				if (result == null) result = caseBase(subscriptionFilterBy);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSCRIPTION_NOTIFICATION_TYPE: {
+				SubscriptionNotificationType subscriptionNotificationType = (SubscriptionNotificationType)theEObject;
+				T result = caseSubscriptionNotificationType(subscriptionNotificationType);
+				if (result == null) result = caseElement(subscriptionNotificationType);
+				if (result == null) result = caseBase(subscriptionNotificationType);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSCRIPTION_PARAMETER: {
+				SubscriptionParameter subscriptionParameter = (SubscriptionParameter)theEObject;
+				T result = caseSubscriptionParameter(subscriptionParameter);
+				if (result == null) result = caseBackboneElement(subscriptionParameter);
+				if (result == null) result = caseElement(subscriptionParameter);
+				if (result == null) result = caseBase(subscriptionParameter);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSCRIPTION_PAYLOAD_CONTENT: {
+				SubscriptionPayloadContent subscriptionPayloadContent = (SubscriptionPayloadContent)theEObject;
+				T result = caseSubscriptionPayloadContent(subscriptionPayloadContent);
+				if (result == null) result = caseElement(subscriptionPayloadContent);
+				if (result == null) result = caseBase(subscriptionPayloadContent);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSCRIPTION_STATUS: {
+				SubscriptionStatus subscriptionStatus = (SubscriptionStatus)theEObject;
+				T result = caseSubscriptionStatus(subscriptionStatus);
+				if (result == null) result = caseDomainResource(subscriptionStatus);
+				if (result == null) result = caseResource(subscriptionStatus);
+				if (result == null) result = caseBase(subscriptionStatus);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSCRIPTION_STATUS_CODES: {
+				SubscriptionStatusCodes subscriptionStatusCodes = (SubscriptionStatusCodes)theEObject;
+				T result = caseSubscriptionStatusCodes(subscriptionStatusCodes);
+				if (result == null) result = caseElement(subscriptionStatusCodes);
+				if (result == null) result = caseBase(subscriptionStatusCodes);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSCRIPTION_STATUS_NOTIFICATION_EVENT: {
+				SubscriptionStatusNotificationEvent subscriptionStatusNotificationEvent = (SubscriptionStatusNotificationEvent)theEObject;
+				T result = caseSubscriptionStatusNotificationEvent(subscriptionStatusNotificationEvent);
+				if (result == null) result = caseBackboneElement(subscriptionStatusNotificationEvent);
+				if (result == null) result = caseElement(subscriptionStatusNotificationEvent);
+				if (result == null) result = caseBase(subscriptionStatusNotificationEvent);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSCRIPTION_TOPIC: {
+				SubscriptionTopic subscriptionTopic = (SubscriptionTopic)theEObject;
+				T result = caseSubscriptionTopic(subscriptionTopic);
+				if (result == null) result = caseCanonicalResource(subscriptionTopic);
+				if (result == null) result = caseDomainResource(subscriptionTopic);
+				if (result == null) result = caseResource(subscriptionTopic);
+				if (result == null) result = caseBase(subscriptionTopic);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSCRIPTION_TOPIC_CAN_FILTER_BY: {
+				SubscriptionTopicCanFilterBy subscriptionTopicCanFilterBy = (SubscriptionTopicCanFilterBy)theEObject;
+				T result = caseSubscriptionTopicCanFilterBy(subscriptionTopicCanFilterBy);
+				if (result == null) result = caseBackboneElement(subscriptionTopicCanFilterBy);
+				if (result == null) result = caseElement(subscriptionTopicCanFilterBy);
+				if (result == null) result = caseBase(subscriptionTopicCanFilterBy);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSCRIPTION_TOPIC_EVENT_TRIGGER: {
+				SubscriptionTopicEventTrigger subscriptionTopicEventTrigger = (SubscriptionTopicEventTrigger)theEObject;
+				T result = caseSubscriptionTopicEventTrigger(subscriptionTopicEventTrigger);
+				if (result == null) result = caseBackboneElement(subscriptionTopicEventTrigger);
+				if (result == null) result = caseElement(subscriptionTopicEventTrigger);
+				if (result == null) result = caseBase(subscriptionTopicEventTrigger);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSCRIPTION_TOPIC_NOTIFICATION_SHAPE: {
+				SubscriptionTopicNotificationShape subscriptionTopicNotificationShape = (SubscriptionTopicNotificationShape)theEObject;
+				T result = caseSubscriptionTopicNotificationShape(subscriptionTopicNotificationShape);
+				if (result == null) result = caseBackboneElement(subscriptionTopicNotificationShape);
+				if (result == null) result = caseElement(subscriptionTopicNotificationShape);
+				if (result == null) result = caseBase(subscriptionTopicNotificationShape);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSCRIPTION_TOPIC_QUERY_CRITERIA: {
+				SubscriptionTopicQueryCriteria subscriptionTopicQueryCriteria = (SubscriptionTopicQueryCriteria)theEObject;
+				T result = caseSubscriptionTopicQueryCriteria(subscriptionTopicQueryCriteria);
+				if (result == null) result = caseBackboneElement(subscriptionTopicQueryCriteria);
+				if (result == null) result = caseElement(subscriptionTopicQueryCriteria);
+				if (result == null) result = caseBase(subscriptionTopicQueryCriteria);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSCRIPTION_TOPIC_RESOURCE_TRIGGER: {
+				SubscriptionTopicResourceTrigger subscriptionTopicResourceTrigger = (SubscriptionTopicResourceTrigger)theEObject;
+				T result = caseSubscriptionTopicResourceTrigger(subscriptionTopicResourceTrigger);
+				if (result == null) result = caseBackboneElement(subscriptionTopicResourceTrigger);
+				if (result == null) result = caseElement(subscriptionTopicResourceTrigger);
+				if (result == null) result = caseBase(subscriptionTopicResourceTrigger);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE: {
+				Substance substance = (Substance)theEObject;
+				T result = caseSubstance(substance);
+				if (result == null) result = caseDomainResource(substance);
+				if (result == null) result = caseResource(substance);
+				if (result == null) result = caseBase(substance);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_DEFINITION: {
+				SubstanceDefinition substanceDefinition = (SubstanceDefinition)theEObject;
+				T result = caseSubstanceDefinition(substanceDefinition);
+				if (result == null) result = caseDomainResource(substanceDefinition);
+				if (result == null) result = caseResource(substanceDefinition);
+				if (result == null) result = caseBase(substanceDefinition);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_DEFINITION_CHARACTERIZATION: {
+				SubstanceDefinitionCharacterization substanceDefinitionCharacterization = (SubstanceDefinitionCharacterization)theEObject;
+				T result = caseSubstanceDefinitionCharacterization(substanceDefinitionCharacterization);
+				if (result == null) result = caseBackboneElement(substanceDefinitionCharacterization);
+				if (result == null) result = caseElement(substanceDefinitionCharacterization);
+				if (result == null) result = caseBase(substanceDefinitionCharacterization);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_DEFINITION_CODE: {
+				SubstanceDefinitionCode substanceDefinitionCode = (SubstanceDefinitionCode)theEObject;
+				T result = caseSubstanceDefinitionCode(substanceDefinitionCode);
+				if (result == null) result = caseBackboneElement(substanceDefinitionCode);
+				if (result == null) result = caseElement(substanceDefinitionCode);
+				if (result == null) result = caseBase(substanceDefinitionCode);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_DEFINITION_MOIETY: {
+				SubstanceDefinitionMoiety substanceDefinitionMoiety = (SubstanceDefinitionMoiety)theEObject;
+				T result = caseSubstanceDefinitionMoiety(substanceDefinitionMoiety);
+				if (result == null) result = caseBackboneElement(substanceDefinitionMoiety);
+				if (result == null) result = caseElement(substanceDefinitionMoiety);
+				if (result == null) result = caseBase(substanceDefinitionMoiety);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_DEFINITION_MOLECULAR_WEIGHT: {
+				SubstanceDefinitionMolecularWeight substanceDefinitionMolecularWeight = (SubstanceDefinitionMolecularWeight)theEObject;
+				T result = caseSubstanceDefinitionMolecularWeight(substanceDefinitionMolecularWeight);
+				if (result == null) result = caseBackboneElement(substanceDefinitionMolecularWeight);
+				if (result == null) result = caseElement(substanceDefinitionMolecularWeight);
+				if (result == null) result = caseBase(substanceDefinitionMolecularWeight);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_DEFINITION_NAME: {
+				SubstanceDefinitionName substanceDefinitionName = (SubstanceDefinitionName)theEObject;
+				T result = caseSubstanceDefinitionName(substanceDefinitionName);
+				if (result == null) result = caseBackboneElement(substanceDefinitionName);
+				if (result == null) result = caseElement(substanceDefinitionName);
+				if (result == null) result = caseBase(substanceDefinitionName);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_DEFINITION_OFFICIAL: {
+				SubstanceDefinitionOfficial substanceDefinitionOfficial = (SubstanceDefinitionOfficial)theEObject;
+				T result = caseSubstanceDefinitionOfficial(substanceDefinitionOfficial);
+				if (result == null) result = caseBackboneElement(substanceDefinitionOfficial);
+				if (result == null) result = caseElement(substanceDefinitionOfficial);
+				if (result == null) result = caseBase(substanceDefinitionOfficial);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_DEFINITION_PROPERTY: {
+				SubstanceDefinitionProperty substanceDefinitionProperty = (SubstanceDefinitionProperty)theEObject;
+				T result = caseSubstanceDefinitionProperty(substanceDefinitionProperty);
+				if (result == null) result = caseBackboneElement(substanceDefinitionProperty);
+				if (result == null) result = caseElement(substanceDefinitionProperty);
+				if (result == null) result = caseBase(substanceDefinitionProperty);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_DEFINITION_RELATIONSHIP: {
+				SubstanceDefinitionRelationship substanceDefinitionRelationship = (SubstanceDefinitionRelationship)theEObject;
+				T result = caseSubstanceDefinitionRelationship(substanceDefinitionRelationship);
+				if (result == null) result = caseBackboneElement(substanceDefinitionRelationship);
+				if (result == null) result = caseElement(substanceDefinitionRelationship);
+				if (result == null) result = caseBase(substanceDefinitionRelationship);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_DEFINITION_REPRESENTATION: {
+				SubstanceDefinitionRepresentation substanceDefinitionRepresentation = (SubstanceDefinitionRepresentation)theEObject;
+				T result = caseSubstanceDefinitionRepresentation(substanceDefinitionRepresentation);
+				if (result == null) result = caseBackboneElement(substanceDefinitionRepresentation);
+				if (result == null) result = caseElement(substanceDefinitionRepresentation);
+				if (result == null) result = caseBase(substanceDefinitionRepresentation);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_DEFINITION_SOURCE_MATERIAL: {
+				SubstanceDefinitionSourceMaterial substanceDefinitionSourceMaterial = (SubstanceDefinitionSourceMaterial)theEObject;
+				T result = caseSubstanceDefinitionSourceMaterial(substanceDefinitionSourceMaterial);
+				if (result == null) result = caseBackboneElement(substanceDefinitionSourceMaterial);
+				if (result == null) result = caseElement(substanceDefinitionSourceMaterial);
+				if (result == null) result = caseBase(substanceDefinitionSourceMaterial);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_DEFINITION_STRUCTURE: {
+				SubstanceDefinitionStructure substanceDefinitionStructure = (SubstanceDefinitionStructure)theEObject;
+				T result = caseSubstanceDefinitionStructure(substanceDefinitionStructure);
+				if (result == null) result = caseBackboneElement(substanceDefinitionStructure);
+				if (result == null) result = caseElement(substanceDefinitionStructure);
+				if (result == null) result = caseBase(substanceDefinitionStructure);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_INGREDIENT: {
+				SubstanceIngredient substanceIngredient = (SubstanceIngredient)theEObject;
+				T result = caseSubstanceIngredient(substanceIngredient);
+				if (result == null) result = caseBackboneElement(substanceIngredient);
+				if (result == null) result = caseElement(substanceIngredient);
+				if (result == null) result = caseBase(substanceIngredient);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_NUCLEIC_ACID: {
+				SubstanceNucleicAcid substanceNucleicAcid = (SubstanceNucleicAcid)theEObject;
+				T result = caseSubstanceNucleicAcid(substanceNucleicAcid);
+				if (result == null) result = caseDomainResource(substanceNucleicAcid);
+				if (result == null) result = caseResource(substanceNucleicAcid);
+				if (result == null) result = caseBase(substanceNucleicAcid);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_NUCLEIC_ACID_LINKAGE: {
+				SubstanceNucleicAcidLinkage substanceNucleicAcidLinkage = (SubstanceNucleicAcidLinkage)theEObject;
+				T result = caseSubstanceNucleicAcidLinkage(substanceNucleicAcidLinkage);
+				if (result == null) result = caseBackboneElement(substanceNucleicAcidLinkage);
+				if (result == null) result = caseElement(substanceNucleicAcidLinkage);
+				if (result == null) result = caseBase(substanceNucleicAcidLinkage);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_NUCLEIC_ACID_SUBUNIT: {
+				SubstanceNucleicAcidSubunit substanceNucleicAcidSubunit = (SubstanceNucleicAcidSubunit)theEObject;
+				T result = caseSubstanceNucleicAcidSubunit(substanceNucleicAcidSubunit);
+				if (result == null) result = caseBackboneElement(substanceNucleicAcidSubunit);
+				if (result == null) result = caseElement(substanceNucleicAcidSubunit);
+				if (result == null) result = caseBase(substanceNucleicAcidSubunit);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_NUCLEIC_ACID_SUGAR: {
+				SubstanceNucleicAcidSugar substanceNucleicAcidSugar = (SubstanceNucleicAcidSugar)theEObject;
+				T result = caseSubstanceNucleicAcidSugar(substanceNucleicAcidSugar);
+				if (result == null) result = caseBackboneElement(substanceNucleicAcidSugar);
+				if (result == null) result = caseElement(substanceNucleicAcidSugar);
+				if (result == null) result = caseBase(substanceNucleicAcidSugar);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_POLYMER: {
+				SubstancePolymer substancePolymer = (SubstancePolymer)theEObject;
+				T result = caseSubstancePolymer(substancePolymer);
+				if (result == null) result = caseDomainResource(substancePolymer);
+				if (result == null) result = caseResource(substancePolymer);
+				if (result == null) result = caseBase(substancePolymer);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_POLYMER_DEGREE_OF_POLYMERISATION: {
+				SubstancePolymerDegreeOfPolymerisation substancePolymerDegreeOfPolymerisation = (SubstancePolymerDegreeOfPolymerisation)theEObject;
+				T result = caseSubstancePolymerDegreeOfPolymerisation(substancePolymerDegreeOfPolymerisation);
+				if (result == null) result = caseBackboneElement(substancePolymerDegreeOfPolymerisation);
+				if (result == null) result = caseElement(substancePolymerDegreeOfPolymerisation);
+				if (result == null) result = caseBase(substancePolymerDegreeOfPolymerisation);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_POLYMER_MONOMER_SET: {
+				SubstancePolymerMonomerSet substancePolymerMonomerSet = (SubstancePolymerMonomerSet)theEObject;
+				T result = caseSubstancePolymerMonomerSet(substancePolymerMonomerSet);
+				if (result == null) result = caseBackboneElement(substancePolymerMonomerSet);
+				if (result == null) result = caseElement(substancePolymerMonomerSet);
+				if (result == null) result = caseBase(substancePolymerMonomerSet);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_POLYMER_REPEAT: {
+				SubstancePolymerRepeat substancePolymerRepeat = (SubstancePolymerRepeat)theEObject;
+				T result = caseSubstancePolymerRepeat(substancePolymerRepeat);
+				if (result == null) result = caseBackboneElement(substancePolymerRepeat);
+				if (result == null) result = caseElement(substancePolymerRepeat);
+				if (result == null) result = caseBase(substancePolymerRepeat);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_POLYMER_REPEAT_UNIT: {
+				SubstancePolymerRepeatUnit substancePolymerRepeatUnit = (SubstancePolymerRepeatUnit)theEObject;
+				T result = caseSubstancePolymerRepeatUnit(substancePolymerRepeatUnit);
+				if (result == null) result = caseBackboneElement(substancePolymerRepeatUnit);
+				if (result == null) result = caseElement(substancePolymerRepeatUnit);
+				if (result == null) result = caseBase(substancePolymerRepeatUnit);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_POLYMER_STARTING_MATERIAL: {
+				SubstancePolymerStartingMaterial substancePolymerStartingMaterial = (SubstancePolymerStartingMaterial)theEObject;
+				T result = caseSubstancePolymerStartingMaterial(substancePolymerStartingMaterial);
+				if (result == null) result = caseBackboneElement(substancePolymerStartingMaterial);
+				if (result == null) result = caseElement(substancePolymerStartingMaterial);
+				if (result == null) result = caseBase(substancePolymerStartingMaterial);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_POLYMER_STRUCTURAL_REPRESENTATION: {
+				SubstancePolymerStructuralRepresentation substancePolymerStructuralRepresentation = (SubstancePolymerStructuralRepresentation)theEObject;
+				T result = caseSubstancePolymerStructuralRepresentation(substancePolymerStructuralRepresentation);
+				if (result == null) result = caseBackboneElement(substancePolymerStructuralRepresentation);
+				if (result == null) result = caseElement(substancePolymerStructuralRepresentation);
+				if (result == null) result = caseBase(substancePolymerStructuralRepresentation);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_PROTEIN: {
+				SubstanceProtein substanceProtein = (SubstanceProtein)theEObject;
+				T result = caseSubstanceProtein(substanceProtein);
+				if (result == null) result = caseDomainResource(substanceProtein);
+				if (result == null) result = caseResource(substanceProtein);
+				if (result == null) result = caseBase(substanceProtein);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_PROTEIN_SUBUNIT: {
+				SubstanceProteinSubunit substanceProteinSubunit = (SubstanceProteinSubunit)theEObject;
+				T result = caseSubstanceProteinSubunit(substanceProteinSubunit);
+				if (result == null) result = caseBackboneElement(substanceProteinSubunit);
+				if (result == null) result = caseElement(substanceProteinSubunit);
+				if (result == null) result = caseBase(substanceProteinSubunit);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_REFERENCE_INFORMATION: {
+				SubstanceReferenceInformation substanceReferenceInformation = (SubstanceReferenceInformation)theEObject;
+				T result = caseSubstanceReferenceInformation(substanceReferenceInformation);
+				if (result == null) result = caseDomainResource(substanceReferenceInformation);
+				if (result == null) result = caseResource(substanceReferenceInformation);
+				if (result == null) result = caseBase(substanceReferenceInformation);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_REFERENCE_INFORMATION_GENE: {
+				SubstanceReferenceInformationGene substanceReferenceInformationGene = (SubstanceReferenceInformationGene)theEObject;
+				T result = caseSubstanceReferenceInformationGene(substanceReferenceInformationGene);
+				if (result == null) result = caseBackboneElement(substanceReferenceInformationGene);
+				if (result == null) result = caseElement(substanceReferenceInformationGene);
+				if (result == null) result = caseBase(substanceReferenceInformationGene);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_REFERENCE_INFORMATION_GENE_ELEMENT: {
+				SubstanceReferenceInformationGeneElement substanceReferenceInformationGeneElement = (SubstanceReferenceInformationGeneElement)theEObject;
+				T result = caseSubstanceReferenceInformationGeneElement(substanceReferenceInformationGeneElement);
+				if (result == null) result = caseBackboneElement(substanceReferenceInformationGeneElement);
+				if (result == null) result = caseElement(substanceReferenceInformationGeneElement);
+				if (result == null) result = caseBase(substanceReferenceInformationGeneElement);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_REFERENCE_INFORMATION_TARGET: {
+				SubstanceReferenceInformationTarget substanceReferenceInformationTarget = (SubstanceReferenceInformationTarget)theEObject;
+				T result = caseSubstanceReferenceInformationTarget(substanceReferenceInformationTarget);
+				if (result == null) result = caseBackboneElement(substanceReferenceInformationTarget);
+				if (result == null) result = caseElement(substanceReferenceInformationTarget);
+				if (result == null) result = caseBase(substanceReferenceInformationTarget);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_SOURCE_MATERIAL: {
+				SubstanceSourceMaterial substanceSourceMaterial = (SubstanceSourceMaterial)theEObject;
+				T result = caseSubstanceSourceMaterial(substanceSourceMaterial);
+				if (result == null) result = caseDomainResource(substanceSourceMaterial);
+				if (result == null) result = caseResource(substanceSourceMaterial);
+				if (result == null) result = caseBase(substanceSourceMaterial);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_SOURCE_MATERIAL_AUTHOR: {
+				SubstanceSourceMaterialAuthor substanceSourceMaterialAuthor = (SubstanceSourceMaterialAuthor)theEObject;
+				T result = caseSubstanceSourceMaterialAuthor(substanceSourceMaterialAuthor);
+				if (result == null) result = caseBackboneElement(substanceSourceMaterialAuthor);
+				if (result == null) result = caseElement(substanceSourceMaterialAuthor);
+				if (result == null) result = caseBase(substanceSourceMaterialAuthor);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_SOURCE_MATERIAL_FRACTION_DESCRIPTION: {
+				SubstanceSourceMaterialFractionDescription substanceSourceMaterialFractionDescription = (SubstanceSourceMaterialFractionDescription)theEObject;
+				T result = caseSubstanceSourceMaterialFractionDescription(substanceSourceMaterialFractionDescription);
+				if (result == null) result = caseBackboneElement(substanceSourceMaterialFractionDescription);
+				if (result == null) result = caseElement(substanceSourceMaterialFractionDescription);
+				if (result == null) result = caseBase(substanceSourceMaterialFractionDescription);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_SOURCE_MATERIAL_HYBRID: {
+				SubstanceSourceMaterialHybrid substanceSourceMaterialHybrid = (SubstanceSourceMaterialHybrid)theEObject;
+				T result = caseSubstanceSourceMaterialHybrid(substanceSourceMaterialHybrid);
+				if (result == null) result = caseBackboneElement(substanceSourceMaterialHybrid);
+				if (result == null) result = caseElement(substanceSourceMaterialHybrid);
+				if (result == null) result = caseBase(substanceSourceMaterialHybrid);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_SOURCE_MATERIAL_ORGANISM: {
+				SubstanceSourceMaterialOrganism substanceSourceMaterialOrganism = (SubstanceSourceMaterialOrganism)theEObject;
+				T result = caseSubstanceSourceMaterialOrganism(substanceSourceMaterialOrganism);
+				if (result == null) result = caseBackboneElement(substanceSourceMaterialOrganism);
+				if (result == null) result = caseElement(substanceSourceMaterialOrganism);
+				if (result == null) result = caseBase(substanceSourceMaterialOrganism);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_SOURCE_MATERIAL_ORGANISM_GENERAL: {
+				SubstanceSourceMaterialOrganismGeneral substanceSourceMaterialOrganismGeneral = (SubstanceSourceMaterialOrganismGeneral)theEObject;
+				T result = caseSubstanceSourceMaterialOrganismGeneral(substanceSourceMaterialOrganismGeneral);
+				if (result == null) result = caseBackboneElement(substanceSourceMaterialOrganismGeneral);
+				if (result == null) result = caseElement(substanceSourceMaterialOrganismGeneral);
+				if (result == null) result = caseBase(substanceSourceMaterialOrganismGeneral);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUBSTANCE_SOURCE_MATERIAL_PART_DESCRIPTION: {
+				SubstanceSourceMaterialPartDescription substanceSourceMaterialPartDescription = (SubstanceSourceMaterialPartDescription)theEObject;
+				T result = caseSubstanceSourceMaterialPartDescription(substanceSourceMaterialPartDescription);
+				if (result == null) result = caseBackboneElement(substanceSourceMaterialPartDescription);
+				if (result == null) result = caseElement(substanceSourceMaterialPartDescription);
+				if (result == null) result = caseBase(substanceSourceMaterialPartDescription);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUPPLY_DELIVERY: {
+				SupplyDelivery supplyDelivery = (SupplyDelivery)theEObject;
+				T result = caseSupplyDelivery(supplyDelivery);
+				if (result == null) result = caseDomainResource(supplyDelivery);
+				if (result == null) result = caseResource(supplyDelivery);
+				if (result == null) result = caseBase(supplyDelivery);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUPPLY_DELIVERY_STATUS: {
+				SupplyDeliveryStatus supplyDeliveryStatus = (SupplyDeliveryStatus)theEObject;
+				T result = caseSupplyDeliveryStatus(supplyDeliveryStatus);
+				if (result == null) result = caseElement(supplyDeliveryStatus);
+				if (result == null) result = caseBase(supplyDeliveryStatus);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUPPLY_DELIVERY_SUPPLIED_ITEM: {
+				SupplyDeliverySuppliedItem supplyDeliverySuppliedItem = (SupplyDeliverySuppliedItem)theEObject;
+				T result = caseSupplyDeliverySuppliedItem(supplyDeliverySuppliedItem);
+				if (result == null) result = caseBackboneElement(supplyDeliverySuppliedItem);
+				if (result == null) result = caseElement(supplyDeliverySuppliedItem);
+				if (result == null) result = caseBase(supplyDeliverySuppliedItem);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUPPLY_REQUEST: {
+				SupplyRequest supplyRequest = (SupplyRequest)theEObject;
+				T result = caseSupplyRequest(supplyRequest);
+				if (result == null) result = caseDomainResource(supplyRequest);
+				if (result == null) result = caseResource(supplyRequest);
+				if (result == null) result = caseBase(supplyRequest);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUPPLY_REQUEST_PARAMETER: {
+				SupplyRequestParameter supplyRequestParameter = (SupplyRequestParameter)theEObject;
+				T result = caseSupplyRequestParameter(supplyRequestParameter);
+				if (result == null) result = caseBackboneElement(supplyRequestParameter);
+				if (result == null) result = caseElement(supplyRequestParameter);
+				if (result == null) result = caseBase(supplyRequestParameter);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SUPPLY_REQUEST_STATUS: {
+				SupplyRequestStatus supplyRequestStatus = (SupplyRequestStatus)theEObject;
+				T result = caseSupplyRequestStatus(supplyRequestStatus);
+				if (result == null) result = caseElement(supplyRequestStatus);
+				if (result == null) result = caseBase(supplyRequestStatus);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.SYSTEM_RESTFUL_INTERACTION: {
+				SystemRestfulInteraction systemRestfulInteraction = (SystemRestfulInteraction)theEObject;
+				T result = caseSystemRestfulInteraction(systemRestfulInteraction);
+				if (result == null) result = caseElement(systemRestfulInteraction);
+				if (result == null) result = caseBase(systemRestfulInteraction);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TASK: {
+				Task task = (Task)theEObject;
+				T result = caseTask(task);
+				if (result == null) result = caseDomainResource(task);
+				if (result == null) result = caseResource(task);
+				if (result == null) result = caseBase(task);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TASK_INPUT: {
+				TaskInput taskInput = (TaskInput)theEObject;
+				T result = caseTaskInput(taskInput);
+				if (result == null) result = caseBackboneElement(taskInput);
+				if (result == null) result = caseElement(taskInput);
+				if (result == null) result = caseBase(taskInput);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TASK_INTENT: {
+				TaskIntent taskIntent = (TaskIntent)theEObject;
+				T result = caseTaskIntent(taskIntent);
+				if (result == null) result = caseElement(taskIntent);
+				if (result == null) result = caseBase(taskIntent);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TASK_OUTPUT: {
+				TaskOutput taskOutput = (TaskOutput)theEObject;
+				T result = caseTaskOutput(taskOutput);
+				if (result == null) result = caseBackboneElement(taskOutput);
+				if (result == null) result = caseElement(taskOutput);
+				if (result == null) result = caseBase(taskOutput);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TASK_PERFORMER: {
+				TaskPerformer taskPerformer = (TaskPerformer)theEObject;
+				T result = caseTaskPerformer(taskPerformer);
+				if (result == null) result = caseBackboneElement(taskPerformer);
+				if (result == null) result = caseElement(taskPerformer);
+				if (result == null) result = caseBase(taskPerformer);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TASK_RESTRICTION: {
+				TaskRestriction taskRestriction = (TaskRestriction)theEObject;
+				T result = caseTaskRestriction(taskRestriction);
+				if (result == null) result = caseBackboneElement(taskRestriction);
+				if (result == null) result = caseElement(taskRestriction);
+				if (result == null) result = caseBase(taskRestriction);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TASK_STATUS: {
+				TaskStatus taskStatus = (TaskStatus)theEObject;
+				T result = caseTaskStatus(taskStatus);
+				if (result == null) result = caseElement(taskStatus);
+				if (result == null) result = caseBase(taskStatus);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TERMINOLOGY_CAPABILITIES: {
+				TerminologyCapabilities terminologyCapabilities = (TerminologyCapabilities)theEObject;
+				T result = caseTerminologyCapabilities(terminologyCapabilities);
+				if (result == null) result = caseCanonicalResource(terminologyCapabilities);
+				if (result == null) result = caseDomainResource(terminologyCapabilities);
+				if (result == null) result = caseResource(terminologyCapabilities);
+				if (result == null) result = caseBase(terminologyCapabilities);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TERMINOLOGY_CAPABILITIES_CLOSURE: {
+				TerminologyCapabilitiesClosure terminologyCapabilitiesClosure = (TerminologyCapabilitiesClosure)theEObject;
+				T result = caseTerminologyCapabilitiesClosure(terminologyCapabilitiesClosure);
+				if (result == null) result = caseBackboneElement(terminologyCapabilitiesClosure);
+				if (result == null) result = caseElement(terminologyCapabilitiesClosure);
+				if (result == null) result = caseBase(terminologyCapabilitiesClosure);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TERMINOLOGY_CAPABILITIES_CODE_SYSTEM: {
+				TerminologyCapabilitiesCodeSystem terminologyCapabilitiesCodeSystem = (TerminologyCapabilitiesCodeSystem)theEObject;
+				T result = caseTerminologyCapabilitiesCodeSystem(terminologyCapabilitiesCodeSystem);
+				if (result == null) result = caseBackboneElement(terminologyCapabilitiesCodeSystem);
+				if (result == null) result = caseElement(terminologyCapabilitiesCodeSystem);
+				if (result == null) result = caseBase(terminologyCapabilitiesCodeSystem);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TERMINOLOGY_CAPABILITIES_EXPANSION: {
+				TerminologyCapabilitiesExpansion terminologyCapabilitiesExpansion = (TerminologyCapabilitiesExpansion)theEObject;
+				T result = caseTerminologyCapabilitiesExpansion(terminologyCapabilitiesExpansion);
+				if (result == null) result = caseBackboneElement(terminologyCapabilitiesExpansion);
+				if (result == null) result = caseElement(terminologyCapabilitiesExpansion);
+				if (result == null) result = caseBase(terminologyCapabilitiesExpansion);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TERMINOLOGY_CAPABILITIES_FILTER: {
+				TerminologyCapabilitiesFilter terminologyCapabilitiesFilter = (TerminologyCapabilitiesFilter)theEObject;
+				T result = caseTerminologyCapabilitiesFilter(terminologyCapabilitiesFilter);
+				if (result == null) result = caseBackboneElement(terminologyCapabilitiesFilter);
+				if (result == null) result = caseElement(terminologyCapabilitiesFilter);
+				if (result == null) result = caseBase(terminologyCapabilitiesFilter);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TERMINOLOGY_CAPABILITIES_IMPLEMENTATION: {
+				TerminologyCapabilitiesImplementation terminologyCapabilitiesImplementation = (TerminologyCapabilitiesImplementation)theEObject;
+				T result = caseTerminologyCapabilitiesImplementation(terminologyCapabilitiesImplementation);
+				if (result == null) result = caseBackboneElement(terminologyCapabilitiesImplementation);
+				if (result == null) result = caseElement(terminologyCapabilitiesImplementation);
+				if (result == null) result = caseBase(terminologyCapabilitiesImplementation);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TERMINOLOGY_CAPABILITIES_PARAMETER: {
+				TerminologyCapabilitiesParameter terminologyCapabilitiesParameter = (TerminologyCapabilitiesParameter)theEObject;
+				T result = caseTerminologyCapabilitiesParameter(terminologyCapabilitiesParameter);
+				if (result == null) result = caseBackboneElement(terminologyCapabilitiesParameter);
+				if (result == null) result = caseElement(terminologyCapabilitiesParameter);
+				if (result == null) result = caseBase(terminologyCapabilitiesParameter);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TERMINOLOGY_CAPABILITIES_SOFTWARE: {
+				TerminologyCapabilitiesSoftware terminologyCapabilitiesSoftware = (TerminologyCapabilitiesSoftware)theEObject;
+				T result = caseTerminologyCapabilitiesSoftware(terminologyCapabilitiesSoftware);
+				if (result == null) result = caseBackboneElement(terminologyCapabilitiesSoftware);
+				if (result == null) result = caseElement(terminologyCapabilitiesSoftware);
+				if (result == null) result = caseBase(terminologyCapabilitiesSoftware);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TERMINOLOGY_CAPABILITIES_TRANSLATION: {
+				TerminologyCapabilitiesTranslation terminologyCapabilitiesTranslation = (TerminologyCapabilitiesTranslation)theEObject;
+				T result = caseTerminologyCapabilitiesTranslation(terminologyCapabilitiesTranslation);
+				if (result == null) result = caseBackboneElement(terminologyCapabilitiesTranslation);
+				if (result == null) result = caseElement(terminologyCapabilitiesTranslation);
+				if (result == null) result = caseBase(terminologyCapabilitiesTranslation);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TERMINOLOGY_CAPABILITIES_VALIDATE_CODE: {
+				TerminologyCapabilitiesValidateCode terminologyCapabilitiesValidateCode = (TerminologyCapabilitiesValidateCode)theEObject;
+				T result = caseTerminologyCapabilitiesValidateCode(terminologyCapabilitiesValidateCode);
+				if (result == null) result = caseBackboneElement(terminologyCapabilitiesValidateCode);
+				if (result == null) result = caseElement(terminologyCapabilitiesValidateCode);
+				if (result == null) result = caseBase(terminologyCapabilitiesValidateCode);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TERMINOLOGY_CAPABILITIES_VERSION: {
+				TerminologyCapabilitiesVersion terminologyCapabilitiesVersion = (TerminologyCapabilitiesVersion)theEObject;
+				T result = caseTerminologyCapabilitiesVersion(terminologyCapabilitiesVersion);
+				if (result == null) result = caseBackboneElement(terminologyCapabilitiesVersion);
+				if (result == null) result = caseElement(terminologyCapabilitiesVersion);
+				if (result == null) result = caseBase(terminologyCapabilitiesVersion);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_PLAN: {
+				TestPlan testPlan = (TestPlan)theEObject;
+				T result = caseTestPlan(testPlan);
+				if (result == null) result = caseCanonicalResource(testPlan);
+				if (result == null) result = caseDomainResource(testPlan);
+				if (result == null) result = caseResource(testPlan);
+				if (result == null) result = caseBase(testPlan);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_PLAN_ASSERTION: {
+				TestPlanAssertion testPlanAssertion = (TestPlanAssertion)theEObject;
+				T result = caseTestPlanAssertion(testPlanAssertion);
+				if (result == null) result = caseBackboneElement(testPlanAssertion);
+				if (result == null) result = caseElement(testPlanAssertion);
+				if (result == null) result = caseBase(testPlanAssertion);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_PLAN_DEPENDENCY: {
+				TestPlanDependency testPlanDependency = (TestPlanDependency)theEObject;
+				T result = caseTestPlanDependency(testPlanDependency);
+				if (result == null) result = caseBackboneElement(testPlanDependency);
+				if (result == null) result = caseElement(testPlanDependency);
+				if (result == null) result = caseBase(testPlanDependency);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_PLAN_DEPENDENCY1: {
+				TestPlanDependency1 testPlanDependency1 = (TestPlanDependency1)theEObject;
+				T result = caseTestPlanDependency1(testPlanDependency1);
+				if (result == null) result = caseBackboneElement(testPlanDependency1);
+				if (result == null) result = caseElement(testPlanDependency1);
+				if (result == null) result = caseBase(testPlanDependency1);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_PLAN_SCRIPT: {
+				TestPlanScript testPlanScript = (TestPlanScript)theEObject;
+				T result = caseTestPlanScript(testPlanScript);
+				if (result == null) result = caseBackboneElement(testPlanScript);
+				if (result == null) result = caseElement(testPlanScript);
+				if (result == null) result = caseBase(testPlanScript);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_PLAN_TEST_CASE: {
+				TestPlanTestCase testPlanTestCase = (TestPlanTestCase)theEObject;
+				T result = caseTestPlanTestCase(testPlanTestCase);
+				if (result == null) result = caseBackboneElement(testPlanTestCase);
+				if (result == null) result = caseElement(testPlanTestCase);
+				if (result == null) result = caseBase(testPlanTestCase);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_PLAN_TEST_DATA: {
+				TestPlanTestData testPlanTestData = (TestPlanTestData)theEObject;
+				T result = caseTestPlanTestData(testPlanTestData);
+				if (result == null) result = caseBackboneElement(testPlanTestData);
+				if (result == null) result = caseElement(testPlanTestData);
+				if (result == null) result = caseBase(testPlanTestData);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_PLAN_TEST_RUN: {
+				TestPlanTestRun testPlanTestRun = (TestPlanTestRun)theEObject;
+				T result = caseTestPlanTestRun(testPlanTestRun);
+				if (result == null) result = caseBackboneElement(testPlanTestRun);
+				if (result == null) result = caseElement(testPlanTestRun);
+				if (result == null) result = caseBase(testPlanTestRun);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_REPORT: {
+				TestReport testReport = (TestReport)theEObject;
+				T result = caseTestReport(testReport);
+				if (result == null) result = caseDomainResource(testReport);
+				if (result == null) result = caseResource(testReport);
+				if (result == null) result = caseBase(testReport);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_REPORT_ACTION: {
+				TestReportAction testReportAction = (TestReportAction)theEObject;
+				T result = caseTestReportAction(testReportAction);
+				if (result == null) result = caseBackboneElement(testReportAction);
+				if (result == null) result = caseElement(testReportAction);
+				if (result == null) result = caseBase(testReportAction);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_REPORT_ACTION1: {
+				TestReportAction1 testReportAction1 = (TestReportAction1)theEObject;
+				T result = caseTestReportAction1(testReportAction1);
+				if (result == null) result = caseBackboneElement(testReportAction1);
+				if (result == null) result = caseElement(testReportAction1);
+				if (result == null) result = caseBase(testReportAction1);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_REPORT_ACTION2: {
+				TestReportAction2 testReportAction2 = (TestReportAction2)theEObject;
+				T result = caseTestReportAction2(testReportAction2);
+				if (result == null) result = caseBackboneElement(testReportAction2);
+				if (result == null) result = caseElement(testReportAction2);
+				if (result == null) result = caseBase(testReportAction2);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_REPORT_ACTION_RESULT: {
+				TestReportActionResult testReportActionResult = (TestReportActionResult)theEObject;
+				T result = caseTestReportActionResult(testReportActionResult);
+				if (result == null) result = caseElement(testReportActionResult);
+				if (result == null) result = caseBase(testReportActionResult);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_REPORT_ASSERT: {
+				TestReportAssert testReportAssert = (TestReportAssert)theEObject;
+				T result = caseTestReportAssert(testReportAssert);
+				if (result == null) result = caseBackboneElement(testReportAssert);
+				if (result == null) result = caseElement(testReportAssert);
+				if (result == null) result = caseBase(testReportAssert);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_REPORT_OPERATION: {
+				TestReportOperation testReportOperation = (TestReportOperation)theEObject;
+				T result = caseTestReportOperation(testReportOperation);
+				if (result == null) result = caseBackboneElement(testReportOperation);
+				if (result == null) result = caseElement(testReportOperation);
+				if (result == null) result = caseBase(testReportOperation);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_REPORT_PARTICIPANT: {
+				TestReportParticipant testReportParticipant = (TestReportParticipant)theEObject;
+				T result = caseTestReportParticipant(testReportParticipant);
+				if (result == null) result = caseBackboneElement(testReportParticipant);
+				if (result == null) result = caseElement(testReportParticipant);
+				if (result == null) result = caseBase(testReportParticipant);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_REPORT_PARTICIPANT_TYPE: {
+				TestReportParticipantType testReportParticipantType = (TestReportParticipantType)theEObject;
+				T result = caseTestReportParticipantType(testReportParticipantType);
+				if (result == null) result = caseElement(testReportParticipantType);
+				if (result == null) result = caseBase(testReportParticipantType);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_REPORT_REQUIREMENT: {
+				TestReportRequirement testReportRequirement = (TestReportRequirement)theEObject;
+				T result = caseTestReportRequirement(testReportRequirement);
+				if (result == null) result = caseBackboneElement(testReportRequirement);
+				if (result == null) result = caseElement(testReportRequirement);
+				if (result == null) result = caseBase(testReportRequirement);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_REPORT_RESULT: {
+				TestReportResult testReportResult = (TestReportResult)theEObject;
+				T result = caseTestReportResult(testReportResult);
+				if (result == null) result = caseElement(testReportResult);
+				if (result == null) result = caseBase(testReportResult);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_REPORT_SETUP: {
+				TestReportSetup testReportSetup = (TestReportSetup)theEObject;
+				T result = caseTestReportSetup(testReportSetup);
+				if (result == null) result = caseBackboneElement(testReportSetup);
+				if (result == null) result = caseElement(testReportSetup);
+				if (result == null) result = caseBase(testReportSetup);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_REPORT_STATUS: {
+				TestReportStatus testReportStatus = (TestReportStatus)theEObject;
+				T result = caseTestReportStatus(testReportStatus);
+				if (result == null) result = caseElement(testReportStatus);
+				if (result == null) result = caseBase(testReportStatus);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_REPORT_TEARDOWN: {
+				TestReportTeardown testReportTeardown = (TestReportTeardown)theEObject;
+				T result = caseTestReportTeardown(testReportTeardown);
+				if (result == null) result = caseBackboneElement(testReportTeardown);
+				if (result == null) result = caseElement(testReportTeardown);
+				if (result == null) result = caseBase(testReportTeardown);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_REPORT_TEST: {
+				TestReportTest testReportTest = (TestReportTest)theEObject;
+				T result = caseTestReportTest(testReportTest);
+				if (result == null) result = caseBackboneElement(testReportTest);
+				if (result == null) result = caseElement(testReportTest);
+				if (result == null) result = caseBase(testReportTest);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_SCRIPT: {
+				TestScript testScript = (TestScript)theEObject;
+				T result = caseTestScript(testScript);
+				if (result == null) result = caseCanonicalResource(testScript);
+				if (result == null) result = caseDomainResource(testScript);
+				if (result == null) result = caseResource(testScript);
+				if (result == null) result = caseBase(testScript);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_SCRIPT_ACTION: {
+				TestScriptAction testScriptAction = (TestScriptAction)theEObject;
+				T result = caseTestScriptAction(testScriptAction);
+				if (result == null) result = caseBackboneElement(testScriptAction);
+				if (result == null) result = caseElement(testScriptAction);
+				if (result == null) result = caseBase(testScriptAction);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_SCRIPT_ACTION1: {
+				TestScriptAction1 testScriptAction1 = (TestScriptAction1)theEObject;
+				T result = caseTestScriptAction1(testScriptAction1);
+				if (result == null) result = caseBackboneElement(testScriptAction1);
+				if (result == null) result = caseElement(testScriptAction1);
+				if (result == null) result = caseBase(testScriptAction1);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_SCRIPT_ACTION2: {
+				TestScriptAction2 testScriptAction2 = (TestScriptAction2)theEObject;
+				T result = caseTestScriptAction2(testScriptAction2);
+				if (result == null) result = caseBackboneElement(testScriptAction2);
+				if (result == null) result = caseElement(testScriptAction2);
+				if (result == null) result = caseBase(testScriptAction2);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_SCRIPT_ASSERT: {
+				TestScriptAssert testScriptAssert = (TestScriptAssert)theEObject;
+				T result = caseTestScriptAssert(testScriptAssert);
+				if (result == null) result = caseBackboneElement(testScriptAssert);
+				if (result == null) result = caseElement(testScriptAssert);
+				if (result == null) result = caseBase(testScriptAssert);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_SCRIPT_CAPABILITY: {
+				TestScriptCapability testScriptCapability = (TestScriptCapability)theEObject;
+				T result = caseTestScriptCapability(testScriptCapability);
+				if (result == null) result = caseBackboneElement(testScriptCapability);
+				if (result == null) result = caseElement(testScriptCapability);
+				if (result == null) result = caseBase(testScriptCapability);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_SCRIPT_DESTINATION: {
+				TestScriptDestination testScriptDestination = (TestScriptDestination)theEObject;
+				T result = caseTestScriptDestination(testScriptDestination);
+				if (result == null) result = caseBackboneElement(testScriptDestination);
+				if (result == null) result = caseElement(testScriptDestination);
+				if (result == null) result = caseBase(testScriptDestination);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_SCRIPT_FIXTURE: {
+				TestScriptFixture testScriptFixture = (TestScriptFixture)theEObject;
+				T result = caseTestScriptFixture(testScriptFixture);
+				if (result == null) result = caseBackboneElement(testScriptFixture);
+				if (result == null) result = caseElement(testScriptFixture);
+				if (result == null) result = caseBase(testScriptFixture);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_SCRIPT_LINK: {
+				TestScriptLink testScriptLink = (TestScriptLink)theEObject;
+				T result = caseTestScriptLink(testScriptLink);
+				if (result == null) result = caseBackboneElement(testScriptLink);
+				if (result == null) result = caseElement(testScriptLink);
+				if (result == null) result = caseBase(testScriptLink);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_SCRIPT_METADATA: {
+				TestScriptMetadata testScriptMetadata = (TestScriptMetadata)theEObject;
+				T result = caseTestScriptMetadata(testScriptMetadata);
+				if (result == null) result = caseBackboneElement(testScriptMetadata);
+				if (result == null) result = caseElement(testScriptMetadata);
+				if (result == null) result = caseBase(testScriptMetadata);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_SCRIPT_OPERATION: {
+				TestScriptOperation testScriptOperation = (TestScriptOperation)theEObject;
+				T result = caseTestScriptOperation(testScriptOperation);
+				if (result == null) result = caseBackboneElement(testScriptOperation);
+				if (result == null) result = caseElement(testScriptOperation);
+				if (result == null) result = caseBase(testScriptOperation);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_SCRIPT_ORIGIN: {
+				TestScriptOrigin testScriptOrigin = (TestScriptOrigin)theEObject;
+				T result = caseTestScriptOrigin(testScriptOrigin);
+				if (result == null) result = caseBackboneElement(testScriptOrigin);
+				if (result == null) result = caseElement(testScriptOrigin);
+				if (result == null) result = caseBase(testScriptOrigin);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_SCRIPT_REQUEST_HEADER: {
+				TestScriptRequestHeader testScriptRequestHeader = (TestScriptRequestHeader)theEObject;
+				T result = caseTestScriptRequestHeader(testScriptRequestHeader);
+				if (result == null) result = caseBackboneElement(testScriptRequestHeader);
+				if (result == null) result = caseElement(testScriptRequestHeader);
+				if (result == null) result = caseBase(testScriptRequestHeader);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_SCRIPT_REQUEST_METHOD_CODE: {
+				TestScriptRequestMethodCode testScriptRequestMethodCode = (TestScriptRequestMethodCode)theEObject;
+				T result = caseTestScriptRequestMethodCode(testScriptRequestMethodCode);
+				if (result == null) result = caseElement(testScriptRequestMethodCode);
+				if (result == null) result = caseBase(testScriptRequestMethodCode);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_SCRIPT_REQUIREMENT: {
+				TestScriptRequirement testScriptRequirement = (TestScriptRequirement)theEObject;
+				T result = caseTestScriptRequirement(testScriptRequirement);
+				if (result == null) result = caseBackboneElement(testScriptRequirement);
+				if (result == null) result = caseElement(testScriptRequirement);
+				if (result == null) result = caseBase(testScriptRequirement);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_SCRIPT_SCOPE: {
+				TestScriptScope testScriptScope = (TestScriptScope)theEObject;
+				T result = caseTestScriptScope(testScriptScope);
+				if (result == null) result = caseBackboneElement(testScriptScope);
+				if (result == null) result = caseElement(testScriptScope);
+				if (result == null) result = caseBase(testScriptScope);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_SCRIPT_SETUP: {
+				TestScriptSetup testScriptSetup = (TestScriptSetup)theEObject;
+				T result = caseTestScriptSetup(testScriptSetup);
+				if (result == null) result = caseBackboneElement(testScriptSetup);
+				if (result == null) result = caseElement(testScriptSetup);
+				if (result == null) result = caseBase(testScriptSetup);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_SCRIPT_TEARDOWN: {
+				TestScriptTeardown testScriptTeardown = (TestScriptTeardown)theEObject;
+				T result = caseTestScriptTeardown(testScriptTeardown);
+				if (result == null) result = caseBackboneElement(testScriptTeardown);
+				if (result == null) result = caseElement(testScriptTeardown);
+				if (result == null) result = caseBase(testScriptTeardown);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_SCRIPT_TEST: {
+				TestScriptTest testScriptTest = (TestScriptTest)theEObject;
+				T result = caseTestScriptTest(testScriptTest);
+				if (result == null) result = caseBackboneElement(testScriptTest);
+				if (result == null) result = caseElement(testScriptTest);
+				if (result == null) result = caseBase(testScriptTest);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TEST_SCRIPT_VARIABLE: {
+				TestScriptVariable testScriptVariable = (TestScriptVariable)theEObject;
+				T result = caseTestScriptVariable(testScriptVariable);
+				if (result == null) result = caseBackboneElement(testScriptVariable);
+				if (result == null) result = caseElement(testScriptVariable);
+				if (result == null) result = caseBase(testScriptVariable);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TIME: {
+				Time time = (Time)theEObject;
+				T result = caseTime(time);
+				if (result == null) result = caseElement(time);
+				if (result == null) result = caseBase(time);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TIMING: {
+				Timing timing = (Timing)theEObject;
+				T result = caseTiming(timing);
+				if (result == null) result = caseBackboneType(timing);
+				if (result == null) result = caseDataType(timing);
+				if (result == null) result = caseElement(timing);
+				if (result == null) result = caseBase(timing);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TIMING_REPEAT: {
+				TimingRepeat timingRepeat = (TimingRepeat)theEObject;
+				T result = caseTimingRepeat(timingRepeat);
+				if (result == null) result = caseBackboneType(timingRepeat);
+				if (result == null) result = caseDataType(timingRepeat);
+				if (result == null) result = caseElement(timingRepeat);
+				if (result == null) result = caseBase(timingRepeat);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TRANSPORT: {
+				Transport transport = (Transport)theEObject;
+				T result = caseTransport(transport);
+				if (result == null) result = caseDomainResource(transport);
+				if (result == null) result = caseResource(transport);
+				if (result == null) result = caseBase(transport);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TRANSPORT_INPUT: {
+				TransportInput transportInput = (TransportInput)theEObject;
+				T result = caseTransportInput(transportInput);
+				if (result == null) result = caseBackboneElement(transportInput);
+				if (result == null) result = caseElement(transportInput);
+				if (result == null) result = caseBase(transportInput);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TRANSPORT_INTENT: {
+				TransportIntent transportIntent = (TransportIntent)theEObject;
+				T result = caseTransportIntent(transportIntent);
+				if (result == null) result = caseElement(transportIntent);
+				if (result == null) result = caseBase(transportIntent);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TRANSPORT_OUTPUT: {
+				TransportOutput transportOutput = (TransportOutput)theEObject;
+				T result = caseTransportOutput(transportOutput);
+				if (result == null) result = caseBackboneElement(transportOutput);
+				if (result == null) result = caseElement(transportOutput);
+				if (result == null) result = caseBase(transportOutput);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TRANSPORT_RESTRICTION: {
+				TransportRestriction transportRestriction = (TransportRestriction)theEObject;
+				T result = caseTransportRestriction(transportRestriction);
+				if (result == null) result = caseBackboneElement(transportRestriction);
+				if (result == null) result = caseElement(transportRestriction);
+				if (result == null) result = caseBase(transportRestriction);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TRANSPORT_STATUS: {
+				TransportStatus transportStatus = (TransportStatus)theEObject;
+				T result = caseTransportStatus(transportStatus);
+				if (result == null) result = caseElement(transportStatus);
+				if (result == null) result = caseBase(transportStatus);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TRIGGER_DEFINITION: {
+				TriggerDefinition triggerDefinition = (TriggerDefinition)theEObject;
+				T result = caseTriggerDefinition(triggerDefinition);
+				if (result == null) result = caseDataType(triggerDefinition);
+				if (result == null) result = caseElement(triggerDefinition);
+				if (result == null) result = caseBase(triggerDefinition);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TRIGGERED_BYTYPE: {
+				TriggeredBytype triggeredBytype = (TriggeredBytype)theEObject;
+				T result = caseTriggeredBytype(triggeredBytype);
+				if (result == null) result = caseElement(triggeredBytype);
+				if (result == null) result = caseBase(triggeredBytype);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TRIGGER_TYPE: {
+				TriggerType triggerType = (TriggerType)theEObject;
+				T result = caseTriggerType(triggerType);
+				if (result == null) result = caseElement(triggerType);
+				if (result == null) result = caseBase(triggerType);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TYPE_DERIVATION_RULE: {
+				TypeDerivationRule typeDerivationRule = (TypeDerivationRule)theEObject;
+				T result = caseTypeDerivationRule(typeDerivationRule);
+				if (result == null) result = caseElement(typeDerivationRule);
+				if (result == null) result = caseBase(typeDerivationRule);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.TYPE_RESTFUL_INTERACTION: {
+				TypeRestfulInteraction typeRestfulInteraction = (TypeRestfulInteraction)theEObject;
+				T result = caseTypeRestfulInteraction(typeRestfulInteraction);
+				if (result == null) result = caseElement(typeRestfulInteraction);
+				if (result == null) result = caseBase(typeRestfulInteraction);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.UDI_ENTRY_TYPE: {
+				UDIEntryType udiEntryType = (UDIEntryType)theEObject;
+				T result = caseUDIEntryType(udiEntryType);
+				if (result == null) result = caseElement(udiEntryType);
+				if (result == null) result = caseBase(udiEntryType);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.UNITS_OF_TIME: {
+				UnitsOfTime unitsOfTime = (UnitsOfTime)theEObject;
+				T result = caseUnitsOfTime(unitsOfTime);
+				if (result == null) result = caseElement(unitsOfTime);
+				if (result == null) result = caseBase(unitsOfTime);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.UNSIGNED_INT: {
+				UnsignedInt unsignedInt = (UnsignedInt)theEObject;
+				T result = caseUnsignedInt(unsignedInt);
+				if (result == null) result = caseElement(unsignedInt);
+				if (result == null) result = caseBase(unsignedInt);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.URI: {
+				Uri uri = (Uri)theEObject;
+				T result = caseUri(uri);
+				if (result == null) result = caseElement(uri);
+				if (result == null) result = caseBase(uri);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.URL: {
+				Url url = (Url)theEObject;
+				T result = caseUrl(url);
+				if (result == null) result = caseElement(url);
+				if (result == null) result = caseBase(url);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.USAGE_CONTEXT: {
+				UsageContext usageContext = (UsageContext)theEObject;
+				T result = caseUsageContext(usageContext);
+				if (result == null) result = caseDataType(usageContext);
+				if (result == null) result = caseElement(usageContext);
+				if (result == null) result = caseBase(usageContext);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.USE: {
+				Use use = (Use)theEObject;
+				T result = caseUse(use);
+				if (result == null) result = caseElement(use);
+				if (result == null) result = caseBase(use);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.UUID: {
+				Uuid uuid = (Uuid)theEObject;
+				T result = caseUuid(uuid);
+				if (result == null) result = caseElement(uuid);
+				if (result == null) result = caseBase(uuid);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.VALUE_SET: {
+				ValueSet valueSet = (ValueSet)theEObject;
+				T result = caseValueSet(valueSet);
+				if (result == null) result = caseMetadataResource(valueSet);
+				if (result == null) result = caseCanonicalResource(valueSet);
+				if (result == null) result = caseDomainResource(valueSet);
+				if (result == null) result = caseResource(valueSet);
+				if (result == null) result = caseBase(valueSet);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.VALUE_SET_COMPOSE: {
+				ValueSetCompose valueSetCompose = (ValueSetCompose)theEObject;
+				T result = caseValueSetCompose(valueSetCompose);
+				if (result == null) result = caseBackboneElement(valueSetCompose);
+				if (result == null) result = caseElement(valueSetCompose);
+				if (result == null) result = caseBase(valueSetCompose);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.VALUE_SET_CONCEPT: {
+				ValueSetConcept valueSetConcept = (ValueSetConcept)theEObject;
+				T result = caseValueSetConcept(valueSetConcept);
+				if (result == null) result = caseBackboneElement(valueSetConcept);
+				if (result == null) result = caseElement(valueSetConcept);
+				if (result == null) result = caseBase(valueSetConcept);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.VALUE_SET_CONTAINS: {
+				ValueSetContains valueSetContains = (ValueSetContains)theEObject;
+				T result = caseValueSetContains(valueSetContains);
+				if (result == null) result = caseBackboneElement(valueSetContains);
+				if (result == null) result = caseElement(valueSetContains);
+				if (result == null) result = caseBase(valueSetContains);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.VALUE_SET_DESIGNATION: {
+				ValueSetDesignation valueSetDesignation = (ValueSetDesignation)theEObject;
+				T result = caseValueSetDesignation(valueSetDesignation);
+				if (result == null) result = caseBackboneElement(valueSetDesignation);
+				if (result == null) result = caseElement(valueSetDesignation);
+				if (result == null) result = caseBase(valueSetDesignation);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.VALUE_SET_EXPANSION: {
+				ValueSetExpansion valueSetExpansion = (ValueSetExpansion)theEObject;
+				T result = caseValueSetExpansion(valueSetExpansion);
+				if (result == null) result = caseBackboneElement(valueSetExpansion);
+				if (result == null) result = caseElement(valueSetExpansion);
+				if (result == null) result = caseBase(valueSetExpansion);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.VALUE_SET_FILTER: {
+				ValueSetFilter valueSetFilter = (ValueSetFilter)theEObject;
+				T result = caseValueSetFilter(valueSetFilter);
+				if (result == null) result = caseBackboneElement(valueSetFilter);
+				if (result == null) result = caseElement(valueSetFilter);
+				if (result == null) result = caseBase(valueSetFilter);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.VALUE_SET_INCLUDE: {
+				ValueSetInclude valueSetInclude = (ValueSetInclude)theEObject;
+				T result = caseValueSetInclude(valueSetInclude);
+				if (result == null) result = caseBackboneElement(valueSetInclude);
+				if (result == null) result = caseElement(valueSetInclude);
+				if (result == null) result = caseBase(valueSetInclude);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.VALUE_SET_PARAMETER: {
+				ValueSetParameter valueSetParameter = (ValueSetParameter)theEObject;
+				T result = caseValueSetParameter(valueSetParameter);
+				if (result == null) result = caseBackboneElement(valueSetParameter);
+				if (result == null) result = caseElement(valueSetParameter);
+				if (result == null) result = caseBase(valueSetParameter);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.VALUE_SET_PROPERTY: {
+				ValueSetProperty valueSetProperty = (ValueSetProperty)theEObject;
+				T result = caseValueSetProperty(valueSetProperty);
+				if (result == null) result = caseBackboneElement(valueSetProperty);
+				if (result == null) result = caseElement(valueSetProperty);
+				if (result == null) result = caseBase(valueSetProperty);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.VALUE_SET_PROPERTY1: {
+				ValueSetProperty1 valueSetProperty1 = (ValueSetProperty1)theEObject;
+				T result = caseValueSetProperty1(valueSetProperty1);
+				if (result == null) result = caseBackboneElement(valueSetProperty1);
+				if (result == null) result = caseElement(valueSetProperty1);
+				if (result == null) result = caseBase(valueSetProperty1);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.VALUE_SET_SCOPE: {
+				ValueSetScope valueSetScope = (ValueSetScope)theEObject;
+				T result = caseValueSetScope(valueSetScope);
+				if (result == null) result = caseBackboneElement(valueSetScope);
+				if (result == null) result = caseElement(valueSetScope);
+				if (result == null) result = caseBase(valueSetScope);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.VALUE_SET_SUB_PROPERTY: {
+				ValueSetSubProperty valueSetSubProperty = (ValueSetSubProperty)theEObject;
+				T result = caseValueSetSubProperty(valueSetSubProperty);
+				if (result == null) result = caseBackboneElement(valueSetSubProperty);
+				if (result == null) result = caseElement(valueSetSubProperty);
+				if (result == null) result = caseBase(valueSetSubProperty);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.VERIFICATION_RESULT: {
+				VerificationResult verificationResult = (VerificationResult)theEObject;
+				T result = caseVerificationResult(verificationResult);
+				if (result == null) result = caseDomainResource(verificationResult);
+				if (result == null) result = caseResource(verificationResult);
+				if (result == null) result = caseBase(verificationResult);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.VERIFICATION_RESULT_ATTESTATION: {
+				VerificationResultAttestation verificationResultAttestation = (VerificationResultAttestation)theEObject;
+				T result = caseVerificationResultAttestation(verificationResultAttestation);
+				if (result == null) result = caseBackboneElement(verificationResultAttestation);
+				if (result == null) result = caseElement(verificationResultAttestation);
+				if (result == null) result = caseBase(verificationResultAttestation);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.VERIFICATION_RESULT_PRIMARY_SOURCE: {
+				VerificationResultPrimarySource verificationResultPrimarySource = (VerificationResultPrimarySource)theEObject;
+				T result = caseVerificationResultPrimarySource(verificationResultPrimarySource);
+				if (result == null) result = caseBackboneElement(verificationResultPrimarySource);
+				if (result == null) result = caseElement(verificationResultPrimarySource);
+				if (result == null) result = caseBase(verificationResultPrimarySource);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.VERIFICATION_RESULT_STATUS: {
+				VerificationResultStatus verificationResultStatus = (VerificationResultStatus)theEObject;
+				T result = caseVerificationResultStatus(verificationResultStatus);
+				if (result == null) result = caseElement(verificationResultStatus);
+				if (result == null) result = caseBase(verificationResultStatus);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.VERIFICATION_RESULT_VALIDATOR: {
+				VerificationResultValidator verificationResultValidator = (VerificationResultValidator)theEObject;
+				T result = caseVerificationResultValidator(verificationResultValidator);
+				if (result == null) result = caseBackboneElement(verificationResultValidator);
+				if (result == null) result = caseElement(verificationResultValidator);
+				if (result == null) result = caseBase(verificationResultValidator);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.VERSION_INDEPENDENT_RESOURCE_TYPES_ALL: {
+				VersionIndependentResourceTypesAll versionIndependentResourceTypesAll = (VersionIndependentResourceTypesAll)theEObject;
+				T result = caseVersionIndependentResourceTypesAll(versionIndependentResourceTypesAll);
+				if (result == null) result = caseElement(versionIndependentResourceTypesAll);
+				if (result == null) result = caseBase(versionIndependentResourceTypesAll);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.VIRTUAL_SERVICE_DETAIL: {
+				VirtualServiceDetail virtualServiceDetail = (VirtualServiceDetail)theEObject;
+				T result = caseVirtualServiceDetail(virtualServiceDetail);
+				if (result == null) result = caseDataType(virtualServiceDetail);
+				if (result == null) result = caseElement(virtualServiceDetail);
+				if (result == null) result = caseBase(virtualServiceDetail);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.VISION_BASE: {
+				VisionBase visionBase = (VisionBase)theEObject;
+				T result = caseVisionBase(visionBase);
+				if (result == null) result = caseElement(visionBase);
+				if (result == null) result = caseBase(visionBase);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.VISION_EYES: {
+				VisionEyes visionEyes = (VisionEyes)theEObject;
+				T result = caseVisionEyes(visionEyes);
+				if (result == null) result = caseElement(visionEyes);
+				if (result == null) result = caseBase(visionEyes);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.VISION_PRESCRIPTION: {
+				VisionPrescription visionPrescription = (VisionPrescription)theEObject;
+				T result = caseVisionPrescription(visionPrescription);
+				if (result == null) result = caseDomainResource(visionPrescription);
+				if (result == null) result = caseResource(visionPrescription);
+				if (result == null) result = caseBase(visionPrescription);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.VISION_PRESCRIPTION_LENS_SPECIFICATION: {
+				VisionPrescriptionLensSpecification visionPrescriptionLensSpecification = (VisionPrescriptionLensSpecification)theEObject;
+				T result = caseVisionPrescriptionLensSpecification(visionPrescriptionLensSpecification);
+				if (result == null) result = caseBackboneElement(visionPrescriptionLensSpecification);
+				if (result == null) result = caseElement(visionPrescriptionLensSpecification);
+				if (result == null) result = caseBase(visionPrescriptionLensSpecification);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case FhirPackage.VISION_PRESCRIPTION_PRISM: {
+				VisionPrescriptionPrism visionPrescriptionPrism = (VisionPrescriptionPrism)theEObject;
+				T result = caseVisionPrescriptionPrism(visionPrescriptionPrism);
+				if (result == null) result = caseBackboneElement(visionPrescriptionPrism);
+				if (result == null) result = caseElement(visionPrescriptionPrism);
+				if (result == null) result = caseBase(visionPrescriptionPrism);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
 			default: return defaultCase(theEObject);
 		}
 	}

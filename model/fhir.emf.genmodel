@@ -3,7 +3,7 @@
     xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/fhir.emf-5.0.0/gen/main/java" modelPluginID="fhir.emf-5.0.0"
     modelName="Fhir" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
     testsDirectory="/fhir.emf-5.0.0.tests/gen/test/java" importerID="org.eclipse.xsd.ecore.importer"
-    complianceLevel="5.0" copyrightFields="false" operationReflection="true" importOrganizing="true">
+    complianceLevel="17.0" copyrightFields="false" operationReflection="true" importOrganizing="true">
   <foreignModel>fhir-all.xsd</foreignModel>
   <genPackages prefix="Xhtml" basePackage="org.w3._1999" resource="XML" disposableProviderFactory="true"
       loadInitialization="true" literalsInterface="false" ecorePackage="xhtml.ecore#/">

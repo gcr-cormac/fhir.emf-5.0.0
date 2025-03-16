@@ -11,7 +11,7 @@
       <package
             uri="http://www.w3.org/1999/xhtml"
             class="org.w3._1999.xhtml.XhtmlPackage"
-            genModel="fhir.emf.genmodel"/>
+            genModel="model/fhir.emf.genmodel"/>
    </extension>
 
    <extension point="org.eclipse.emf.ecore.extension_parser">
@@ -26,7 +26,7 @@
       <package
             uri="http://www.w3.org/XML/1998/namespace"
             class="org.w3.xml._1998.namespace.NamespacePackage"
-            genModel="fhir.emf.genmodel"/>
+            genModel="model/fhir.emf.genmodel"/>
    </extension>
 
    <extension point="org.eclipse.emf.ecore.extension_parser">
@@ -41,7 +41,7 @@
       <package
             uri="http://hl7.org/fhir"
             class="org.hl7.fhir.FhirPackage"
-            genModel="fhir.emf.genmodel"/>
+            genModel="model/fhir.emf.genmodel"/>
    </extension>
 
    <extension point="org.eclipse.emf.ecore.extension_parser">
