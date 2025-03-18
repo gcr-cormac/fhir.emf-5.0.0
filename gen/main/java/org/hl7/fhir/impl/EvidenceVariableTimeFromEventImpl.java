@@ -153,6 +153,7 @@ public class EvidenceVariableTimeFromEventImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -177,6 +178,7 @@ public class EvidenceVariableTimeFromEventImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -196,6 +198,7 @@ public class EvidenceVariableTimeFromEventImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.EVIDENCE_VARIABLE_TIME_FROM_EVENT__NOTE);
@@ -208,6 +211,7 @@ public class EvidenceVariableTimeFromEventImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getEventCodeableConcept() {
 		return eventCodeableConcept;
 	}
@@ -232,6 +236,7 @@ public class EvidenceVariableTimeFromEventImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEventCodeableConcept(CodeableConcept newEventCodeableConcept) {
 		if (newEventCodeableConcept != eventCodeableConcept) {
 			NotificationChain msgs = null;
@@ -251,6 +256,7 @@ public class EvidenceVariableTimeFromEventImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getEventReference() {
 		return eventReference;
 	}
@@ -275,6 +281,7 @@ public class EvidenceVariableTimeFromEventImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEventReference(Reference newEventReference) {
 		if (newEventReference != eventReference) {
 			NotificationChain msgs = null;
@@ -294,6 +301,7 @@ public class EvidenceVariableTimeFromEventImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getEventDateTime() {
 		return eventDateTime;
 	}
@@ -318,6 +326,7 @@ public class EvidenceVariableTimeFromEventImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEventDateTime(DateTime newEventDateTime) {
 		if (newEventDateTime != eventDateTime) {
 			NotificationChain msgs = null;
@@ -337,6 +346,7 @@ public class EvidenceVariableTimeFromEventImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Id getEventId() {
 		return eventId;
 	}
@@ -361,6 +371,7 @@ public class EvidenceVariableTimeFromEventImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEventId(Id newEventId) {
 		if (newEventId != eventId) {
 			NotificationChain msgs = null;
@@ -380,6 +391,7 @@ public class EvidenceVariableTimeFromEventImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getQuantity() {
 		return quantity;
 	}
@@ -404,6 +416,7 @@ public class EvidenceVariableTimeFromEventImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setQuantity(Quantity newQuantity) {
 		if (newQuantity != quantity) {
 			NotificationChain msgs = null;
@@ -423,6 +436,7 @@ public class EvidenceVariableTimeFromEventImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Range getRange() {
 		return range;
 	}
@@ -447,6 +461,7 @@ public class EvidenceVariableTimeFromEventImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRange(Range newRange) {
 		if (newRange != range) {
 			NotificationChain msgs = null;

@@ -79,6 +79,7 @@ public class VisionEyesImpl extends ElementImpl implements VisionEyes {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public VisionEyesEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class VisionEyesImpl extends ElementImpl implements VisionEyes {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(VisionEyesEnum newValue) {
 		VisionEyesEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class VisionEyesImpl extends ElementImpl implements VisionEyes {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		VisionEyesEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class VisionEyesImpl extends ElementImpl implements VisionEyes {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

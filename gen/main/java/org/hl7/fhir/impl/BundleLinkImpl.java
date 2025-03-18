@@ -74,6 +74,7 @@ public class BundleLinkImpl extends BackboneElementImpl implements BundleLink {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public LinkRelationTypes getRelation() {
 		return relation;
 	}
@@ -98,6 +99,7 @@ public class BundleLinkImpl extends BackboneElementImpl implements BundleLink {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRelation(LinkRelationTypes newRelation) {
 		if (newRelation != relation) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class BundleLinkImpl extends BackboneElementImpl implements BundleLink {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getUrl() {
 		return url;
 	}
@@ -141,6 +144,7 @@ public class BundleLinkImpl extends BackboneElementImpl implements BundleLink {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUrl(Uri newUrl) {
 		if (newUrl != url) {
 			NotificationChain msgs = null;

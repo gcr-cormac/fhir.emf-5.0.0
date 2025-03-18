@@ -115,6 +115,7 @@ public class BodyStructureIncludedStructureImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getStructure() {
 		return structure;
 	}
@@ -139,6 +140,7 @@ public class BodyStructureIncludedStructureImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStructure(CodeableConcept newStructure) {
 		if (newStructure != structure) {
 			NotificationChain msgs = null;
@@ -158,6 +160,7 @@ public class BodyStructureIncludedStructureImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getLaterality() {
 		return laterality;
 	}
@@ -182,6 +185,7 @@ public class BodyStructureIncludedStructureImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLaterality(CodeableConcept newLaterality) {
 		if (newLaterality != laterality) {
 			NotificationChain msgs = null;
@@ -201,6 +205,7 @@ public class BodyStructureIncludedStructureImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<BodyStructureBodyLandmarkOrientation> getBodyLandmarkOrientation() {
 		if (bodyLandmarkOrientation == null) {
 			bodyLandmarkOrientation = new EObjectContainmentEList<BodyStructureBodyLandmarkOrientation>(BodyStructureBodyLandmarkOrientation.class, this, FhirPackage.BODY_STRUCTURE_INCLUDED_STRUCTURE__BODY_LANDMARK_ORIENTATION);
@@ -213,6 +218,7 @@ public class BodyStructureIncludedStructureImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getSpatialReference() {
 		if (spatialReference == null) {
 			spatialReference = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.BODY_STRUCTURE_INCLUDED_STRUCTURE__SPATIAL_REFERENCE);
@@ -225,6 +231,7 @@ public class BodyStructureIncludedStructureImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getQualifier() {
 		if (qualifier == null) {
 			qualifier = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.BODY_STRUCTURE_INCLUDED_STRUCTURE__QUALIFIER);

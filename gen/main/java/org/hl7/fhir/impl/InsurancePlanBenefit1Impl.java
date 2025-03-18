@@ -81,6 +81,7 @@ public class InsurancePlanBenefit1Impl extends BackboneElementImpl implements In
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -105,6 +106,7 @@ public class InsurancePlanBenefit1Impl extends BackboneElementImpl implements In
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -124,6 +126,7 @@ public class InsurancePlanBenefit1Impl extends BackboneElementImpl implements In
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<InsurancePlanCost> getCost() {
 		if (cost == null) {
 			cost = new EObjectContainmentEList<InsurancePlanCost>(InsurancePlanCost.class, this, FhirPackage.INSURANCE_PLAN_BENEFIT1__COST);

@@ -74,6 +74,7 @@ public class GenomicStudyOutputImpl extends BackboneElementImpl implements Genom
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getFile() {
 		return file;
 	}
@@ -98,6 +99,7 @@ public class GenomicStudyOutputImpl extends BackboneElementImpl implements Genom
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFile(Reference newFile) {
 		if (newFile != file) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class GenomicStudyOutputImpl extends BackboneElementImpl implements Genom
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -141,6 +144,7 @@ public class GenomicStudyOutputImpl extends BackboneElementImpl implements Genom
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;

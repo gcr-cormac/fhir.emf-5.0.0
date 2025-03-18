@@ -81,6 +81,7 @@ public class MedicationKnowledgeRelatedMedicationKnowledgeImpl extends BackboneE
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -105,6 +106,7 @@ public class MedicationKnowledgeRelatedMedicationKnowledgeImpl extends BackboneE
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -124,6 +126,7 @@ public class MedicationKnowledgeRelatedMedicationKnowledgeImpl extends BackboneE
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getReference() {
 		if (reference == null) {
 			reference = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.MEDICATION_KNOWLEDGE_RELATED_MEDICATION_KNOWLEDGE__REFERENCE);

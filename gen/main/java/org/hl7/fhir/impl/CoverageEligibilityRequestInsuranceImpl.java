@@ -84,6 +84,7 @@ public class CoverageEligibilityRequestInsuranceImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getFocal() {
 		return focal;
 	}
@@ -108,6 +109,7 @@ public class CoverageEligibilityRequestInsuranceImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFocal(org.hl7.fhir.Boolean newFocal) {
 		if (newFocal != focal) {
 			NotificationChain msgs = null;
@@ -127,6 +129,7 @@ public class CoverageEligibilityRequestInsuranceImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getCoverage() {
 		return coverage;
 	}
@@ -151,6 +154,7 @@ public class CoverageEligibilityRequestInsuranceImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCoverage(Reference newCoverage) {
 		if (newCoverage != coverage) {
 			NotificationChain msgs = null;
@@ -170,6 +174,7 @@ public class CoverageEligibilityRequestInsuranceImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getBusinessArrangement() {
 		return businessArrangement;
 	}
@@ -194,6 +199,7 @@ public class CoverageEligibilityRequestInsuranceImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBusinessArrangement(org.hl7.fhir.String newBusinessArrangement) {
 		if (newBusinessArrangement != businessArrangement) {
 			NotificationChain msgs = null;

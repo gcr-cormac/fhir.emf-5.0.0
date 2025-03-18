@@ -74,6 +74,7 @@ public class DocumentReferenceRelatesToImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -98,6 +99,7 @@ public class DocumentReferenceRelatesToImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class DocumentReferenceRelatesToImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getTarget() {
 		return target;
 	}
@@ -141,6 +144,7 @@ public class DocumentReferenceRelatesToImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTarget(Reference newTarget) {
 		if (newTarget != target) {
 			NotificationChain msgs = null;

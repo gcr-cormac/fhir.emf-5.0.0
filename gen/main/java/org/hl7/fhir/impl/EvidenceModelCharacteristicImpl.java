@@ -105,6 +105,7 @@ public class EvidenceModelCharacteristicImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -129,6 +130,7 @@ public class EvidenceModelCharacteristicImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -148,6 +150,7 @@ public class EvidenceModelCharacteristicImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getValue() {
 		return value;
 	}
@@ -172,6 +175,7 @@ public class EvidenceModelCharacteristicImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(Quantity newValue) {
 		if (newValue != value) {
 			NotificationChain msgs = null;
@@ -191,6 +195,7 @@ public class EvidenceModelCharacteristicImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<EvidenceVariable1> getVariable() {
 		if (variable == null) {
 			variable = new EObjectContainmentEList<EvidenceVariable1>(EvidenceVariable1.class, this, FhirPackage.EVIDENCE_MODEL_CHARACTERISTIC__VARIABLE);
@@ -203,6 +208,7 @@ public class EvidenceModelCharacteristicImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<EvidenceAttributeEstimate> getAttributeEstimate() {
 		if (attributeEstimate == null) {
 			attributeEstimate = new EObjectContainmentEList<EvidenceAttributeEstimate>(EvidenceAttributeEstimate.class, this, FhirPackage.EVIDENCE_MODEL_CHARACTERISTIC__ATTRIBUTE_ESTIMATE);

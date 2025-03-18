@@ -139,6 +139,7 @@ public class SignatureImpl extends DataTypeImpl implements Signature {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Coding> getType() {
 		if (type == null) {
 			type = new EObjectContainmentEList<Coding>(Coding.class, this, FhirPackage.SIGNATURE__TYPE);
@@ -151,6 +152,7 @@ public class SignatureImpl extends DataTypeImpl implements Signature {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Instant getWhen() {
 		return when;
 	}
@@ -175,6 +177,7 @@ public class SignatureImpl extends DataTypeImpl implements Signature {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setWhen(Instant newWhen) {
 		if (newWhen != when) {
 			NotificationChain msgs = null;
@@ -194,6 +197,7 @@ public class SignatureImpl extends DataTypeImpl implements Signature {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getWho() {
 		return who;
 	}
@@ -218,6 +222,7 @@ public class SignatureImpl extends DataTypeImpl implements Signature {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setWho(Reference newWho) {
 		if (newWho != who) {
 			NotificationChain msgs = null;
@@ -237,6 +242,7 @@ public class SignatureImpl extends DataTypeImpl implements Signature {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getOnBehalfOf() {
 		return onBehalfOf;
 	}
@@ -261,6 +267,7 @@ public class SignatureImpl extends DataTypeImpl implements Signature {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOnBehalfOf(Reference newOnBehalfOf) {
 		if (newOnBehalfOf != onBehalfOf) {
 			NotificationChain msgs = null;
@@ -280,6 +287,7 @@ public class SignatureImpl extends DataTypeImpl implements Signature {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Code getTargetFormat() {
 		return targetFormat;
 	}
@@ -304,6 +312,7 @@ public class SignatureImpl extends DataTypeImpl implements Signature {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTargetFormat(Code newTargetFormat) {
 		if (newTargetFormat != targetFormat) {
 			NotificationChain msgs = null;
@@ -323,6 +332,7 @@ public class SignatureImpl extends DataTypeImpl implements Signature {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Code getSigFormat() {
 		return sigFormat;
 	}
@@ -347,6 +357,7 @@ public class SignatureImpl extends DataTypeImpl implements Signature {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSigFormat(Code newSigFormat) {
 		if (newSigFormat != sigFormat) {
 			NotificationChain msgs = null;
@@ -366,6 +377,7 @@ public class SignatureImpl extends DataTypeImpl implements Signature {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Base64Binary getData() {
 		return data;
 	}
@@ -390,6 +402,7 @@ public class SignatureImpl extends DataTypeImpl implements Signature {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setData(Base64Binary newData) {
 		if (newData != data) {
 			NotificationChain msgs = null;

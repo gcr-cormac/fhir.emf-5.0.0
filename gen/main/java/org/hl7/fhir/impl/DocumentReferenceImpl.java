@@ -322,6 +322,7 @@ public class DocumentReferenceImpl extends DomainResourceImpl implements Documen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.DOCUMENT_REFERENCE__IDENTIFIER);
@@ -334,6 +335,7 @@ public class DocumentReferenceImpl extends DomainResourceImpl implements Documen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersion() {
 		return version;
 	}
@@ -358,6 +360,7 @@ public class DocumentReferenceImpl extends DomainResourceImpl implements Documen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersion(org.hl7.fhir.String newVersion) {
 		if (newVersion != version) {
 			NotificationChain msgs = null;
@@ -377,6 +380,7 @@ public class DocumentReferenceImpl extends DomainResourceImpl implements Documen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getBasedOn() {
 		if (basedOn == null) {
 			basedOn = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.DOCUMENT_REFERENCE__BASED_ON);
@@ -389,6 +393,7 @@ public class DocumentReferenceImpl extends DomainResourceImpl implements Documen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DocumentReferenceStatus getStatus() {
 		return status;
 	}
@@ -413,6 +418,7 @@ public class DocumentReferenceImpl extends DomainResourceImpl implements Documen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(DocumentReferenceStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -432,6 +438,7 @@ public class DocumentReferenceImpl extends DomainResourceImpl implements Documen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CompositionStatus getDocStatus() {
 		return docStatus;
 	}
@@ -456,6 +463,7 @@ public class DocumentReferenceImpl extends DomainResourceImpl implements Documen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDocStatus(CompositionStatus newDocStatus) {
 		if (newDocStatus != docStatus) {
 			NotificationChain msgs = null;
@@ -475,6 +483,7 @@ public class DocumentReferenceImpl extends DomainResourceImpl implements Documen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getModality() {
 		if (modality == null) {
 			modality = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.DOCUMENT_REFERENCE__MODALITY);
@@ -487,6 +496,7 @@ public class DocumentReferenceImpl extends DomainResourceImpl implements Documen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -511,6 +521,7 @@ public class DocumentReferenceImpl extends DomainResourceImpl implements Documen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -530,6 +541,7 @@ public class DocumentReferenceImpl extends DomainResourceImpl implements Documen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCategory() {
 		if (category == null) {
 			category = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.DOCUMENT_REFERENCE__CATEGORY);
@@ -542,6 +554,7 @@ public class DocumentReferenceImpl extends DomainResourceImpl implements Documen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubject() {
 		return subject;
 	}
@@ -566,6 +579,7 @@ public class DocumentReferenceImpl extends DomainResourceImpl implements Documen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubject(Reference newSubject) {
 		if (newSubject != subject) {
 			NotificationChain msgs = null;
@@ -585,6 +599,7 @@ public class DocumentReferenceImpl extends DomainResourceImpl implements Documen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getContext() {
 		if (context == null) {
 			context = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.DOCUMENT_REFERENCE__CONTEXT);
@@ -597,6 +612,7 @@ public class DocumentReferenceImpl extends DomainResourceImpl implements Documen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getEvent() {
 		if (event == null) {
 			event = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.DOCUMENT_REFERENCE__EVENT);
@@ -609,6 +625,7 @@ public class DocumentReferenceImpl extends DomainResourceImpl implements Documen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getBodySite() {
 		if (bodySite == null) {
 			bodySite = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.DOCUMENT_REFERENCE__BODY_SITE);
@@ -621,6 +638,7 @@ public class DocumentReferenceImpl extends DomainResourceImpl implements Documen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getFacilityType() {
 		return facilityType;
 	}
@@ -645,6 +663,7 @@ public class DocumentReferenceImpl extends DomainResourceImpl implements Documen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFacilityType(CodeableConcept newFacilityType) {
 		if (newFacilityType != facilityType) {
 			NotificationChain msgs = null;
@@ -664,6 +683,7 @@ public class DocumentReferenceImpl extends DomainResourceImpl implements Documen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getPracticeSetting() {
 		return practiceSetting;
 	}
@@ -688,6 +708,7 @@ public class DocumentReferenceImpl extends DomainResourceImpl implements Documen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPracticeSetting(CodeableConcept newPracticeSetting) {
 		if (newPracticeSetting != practiceSetting) {
 			NotificationChain msgs = null;
@@ -707,6 +728,7 @@ public class DocumentReferenceImpl extends DomainResourceImpl implements Documen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getPeriod() {
 		return period;
 	}
@@ -731,6 +753,7 @@ public class DocumentReferenceImpl extends DomainResourceImpl implements Documen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriod(Period newPeriod) {
 		if (newPeriod != period) {
 			NotificationChain msgs = null;
@@ -750,6 +773,7 @@ public class DocumentReferenceImpl extends DomainResourceImpl implements Documen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Instant getDate() {
 		return date;
 	}
@@ -774,6 +798,7 @@ public class DocumentReferenceImpl extends DomainResourceImpl implements Documen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDate(Instant newDate) {
 		if (newDate != date) {
 			NotificationChain msgs = null;
@@ -793,6 +818,7 @@ public class DocumentReferenceImpl extends DomainResourceImpl implements Documen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getAuthor() {
 		if (author == null) {
 			author = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.DOCUMENT_REFERENCE__AUTHOR);
@@ -805,6 +831,7 @@ public class DocumentReferenceImpl extends DomainResourceImpl implements Documen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<DocumentReferenceAttester> getAttester() {
 		if (attester == null) {
 			attester = new EObjectContainmentEList<DocumentReferenceAttester>(DocumentReferenceAttester.class, this, FhirPackage.DOCUMENT_REFERENCE__ATTESTER);
@@ -817,6 +844,7 @@ public class DocumentReferenceImpl extends DomainResourceImpl implements Documen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getCustodian() {
 		return custodian;
 	}
@@ -841,6 +869,7 @@ public class DocumentReferenceImpl extends DomainResourceImpl implements Documen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCustodian(Reference newCustodian) {
 		if (newCustodian != custodian) {
 			NotificationChain msgs = null;
@@ -860,6 +889,7 @@ public class DocumentReferenceImpl extends DomainResourceImpl implements Documen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<DocumentReferenceRelatesTo> getRelatesTo() {
 		if (relatesTo == null) {
 			relatesTo = new EObjectContainmentEList<DocumentReferenceRelatesTo>(DocumentReferenceRelatesTo.class, this, FhirPackage.DOCUMENT_REFERENCE__RELATES_TO);
@@ -872,6 +902,7 @@ public class DocumentReferenceImpl extends DomainResourceImpl implements Documen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -896,6 +927,7 @@ public class DocumentReferenceImpl extends DomainResourceImpl implements Documen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -915,6 +947,7 @@ public class DocumentReferenceImpl extends DomainResourceImpl implements Documen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getSecurityLabel() {
 		if (securityLabel == null) {
 			securityLabel = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.DOCUMENT_REFERENCE__SECURITY_LABEL);
@@ -927,6 +960,7 @@ public class DocumentReferenceImpl extends DomainResourceImpl implements Documen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<DocumentReferenceContent> getContent() {
 		if (content == null) {
 			content = new EObjectContainmentEList<DocumentReferenceContent>(DocumentReferenceContent.class, this, FhirPackage.DOCUMENT_REFERENCE__CONTENT);

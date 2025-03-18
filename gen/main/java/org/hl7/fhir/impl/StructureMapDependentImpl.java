@@ -81,6 +81,7 @@ public class StructureMapDependentImpl extends BackboneElementImpl implements St
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Id getName() {
 		return name;
 	}
@@ -105,6 +106,7 @@ public class StructureMapDependentImpl extends BackboneElementImpl implements St
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(Id newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -124,6 +126,7 @@ public class StructureMapDependentImpl extends BackboneElementImpl implements St
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<StructureMapParameter> getParameter() {
 		if (parameter == null) {
 			parameter = new EObjectContainmentEList<StructureMapParameter>(StructureMapParameter.class, this, FhirPackage.STRUCTURE_MAP_DEPENDENT__PARAMETER);

@@ -79,6 +79,7 @@ public class ActionSelectionBehaviorImpl extends ElementImpl implements ActionSe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ActionSelectionBehaviorEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ActionSelectionBehaviorImpl extends ElementImpl implements ActionSe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ActionSelectionBehaviorEnum newValue) {
 		ActionSelectionBehaviorEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ActionSelectionBehaviorImpl extends ElementImpl implements ActionSe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ActionSelectionBehaviorEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ActionSelectionBehaviorImpl extends ElementImpl implements ActionSe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

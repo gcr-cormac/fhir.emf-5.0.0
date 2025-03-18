@@ -85,6 +85,7 @@ public class DeviceDefinitionCorrectiveActionImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getRecall() {
 		return recall;
 	}
@@ -109,6 +110,7 @@ public class DeviceDefinitionCorrectiveActionImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRecall(org.hl7.fhir.Boolean newRecall) {
 		if (newRecall != recall) {
 			NotificationChain msgs = null;
@@ -128,6 +130,7 @@ public class DeviceDefinitionCorrectiveActionImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DeviceCorrectiveActionScope getScope() {
 		return scope;
 	}
@@ -152,6 +155,7 @@ public class DeviceDefinitionCorrectiveActionImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setScope(DeviceCorrectiveActionScope newScope) {
 		if (newScope != scope) {
 			NotificationChain msgs = null;
@@ -171,6 +175,7 @@ public class DeviceDefinitionCorrectiveActionImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getPeriod() {
 		return period;
 	}
@@ -195,6 +200,7 @@ public class DeviceDefinitionCorrectiveActionImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriod(Period newPeriod) {
 		if (newPeriod != period) {
 			NotificationChain msgs = null;

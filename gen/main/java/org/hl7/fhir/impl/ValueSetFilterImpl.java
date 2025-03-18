@@ -85,6 +85,7 @@ public class ValueSetFilterImpl extends BackboneElementImpl implements ValueSetF
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Code getProperty() {
 		return property;
 	}
@@ -109,6 +110,7 @@ public class ValueSetFilterImpl extends BackboneElementImpl implements ValueSetF
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProperty(Code newProperty) {
 		if (newProperty != property) {
 			NotificationChain msgs = null;
@@ -128,6 +130,7 @@ public class ValueSetFilterImpl extends BackboneElementImpl implements ValueSetF
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public FilterOperator getOp() {
 		return op;
 	}
@@ -152,6 +155,7 @@ public class ValueSetFilterImpl extends BackboneElementImpl implements ValueSetF
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOp(FilterOperator newOp) {
 		if (newOp != op) {
 			NotificationChain msgs = null;
@@ -171,6 +175,7 @@ public class ValueSetFilterImpl extends BackboneElementImpl implements ValueSetF
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getValue() {
 		return value;
 	}
@@ -195,6 +200,7 @@ public class ValueSetFilterImpl extends BackboneElementImpl implements ValueSetF
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(org.hl7.fhir.String newValue) {
 		if (newValue != value) {
 			NotificationChain msgs = null;

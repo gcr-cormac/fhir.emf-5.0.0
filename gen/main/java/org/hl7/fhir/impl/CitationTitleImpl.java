@@ -92,6 +92,7 @@ public class CitationTitleImpl extends BackboneElementImpl implements CitationTi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getType() {
 		if (type == null) {
 			type = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.CITATION_TITLE__TYPE);
@@ -104,6 +105,7 @@ public class CitationTitleImpl extends BackboneElementImpl implements CitationTi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getLanguage() {
 		return language;
 	}
@@ -128,6 +130,7 @@ public class CitationTitleImpl extends BackboneElementImpl implements CitationTi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLanguage(CodeableConcept newLanguage) {
 		if (newLanguage != language) {
 			NotificationChain msgs = null;
@@ -147,6 +150,7 @@ public class CitationTitleImpl extends BackboneElementImpl implements CitationTi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getText() {
 		return text;
 	}
@@ -171,6 +175,7 @@ public class CitationTitleImpl extends BackboneElementImpl implements CitationTi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setText(Markdown newText) {
 		if (newText != text) {
 			NotificationChain msgs = null;

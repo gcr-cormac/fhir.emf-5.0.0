@@ -92,6 +92,7 @@ public class CitationContributorshipImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getComplete() {
 		return complete;
 	}
@@ -116,6 +117,7 @@ public class CitationContributorshipImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setComplete(org.hl7.fhir.Boolean newComplete) {
 		if (newComplete != complete) {
 			NotificationChain msgs = null;
@@ -135,6 +137,7 @@ public class CitationContributorshipImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CitationEntry> getEntry() {
 		if (entry == null) {
 			entry = new EObjectContainmentEList<CitationEntry>(CitationEntry.class, this, FhirPackage.CITATION_CONTRIBUTORSHIP__ENTRY);
@@ -147,6 +150,7 @@ public class CitationContributorshipImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CitationSummary1> getSummary() {
 		if (summary == null) {
 			summary = new EObjectContainmentEList<CitationSummary1>(CitationSummary1.class, this, FhirPackage.CITATION_CONTRIBUTORSHIP__SUMMARY);

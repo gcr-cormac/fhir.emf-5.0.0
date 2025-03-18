@@ -79,6 +79,7 @@ public class DiagnosticReportStatusImpl extends ElementImpl implements Diagnosti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DiagnosticReportStatusEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class DiagnosticReportStatusImpl extends ElementImpl implements Diagnosti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(DiagnosticReportStatusEnum newValue) {
 		DiagnosticReportStatusEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class DiagnosticReportStatusImpl extends ElementImpl implements Diagnosti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		DiagnosticReportStatusEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class DiagnosticReportStatusImpl extends ElementImpl implements Diagnosti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

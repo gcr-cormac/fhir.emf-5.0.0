@@ -79,6 +79,7 @@ public class LocationStatusImpl extends ElementImpl implements LocationStatus {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public LocationStatusEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class LocationStatusImpl extends ElementImpl implements LocationStatus {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(LocationStatusEnum newValue) {
 		LocationStatusEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class LocationStatusImpl extends ElementImpl implements LocationStatus {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		LocationStatusEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class LocationStatusImpl extends ElementImpl implements LocationStatus {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

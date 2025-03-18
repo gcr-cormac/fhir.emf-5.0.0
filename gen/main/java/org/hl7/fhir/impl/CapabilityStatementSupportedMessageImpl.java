@@ -74,6 +74,7 @@ public class CapabilityStatementSupportedMessageImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EventCapabilityMode getMode() {
 		return mode;
 	}
@@ -98,6 +99,7 @@ public class CapabilityStatementSupportedMessageImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMode(EventCapabilityMode newMode) {
 		if (newMode != mode) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class CapabilityStatementSupportedMessageImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getDefinition() {
 		return definition;
 	}
@@ -141,6 +144,7 @@ public class CapabilityStatementSupportedMessageImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDefinition(Canonical newDefinition) {
 		if (newDefinition != definition) {
 			NotificationChain msgs = null;

@@ -96,6 +96,7 @@ public class StructureMapInputImpl extends BackboneElementImpl implements Struct
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Id getName() {
 		return name;
 	}
@@ -120,6 +121,7 @@ public class StructureMapInputImpl extends BackboneElementImpl implements Struct
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(Id newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -139,6 +141,7 @@ public class StructureMapInputImpl extends BackboneElementImpl implements Struct
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getType() {
 		return type;
 	}
@@ -163,6 +166,7 @@ public class StructureMapInputImpl extends BackboneElementImpl implements Struct
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(org.hl7.fhir.String newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -182,6 +186,7 @@ public class StructureMapInputImpl extends BackboneElementImpl implements Struct
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public StructureMapInputMode getMode() {
 		return mode;
 	}
@@ -206,6 +211,7 @@ public class StructureMapInputImpl extends BackboneElementImpl implements Struct
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMode(StructureMapInputMode newMode) {
 		if (newMode != mode) {
 			NotificationChain msgs = null;
@@ -225,6 +231,7 @@ public class StructureMapInputImpl extends BackboneElementImpl implements Struct
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDocumentation() {
 		return documentation;
 	}
@@ -249,6 +256,7 @@ public class StructureMapInputImpl extends BackboneElementImpl implements Struct
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDocumentation(org.hl7.fhir.String newDocumentation) {
 		if (newDocumentation != documentation) {
 			NotificationChain msgs = null;

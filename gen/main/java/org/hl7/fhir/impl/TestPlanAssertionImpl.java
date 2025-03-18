@@ -89,6 +89,7 @@ public class TestPlanAssertionImpl extends BackboneElementImpl implements TestPl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getType() {
 		if (type == null) {
 			type = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.TEST_PLAN_ASSERTION__TYPE);
@@ -101,6 +102,7 @@ public class TestPlanAssertionImpl extends BackboneElementImpl implements TestPl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getObject() {
 		if (object == null) {
 			object = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.TEST_PLAN_ASSERTION__OBJECT);
@@ -113,6 +115,7 @@ public class TestPlanAssertionImpl extends BackboneElementImpl implements TestPl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getResult() {
 		if (result == null) {
 			result = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.TEST_PLAN_ASSERTION__RESULT);

@@ -73,6 +73,7 @@ public class SpecimenFeatureImpl extends BackboneElementImpl implements Specimen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -97,6 +98,7 @@ public class SpecimenFeatureImpl extends BackboneElementImpl implements Specimen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -116,6 +118,7 @@ public class SpecimenFeatureImpl extends BackboneElementImpl implements Specimen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDescription() {
 		return description;
 	}
@@ -140,6 +143,7 @@ public class SpecimenFeatureImpl extends BackboneElementImpl implements Specimen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(org.hl7.fhir.String newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;

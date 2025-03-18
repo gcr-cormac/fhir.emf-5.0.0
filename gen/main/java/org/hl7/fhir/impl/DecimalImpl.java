@@ -69,6 +69,7 @@ public class DecimalImpl extends ElementImpl implements Decimal {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Object getValue() {
 		return value;
 	}
@@ -78,6 +79,7 @@ public class DecimalImpl extends ElementImpl implements Decimal {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(Object newValue) {
 		Object oldValue = value;
 		value = newValue;

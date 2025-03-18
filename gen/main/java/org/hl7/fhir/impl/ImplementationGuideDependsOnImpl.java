@@ -97,6 +97,7 @@ public class ImplementationGuideDependsOnImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getUri() {
 		return uri;
 	}
@@ -121,6 +122,7 @@ public class ImplementationGuideDependsOnImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUri(Canonical newUri) {
 		if (newUri != uri) {
 			NotificationChain msgs = null;
@@ -140,6 +142,7 @@ public class ImplementationGuideDependsOnImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Id getPackageId() {
 		return packageId;
 	}
@@ -164,6 +167,7 @@ public class ImplementationGuideDependsOnImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPackageId(Id newPackageId) {
 		if (newPackageId != packageId) {
 			NotificationChain msgs = null;
@@ -183,6 +187,7 @@ public class ImplementationGuideDependsOnImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersion() {
 		return version;
 	}
@@ -207,6 +212,7 @@ public class ImplementationGuideDependsOnImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersion(org.hl7.fhir.String newVersion) {
 		if (newVersion != version) {
 			NotificationChain msgs = null;
@@ -226,6 +232,7 @@ public class ImplementationGuideDependsOnImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getReason() {
 		return reason;
 	}
@@ -250,6 +257,7 @@ public class ImplementationGuideDependsOnImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReason(Markdown newReason) {
 		if (newReason != reason) {
 			NotificationChain msgs = null;

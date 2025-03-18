@@ -79,6 +79,7 @@ public class ReferenceVersionRulesImpl extends ElementImpl implements ReferenceV
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ReferenceVersionRulesEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ReferenceVersionRulesImpl extends ElementImpl implements ReferenceV
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ReferenceVersionRulesEnum newValue) {
 		ReferenceVersionRulesEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ReferenceVersionRulesImpl extends ElementImpl implements ReferenceV
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ReferenceVersionRulesEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ReferenceVersionRulesImpl extends ElementImpl implements ReferenceV
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

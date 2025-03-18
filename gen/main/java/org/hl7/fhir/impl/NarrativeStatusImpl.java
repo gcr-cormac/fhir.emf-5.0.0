@@ -79,6 +79,7 @@ public class NarrativeStatusImpl extends ElementImpl implements NarrativeStatus 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public NarrativeStatusEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class NarrativeStatusImpl extends ElementImpl implements NarrativeStatus 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(NarrativeStatusEnum newValue) {
 		NarrativeStatusEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class NarrativeStatusImpl extends ElementImpl implements NarrativeStatus 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		NarrativeStatusEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class NarrativeStatusImpl extends ElementImpl implements NarrativeStatus 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

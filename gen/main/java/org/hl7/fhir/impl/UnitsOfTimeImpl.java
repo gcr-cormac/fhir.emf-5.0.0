@@ -79,6 +79,7 @@ public class UnitsOfTimeImpl extends ElementImpl implements UnitsOfTime {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public UnitsOfTimeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class UnitsOfTimeImpl extends ElementImpl implements UnitsOfTime {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(UnitsOfTimeEnum newValue) {
 		UnitsOfTimeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class UnitsOfTimeImpl extends ElementImpl implements UnitsOfTime {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		UnitsOfTimeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class UnitsOfTimeImpl extends ElementImpl implements UnitsOfTime {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

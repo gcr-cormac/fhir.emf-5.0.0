@@ -79,6 +79,7 @@ public class DeviceDispenseStatusCodesImpl extends ElementImpl implements Device
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DeviceDispenseStatusCodesEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class DeviceDispenseStatusCodesImpl extends ElementImpl implements Device
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(DeviceDispenseStatusCodesEnum newValue) {
 		DeviceDispenseStatusCodesEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class DeviceDispenseStatusCodesImpl extends ElementImpl implements Device
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		DeviceDispenseStatusCodesEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class DeviceDispenseStatusCodesImpl extends ElementImpl implements Device
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

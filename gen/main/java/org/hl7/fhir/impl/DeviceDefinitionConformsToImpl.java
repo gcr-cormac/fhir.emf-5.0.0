@@ -103,6 +103,7 @@ public class DeviceDefinitionConformsToImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCategory() {
 		return category;
 	}
@@ -127,6 +128,7 @@ public class DeviceDefinitionConformsToImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCategory(CodeableConcept newCategory) {
 		if (newCategory != category) {
 			NotificationChain msgs = null;
@@ -146,6 +148,7 @@ public class DeviceDefinitionConformsToImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getSpecification() {
 		return specification;
 	}
@@ -170,6 +173,7 @@ public class DeviceDefinitionConformsToImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSpecification(CodeableConcept newSpecification) {
 		if (newSpecification != specification) {
 			NotificationChain msgs = null;
@@ -189,6 +193,7 @@ public class DeviceDefinitionConformsToImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<org.hl7.fhir.String> getVersion() {
 		if (version == null) {
 			version = new EObjectContainmentEList<org.hl7.fhir.String>(org.hl7.fhir.String.class, this, FhirPackage.DEVICE_DEFINITION_CONFORMS_TO__VERSION);
@@ -201,6 +206,7 @@ public class DeviceDefinitionConformsToImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<RelatedArtifact> getSource() {
 		if (source == null) {
 			source = new EObjectContainmentEList<RelatedArtifact>(RelatedArtifact.class, this, FhirPackage.DEVICE_DEFINITION_CONFORMS_TO__SOURCE);

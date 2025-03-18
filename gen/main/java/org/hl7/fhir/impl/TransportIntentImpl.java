@@ -79,6 +79,7 @@ public class TransportIntentImpl extends ElementImpl implements TransportIntent 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TransportIntentEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class TransportIntentImpl extends ElementImpl implements TransportIntent 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(TransportIntentEnum newValue) {
 		TransportIntentEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class TransportIntentImpl extends ElementImpl implements TransportIntent 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		TransportIntentEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class TransportIntentImpl extends ElementImpl implements TransportIntent 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

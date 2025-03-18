@@ -98,6 +98,7 @@ public class ResourceImpl extends BaseImpl implements Resource {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Id getId() {
 		return id;
 	}
@@ -122,6 +123,7 @@ public class ResourceImpl extends BaseImpl implements Resource {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setId(Id newId) {
 		if (newId != id) {
 			NotificationChain msgs = null;
@@ -141,6 +143,7 @@ public class ResourceImpl extends BaseImpl implements Resource {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Meta getMeta() {
 		return meta;
 	}
@@ -165,6 +168,7 @@ public class ResourceImpl extends BaseImpl implements Resource {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMeta(Meta newMeta) {
 		if (newMeta != meta) {
 			NotificationChain msgs = null;
@@ -184,6 +188,7 @@ public class ResourceImpl extends BaseImpl implements Resource {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getImplicitRules() {
 		return implicitRules;
 	}
@@ -208,6 +213,7 @@ public class ResourceImpl extends BaseImpl implements Resource {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setImplicitRules(Uri newImplicitRules) {
 		if (newImplicitRules != implicitRules) {
 			NotificationChain msgs = null;
@@ -227,6 +233,7 @@ public class ResourceImpl extends BaseImpl implements Resource {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Code getLanguage() {
 		return language;
 	}
@@ -251,6 +258,7 @@ public class ResourceImpl extends BaseImpl implements Resource {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLanguage(Code newLanguage) {
 		if (newLanguage != language) {
 			NotificationChain msgs = null;

@@ -79,6 +79,7 @@ public class DiscriminatorTypeImpl extends ElementImpl implements DiscriminatorT
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DiscriminatorTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class DiscriminatorTypeImpl extends ElementImpl implements DiscriminatorT
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(DiscriminatorTypeEnum newValue) {
 		DiscriminatorTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class DiscriminatorTypeImpl extends ElementImpl implements DiscriminatorT
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		DiscriminatorTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class DiscriminatorTypeImpl extends ElementImpl implements DiscriminatorT
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

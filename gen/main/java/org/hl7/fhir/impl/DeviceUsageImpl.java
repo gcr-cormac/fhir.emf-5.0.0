@@ -276,6 +276,7 @@ public class DeviceUsageImpl extends DomainResourceImpl implements DeviceUsage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.DEVICE_USAGE__IDENTIFIER);
@@ -288,6 +289,7 @@ public class DeviceUsageImpl extends DomainResourceImpl implements DeviceUsage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getBasedOn() {
 		if (basedOn == null) {
 			basedOn = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.DEVICE_USAGE__BASED_ON);
@@ -300,6 +302,7 @@ public class DeviceUsageImpl extends DomainResourceImpl implements DeviceUsage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DeviceUsageStatus getStatus() {
 		return status;
 	}
@@ -324,6 +327,7 @@ public class DeviceUsageImpl extends DomainResourceImpl implements DeviceUsage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(DeviceUsageStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -343,6 +347,7 @@ public class DeviceUsageImpl extends DomainResourceImpl implements DeviceUsage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCategory() {
 		if (category == null) {
 			category = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.DEVICE_USAGE__CATEGORY);
@@ -355,6 +360,7 @@ public class DeviceUsageImpl extends DomainResourceImpl implements DeviceUsage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getPatient() {
 		return patient;
 	}
@@ -379,6 +385,7 @@ public class DeviceUsageImpl extends DomainResourceImpl implements DeviceUsage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPatient(Reference newPatient) {
 		if (newPatient != patient) {
 			NotificationChain msgs = null;
@@ -398,6 +405,7 @@ public class DeviceUsageImpl extends DomainResourceImpl implements DeviceUsage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getDerivedFrom() {
 		if (derivedFrom == null) {
 			derivedFrom = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.DEVICE_USAGE__DERIVED_FROM);
@@ -410,6 +418,7 @@ public class DeviceUsageImpl extends DomainResourceImpl implements DeviceUsage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getContext() {
 		return context;
 	}
@@ -434,6 +443,7 @@ public class DeviceUsageImpl extends DomainResourceImpl implements DeviceUsage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setContext(Reference newContext) {
 		if (newContext != context) {
 			NotificationChain msgs = null;
@@ -453,6 +463,7 @@ public class DeviceUsageImpl extends DomainResourceImpl implements DeviceUsage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Timing getTimingTiming() {
 		return timingTiming;
 	}
@@ -477,6 +488,7 @@ public class DeviceUsageImpl extends DomainResourceImpl implements DeviceUsage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTimingTiming(Timing newTimingTiming) {
 		if (newTimingTiming != timingTiming) {
 			NotificationChain msgs = null;
@@ -496,6 +508,7 @@ public class DeviceUsageImpl extends DomainResourceImpl implements DeviceUsage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getTimingPeriod() {
 		return timingPeriod;
 	}
@@ -520,6 +533,7 @@ public class DeviceUsageImpl extends DomainResourceImpl implements DeviceUsage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTimingPeriod(Period newTimingPeriod) {
 		if (newTimingPeriod != timingPeriod) {
 			NotificationChain msgs = null;
@@ -539,6 +553,7 @@ public class DeviceUsageImpl extends DomainResourceImpl implements DeviceUsage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getTimingDateTime() {
 		return timingDateTime;
 	}
@@ -563,6 +578,7 @@ public class DeviceUsageImpl extends DomainResourceImpl implements DeviceUsage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTimingDateTime(DateTime newTimingDateTime) {
 		if (newTimingDateTime != timingDateTime) {
 			NotificationChain msgs = null;
@@ -582,6 +598,7 @@ public class DeviceUsageImpl extends DomainResourceImpl implements DeviceUsage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getDateAsserted() {
 		return dateAsserted;
 	}
@@ -606,6 +623,7 @@ public class DeviceUsageImpl extends DomainResourceImpl implements DeviceUsage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDateAsserted(DateTime newDateAsserted) {
 		if (newDateAsserted != dateAsserted) {
 			NotificationChain msgs = null;
@@ -625,6 +643,7 @@ public class DeviceUsageImpl extends DomainResourceImpl implements DeviceUsage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getUsageStatus() {
 		return usageStatus;
 	}
@@ -649,6 +668,7 @@ public class DeviceUsageImpl extends DomainResourceImpl implements DeviceUsage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUsageStatus(CodeableConcept newUsageStatus) {
 		if (newUsageStatus != usageStatus) {
 			NotificationChain msgs = null;
@@ -668,6 +688,7 @@ public class DeviceUsageImpl extends DomainResourceImpl implements DeviceUsage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getUsageReason() {
 		if (usageReason == null) {
 			usageReason = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.DEVICE_USAGE__USAGE_REASON);
@@ -680,6 +701,7 @@ public class DeviceUsageImpl extends DomainResourceImpl implements DeviceUsage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DeviceUsageAdherence getAdherence() {
 		return adherence;
 	}
@@ -704,6 +726,7 @@ public class DeviceUsageImpl extends DomainResourceImpl implements DeviceUsage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAdherence(DeviceUsageAdherence newAdherence) {
 		if (newAdherence != adherence) {
 			NotificationChain msgs = null;
@@ -723,6 +746,7 @@ public class DeviceUsageImpl extends DomainResourceImpl implements DeviceUsage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getInformationSource() {
 		return informationSource;
 	}
@@ -747,6 +771,7 @@ public class DeviceUsageImpl extends DomainResourceImpl implements DeviceUsage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInformationSource(Reference newInformationSource) {
 		if (newInformationSource != informationSource) {
 			NotificationChain msgs = null;
@@ -766,6 +791,7 @@ public class DeviceUsageImpl extends DomainResourceImpl implements DeviceUsage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getDevice() {
 		return device;
 	}
@@ -790,6 +816,7 @@ public class DeviceUsageImpl extends DomainResourceImpl implements DeviceUsage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDevice(CodeableReference newDevice) {
 		if (newDevice != device) {
 			NotificationChain msgs = null;
@@ -809,6 +836,7 @@ public class DeviceUsageImpl extends DomainResourceImpl implements DeviceUsage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getReason() {
 		if (reason == null) {
 			reason = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.DEVICE_USAGE__REASON);
@@ -821,6 +849,7 @@ public class DeviceUsageImpl extends DomainResourceImpl implements DeviceUsage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getBodySite() {
 		return bodySite;
 	}
@@ -845,6 +874,7 @@ public class DeviceUsageImpl extends DomainResourceImpl implements DeviceUsage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBodySite(CodeableReference newBodySite) {
 		if (newBodySite != bodySite) {
 			NotificationChain msgs = null;
@@ -864,6 +894,7 @@ public class DeviceUsageImpl extends DomainResourceImpl implements DeviceUsage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.DEVICE_USAGE__NOTE);

@@ -79,6 +79,7 @@ public class ImmunizationEvaluationStatusCodesImpl extends ElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ImmunizationEvaluationStatusCodesEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ImmunizationEvaluationStatusCodesImpl extends ElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ImmunizationEvaluationStatusCodesEnum newValue) {
 		ImmunizationEvaluationStatusCodesEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ImmunizationEvaluationStatusCodesImpl extends ElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ImmunizationEvaluationStatusCodesEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ImmunizationEvaluationStatusCodesImpl extends ElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

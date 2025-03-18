@@ -92,6 +92,7 @@ public class SubstancePolymerRepeatImpl extends BackboneElementImpl implements S
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getAverageMolecularFormula() {
 		return averageMolecularFormula;
 	}
@@ -116,6 +117,7 @@ public class SubstancePolymerRepeatImpl extends BackboneElementImpl implements S
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAverageMolecularFormula(org.hl7.fhir.String newAverageMolecularFormula) {
 		if (newAverageMolecularFormula != averageMolecularFormula) {
 			NotificationChain msgs = null;
@@ -135,6 +137,7 @@ public class SubstancePolymerRepeatImpl extends BackboneElementImpl implements S
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getRepeatUnitAmountType() {
 		return repeatUnitAmountType;
 	}
@@ -159,6 +162,7 @@ public class SubstancePolymerRepeatImpl extends BackboneElementImpl implements S
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRepeatUnitAmountType(CodeableConcept newRepeatUnitAmountType) {
 		if (newRepeatUnitAmountType != repeatUnitAmountType) {
 			NotificationChain msgs = null;
@@ -178,6 +182,7 @@ public class SubstancePolymerRepeatImpl extends BackboneElementImpl implements S
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SubstancePolymerRepeatUnit> getRepeatUnit() {
 		if (repeatUnit == null) {
 			repeatUnit = new EObjectContainmentEList<SubstancePolymerRepeatUnit>(SubstancePolymerRepeatUnit.class, this, FhirPackage.SUBSTANCE_POLYMER_REPEAT__REPEAT_UNIT);

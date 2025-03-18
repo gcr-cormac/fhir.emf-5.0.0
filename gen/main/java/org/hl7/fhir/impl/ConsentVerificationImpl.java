@@ -115,6 +115,7 @@ public class ConsentVerificationImpl extends BackboneElementImpl implements Cons
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getVerified() {
 		return verified;
 	}
@@ -139,6 +140,7 @@ public class ConsentVerificationImpl extends BackboneElementImpl implements Cons
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVerified(org.hl7.fhir.Boolean newVerified) {
 		if (newVerified != verified) {
 			NotificationChain msgs = null;
@@ -158,6 +160,7 @@ public class ConsentVerificationImpl extends BackboneElementImpl implements Cons
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getVerificationType() {
 		return verificationType;
 	}
@@ -182,6 +185,7 @@ public class ConsentVerificationImpl extends BackboneElementImpl implements Cons
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVerificationType(CodeableConcept newVerificationType) {
 		if (newVerificationType != verificationType) {
 			NotificationChain msgs = null;
@@ -201,6 +205,7 @@ public class ConsentVerificationImpl extends BackboneElementImpl implements Cons
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getVerifiedBy() {
 		return verifiedBy;
 	}
@@ -225,6 +230,7 @@ public class ConsentVerificationImpl extends BackboneElementImpl implements Cons
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVerifiedBy(Reference newVerifiedBy) {
 		if (newVerifiedBy != verifiedBy) {
 			NotificationChain msgs = null;
@@ -244,6 +250,7 @@ public class ConsentVerificationImpl extends BackboneElementImpl implements Cons
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getVerifiedWith() {
 		return verifiedWith;
 	}
@@ -268,6 +275,7 @@ public class ConsentVerificationImpl extends BackboneElementImpl implements Cons
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVerifiedWith(Reference newVerifiedWith) {
 		if (newVerifiedWith != verifiedWith) {
 			NotificationChain msgs = null;
@@ -287,6 +295,7 @@ public class ConsentVerificationImpl extends BackboneElementImpl implements Cons
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<DateTime> getVerificationDate() {
 		if (verificationDate == null) {
 			verificationDate = new EObjectContainmentEList<DateTime>(DateTime.class, this, FhirPackage.CONSENT_VERIFICATION__VERIFICATION_DATE);

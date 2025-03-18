@@ -74,6 +74,7 @@ public class CoverageExceptionImpl extends BackboneElementImpl implements Covera
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -98,6 +99,7 @@ public class CoverageExceptionImpl extends BackboneElementImpl implements Covera
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class CoverageExceptionImpl extends BackboneElementImpl implements Covera
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getPeriod() {
 		return period;
 	}
@@ -141,6 +144,7 @@ public class CoverageExceptionImpl extends BackboneElementImpl implements Covera
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriod(Period newPeriod) {
 		if (newPeriod != period) {
 			NotificationChain msgs = null;

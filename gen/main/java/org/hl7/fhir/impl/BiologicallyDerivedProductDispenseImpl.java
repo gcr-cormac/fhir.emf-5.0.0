@@ -241,6 +241,7 @@ public class BiologicallyDerivedProductDispenseImpl extends DomainResourceImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.BIOLOGICALLY_DERIVED_PRODUCT_DISPENSE__IDENTIFIER);
@@ -253,6 +254,7 @@ public class BiologicallyDerivedProductDispenseImpl extends DomainResourceImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getBasedOn() {
 		if (basedOn == null) {
 			basedOn = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.BIOLOGICALLY_DERIVED_PRODUCT_DISPENSE__BASED_ON);
@@ -265,6 +267,7 @@ public class BiologicallyDerivedProductDispenseImpl extends DomainResourceImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getPartOf() {
 		if (partOf == null) {
 			partOf = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.BIOLOGICALLY_DERIVED_PRODUCT_DISPENSE__PART_OF);
@@ -277,6 +280,7 @@ public class BiologicallyDerivedProductDispenseImpl extends DomainResourceImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public BiologicallyDerivedProductDispenseCodes getStatus() {
 		return status;
 	}
@@ -301,6 +305,7 @@ public class BiologicallyDerivedProductDispenseImpl extends DomainResourceImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(BiologicallyDerivedProductDispenseCodes newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -320,6 +325,7 @@ public class BiologicallyDerivedProductDispenseImpl extends DomainResourceImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getOriginRelationshipType() {
 		return originRelationshipType;
 	}
@@ -344,6 +350,7 @@ public class BiologicallyDerivedProductDispenseImpl extends DomainResourceImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOriginRelationshipType(CodeableConcept newOriginRelationshipType) {
 		if (newOriginRelationshipType != originRelationshipType) {
 			NotificationChain msgs = null;
@@ -363,6 +370,7 @@ public class BiologicallyDerivedProductDispenseImpl extends DomainResourceImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getProduct() {
 		return product;
 	}
@@ -387,6 +395,7 @@ public class BiologicallyDerivedProductDispenseImpl extends DomainResourceImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProduct(Reference newProduct) {
 		if (newProduct != product) {
 			NotificationChain msgs = null;
@@ -406,6 +415,7 @@ public class BiologicallyDerivedProductDispenseImpl extends DomainResourceImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getPatient() {
 		return patient;
 	}
@@ -430,6 +440,7 @@ public class BiologicallyDerivedProductDispenseImpl extends DomainResourceImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPatient(Reference newPatient) {
 		if (newPatient != patient) {
 			NotificationChain msgs = null;
@@ -449,6 +460,7 @@ public class BiologicallyDerivedProductDispenseImpl extends DomainResourceImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getMatchStatus() {
 		return matchStatus;
 	}
@@ -473,6 +485,7 @@ public class BiologicallyDerivedProductDispenseImpl extends DomainResourceImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMatchStatus(CodeableConcept newMatchStatus) {
 		if (newMatchStatus != matchStatus) {
 			NotificationChain msgs = null;
@@ -492,6 +505,7 @@ public class BiologicallyDerivedProductDispenseImpl extends DomainResourceImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<BiologicallyDerivedProductDispensePerformer> getPerformer() {
 		if (performer == null) {
 			performer = new EObjectContainmentEList<BiologicallyDerivedProductDispensePerformer>(BiologicallyDerivedProductDispensePerformer.class, this, FhirPackage.BIOLOGICALLY_DERIVED_PRODUCT_DISPENSE__PERFORMER);
@@ -504,6 +518,7 @@ public class BiologicallyDerivedProductDispenseImpl extends DomainResourceImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getLocation() {
 		return location;
 	}
@@ -528,6 +543,7 @@ public class BiologicallyDerivedProductDispenseImpl extends DomainResourceImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLocation(Reference newLocation) {
 		if (newLocation != location) {
 			NotificationChain msgs = null;
@@ -547,6 +563,7 @@ public class BiologicallyDerivedProductDispenseImpl extends DomainResourceImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getQuantity() {
 		return quantity;
 	}
@@ -571,6 +588,7 @@ public class BiologicallyDerivedProductDispenseImpl extends DomainResourceImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setQuantity(Quantity newQuantity) {
 		if (newQuantity != quantity) {
 			NotificationChain msgs = null;
@@ -590,6 +608,7 @@ public class BiologicallyDerivedProductDispenseImpl extends DomainResourceImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getPreparedDate() {
 		return preparedDate;
 	}
@@ -614,6 +633,7 @@ public class BiologicallyDerivedProductDispenseImpl extends DomainResourceImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPreparedDate(DateTime newPreparedDate) {
 		if (newPreparedDate != preparedDate) {
 			NotificationChain msgs = null;
@@ -633,6 +653,7 @@ public class BiologicallyDerivedProductDispenseImpl extends DomainResourceImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getWhenHandedOver() {
 		return whenHandedOver;
 	}
@@ -657,6 +678,7 @@ public class BiologicallyDerivedProductDispenseImpl extends DomainResourceImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setWhenHandedOver(DateTime newWhenHandedOver) {
 		if (newWhenHandedOver != whenHandedOver) {
 			NotificationChain msgs = null;
@@ -676,6 +698,7 @@ public class BiologicallyDerivedProductDispenseImpl extends DomainResourceImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getDestination() {
 		return destination;
 	}
@@ -700,6 +723,7 @@ public class BiologicallyDerivedProductDispenseImpl extends DomainResourceImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDestination(Reference newDestination) {
 		if (newDestination != destination) {
 			NotificationChain msgs = null;
@@ -719,6 +743,7 @@ public class BiologicallyDerivedProductDispenseImpl extends DomainResourceImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.BIOLOGICALLY_DERIVED_PRODUCT_DISPENSE__NOTE);
@@ -731,6 +756,7 @@ public class BiologicallyDerivedProductDispenseImpl extends DomainResourceImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getUsageInstruction() {
 		return usageInstruction;
 	}
@@ -755,6 +781,7 @@ public class BiologicallyDerivedProductDispenseImpl extends DomainResourceImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUsageInstruction(org.hl7.fhir.String newUsageInstruction) {
 		if (newUsageInstruction != usageInstruction) {
 			NotificationChain msgs = null;

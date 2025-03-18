@@ -104,6 +104,7 @@ public class TestReportAssertImpl extends BackboneElementImpl implements TestRep
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TestReportActionResult getResult() {
 		return result;
 	}
@@ -128,6 +129,7 @@ public class TestReportAssertImpl extends BackboneElementImpl implements TestRep
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setResult(TestReportActionResult newResult) {
 		if (newResult != result) {
 			NotificationChain msgs = null;
@@ -147,6 +149,7 @@ public class TestReportAssertImpl extends BackboneElementImpl implements TestRep
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getMessage() {
 		return message;
 	}
@@ -171,6 +174,7 @@ public class TestReportAssertImpl extends BackboneElementImpl implements TestRep
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMessage(Markdown newMessage) {
 		if (newMessage != message) {
 			NotificationChain msgs = null;
@@ -190,6 +194,7 @@ public class TestReportAssertImpl extends BackboneElementImpl implements TestRep
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDetail() {
 		return detail;
 	}
@@ -214,6 +219,7 @@ public class TestReportAssertImpl extends BackboneElementImpl implements TestRep
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDetail(org.hl7.fhir.String newDetail) {
 		if (newDetail != detail) {
 			NotificationChain msgs = null;
@@ -233,6 +239,7 @@ public class TestReportAssertImpl extends BackboneElementImpl implements TestRep
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<TestReportRequirement> getRequirement() {
 		if (requirement == null) {
 			requirement = new EObjectContainmentEList<TestReportRequirement>(TestReportRequirement.class, this, FhirPackage.TEST_REPORT_ASSERT__REQUIREMENT);

@@ -232,6 +232,7 @@ public class PackagedProductDefinitionImpl extends DomainResourceImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.PACKAGED_PRODUCT_DEFINITION__IDENTIFIER);
@@ -244,6 +245,7 @@ public class PackagedProductDefinitionImpl extends DomainResourceImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -268,6 +270,7 @@ public class PackagedProductDefinitionImpl extends DomainResourceImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -287,6 +290,7 @@ public class PackagedProductDefinitionImpl extends DomainResourceImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -311,6 +315,7 @@ public class PackagedProductDefinitionImpl extends DomainResourceImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -330,6 +335,7 @@ public class PackagedProductDefinitionImpl extends DomainResourceImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getPackageFor() {
 		if (packageFor == null) {
 			packageFor = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.PACKAGED_PRODUCT_DEFINITION__PACKAGE_FOR);
@@ -342,6 +348,7 @@ public class PackagedProductDefinitionImpl extends DomainResourceImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getStatus() {
 		return status;
 	}
@@ -366,6 +373,7 @@ public class PackagedProductDefinitionImpl extends DomainResourceImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(CodeableConcept newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -385,6 +393,7 @@ public class PackagedProductDefinitionImpl extends DomainResourceImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getStatusDate() {
 		return statusDate;
 	}
@@ -409,6 +418,7 @@ public class PackagedProductDefinitionImpl extends DomainResourceImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatusDate(DateTime newStatusDate) {
 		if (newStatusDate != statusDate) {
 			NotificationChain msgs = null;
@@ -428,6 +438,7 @@ public class PackagedProductDefinitionImpl extends DomainResourceImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Quantity> getContainedItemQuantity() {
 		if (containedItemQuantity == null) {
 			containedItemQuantity = new EObjectContainmentEList<Quantity>(Quantity.class, this, FhirPackage.PACKAGED_PRODUCT_DEFINITION__CONTAINED_ITEM_QUANTITY);
@@ -440,6 +451,7 @@ public class PackagedProductDefinitionImpl extends DomainResourceImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -464,6 +476,7 @@ public class PackagedProductDefinitionImpl extends DomainResourceImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -483,6 +496,7 @@ public class PackagedProductDefinitionImpl extends DomainResourceImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<PackagedProductDefinitionLegalStatusOfSupply> getLegalStatusOfSupply() {
 		if (legalStatusOfSupply == null) {
 			legalStatusOfSupply = new EObjectContainmentEList<PackagedProductDefinitionLegalStatusOfSupply>(PackagedProductDefinitionLegalStatusOfSupply.class, this, FhirPackage.PACKAGED_PRODUCT_DEFINITION__LEGAL_STATUS_OF_SUPPLY);
@@ -495,6 +509,7 @@ public class PackagedProductDefinitionImpl extends DomainResourceImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MarketingStatus> getMarketingStatus() {
 		if (marketingStatus == null) {
 			marketingStatus = new EObjectContainmentEList<MarketingStatus>(MarketingStatus.class, this, FhirPackage.PACKAGED_PRODUCT_DEFINITION__MARKETING_STATUS);
@@ -507,6 +522,7 @@ public class PackagedProductDefinitionImpl extends DomainResourceImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getCopackagedIndicator() {
 		return copackagedIndicator;
 	}
@@ -531,6 +547,7 @@ public class PackagedProductDefinitionImpl extends DomainResourceImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCopackagedIndicator(org.hl7.fhir.Boolean newCopackagedIndicator) {
 		if (newCopackagedIndicator != copackagedIndicator) {
 			NotificationChain msgs = null;
@@ -550,6 +567,7 @@ public class PackagedProductDefinitionImpl extends DomainResourceImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getManufacturer() {
 		if (manufacturer == null) {
 			manufacturer = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.PACKAGED_PRODUCT_DEFINITION__MANUFACTURER);
@@ -562,6 +580,7 @@ public class PackagedProductDefinitionImpl extends DomainResourceImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getAttachedDocument() {
 		if (attachedDocument == null) {
 			attachedDocument = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.PACKAGED_PRODUCT_DEFINITION__ATTACHED_DOCUMENT);
@@ -574,6 +593,7 @@ public class PackagedProductDefinitionImpl extends DomainResourceImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PackagedProductDefinitionPackaging getPackaging() {
 		return packaging;
 	}
@@ -598,6 +618,7 @@ public class PackagedProductDefinitionImpl extends DomainResourceImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPackaging(PackagedProductDefinitionPackaging newPackaging) {
 		if (newPackaging != packaging) {
 			NotificationChain msgs = null;
@@ -617,6 +638,7 @@ public class PackagedProductDefinitionImpl extends DomainResourceImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<PackagedProductDefinitionProperty> getCharacteristic() {
 		if (characteristic == null) {
 			characteristic = new EObjectContainmentEList<PackagedProductDefinitionProperty>(PackagedProductDefinitionProperty.class, this, FhirPackage.PACKAGED_PRODUCT_DEFINITION__CHARACTERISTIC);

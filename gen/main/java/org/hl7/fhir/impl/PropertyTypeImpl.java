@@ -79,6 +79,7 @@ public class PropertyTypeImpl extends ElementImpl implements PropertyType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PropertyTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class PropertyTypeImpl extends ElementImpl implements PropertyType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(PropertyTypeEnum newValue) {
 		PropertyTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class PropertyTypeImpl extends ElementImpl implements PropertyType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		PropertyTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class PropertyTypeImpl extends ElementImpl implements PropertyType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

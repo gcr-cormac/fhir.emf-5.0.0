@@ -174,6 +174,7 @@ public class ExampleScenarioInstanceImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getKey() {
 		return key;
 	}
@@ -198,6 +199,7 @@ public class ExampleScenarioInstanceImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setKey(org.hl7.fhir.String newKey) {
 		if (newKey != key) {
 			NotificationChain msgs = null;
@@ -217,6 +219,7 @@ public class ExampleScenarioInstanceImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getStructureType() {
 		return structureType;
 	}
@@ -241,6 +244,7 @@ public class ExampleScenarioInstanceImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStructureType(Coding newStructureType) {
 		if (newStructureType != structureType) {
 			NotificationChain msgs = null;
@@ -260,6 +264,7 @@ public class ExampleScenarioInstanceImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getStructureVersion() {
 		return structureVersion;
 	}
@@ -284,6 +289,7 @@ public class ExampleScenarioInstanceImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStructureVersion(org.hl7.fhir.String newStructureVersion) {
 		if (newStructureVersion != structureVersion) {
 			NotificationChain msgs = null;
@@ -303,6 +309,7 @@ public class ExampleScenarioInstanceImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getStructureProfileCanonical() {
 		return structureProfileCanonical;
 	}
@@ -327,6 +334,7 @@ public class ExampleScenarioInstanceImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStructureProfileCanonical(Canonical newStructureProfileCanonical) {
 		if (newStructureProfileCanonical != structureProfileCanonical) {
 			NotificationChain msgs = null;
@@ -346,6 +354,7 @@ public class ExampleScenarioInstanceImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getStructureProfileUri() {
 		return structureProfileUri;
 	}
@@ -370,6 +379,7 @@ public class ExampleScenarioInstanceImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStructureProfileUri(Uri newStructureProfileUri) {
 		if (newStructureProfileUri != structureProfileUri) {
 			NotificationChain msgs = null;
@@ -389,6 +399,7 @@ public class ExampleScenarioInstanceImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getTitle() {
 		return title;
 	}
@@ -413,6 +424,7 @@ public class ExampleScenarioInstanceImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(org.hl7.fhir.String newTitle) {
 		if (newTitle != title) {
 			NotificationChain msgs = null;
@@ -432,6 +444,7 @@ public class ExampleScenarioInstanceImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -456,6 +469,7 @@ public class ExampleScenarioInstanceImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -475,6 +489,7 @@ public class ExampleScenarioInstanceImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getContent() {
 		return content;
 	}
@@ -499,6 +514,7 @@ public class ExampleScenarioInstanceImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setContent(Reference newContent) {
 		if (newContent != content) {
 			NotificationChain msgs = null;
@@ -518,6 +534,7 @@ public class ExampleScenarioInstanceImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ExampleScenarioVersion> getVersion() {
 		if (version == null) {
 			version = new EObjectContainmentEList<ExampleScenarioVersion>(ExampleScenarioVersion.class, this, FhirPackage.EXAMPLE_SCENARIO_INSTANCE__VERSION);
@@ -530,6 +547,7 @@ public class ExampleScenarioInstanceImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ExampleScenarioContainedInstance> getContainedInstance() {
 		if (containedInstance == null) {
 			containedInstance = new EObjectContainmentEList<ExampleScenarioContainedInstance>(ExampleScenarioContainedInstance.class, this, FhirPackage.EXAMPLE_SCENARIO_INSTANCE__CONTAINED_INSTANCE);

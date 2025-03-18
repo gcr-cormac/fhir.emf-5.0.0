@@ -96,6 +96,7 @@ public class ResearchStudyRecruitmentImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public UnsignedInt getTargetNumber() {
 		return targetNumber;
 	}
@@ -120,6 +121,7 @@ public class ResearchStudyRecruitmentImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTargetNumber(UnsignedInt newTargetNumber) {
 		if (newTargetNumber != targetNumber) {
 			NotificationChain msgs = null;
@@ -139,6 +141,7 @@ public class ResearchStudyRecruitmentImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public UnsignedInt getActualNumber() {
 		return actualNumber;
 	}
@@ -163,6 +166,7 @@ public class ResearchStudyRecruitmentImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setActualNumber(UnsignedInt newActualNumber) {
 		if (newActualNumber != actualNumber) {
 			NotificationChain msgs = null;
@@ -182,6 +186,7 @@ public class ResearchStudyRecruitmentImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getEligibility() {
 		return eligibility;
 	}
@@ -206,6 +211,7 @@ public class ResearchStudyRecruitmentImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEligibility(Reference newEligibility) {
 		if (newEligibility != eligibility) {
 			NotificationChain msgs = null;
@@ -225,6 +231,7 @@ public class ResearchStudyRecruitmentImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getActualGroup() {
 		return actualGroup;
 	}
@@ -249,6 +256,7 @@ public class ResearchStudyRecruitmentImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setActualGroup(Reference newActualGroup) {
 		if (newActualGroup != actualGroup) {
 			NotificationChain msgs = null;

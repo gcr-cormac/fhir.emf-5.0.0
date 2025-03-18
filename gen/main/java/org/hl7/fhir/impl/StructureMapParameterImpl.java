@@ -143,6 +143,7 @@ public class StructureMapParameterImpl extends BackboneElementImpl implements St
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Id getValueId() {
 		return valueId;
 	}
@@ -167,6 +168,7 @@ public class StructureMapParameterImpl extends BackboneElementImpl implements St
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueId(Id newValueId) {
 		if (newValueId != valueId) {
 			NotificationChain msgs = null;
@@ -186,6 +188,7 @@ public class StructureMapParameterImpl extends BackboneElementImpl implements St
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getValueString() {
 		return valueString;
 	}
@@ -210,6 +213,7 @@ public class StructureMapParameterImpl extends BackboneElementImpl implements St
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueString(org.hl7.fhir.String newValueString) {
 		if (newValueString != valueString) {
 			NotificationChain msgs = null;
@@ -229,6 +233,7 @@ public class StructureMapParameterImpl extends BackboneElementImpl implements St
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getValueBoolean() {
 		return valueBoolean;
 	}
@@ -253,6 +258,7 @@ public class StructureMapParameterImpl extends BackboneElementImpl implements St
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueBoolean(org.hl7.fhir.Boolean newValueBoolean) {
 		if (newValueBoolean != valueBoolean) {
 			NotificationChain msgs = null;
@@ -272,6 +278,7 @@ public class StructureMapParameterImpl extends BackboneElementImpl implements St
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Integer getValueInteger() {
 		return valueInteger;
 	}
@@ -296,6 +303,7 @@ public class StructureMapParameterImpl extends BackboneElementImpl implements St
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueInteger(org.hl7.fhir.Integer newValueInteger) {
 		if (newValueInteger != valueInteger) {
 			NotificationChain msgs = null;
@@ -315,6 +323,7 @@ public class StructureMapParameterImpl extends BackboneElementImpl implements St
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Decimal getValueDecimal() {
 		return valueDecimal;
 	}
@@ -339,6 +348,7 @@ public class StructureMapParameterImpl extends BackboneElementImpl implements St
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueDecimal(Decimal newValueDecimal) {
 		if (newValueDecimal != valueDecimal) {
 			NotificationChain msgs = null;
@@ -358,6 +368,7 @@ public class StructureMapParameterImpl extends BackboneElementImpl implements St
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getValueDate() {
 		return valueDate;
 	}
@@ -382,6 +393,7 @@ public class StructureMapParameterImpl extends BackboneElementImpl implements St
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueDate(Date newValueDate) {
 		if (newValueDate != valueDate) {
 			NotificationChain msgs = null;
@@ -401,6 +413,7 @@ public class StructureMapParameterImpl extends BackboneElementImpl implements St
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Time getValueTime() {
 		return valueTime;
 	}
@@ -425,6 +438,7 @@ public class StructureMapParameterImpl extends BackboneElementImpl implements St
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueTime(Time newValueTime) {
 		if (newValueTime != valueTime) {
 			NotificationChain msgs = null;
@@ -444,6 +458,7 @@ public class StructureMapParameterImpl extends BackboneElementImpl implements St
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getValueDateTime() {
 		return valueDateTime;
 	}
@@ -468,6 +483,7 @@ public class StructureMapParameterImpl extends BackboneElementImpl implements St
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueDateTime(DateTime newValueDateTime) {
 		if (newValueDateTime != valueDateTime) {
 			NotificationChain msgs = null;

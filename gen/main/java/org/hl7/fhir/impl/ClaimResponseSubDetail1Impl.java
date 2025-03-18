@@ -208,6 +208,7 @@ public class ClaimResponseSubDetail1Impl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getTraceNumber() {
 		if (traceNumber == null) {
 			traceNumber = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.CLAIM_RESPONSE_SUB_DETAIL1__TRACE_NUMBER);
@@ -220,6 +221,7 @@ public class ClaimResponseSubDetail1Impl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getRevenue() {
 		return revenue;
 	}
@@ -244,6 +246,7 @@ public class ClaimResponseSubDetail1Impl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRevenue(CodeableConcept newRevenue) {
 		if (newRevenue != revenue) {
 			NotificationChain msgs = null;
@@ -263,6 +266,7 @@ public class ClaimResponseSubDetail1Impl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getProductOrService() {
 		return productOrService;
 	}
@@ -287,6 +291,7 @@ public class ClaimResponseSubDetail1Impl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProductOrService(CodeableConcept newProductOrService) {
 		if (newProductOrService != productOrService) {
 			NotificationChain msgs = null;
@@ -306,6 +311,7 @@ public class ClaimResponseSubDetail1Impl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getProductOrServiceEnd() {
 		return productOrServiceEnd;
 	}
@@ -330,6 +336,7 @@ public class ClaimResponseSubDetail1Impl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProductOrServiceEnd(CodeableConcept newProductOrServiceEnd) {
 		if (newProductOrServiceEnd != productOrServiceEnd) {
 			NotificationChain msgs = null;
@@ -349,6 +356,7 @@ public class ClaimResponseSubDetail1Impl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getModifier() {
 		if (modifier == null) {
 			modifier = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.CLAIM_RESPONSE_SUB_DETAIL1__MODIFIER);
@@ -361,6 +369,7 @@ public class ClaimResponseSubDetail1Impl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getQuantity() {
 		return quantity;
 	}
@@ -385,6 +394,7 @@ public class ClaimResponseSubDetail1Impl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setQuantity(Quantity newQuantity) {
 		if (newQuantity != quantity) {
 			NotificationChain msgs = null;
@@ -404,6 +414,7 @@ public class ClaimResponseSubDetail1Impl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Money getUnitPrice() {
 		return unitPrice;
 	}
@@ -428,6 +439,7 @@ public class ClaimResponseSubDetail1Impl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUnitPrice(Money newUnitPrice) {
 		if (newUnitPrice != unitPrice) {
 			NotificationChain msgs = null;
@@ -447,6 +459,7 @@ public class ClaimResponseSubDetail1Impl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Decimal getFactor() {
 		return factor;
 	}
@@ -471,6 +484,7 @@ public class ClaimResponseSubDetail1Impl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFactor(Decimal newFactor) {
 		if (newFactor != factor) {
 			NotificationChain msgs = null;
@@ -490,6 +504,7 @@ public class ClaimResponseSubDetail1Impl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Money getTax() {
 		return tax;
 	}
@@ -514,6 +529,7 @@ public class ClaimResponseSubDetail1Impl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTax(Money newTax) {
 		if (newTax != tax) {
 			NotificationChain msgs = null;
@@ -533,6 +549,7 @@ public class ClaimResponseSubDetail1Impl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Money getNet() {
 		return net;
 	}
@@ -557,6 +574,7 @@ public class ClaimResponseSubDetail1Impl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNet(Money newNet) {
 		if (newNet != net) {
 			NotificationChain msgs = null;
@@ -576,6 +594,7 @@ public class ClaimResponseSubDetail1Impl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<PositiveInt> getNoteNumber() {
 		if (noteNumber == null) {
 			noteNumber = new EObjectContainmentEList<PositiveInt>(PositiveInt.class, this, FhirPackage.CLAIM_RESPONSE_SUB_DETAIL1__NOTE_NUMBER);
@@ -588,6 +607,7 @@ public class ClaimResponseSubDetail1Impl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ClaimResponseReviewOutcome getReviewOutcome() {
 		return reviewOutcome;
 	}
@@ -612,6 +632,7 @@ public class ClaimResponseSubDetail1Impl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReviewOutcome(ClaimResponseReviewOutcome newReviewOutcome) {
 		if (newReviewOutcome != reviewOutcome) {
 			NotificationChain msgs = null;
@@ -631,6 +652,7 @@ public class ClaimResponseSubDetail1Impl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ClaimResponseAdjudication> getAdjudication() {
 		if (adjudication == null) {
 			adjudication = new EObjectContainmentEList<ClaimResponseAdjudication>(ClaimResponseAdjudication.class, this, FhirPackage.CLAIM_RESPONSE_SUB_DETAIL1__ADJUDICATION);

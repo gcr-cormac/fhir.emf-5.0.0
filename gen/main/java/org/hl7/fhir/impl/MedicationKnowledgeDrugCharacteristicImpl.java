@@ -120,6 +120,7 @@ public class MedicationKnowledgeDrugCharacteristicImpl extends BackboneElementIm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -144,6 +145,7 @@ public class MedicationKnowledgeDrugCharacteristicImpl extends BackboneElementIm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -163,6 +165,7 @@ public class MedicationKnowledgeDrugCharacteristicImpl extends BackboneElementIm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getValueCodeableConcept() {
 		return valueCodeableConcept;
 	}
@@ -187,6 +190,7 @@ public class MedicationKnowledgeDrugCharacteristicImpl extends BackboneElementIm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueCodeableConcept(CodeableConcept newValueCodeableConcept) {
 		if (newValueCodeableConcept != valueCodeableConcept) {
 			NotificationChain msgs = null;
@@ -206,6 +210,7 @@ public class MedicationKnowledgeDrugCharacteristicImpl extends BackboneElementIm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getValueString() {
 		return valueString;
 	}
@@ -230,6 +235,7 @@ public class MedicationKnowledgeDrugCharacteristicImpl extends BackboneElementIm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueString(org.hl7.fhir.String newValueString) {
 		if (newValueString != valueString) {
 			NotificationChain msgs = null;
@@ -249,6 +255,7 @@ public class MedicationKnowledgeDrugCharacteristicImpl extends BackboneElementIm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getValueQuantity() {
 		return valueQuantity;
 	}
@@ -273,6 +280,7 @@ public class MedicationKnowledgeDrugCharacteristicImpl extends BackboneElementIm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueQuantity(Quantity newValueQuantity) {
 		if (newValueQuantity != valueQuantity) {
 			NotificationChain msgs = null;
@@ -292,6 +300,7 @@ public class MedicationKnowledgeDrugCharacteristicImpl extends BackboneElementIm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Base64Binary getValueBase64Binary() {
 		return valueBase64Binary;
 	}
@@ -316,6 +325,7 @@ public class MedicationKnowledgeDrugCharacteristicImpl extends BackboneElementIm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueBase64Binary(Base64Binary newValueBase64Binary) {
 		if (newValueBase64Binary != valueBase64Binary) {
 			NotificationChain msgs = null;
@@ -335,6 +345,7 @@ public class MedicationKnowledgeDrugCharacteristicImpl extends BackboneElementIm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Attachment getValueAttachment() {
 		return valueAttachment;
 	}
@@ -359,6 +370,7 @@ public class MedicationKnowledgeDrugCharacteristicImpl extends BackboneElementIm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueAttachment(Attachment newValueAttachment) {
 		if (newValueAttachment != valueAttachment) {
 			NotificationChain msgs = null;

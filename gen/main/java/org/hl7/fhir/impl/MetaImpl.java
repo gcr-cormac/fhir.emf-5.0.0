@@ -128,6 +128,7 @@ public class MetaImpl extends DataTypeImpl implements Meta {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Id getVersionId() {
 		return versionId;
 	}
@@ -152,6 +153,7 @@ public class MetaImpl extends DataTypeImpl implements Meta {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersionId(Id newVersionId) {
 		if (newVersionId != versionId) {
 			NotificationChain msgs = null;
@@ -171,6 +173,7 @@ public class MetaImpl extends DataTypeImpl implements Meta {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Instant getLastUpdated() {
 		return lastUpdated;
 	}
@@ -195,6 +198,7 @@ public class MetaImpl extends DataTypeImpl implements Meta {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLastUpdated(Instant newLastUpdated) {
 		if (newLastUpdated != lastUpdated) {
 			NotificationChain msgs = null;
@@ -214,6 +218,7 @@ public class MetaImpl extends DataTypeImpl implements Meta {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getSource() {
 		return source;
 	}
@@ -238,6 +243,7 @@ public class MetaImpl extends DataTypeImpl implements Meta {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSource(Uri newSource) {
 		if (newSource != source) {
 			NotificationChain msgs = null;
@@ -257,6 +263,7 @@ public class MetaImpl extends DataTypeImpl implements Meta {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Canonical> getProfile() {
 		if (profile == null) {
 			profile = new EObjectContainmentEList<Canonical>(Canonical.class, this, FhirPackage.META__PROFILE);
@@ -269,6 +276,7 @@ public class MetaImpl extends DataTypeImpl implements Meta {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Coding> getSecurity() {
 		if (security == null) {
 			security = new EObjectContainmentEList<Coding>(Coding.class, this, FhirPackage.META__SECURITY);
@@ -281,6 +289,7 @@ public class MetaImpl extends DataTypeImpl implements Meta {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Coding> getTag() {
 		if (tag == null) {
 			tag = new EObjectContainmentEList<Coding>(Coding.class, this, FhirPackage.META__TAG);

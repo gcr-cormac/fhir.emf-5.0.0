@@ -73,6 +73,7 @@ public class SubstanceSourceMaterialPartDescriptionImpl extends BackboneElementI
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getPart() {
 		return part;
 	}
@@ -97,6 +98,7 @@ public class SubstanceSourceMaterialPartDescriptionImpl extends BackboneElementI
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPart(CodeableConcept newPart) {
 		if (newPart != part) {
 			NotificationChain msgs = null;
@@ -116,6 +118,7 @@ public class SubstanceSourceMaterialPartDescriptionImpl extends BackboneElementI
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getPartLocation() {
 		return partLocation;
 	}
@@ -140,6 +143,7 @@ public class SubstanceSourceMaterialPartDescriptionImpl extends BackboneElementI
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPartLocation(CodeableConcept newPartLocation) {
 		if (newPartLocation != partLocation) {
 			NotificationChain msgs = null;

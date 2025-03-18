@@ -74,6 +74,7 @@ public class CapabilityStatementEndpointImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getProtocol() {
 		return protocol;
 	}
@@ -98,6 +99,7 @@ public class CapabilityStatementEndpointImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProtocol(Coding newProtocol) {
 		if (newProtocol != protocol) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class CapabilityStatementEndpointImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Url getAddress() {
 		return address;
 	}
@@ -141,6 +144,7 @@ public class CapabilityStatementEndpointImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAddress(Url newAddress) {
 		if (newAddress != address) {
 			NotificationChain msgs = null;

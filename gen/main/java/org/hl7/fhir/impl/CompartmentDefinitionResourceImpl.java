@@ -114,6 +114,7 @@ public class CompartmentDefinitionResourceImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ResourceType getCode() {
 		return code;
 	}
@@ -138,6 +139,7 @@ public class CompartmentDefinitionResourceImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(ResourceType newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -157,6 +159,7 @@ public class CompartmentDefinitionResourceImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<org.hl7.fhir.String> getParam() {
 		if (param == null) {
 			param = new EObjectContainmentEList<org.hl7.fhir.String>(org.hl7.fhir.String.class, this, FhirPackage.COMPARTMENT_DEFINITION_RESOURCE__PARAM);
@@ -169,6 +172,7 @@ public class CompartmentDefinitionResourceImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDocumentation() {
 		return documentation;
 	}
@@ -193,6 +197,7 @@ public class CompartmentDefinitionResourceImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDocumentation(org.hl7.fhir.String newDocumentation) {
 		if (newDocumentation != documentation) {
 			NotificationChain msgs = null;
@@ -212,6 +217,7 @@ public class CompartmentDefinitionResourceImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getStartParam() {
 		return startParam;
 	}
@@ -236,6 +242,7 @@ public class CompartmentDefinitionResourceImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStartParam(Uri newStartParam) {
 		if (newStartParam != startParam) {
 			NotificationChain msgs = null;
@@ -255,6 +262,7 @@ public class CompartmentDefinitionResourceImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getEndParam() {
 		return endParam;
 	}
@@ -279,6 +287,7 @@ public class CompartmentDefinitionResourceImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEndParam(Uri newEndParam) {
 		if (newEndParam != endParam) {
 			NotificationChain msgs = null;

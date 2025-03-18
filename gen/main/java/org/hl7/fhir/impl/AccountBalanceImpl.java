@@ -96,6 +96,7 @@ public class AccountBalanceImpl extends BackboneElementImpl implements AccountBa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getAggregate() {
 		return aggregate;
 	}
@@ -120,6 +121,7 @@ public class AccountBalanceImpl extends BackboneElementImpl implements AccountBa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAggregate(CodeableConcept newAggregate) {
 		if (newAggregate != aggregate) {
 			NotificationChain msgs = null;
@@ -139,6 +141,7 @@ public class AccountBalanceImpl extends BackboneElementImpl implements AccountBa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getTerm() {
 		return term;
 	}
@@ -163,6 +166,7 @@ public class AccountBalanceImpl extends BackboneElementImpl implements AccountBa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTerm(CodeableConcept newTerm) {
 		if (newTerm != term) {
 			NotificationChain msgs = null;
@@ -182,6 +186,7 @@ public class AccountBalanceImpl extends BackboneElementImpl implements AccountBa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getEstimate() {
 		return estimate;
 	}
@@ -206,6 +211,7 @@ public class AccountBalanceImpl extends BackboneElementImpl implements AccountBa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEstimate(org.hl7.fhir.Boolean newEstimate) {
 		if (newEstimate != estimate) {
 			NotificationChain msgs = null;
@@ -225,6 +231,7 @@ public class AccountBalanceImpl extends BackboneElementImpl implements AccountBa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Money getAmount() {
 		return amount;
 	}
@@ -249,6 +256,7 @@ public class AccountBalanceImpl extends BackboneElementImpl implements AccountBa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAmount(Money newAmount) {
 		if (newAmount != amount) {
 			NotificationChain msgs = null;

@@ -79,6 +79,7 @@ public class ReferenceHandlingPolicyImpl extends ElementImpl implements Referenc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ReferenceHandlingPolicyEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ReferenceHandlingPolicyImpl extends ElementImpl implements Referenc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ReferenceHandlingPolicyEnum newValue) {
 		ReferenceHandlingPolicyEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ReferenceHandlingPolicyImpl extends ElementImpl implements Referenc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ReferenceHandlingPolicyEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ReferenceHandlingPolicyImpl extends ElementImpl implements Referenc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

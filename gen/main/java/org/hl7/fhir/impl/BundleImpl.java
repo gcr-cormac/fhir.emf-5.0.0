@@ -153,6 +153,7 @@ public class BundleImpl extends ResourceImpl implements Bundle {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Identifier getIdentifier() {
 		return identifier;
 	}
@@ -177,6 +178,7 @@ public class BundleImpl extends ResourceImpl implements Bundle {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIdentifier(Identifier newIdentifier) {
 		if (newIdentifier != identifier) {
 			NotificationChain msgs = null;
@@ -196,6 +198,7 @@ public class BundleImpl extends ResourceImpl implements Bundle {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public BundleType getType() {
 		return type;
 	}
@@ -220,6 +223,7 @@ public class BundleImpl extends ResourceImpl implements Bundle {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(BundleType newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -239,6 +243,7 @@ public class BundleImpl extends ResourceImpl implements Bundle {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Instant getTimestamp() {
 		return timestamp;
 	}
@@ -263,6 +268,7 @@ public class BundleImpl extends ResourceImpl implements Bundle {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTimestamp(Instant newTimestamp) {
 		if (newTimestamp != timestamp) {
 			NotificationChain msgs = null;
@@ -282,6 +288,7 @@ public class BundleImpl extends ResourceImpl implements Bundle {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public UnsignedInt getTotal() {
 		return total;
 	}
@@ -306,6 +313,7 @@ public class BundleImpl extends ResourceImpl implements Bundle {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTotal(UnsignedInt newTotal) {
 		if (newTotal != total) {
 			NotificationChain msgs = null;
@@ -325,6 +333,7 @@ public class BundleImpl extends ResourceImpl implements Bundle {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<BundleLink> getLink() {
 		if (link == null) {
 			link = new EObjectContainmentEList<BundleLink>(BundleLink.class, this, FhirPackage.BUNDLE__LINK);
@@ -337,6 +346,7 @@ public class BundleImpl extends ResourceImpl implements Bundle {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<BundleEntry> getEntry() {
 		if (entry == null) {
 			entry = new EObjectContainmentEList<BundleEntry>(BundleEntry.class, this, FhirPackage.BUNDLE__ENTRY);
@@ -349,6 +359,7 @@ public class BundleImpl extends ResourceImpl implements Bundle {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Signature getSignature() {
 		return signature;
 	}
@@ -373,6 +384,7 @@ public class BundleImpl extends ResourceImpl implements Bundle {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSignature(Signature newSignature) {
 		if (newSignature != signature) {
 			NotificationChain msgs = null;
@@ -392,6 +404,7 @@ public class BundleImpl extends ResourceImpl implements Bundle {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ResourceContainer getIssues() {
 		return issues;
 	}
@@ -416,6 +429,7 @@ public class BundleImpl extends ResourceImpl implements Bundle {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIssues(ResourceContainer newIssues) {
 		if (newIssues != issues) {
 			NotificationChain msgs = null;

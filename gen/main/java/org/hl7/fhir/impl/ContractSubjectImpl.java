@@ -81,6 +81,7 @@ public class ContractSubjectImpl extends BackboneElementImpl implements Contract
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getReference() {
 		if (reference == null) {
 			reference = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.CONTRACT_SUBJECT__REFERENCE);
@@ -93,6 +94,7 @@ public class ContractSubjectImpl extends BackboneElementImpl implements Contract
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getRole() {
 		return role;
 	}
@@ -117,6 +119,7 @@ public class ContractSubjectImpl extends BackboneElementImpl implements Contract
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRole(CodeableConcept newRole) {
 		if (newRole != role) {
 			NotificationChain msgs = null;

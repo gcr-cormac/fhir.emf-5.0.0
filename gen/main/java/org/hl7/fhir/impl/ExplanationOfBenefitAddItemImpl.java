@@ -368,6 +368,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<PositiveInt> getItemSequence() {
 		if (itemSequence == null) {
 			itemSequence = new EObjectContainmentEList<PositiveInt>(PositiveInt.class, this, FhirPackage.EXPLANATION_OF_BENEFIT_ADD_ITEM__ITEM_SEQUENCE);
@@ -380,6 +381,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<PositiveInt> getDetailSequence() {
 		if (detailSequence == null) {
 			detailSequence = new EObjectContainmentEList<PositiveInt>(PositiveInt.class, this, FhirPackage.EXPLANATION_OF_BENEFIT_ADD_ITEM__DETAIL_SEQUENCE);
@@ -392,6 +394,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<PositiveInt> getSubDetailSequence() {
 		if (subDetailSequence == null) {
 			subDetailSequence = new EObjectContainmentEList<PositiveInt>(PositiveInt.class, this, FhirPackage.EXPLANATION_OF_BENEFIT_ADD_ITEM__SUB_DETAIL_SEQUENCE);
@@ -404,6 +407,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getTraceNumber() {
 		if (traceNumber == null) {
 			traceNumber = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.EXPLANATION_OF_BENEFIT_ADD_ITEM__TRACE_NUMBER);
@@ -416,6 +420,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getProvider() {
 		if (provider == null) {
 			provider = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.EXPLANATION_OF_BENEFIT_ADD_ITEM__PROVIDER);
@@ -428,6 +433,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getRevenue() {
 		return revenue;
 	}
@@ -452,6 +458,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRevenue(CodeableConcept newRevenue) {
 		if (newRevenue != revenue) {
 			NotificationChain msgs = null;
@@ -471,6 +478,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getProductOrService() {
 		return productOrService;
 	}
@@ -495,6 +503,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProductOrService(CodeableConcept newProductOrService) {
 		if (newProductOrService != productOrService) {
 			NotificationChain msgs = null;
@@ -514,6 +523,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getProductOrServiceEnd() {
 		return productOrServiceEnd;
 	}
@@ -538,6 +548,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProductOrServiceEnd(CodeableConcept newProductOrServiceEnd) {
 		if (newProductOrServiceEnd != productOrServiceEnd) {
 			NotificationChain msgs = null;
@@ -557,6 +568,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getRequest() {
 		if (request == null) {
 			request = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.EXPLANATION_OF_BENEFIT_ADD_ITEM__REQUEST);
@@ -569,6 +581,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getModifier() {
 		if (modifier == null) {
 			modifier = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.EXPLANATION_OF_BENEFIT_ADD_ITEM__MODIFIER);
@@ -581,6 +594,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getProgramCode() {
 		if (programCode == null) {
 			programCode = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.EXPLANATION_OF_BENEFIT_ADD_ITEM__PROGRAM_CODE);
@@ -593,6 +607,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getServicedDate() {
 		return servicedDate;
 	}
@@ -617,6 +632,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setServicedDate(Date newServicedDate) {
 		if (newServicedDate != servicedDate) {
 			NotificationChain msgs = null;
@@ -636,6 +652,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getServicedPeriod() {
 		return servicedPeriod;
 	}
@@ -660,6 +677,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setServicedPeriod(Period newServicedPeriod) {
 		if (newServicedPeriod != servicedPeriod) {
 			NotificationChain msgs = null;
@@ -679,6 +697,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getLocationCodeableConcept() {
 		return locationCodeableConcept;
 	}
@@ -703,6 +722,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLocationCodeableConcept(CodeableConcept newLocationCodeableConcept) {
 		if (newLocationCodeableConcept != locationCodeableConcept) {
 			NotificationChain msgs = null;
@@ -722,6 +742,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Address getLocationAddress() {
 		return locationAddress;
 	}
@@ -746,6 +767,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLocationAddress(Address newLocationAddress) {
 		if (newLocationAddress != locationAddress) {
 			NotificationChain msgs = null;
@@ -765,6 +787,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getLocationReference() {
 		return locationReference;
 	}
@@ -789,6 +812,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLocationReference(Reference newLocationReference) {
 		if (newLocationReference != locationReference) {
 			NotificationChain msgs = null;
@@ -808,6 +832,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Money getPatientPaid() {
 		return patientPaid;
 	}
@@ -832,6 +857,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPatientPaid(Money newPatientPaid) {
 		if (newPatientPaid != patientPaid) {
 			NotificationChain msgs = null;
@@ -851,6 +877,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getQuantity() {
 		return quantity;
 	}
@@ -875,6 +902,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setQuantity(Quantity newQuantity) {
 		if (newQuantity != quantity) {
 			NotificationChain msgs = null;
@@ -894,6 +922,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Money getUnitPrice() {
 		return unitPrice;
 	}
@@ -918,6 +947,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUnitPrice(Money newUnitPrice) {
 		if (newUnitPrice != unitPrice) {
 			NotificationChain msgs = null;
@@ -937,6 +967,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Decimal getFactor() {
 		return factor;
 	}
@@ -961,6 +992,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFactor(Decimal newFactor) {
 		if (newFactor != factor) {
 			NotificationChain msgs = null;
@@ -980,6 +1012,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Money getTax() {
 		return tax;
 	}
@@ -1004,6 +1037,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTax(Money newTax) {
 		if (newTax != tax) {
 			NotificationChain msgs = null;
@@ -1023,6 +1057,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Money getNet() {
 		return net;
 	}
@@ -1047,6 +1082,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNet(Money newNet) {
 		if (newNet != net) {
 			NotificationChain msgs = null;
@@ -1066,6 +1102,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ExplanationOfBenefitBodySite1> getBodySite() {
 		if (bodySite == null) {
 			bodySite = new EObjectContainmentEList<ExplanationOfBenefitBodySite1>(ExplanationOfBenefitBodySite1.class, this, FhirPackage.EXPLANATION_OF_BENEFIT_ADD_ITEM__BODY_SITE);
@@ -1078,6 +1115,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<PositiveInt> getNoteNumber() {
 		if (noteNumber == null) {
 			noteNumber = new EObjectContainmentEList<PositiveInt>(PositiveInt.class, this, FhirPackage.EXPLANATION_OF_BENEFIT_ADD_ITEM__NOTE_NUMBER);
@@ -1090,6 +1128,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ExplanationOfBenefitReviewOutcome getReviewOutcome() {
 		return reviewOutcome;
 	}
@@ -1114,6 +1153,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReviewOutcome(ExplanationOfBenefitReviewOutcome newReviewOutcome) {
 		if (newReviewOutcome != reviewOutcome) {
 			NotificationChain msgs = null;
@@ -1133,6 +1173,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ExplanationOfBenefitAdjudication> getAdjudication() {
 		if (adjudication == null) {
 			adjudication = new EObjectContainmentEList<ExplanationOfBenefitAdjudication>(ExplanationOfBenefitAdjudication.class, this, FhirPackage.EXPLANATION_OF_BENEFIT_ADD_ITEM__ADJUDICATION);
@@ -1145,6 +1186,7 @@ public class ExplanationOfBenefitAddItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ExplanationOfBenefitDetail1> getDetail() {
 		if (detail == null) {
 			detail = new EObjectContainmentEList<ExplanationOfBenefitDetail1>(ExplanationOfBenefitDetail1.class, this, FhirPackage.EXPLANATION_OF_BENEFIT_ADD_ITEM__DETAIL);

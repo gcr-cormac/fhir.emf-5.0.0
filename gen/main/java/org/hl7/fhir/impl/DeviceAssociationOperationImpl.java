@@ -93,6 +93,7 @@ public class DeviceAssociationOperationImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getStatus() {
 		return status;
 	}
@@ -117,6 +118,7 @@ public class DeviceAssociationOperationImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(CodeableConcept newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -136,6 +138,7 @@ public class DeviceAssociationOperationImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getOperator() {
 		if (operator == null) {
 			operator = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.DEVICE_ASSOCIATION_OPERATION__OPERATOR);
@@ -148,6 +151,7 @@ public class DeviceAssociationOperationImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getPeriod() {
 		return period;
 	}
@@ -172,6 +176,7 @@ public class DeviceAssociationOperationImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriod(Period newPeriod) {
 		if (newPeriod != period) {
 			NotificationChain msgs = null;

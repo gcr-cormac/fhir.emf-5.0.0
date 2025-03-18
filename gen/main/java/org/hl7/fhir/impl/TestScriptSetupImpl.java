@@ -66,6 +66,7 @@ public class TestScriptSetupImpl extends BackboneElementImpl implements TestScri
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<TestScriptAction> getAction() {
 		if (action == null) {
 			action = new EObjectContainmentEList<TestScriptAction>(TestScriptAction.class, this, FhirPackage.TEST_SCRIPT_SETUP__ACTION);

@@ -239,6 +239,7 @@ public class PreTypeImpl extends PreContentImpl implements PreType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public List<String> getClass_() {
 		return class_;
 	}
@@ -248,6 +249,7 @@ public class PreTypeImpl extends PreContentImpl implements PreType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setClass(List<String> newClass) {
 		List<String> oldClass = class_;
 		class_ = newClass;
@@ -260,6 +262,7 @@ public class PreTypeImpl extends PreContentImpl implements PreType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DirType getDir() {
 		return dir;
 	}
@@ -269,6 +272,7 @@ public class PreTypeImpl extends PreContentImpl implements PreType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDir(DirType newDir) {
 		DirType oldDir = dir;
 		dir = newDir == null ? DIR_EDEFAULT : newDir;
@@ -283,6 +287,7 @@ public class PreTypeImpl extends PreContentImpl implements PreType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetDir() {
 		DirType oldDir = dir;
 		boolean oldDirESet = dirESet;
@@ -297,6 +302,7 @@ public class PreTypeImpl extends PreContentImpl implements PreType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetDir() {
 		return dirESet;
 	}
@@ -306,6 +312,7 @@ public class PreTypeImpl extends PreContentImpl implements PreType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getId() {
 		return id;
 	}
@@ -315,6 +322,7 @@ public class PreTypeImpl extends PreContentImpl implements PreType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setId(String newId) {
 		String oldId = id;
 		id = newId;
@@ -327,6 +335,7 @@ public class PreTypeImpl extends PreContentImpl implements PreType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getLang() {
 		return lang;
 	}
@@ -336,6 +345,7 @@ public class PreTypeImpl extends PreContentImpl implements PreType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLang(String newLang) {
 		String oldLang = lang;
 		lang = newLang;
@@ -348,6 +358,7 @@ public class PreTypeImpl extends PreContentImpl implements PreType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Object getLang1() {
 		return lang1;
 	}
@@ -357,6 +368,7 @@ public class PreTypeImpl extends PreContentImpl implements PreType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLang1(Object newLang1) {
 		Object oldLang1 = lang1;
 		lang1 = newLang1;
@@ -369,6 +381,7 @@ public class PreTypeImpl extends PreContentImpl implements PreType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SpaceType getSpace() {
 		return space;
 	}
@@ -378,6 +391,7 @@ public class PreTypeImpl extends PreContentImpl implements PreType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSpace(SpaceType newSpace) {
 		SpaceType oldSpace = space;
 		space = newSpace == null ? SPACE_EDEFAULT : newSpace;
@@ -392,6 +406,7 @@ public class PreTypeImpl extends PreContentImpl implements PreType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetSpace() {
 		SpaceType oldSpace = space;
 		boolean oldSpaceESet = spaceESet;
@@ -406,6 +421,7 @@ public class PreTypeImpl extends PreContentImpl implements PreType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetSpace() {
 		return spaceESet;
 	}
@@ -415,6 +431,7 @@ public class PreTypeImpl extends PreContentImpl implements PreType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getStyle() {
 		return style;
 	}
@@ -424,6 +441,7 @@ public class PreTypeImpl extends PreContentImpl implements PreType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStyle(String newStyle) {
 		String oldStyle = style;
 		style = newStyle;
@@ -436,6 +454,7 @@ public class PreTypeImpl extends PreContentImpl implements PreType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getTitle() {
 		return title;
 	}
@@ -445,6 +464,7 @@ public class PreTypeImpl extends PreContentImpl implements PreType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(String newTitle) {
 		String oldTitle = title;
 		title = newTitle;

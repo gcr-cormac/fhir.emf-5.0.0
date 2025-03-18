@@ -74,6 +74,7 @@ public class SpecimenDefinitionAdditiveImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getAdditiveCodeableConcept() {
 		return additiveCodeableConcept;
 	}
@@ -98,6 +99,7 @@ public class SpecimenDefinitionAdditiveImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAdditiveCodeableConcept(CodeableConcept newAdditiveCodeableConcept) {
 		if (newAdditiveCodeableConcept != additiveCodeableConcept) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class SpecimenDefinitionAdditiveImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getAdditiveReference() {
 		return additiveReference;
 	}
@@ -141,6 +144,7 @@ public class SpecimenDefinitionAdditiveImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAdditiveReference(Reference newAdditiveReference) {
 		if (newAdditiveReference != additiveReference) {
 			NotificationChain msgs = null;

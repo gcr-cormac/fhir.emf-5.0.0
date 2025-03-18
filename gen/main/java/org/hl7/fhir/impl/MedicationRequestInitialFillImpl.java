@@ -74,6 +74,7 @@ public class MedicationRequestInitialFillImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getQuantity() {
 		return quantity;
 	}
@@ -98,6 +99,7 @@ public class MedicationRequestInitialFillImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setQuantity(Quantity newQuantity) {
 		if (newQuantity != quantity) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class MedicationRequestInitialFillImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Duration getDuration() {
 		return duration;
 	}
@@ -141,6 +144,7 @@ public class MedicationRequestInitialFillImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDuration(Duration newDuration) {
 		if (newDuration != duration) {
 			NotificationChain msgs = null;

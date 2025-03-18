@@ -78,6 +78,7 @@ public class ExplanationOfBenefitBodySite1Impl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getSite() {
 		if (site == null) {
 			site = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.EXPLANATION_OF_BENEFIT_BODY_SITE1__SITE);
@@ -90,6 +91,7 @@ public class ExplanationOfBenefitBodySite1Impl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getSubSite() {
 		if (subSite == null) {
 			subSite = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.EXPLANATION_OF_BENEFIT_BODY_SITE1__SUB_SITE);

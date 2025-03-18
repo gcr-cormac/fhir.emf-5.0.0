@@ -129,6 +129,7 @@ public class InvoiceLineItemImpl extends BackboneElementImpl implements InvoiceL
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PositiveInt getSequence() {
 		return sequence;
 	}
@@ -153,6 +154,7 @@ public class InvoiceLineItemImpl extends BackboneElementImpl implements InvoiceL
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSequence(PositiveInt newSequence) {
 		if (newSequence != sequence) {
 			NotificationChain msgs = null;
@@ -172,6 +174,7 @@ public class InvoiceLineItemImpl extends BackboneElementImpl implements InvoiceL
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getServicedDate() {
 		return servicedDate;
 	}
@@ -196,6 +199,7 @@ public class InvoiceLineItemImpl extends BackboneElementImpl implements InvoiceL
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setServicedDate(Date newServicedDate) {
 		if (newServicedDate != servicedDate) {
 			NotificationChain msgs = null;
@@ -215,6 +219,7 @@ public class InvoiceLineItemImpl extends BackboneElementImpl implements InvoiceL
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getServicedPeriod() {
 		return servicedPeriod;
 	}
@@ -239,6 +244,7 @@ public class InvoiceLineItemImpl extends BackboneElementImpl implements InvoiceL
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setServicedPeriod(Period newServicedPeriod) {
 		if (newServicedPeriod != servicedPeriod) {
 			NotificationChain msgs = null;
@@ -258,6 +264,7 @@ public class InvoiceLineItemImpl extends BackboneElementImpl implements InvoiceL
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getChargeItemReference() {
 		return chargeItemReference;
 	}
@@ -282,6 +289,7 @@ public class InvoiceLineItemImpl extends BackboneElementImpl implements InvoiceL
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setChargeItemReference(Reference newChargeItemReference) {
 		if (newChargeItemReference != chargeItemReference) {
 			NotificationChain msgs = null;
@@ -301,6 +309,7 @@ public class InvoiceLineItemImpl extends BackboneElementImpl implements InvoiceL
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getChargeItemCodeableConcept() {
 		return chargeItemCodeableConcept;
 	}
@@ -325,6 +334,7 @@ public class InvoiceLineItemImpl extends BackboneElementImpl implements InvoiceL
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setChargeItemCodeableConcept(CodeableConcept newChargeItemCodeableConcept) {
 		if (newChargeItemCodeableConcept != chargeItemCodeableConcept) {
 			NotificationChain msgs = null;
@@ -344,6 +354,7 @@ public class InvoiceLineItemImpl extends BackboneElementImpl implements InvoiceL
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MonetaryComponent> getPriceComponent() {
 		if (priceComponent == null) {
 			priceComponent = new EObjectContainmentEList<MonetaryComponent>(MonetaryComponent.class, this, FhirPackage.INVOICE_LINE_ITEM__PRICE_COMPONENT);

@@ -72,6 +72,7 @@ public class ExampleScenarioContainedInstanceImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getInstanceReference() {
 		return instanceReference;
 	}
@@ -96,6 +97,7 @@ public class ExampleScenarioContainedInstanceImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInstanceReference(org.hl7.fhir.String newInstanceReference) {
 		if (newInstanceReference != instanceReference) {
 			NotificationChain msgs = null;
@@ -115,6 +117,7 @@ public class ExampleScenarioContainedInstanceImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersionReference() {
 		return versionReference;
 	}
@@ -139,6 +142,7 @@ public class ExampleScenarioContainedInstanceImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersionReference(org.hl7.fhir.String newVersionReference) {
 		if (newVersionReference != versionReference) {
 			NotificationChain msgs = null;

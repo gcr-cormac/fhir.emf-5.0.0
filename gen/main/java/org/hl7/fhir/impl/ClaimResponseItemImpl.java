@@ -128,6 +128,7 @@ public class ClaimResponseItemImpl extends BackboneElementImpl implements ClaimR
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PositiveInt getItemSequence() {
 		return itemSequence;
 	}
@@ -152,6 +153,7 @@ public class ClaimResponseItemImpl extends BackboneElementImpl implements ClaimR
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setItemSequence(PositiveInt newItemSequence) {
 		if (newItemSequence != itemSequence) {
 			NotificationChain msgs = null;
@@ -171,6 +173,7 @@ public class ClaimResponseItemImpl extends BackboneElementImpl implements ClaimR
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getTraceNumber() {
 		if (traceNumber == null) {
 			traceNumber = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.CLAIM_RESPONSE_ITEM__TRACE_NUMBER);
@@ -183,6 +186,7 @@ public class ClaimResponseItemImpl extends BackboneElementImpl implements ClaimR
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<PositiveInt> getNoteNumber() {
 		if (noteNumber == null) {
 			noteNumber = new EObjectContainmentEList<PositiveInt>(PositiveInt.class, this, FhirPackage.CLAIM_RESPONSE_ITEM__NOTE_NUMBER);
@@ -195,6 +199,7 @@ public class ClaimResponseItemImpl extends BackboneElementImpl implements ClaimR
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ClaimResponseReviewOutcome getReviewOutcome() {
 		return reviewOutcome;
 	}
@@ -219,6 +224,7 @@ public class ClaimResponseItemImpl extends BackboneElementImpl implements ClaimR
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReviewOutcome(ClaimResponseReviewOutcome newReviewOutcome) {
 		if (newReviewOutcome != reviewOutcome) {
 			NotificationChain msgs = null;
@@ -238,6 +244,7 @@ public class ClaimResponseItemImpl extends BackboneElementImpl implements ClaimR
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ClaimResponseAdjudication> getAdjudication() {
 		if (adjudication == null) {
 			adjudication = new EObjectContainmentEList<ClaimResponseAdjudication>(ClaimResponseAdjudication.class, this, FhirPackage.CLAIM_RESPONSE_ITEM__ADJUDICATION);
@@ -250,6 +257,7 @@ public class ClaimResponseItemImpl extends BackboneElementImpl implements ClaimR
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ClaimResponseDetail> getDetail() {
 		if (detail == null) {
 			detail = new EObjectContainmentEList<ClaimResponseDetail>(ClaimResponseDetail.class, this, FhirPackage.CLAIM_RESPONSE_ITEM__DETAIL);

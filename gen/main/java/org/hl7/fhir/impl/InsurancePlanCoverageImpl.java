@@ -93,6 +93,7 @@ public class InsurancePlanCoverageImpl extends BackboneElementImpl implements In
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -117,6 +118,7 @@ public class InsurancePlanCoverageImpl extends BackboneElementImpl implements In
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -136,6 +138,7 @@ public class InsurancePlanCoverageImpl extends BackboneElementImpl implements In
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getNetwork() {
 		if (network == null) {
 			network = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.INSURANCE_PLAN_COVERAGE__NETWORK);
@@ -148,6 +151,7 @@ public class InsurancePlanCoverageImpl extends BackboneElementImpl implements In
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<InsurancePlanBenefit> getBenefit() {
 		if (benefit == null) {
 			benefit = new EObjectContainmentEList<InsurancePlanBenefit>(InsurancePlanBenefit.class, this, FhirPackage.INSURANCE_PLAN_COVERAGE__BENEFIT);

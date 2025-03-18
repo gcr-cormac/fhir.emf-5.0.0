@@ -79,6 +79,7 @@ public class QuestionnaireItemDisabledDisplayImpl extends ElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public QuestionnaireItemDisabledDisplayEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class QuestionnaireItemDisabledDisplayImpl extends ElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(QuestionnaireItemDisabledDisplayEnum newValue) {
 		QuestionnaireItemDisabledDisplayEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class QuestionnaireItemDisabledDisplayImpl extends ElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		QuestionnaireItemDisabledDisplayEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class QuestionnaireItemDisabledDisplayImpl extends ElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

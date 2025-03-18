@@ -257,6 +257,7 @@ public class AccountImpl extends DomainResourceImpl implements Account {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.ACCOUNT__IDENTIFIER);
@@ -269,6 +270,7 @@ public class AccountImpl extends DomainResourceImpl implements Account {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AccountStatus getStatus() {
 		return status;
 	}
@@ -293,6 +295,7 @@ public class AccountImpl extends DomainResourceImpl implements Account {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(AccountStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -312,6 +315,7 @@ public class AccountImpl extends DomainResourceImpl implements Account {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getBillingStatus() {
 		return billingStatus;
 	}
@@ -336,6 +340,7 @@ public class AccountImpl extends DomainResourceImpl implements Account {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBillingStatus(CodeableConcept newBillingStatus) {
 		if (newBillingStatus != billingStatus) {
 			NotificationChain msgs = null;
@@ -355,6 +360,7 @@ public class AccountImpl extends DomainResourceImpl implements Account {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -379,6 +385,7 @@ public class AccountImpl extends DomainResourceImpl implements Account {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -398,6 +405,7 @@ public class AccountImpl extends DomainResourceImpl implements Account {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -422,6 +430,7 @@ public class AccountImpl extends DomainResourceImpl implements Account {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -441,6 +450,7 @@ public class AccountImpl extends DomainResourceImpl implements Account {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getSubject() {
 		if (subject == null) {
 			subject = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.ACCOUNT__SUBJECT);
@@ -453,6 +463,7 @@ public class AccountImpl extends DomainResourceImpl implements Account {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getServicePeriod() {
 		return servicePeriod;
 	}
@@ -477,6 +488,7 @@ public class AccountImpl extends DomainResourceImpl implements Account {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setServicePeriod(Period newServicePeriod) {
 		if (newServicePeriod != servicePeriod) {
 			NotificationChain msgs = null;
@@ -496,6 +508,7 @@ public class AccountImpl extends DomainResourceImpl implements Account {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<AccountCoverage> getCoverage() {
 		if (coverage == null) {
 			coverage = new EObjectContainmentEList<AccountCoverage>(AccountCoverage.class, this, FhirPackage.ACCOUNT__COVERAGE);
@@ -508,6 +521,7 @@ public class AccountImpl extends DomainResourceImpl implements Account {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getOwner() {
 		return owner;
 	}
@@ -532,6 +546,7 @@ public class AccountImpl extends DomainResourceImpl implements Account {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOwner(Reference newOwner) {
 		if (newOwner != owner) {
 			NotificationChain msgs = null;
@@ -551,6 +566,7 @@ public class AccountImpl extends DomainResourceImpl implements Account {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -575,6 +591,7 @@ public class AccountImpl extends DomainResourceImpl implements Account {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -594,6 +611,7 @@ public class AccountImpl extends DomainResourceImpl implements Account {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<AccountGuarantor> getGuarantor() {
 		if (guarantor == null) {
 			guarantor = new EObjectContainmentEList<AccountGuarantor>(AccountGuarantor.class, this, FhirPackage.ACCOUNT__GUARANTOR);
@@ -606,6 +624,7 @@ public class AccountImpl extends DomainResourceImpl implements Account {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<AccountDiagnosis> getDiagnosis() {
 		if (diagnosis == null) {
 			diagnosis = new EObjectContainmentEList<AccountDiagnosis>(AccountDiagnosis.class, this, FhirPackage.ACCOUNT__DIAGNOSIS);
@@ -618,6 +637,7 @@ public class AccountImpl extends DomainResourceImpl implements Account {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<AccountProcedure> getProcedure() {
 		if (procedure == null) {
 			procedure = new EObjectContainmentEList<AccountProcedure>(AccountProcedure.class, this, FhirPackage.ACCOUNT__PROCEDURE);
@@ -630,6 +650,7 @@ public class AccountImpl extends DomainResourceImpl implements Account {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<AccountRelatedAccount> getRelatedAccount() {
 		if (relatedAccount == null) {
 			relatedAccount = new EObjectContainmentEList<AccountRelatedAccount>(AccountRelatedAccount.class, this, FhirPackage.ACCOUNT__RELATED_ACCOUNT);
@@ -642,6 +663,7 @@ public class AccountImpl extends DomainResourceImpl implements Account {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCurrency() {
 		return currency;
 	}
@@ -666,6 +688,7 @@ public class AccountImpl extends DomainResourceImpl implements Account {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCurrency(CodeableConcept newCurrency) {
 		if (newCurrency != currency) {
 			NotificationChain msgs = null;
@@ -685,6 +708,7 @@ public class AccountImpl extends DomainResourceImpl implements Account {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<AccountBalance> getBalance() {
 		if (balance == null) {
 			balance = new EObjectContainmentEList<AccountBalance>(AccountBalance.class, this, FhirPackage.ACCOUNT__BALANCE);
@@ -697,6 +721,7 @@ public class AccountImpl extends DomainResourceImpl implements Account {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Instant getCalculatedAt() {
 		return calculatedAt;
 	}
@@ -721,6 +746,7 @@ public class AccountImpl extends DomainResourceImpl implements Account {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCalculatedAt(Instant newCalculatedAt) {
 		if (newCalculatedAt != calculatedAt) {
 			NotificationChain msgs = null;

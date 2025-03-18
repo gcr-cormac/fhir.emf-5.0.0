@@ -401,6 +401,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getUrl() {
 		return url;
 	}
@@ -425,6 +426,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUrl(Uri newUrl) {
 		if (newUrl != url) {
 			NotificationChain msgs = null;
@@ -444,6 +446,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Identifier getIdentifier() {
 		return identifier;
 	}
@@ -468,6 +471,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIdentifier(Identifier newIdentifier) {
 		if (newIdentifier != identifier) {
 			NotificationChain msgs = null;
@@ -487,6 +491,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersion() {
 		return version;
 	}
@@ -511,6 +516,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersion(org.hl7.fhir.String newVersion) {
 		if (newVersion != version) {
 			NotificationChain msgs = null;
@@ -530,6 +536,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersionAlgorithmString() {
 		return versionAlgorithmString;
 	}
@@ -554,6 +561,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersionAlgorithmString(org.hl7.fhir.String newVersionAlgorithmString) {
 		if (newVersionAlgorithmString != versionAlgorithmString) {
 			NotificationChain msgs = null;
@@ -573,6 +581,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getVersionAlgorithmCoding() {
 		return versionAlgorithmCoding;
 	}
@@ -597,6 +606,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersionAlgorithmCoding(Coding newVersionAlgorithmCoding) {
 		if (newVersionAlgorithmCoding != versionAlgorithmCoding) {
 			NotificationChain msgs = null;
@@ -616,6 +626,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -640,6 +651,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -659,6 +671,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getTitle() {
 		return title;
 	}
@@ -683,6 +696,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(org.hl7.fhir.String newTitle) {
 		if (newTitle != title) {
 			NotificationChain msgs = null;
@@ -702,6 +716,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Canonical> getDerivedFromCanonical() {
 		if (derivedFromCanonical == null) {
 			derivedFromCanonical = new EObjectContainmentEList<Canonical>(Canonical.class, this, FhirPackage.SPECIMEN_DEFINITION__DERIVED_FROM_CANONICAL);
@@ -714,6 +729,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Uri> getDerivedFromUri() {
 		if (derivedFromUri == null) {
 			derivedFromUri = new EObjectContainmentEList<Uri>(Uri.class, this, FhirPackage.SPECIMEN_DEFINITION__DERIVED_FROM_URI);
@@ -726,6 +742,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PublicationStatus getStatus() {
 		return status;
 	}
@@ -750,6 +767,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(PublicationStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -769,6 +787,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getExperimental() {
 		return experimental;
 	}
@@ -793,6 +812,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExperimental(org.hl7.fhir.Boolean newExperimental) {
 		if (newExperimental != experimental) {
 			NotificationChain msgs = null;
@@ -812,6 +832,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getSubjectCodeableConcept() {
 		return subjectCodeableConcept;
 	}
@@ -836,6 +857,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubjectCodeableConcept(CodeableConcept newSubjectCodeableConcept) {
 		if (newSubjectCodeableConcept != subjectCodeableConcept) {
 			NotificationChain msgs = null;
@@ -855,6 +877,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubjectReference() {
 		return subjectReference;
 	}
@@ -879,6 +902,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubjectReference(Reference newSubjectReference) {
 		if (newSubjectReference != subjectReference) {
 			NotificationChain msgs = null;
@@ -898,6 +922,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getDate() {
 		return date;
 	}
@@ -922,6 +947,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDate(DateTime newDate) {
 		if (newDate != date) {
 			NotificationChain msgs = null;
@@ -941,6 +967,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPublisher() {
 		return publisher;
 	}
@@ -965,6 +992,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPublisher(org.hl7.fhir.String newPublisher) {
 		if (newPublisher != publisher) {
 			NotificationChain msgs = null;
@@ -984,6 +1012,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getContact() {
 		if (contact == null) {
 			contact = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.SPECIMEN_DEFINITION__CONTACT);
@@ -996,6 +1025,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -1020,6 +1050,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -1039,6 +1070,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<UsageContext> getUseContext() {
 		if (useContext == null) {
 			useContext = new EObjectContainmentEList<UsageContext>(UsageContext.class, this, FhirPackage.SPECIMEN_DEFINITION__USE_CONTEXT);
@@ -1051,6 +1083,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getJurisdiction() {
 		if (jurisdiction == null) {
 			jurisdiction = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.SPECIMEN_DEFINITION__JURISDICTION);
@@ -1063,6 +1096,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getPurpose() {
 		return purpose;
 	}
@@ -1087,6 +1121,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPurpose(Markdown newPurpose) {
 		if (newPurpose != purpose) {
 			NotificationChain msgs = null;
@@ -1106,6 +1141,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getCopyright() {
 		return copyright;
 	}
@@ -1130,6 +1166,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCopyright(Markdown newCopyright) {
 		if (newCopyright != copyright) {
 			NotificationChain msgs = null;
@@ -1149,6 +1186,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getCopyrightLabel() {
 		return copyrightLabel;
 	}
@@ -1173,6 +1211,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCopyrightLabel(org.hl7.fhir.String newCopyrightLabel) {
 		if (newCopyrightLabel != copyrightLabel) {
 			NotificationChain msgs = null;
@@ -1192,6 +1231,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getApprovalDate() {
 		return approvalDate;
 	}
@@ -1216,6 +1256,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setApprovalDate(Date newApprovalDate) {
 		if (newApprovalDate != approvalDate) {
 			NotificationChain msgs = null;
@@ -1235,6 +1276,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getLastReviewDate() {
 		return lastReviewDate;
 	}
@@ -1259,6 +1301,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLastReviewDate(Date newLastReviewDate) {
 		if (newLastReviewDate != lastReviewDate) {
 			NotificationChain msgs = null;
@@ -1278,6 +1321,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getEffectivePeriod() {
 		return effectivePeriod;
 	}
@@ -1302,6 +1346,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEffectivePeriod(Period newEffectivePeriod) {
 		if (newEffectivePeriod != effectivePeriod) {
 			NotificationChain msgs = null;
@@ -1321,6 +1366,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getTypeCollected() {
 		return typeCollected;
 	}
@@ -1345,6 +1391,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTypeCollected(CodeableConcept newTypeCollected) {
 		if (newTypeCollected != typeCollected) {
 			NotificationChain msgs = null;
@@ -1364,6 +1411,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getPatientPreparation() {
 		if (patientPreparation == null) {
 			patientPreparation = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.SPECIMEN_DEFINITION__PATIENT_PREPARATION);
@@ -1376,6 +1424,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getTimeAspect() {
 		return timeAspect;
 	}
@@ -1400,6 +1449,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTimeAspect(org.hl7.fhir.String newTimeAspect) {
 		if (newTimeAspect != timeAspect) {
 			NotificationChain msgs = null;
@@ -1419,6 +1469,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCollection() {
 		if (collection == null) {
 			collection = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.SPECIMEN_DEFINITION__COLLECTION);
@@ -1431,6 +1482,7 @@ public class SpecimenDefinitionImpl extends MetadataResourceImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SpecimenDefinitionTypeTested> getTypeTested() {
 		if (typeTested == null) {
 			typeTested = new EObjectContainmentEList<SpecimenDefinitionTypeTested>(SpecimenDefinitionTypeTested.class, this, FhirPackage.SPECIMEN_DEFINITION__TYPE_TESTED);

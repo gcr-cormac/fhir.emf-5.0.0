@@ -73,6 +73,7 @@ public class RangeImpl extends DataTypeImpl implements Range {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getLow() {
 		return low;
 	}
@@ -97,6 +98,7 @@ public class RangeImpl extends DataTypeImpl implements Range {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLow(Quantity newLow) {
 		if (newLow != low) {
 			NotificationChain msgs = null;
@@ -116,6 +118,7 @@ public class RangeImpl extends DataTypeImpl implements Range {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getHigh() {
 		return high;
 	}
@@ -140,6 +143,7 @@ public class RangeImpl extends DataTypeImpl implements Range {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setHigh(Quantity newHigh) {
 		if (newHigh != high) {
 			NotificationChain msgs = null;

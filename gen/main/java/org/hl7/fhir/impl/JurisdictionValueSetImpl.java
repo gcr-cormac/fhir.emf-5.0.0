@@ -79,6 +79,7 @@ public class JurisdictionValueSetImpl extends ElementImpl implements Jurisdictio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public JurisdictionValueSetEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class JurisdictionValueSetImpl extends ElementImpl implements Jurisdictio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(JurisdictionValueSetEnum newValue) {
 		JurisdictionValueSetEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class JurisdictionValueSetImpl extends ElementImpl implements Jurisdictio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		JurisdictionValueSetEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class JurisdictionValueSetImpl extends ElementImpl implements Jurisdictio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

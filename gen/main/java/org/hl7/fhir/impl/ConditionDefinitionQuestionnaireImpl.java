@@ -74,6 +74,7 @@ public class ConditionDefinitionQuestionnaireImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ConditionQuestionnairePurpose getPurpose() {
 		return purpose;
 	}
@@ -98,6 +99,7 @@ public class ConditionDefinitionQuestionnaireImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPurpose(ConditionQuestionnairePurpose newPurpose) {
 		if (newPurpose != purpose) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class ConditionDefinitionQuestionnaireImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getReference() {
 		return reference;
 	}
@@ -141,6 +144,7 @@ public class ConditionDefinitionQuestionnaireImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReference(Reference newReference) {
 		if (newReference != reference) {
 			NotificationChain msgs = null;

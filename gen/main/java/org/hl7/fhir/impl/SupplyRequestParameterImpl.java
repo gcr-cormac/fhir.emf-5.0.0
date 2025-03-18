@@ -108,6 +108,7 @@ public class SupplyRequestParameterImpl extends BackboneElementImpl implements S
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -132,6 +133,7 @@ public class SupplyRequestParameterImpl extends BackboneElementImpl implements S
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -151,6 +153,7 @@ public class SupplyRequestParameterImpl extends BackboneElementImpl implements S
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getValueCodeableConcept() {
 		return valueCodeableConcept;
 	}
@@ -175,6 +178,7 @@ public class SupplyRequestParameterImpl extends BackboneElementImpl implements S
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueCodeableConcept(CodeableConcept newValueCodeableConcept) {
 		if (newValueCodeableConcept != valueCodeableConcept) {
 			NotificationChain msgs = null;
@@ -194,6 +198,7 @@ public class SupplyRequestParameterImpl extends BackboneElementImpl implements S
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getValueQuantity() {
 		return valueQuantity;
 	}
@@ -218,6 +223,7 @@ public class SupplyRequestParameterImpl extends BackboneElementImpl implements S
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueQuantity(Quantity newValueQuantity) {
 		if (newValueQuantity != valueQuantity) {
 			NotificationChain msgs = null;
@@ -237,6 +243,7 @@ public class SupplyRequestParameterImpl extends BackboneElementImpl implements S
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Range getValueRange() {
 		return valueRange;
 	}
@@ -261,6 +268,7 @@ public class SupplyRequestParameterImpl extends BackboneElementImpl implements S
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueRange(Range newValueRange) {
 		if (newValueRange != valueRange) {
 			NotificationChain msgs = null;
@@ -280,6 +288,7 @@ public class SupplyRequestParameterImpl extends BackboneElementImpl implements S
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getValueBoolean() {
 		return valueBoolean;
 	}
@@ -304,6 +313,7 @@ public class SupplyRequestParameterImpl extends BackboneElementImpl implements S
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueBoolean(org.hl7.fhir.Boolean newValueBoolean) {
 		if (newValueBoolean != valueBoolean) {
 			NotificationChain msgs = null;

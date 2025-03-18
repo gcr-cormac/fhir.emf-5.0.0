@@ -389,6 +389,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.MEDICINAL_PRODUCT_DEFINITION__IDENTIFIER);
@@ -401,6 +402,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -425,6 +427,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -444,6 +447,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getDomain() {
 		return domain;
 	}
@@ -468,6 +472,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDomain(CodeableConcept newDomain) {
 		if (newDomain != domain) {
 			NotificationChain msgs = null;
@@ -487,6 +492,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersion() {
 		return version;
 	}
@@ -511,6 +517,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersion(org.hl7.fhir.String newVersion) {
 		if (newVersion != version) {
 			NotificationChain msgs = null;
@@ -530,6 +537,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getStatus() {
 		return status;
 	}
@@ -554,6 +562,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(CodeableConcept newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -573,6 +582,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getStatusDate() {
 		return statusDate;
 	}
@@ -597,6 +607,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatusDate(DateTime newStatusDate) {
 		if (newStatusDate != statusDate) {
 			NotificationChain msgs = null;
@@ -616,6 +627,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -640,6 +652,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -659,6 +672,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCombinedPharmaceuticalDoseForm() {
 		return combinedPharmaceuticalDoseForm;
 	}
@@ -683,6 +697,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCombinedPharmaceuticalDoseForm(CodeableConcept newCombinedPharmaceuticalDoseForm) {
 		if (newCombinedPharmaceuticalDoseForm != combinedPharmaceuticalDoseForm) {
 			NotificationChain msgs = null;
@@ -702,6 +717,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getRoute() {
 		if (route == null) {
 			route = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.MEDICINAL_PRODUCT_DEFINITION__ROUTE);
@@ -714,6 +730,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getIndication() {
 		return indication;
 	}
@@ -738,6 +755,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIndication(Markdown newIndication) {
 		if (newIndication != indication) {
 			NotificationChain msgs = null;
@@ -757,6 +775,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getLegalStatusOfSupply() {
 		return legalStatusOfSupply;
 	}
@@ -781,6 +800,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLegalStatusOfSupply(CodeableConcept newLegalStatusOfSupply) {
 		if (newLegalStatusOfSupply != legalStatusOfSupply) {
 			NotificationChain msgs = null;
@@ -800,6 +820,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getAdditionalMonitoringIndicator() {
 		return additionalMonitoringIndicator;
 	}
@@ -824,6 +845,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAdditionalMonitoringIndicator(CodeableConcept newAdditionalMonitoringIndicator) {
 		if (newAdditionalMonitoringIndicator != additionalMonitoringIndicator) {
 			NotificationChain msgs = null;
@@ -843,6 +865,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getSpecialMeasures() {
 		if (specialMeasures == null) {
 			specialMeasures = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.MEDICINAL_PRODUCT_DEFINITION__SPECIAL_MEASURES);
@@ -855,6 +878,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getPediatricUseIndicator() {
 		return pediatricUseIndicator;
 	}
@@ -879,6 +903,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPediatricUseIndicator(CodeableConcept newPediatricUseIndicator) {
 		if (newPediatricUseIndicator != pediatricUseIndicator) {
 			NotificationChain msgs = null;
@@ -898,6 +923,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getClassification() {
 		if (classification == null) {
 			classification = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.MEDICINAL_PRODUCT_DEFINITION__CLASSIFICATION);
@@ -910,6 +936,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MarketingStatus> getMarketingStatus() {
 		if (marketingStatus == null) {
 			marketingStatus = new EObjectContainmentEList<MarketingStatus>(MarketingStatus.class, this, FhirPackage.MEDICINAL_PRODUCT_DEFINITION__MARKETING_STATUS);
@@ -922,6 +949,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getPackagedMedicinalProduct() {
 		if (packagedMedicinalProduct == null) {
 			packagedMedicinalProduct = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.MEDICINAL_PRODUCT_DEFINITION__PACKAGED_MEDICINAL_PRODUCT);
@@ -934,6 +962,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getComprisedOf() {
 		if (comprisedOf == null) {
 			comprisedOf = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.MEDICINAL_PRODUCT_DEFINITION__COMPRISED_OF);
@@ -946,6 +975,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getIngredient() {
 		if (ingredient == null) {
 			ingredient = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.MEDICINAL_PRODUCT_DEFINITION__INGREDIENT);
@@ -958,6 +988,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getImpurity() {
 		if (impurity == null) {
 			impurity = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.MEDICINAL_PRODUCT_DEFINITION__IMPURITY);
@@ -970,6 +1001,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getAttachedDocument() {
 		if (attachedDocument == null) {
 			attachedDocument = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.MEDICINAL_PRODUCT_DEFINITION__ATTACHED_DOCUMENT);
@@ -982,6 +1014,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getMasterFile() {
 		if (masterFile == null) {
 			masterFile = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.MEDICINAL_PRODUCT_DEFINITION__MASTER_FILE);
@@ -994,6 +1027,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MedicinalProductDefinitionContact> getContact() {
 		if (contact == null) {
 			contact = new EObjectContainmentEList<MedicinalProductDefinitionContact>(MedicinalProductDefinitionContact.class, this, FhirPackage.MEDICINAL_PRODUCT_DEFINITION__CONTACT);
@@ -1006,6 +1040,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getClinicalTrial() {
 		if (clinicalTrial == null) {
 			clinicalTrial = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.MEDICINAL_PRODUCT_DEFINITION__CLINICAL_TRIAL);
@@ -1018,6 +1053,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Coding> getCode() {
 		if (code == null) {
 			code = new EObjectContainmentEList<Coding>(Coding.class, this, FhirPackage.MEDICINAL_PRODUCT_DEFINITION__CODE);
@@ -1030,6 +1066,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MedicinalProductDefinitionName> getName() {
 		if (name == null) {
 			name = new EObjectContainmentEList<MedicinalProductDefinitionName>(MedicinalProductDefinitionName.class, this, FhirPackage.MEDICINAL_PRODUCT_DEFINITION__NAME);
@@ -1042,6 +1079,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MedicinalProductDefinitionCrossReference> getCrossReference() {
 		if (crossReference == null) {
 			crossReference = new EObjectContainmentEList<MedicinalProductDefinitionCrossReference>(MedicinalProductDefinitionCrossReference.class, this, FhirPackage.MEDICINAL_PRODUCT_DEFINITION__CROSS_REFERENCE);
@@ -1054,6 +1092,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MedicinalProductDefinitionOperation> getOperation() {
 		if (operation == null) {
 			operation = new EObjectContainmentEList<MedicinalProductDefinitionOperation>(MedicinalProductDefinitionOperation.class, this, FhirPackage.MEDICINAL_PRODUCT_DEFINITION__OPERATION);
@@ -1066,6 +1105,7 @@ public class MedicinalProductDefinitionImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MedicinalProductDefinitionCharacteristic> getCharacteristic() {
 		if (characteristic == null) {
 			characteristic = new EObjectContainmentEList<MedicinalProductDefinitionCharacteristic>(MedicinalProductDefinitionCharacteristic.class, this, FhirPackage.MEDICINAL_PRODUCT_DEFINITION__CHARACTERISTIC);

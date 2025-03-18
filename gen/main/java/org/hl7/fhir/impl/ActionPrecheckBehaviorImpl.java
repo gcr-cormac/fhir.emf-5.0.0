@@ -79,6 +79,7 @@ public class ActionPrecheckBehaviorImpl extends ElementImpl implements ActionPre
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ActionPrecheckBehaviorEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ActionPrecheckBehaviorImpl extends ElementImpl implements ActionPre
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ActionPrecheckBehaviorEnum newValue) {
 		ActionPrecheckBehaviorEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ActionPrecheckBehaviorImpl extends ElementImpl implements ActionPre
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ActionPrecheckBehaviorEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ActionPrecheckBehaviorImpl extends ElementImpl implements ActionPre
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

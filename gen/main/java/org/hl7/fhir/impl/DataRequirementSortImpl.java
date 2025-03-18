@@ -73,6 +73,7 @@ public class DataRequirementSortImpl extends DataTypeImpl implements DataRequire
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPath() {
 		return path;
 	}
@@ -97,6 +98,7 @@ public class DataRequirementSortImpl extends DataTypeImpl implements DataRequire
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPath(org.hl7.fhir.String newPath) {
 		if (newPath != path) {
 			NotificationChain msgs = null;
@@ -116,6 +118,7 @@ public class DataRequirementSortImpl extends DataTypeImpl implements DataRequire
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SortDirection getDirection() {
 		return direction;
 	}
@@ -140,6 +143,7 @@ public class DataRequirementSortImpl extends DataTypeImpl implements DataRequire
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDirection(SortDirection newDirection) {
 		if (newDirection != direction) {
 			NotificationChain msgs = null;

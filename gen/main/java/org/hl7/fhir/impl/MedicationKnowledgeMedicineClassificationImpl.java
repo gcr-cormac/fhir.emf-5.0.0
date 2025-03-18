@@ -103,6 +103,7 @@ public class MedicationKnowledgeMedicineClassificationImpl extends BackboneEleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -127,6 +128,7 @@ public class MedicationKnowledgeMedicineClassificationImpl extends BackboneEleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -146,6 +148,7 @@ public class MedicationKnowledgeMedicineClassificationImpl extends BackboneEleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getSourceString() {
 		return sourceString;
 	}
@@ -170,6 +173,7 @@ public class MedicationKnowledgeMedicineClassificationImpl extends BackboneEleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSourceString(org.hl7.fhir.String newSourceString) {
 		if (newSourceString != sourceString) {
 			NotificationChain msgs = null;
@@ -189,6 +193,7 @@ public class MedicationKnowledgeMedicineClassificationImpl extends BackboneEleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getSourceUri() {
 		return sourceUri;
 	}
@@ -213,6 +218,7 @@ public class MedicationKnowledgeMedicineClassificationImpl extends BackboneEleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSourceUri(Uri newSourceUri) {
 		if (newSourceUri != sourceUri) {
 			NotificationChain msgs = null;
@@ -232,6 +238,7 @@ public class MedicationKnowledgeMedicineClassificationImpl extends BackboneEleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getClassification() {
 		if (classification == null) {
 			classification = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.MEDICATION_KNOWLEDGE_MEDICINE_CLASSIFICATION__CLASSIFICATION);

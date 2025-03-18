@@ -109,6 +109,7 @@ public class RequestOrchestrationRelatedActionImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Id getTargetId() {
 		return targetId;
 	}
@@ -133,6 +134,7 @@ public class RequestOrchestrationRelatedActionImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTargetId(Id newTargetId) {
 		if (newTargetId != targetId) {
 			NotificationChain msgs = null;
@@ -152,6 +154,7 @@ public class RequestOrchestrationRelatedActionImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ActionRelationshipType getRelationship() {
 		return relationship;
 	}
@@ -176,6 +179,7 @@ public class RequestOrchestrationRelatedActionImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRelationship(ActionRelationshipType newRelationship) {
 		if (newRelationship != relationship) {
 			NotificationChain msgs = null;
@@ -195,6 +199,7 @@ public class RequestOrchestrationRelatedActionImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ActionRelationshipType getEndRelationship() {
 		return endRelationship;
 	}
@@ -219,6 +224,7 @@ public class RequestOrchestrationRelatedActionImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEndRelationship(ActionRelationshipType newEndRelationship) {
 		if (newEndRelationship != endRelationship) {
 			NotificationChain msgs = null;
@@ -238,6 +244,7 @@ public class RequestOrchestrationRelatedActionImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Duration getOffsetDuration() {
 		return offsetDuration;
 	}
@@ -262,6 +269,7 @@ public class RequestOrchestrationRelatedActionImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOffsetDuration(Duration newOffsetDuration) {
 		if (newOffsetDuration != offsetDuration) {
 			NotificationChain msgs = null;
@@ -281,6 +289,7 @@ public class RequestOrchestrationRelatedActionImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Range getOffsetRange() {
 		return offsetRange;
 	}
@@ -305,6 +314,7 @@ public class RequestOrchestrationRelatedActionImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOffsetRange(Range newOffsetRange) {
 		if (newOffsetRange != offsetRange) {
 			NotificationChain msgs = null;

@@ -79,6 +79,7 @@ public class ListStatusImpl extends ElementImpl implements ListStatus {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ListStatusEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ListStatusImpl extends ElementImpl implements ListStatus {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ListStatusEnum newValue) {
 		ListStatusEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ListStatusImpl extends ElementImpl implements ListStatus {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ListStatusEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ListStatusImpl extends ElementImpl implements ListStatus {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

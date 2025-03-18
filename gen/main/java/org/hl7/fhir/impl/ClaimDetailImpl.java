@@ -241,6 +241,7 @@ public class ClaimDetailImpl extends BackboneElementImpl implements ClaimDetail 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PositiveInt getSequence() {
 		return sequence;
 	}
@@ -265,6 +266,7 @@ public class ClaimDetailImpl extends BackboneElementImpl implements ClaimDetail 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSequence(PositiveInt newSequence) {
 		if (newSequence != sequence) {
 			NotificationChain msgs = null;
@@ -284,6 +286,7 @@ public class ClaimDetailImpl extends BackboneElementImpl implements ClaimDetail 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getTraceNumber() {
 		if (traceNumber == null) {
 			traceNumber = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.CLAIM_DETAIL__TRACE_NUMBER);
@@ -296,6 +299,7 @@ public class ClaimDetailImpl extends BackboneElementImpl implements ClaimDetail 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getRevenue() {
 		return revenue;
 	}
@@ -320,6 +324,7 @@ public class ClaimDetailImpl extends BackboneElementImpl implements ClaimDetail 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRevenue(CodeableConcept newRevenue) {
 		if (newRevenue != revenue) {
 			NotificationChain msgs = null;
@@ -339,6 +344,7 @@ public class ClaimDetailImpl extends BackboneElementImpl implements ClaimDetail 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCategory() {
 		return category;
 	}
@@ -363,6 +369,7 @@ public class ClaimDetailImpl extends BackboneElementImpl implements ClaimDetail 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCategory(CodeableConcept newCategory) {
 		if (newCategory != category) {
 			NotificationChain msgs = null;
@@ -382,6 +389,7 @@ public class ClaimDetailImpl extends BackboneElementImpl implements ClaimDetail 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getProductOrService() {
 		return productOrService;
 	}
@@ -406,6 +414,7 @@ public class ClaimDetailImpl extends BackboneElementImpl implements ClaimDetail 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProductOrService(CodeableConcept newProductOrService) {
 		if (newProductOrService != productOrService) {
 			NotificationChain msgs = null;
@@ -425,6 +434,7 @@ public class ClaimDetailImpl extends BackboneElementImpl implements ClaimDetail 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getProductOrServiceEnd() {
 		return productOrServiceEnd;
 	}
@@ -449,6 +459,7 @@ public class ClaimDetailImpl extends BackboneElementImpl implements ClaimDetail 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProductOrServiceEnd(CodeableConcept newProductOrServiceEnd) {
 		if (newProductOrServiceEnd != productOrServiceEnd) {
 			NotificationChain msgs = null;
@@ -468,6 +479,7 @@ public class ClaimDetailImpl extends BackboneElementImpl implements ClaimDetail 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getModifier() {
 		if (modifier == null) {
 			modifier = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.CLAIM_DETAIL__MODIFIER);
@@ -480,6 +492,7 @@ public class ClaimDetailImpl extends BackboneElementImpl implements ClaimDetail 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getProgramCode() {
 		if (programCode == null) {
 			programCode = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.CLAIM_DETAIL__PROGRAM_CODE);
@@ -492,6 +505,7 @@ public class ClaimDetailImpl extends BackboneElementImpl implements ClaimDetail 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Money getPatientPaid() {
 		return patientPaid;
 	}
@@ -516,6 +530,7 @@ public class ClaimDetailImpl extends BackboneElementImpl implements ClaimDetail 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPatientPaid(Money newPatientPaid) {
 		if (newPatientPaid != patientPaid) {
 			NotificationChain msgs = null;
@@ -535,6 +550,7 @@ public class ClaimDetailImpl extends BackboneElementImpl implements ClaimDetail 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getQuantity() {
 		return quantity;
 	}
@@ -559,6 +575,7 @@ public class ClaimDetailImpl extends BackboneElementImpl implements ClaimDetail 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setQuantity(Quantity newQuantity) {
 		if (newQuantity != quantity) {
 			NotificationChain msgs = null;
@@ -578,6 +595,7 @@ public class ClaimDetailImpl extends BackboneElementImpl implements ClaimDetail 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Money getUnitPrice() {
 		return unitPrice;
 	}
@@ -602,6 +620,7 @@ public class ClaimDetailImpl extends BackboneElementImpl implements ClaimDetail 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUnitPrice(Money newUnitPrice) {
 		if (newUnitPrice != unitPrice) {
 			NotificationChain msgs = null;
@@ -621,6 +640,7 @@ public class ClaimDetailImpl extends BackboneElementImpl implements ClaimDetail 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Decimal getFactor() {
 		return factor;
 	}
@@ -645,6 +665,7 @@ public class ClaimDetailImpl extends BackboneElementImpl implements ClaimDetail 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFactor(Decimal newFactor) {
 		if (newFactor != factor) {
 			NotificationChain msgs = null;
@@ -664,6 +685,7 @@ public class ClaimDetailImpl extends BackboneElementImpl implements ClaimDetail 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Money getTax() {
 		return tax;
 	}
@@ -688,6 +710,7 @@ public class ClaimDetailImpl extends BackboneElementImpl implements ClaimDetail 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTax(Money newTax) {
 		if (newTax != tax) {
 			NotificationChain msgs = null;
@@ -707,6 +730,7 @@ public class ClaimDetailImpl extends BackboneElementImpl implements ClaimDetail 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Money getNet() {
 		return net;
 	}
@@ -731,6 +755,7 @@ public class ClaimDetailImpl extends BackboneElementImpl implements ClaimDetail 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNet(Money newNet) {
 		if (newNet != net) {
 			NotificationChain msgs = null;
@@ -750,6 +775,7 @@ public class ClaimDetailImpl extends BackboneElementImpl implements ClaimDetail 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getUdi() {
 		if (udi == null) {
 			udi = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.CLAIM_DETAIL__UDI);
@@ -762,6 +788,7 @@ public class ClaimDetailImpl extends BackboneElementImpl implements ClaimDetail 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ClaimSubDetail> getSubDetail() {
 		if (subDetail == null) {
 			subDetail = new EObjectContainmentEList<ClaimSubDetail>(ClaimSubDetail.class, this, FhirPackage.CLAIM_DETAIL__SUB_DETAIL);

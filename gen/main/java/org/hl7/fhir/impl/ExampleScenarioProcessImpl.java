@@ -114,6 +114,7 @@ public class ExampleScenarioProcessImpl extends BackboneElementImpl implements E
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getTitle() {
 		return title;
 	}
@@ -138,6 +139,7 @@ public class ExampleScenarioProcessImpl extends BackboneElementImpl implements E
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(org.hl7.fhir.String newTitle) {
 		if (newTitle != title) {
 			NotificationChain msgs = null;
@@ -157,6 +159,7 @@ public class ExampleScenarioProcessImpl extends BackboneElementImpl implements E
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -181,6 +184,7 @@ public class ExampleScenarioProcessImpl extends BackboneElementImpl implements E
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -200,6 +204,7 @@ public class ExampleScenarioProcessImpl extends BackboneElementImpl implements E
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getPreConditions() {
 		return preConditions;
 	}
@@ -224,6 +229,7 @@ public class ExampleScenarioProcessImpl extends BackboneElementImpl implements E
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPreConditions(Markdown newPreConditions) {
 		if (newPreConditions != preConditions) {
 			NotificationChain msgs = null;
@@ -243,6 +249,7 @@ public class ExampleScenarioProcessImpl extends BackboneElementImpl implements E
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getPostConditions() {
 		return postConditions;
 	}
@@ -267,6 +274,7 @@ public class ExampleScenarioProcessImpl extends BackboneElementImpl implements E
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPostConditions(Markdown newPostConditions) {
 		if (newPostConditions != postConditions) {
 			NotificationChain msgs = null;
@@ -286,6 +294,7 @@ public class ExampleScenarioProcessImpl extends BackboneElementImpl implements E
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ExampleScenarioStep> getStep() {
 		if (step == null) {
 			step = new EObjectContainmentEList<ExampleScenarioStep>(ExampleScenarioStep.class, this, FhirPackage.EXAMPLE_SCENARIO_PROCESS__STEP);

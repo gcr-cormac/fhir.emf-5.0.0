@@ -138,6 +138,7 @@ public class DeviceDefinitionGuidelineImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<UsageContext> getUseContext() {
 		if (useContext == null) {
 			useContext = new EObjectContainmentEList<UsageContext>(UsageContext.class, this, FhirPackage.DEVICE_DEFINITION_GUIDELINE__USE_CONTEXT);
@@ -150,6 +151,7 @@ public class DeviceDefinitionGuidelineImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getUsageInstruction() {
 		return usageInstruction;
 	}
@@ -174,6 +176,7 @@ public class DeviceDefinitionGuidelineImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUsageInstruction(Markdown newUsageInstruction) {
 		if (newUsageInstruction != usageInstruction) {
 			NotificationChain msgs = null;
@@ -193,6 +196,7 @@ public class DeviceDefinitionGuidelineImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<RelatedArtifact> getRelatedArtifact() {
 		if (relatedArtifact == null) {
 			relatedArtifact = new EObjectContainmentEList<RelatedArtifact>(RelatedArtifact.class, this, FhirPackage.DEVICE_DEFINITION_GUIDELINE__RELATED_ARTIFACT);
@@ -205,6 +209,7 @@ public class DeviceDefinitionGuidelineImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getIndication() {
 		if (indication == null) {
 			indication = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.DEVICE_DEFINITION_GUIDELINE__INDICATION);
@@ -217,6 +222,7 @@ public class DeviceDefinitionGuidelineImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getContraindication() {
 		if (contraindication == null) {
 			contraindication = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.DEVICE_DEFINITION_GUIDELINE__CONTRAINDICATION);
@@ -229,6 +235,7 @@ public class DeviceDefinitionGuidelineImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getWarning() {
 		if (warning == null) {
 			warning = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.DEVICE_DEFINITION_GUIDELINE__WARNING);
@@ -241,6 +248,7 @@ public class DeviceDefinitionGuidelineImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getIntendedUse() {
 		return intendedUse;
 	}
@@ -265,6 +273,7 @@ public class DeviceDefinitionGuidelineImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIntendedUse(org.hl7.fhir.String newIntendedUse) {
 		if (newIntendedUse != intendedUse) {
 			NotificationChain msgs = null;

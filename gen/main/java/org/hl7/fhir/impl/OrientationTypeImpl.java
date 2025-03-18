@@ -79,6 +79,7 @@ public class OrientationTypeImpl extends ElementImpl implements OrientationType 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public OrientationTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class OrientationTypeImpl extends ElementImpl implements OrientationType 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(OrientationTypeEnum newValue) {
 		OrientationTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class OrientationTypeImpl extends ElementImpl implements OrientationType 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		OrientationTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class OrientationTypeImpl extends ElementImpl implements OrientationType 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

@@ -116,6 +116,7 @@ public class SubscriptionTopicResourceTriggerImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -140,6 +141,7 @@ public class SubscriptionTopicResourceTriggerImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -159,6 +161,7 @@ public class SubscriptionTopicResourceTriggerImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getResource() {
 		return resource;
 	}
@@ -183,6 +186,7 @@ public class SubscriptionTopicResourceTriggerImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setResource(Uri newResource) {
 		if (newResource != resource) {
 			NotificationChain msgs = null;
@@ -202,6 +206,7 @@ public class SubscriptionTopicResourceTriggerImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<InteractionTrigger> getSupportedInteraction() {
 		if (supportedInteraction == null) {
 			supportedInteraction = new EObjectContainmentEList<InteractionTrigger>(InteractionTrigger.class, this, FhirPackage.SUBSCRIPTION_TOPIC_RESOURCE_TRIGGER__SUPPORTED_INTERACTION);
@@ -214,6 +219,7 @@ public class SubscriptionTopicResourceTriggerImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SubscriptionTopicQueryCriteria getQueryCriteria() {
 		return queryCriteria;
 	}
@@ -238,6 +244,7 @@ public class SubscriptionTopicResourceTriggerImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setQueryCriteria(SubscriptionTopicQueryCriteria newQueryCriteria) {
 		if (newQueryCriteria != queryCriteria) {
 			NotificationChain msgs = null;
@@ -257,6 +264,7 @@ public class SubscriptionTopicResourceTriggerImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getFhirPathCriteria() {
 		return fhirPathCriteria;
 	}
@@ -281,6 +289,7 @@ public class SubscriptionTopicResourceTriggerImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFhirPathCriteria(org.hl7.fhir.String newFhirPathCriteria) {
 		if (newFhirPathCriteria != fhirPathCriteria) {
 			NotificationChain msgs = null;

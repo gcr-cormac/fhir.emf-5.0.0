@@ -137,6 +137,7 @@ public class ClaimInsuranceImpl extends BackboneElementImpl implements ClaimInsu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PositiveInt getSequence() {
 		return sequence;
 	}
@@ -161,6 +162,7 @@ public class ClaimInsuranceImpl extends BackboneElementImpl implements ClaimInsu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSequence(PositiveInt newSequence) {
 		if (newSequence != sequence) {
 			NotificationChain msgs = null;
@@ -180,6 +182,7 @@ public class ClaimInsuranceImpl extends BackboneElementImpl implements ClaimInsu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getFocal() {
 		return focal;
 	}
@@ -204,6 +207,7 @@ public class ClaimInsuranceImpl extends BackboneElementImpl implements ClaimInsu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFocal(org.hl7.fhir.Boolean newFocal) {
 		if (newFocal != focal) {
 			NotificationChain msgs = null;
@@ -223,6 +227,7 @@ public class ClaimInsuranceImpl extends BackboneElementImpl implements ClaimInsu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Identifier getIdentifier() {
 		return identifier;
 	}
@@ -247,6 +252,7 @@ public class ClaimInsuranceImpl extends BackboneElementImpl implements ClaimInsu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIdentifier(Identifier newIdentifier) {
 		if (newIdentifier != identifier) {
 			NotificationChain msgs = null;
@@ -266,6 +272,7 @@ public class ClaimInsuranceImpl extends BackboneElementImpl implements ClaimInsu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getCoverage() {
 		return coverage;
 	}
@@ -290,6 +297,7 @@ public class ClaimInsuranceImpl extends BackboneElementImpl implements ClaimInsu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCoverage(Reference newCoverage) {
 		if (newCoverage != coverage) {
 			NotificationChain msgs = null;
@@ -309,6 +317,7 @@ public class ClaimInsuranceImpl extends BackboneElementImpl implements ClaimInsu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getBusinessArrangement() {
 		return businessArrangement;
 	}
@@ -333,6 +342,7 @@ public class ClaimInsuranceImpl extends BackboneElementImpl implements ClaimInsu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBusinessArrangement(org.hl7.fhir.String newBusinessArrangement) {
 		if (newBusinessArrangement != businessArrangement) {
 			NotificationChain msgs = null;
@@ -352,6 +362,7 @@ public class ClaimInsuranceImpl extends BackboneElementImpl implements ClaimInsu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<org.hl7.fhir.String> getPreAuthRef() {
 		if (preAuthRef == null) {
 			preAuthRef = new EObjectContainmentEList<org.hl7.fhir.String>(org.hl7.fhir.String.class, this, FhirPackage.CLAIM_INSURANCE__PRE_AUTH_REF);
@@ -364,6 +375,7 @@ public class ClaimInsuranceImpl extends BackboneElementImpl implements ClaimInsu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getClaimResponse() {
 		return claimResponse;
 	}
@@ -388,6 +400,7 @@ public class ClaimInsuranceImpl extends BackboneElementImpl implements ClaimInsu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setClaimResponse(Reference newClaimResponse) {
 		if (newClaimResponse != claimResponse) {
 			NotificationChain msgs = null;

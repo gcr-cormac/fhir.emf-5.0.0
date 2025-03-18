@@ -61,6 +61,7 @@ public class TerminologyCapabilitiesTranslationImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getNeedsMap() {
 		return needsMap;
 	}
@@ -85,6 +86,7 @@ public class TerminologyCapabilitiesTranslationImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNeedsMap(org.hl7.fhir.Boolean newNeedsMap) {
 		if (newNeedsMap != needsMap) {
 			NotificationChain msgs = null;

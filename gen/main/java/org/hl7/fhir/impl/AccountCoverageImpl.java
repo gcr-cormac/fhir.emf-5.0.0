@@ -74,6 +74,7 @@ public class AccountCoverageImpl extends BackboneElementImpl implements AccountC
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getCoverage() {
 		return coverage;
 	}
@@ -98,6 +99,7 @@ public class AccountCoverageImpl extends BackboneElementImpl implements AccountC
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCoverage(Reference newCoverage) {
 		if (newCoverage != coverage) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class AccountCoverageImpl extends BackboneElementImpl implements AccountC
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PositiveInt getPriority() {
 		return priority;
 	}
@@ -141,6 +144,7 @@ public class AccountCoverageImpl extends BackboneElementImpl implements AccountC
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPriority(PositiveInt newPriority) {
 		if (newPriority != priority) {
 			NotificationChain msgs = null;

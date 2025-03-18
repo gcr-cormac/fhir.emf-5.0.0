@@ -79,6 +79,7 @@ public class SubscriptionStatusCodesImpl extends ElementImpl implements Subscrip
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SubscriptionStatusCodesEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class SubscriptionStatusCodesImpl extends ElementImpl implements Subscrip
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(SubscriptionStatusCodesEnum newValue) {
 		SubscriptionStatusCodesEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class SubscriptionStatusCodesImpl extends ElementImpl implements Subscrip
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		SubscriptionStatusCodesEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class SubscriptionStatusCodesImpl extends ElementImpl implements Subscrip
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

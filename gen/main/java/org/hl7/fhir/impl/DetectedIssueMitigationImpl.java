@@ -105,6 +105,7 @@ public class DetectedIssueMitigationImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getAction() {
 		return action;
 	}
@@ -129,6 +130,7 @@ public class DetectedIssueMitigationImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAction(CodeableConcept newAction) {
 		if (newAction != action) {
 			NotificationChain msgs = null;
@@ -148,6 +150,7 @@ public class DetectedIssueMitigationImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getDate() {
 		return date;
 	}
@@ -172,6 +175,7 @@ public class DetectedIssueMitigationImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDate(DateTime newDate) {
 		if (newDate != date) {
 			NotificationChain msgs = null;
@@ -191,6 +195,7 @@ public class DetectedIssueMitigationImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getAuthor() {
 		return author;
 	}
@@ -215,6 +220,7 @@ public class DetectedIssueMitigationImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAuthor(Reference newAuthor) {
 		if (newAuthor != author) {
 			NotificationChain msgs = null;
@@ -234,6 +240,7 @@ public class DetectedIssueMitigationImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.DETECTED_ISSUE_MITIGATION__NOTE);

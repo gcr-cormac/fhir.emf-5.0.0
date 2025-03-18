@@ -85,6 +85,7 @@ public class CitationStatusDate1Impl extends BackboneElementImpl implements Cita
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getActivity() {
 		return activity;
 	}
@@ -109,6 +110,7 @@ public class CitationStatusDate1Impl extends BackboneElementImpl implements Cita
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setActivity(CodeableConcept newActivity) {
 		if (newActivity != activity) {
 			NotificationChain msgs = null;
@@ -128,6 +130,7 @@ public class CitationStatusDate1Impl extends BackboneElementImpl implements Cita
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getActual() {
 		return actual;
 	}
@@ -152,6 +155,7 @@ public class CitationStatusDate1Impl extends BackboneElementImpl implements Cita
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setActual(org.hl7.fhir.Boolean newActual) {
 		if (newActual != actual) {
 			NotificationChain msgs = null;
@@ -171,6 +175,7 @@ public class CitationStatusDate1Impl extends BackboneElementImpl implements Cita
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getPeriod() {
 		return period;
 	}
@@ -195,6 +200,7 @@ public class CitationStatusDate1Impl extends BackboneElementImpl implements Cita
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriod(Period newPeriod) {
 		if (newPeriod != period) {
 			NotificationChain msgs = null;

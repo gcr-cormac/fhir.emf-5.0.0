@@ -109,6 +109,7 @@ public class ConceptMapPropertyImpl extends BackboneElementImpl implements Conce
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Code getCode() {
 		return code;
 	}
@@ -133,6 +134,7 @@ public class ConceptMapPropertyImpl extends BackboneElementImpl implements Conce
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(Code newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -152,6 +154,7 @@ public class ConceptMapPropertyImpl extends BackboneElementImpl implements Conce
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getUri() {
 		return uri;
 	}
@@ -176,6 +179,7 @@ public class ConceptMapPropertyImpl extends BackboneElementImpl implements Conce
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUri(Uri newUri) {
 		if (newUri != uri) {
 			NotificationChain msgs = null;
@@ -195,6 +199,7 @@ public class ConceptMapPropertyImpl extends BackboneElementImpl implements Conce
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDescription() {
 		return description;
 	}
@@ -219,6 +224,7 @@ public class ConceptMapPropertyImpl extends BackboneElementImpl implements Conce
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(org.hl7.fhir.String newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -238,6 +244,7 @@ public class ConceptMapPropertyImpl extends BackboneElementImpl implements Conce
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ConceptMapPropertyType getType() {
 		return type;
 	}
@@ -262,6 +269,7 @@ public class ConceptMapPropertyImpl extends BackboneElementImpl implements Conce
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(ConceptMapPropertyType newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -281,6 +289,7 @@ public class ConceptMapPropertyImpl extends BackboneElementImpl implements Conce
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getSystem() {
 		return system;
 	}
@@ -305,6 +314,7 @@ public class ConceptMapPropertyImpl extends BackboneElementImpl implements Conce
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSystem(Canonical newSystem) {
 		if (newSystem != system) {
 			NotificationChain msgs = null;

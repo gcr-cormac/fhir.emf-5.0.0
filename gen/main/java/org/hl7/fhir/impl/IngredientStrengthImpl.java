@@ -216,6 +216,7 @@ public class IngredientStrengthImpl extends BackboneElementImpl implements Ingre
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Ratio getPresentationRatio() {
 		return presentationRatio;
 	}
@@ -240,6 +241,7 @@ public class IngredientStrengthImpl extends BackboneElementImpl implements Ingre
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPresentationRatio(Ratio newPresentationRatio) {
 		if (newPresentationRatio != presentationRatio) {
 			NotificationChain msgs = null;
@@ -259,6 +261,7 @@ public class IngredientStrengthImpl extends BackboneElementImpl implements Ingre
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public RatioRange getPresentationRatioRange() {
 		return presentationRatioRange;
 	}
@@ -283,6 +286,7 @@ public class IngredientStrengthImpl extends BackboneElementImpl implements Ingre
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPresentationRatioRange(RatioRange newPresentationRatioRange) {
 		if (newPresentationRatioRange != presentationRatioRange) {
 			NotificationChain msgs = null;
@@ -302,6 +306,7 @@ public class IngredientStrengthImpl extends BackboneElementImpl implements Ingre
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getPresentationCodeableConcept() {
 		return presentationCodeableConcept;
 	}
@@ -326,6 +331,7 @@ public class IngredientStrengthImpl extends BackboneElementImpl implements Ingre
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPresentationCodeableConcept(CodeableConcept newPresentationCodeableConcept) {
 		if (newPresentationCodeableConcept != presentationCodeableConcept) {
 			NotificationChain msgs = null;
@@ -345,6 +351,7 @@ public class IngredientStrengthImpl extends BackboneElementImpl implements Ingre
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getPresentationQuantity() {
 		return presentationQuantity;
 	}
@@ -369,6 +376,7 @@ public class IngredientStrengthImpl extends BackboneElementImpl implements Ingre
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPresentationQuantity(Quantity newPresentationQuantity) {
 		if (newPresentationQuantity != presentationQuantity) {
 			NotificationChain msgs = null;
@@ -388,6 +396,7 @@ public class IngredientStrengthImpl extends BackboneElementImpl implements Ingre
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getTextPresentation() {
 		return textPresentation;
 	}
@@ -412,6 +421,7 @@ public class IngredientStrengthImpl extends BackboneElementImpl implements Ingre
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTextPresentation(org.hl7.fhir.String newTextPresentation) {
 		if (newTextPresentation != textPresentation) {
 			NotificationChain msgs = null;
@@ -431,6 +441,7 @@ public class IngredientStrengthImpl extends BackboneElementImpl implements Ingre
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Ratio getConcentrationRatio() {
 		return concentrationRatio;
 	}
@@ -455,6 +466,7 @@ public class IngredientStrengthImpl extends BackboneElementImpl implements Ingre
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setConcentrationRatio(Ratio newConcentrationRatio) {
 		if (newConcentrationRatio != concentrationRatio) {
 			NotificationChain msgs = null;
@@ -474,6 +486,7 @@ public class IngredientStrengthImpl extends BackboneElementImpl implements Ingre
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public RatioRange getConcentrationRatioRange() {
 		return concentrationRatioRange;
 	}
@@ -498,6 +511,7 @@ public class IngredientStrengthImpl extends BackboneElementImpl implements Ingre
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setConcentrationRatioRange(RatioRange newConcentrationRatioRange) {
 		if (newConcentrationRatioRange != concentrationRatioRange) {
 			NotificationChain msgs = null;
@@ -517,6 +531,7 @@ public class IngredientStrengthImpl extends BackboneElementImpl implements Ingre
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getConcentrationCodeableConcept() {
 		return concentrationCodeableConcept;
 	}
@@ -541,6 +556,7 @@ public class IngredientStrengthImpl extends BackboneElementImpl implements Ingre
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setConcentrationCodeableConcept(CodeableConcept newConcentrationCodeableConcept) {
 		if (newConcentrationCodeableConcept != concentrationCodeableConcept) {
 			NotificationChain msgs = null;
@@ -560,6 +576,7 @@ public class IngredientStrengthImpl extends BackboneElementImpl implements Ingre
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getConcentrationQuantity() {
 		return concentrationQuantity;
 	}
@@ -584,6 +601,7 @@ public class IngredientStrengthImpl extends BackboneElementImpl implements Ingre
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setConcentrationQuantity(Quantity newConcentrationQuantity) {
 		if (newConcentrationQuantity != concentrationQuantity) {
 			NotificationChain msgs = null;
@@ -603,6 +621,7 @@ public class IngredientStrengthImpl extends BackboneElementImpl implements Ingre
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getTextConcentration() {
 		return textConcentration;
 	}
@@ -627,6 +646,7 @@ public class IngredientStrengthImpl extends BackboneElementImpl implements Ingre
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTextConcentration(org.hl7.fhir.String newTextConcentration) {
 		if (newTextConcentration != textConcentration) {
 			NotificationChain msgs = null;
@@ -646,6 +666,7 @@ public class IngredientStrengthImpl extends BackboneElementImpl implements Ingre
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getBasis() {
 		return basis;
 	}
@@ -670,6 +691,7 @@ public class IngredientStrengthImpl extends BackboneElementImpl implements Ingre
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBasis(CodeableConcept newBasis) {
 		if (newBasis != basis) {
 			NotificationChain msgs = null;
@@ -689,6 +711,7 @@ public class IngredientStrengthImpl extends BackboneElementImpl implements Ingre
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getMeasurementPoint() {
 		return measurementPoint;
 	}
@@ -713,6 +736,7 @@ public class IngredientStrengthImpl extends BackboneElementImpl implements Ingre
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMeasurementPoint(org.hl7.fhir.String newMeasurementPoint) {
 		if (newMeasurementPoint != measurementPoint) {
 			NotificationChain msgs = null;
@@ -732,6 +756,7 @@ public class IngredientStrengthImpl extends BackboneElementImpl implements Ingre
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCountry() {
 		if (country == null) {
 			country = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.INGREDIENT_STRENGTH__COUNTRY);
@@ -744,6 +769,7 @@ public class IngredientStrengthImpl extends BackboneElementImpl implements Ingre
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<IngredientReferenceStrength> getReferenceStrength() {
 		if (referenceStrength == null) {
 			referenceStrength = new EObjectContainmentEList<IngredientReferenceStrength>(IngredientReferenceStrength.class, this, FhirPackage.INGREDIENT_STRENGTH__REFERENCE_STRENGTH);

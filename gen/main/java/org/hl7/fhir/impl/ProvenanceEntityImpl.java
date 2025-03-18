@@ -93,6 +93,7 @@ public class ProvenanceEntityImpl extends BackboneElementImpl implements Provena
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ProvenanceEntityRole getRole() {
 		return role;
 	}
@@ -117,6 +118,7 @@ public class ProvenanceEntityImpl extends BackboneElementImpl implements Provena
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRole(ProvenanceEntityRole newRole) {
 		if (newRole != role) {
 			NotificationChain msgs = null;
@@ -136,6 +138,7 @@ public class ProvenanceEntityImpl extends BackboneElementImpl implements Provena
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getWhat() {
 		return what;
 	}
@@ -160,6 +163,7 @@ public class ProvenanceEntityImpl extends BackboneElementImpl implements Provena
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setWhat(Reference newWhat) {
 		if (newWhat != what) {
 			NotificationChain msgs = null;
@@ -179,6 +183,7 @@ public class ProvenanceEntityImpl extends BackboneElementImpl implements Provena
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ProvenanceAgent> getAgent() {
 		if (agent == null) {
 			agent = new EObjectContainmentEList<ProvenanceAgent>(ProvenanceAgent.class, this, FhirPackage.PROVENANCE_ENTITY__AGENT);

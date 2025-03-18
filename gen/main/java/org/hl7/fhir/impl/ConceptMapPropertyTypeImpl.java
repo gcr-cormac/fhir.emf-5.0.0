@@ -79,6 +79,7 @@ public class ConceptMapPropertyTypeImpl extends ElementImpl implements ConceptMa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ConceptMapPropertyTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ConceptMapPropertyTypeImpl extends ElementImpl implements ConceptMa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ConceptMapPropertyTypeEnum newValue) {
 		ConceptMapPropertyTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ConceptMapPropertyTypeImpl extends ElementImpl implements ConceptMa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ConceptMapPropertyTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ConceptMapPropertyTypeImpl extends ElementImpl implements ConceptMa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

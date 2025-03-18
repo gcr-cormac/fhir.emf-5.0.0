@@ -108,6 +108,7 @@ public class SubscriptionFilterByImpl extends BackboneElementImpl implements Sub
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getResourceType() {
 		return resourceType;
 	}
@@ -132,6 +133,7 @@ public class SubscriptionFilterByImpl extends BackboneElementImpl implements Sub
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setResourceType(Uri newResourceType) {
 		if (newResourceType != resourceType) {
 			NotificationChain msgs = null;
@@ -151,6 +153,7 @@ public class SubscriptionFilterByImpl extends BackboneElementImpl implements Sub
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getFilterParameter() {
 		return filterParameter;
 	}
@@ -175,6 +178,7 @@ public class SubscriptionFilterByImpl extends BackboneElementImpl implements Sub
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFilterParameter(org.hl7.fhir.String newFilterParameter) {
 		if (newFilterParameter != filterParameter) {
 			NotificationChain msgs = null;
@@ -194,6 +198,7 @@ public class SubscriptionFilterByImpl extends BackboneElementImpl implements Sub
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SearchComparator getComparator() {
 		return comparator;
 	}
@@ -218,6 +223,7 @@ public class SubscriptionFilterByImpl extends BackboneElementImpl implements Sub
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setComparator(SearchComparator newComparator) {
 		if (newComparator != comparator) {
 			NotificationChain msgs = null;
@@ -237,6 +243,7 @@ public class SubscriptionFilterByImpl extends BackboneElementImpl implements Sub
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SearchModifierCode getModifier() {
 		return modifier;
 	}
@@ -261,6 +268,7 @@ public class SubscriptionFilterByImpl extends BackboneElementImpl implements Sub
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setModifier(SearchModifierCode newModifier) {
 		if (newModifier != modifier) {
 			NotificationChain msgs = null;
@@ -280,6 +288,7 @@ public class SubscriptionFilterByImpl extends BackboneElementImpl implements Sub
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getValue() {
 		return value;
 	}
@@ -304,6 +313,7 @@ public class SubscriptionFilterByImpl extends BackboneElementImpl implements Sub
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(org.hl7.fhir.String newValue) {
 		if (newValue != value) {
 			NotificationChain msgs = null;

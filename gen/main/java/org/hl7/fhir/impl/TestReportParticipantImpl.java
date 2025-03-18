@@ -85,6 +85,7 @@ public class TestReportParticipantImpl extends BackboneElementImpl implements Te
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TestReportParticipantType getType() {
 		return type;
 	}
@@ -109,6 +110,7 @@ public class TestReportParticipantImpl extends BackboneElementImpl implements Te
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(TestReportParticipantType newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -128,6 +130,7 @@ public class TestReportParticipantImpl extends BackboneElementImpl implements Te
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getUri() {
 		return uri;
 	}
@@ -152,6 +155,7 @@ public class TestReportParticipantImpl extends BackboneElementImpl implements Te
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUri(Uri newUri) {
 		if (newUri != uri) {
 			NotificationChain msgs = null;
@@ -171,6 +175,7 @@ public class TestReportParticipantImpl extends BackboneElementImpl implements Te
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDisplay() {
 		return display;
 	}
@@ -195,6 +200,7 @@ public class TestReportParticipantImpl extends BackboneElementImpl implements Te
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDisplay(org.hl7.fhir.String newDisplay) {
 		if (newDisplay != display) {
 			NotificationChain msgs = null;

@@ -79,6 +79,7 @@ public class ObservationDataTypeImpl extends ElementImpl implements ObservationD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ObservationDataTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ObservationDataTypeImpl extends ElementImpl implements ObservationD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ObservationDataTypeEnum newValue) {
 		ObservationDataTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ObservationDataTypeImpl extends ElementImpl implements ObservationD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ObservationDataTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ObservationDataTypeImpl extends ElementImpl implements ObservationD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

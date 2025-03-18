@@ -105,6 +105,7 @@ public class MedicationKnowledgeStorageGuidelineImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getReference() {
 		return reference;
 	}
@@ -129,6 +130,7 @@ public class MedicationKnowledgeStorageGuidelineImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReference(Uri newReference) {
 		if (newReference != reference) {
 			NotificationChain msgs = null;
@@ -148,6 +150,7 @@ public class MedicationKnowledgeStorageGuidelineImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.MEDICATION_KNOWLEDGE_STORAGE_GUIDELINE__NOTE);
@@ -160,6 +163,7 @@ public class MedicationKnowledgeStorageGuidelineImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Duration getStabilityDuration() {
 		return stabilityDuration;
 	}
@@ -184,6 +188,7 @@ public class MedicationKnowledgeStorageGuidelineImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStabilityDuration(Duration newStabilityDuration) {
 		if (newStabilityDuration != stabilityDuration) {
 			NotificationChain msgs = null;
@@ -203,6 +208,7 @@ public class MedicationKnowledgeStorageGuidelineImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MedicationKnowledgeEnvironmentalSetting> getEnvironmentalSetting() {
 		if (environmentalSetting == null) {
 			environmentalSetting = new EObjectContainmentEList<MedicationKnowledgeEnvironmentalSetting>(MedicationKnowledgeEnvironmentalSetting.class, this, FhirPackage.MEDICATION_KNOWLEDGE_STORAGE_GUIDELINE__ENVIRONMENTAL_SETTING);

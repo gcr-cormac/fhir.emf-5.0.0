@@ -86,6 +86,7 @@ public class CommunicationPayloadImpl extends BackboneElementImpl implements Com
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Attachment getContentAttachment() {
 		return contentAttachment;
 	}
@@ -110,6 +111,7 @@ public class CommunicationPayloadImpl extends BackboneElementImpl implements Com
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setContentAttachment(Attachment newContentAttachment) {
 		if (newContentAttachment != contentAttachment) {
 			NotificationChain msgs = null;
@@ -129,6 +131,7 @@ public class CommunicationPayloadImpl extends BackboneElementImpl implements Com
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getContentReference() {
 		return contentReference;
 	}
@@ -153,6 +156,7 @@ public class CommunicationPayloadImpl extends BackboneElementImpl implements Com
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setContentReference(Reference newContentReference) {
 		if (newContentReference != contentReference) {
 			NotificationChain msgs = null;
@@ -172,6 +176,7 @@ public class CommunicationPayloadImpl extends BackboneElementImpl implements Com
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getContentCodeableConcept() {
 		return contentCodeableConcept;
 	}
@@ -196,6 +201,7 @@ public class CommunicationPayloadImpl extends BackboneElementImpl implements Com
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setContentCodeableConcept(CodeableConcept newContentCodeableConcept) {
 		if (newContentCodeableConcept != contentCodeableConcept) {
 			NotificationChain msgs = null;

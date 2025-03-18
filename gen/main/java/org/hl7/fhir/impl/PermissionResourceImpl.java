@@ -74,6 +74,7 @@ public class PermissionResourceImpl extends BackboneElementImpl implements Permi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ConsentDataMeaning getMeaning() {
 		return meaning;
 	}
@@ -98,6 +99,7 @@ public class PermissionResourceImpl extends BackboneElementImpl implements Permi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMeaning(ConsentDataMeaning newMeaning) {
 		if (newMeaning != meaning) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class PermissionResourceImpl extends BackboneElementImpl implements Permi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getReference() {
 		return reference;
 	}
@@ -141,6 +144,7 @@ public class PermissionResourceImpl extends BackboneElementImpl implements Permi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReference(Reference newReference) {
 		if (newReference != reference) {
 			NotificationChain msgs = null;

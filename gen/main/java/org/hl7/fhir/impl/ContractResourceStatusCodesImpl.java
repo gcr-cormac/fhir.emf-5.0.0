@@ -79,6 +79,7 @@ public class ContractResourceStatusCodesImpl extends ElementImpl implements Cont
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ContractResourceStatusCodesEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ContractResourceStatusCodesImpl extends ElementImpl implements Cont
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ContractResourceStatusCodesEnum newValue) {
 		ContractResourceStatusCodesEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ContractResourceStatusCodesImpl extends ElementImpl implements Cont
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ContractResourceStatusCodesEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ContractResourceStatusCodesImpl extends ElementImpl implements Cont
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

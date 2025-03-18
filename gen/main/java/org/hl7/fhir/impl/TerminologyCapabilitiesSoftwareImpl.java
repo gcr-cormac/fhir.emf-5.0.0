@@ -72,6 +72,7 @@ public class TerminologyCapabilitiesSoftwareImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -96,6 +97,7 @@ public class TerminologyCapabilitiesSoftwareImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -115,6 +117,7 @@ public class TerminologyCapabilitiesSoftwareImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersion() {
 		return version;
 	}
@@ -139,6 +142,7 @@ public class TerminologyCapabilitiesSoftwareImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersion(org.hl7.fhir.String newVersion) {
 		if (newVersion != version) {
 			NotificationChain msgs = null;

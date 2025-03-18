@@ -79,6 +79,7 @@ public class OperationOutcomeCodesImpl extends ElementImpl implements OperationO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public OperationOutcomeCodesEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class OperationOutcomeCodesImpl extends ElementImpl implements OperationO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(OperationOutcomeCodesEnum newValue) {
 		OperationOutcomeCodesEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class OperationOutcomeCodesImpl extends ElementImpl implements OperationO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		OperationOutcomeCodesEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class OperationOutcomeCodesImpl extends ElementImpl implements OperationO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

@@ -97,6 +97,7 @@ public class BiologicallyDerivedProductCollectionImpl extends BackboneElementImp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getCollector() {
 		return collector;
 	}
@@ -121,6 +122,7 @@ public class BiologicallyDerivedProductCollectionImpl extends BackboneElementImp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCollector(Reference newCollector) {
 		if (newCollector != collector) {
 			NotificationChain msgs = null;
@@ -140,6 +142,7 @@ public class BiologicallyDerivedProductCollectionImpl extends BackboneElementImp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSource() {
 		return source;
 	}
@@ -164,6 +167,7 @@ public class BiologicallyDerivedProductCollectionImpl extends BackboneElementImp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSource(Reference newSource) {
 		if (newSource != source) {
 			NotificationChain msgs = null;
@@ -183,6 +187,7 @@ public class BiologicallyDerivedProductCollectionImpl extends BackboneElementImp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getCollectedDateTime() {
 		return collectedDateTime;
 	}
@@ -207,6 +212,7 @@ public class BiologicallyDerivedProductCollectionImpl extends BackboneElementImp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCollectedDateTime(DateTime newCollectedDateTime) {
 		if (newCollectedDateTime != collectedDateTime) {
 			NotificationChain msgs = null;
@@ -226,6 +232,7 @@ public class BiologicallyDerivedProductCollectionImpl extends BackboneElementImp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getCollectedPeriod() {
 		return collectedPeriod;
 	}
@@ -250,6 +257,7 @@ public class BiologicallyDerivedProductCollectionImpl extends BackboneElementImp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCollectedPeriod(Period newCollectedPeriod) {
 		if (newCollectedPeriod != collectedPeriod) {
 			NotificationChain msgs = null;

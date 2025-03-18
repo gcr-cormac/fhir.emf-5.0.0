@@ -491,6 +491,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getUrl() {
 		return url;
 	}
@@ -515,6 +516,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUrl(Uri newUrl) {
 		if (newUrl != url) {
 			NotificationChain msgs = null;
@@ -534,6 +536,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Identifier getIdentifier() {
 		return identifier;
 	}
@@ -558,6 +561,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIdentifier(Identifier newIdentifier) {
 		if (newIdentifier != identifier) {
 			NotificationChain msgs = null;
@@ -577,6 +581,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersion() {
 		return version;
 	}
@@ -601,6 +606,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersion(org.hl7.fhir.String newVersion) {
 		if (newVersion != version) {
 			NotificationChain msgs = null;
@@ -620,6 +626,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersionAlgorithmString() {
 		return versionAlgorithmString;
 	}
@@ -644,6 +651,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersionAlgorithmString(org.hl7.fhir.String newVersionAlgorithmString) {
 		if (newVersionAlgorithmString != versionAlgorithmString) {
 			NotificationChain msgs = null;
@@ -663,6 +671,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getVersionAlgorithmCoding() {
 		return versionAlgorithmCoding;
 	}
@@ -687,6 +696,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersionAlgorithmCoding(Coding newVersionAlgorithmCoding) {
 		if (newVersionAlgorithmCoding != versionAlgorithmCoding) {
 			NotificationChain msgs = null;
@@ -706,6 +716,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -730,6 +741,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -749,6 +761,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getTitle() {
 		return title;
 	}
@@ -773,6 +786,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(org.hl7.fhir.String newTitle) {
 		if (newTitle != title) {
 			NotificationChain msgs = null;
@@ -792,6 +806,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PublicationStatus getStatus() {
 		return status;
 	}
@@ -816,6 +831,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(PublicationStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -835,6 +851,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getExperimental() {
 		return experimental;
 	}
@@ -859,6 +876,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExperimental(org.hl7.fhir.Boolean newExperimental) {
 		if (newExperimental != experimental) {
 			NotificationChain msgs = null;
@@ -878,6 +896,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getDate() {
 		return date;
 	}
@@ -902,6 +921,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDate(DateTime newDate) {
 		if (newDate != date) {
 			NotificationChain msgs = null;
@@ -921,6 +941,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPublisher() {
 		return publisher;
 	}
@@ -945,6 +966,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPublisher(org.hl7.fhir.String newPublisher) {
 		if (newPublisher != publisher) {
 			NotificationChain msgs = null;
@@ -964,6 +986,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getContact() {
 		if (contact == null) {
 			contact = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.OBSERVATION_DEFINITION__CONTACT);
@@ -976,6 +999,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -1000,6 +1024,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -1019,6 +1044,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<UsageContext> getUseContext() {
 		if (useContext == null) {
 			useContext = new EObjectContainmentEList<UsageContext>(UsageContext.class, this, FhirPackage.OBSERVATION_DEFINITION__USE_CONTEXT);
@@ -1031,6 +1057,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getJurisdiction() {
 		if (jurisdiction == null) {
 			jurisdiction = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.OBSERVATION_DEFINITION__JURISDICTION);
@@ -1043,6 +1070,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getPurpose() {
 		return purpose;
 	}
@@ -1067,6 +1095,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPurpose(Markdown newPurpose) {
 		if (newPurpose != purpose) {
 			NotificationChain msgs = null;
@@ -1086,6 +1115,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getCopyright() {
 		return copyright;
 	}
@@ -1110,6 +1140,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCopyright(Markdown newCopyright) {
 		if (newCopyright != copyright) {
 			NotificationChain msgs = null;
@@ -1129,6 +1160,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getCopyrightLabel() {
 		return copyrightLabel;
 	}
@@ -1153,6 +1185,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCopyrightLabel(org.hl7.fhir.String newCopyrightLabel) {
 		if (newCopyrightLabel != copyrightLabel) {
 			NotificationChain msgs = null;
@@ -1172,6 +1205,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getApprovalDate() {
 		return approvalDate;
 	}
@@ -1196,6 +1230,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setApprovalDate(Date newApprovalDate) {
 		if (newApprovalDate != approvalDate) {
 			NotificationChain msgs = null;
@@ -1215,6 +1250,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getLastReviewDate() {
 		return lastReviewDate;
 	}
@@ -1239,6 +1275,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLastReviewDate(Date newLastReviewDate) {
 		if (newLastReviewDate != lastReviewDate) {
 			NotificationChain msgs = null;
@@ -1258,6 +1295,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getEffectivePeriod() {
 		return effectivePeriod;
 	}
@@ -1282,6 +1320,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEffectivePeriod(Period newEffectivePeriod) {
 		if (newEffectivePeriod != effectivePeriod) {
 			NotificationChain msgs = null;
@@ -1301,6 +1340,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Canonical> getDerivedFromCanonical() {
 		if (derivedFromCanonical == null) {
 			derivedFromCanonical = new EObjectContainmentEList<Canonical>(Canonical.class, this, FhirPackage.OBSERVATION_DEFINITION__DERIVED_FROM_CANONICAL);
@@ -1313,6 +1353,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Uri> getDerivedFromUri() {
 		if (derivedFromUri == null) {
 			derivedFromUri = new EObjectContainmentEList<Uri>(Uri.class, this, FhirPackage.OBSERVATION_DEFINITION__DERIVED_FROM_URI);
@@ -1325,6 +1366,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getSubject() {
 		if (subject == null) {
 			subject = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.OBSERVATION_DEFINITION__SUBJECT);
@@ -1337,6 +1379,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getPerformerType() {
 		return performerType;
 	}
@@ -1361,6 +1404,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPerformerType(CodeableConcept newPerformerType) {
 		if (newPerformerType != performerType) {
 			NotificationChain msgs = null;
@@ -1380,6 +1424,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCategory() {
 		if (category == null) {
 			category = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.OBSERVATION_DEFINITION__CATEGORY);
@@ -1392,6 +1437,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -1416,6 +1462,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -1435,6 +1482,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ObservationDataType> getPermittedDataType() {
 		if (permittedDataType == null) {
 			permittedDataType = new EObjectContainmentEList<ObservationDataType>(ObservationDataType.class, this, FhirPackage.OBSERVATION_DEFINITION__PERMITTED_DATA_TYPE);
@@ -1447,6 +1495,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getMultipleResultsAllowed() {
 		return multipleResultsAllowed;
 	}
@@ -1471,6 +1520,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMultipleResultsAllowed(org.hl7.fhir.Boolean newMultipleResultsAllowed) {
 		if (newMultipleResultsAllowed != multipleResultsAllowed) {
 			NotificationChain msgs = null;
@@ -1490,6 +1540,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getBodySite() {
 		return bodySite;
 	}
@@ -1514,6 +1565,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBodySite(CodeableConcept newBodySite) {
 		if (newBodySite != bodySite) {
 			NotificationChain msgs = null;
@@ -1533,6 +1585,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getMethod() {
 		return method;
 	}
@@ -1557,6 +1610,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMethod(CodeableConcept newMethod) {
 		if (newMethod != method) {
 			NotificationChain msgs = null;
@@ -1576,6 +1630,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getSpecimen() {
 		if (specimen == null) {
 			specimen = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.OBSERVATION_DEFINITION__SPECIMEN);
@@ -1588,6 +1643,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getDevice() {
 		if (device == null) {
 			device = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.OBSERVATION_DEFINITION__DEVICE);
@@ -1600,6 +1656,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPreferredReportName() {
 		return preferredReportName;
 	}
@@ -1624,6 +1681,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPreferredReportName(org.hl7.fhir.String newPreferredReportName) {
 		if (newPreferredReportName != preferredReportName) {
 			NotificationChain msgs = null;
@@ -1643,6 +1701,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Coding> getPermittedUnit() {
 		if (permittedUnit == null) {
 			permittedUnit = new EObjectContainmentEList<Coding>(Coding.class, this, FhirPackage.OBSERVATION_DEFINITION__PERMITTED_UNIT);
@@ -1655,6 +1714,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ObservationDefinitionQualifiedValue> getQualifiedValue() {
 		if (qualifiedValue == null) {
 			qualifiedValue = new EObjectContainmentEList<ObservationDefinitionQualifiedValue>(ObservationDefinitionQualifiedValue.class, this, FhirPackage.OBSERVATION_DEFINITION__QUALIFIED_VALUE);
@@ -1667,6 +1727,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getHasMember() {
 		if (hasMember == null) {
 			hasMember = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.OBSERVATION_DEFINITION__HAS_MEMBER);
@@ -1679,6 +1740,7 @@ public class ObservationDefinitionImpl extends MetadataResourceImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ObservationDefinitionComponent> getComponent() {
 		if (component == null) {
 			component = new EObjectContainmentEList<ObservationDefinitionComponent>(ObservationDefinitionComponent.class, this, FhirPackage.OBSERVATION_DEFINITION__COMPONENT);

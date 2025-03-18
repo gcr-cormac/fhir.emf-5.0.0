@@ -84,6 +84,7 @@ public class MedicinalProductDefinitionUsageImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCountry() {
 		return country;
 	}
@@ -108,6 +109,7 @@ public class MedicinalProductDefinitionUsageImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCountry(CodeableConcept newCountry) {
 		if (newCountry != country) {
 			NotificationChain msgs = null;
@@ -127,6 +129,7 @@ public class MedicinalProductDefinitionUsageImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getJurisdiction() {
 		return jurisdiction;
 	}
@@ -151,6 +154,7 @@ public class MedicinalProductDefinitionUsageImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setJurisdiction(CodeableConcept newJurisdiction) {
 		if (newJurisdiction != jurisdiction) {
 			NotificationChain msgs = null;
@@ -170,6 +174,7 @@ public class MedicinalProductDefinitionUsageImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getLanguage() {
 		return language;
 	}
@@ -194,6 +199,7 @@ public class MedicinalProductDefinitionUsageImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLanguage(CodeableConcept newLanguage) {
 		if (newLanguage != language) {
 			NotificationChain msgs = null;

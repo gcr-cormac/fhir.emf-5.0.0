@@ -79,6 +79,7 @@ public class IdentityAssuranceLevelImpl extends ElementImpl implements IdentityA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public IdentityAssuranceLevelEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class IdentityAssuranceLevelImpl extends ElementImpl implements IdentityA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(IdentityAssuranceLevelEnum newValue) {
 		IdentityAssuranceLevelEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class IdentityAssuranceLevelImpl extends ElementImpl implements IdentityA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		IdentityAssuranceLevelEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class IdentityAssuranceLevelImpl extends ElementImpl implements IdentityA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

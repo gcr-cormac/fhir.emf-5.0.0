@@ -97,6 +97,7 @@ public class AnnotationImpl extends DataTypeImpl implements Annotation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getAuthorReference() {
 		return authorReference;
 	}
@@ -121,6 +122,7 @@ public class AnnotationImpl extends DataTypeImpl implements Annotation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAuthorReference(Reference newAuthorReference) {
 		if (newAuthorReference != authorReference) {
 			NotificationChain msgs = null;
@@ -140,6 +142,7 @@ public class AnnotationImpl extends DataTypeImpl implements Annotation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getAuthorString() {
 		return authorString;
 	}
@@ -164,6 +167,7 @@ public class AnnotationImpl extends DataTypeImpl implements Annotation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAuthorString(org.hl7.fhir.String newAuthorString) {
 		if (newAuthorString != authorString) {
 			NotificationChain msgs = null;
@@ -183,6 +187,7 @@ public class AnnotationImpl extends DataTypeImpl implements Annotation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getTime() {
 		return time;
 	}
@@ -207,6 +212,7 @@ public class AnnotationImpl extends DataTypeImpl implements Annotation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTime(DateTime newTime) {
 		if (newTime != time) {
 			NotificationChain msgs = null;
@@ -226,6 +232,7 @@ public class AnnotationImpl extends DataTypeImpl implements Annotation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getText() {
 		return text;
 	}
@@ -250,6 +257,7 @@ public class AnnotationImpl extends DataTypeImpl implements Annotation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setText(Markdown newText) {
 		if (newText != text) {
 			NotificationChain msgs = null;

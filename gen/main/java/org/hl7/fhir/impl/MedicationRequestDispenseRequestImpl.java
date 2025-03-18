@@ -164,6 +164,7 @@ public class MedicationRequestDispenseRequestImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public MedicationRequestInitialFill getInitialFill() {
 		return initialFill;
 	}
@@ -188,6 +189,7 @@ public class MedicationRequestDispenseRequestImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInitialFill(MedicationRequestInitialFill newInitialFill) {
 		if (newInitialFill != initialFill) {
 			NotificationChain msgs = null;
@@ -207,6 +209,7 @@ public class MedicationRequestDispenseRequestImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Duration getDispenseInterval() {
 		return dispenseInterval;
 	}
@@ -231,6 +234,7 @@ public class MedicationRequestDispenseRequestImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDispenseInterval(Duration newDispenseInterval) {
 		if (newDispenseInterval != dispenseInterval) {
 			NotificationChain msgs = null;
@@ -250,6 +254,7 @@ public class MedicationRequestDispenseRequestImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getValidityPeriod() {
 		return validityPeriod;
 	}
@@ -274,6 +279,7 @@ public class MedicationRequestDispenseRequestImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValidityPeriod(Period newValidityPeriod) {
 		if (newValidityPeriod != validityPeriod) {
 			NotificationChain msgs = null;
@@ -293,6 +299,7 @@ public class MedicationRequestDispenseRequestImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public UnsignedInt getNumberOfRepeatsAllowed() {
 		return numberOfRepeatsAllowed;
 	}
@@ -317,6 +324,7 @@ public class MedicationRequestDispenseRequestImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNumberOfRepeatsAllowed(UnsignedInt newNumberOfRepeatsAllowed) {
 		if (newNumberOfRepeatsAllowed != numberOfRepeatsAllowed) {
 			NotificationChain msgs = null;
@@ -336,6 +344,7 @@ public class MedicationRequestDispenseRequestImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getQuantity() {
 		return quantity;
 	}
@@ -360,6 +369,7 @@ public class MedicationRequestDispenseRequestImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setQuantity(Quantity newQuantity) {
 		if (newQuantity != quantity) {
 			NotificationChain msgs = null;
@@ -379,6 +389,7 @@ public class MedicationRequestDispenseRequestImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Duration getExpectedSupplyDuration() {
 		return expectedSupplyDuration;
 	}
@@ -403,6 +414,7 @@ public class MedicationRequestDispenseRequestImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExpectedSupplyDuration(Duration newExpectedSupplyDuration) {
 		if (newExpectedSupplyDuration != expectedSupplyDuration) {
 			NotificationChain msgs = null;
@@ -422,6 +434,7 @@ public class MedicationRequestDispenseRequestImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getDispenser() {
 		return dispenser;
 	}
@@ -446,6 +459,7 @@ public class MedicationRequestDispenseRequestImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDispenser(Reference newDispenser) {
 		if (newDispenser != dispenser) {
 			NotificationChain msgs = null;
@@ -465,6 +479,7 @@ public class MedicationRequestDispenseRequestImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getDispenserInstruction() {
 		if (dispenserInstruction == null) {
 			dispenserInstruction = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.MEDICATION_REQUEST_DISPENSE_REQUEST__DISPENSER_INSTRUCTION);
@@ -477,6 +492,7 @@ public class MedicationRequestDispenseRequestImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getDoseAdministrationAid() {
 		return doseAdministrationAid;
 	}
@@ -501,6 +517,7 @@ public class MedicationRequestDispenseRequestImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDoseAdministrationAid(CodeableConcept newDoseAdministrationAid) {
 		if (newDoseAdministrationAid != doseAdministrationAid) {
 			NotificationChain msgs = null;

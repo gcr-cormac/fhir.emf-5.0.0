@@ -73,6 +73,7 @@ public class CoveragePaymentByImpl extends BackboneElementImpl implements Covera
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getParty() {
 		return party;
 	}
@@ -97,6 +98,7 @@ public class CoveragePaymentByImpl extends BackboneElementImpl implements Covera
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setParty(Reference newParty) {
 		if (newParty != party) {
 			NotificationChain msgs = null;
@@ -116,6 +118,7 @@ public class CoveragePaymentByImpl extends BackboneElementImpl implements Covera
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getResponsibility() {
 		return responsibility;
 	}
@@ -140,6 +143,7 @@ public class CoveragePaymentByImpl extends BackboneElementImpl implements Covera
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setResponsibility(org.hl7.fhir.String newResponsibility) {
 		if (newResponsibility != responsibility) {
 			NotificationChain msgs = null;

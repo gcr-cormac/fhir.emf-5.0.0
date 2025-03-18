@@ -72,6 +72,7 @@ public class ValueSetScopeImpl extends BackboneElementImpl implements ValueSetSc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getInclusionCriteria() {
 		return inclusionCriteria;
 	}
@@ -96,6 +97,7 @@ public class ValueSetScopeImpl extends BackboneElementImpl implements ValueSetSc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInclusionCriteria(org.hl7.fhir.String newInclusionCriteria) {
 		if (newInclusionCriteria != inclusionCriteria) {
 			NotificationChain msgs = null;
@@ -115,6 +117,7 @@ public class ValueSetScopeImpl extends BackboneElementImpl implements ValueSetSc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getExclusionCriteria() {
 		return exclusionCriteria;
 	}
@@ -139,6 +142,7 @@ public class ValueSetScopeImpl extends BackboneElementImpl implements ValueSetSc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExclusionCriteria(org.hl7.fhir.String newExclusionCriteria) {
 		if (newExclusionCriteria != exclusionCriteria) {
 			NotificationChain msgs = null;

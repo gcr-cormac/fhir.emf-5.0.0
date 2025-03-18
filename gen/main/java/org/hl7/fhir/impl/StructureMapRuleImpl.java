@@ -127,6 +127,7 @@ public class StructureMapRuleImpl extends BackboneElementImpl implements Structu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Id getName() {
 		return name;
 	}
@@ -151,6 +152,7 @@ public class StructureMapRuleImpl extends BackboneElementImpl implements Structu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(Id newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -170,6 +172,7 @@ public class StructureMapRuleImpl extends BackboneElementImpl implements Structu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<StructureMapSource> getSource() {
 		if (source == null) {
 			source = new EObjectContainmentEList<StructureMapSource>(StructureMapSource.class, this, FhirPackage.STRUCTURE_MAP_RULE__SOURCE);
@@ -182,6 +185,7 @@ public class StructureMapRuleImpl extends BackboneElementImpl implements Structu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<StructureMapTarget> getTarget() {
 		if (target == null) {
 			target = new EObjectContainmentEList<StructureMapTarget>(StructureMapTarget.class, this, FhirPackage.STRUCTURE_MAP_RULE__TARGET);
@@ -194,6 +198,7 @@ public class StructureMapRuleImpl extends BackboneElementImpl implements Structu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<StructureMapRule> getRule() {
 		if (rule == null) {
 			rule = new EObjectContainmentEList<StructureMapRule>(StructureMapRule.class, this, FhirPackage.STRUCTURE_MAP_RULE__RULE);
@@ -206,6 +211,7 @@ public class StructureMapRuleImpl extends BackboneElementImpl implements Structu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<StructureMapDependent> getDependent() {
 		if (dependent == null) {
 			dependent = new EObjectContainmentEList<StructureMapDependent>(StructureMapDependent.class, this, FhirPackage.STRUCTURE_MAP_RULE__DEPENDENT);
@@ -218,6 +224,7 @@ public class StructureMapRuleImpl extends BackboneElementImpl implements Structu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDocumentation() {
 		return documentation;
 	}
@@ -242,6 +249,7 @@ public class StructureMapRuleImpl extends BackboneElementImpl implements Structu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDocumentation(org.hl7.fhir.String newDocumentation) {
 		if (newDocumentation != documentation) {
 			NotificationChain msgs = null;

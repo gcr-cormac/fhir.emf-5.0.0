@@ -79,6 +79,7 @@ public class SearchComparatorImpl extends ElementImpl implements SearchComparato
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SearchComparatorEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class SearchComparatorImpl extends ElementImpl implements SearchComparato
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(SearchComparatorEnum newValue) {
 		SearchComparatorEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class SearchComparatorImpl extends ElementImpl implements SearchComparato
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		SearchComparatorEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class SearchComparatorImpl extends ElementImpl implements SearchComparato
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

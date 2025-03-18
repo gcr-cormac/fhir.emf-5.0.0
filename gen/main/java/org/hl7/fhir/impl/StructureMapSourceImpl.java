@@ -173,6 +173,7 @@ public class StructureMapSourceImpl extends BackboneElementImpl implements Struc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Id getContext() {
 		return context;
 	}
@@ -197,6 +198,7 @@ public class StructureMapSourceImpl extends BackboneElementImpl implements Struc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setContext(Id newContext) {
 		if (newContext != context) {
 			NotificationChain msgs = null;
@@ -216,6 +218,7 @@ public class StructureMapSourceImpl extends BackboneElementImpl implements Struc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Integer getMin() {
 		return min;
 	}
@@ -240,6 +243,7 @@ public class StructureMapSourceImpl extends BackboneElementImpl implements Struc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMin(org.hl7.fhir.Integer newMin) {
 		if (newMin != min) {
 			NotificationChain msgs = null;
@@ -259,6 +263,7 @@ public class StructureMapSourceImpl extends BackboneElementImpl implements Struc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getMax() {
 		return max;
 	}
@@ -283,6 +288,7 @@ public class StructureMapSourceImpl extends BackboneElementImpl implements Struc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMax(org.hl7.fhir.String newMax) {
 		if (newMax != max) {
 			NotificationChain msgs = null;
@@ -302,6 +308,7 @@ public class StructureMapSourceImpl extends BackboneElementImpl implements Struc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getType() {
 		return type;
 	}
@@ -326,6 +333,7 @@ public class StructureMapSourceImpl extends BackboneElementImpl implements Struc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(org.hl7.fhir.String newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -345,6 +353,7 @@ public class StructureMapSourceImpl extends BackboneElementImpl implements Struc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDefaultValue() {
 		return defaultValue;
 	}
@@ -369,6 +378,7 @@ public class StructureMapSourceImpl extends BackboneElementImpl implements Struc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDefaultValue(org.hl7.fhir.String newDefaultValue) {
 		if (newDefaultValue != defaultValue) {
 			NotificationChain msgs = null;
@@ -388,6 +398,7 @@ public class StructureMapSourceImpl extends BackboneElementImpl implements Struc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getElement() {
 		return element;
 	}
@@ -412,6 +423,7 @@ public class StructureMapSourceImpl extends BackboneElementImpl implements Struc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setElement(org.hl7.fhir.String newElement) {
 		if (newElement != element) {
 			NotificationChain msgs = null;
@@ -431,6 +443,7 @@ public class StructureMapSourceImpl extends BackboneElementImpl implements Struc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public StructureMapSourceListMode getListMode() {
 		return listMode;
 	}
@@ -455,6 +468,7 @@ public class StructureMapSourceImpl extends BackboneElementImpl implements Struc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setListMode(StructureMapSourceListMode newListMode) {
 		if (newListMode != listMode) {
 			NotificationChain msgs = null;
@@ -474,6 +488,7 @@ public class StructureMapSourceImpl extends BackboneElementImpl implements Struc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Id getVariable() {
 		return variable;
 	}
@@ -498,6 +513,7 @@ public class StructureMapSourceImpl extends BackboneElementImpl implements Struc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVariable(Id newVariable) {
 		if (newVariable != variable) {
 			NotificationChain msgs = null;
@@ -517,6 +533,7 @@ public class StructureMapSourceImpl extends BackboneElementImpl implements Struc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getCondition() {
 		return condition;
 	}
@@ -541,6 +558,7 @@ public class StructureMapSourceImpl extends BackboneElementImpl implements Struc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCondition(org.hl7.fhir.String newCondition) {
 		if (newCondition != condition) {
 			NotificationChain msgs = null;
@@ -560,6 +578,7 @@ public class StructureMapSourceImpl extends BackboneElementImpl implements Struc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getCheck() {
 		return check;
 	}
@@ -584,6 +603,7 @@ public class StructureMapSourceImpl extends BackboneElementImpl implements Struc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCheck(org.hl7.fhir.String newCheck) {
 		if (newCheck != check) {
 			NotificationChain msgs = null;
@@ -603,6 +623,7 @@ public class StructureMapSourceImpl extends BackboneElementImpl implements Struc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getLogMessage() {
 		return logMessage;
 	}
@@ -627,6 +648,7 @@ public class StructureMapSourceImpl extends BackboneElementImpl implements Struc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLogMessage(org.hl7.fhir.String newLogMessage) {
 		if (newLogMessage != logMessage) {
 			NotificationChain msgs = null;

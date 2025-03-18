@@ -74,6 +74,7 @@ public class ImmunizationPerformerImpl extends BackboneElementImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getFunction() {
 		return function;
 	}
@@ -98,6 +99,7 @@ public class ImmunizationPerformerImpl extends BackboneElementImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFunction(CodeableConcept newFunction) {
 		if (newFunction != function) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class ImmunizationPerformerImpl extends BackboneElementImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getActor() {
 		return actor;
 	}
@@ -141,6 +144,7 @@ public class ImmunizationPerformerImpl extends BackboneElementImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setActor(Reference newActor) {
 		if (newActor != actor) {
 			NotificationChain msgs = null;

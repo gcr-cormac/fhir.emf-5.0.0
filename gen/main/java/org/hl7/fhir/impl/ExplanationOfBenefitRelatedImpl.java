@@ -86,6 +86,7 @@ public class ExplanationOfBenefitRelatedImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getClaim() {
 		return claim;
 	}
@@ -110,6 +111,7 @@ public class ExplanationOfBenefitRelatedImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setClaim(Reference newClaim) {
 		if (newClaim != claim) {
 			NotificationChain msgs = null;
@@ -129,6 +131,7 @@ public class ExplanationOfBenefitRelatedImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getRelationship() {
 		return relationship;
 	}
@@ -153,6 +156,7 @@ public class ExplanationOfBenefitRelatedImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRelationship(CodeableConcept newRelationship) {
 		if (newRelationship != relationship) {
 			NotificationChain msgs = null;
@@ -172,6 +176,7 @@ public class ExplanationOfBenefitRelatedImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Identifier getReference() {
 		return reference;
 	}
@@ -196,6 +201,7 @@ public class ExplanationOfBenefitRelatedImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReference(Identifier newReference) {
 		if (newReference != reference) {
 			NotificationChain msgs = null;

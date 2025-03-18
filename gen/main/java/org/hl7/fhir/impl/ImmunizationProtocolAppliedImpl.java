@@ -114,6 +114,7 @@ public class ImmunizationProtocolAppliedImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getSeries() {
 		return series;
 	}
@@ -138,6 +139,7 @@ public class ImmunizationProtocolAppliedImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSeries(org.hl7.fhir.String newSeries) {
 		if (newSeries != series) {
 			NotificationChain msgs = null;
@@ -157,6 +159,7 @@ public class ImmunizationProtocolAppliedImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getAuthority() {
 		return authority;
 	}
@@ -181,6 +184,7 @@ public class ImmunizationProtocolAppliedImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAuthority(Reference newAuthority) {
 		if (newAuthority != authority) {
 			NotificationChain msgs = null;
@@ -200,6 +204,7 @@ public class ImmunizationProtocolAppliedImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getTargetDisease() {
 		if (targetDisease == null) {
 			targetDisease = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.IMMUNIZATION_PROTOCOL_APPLIED__TARGET_DISEASE);
@@ -212,6 +217,7 @@ public class ImmunizationProtocolAppliedImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDoseNumber() {
 		return doseNumber;
 	}
@@ -236,6 +242,7 @@ public class ImmunizationProtocolAppliedImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDoseNumber(org.hl7.fhir.String newDoseNumber) {
 		if (newDoseNumber != doseNumber) {
 			NotificationChain msgs = null;
@@ -255,6 +262,7 @@ public class ImmunizationProtocolAppliedImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getSeriesDoses() {
 		return seriesDoses;
 	}
@@ -279,6 +287,7 @@ public class ImmunizationProtocolAppliedImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSeriesDoses(org.hl7.fhir.String newSeriesDoses) {
 		if (newSeriesDoses != seriesDoses) {
 			NotificationChain msgs = null;

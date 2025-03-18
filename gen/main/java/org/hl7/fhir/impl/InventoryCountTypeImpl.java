@@ -79,6 +79,7 @@ public class InventoryCountTypeImpl extends ElementImpl implements InventoryCoun
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public InventoryCountTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class InventoryCountTypeImpl extends ElementImpl implements InventoryCoun
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(InventoryCountTypeEnum newValue) {
 		InventoryCountTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class InventoryCountTypeImpl extends ElementImpl implements InventoryCoun
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		InventoryCountTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class InventoryCountTypeImpl extends ElementImpl implements InventoryCoun
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

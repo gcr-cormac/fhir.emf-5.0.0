@@ -127,6 +127,7 @@ public class DeviceDefinitionPackagingImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Identifier getIdentifier() {
 		return identifier;
 	}
@@ -151,6 +152,7 @@ public class DeviceDefinitionPackagingImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIdentifier(Identifier newIdentifier) {
 		if (newIdentifier != identifier) {
 			NotificationChain msgs = null;
@@ -170,6 +172,7 @@ public class DeviceDefinitionPackagingImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -194,6 +197,7 @@ public class DeviceDefinitionPackagingImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -213,6 +217,7 @@ public class DeviceDefinitionPackagingImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Integer getCount() {
 		return count;
 	}
@@ -237,6 +242,7 @@ public class DeviceDefinitionPackagingImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCount(org.hl7.fhir.Integer newCount) {
 		if (newCount != count) {
 			NotificationChain msgs = null;
@@ -256,6 +262,7 @@ public class DeviceDefinitionPackagingImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<DeviceDefinitionDistributor> getDistributor() {
 		if (distributor == null) {
 			distributor = new EObjectContainmentEList<DeviceDefinitionDistributor>(DeviceDefinitionDistributor.class, this, FhirPackage.DEVICE_DEFINITION_PACKAGING__DISTRIBUTOR);
@@ -268,6 +275,7 @@ public class DeviceDefinitionPackagingImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<DeviceDefinitionUdiDeviceIdentifier> getUdiDeviceIdentifier() {
 		if (udiDeviceIdentifier == null) {
 			udiDeviceIdentifier = new EObjectContainmentEList<DeviceDefinitionUdiDeviceIdentifier>(DeviceDefinitionUdiDeviceIdentifier.class, this, FhirPackage.DEVICE_DEFINITION_PACKAGING__UDI_DEVICE_IDENTIFIER);
@@ -280,6 +288,7 @@ public class DeviceDefinitionPackagingImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<DeviceDefinitionPackaging> getPackaging() {
 		if (packaging == null) {
 			packaging = new EObjectContainmentEList<DeviceDefinitionPackaging>(DeviceDefinitionPackaging.class, this, FhirPackage.DEVICE_DEFINITION_PACKAGING__PACKAGING);

@@ -98,6 +98,7 @@ public class PlanDefinitionOptionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ActionParticipantType getType() {
 		return type;
 	}
@@ -122,6 +123,7 @@ public class PlanDefinitionOptionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(ActionParticipantType newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -141,6 +143,7 @@ public class PlanDefinitionOptionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getTypeCanonical() {
 		return typeCanonical;
 	}
@@ -165,6 +168,7 @@ public class PlanDefinitionOptionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTypeCanonical(Canonical newTypeCanonical) {
 		if (newTypeCanonical != typeCanonical) {
 			NotificationChain msgs = null;
@@ -184,6 +188,7 @@ public class PlanDefinitionOptionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getTypeReference() {
 		return typeReference;
 	}
@@ -208,6 +213,7 @@ public class PlanDefinitionOptionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTypeReference(Reference newTypeReference) {
 		if (newTypeReference != typeReference) {
 			NotificationChain msgs = null;
@@ -227,6 +233,7 @@ public class PlanDefinitionOptionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getRole() {
 		return role;
 	}
@@ -251,6 +258,7 @@ public class PlanDefinitionOptionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRole(CodeableConcept newRole) {
 		if (newRole != role) {
 			NotificationChain msgs = null;

@@ -85,6 +85,7 @@ public class CoverageClassImpl extends BackboneElementImpl implements CoverageCl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -109,6 +110,7 @@ public class CoverageClassImpl extends BackboneElementImpl implements CoverageCl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -128,6 +130,7 @@ public class CoverageClassImpl extends BackboneElementImpl implements CoverageCl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Identifier getValue() {
 		return value;
 	}
@@ -152,6 +155,7 @@ public class CoverageClassImpl extends BackboneElementImpl implements CoverageCl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(Identifier newValue) {
 		if (newValue != value) {
 			NotificationChain msgs = null;
@@ -171,6 +175,7 @@ public class CoverageClassImpl extends BackboneElementImpl implements CoverageCl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -195,6 +200,7 @@ public class CoverageClassImpl extends BackboneElementImpl implements CoverageCl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;

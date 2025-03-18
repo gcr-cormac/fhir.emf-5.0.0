@@ -446,6 +446,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.PROCEDURE__IDENTIFIER);
@@ -458,6 +459,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Canonical> getInstantiatesCanonical() {
 		if (instantiatesCanonical == null) {
 			instantiatesCanonical = new EObjectContainmentEList<Canonical>(Canonical.class, this, FhirPackage.PROCEDURE__INSTANTIATES_CANONICAL);
@@ -470,6 +472,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Uri> getInstantiatesUri() {
 		if (instantiatesUri == null) {
 			instantiatesUri = new EObjectContainmentEList<Uri>(Uri.class, this, FhirPackage.PROCEDURE__INSTANTIATES_URI);
@@ -482,6 +485,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getBasedOn() {
 		if (basedOn == null) {
 			basedOn = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.PROCEDURE__BASED_ON);
@@ -494,6 +498,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getPartOf() {
 		if (partOf == null) {
 			partOf = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.PROCEDURE__PART_OF);
@@ -506,6 +511,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EventStatus getStatus() {
 		return status;
 	}
@@ -530,6 +536,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(EventStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -549,6 +556,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getStatusReason() {
 		return statusReason;
 	}
@@ -573,6 +581,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatusReason(CodeableConcept newStatusReason) {
 		if (newStatusReason != statusReason) {
 			NotificationChain msgs = null;
@@ -592,6 +601,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCategory() {
 		if (category == null) {
 			category = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.PROCEDURE__CATEGORY);
@@ -604,6 +614,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -628,6 +639,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -647,6 +659,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubject() {
 		return subject;
 	}
@@ -671,6 +684,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubject(Reference newSubject) {
 		if (newSubject != subject) {
 			NotificationChain msgs = null;
@@ -690,6 +704,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getFocus() {
 		return focus;
 	}
@@ -714,6 +729,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFocus(Reference newFocus) {
 		if (newFocus != focus) {
 			NotificationChain msgs = null;
@@ -733,6 +749,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getEncounter() {
 		return encounter;
 	}
@@ -757,6 +774,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEncounter(Reference newEncounter) {
 		if (newEncounter != encounter) {
 			NotificationChain msgs = null;
@@ -776,6 +794,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getOccurrenceDateTime() {
 		return occurrenceDateTime;
 	}
@@ -800,6 +819,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOccurrenceDateTime(DateTime newOccurrenceDateTime) {
 		if (newOccurrenceDateTime != occurrenceDateTime) {
 			NotificationChain msgs = null;
@@ -819,6 +839,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getOccurrencePeriod() {
 		return occurrencePeriod;
 	}
@@ -843,6 +864,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOccurrencePeriod(Period newOccurrencePeriod) {
 		if (newOccurrencePeriod != occurrencePeriod) {
 			NotificationChain msgs = null;
@@ -862,6 +884,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getOccurrenceString() {
 		return occurrenceString;
 	}
@@ -886,6 +909,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOccurrenceString(org.hl7.fhir.String newOccurrenceString) {
 		if (newOccurrenceString != occurrenceString) {
 			NotificationChain msgs = null;
@@ -905,6 +929,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Age getOccurrenceAge() {
 		return occurrenceAge;
 	}
@@ -929,6 +954,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOccurrenceAge(Age newOccurrenceAge) {
 		if (newOccurrenceAge != occurrenceAge) {
 			NotificationChain msgs = null;
@@ -948,6 +974,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Range getOccurrenceRange() {
 		return occurrenceRange;
 	}
@@ -972,6 +999,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOccurrenceRange(Range newOccurrenceRange) {
 		if (newOccurrenceRange != occurrenceRange) {
 			NotificationChain msgs = null;
@@ -991,6 +1019,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Timing getOccurrenceTiming() {
 		return occurrenceTiming;
 	}
@@ -1015,6 +1044,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOccurrenceTiming(Timing newOccurrenceTiming) {
 		if (newOccurrenceTiming != occurrenceTiming) {
 			NotificationChain msgs = null;
@@ -1034,6 +1064,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getRecorded() {
 		return recorded;
 	}
@@ -1058,6 +1089,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRecorded(DateTime newRecorded) {
 		if (newRecorded != recorded) {
 			NotificationChain msgs = null;
@@ -1077,6 +1109,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getRecorder() {
 		return recorder;
 	}
@@ -1101,6 +1134,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRecorder(Reference newRecorder) {
 		if (newRecorder != recorder) {
 			NotificationChain msgs = null;
@@ -1120,6 +1154,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getReportedBoolean() {
 		return reportedBoolean;
 	}
@@ -1144,6 +1179,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReportedBoolean(org.hl7.fhir.Boolean newReportedBoolean) {
 		if (newReportedBoolean != reportedBoolean) {
 			NotificationChain msgs = null;
@@ -1163,6 +1199,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getReportedReference() {
 		return reportedReference;
 	}
@@ -1187,6 +1224,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReportedReference(Reference newReportedReference) {
 		if (newReportedReference != reportedReference) {
 			NotificationChain msgs = null;
@@ -1206,6 +1244,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ProcedurePerformer> getPerformer() {
 		if (performer == null) {
 			performer = new EObjectContainmentEList<ProcedurePerformer>(ProcedurePerformer.class, this, FhirPackage.PROCEDURE__PERFORMER);
@@ -1218,6 +1257,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getLocation() {
 		return location;
 	}
@@ -1242,6 +1282,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLocation(Reference newLocation) {
 		if (newLocation != location) {
 			NotificationChain msgs = null;
@@ -1261,6 +1302,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getReason() {
 		if (reason == null) {
 			reason = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.PROCEDURE__REASON);
@@ -1273,6 +1315,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getBodySite() {
 		if (bodySite == null) {
 			bodySite = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.PROCEDURE__BODY_SITE);
@@ -1285,6 +1328,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getOutcome() {
 		return outcome;
 	}
@@ -1309,6 +1353,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOutcome(CodeableConcept newOutcome) {
 		if (newOutcome != outcome) {
 			NotificationChain msgs = null;
@@ -1328,6 +1373,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getReport() {
 		if (report == null) {
 			report = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.PROCEDURE__REPORT);
@@ -1340,6 +1386,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getComplication() {
 		if (complication == null) {
 			complication = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.PROCEDURE__COMPLICATION);
@@ -1352,6 +1399,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getFollowUp() {
 		if (followUp == null) {
 			followUp = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.PROCEDURE__FOLLOW_UP);
@@ -1364,6 +1412,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.PROCEDURE__NOTE);
@@ -1376,6 +1425,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ProcedureFocalDevice> getFocalDevice() {
 		if (focalDevice == null) {
 			focalDevice = new EObjectContainmentEList<ProcedureFocalDevice>(ProcedureFocalDevice.class, this, FhirPackage.PROCEDURE__FOCAL_DEVICE);
@@ -1388,6 +1438,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getUsed() {
 		if (used == null) {
 			used = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.PROCEDURE__USED);
@@ -1400,6 +1451,7 @@ public class ProcedureImpl extends DomainResourceImpl implements Procedure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getSupportingInfo() {
 		if (supportingInfo == null) {
 			supportingInfo = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.PROCEDURE__SUPPORTING_INFO);

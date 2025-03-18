@@ -73,6 +73,7 @@ public class MedicationStatementAdherenceImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -97,6 +98,7 @@ public class MedicationStatementAdherenceImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -116,6 +118,7 @@ public class MedicationStatementAdherenceImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getReason() {
 		return reason;
 	}
@@ -140,6 +143,7 @@ public class MedicationStatementAdherenceImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReason(CodeableConcept newReason) {
 		if (newReason != reason) {
 			NotificationChain msgs = null;

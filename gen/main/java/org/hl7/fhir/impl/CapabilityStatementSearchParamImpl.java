@@ -97,6 +97,7 @@ public class CapabilityStatementSearchParamImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -121,6 +122,7 @@ public class CapabilityStatementSearchParamImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -140,6 +142,7 @@ public class CapabilityStatementSearchParamImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getDefinition() {
 		return definition;
 	}
@@ -164,6 +167,7 @@ public class CapabilityStatementSearchParamImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDefinition(Canonical newDefinition) {
 		if (newDefinition != definition) {
 			NotificationChain msgs = null;
@@ -183,6 +187,7 @@ public class CapabilityStatementSearchParamImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SearchParamType getType() {
 		return type;
 	}
@@ -207,6 +212,7 @@ public class CapabilityStatementSearchParamImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(SearchParamType newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -226,6 +232,7 @@ public class CapabilityStatementSearchParamImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDocumentation() {
 		return documentation;
 	}
@@ -250,6 +257,7 @@ public class CapabilityStatementSearchParamImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDocumentation(Markdown newDocumentation) {
 		if (newDocumentation != documentation) {
 			NotificationChain msgs = null;

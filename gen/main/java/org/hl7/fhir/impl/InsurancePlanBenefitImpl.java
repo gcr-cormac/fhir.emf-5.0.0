@@ -92,6 +92,7 @@ public class InsurancePlanBenefitImpl extends BackboneElementImpl implements Ins
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -116,6 +117,7 @@ public class InsurancePlanBenefitImpl extends BackboneElementImpl implements Ins
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -135,6 +137,7 @@ public class InsurancePlanBenefitImpl extends BackboneElementImpl implements Ins
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getRequirement() {
 		return requirement;
 	}
@@ -159,6 +162,7 @@ public class InsurancePlanBenefitImpl extends BackboneElementImpl implements Ins
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRequirement(org.hl7.fhir.String newRequirement) {
 		if (newRequirement != requirement) {
 			NotificationChain msgs = null;
@@ -178,6 +182,7 @@ public class InsurancePlanBenefitImpl extends BackboneElementImpl implements Ins
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<InsurancePlanLimit> getLimit() {
 		if (limit == null) {
 			limit = new EObjectContainmentEList<InsurancePlanLimit>(InsurancePlanLimit.class, this, FhirPackage.INSURANCE_PLAN_BENEFIT__LIMIT);

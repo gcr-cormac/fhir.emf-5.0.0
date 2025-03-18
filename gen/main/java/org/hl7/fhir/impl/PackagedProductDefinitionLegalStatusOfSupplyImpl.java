@@ -73,6 +73,7 @@ public class PackagedProductDefinitionLegalStatusOfSupplyImpl extends BackboneEl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -97,6 +98,7 @@ public class PackagedProductDefinitionLegalStatusOfSupplyImpl extends BackboneEl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -116,6 +118,7 @@ public class PackagedProductDefinitionLegalStatusOfSupplyImpl extends BackboneEl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getJurisdiction() {
 		return jurisdiction;
 	}
@@ -140,6 +143,7 @@ public class PackagedProductDefinitionLegalStatusOfSupplyImpl extends BackboneEl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setJurisdiction(CodeableConcept newJurisdiction) {
 		if (newJurisdiction != jurisdiction) {
 			NotificationChain msgs = null;

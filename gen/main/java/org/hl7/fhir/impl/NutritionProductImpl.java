@@ -176,6 +176,7 @@ public class NutritionProductImpl extends DomainResourceImpl implements Nutritio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -200,6 +201,7 @@ public class NutritionProductImpl extends DomainResourceImpl implements Nutritio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -219,6 +221,7 @@ public class NutritionProductImpl extends DomainResourceImpl implements Nutritio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public NutritionProductStatus getStatus() {
 		return status;
 	}
@@ -243,6 +246,7 @@ public class NutritionProductImpl extends DomainResourceImpl implements Nutritio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(NutritionProductStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -262,6 +266,7 @@ public class NutritionProductImpl extends DomainResourceImpl implements Nutritio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCategory() {
 		if (category == null) {
 			category = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.NUTRITION_PRODUCT__CATEGORY);
@@ -274,6 +279,7 @@ public class NutritionProductImpl extends DomainResourceImpl implements Nutritio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getManufacturer() {
 		if (manufacturer == null) {
 			manufacturer = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.NUTRITION_PRODUCT__MANUFACTURER);
@@ -286,6 +292,7 @@ public class NutritionProductImpl extends DomainResourceImpl implements Nutritio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<NutritionProductNutrient> getNutrient() {
 		if (nutrient == null) {
 			nutrient = new EObjectContainmentEList<NutritionProductNutrient>(NutritionProductNutrient.class, this, FhirPackage.NUTRITION_PRODUCT__NUTRIENT);
@@ -298,6 +305,7 @@ public class NutritionProductImpl extends DomainResourceImpl implements Nutritio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<NutritionProductIngredient> getIngredient() {
 		if (ingredient == null) {
 			ingredient = new EObjectContainmentEList<NutritionProductIngredient>(NutritionProductIngredient.class, this, FhirPackage.NUTRITION_PRODUCT__INGREDIENT);
@@ -310,6 +318,7 @@ public class NutritionProductImpl extends DomainResourceImpl implements Nutritio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getKnownAllergen() {
 		if (knownAllergen == null) {
 			knownAllergen = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.NUTRITION_PRODUCT__KNOWN_ALLERGEN);
@@ -322,6 +331,7 @@ public class NutritionProductImpl extends DomainResourceImpl implements Nutritio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<NutritionProductCharacteristic> getCharacteristic() {
 		if (characteristic == null) {
 			characteristic = new EObjectContainmentEList<NutritionProductCharacteristic>(NutritionProductCharacteristic.class, this, FhirPackage.NUTRITION_PRODUCT__CHARACTERISTIC);
@@ -334,6 +344,7 @@ public class NutritionProductImpl extends DomainResourceImpl implements Nutritio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<NutritionProductInstance> getInstance() {
 		if (instance == null) {
 			instance = new EObjectContainmentEList<NutritionProductInstance>(NutritionProductInstance.class, this, FhirPackage.NUTRITION_PRODUCT__INSTANCE);
@@ -346,6 +357,7 @@ public class NutritionProductImpl extends DomainResourceImpl implements Nutritio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.NUTRITION_PRODUCT__NOTE);

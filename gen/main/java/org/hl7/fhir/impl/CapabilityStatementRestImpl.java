@@ -153,6 +153,7 @@ public class CapabilityStatementRestImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public RestfulCapabilityMode getMode() {
 		return mode;
 	}
@@ -177,6 +178,7 @@ public class CapabilityStatementRestImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMode(RestfulCapabilityMode newMode) {
 		if (newMode != mode) {
 			NotificationChain msgs = null;
@@ -196,6 +198,7 @@ public class CapabilityStatementRestImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDocumentation() {
 		return documentation;
 	}
@@ -220,6 +223,7 @@ public class CapabilityStatementRestImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDocumentation(Markdown newDocumentation) {
 		if (newDocumentation != documentation) {
 			NotificationChain msgs = null;
@@ -239,6 +243,7 @@ public class CapabilityStatementRestImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CapabilityStatementSecurity getSecurity() {
 		return security;
 	}
@@ -263,6 +268,7 @@ public class CapabilityStatementRestImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSecurity(CapabilityStatementSecurity newSecurity) {
 		if (newSecurity != security) {
 			NotificationChain msgs = null;
@@ -282,6 +288,7 @@ public class CapabilityStatementRestImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CapabilityStatementResource> getResource() {
 		if (resource == null) {
 			resource = new EObjectContainmentEList<CapabilityStatementResource>(CapabilityStatementResource.class, this, FhirPackage.CAPABILITY_STATEMENT_REST__RESOURCE);
@@ -294,6 +301,7 @@ public class CapabilityStatementRestImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CapabilityStatementInteraction1> getInteraction() {
 		if (interaction == null) {
 			interaction = new EObjectContainmentEList<CapabilityStatementInteraction1>(CapabilityStatementInteraction1.class, this, FhirPackage.CAPABILITY_STATEMENT_REST__INTERACTION);
@@ -306,6 +314,7 @@ public class CapabilityStatementRestImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CapabilityStatementSearchParam> getSearchParam() {
 		if (searchParam == null) {
 			searchParam = new EObjectContainmentEList<CapabilityStatementSearchParam>(CapabilityStatementSearchParam.class, this, FhirPackage.CAPABILITY_STATEMENT_REST__SEARCH_PARAM);
@@ -318,6 +327,7 @@ public class CapabilityStatementRestImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CapabilityStatementOperation> getOperation() {
 		if (operation == null) {
 			operation = new EObjectContainmentEList<CapabilityStatementOperation>(CapabilityStatementOperation.class, this, FhirPackage.CAPABILITY_STATEMENT_REST__OPERATION);
@@ -330,6 +340,7 @@ public class CapabilityStatementRestImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Canonical> getCompartment() {
 		if (compartment == null) {
 			compartment = new EObjectContainmentEList<Canonical>(Canonical.class, this, FhirPackage.CAPABILITY_STATEMENT_REST__COMPARTMENT);

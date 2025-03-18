@@ -85,6 +85,7 @@ public class ClinicalUseDefinitionUndesirableEffectImpl extends BackboneElementI
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getSymptomConditionEffect() {
 		return symptomConditionEffect;
 	}
@@ -109,6 +110,7 @@ public class ClinicalUseDefinitionUndesirableEffectImpl extends BackboneElementI
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSymptomConditionEffect(CodeableReference newSymptomConditionEffect) {
 		if (newSymptomConditionEffect != symptomConditionEffect) {
 			NotificationChain msgs = null;
@@ -128,6 +130,7 @@ public class ClinicalUseDefinitionUndesirableEffectImpl extends BackboneElementI
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getClassification() {
 		return classification;
 	}
@@ -152,6 +155,7 @@ public class ClinicalUseDefinitionUndesirableEffectImpl extends BackboneElementI
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setClassification(CodeableConcept newClassification) {
 		if (newClassification != classification) {
 			NotificationChain msgs = null;
@@ -171,6 +175,7 @@ public class ClinicalUseDefinitionUndesirableEffectImpl extends BackboneElementI
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getFrequencyOfOccurrence() {
 		return frequencyOfOccurrence;
 	}
@@ -195,6 +200,7 @@ public class ClinicalUseDefinitionUndesirableEffectImpl extends BackboneElementI
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFrequencyOfOccurrence(CodeableConcept newFrequencyOfOccurrence) {
 		if (newFrequencyOfOccurrence != frequencyOfOccurrence) {
 			NotificationChain msgs = null;

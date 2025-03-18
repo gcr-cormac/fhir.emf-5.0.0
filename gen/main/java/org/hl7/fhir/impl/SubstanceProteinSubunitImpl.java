@@ -140,6 +140,7 @@ public class SubstanceProteinSubunitImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Integer getSubunit() {
 		return subunit;
 	}
@@ -164,6 +165,7 @@ public class SubstanceProteinSubunitImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubunit(org.hl7.fhir.Integer newSubunit) {
 		if (newSubunit != subunit) {
 			NotificationChain msgs = null;
@@ -183,6 +185,7 @@ public class SubstanceProteinSubunitImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getSequence() {
 		return sequence;
 	}
@@ -207,6 +210,7 @@ public class SubstanceProteinSubunitImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSequence(org.hl7.fhir.String newSequence) {
 		if (newSequence != sequence) {
 			NotificationChain msgs = null;
@@ -226,6 +230,7 @@ public class SubstanceProteinSubunitImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Integer getLength() {
 		return length;
 	}
@@ -250,6 +255,7 @@ public class SubstanceProteinSubunitImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLength(org.hl7.fhir.Integer newLength) {
 		if (newLength != length) {
 			NotificationChain msgs = null;
@@ -269,6 +275,7 @@ public class SubstanceProteinSubunitImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Attachment getSequenceAttachment() {
 		return sequenceAttachment;
 	}
@@ -293,6 +300,7 @@ public class SubstanceProteinSubunitImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSequenceAttachment(Attachment newSequenceAttachment) {
 		if (newSequenceAttachment != sequenceAttachment) {
 			NotificationChain msgs = null;
@@ -312,6 +320,7 @@ public class SubstanceProteinSubunitImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Identifier getNTerminalModificationId() {
 		return nTerminalModificationId;
 	}
@@ -336,6 +345,7 @@ public class SubstanceProteinSubunitImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNTerminalModificationId(Identifier newNTerminalModificationId) {
 		if (newNTerminalModificationId != nTerminalModificationId) {
 			NotificationChain msgs = null;
@@ -355,6 +365,7 @@ public class SubstanceProteinSubunitImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getNTerminalModification() {
 		return nTerminalModification;
 	}
@@ -379,6 +390,7 @@ public class SubstanceProteinSubunitImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNTerminalModification(org.hl7.fhir.String newNTerminalModification) {
 		if (newNTerminalModification != nTerminalModification) {
 			NotificationChain msgs = null;
@@ -398,6 +410,7 @@ public class SubstanceProteinSubunitImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Identifier getCTerminalModificationId() {
 		return cTerminalModificationId;
 	}
@@ -422,6 +435,7 @@ public class SubstanceProteinSubunitImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCTerminalModificationId(Identifier newCTerminalModificationId) {
 		if (newCTerminalModificationId != cTerminalModificationId) {
 			NotificationChain msgs = null;
@@ -441,6 +455,7 @@ public class SubstanceProteinSubunitImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getCTerminalModification() {
 		return cTerminalModification;
 	}
@@ -465,6 +480,7 @@ public class SubstanceProteinSubunitImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCTerminalModification(org.hl7.fhir.String newCTerminalModification) {
 		if (newCTerminalModification != cTerminalModification) {
 			NotificationChain msgs = null;

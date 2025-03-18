@@ -81,6 +81,7 @@ public class MedicationKnowledgePackagingImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MedicationKnowledgeCost> getCost() {
 		if (cost == null) {
 			cost = new EObjectContainmentEList<MedicationKnowledgeCost>(MedicationKnowledgeCost.class, this, FhirPackage.MEDICATION_KNOWLEDGE_PACKAGING__COST);
@@ -93,6 +94,7 @@ public class MedicationKnowledgePackagingImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getPackagedProduct() {
 		return packagedProduct;
 	}
@@ -117,6 +119,7 @@ public class MedicationKnowledgePackagingImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPackagedProduct(Reference newPackagedProduct) {
 		if (newPackagedProduct != packagedProduct) {
 			NotificationChain msgs = null;

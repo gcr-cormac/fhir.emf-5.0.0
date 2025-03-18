@@ -458,6 +458,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getUrl() {
 		return url;
 	}
@@ -482,6 +483,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUrl(Uri newUrl) {
 		if (newUrl != url) {
 			NotificationChain msgs = null;
@@ -501,6 +503,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.LIBRARY__IDENTIFIER);
@@ -513,6 +516,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersion() {
 		return version;
 	}
@@ -537,6 +541,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersion(org.hl7.fhir.String newVersion) {
 		if (newVersion != version) {
 			NotificationChain msgs = null;
@@ -556,6 +561,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersionAlgorithmString() {
 		return versionAlgorithmString;
 	}
@@ -580,6 +586,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersionAlgorithmString(org.hl7.fhir.String newVersionAlgorithmString) {
 		if (newVersionAlgorithmString != versionAlgorithmString) {
 			NotificationChain msgs = null;
@@ -599,6 +606,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getVersionAlgorithmCoding() {
 		return versionAlgorithmCoding;
 	}
@@ -623,6 +631,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersionAlgorithmCoding(Coding newVersionAlgorithmCoding) {
 		if (newVersionAlgorithmCoding != versionAlgorithmCoding) {
 			NotificationChain msgs = null;
@@ -642,6 +651,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -666,6 +676,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -685,6 +696,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getTitle() {
 		return title;
 	}
@@ -709,6 +721,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(org.hl7.fhir.String newTitle) {
 		if (newTitle != title) {
 			NotificationChain msgs = null;
@@ -728,6 +741,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getSubtitle() {
 		return subtitle;
 	}
@@ -752,6 +766,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubtitle(org.hl7.fhir.String newSubtitle) {
 		if (newSubtitle != subtitle) {
 			NotificationChain msgs = null;
@@ -771,6 +786,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PublicationStatus getStatus() {
 		return status;
 	}
@@ -795,6 +811,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(PublicationStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -814,6 +831,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getExperimental() {
 		return experimental;
 	}
@@ -838,6 +856,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExperimental(org.hl7.fhir.Boolean newExperimental) {
 		if (newExperimental != experimental) {
 			NotificationChain msgs = null;
@@ -857,6 +876,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -881,6 +901,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -900,6 +921,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getSubjectCodeableConcept() {
 		return subjectCodeableConcept;
 	}
@@ -924,6 +946,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubjectCodeableConcept(CodeableConcept newSubjectCodeableConcept) {
 		if (newSubjectCodeableConcept != subjectCodeableConcept) {
 			NotificationChain msgs = null;
@@ -943,6 +966,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubjectReference() {
 		return subjectReference;
 	}
@@ -967,6 +991,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubjectReference(Reference newSubjectReference) {
 		if (newSubjectReference != subjectReference) {
 			NotificationChain msgs = null;
@@ -986,6 +1011,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getDate() {
 		return date;
 	}
@@ -1010,6 +1036,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDate(DateTime newDate) {
 		if (newDate != date) {
 			NotificationChain msgs = null;
@@ -1029,6 +1056,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPublisher() {
 		return publisher;
 	}
@@ -1053,6 +1081,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPublisher(org.hl7.fhir.String newPublisher) {
 		if (newPublisher != publisher) {
 			NotificationChain msgs = null;
@@ -1072,6 +1101,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getContact() {
 		if (contact == null) {
 			contact = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.LIBRARY__CONTACT);
@@ -1084,6 +1114,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -1108,6 +1139,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -1127,6 +1159,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<UsageContext> getUseContext() {
 		if (useContext == null) {
 			useContext = new EObjectContainmentEList<UsageContext>(UsageContext.class, this, FhirPackage.LIBRARY__USE_CONTEXT);
@@ -1139,6 +1172,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getJurisdiction() {
 		if (jurisdiction == null) {
 			jurisdiction = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.LIBRARY__JURISDICTION);
@@ -1151,6 +1185,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getPurpose() {
 		return purpose;
 	}
@@ -1175,6 +1210,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPurpose(Markdown newPurpose) {
 		if (newPurpose != purpose) {
 			NotificationChain msgs = null;
@@ -1194,6 +1230,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getUsage() {
 		return usage;
 	}
@@ -1218,6 +1255,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUsage(Markdown newUsage) {
 		if (newUsage != usage) {
 			NotificationChain msgs = null;
@@ -1237,6 +1275,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getCopyright() {
 		return copyright;
 	}
@@ -1261,6 +1300,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCopyright(Markdown newCopyright) {
 		if (newCopyright != copyright) {
 			NotificationChain msgs = null;
@@ -1280,6 +1320,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getCopyrightLabel() {
 		return copyrightLabel;
 	}
@@ -1304,6 +1345,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCopyrightLabel(org.hl7.fhir.String newCopyrightLabel) {
 		if (newCopyrightLabel != copyrightLabel) {
 			NotificationChain msgs = null;
@@ -1323,6 +1365,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getApprovalDate() {
 		return approvalDate;
 	}
@@ -1347,6 +1390,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setApprovalDate(Date newApprovalDate) {
 		if (newApprovalDate != approvalDate) {
 			NotificationChain msgs = null;
@@ -1366,6 +1410,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getLastReviewDate() {
 		return lastReviewDate;
 	}
@@ -1390,6 +1435,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLastReviewDate(Date newLastReviewDate) {
 		if (newLastReviewDate != lastReviewDate) {
 			NotificationChain msgs = null;
@@ -1409,6 +1455,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getEffectivePeriod() {
 		return effectivePeriod;
 	}
@@ -1433,6 +1480,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEffectivePeriod(Period newEffectivePeriod) {
 		if (newEffectivePeriod != effectivePeriod) {
 			NotificationChain msgs = null;
@@ -1452,6 +1500,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getTopic() {
 		if (topic == null) {
 			topic = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.LIBRARY__TOPIC);
@@ -1464,6 +1513,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getAuthor() {
 		if (author == null) {
 			author = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.LIBRARY__AUTHOR);
@@ -1476,6 +1526,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getEditor() {
 		if (editor == null) {
 			editor = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.LIBRARY__EDITOR);
@@ -1488,6 +1539,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getReviewer() {
 		if (reviewer == null) {
 			reviewer = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.LIBRARY__REVIEWER);
@@ -1500,6 +1552,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getEndorser() {
 		if (endorser == null) {
 			endorser = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.LIBRARY__ENDORSER);
@@ -1512,6 +1565,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<RelatedArtifact> getRelatedArtifact() {
 		if (relatedArtifact == null) {
 			relatedArtifact = new EObjectContainmentEList<RelatedArtifact>(RelatedArtifact.class, this, FhirPackage.LIBRARY__RELATED_ARTIFACT);
@@ -1524,6 +1578,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ParameterDefinition> getParameter() {
 		if (parameter == null) {
 			parameter = new EObjectContainmentEList<ParameterDefinition>(ParameterDefinition.class, this, FhirPackage.LIBRARY__PARAMETER);
@@ -1536,6 +1591,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<DataRequirement> getDataRequirement() {
 		if (dataRequirement == null) {
 			dataRequirement = new EObjectContainmentEList<DataRequirement>(DataRequirement.class, this, FhirPackage.LIBRARY__DATA_REQUIREMENT);
@@ -1548,6 +1604,7 @@ public class LibraryImpl extends MetadataResourceImpl implements Library {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Attachment> getContent() {
 		if (content == null) {
 			content = new EObjectContainmentEList<Attachment>(Attachment.class, this, FhirPackage.LIBRARY__CONTENT);

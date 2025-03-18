@@ -74,6 +74,7 @@ public class ImmunizationRecommendationDateCriterionImpl extends BackboneElement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -98,6 +99,7 @@ public class ImmunizationRecommendationDateCriterionImpl extends BackboneElement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class ImmunizationRecommendationDateCriterionImpl extends BackboneElement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getValue() {
 		return value;
 	}
@@ -141,6 +144,7 @@ public class ImmunizationRecommendationDateCriterionImpl extends BackboneElement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(DateTime newValue) {
 		if (newValue != value) {
 			NotificationChain msgs = null;

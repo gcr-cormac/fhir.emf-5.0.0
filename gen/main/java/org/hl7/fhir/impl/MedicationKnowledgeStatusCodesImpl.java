@@ -79,6 +79,7 @@ public class MedicationKnowledgeStatusCodesImpl extends ElementImpl implements M
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public MedicationKnowledgeStatusCodesEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class MedicationKnowledgeStatusCodesImpl extends ElementImpl implements M
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(MedicationKnowledgeStatusCodesEnum newValue) {
 		MedicationKnowledgeStatusCodesEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class MedicationKnowledgeStatusCodesImpl extends ElementImpl implements M
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		MedicationKnowledgeStatusCodesEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class MedicationKnowledgeStatusCodesImpl extends ElementImpl implements M
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

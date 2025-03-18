@@ -79,6 +79,7 @@ public class AssertionOperatorTypeImpl extends ElementImpl implements AssertionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AssertionOperatorTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class AssertionOperatorTypeImpl extends ElementImpl implements AssertionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(AssertionOperatorTypeEnum newValue) {
 		AssertionOperatorTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class AssertionOperatorTypeImpl extends ElementImpl implements AssertionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		AssertionOperatorTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class AssertionOperatorTypeImpl extends ElementImpl implements AssertionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

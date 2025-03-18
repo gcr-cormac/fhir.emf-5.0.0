@@ -79,6 +79,7 @@ public class TypeRestfulInteractionImpl extends ElementImpl implements TypeRestf
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TypeRestfulInteractionEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class TypeRestfulInteractionImpl extends ElementImpl implements TypeRestf
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(TypeRestfulInteractionEnum newValue) {
 		TypeRestfulInteractionEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class TypeRestfulInteractionImpl extends ElementImpl implements TypeRestf
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		TypeRestfulInteractionEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class TypeRestfulInteractionImpl extends ElementImpl implements TypeRestf
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

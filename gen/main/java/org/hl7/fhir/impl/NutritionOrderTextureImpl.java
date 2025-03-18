@@ -73,6 +73,7 @@ public class NutritionOrderTextureImpl extends BackboneElementImpl implements Nu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getModifier() {
 		return modifier;
 	}
@@ -97,6 +98,7 @@ public class NutritionOrderTextureImpl extends BackboneElementImpl implements Nu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setModifier(CodeableConcept newModifier) {
 		if (newModifier != modifier) {
 			NotificationChain msgs = null;
@@ -116,6 +118,7 @@ public class NutritionOrderTextureImpl extends BackboneElementImpl implements Nu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getFoodType() {
 		return foodType;
 	}
@@ -140,6 +143,7 @@ public class NutritionOrderTextureImpl extends BackboneElementImpl implements Nu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFoodType(CodeableConcept newFoodType) {
 		if (newFoodType != foodType) {
 			NotificationChain msgs = null;

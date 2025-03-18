@@ -79,6 +79,7 @@ public class SpecimenContainedPreferenceImpl extends ElementImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SpecimenContainedPreferenceEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class SpecimenContainedPreferenceImpl extends ElementImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(SpecimenContainedPreferenceEnum newValue) {
 		SpecimenContainedPreferenceEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class SpecimenContainedPreferenceImpl extends ElementImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		SpecimenContainedPreferenceEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class SpecimenContainedPreferenceImpl extends ElementImpl implements Spec
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

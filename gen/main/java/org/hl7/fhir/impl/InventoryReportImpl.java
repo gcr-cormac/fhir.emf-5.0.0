@@ -176,6 +176,7 @@ public class InventoryReportImpl extends DomainResourceImpl implements Inventory
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.INVENTORY_REPORT__IDENTIFIER);
@@ -188,6 +189,7 @@ public class InventoryReportImpl extends DomainResourceImpl implements Inventory
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public InventoryReportStatus getStatus() {
 		return status;
 	}
@@ -212,6 +214,7 @@ public class InventoryReportImpl extends DomainResourceImpl implements Inventory
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(InventoryReportStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -231,6 +234,7 @@ public class InventoryReportImpl extends DomainResourceImpl implements Inventory
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public InventoryCountType getCountType() {
 		return countType;
 	}
@@ -255,6 +259,7 @@ public class InventoryReportImpl extends DomainResourceImpl implements Inventory
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCountType(InventoryCountType newCountType) {
 		if (newCountType != countType) {
 			NotificationChain msgs = null;
@@ -274,6 +279,7 @@ public class InventoryReportImpl extends DomainResourceImpl implements Inventory
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getOperationType() {
 		return operationType;
 	}
@@ -298,6 +304,7 @@ public class InventoryReportImpl extends DomainResourceImpl implements Inventory
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOperationType(CodeableConcept newOperationType) {
 		if (newOperationType != operationType) {
 			NotificationChain msgs = null;
@@ -317,6 +324,7 @@ public class InventoryReportImpl extends DomainResourceImpl implements Inventory
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getOperationTypeReason() {
 		return operationTypeReason;
 	}
@@ -341,6 +349,7 @@ public class InventoryReportImpl extends DomainResourceImpl implements Inventory
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOperationTypeReason(CodeableConcept newOperationTypeReason) {
 		if (newOperationTypeReason != operationTypeReason) {
 			NotificationChain msgs = null;
@@ -360,6 +369,7 @@ public class InventoryReportImpl extends DomainResourceImpl implements Inventory
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getReportedDateTime() {
 		return reportedDateTime;
 	}
@@ -384,6 +394,7 @@ public class InventoryReportImpl extends DomainResourceImpl implements Inventory
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReportedDateTime(DateTime newReportedDateTime) {
 		if (newReportedDateTime != reportedDateTime) {
 			NotificationChain msgs = null;
@@ -403,6 +414,7 @@ public class InventoryReportImpl extends DomainResourceImpl implements Inventory
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getReporter() {
 		return reporter;
 	}
@@ -427,6 +439,7 @@ public class InventoryReportImpl extends DomainResourceImpl implements Inventory
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReporter(Reference newReporter) {
 		if (newReporter != reporter) {
 			NotificationChain msgs = null;
@@ -446,6 +459,7 @@ public class InventoryReportImpl extends DomainResourceImpl implements Inventory
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getReportingPeriod() {
 		return reportingPeriod;
 	}
@@ -470,6 +484,7 @@ public class InventoryReportImpl extends DomainResourceImpl implements Inventory
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReportingPeriod(Period newReportingPeriod) {
 		if (newReportingPeriod != reportingPeriod) {
 			NotificationChain msgs = null;
@@ -489,6 +504,7 @@ public class InventoryReportImpl extends DomainResourceImpl implements Inventory
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<InventoryReportInventoryListing> getInventoryListing() {
 		if (inventoryListing == null) {
 			inventoryListing = new EObjectContainmentEList<InventoryReportInventoryListing>(InventoryReportInventoryListing.class, this, FhirPackage.INVENTORY_REPORT__INVENTORY_LISTING);
@@ -501,6 +517,7 @@ public class InventoryReportImpl extends DomainResourceImpl implements Inventory
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.INVENTORY_REPORT__NOTE);

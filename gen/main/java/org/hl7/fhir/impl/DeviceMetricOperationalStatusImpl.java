@@ -79,6 +79,7 @@ public class DeviceMetricOperationalStatusImpl extends ElementImpl implements De
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DeviceMetricOperationalStatusEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class DeviceMetricOperationalStatusImpl extends ElementImpl implements De
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(DeviceMetricOperationalStatusEnum newValue) {
 		DeviceMetricOperationalStatusEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class DeviceMetricOperationalStatusImpl extends ElementImpl implements De
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		DeviceMetricOperationalStatusEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class DeviceMetricOperationalStatusImpl extends ElementImpl implements De
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

@@ -84,6 +84,7 @@ public class RequestOrchestrationOutputImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getTitle() {
 		return title;
 	}
@@ -108,6 +109,7 @@ public class RequestOrchestrationOutputImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(org.hl7.fhir.String newTitle) {
 		if (newTitle != title) {
 			NotificationChain msgs = null;
@@ -127,6 +129,7 @@ public class RequestOrchestrationOutputImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DataRequirement getRequirement() {
 		return requirement;
 	}
@@ -151,6 +154,7 @@ public class RequestOrchestrationOutputImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRequirement(DataRequirement newRequirement) {
 		if (newRequirement != requirement) {
 			NotificationChain msgs = null;
@@ -170,6 +174,7 @@ public class RequestOrchestrationOutputImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getRelatedData() {
 		return relatedData;
 	}
@@ -194,6 +199,7 @@ public class RequestOrchestrationOutputImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRelatedData(org.hl7.fhir.String newRelatedData) {
 		if (newRelatedData != relatedData) {
 			NotificationChain msgs = null;

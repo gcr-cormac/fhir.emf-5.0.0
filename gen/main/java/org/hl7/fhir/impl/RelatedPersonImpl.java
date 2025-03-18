@@ -200,6 +200,7 @@ public class RelatedPersonImpl extends DomainResourceImpl implements RelatedPers
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.RELATED_PERSON__IDENTIFIER);
@@ -212,6 +213,7 @@ public class RelatedPersonImpl extends DomainResourceImpl implements RelatedPers
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getActive() {
 		return active;
 	}
@@ -236,6 +238,7 @@ public class RelatedPersonImpl extends DomainResourceImpl implements RelatedPers
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setActive(org.hl7.fhir.Boolean newActive) {
 		if (newActive != active) {
 			NotificationChain msgs = null;
@@ -255,6 +258,7 @@ public class RelatedPersonImpl extends DomainResourceImpl implements RelatedPers
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getPatient() {
 		return patient;
 	}
@@ -279,6 +283,7 @@ public class RelatedPersonImpl extends DomainResourceImpl implements RelatedPers
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPatient(Reference newPatient) {
 		if (newPatient != patient) {
 			NotificationChain msgs = null;
@@ -298,6 +303,7 @@ public class RelatedPersonImpl extends DomainResourceImpl implements RelatedPers
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getRelationship() {
 		if (relationship == null) {
 			relationship = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.RELATED_PERSON__RELATIONSHIP);
@@ -310,6 +316,7 @@ public class RelatedPersonImpl extends DomainResourceImpl implements RelatedPers
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<HumanName> getName() {
 		if (name == null) {
 			name = new EObjectContainmentEList<HumanName>(HumanName.class, this, FhirPackage.RELATED_PERSON__NAME);
@@ -322,6 +329,7 @@ public class RelatedPersonImpl extends DomainResourceImpl implements RelatedPers
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactPoint> getTelecom() {
 		if (telecom == null) {
 			telecom = new EObjectContainmentEList<ContactPoint>(ContactPoint.class, this, FhirPackage.RELATED_PERSON__TELECOM);
@@ -334,6 +342,7 @@ public class RelatedPersonImpl extends DomainResourceImpl implements RelatedPers
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AdministrativeGender getGender() {
 		return gender;
 	}
@@ -358,6 +367,7 @@ public class RelatedPersonImpl extends DomainResourceImpl implements RelatedPers
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setGender(AdministrativeGender newGender) {
 		if (newGender != gender) {
 			NotificationChain msgs = null;
@@ -377,6 +387,7 @@ public class RelatedPersonImpl extends DomainResourceImpl implements RelatedPers
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getBirthDate() {
 		return birthDate;
 	}
@@ -401,6 +412,7 @@ public class RelatedPersonImpl extends DomainResourceImpl implements RelatedPers
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBirthDate(Date newBirthDate) {
 		if (newBirthDate != birthDate) {
 			NotificationChain msgs = null;
@@ -420,6 +432,7 @@ public class RelatedPersonImpl extends DomainResourceImpl implements RelatedPers
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Address> getAddress() {
 		if (address == null) {
 			address = new EObjectContainmentEList<Address>(Address.class, this, FhirPackage.RELATED_PERSON__ADDRESS);
@@ -432,6 +445,7 @@ public class RelatedPersonImpl extends DomainResourceImpl implements RelatedPers
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Attachment> getPhoto() {
 		if (photo == null) {
 			photo = new EObjectContainmentEList<Attachment>(Attachment.class, this, FhirPackage.RELATED_PERSON__PHOTO);
@@ -444,6 +458,7 @@ public class RelatedPersonImpl extends DomainResourceImpl implements RelatedPers
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getPeriod() {
 		return period;
 	}
@@ -468,6 +483,7 @@ public class RelatedPersonImpl extends DomainResourceImpl implements RelatedPers
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriod(Period newPeriod) {
 		if (newPeriod != period) {
 			NotificationChain msgs = null;
@@ -487,6 +503,7 @@ public class RelatedPersonImpl extends DomainResourceImpl implements RelatedPers
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<RelatedPersonCommunication> getCommunication() {
 		if (communication == null) {
 			communication = new EObjectContainmentEList<RelatedPersonCommunication>(RelatedPersonCommunication.class, this, FhirPackage.RELATED_PERSON__COMMUNICATION);

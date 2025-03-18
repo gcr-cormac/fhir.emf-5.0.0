@@ -104,6 +104,7 @@ public class SubscriptionStatusNotificationEventImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Integer64 getEventNumber() {
 		return eventNumber;
 	}
@@ -128,6 +129,7 @@ public class SubscriptionStatusNotificationEventImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEventNumber(Integer64 newEventNumber) {
 		if (newEventNumber != eventNumber) {
 			NotificationChain msgs = null;
@@ -147,6 +149,7 @@ public class SubscriptionStatusNotificationEventImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Instant getTimestamp() {
 		return timestamp;
 	}
@@ -171,6 +174,7 @@ public class SubscriptionStatusNotificationEventImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTimestamp(Instant newTimestamp) {
 		if (newTimestamp != timestamp) {
 			NotificationChain msgs = null;
@@ -190,6 +194,7 @@ public class SubscriptionStatusNotificationEventImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getFocus() {
 		return focus;
 	}
@@ -214,6 +219,7 @@ public class SubscriptionStatusNotificationEventImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFocus(Reference newFocus) {
 		if (newFocus != focus) {
 			NotificationChain msgs = null;
@@ -233,6 +239,7 @@ public class SubscriptionStatusNotificationEventImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getAdditionalContext() {
 		if (additionalContext == null) {
 			additionalContext = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.SUBSCRIPTION_STATUS_NOTIFICATION_EVENT__ADDITIONAL_CONTEXT);

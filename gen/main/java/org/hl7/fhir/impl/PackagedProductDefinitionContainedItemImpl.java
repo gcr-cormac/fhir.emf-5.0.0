@@ -74,6 +74,7 @@ public class PackagedProductDefinitionContainedItemImpl extends BackboneElementI
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getItem() {
 		return item;
 	}
@@ -98,6 +99,7 @@ public class PackagedProductDefinitionContainedItemImpl extends BackboneElementI
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setItem(CodeableReference newItem) {
 		if (newItem != item) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class PackagedProductDefinitionContainedItemImpl extends BackboneElementI
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getAmount() {
 		return amount;
 	}
@@ -141,6 +144,7 @@ public class PackagedProductDefinitionContainedItemImpl extends BackboneElementI
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAmount(Quantity newAmount) {
 		if (newAmount != amount) {
 			NotificationChain msgs = null;

@@ -85,6 +85,7 @@ public class TestScriptScopeImpl extends BackboneElementImpl implements TestScri
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getArtifact() {
 		return artifact;
 	}
@@ -109,6 +110,7 @@ public class TestScriptScopeImpl extends BackboneElementImpl implements TestScri
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setArtifact(Canonical newArtifact) {
 		if (newArtifact != artifact) {
 			NotificationChain msgs = null;
@@ -128,6 +130,7 @@ public class TestScriptScopeImpl extends BackboneElementImpl implements TestScri
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getConformance() {
 		return conformance;
 	}
@@ -152,6 +155,7 @@ public class TestScriptScopeImpl extends BackboneElementImpl implements TestScri
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setConformance(CodeableConcept newConformance) {
 		if (newConformance != conformance) {
 			NotificationChain msgs = null;
@@ -171,6 +175,7 @@ public class TestScriptScopeImpl extends BackboneElementImpl implements TestScri
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getPhase() {
 		return phase;
 	}
@@ -195,6 +200,7 @@ public class TestScriptScopeImpl extends BackboneElementImpl implements TestScri
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPhase(CodeableConcept newPhase) {
 		if (newPhase != phase) {
 			NotificationChain msgs = null;

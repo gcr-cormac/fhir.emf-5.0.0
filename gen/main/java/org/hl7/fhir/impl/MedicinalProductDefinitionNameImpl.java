@@ -104,6 +104,7 @@ public class MedicinalProductDefinitionNameImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getProductName() {
 		return productName;
 	}
@@ -128,6 +129,7 @@ public class MedicinalProductDefinitionNameImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProductName(org.hl7.fhir.String newProductName) {
 		if (newProductName != productName) {
 			NotificationChain msgs = null;
@@ -147,6 +149,7 @@ public class MedicinalProductDefinitionNameImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -171,6 +174,7 @@ public class MedicinalProductDefinitionNameImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -190,6 +194,7 @@ public class MedicinalProductDefinitionNameImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MedicinalProductDefinitionPart> getPart() {
 		if (part == null) {
 			part = new EObjectContainmentEList<MedicinalProductDefinitionPart>(MedicinalProductDefinitionPart.class, this, FhirPackage.MEDICINAL_PRODUCT_DEFINITION_NAME__PART);
@@ -202,6 +207,7 @@ public class MedicinalProductDefinitionNameImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MedicinalProductDefinitionUsage> getUsage() {
 		if (usage == null) {
 			usage = new EObjectContainmentEList<MedicinalProductDefinitionUsage>(MedicinalProductDefinitionUsage.class, this, FhirPackage.MEDICINAL_PRODUCT_DEFINITION_NAME__USAGE);

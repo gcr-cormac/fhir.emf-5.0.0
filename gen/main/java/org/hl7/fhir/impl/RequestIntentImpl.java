@@ -79,6 +79,7 @@ public class RequestIntentImpl extends ElementImpl implements RequestIntent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public RequestIntentEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class RequestIntentImpl extends ElementImpl implements RequestIntent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(RequestIntentEnum newValue) {
 		RequestIntentEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class RequestIntentImpl extends ElementImpl implements RequestIntent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		RequestIntentEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class RequestIntentImpl extends ElementImpl implements RequestIntent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

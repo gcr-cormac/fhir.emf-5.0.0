@@ -105,6 +105,7 @@ public class ElementDefinitionBindingImpl extends BackboneTypeImpl implements El
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public BindingStrength getStrength() {
 		return strength;
 	}
@@ -129,6 +130,7 @@ public class ElementDefinitionBindingImpl extends BackboneTypeImpl implements El
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStrength(BindingStrength newStrength) {
 		if (newStrength != strength) {
 			NotificationChain msgs = null;
@@ -148,6 +150,7 @@ public class ElementDefinitionBindingImpl extends BackboneTypeImpl implements El
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -172,6 +175,7 @@ public class ElementDefinitionBindingImpl extends BackboneTypeImpl implements El
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -191,6 +195,7 @@ public class ElementDefinitionBindingImpl extends BackboneTypeImpl implements El
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getValueSet() {
 		return valueSet;
 	}
@@ -215,6 +220,7 @@ public class ElementDefinitionBindingImpl extends BackboneTypeImpl implements El
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueSet(Canonical newValueSet) {
 		if (newValueSet != valueSet) {
 			NotificationChain msgs = null;
@@ -234,6 +240,7 @@ public class ElementDefinitionBindingImpl extends BackboneTypeImpl implements El
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ElementDefinitionAdditional> getAdditional() {
 		if (additional == null) {
 			additional = new EObjectContainmentEList<ElementDefinitionAdditional>(ElementDefinitionAdditional.class, this, FhirPackage.ELEMENT_DEFINITION_BINDING__ADDITIONAL);

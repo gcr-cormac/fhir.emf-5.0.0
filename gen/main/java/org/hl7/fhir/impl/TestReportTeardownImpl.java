@@ -66,6 +66,7 @@ public class TestReportTeardownImpl extends BackboneElementImpl implements TestR
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<TestReportAction2> getAction() {
 		if (action == null) {
 			action = new EObjectContainmentEList<TestReportAction2>(TestReportAction2.class, this, FhirPackage.TEST_REPORT_TEARDOWN__ACTION);

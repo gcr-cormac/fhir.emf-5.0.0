@@ -79,6 +79,7 @@ public class ConsentProvisionTypeImpl extends ElementImpl implements ConsentProv
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ConsentProvisionTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ConsentProvisionTypeImpl extends ElementImpl implements ConsentProv
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ConsentProvisionTypeEnum newValue) {
 		ConsentProvisionTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ConsentProvisionTypeImpl extends ElementImpl implements ConsentProv
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ConsentProvisionTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ConsentProvisionTypeImpl extends ElementImpl implements ConsentProv
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

@@ -208,6 +208,7 @@ public class ListImpl extends DomainResourceImpl implements List {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.LIST__IDENTIFIER);
@@ -220,6 +221,7 @@ public class ListImpl extends DomainResourceImpl implements List {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ListStatus getStatus() {
 		return status;
 	}
@@ -244,6 +246,7 @@ public class ListImpl extends DomainResourceImpl implements List {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(ListStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -263,6 +266,7 @@ public class ListImpl extends DomainResourceImpl implements List {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ListMode getMode() {
 		return mode;
 	}
@@ -287,6 +291,7 @@ public class ListImpl extends DomainResourceImpl implements List {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMode(ListMode newMode) {
 		if (newMode != mode) {
 			NotificationChain msgs = null;
@@ -306,6 +311,7 @@ public class ListImpl extends DomainResourceImpl implements List {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getTitle() {
 		return title;
 	}
@@ -330,6 +336,7 @@ public class ListImpl extends DomainResourceImpl implements List {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(org.hl7.fhir.String newTitle) {
 		if (newTitle != title) {
 			NotificationChain msgs = null;
@@ -349,6 +356,7 @@ public class ListImpl extends DomainResourceImpl implements List {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -373,6 +381,7 @@ public class ListImpl extends DomainResourceImpl implements List {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -392,6 +401,7 @@ public class ListImpl extends DomainResourceImpl implements List {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getSubject() {
 		if (subject == null) {
 			subject = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.LIST__SUBJECT);
@@ -404,6 +414,7 @@ public class ListImpl extends DomainResourceImpl implements List {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getEncounter() {
 		return encounter;
 	}
@@ -428,6 +439,7 @@ public class ListImpl extends DomainResourceImpl implements List {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEncounter(Reference newEncounter) {
 		if (newEncounter != encounter) {
 			NotificationChain msgs = null;
@@ -447,6 +459,7 @@ public class ListImpl extends DomainResourceImpl implements List {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getDate() {
 		return date;
 	}
@@ -471,6 +484,7 @@ public class ListImpl extends DomainResourceImpl implements List {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDate(DateTime newDate) {
 		if (newDate != date) {
 			NotificationChain msgs = null;
@@ -490,6 +504,7 @@ public class ListImpl extends DomainResourceImpl implements List {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSource() {
 		return source;
 	}
@@ -514,6 +529,7 @@ public class ListImpl extends DomainResourceImpl implements List {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSource(Reference newSource) {
 		if (newSource != source) {
 			NotificationChain msgs = null;
@@ -533,6 +549,7 @@ public class ListImpl extends DomainResourceImpl implements List {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getOrderedBy() {
 		return orderedBy;
 	}
@@ -557,6 +574,7 @@ public class ListImpl extends DomainResourceImpl implements List {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOrderedBy(CodeableConcept newOrderedBy) {
 		if (newOrderedBy != orderedBy) {
 			NotificationChain msgs = null;
@@ -576,6 +594,7 @@ public class ListImpl extends DomainResourceImpl implements List {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.LIST__NOTE);
@@ -588,6 +607,7 @@ public class ListImpl extends DomainResourceImpl implements List {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ListEntry> getEntry() {
 		if (entry == null) {
 			entry = new EObjectContainmentEList<ListEntry>(ListEntry.class, this, FhirPackage.LIST__ENTRY);
@@ -600,6 +620,7 @@ public class ListImpl extends DomainResourceImpl implements List {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getEmptyReason() {
 		return emptyReason;
 	}
@@ -624,6 +645,7 @@ public class ListImpl extends DomainResourceImpl implements List {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEmptyReason(CodeableConcept newEmptyReason) {
 		if (newEmptyReason != emptyReason) {
 			NotificationChain msgs = null;

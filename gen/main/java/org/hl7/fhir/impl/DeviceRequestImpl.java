@@ -379,6 +379,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.DEVICE_REQUEST__IDENTIFIER);
@@ -391,6 +392,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Canonical> getInstantiatesCanonical() {
 		if (instantiatesCanonical == null) {
 			instantiatesCanonical = new EObjectContainmentEList<Canonical>(Canonical.class, this, FhirPackage.DEVICE_REQUEST__INSTANTIATES_CANONICAL);
@@ -403,6 +405,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Uri> getInstantiatesUri() {
 		if (instantiatesUri == null) {
 			instantiatesUri = new EObjectContainmentEList<Uri>(Uri.class, this, FhirPackage.DEVICE_REQUEST__INSTANTIATES_URI);
@@ -415,6 +418,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getBasedOn() {
 		if (basedOn == null) {
 			basedOn = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.DEVICE_REQUEST__BASED_ON);
@@ -427,6 +431,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getReplaces() {
 		if (replaces == null) {
 			replaces = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.DEVICE_REQUEST__REPLACES);
@@ -439,6 +444,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Identifier getGroupIdentifier() {
 		return groupIdentifier;
 	}
@@ -463,6 +469,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setGroupIdentifier(Identifier newGroupIdentifier) {
 		if (newGroupIdentifier != groupIdentifier) {
 			NotificationChain msgs = null;
@@ -482,6 +489,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public RequestStatus getStatus() {
 		return status;
 	}
@@ -506,6 +514,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(RequestStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -525,6 +534,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public RequestIntent getIntent() {
 		return intent;
 	}
@@ -549,6 +559,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIntent(RequestIntent newIntent) {
 		if (newIntent != intent) {
 			NotificationChain msgs = null;
@@ -568,6 +579,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public RequestPriority getPriority() {
 		return priority;
 	}
@@ -592,6 +604,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPriority(RequestPriority newPriority) {
 		if (newPriority != priority) {
 			NotificationChain msgs = null;
@@ -611,6 +624,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getDoNotPerform() {
 		return doNotPerform;
 	}
@@ -635,6 +649,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDoNotPerform(org.hl7.fhir.Boolean newDoNotPerform) {
 		if (newDoNotPerform != doNotPerform) {
 			NotificationChain msgs = null;
@@ -654,6 +669,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getCode() {
 		return code;
 	}
@@ -678,6 +694,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableReference newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -697,6 +714,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Integer getQuantity() {
 		return quantity;
 	}
@@ -721,6 +739,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setQuantity(org.hl7.fhir.Integer newQuantity) {
 		if (newQuantity != quantity) {
 			NotificationChain msgs = null;
@@ -740,6 +759,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<DeviceRequestParameter> getParameter() {
 		if (parameter == null) {
 			parameter = new EObjectContainmentEList<DeviceRequestParameter>(DeviceRequestParameter.class, this, FhirPackage.DEVICE_REQUEST__PARAMETER);
@@ -752,6 +772,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubject() {
 		return subject;
 	}
@@ -776,6 +797,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubject(Reference newSubject) {
 		if (newSubject != subject) {
 			NotificationChain msgs = null;
@@ -795,6 +817,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getEncounter() {
 		return encounter;
 	}
@@ -819,6 +842,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEncounter(Reference newEncounter) {
 		if (newEncounter != encounter) {
 			NotificationChain msgs = null;
@@ -838,6 +862,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getOccurrenceDateTime() {
 		return occurrenceDateTime;
 	}
@@ -862,6 +887,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOccurrenceDateTime(DateTime newOccurrenceDateTime) {
 		if (newOccurrenceDateTime != occurrenceDateTime) {
 			NotificationChain msgs = null;
@@ -881,6 +907,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getOccurrencePeriod() {
 		return occurrencePeriod;
 	}
@@ -905,6 +932,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOccurrencePeriod(Period newOccurrencePeriod) {
 		if (newOccurrencePeriod != occurrencePeriod) {
 			NotificationChain msgs = null;
@@ -924,6 +952,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Timing getOccurrenceTiming() {
 		return occurrenceTiming;
 	}
@@ -948,6 +977,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOccurrenceTiming(Timing newOccurrenceTiming) {
 		if (newOccurrenceTiming != occurrenceTiming) {
 			NotificationChain msgs = null;
@@ -967,6 +997,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getAuthoredOn() {
 		return authoredOn;
 	}
@@ -991,6 +1022,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAuthoredOn(DateTime newAuthoredOn) {
 		if (newAuthoredOn != authoredOn) {
 			NotificationChain msgs = null;
@@ -1010,6 +1042,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getRequester() {
 		return requester;
 	}
@@ -1034,6 +1067,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRequester(Reference newRequester) {
 		if (newRequester != requester) {
 			NotificationChain msgs = null;
@@ -1053,6 +1087,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getPerformer() {
 		return performer;
 	}
@@ -1077,6 +1112,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPerformer(CodeableReference newPerformer) {
 		if (newPerformer != performer) {
 			NotificationChain msgs = null;
@@ -1096,6 +1132,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getReason() {
 		if (reason == null) {
 			reason = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.DEVICE_REQUEST__REASON);
@@ -1108,6 +1145,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getAsNeeded() {
 		return asNeeded;
 	}
@@ -1132,6 +1170,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAsNeeded(org.hl7.fhir.Boolean newAsNeeded) {
 		if (newAsNeeded != asNeeded) {
 			NotificationChain msgs = null;
@@ -1151,6 +1190,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getAsNeededFor() {
 		return asNeededFor;
 	}
@@ -1175,6 +1215,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAsNeededFor(CodeableConcept newAsNeededFor) {
 		if (newAsNeededFor != asNeededFor) {
 			NotificationChain msgs = null;
@@ -1194,6 +1235,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getInsurance() {
 		if (insurance == null) {
 			insurance = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.DEVICE_REQUEST__INSURANCE);
@@ -1206,6 +1248,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getSupportingInfo() {
 		if (supportingInfo == null) {
 			supportingInfo = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.DEVICE_REQUEST__SUPPORTING_INFO);
@@ -1218,6 +1261,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.DEVICE_REQUEST__NOTE);
@@ -1230,6 +1274,7 @@ public class DeviceRequestImpl extends DomainResourceImpl implements DeviceReque
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getRelevantHistory() {
 		if (relevantHistory == null) {
 			relevantHistory = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.DEVICE_REQUEST__RELEVANT_HISTORY);

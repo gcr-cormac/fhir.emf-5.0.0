@@ -79,6 +79,7 @@ public class StructureMapGroupTypeModeImpl extends ElementImpl implements Struct
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public StructureMapGroupTypeModeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class StructureMapGroupTypeModeImpl extends ElementImpl implements Struct
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(StructureMapGroupTypeModeEnum newValue) {
 		StructureMapGroupTypeModeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class StructureMapGroupTypeModeImpl extends ElementImpl implements Struct
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		StructureMapGroupTypeModeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class StructureMapGroupTypeModeImpl extends ElementImpl implements Struct
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

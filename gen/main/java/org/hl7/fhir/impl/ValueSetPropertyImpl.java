@@ -74,6 +74,7 @@ public class ValueSetPropertyImpl extends BackboneElementImpl implements ValueSe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Code getCode() {
 		return code;
 	}
@@ -98,6 +99,7 @@ public class ValueSetPropertyImpl extends BackboneElementImpl implements ValueSe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(Code newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class ValueSetPropertyImpl extends BackboneElementImpl implements ValueSe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getUri() {
 		return uri;
 	}
@@ -141,6 +144,7 @@ public class ValueSetPropertyImpl extends BackboneElementImpl implements ValueSe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUri(Uri newUri) {
 		if (newUri != uri) {
 			NotificationChain msgs = null;

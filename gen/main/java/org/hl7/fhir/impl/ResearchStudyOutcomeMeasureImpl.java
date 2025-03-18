@@ -104,6 +104,7 @@ public class ResearchStudyOutcomeMeasureImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -128,6 +129,7 @@ public class ResearchStudyOutcomeMeasureImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -147,6 +149,7 @@ public class ResearchStudyOutcomeMeasureImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getType() {
 		if (type == null) {
 			type = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.RESEARCH_STUDY_OUTCOME_MEASURE__TYPE);
@@ -159,6 +162,7 @@ public class ResearchStudyOutcomeMeasureImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -183,6 +187,7 @@ public class ResearchStudyOutcomeMeasureImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -202,6 +207,7 @@ public class ResearchStudyOutcomeMeasureImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getReference() {
 		return reference;
 	}
@@ -226,6 +232,7 @@ public class ResearchStudyOutcomeMeasureImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReference(Reference newReference) {
 		if (newReference != reference) {
 			NotificationChain msgs = null;

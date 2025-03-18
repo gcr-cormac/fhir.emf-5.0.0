@@ -81,6 +81,7 @@ public class NutritionProductNutrientImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getItem() {
 		return item;
 	}
@@ -105,6 +106,7 @@ public class NutritionProductNutrientImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setItem(CodeableReference newItem) {
 		if (newItem != item) {
 			NotificationChain msgs = null;
@@ -124,6 +126,7 @@ public class NutritionProductNutrientImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Ratio> getAmount() {
 		if (amount == null) {
 			amount = new EObjectContainmentEList<Ratio>(Ratio.class, this, FhirPackage.NUTRITION_PRODUCT_NUTRIENT__AMOUNT);

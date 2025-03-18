@@ -205,6 +205,7 @@ public class SubstanceSourceMaterialImpl extends DomainResourceImpl implements S
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getSourceMaterialClass() {
 		return sourceMaterialClass;
 	}
@@ -229,6 +230,7 @@ public class SubstanceSourceMaterialImpl extends DomainResourceImpl implements S
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSourceMaterialClass(CodeableConcept newSourceMaterialClass) {
 		if (newSourceMaterialClass != sourceMaterialClass) {
 			NotificationChain msgs = null;
@@ -248,6 +250,7 @@ public class SubstanceSourceMaterialImpl extends DomainResourceImpl implements S
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getSourceMaterialType() {
 		return sourceMaterialType;
 	}
@@ -272,6 +275,7 @@ public class SubstanceSourceMaterialImpl extends DomainResourceImpl implements S
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSourceMaterialType(CodeableConcept newSourceMaterialType) {
 		if (newSourceMaterialType != sourceMaterialType) {
 			NotificationChain msgs = null;
@@ -291,6 +295,7 @@ public class SubstanceSourceMaterialImpl extends DomainResourceImpl implements S
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getSourceMaterialState() {
 		return sourceMaterialState;
 	}
@@ -315,6 +320,7 @@ public class SubstanceSourceMaterialImpl extends DomainResourceImpl implements S
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSourceMaterialState(CodeableConcept newSourceMaterialState) {
 		if (newSourceMaterialState != sourceMaterialState) {
 			NotificationChain msgs = null;
@@ -334,6 +340,7 @@ public class SubstanceSourceMaterialImpl extends DomainResourceImpl implements S
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Identifier getOrganismId() {
 		return organismId;
 	}
@@ -358,6 +365,7 @@ public class SubstanceSourceMaterialImpl extends DomainResourceImpl implements S
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOrganismId(Identifier newOrganismId) {
 		if (newOrganismId != organismId) {
 			NotificationChain msgs = null;
@@ -377,6 +385,7 @@ public class SubstanceSourceMaterialImpl extends DomainResourceImpl implements S
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getOrganismName() {
 		return organismName;
 	}
@@ -401,6 +410,7 @@ public class SubstanceSourceMaterialImpl extends DomainResourceImpl implements S
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOrganismName(org.hl7.fhir.String newOrganismName) {
 		if (newOrganismName != organismName) {
 			NotificationChain msgs = null;
@@ -420,6 +430,7 @@ public class SubstanceSourceMaterialImpl extends DomainResourceImpl implements S
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getParentSubstanceId() {
 		if (parentSubstanceId == null) {
 			parentSubstanceId = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.SUBSTANCE_SOURCE_MATERIAL__PARENT_SUBSTANCE_ID);
@@ -432,6 +443,7 @@ public class SubstanceSourceMaterialImpl extends DomainResourceImpl implements S
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<org.hl7.fhir.String> getParentSubstanceName() {
 		if (parentSubstanceName == null) {
 			parentSubstanceName = new EObjectContainmentEList<org.hl7.fhir.String>(org.hl7.fhir.String.class, this, FhirPackage.SUBSTANCE_SOURCE_MATERIAL__PARENT_SUBSTANCE_NAME);
@@ -444,6 +456,7 @@ public class SubstanceSourceMaterialImpl extends DomainResourceImpl implements S
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCountryOfOrigin() {
 		if (countryOfOrigin == null) {
 			countryOfOrigin = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.SUBSTANCE_SOURCE_MATERIAL__COUNTRY_OF_ORIGIN);
@@ -456,6 +469,7 @@ public class SubstanceSourceMaterialImpl extends DomainResourceImpl implements S
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<org.hl7.fhir.String> getGeographicalLocation() {
 		if (geographicalLocation == null) {
 			geographicalLocation = new EObjectContainmentEList<org.hl7.fhir.String>(org.hl7.fhir.String.class, this, FhirPackage.SUBSTANCE_SOURCE_MATERIAL__GEOGRAPHICAL_LOCATION);
@@ -468,6 +482,7 @@ public class SubstanceSourceMaterialImpl extends DomainResourceImpl implements S
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getDevelopmentStage() {
 		return developmentStage;
 	}
@@ -492,6 +507,7 @@ public class SubstanceSourceMaterialImpl extends DomainResourceImpl implements S
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDevelopmentStage(CodeableConcept newDevelopmentStage) {
 		if (newDevelopmentStage != developmentStage) {
 			NotificationChain msgs = null;
@@ -511,6 +527,7 @@ public class SubstanceSourceMaterialImpl extends DomainResourceImpl implements S
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SubstanceSourceMaterialFractionDescription> getFractionDescription() {
 		if (fractionDescription == null) {
 			fractionDescription = new EObjectContainmentEList<SubstanceSourceMaterialFractionDescription>(SubstanceSourceMaterialFractionDescription.class, this, FhirPackage.SUBSTANCE_SOURCE_MATERIAL__FRACTION_DESCRIPTION);
@@ -523,6 +540,7 @@ public class SubstanceSourceMaterialImpl extends DomainResourceImpl implements S
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SubstanceSourceMaterialOrganism getOrganism() {
 		return organism;
 	}
@@ -547,6 +565,7 @@ public class SubstanceSourceMaterialImpl extends DomainResourceImpl implements S
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOrganism(SubstanceSourceMaterialOrganism newOrganism) {
 		if (newOrganism != organism) {
 			NotificationChain msgs = null;
@@ -566,6 +585,7 @@ public class SubstanceSourceMaterialImpl extends DomainResourceImpl implements S
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SubstanceSourceMaterialPartDescription> getPartDescription() {
 		if (partDescription == null) {
 			partDescription = new EObjectContainmentEList<SubstanceSourceMaterialPartDescription>(SubstanceSourceMaterialPartDescription.class, this, FhirPackage.SUBSTANCE_SOURCE_MATERIAL__PART_DESCRIPTION);

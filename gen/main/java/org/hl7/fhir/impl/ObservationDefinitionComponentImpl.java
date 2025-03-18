@@ -105,6 +105,7 @@ public class ObservationDefinitionComponentImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -129,6 +130,7 @@ public class ObservationDefinitionComponentImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -148,6 +150,7 @@ public class ObservationDefinitionComponentImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ObservationDataType> getPermittedDataType() {
 		if (permittedDataType == null) {
 			permittedDataType = new EObjectContainmentEList<ObservationDataType>(ObservationDataType.class, this, FhirPackage.OBSERVATION_DEFINITION_COMPONENT__PERMITTED_DATA_TYPE);
@@ -160,6 +163,7 @@ public class ObservationDefinitionComponentImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Coding> getPermittedUnit() {
 		if (permittedUnit == null) {
 			permittedUnit = new EObjectContainmentEList<Coding>(Coding.class, this, FhirPackage.OBSERVATION_DEFINITION_COMPONENT__PERMITTED_UNIT);
@@ -172,6 +176,7 @@ public class ObservationDefinitionComponentImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ObservationDefinitionQualifiedValue> getQualifiedValue() {
 		if (qualifiedValue == null) {
 			qualifiedValue = new EObjectContainmentEList<ObservationDefinitionQualifiedValue>(ObservationDefinitionQualifiedValue.class, this, FhirPackage.OBSERVATION_DEFINITION_COMPONENT__QUALIFIED_VALUE);

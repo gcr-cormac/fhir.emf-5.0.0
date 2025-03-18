@@ -126,6 +126,7 @@ public class OperationOutcomeIssueImpl extends BackboneElementImpl implements Op
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public IssueSeverity getSeverity() {
 		return severity;
 	}
@@ -150,6 +151,7 @@ public class OperationOutcomeIssueImpl extends BackboneElementImpl implements Op
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSeverity(IssueSeverity newSeverity) {
 		if (newSeverity != severity) {
 			NotificationChain msgs = null;
@@ -169,6 +171,7 @@ public class OperationOutcomeIssueImpl extends BackboneElementImpl implements Op
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public IssueType getCode() {
 		return code;
 	}
@@ -193,6 +196,7 @@ public class OperationOutcomeIssueImpl extends BackboneElementImpl implements Op
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(IssueType newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -212,6 +216,7 @@ public class OperationOutcomeIssueImpl extends BackboneElementImpl implements Op
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getDetails() {
 		return details;
 	}
@@ -236,6 +241,7 @@ public class OperationOutcomeIssueImpl extends BackboneElementImpl implements Op
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDetails(CodeableConcept newDetails) {
 		if (newDetails != details) {
 			NotificationChain msgs = null;
@@ -255,6 +261,7 @@ public class OperationOutcomeIssueImpl extends BackboneElementImpl implements Op
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDiagnostics() {
 		return diagnostics;
 	}
@@ -279,6 +286,7 @@ public class OperationOutcomeIssueImpl extends BackboneElementImpl implements Op
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDiagnostics(org.hl7.fhir.String newDiagnostics) {
 		if (newDiagnostics != diagnostics) {
 			NotificationChain msgs = null;
@@ -298,6 +306,7 @@ public class OperationOutcomeIssueImpl extends BackboneElementImpl implements Op
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<org.hl7.fhir.String> getLocation() {
 		if (location == null) {
 			location = new EObjectContainmentEList<org.hl7.fhir.String>(org.hl7.fhir.String.class, this, FhirPackage.OPERATION_OUTCOME_ISSUE__LOCATION);
@@ -310,6 +319,7 @@ public class OperationOutcomeIssueImpl extends BackboneElementImpl implements Op
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<org.hl7.fhir.String> getExpression() {
 		if (expression == null) {
 			expression = new EObjectContainmentEList<org.hl7.fhir.String>(org.hl7.fhir.String.class, this, FhirPackage.OPERATION_OUTCOME_ISSUE__EXPRESSION);

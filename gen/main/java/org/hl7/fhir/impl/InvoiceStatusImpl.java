@@ -79,6 +79,7 @@ public class InvoiceStatusImpl extends ElementImpl implements InvoiceStatus {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public InvoiceStatusEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class InvoiceStatusImpl extends ElementImpl implements InvoiceStatus {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(InvoiceStatusEnum newValue) {
 		InvoiceStatusEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class InvoiceStatusImpl extends ElementImpl implements InvoiceStatus {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		InvoiceStatusEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class InvoiceStatusImpl extends ElementImpl implements InvoiceStatus {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

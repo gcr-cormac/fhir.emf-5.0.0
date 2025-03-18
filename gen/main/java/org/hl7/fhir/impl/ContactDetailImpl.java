@@ -80,6 +80,7 @@ public class ContactDetailImpl extends DataTypeImpl implements ContactDetail {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -104,6 +105,7 @@ public class ContactDetailImpl extends DataTypeImpl implements ContactDetail {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -123,6 +125,7 @@ public class ContactDetailImpl extends DataTypeImpl implements ContactDetail {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactPoint> getTelecom() {
 		if (telecom == null) {
 			telecom = new EObjectContainmentEList<ContactPoint>(ContactPoint.class, this, FhirPackage.CONTACT_DETAIL__TELECOM);

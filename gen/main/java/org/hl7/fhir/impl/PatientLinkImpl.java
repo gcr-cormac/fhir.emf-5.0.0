@@ -74,6 +74,7 @@ public class PatientLinkImpl extends BackboneElementImpl implements PatientLink 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getOther() {
 		return other;
 	}
@@ -98,6 +99,7 @@ public class PatientLinkImpl extends BackboneElementImpl implements PatientLink 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOther(Reference newOther) {
 		if (newOther != other) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class PatientLinkImpl extends BackboneElementImpl implements PatientLink 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public LinkType getType() {
 		return type;
 	}
@@ -141,6 +144,7 @@ public class PatientLinkImpl extends BackboneElementImpl implements PatientLink 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(LinkType newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;

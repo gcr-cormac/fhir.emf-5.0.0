@@ -80,6 +80,7 @@ public class TerminologyCapabilitiesFilterImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Code getCode() {
 		return code;
 	}
@@ -104,6 +105,7 @@ public class TerminologyCapabilitiesFilterImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(Code newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -123,6 +125,7 @@ public class TerminologyCapabilitiesFilterImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Code> getOp() {
 		if (op == null) {
 			op = new EObjectContainmentEList<Code>(Code.class, this, FhirPackage.TERMINOLOGY_CAPABILITIES_FILTER__OP);

@@ -114,6 +114,7 @@ public class SubstanceNucleicAcidImpl extends DomainResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getSequenceType() {
 		return sequenceType;
 	}
@@ -138,6 +139,7 @@ public class SubstanceNucleicAcidImpl extends DomainResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSequenceType(CodeableConcept newSequenceType) {
 		if (newSequenceType != sequenceType) {
 			NotificationChain msgs = null;
@@ -157,6 +159,7 @@ public class SubstanceNucleicAcidImpl extends DomainResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Integer getNumberOfSubunits() {
 		return numberOfSubunits;
 	}
@@ -181,6 +184,7 @@ public class SubstanceNucleicAcidImpl extends DomainResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNumberOfSubunits(org.hl7.fhir.Integer newNumberOfSubunits) {
 		if (newNumberOfSubunits != numberOfSubunits) {
 			NotificationChain msgs = null;
@@ -200,6 +204,7 @@ public class SubstanceNucleicAcidImpl extends DomainResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getAreaOfHybridisation() {
 		return areaOfHybridisation;
 	}
@@ -224,6 +229,7 @@ public class SubstanceNucleicAcidImpl extends DomainResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAreaOfHybridisation(org.hl7.fhir.String newAreaOfHybridisation) {
 		if (newAreaOfHybridisation != areaOfHybridisation) {
 			NotificationChain msgs = null;
@@ -243,6 +249,7 @@ public class SubstanceNucleicAcidImpl extends DomainResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getOligoNucleotideType() {
 		return oligoNucleotideType;
 	}
@@ -267,6 +274,7 @@ public class SubstanceNucleicAcidImpl extends DomainResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOligoNucleotideType(CodeableConcept newOligoNucleotideType) {
 		if (newOligoNucleotideType != oligoNucleotideType) {
 			NotificationChain msgs = null;
@@ -286,6 +294,7 @@ public class SubstanceNucleicAcidImpl extends DomainResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SubstanceNucleicAcidSubunit> getSubunit() {
 		if (subunit == null) {
 			subunit = new EObjectContainmentEList<SubstanceNucleicAcidSubunit>(SubstanceNucleicAcidSubunit.class, this, FhirPackage.SUBSTANCE_NUCLEIC_ACID__SUBUNIT);

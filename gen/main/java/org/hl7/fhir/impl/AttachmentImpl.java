@@ -200,6 +200,7 @@ public class AttachmentImpl extends DataTypeImpl implements Attachment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Code getContentType() {
 		return contentType;
 	}
@@ -224,6 +225,7 @@ public class AttachmentImpl extends DataTypeImpl implements Attachment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setContentType(Code newContentType) {
 		if (newContentType != contentType) {
 			NotificationChain msgs = null;
@@ -243,6 +245,7 @@ public class AttachmentImpl extends DataTypeImpl implements Attachment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Code getLanguage() {
 		return language;
 	}
@@ -267,6 +270,7 @@ public class AttachmentImpl extends DataTypeImpl implements Attachment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLanguage(Code newLanguage) {
 		if (newLanguage != language) {
 			NotificationChain msgs = null;
@@ -286,6 +290,7 @@ public class AttachmentImpl extends DataTypeImpl implements Attachment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Base64Binary getData() {
 		return data;
 	}
@@ -310,6 +315,7 @@ public class AttachmentImpl extends DataTypeImpl implements Attachment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setData(Base64Binary newData) {
 		if (newData != data) {
 			NotificationChain msgs = null;
@@ -329,6 +335,7 @@ public class AttachmentImpl extends DataTypeImpl implements Attachment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Url getUrl() {
 		return url;
 	}
@@ -353,6 +360,7 @@ public class AttachmentImpl extends DataTypeImpl implements Attachment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUrl(Url newUrl) {
 		if (newUrl != url) {
 			NotificationChain msgs = null;
@@ -372,6 +380,7 @@ public class AttachmentImpl extends DataTypeImpl implements Attachment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Integer64 getSize() {
 		return size;
 	}
@@ -396,6 +405,7 @@ public class AttachmentImpl extends DataTypeImpl implements Attachment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSize(Integer64 newSize) {
 		if (newSize != size) {
 			NotificationChain msgs = null;
@@ -415,6 +425,7 @@ public class AttachmentImpl extends DataTypeImpl implements Attachment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Base64Binary getHash() {
 		return hash;
 	}
@@ -439,6 +450,7 @@ public class AttachmentImpl extends DataTypeImpl implements Attachment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setHash(Base64Binary newHash) {
 		if (newHash != hash) {
 			NotificationChain msgs = null;
@@ -458,6 +470,7 @@ public class AttachmentImpl extends DataTypeImpl implements Attachment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getTitle() {
 		return title;
 	}
@@ -482,6 +495,7 @@ public class AttachmentImpl extends DataTypeImpl implements Attachment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(org.hl7.fhir.String newTitle) {
 		if (newTitle != title) {
 			NotificationChain msgs = null;
@@ -501,6 +515,7 @@ public class AttachmentImpl extends DataTypeImpl implements Attachment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getCreation() {
 		return creation;
 	}
@@ -525,6 +540,7 @@ public class AttachmentImpl extends DataTypeImpl implements Attachment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCreation(DateTime newCreation) {
 		if (newCreation != creation) {
 			NotificationChain msgs = null;
@@ -544,6 +560,7 @@ public class AttachmentImpl extends DataTypeImpl implements Attachment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PositiveInt getHeight() {
 		return height;
 	}
@@ -568,6 +585,7 @@ public class AttachmentImpl extends DataTypeImpl implements Attachment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setHeight(PositiveInt newHeight) {
 		if (newHeight != height) {
 			NotificationChain msgs = null;
@@ -587,6 +605,7 @@ public class AttachmentImpl extends DataTypeImpl implements Attachment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PositiveInt getWidth() {
 		return width;
 	}
@@ -611,6 +630,7 @@ public class AttachmentImpl extends DataTypeImpl implements Attachment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setWidth(PositiveInt newWidth) {
 		if (newWidth != width) {
 			NotificationChain msgs = null;
@@ -630,6 +650,7 @@ public class AttachmentImpl extends DataTypeImpl implements Attachment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PositiveInt getFrames() {
 		return frames;
 	}
@@ -654,6 +675,7 @@ public class AttachmentImpl extends DataTypeImpl implements Attachment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFrames(PositiveInt newFrames) {
 		if (newFrames != frames) {
 			NotificationChain msgs = null;
@@ -673,6 +695,7 @@ public class AttachmentImpl extends DataTypeImpl implements Attachment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Decimal getDuration() {
 		return duration;
 	}
@@ -697,6 +720,7 @@ public class AttachmentImpl extends DataTypeImpl implements Attachment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDuration(Decimal newDuration) {
 		if (newDuration != duration) {
 			NotificationChain msgs = null;
@@ -716,6 +740,7 @@ public class AttachmentImpl extends DataTypeImpl implements Attachment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PositiveInt getPages() {
 		return pages;
 	}
@@ -740,6 +765,7 @@ public class AttachmentImpl extends DataTypeImpl implements Attachment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPages(PositiveInt newPages) {
 		if (newPages != pages) {
 			NotificationChain msgs = null;

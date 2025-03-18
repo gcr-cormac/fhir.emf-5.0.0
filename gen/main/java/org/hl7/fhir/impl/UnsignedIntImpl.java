@@ -71,6 +71,7 @@ public class UnsignedIntImpl extends ElementImpl implements UnsignedInt {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public BigInteger getValue() {
 		return value;
 	}
@@ -80,6 +81,7 @@ public class UnsignedIntImpl extends ElementImpl implements UnsignedInt {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(BigInteger newValue) {
 		BigInteger oldValue = value;
 		value = newValue;

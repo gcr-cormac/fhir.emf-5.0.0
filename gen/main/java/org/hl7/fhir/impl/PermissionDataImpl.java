@@ -105,6 +105,7 @@ public class PermissionDataImpl extends BackboneElementImpl implements Permissio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<PermissionResource> getResource() {
 		if (resource == null) {
 			resource = new EObjectContainmentEList<PermissionResource>(PermissionResource.class, this, FhirPackage.PERMISSION_DATA__RESOURCE);
@@ -117,6 +118,7 @@ public class PermissionDataImpl extends BackboneElementImpl implements Permissio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Coding> getSecurity() {
 		if (security == null) {
 			security = new EObjectContainmentEList<Coding>(Coding.class, this, FhirPackage.PERMISSION_DATA__SECURITY);
@@ -129,6 +131,7 @@ public class PermissionDataImpl extends BackboneElementImpl implements Permissio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Period> getPeriod() {
 		if (period == null) {
 			period = new EObjectContainmentEList<Period>(Period.class, this, FhirPackage.PERMISSION_DATA__PERIOD);
@@ -141,6 +144,7 @@ public class PermissionDataImpl extends BackboneElementImpl implements Permissio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Expression getExpression() {
 		return expression;
 	}
@@ -165,6 +169,7 @@ public class PermissionDataImpl extends BackboneElementImpl implements Permissio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExpression(Expression newExpression) {
 		if (newExpression != expression) {
 			NotificationChain msgs = null;

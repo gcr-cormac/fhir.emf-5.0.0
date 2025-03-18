@@ -74,6 +74,7 @@ public class OperationDefinitionBindingImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public BindingStrength getStrength() {
 		return strength;
 	}
@@ -98,6 +99,7 @@ public class OperationDefinitionBindingImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStrength(BindingStrength newStrength) {
 		if (newStrength != strength) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class OperationDefinitionBindingImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getValueSet() {
 		return valueSet;
 	}
@@ -141,6 +144,7 @@ public class OperationDefinitionBindingImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueSet(Canonical newValueSet) {
 		if (newValueSet != valueSet) {
 			NotificationChain msgs = null;

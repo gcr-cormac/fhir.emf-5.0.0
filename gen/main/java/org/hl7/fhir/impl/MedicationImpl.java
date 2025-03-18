@@ -163,6 +163,7 @@ public class MedicationImpl extends DomainResourceImpl implements Medication {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.MEDICATION__IDENTIFIER);
@@ -175,6 +176,7 @@ public class MedicationImpl extends DomainResourceImpl implements Medication {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -199,6 +201,7 @@ public class MedicationImpl extends DomainResourceImpl implements Medication {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -218,6 +221,7 @@ public class MedicationImpl extends DomainResourceImpl implements Medication {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public MedicationStatusCodes getStatus() {
 		return status;
 	}
@@ -242,6 +246,7 @@ public class MedicationImpl extends DomainResourceImpl implements Medication {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(MedicationStatusCodes newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -261,6 +266,7 @@ public class MedicationImpl extends DomainResourceImpl implements Medication {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getMarketingAuthorizationHolder() {
 		return marketingAuthorizationHolder;
 	}
@@ -285,6 +291,7 @@ public class MedicationImpl extends DomainResourceImpl implements Medication {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMarketingAuthorizationHolder(Reference newMarketingAuthorizationHolder) {
 		if (newMarketingAuthorizationHolder != marketingAuthorizationHolder) {
 			NotificationChain msgs = null;
@@ -304,6 +311,7 @@ public class MedicationImpl extends DomainResourceImpl implements Medication {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getDoseForm() {
 		return doseForm;
 	}
@@ -328,6 +336,7 @@ public class MedicationImpl extends DomainResourceImpl implements Medication {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDoseForm(CodeableConcept newDoseForm) {
 		if (newDoseForm != doseForm) {
 			NotificationChain msgs = null;
@@ -347,6 +356,7 @@ public class MedicationImpl extends DomainResourceImpl implements Medication {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getTotalVolume() {
 		return totalVolume;
 	}
@@ -371,6 +381,7 @@ public class MedicationImpl extends DomainResourceImpl implements Medication {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTotalVolume(Quantity newTotalVolume) {
 		if (newTotalVolume != totalVolume) {
 			NotificationChain msgs = null;
@@ -390,6 +401,7 @@ public class MedicationImpl extends DomainResourceImpl implements Medication {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MedicationIngredient> getIngredient() {
 		if (ingredient == null) {
 			ingredient = new EObjectContainmentEList<MedicationIngredient>(MedicationIngredient.class, this, FhirPackage.MEDICATION__INGREDIENT);
@@ -402,6 +414,7 @@ public class MedicationImpl extends DomainResourceImpl implements Medication {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public MedicationBatch getBatch() {
 		return batch;
 	}
@@ -426,6 +439,7 @@ public class MedicationImpl extends DomainResourceImpl implements Medication {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBatch(MedicationBatch newBatch) {
 		if (newBatch != batch) {
 			NotificationChain msgs = null;
@@ -445,6 +459,7 @@ public class MedicationImpl extends DomainResourceImpl implements Medication {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getDefinition() {
 		return definition;
 	}
@@ -469,6 +484,7 @@ public class MedicationImpl extends DomainResourceImpl implements Medication {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDefinition(Reference newDefinition) {
 		if (newDefinition != definition) {
 			NotificationChain msgs = null;

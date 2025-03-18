@@ -549,6 +549,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.OBSERVATION__IDENTIFIER);
@@ -561,6 +562,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getInstantiatesCanonical() {
 		return instantiatesCanonical;
 	}
@@ -585,6 +587,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInstantiatesCanonical(Canonical newInstantiatesCanonical) {
 		if (newInstantiatesCanonical != instantiatesCanonical) {
 			NotificationChain msgs = null;
@@ -604,6 +607,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getInstantiatesReference() {
 		return instantiatesReference;
 	}
@@ -628,6 +632,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInstantiatesReference(Reference newInstantiatesReference) {
 		if (newInstantiatesReference != instantiatesReference) {
 			NotificationChain msgs = null;
@@ -647,6 +652,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getBasedOn() {
 		if (basedOn == null) {
 			basedOn = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.OBSERVATION__BASED_ON);
@@ -659,6 +665,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ObservationTriggeredBy> getTriggeredBy() {
 		if (triggeredBy == null) {
 			triggeredBy = new EObjectContainmentEList<ObservationTriggeredBy>(ObservationTriggeredBy.class, this, FhirPackage.OBSERVATION__TRIGGERED_BY);
@@ -671,6 +678,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getPartOf() {
 		if (partOf == null) {
 			partOf = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.OBSERVATION__PART_OF);
@@ -683,6 +691,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ObservationStatus getStatus() {
 		return status;
 	}
@@ -707,6 +716,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(ObservationStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -726,6 +736,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCategory() {
 		if (category == null) {
 			category = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.OBSERVATION__CATEGORY);
@@ -738,6 +749,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -762,6 +774,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -781,6 +794,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubject() {
 		return subject;
 	}
@@ -805,6 +819,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubject(Reference newSubject) {
 		if (newSubject != subject) {
 			NotificationChain msgs = null;
@@ -824,6 +839,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getFocus() {
 		if (focus == null) {
 			focus = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.OBSERVATION__FOCUS);
@@ -836,6 +852,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getEncounter() {
 		return encounter;
 	}
@@ -860,6 +877,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEncounter(Reference newEncounter) {
 		if (newEncounter != encounter) {
 			NotificationChain msgs = null;
@@ -879,6 +897,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getEffectiveDateTime() {
 		return effectiveDateTime;
 	}
@@ -903,6 +922,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEffectiveDateTime(DateTime newEffectiveDateTime) {
 		if (newEffectiveDateTime != effectiveDateTime) {
 			NotificationChain msgs = null;
@@ -922,6 +942,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getEffectivePeriod() {
 		return effectivePeriod;
 	}
@@ -946,6 +967,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEffectivePeriod(Period newEffectivePeriod) {
 		if (newEffectivePeriod != effectivePeriod) {
 			NotificationChain msgs = null;
@@ -965,6 +987,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Timing getEffectiveTiming() {
 		return effectiveTiming;
 	}
@@ -989,6 +1012,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEffectiveTiming(Timing newEffectiveTiming) {
 		if (newEffectiveTiming != effectiveTiming) {
 			NotificationChain msgs = null;
@@ -1008,6 +1032,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Instant getEffectiveInstant() {
 		return effectiveInstant;
 	}
@@ -1032,6 +1057,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEffectiveInstant(Instant newEffectiveInstant) {
 		if (newEffectiveInstant != effectiveInstant) {
 			NotificationChain msgs = null;
@@ -1051,6 +1077,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Instant getIssued() {
 		return issued;
 	}
@@ -1075,6 +1102,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIssued(Instant newIssued) {
 		if (newIssued != issued) {
 			NotificationChain msgs = null;
@@ -1094,6 +1122,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getPerformer() {
 		if (performer == null) {
 			performer = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.OBSERVATION__PERFORMER);
@@ -1106,6 +1135,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getValueQuantity() {
 		return valueQuantity;
 	}
@@ -1130,6 +1160,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueQuantity(Quantity newValueQuantity) {
 		if (newValueQuantity != valueQuantity) {
 			NotificationChain msgs = null;
@@ -1149,6 +1180,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getValueCodeableConcept() {
 		return valueCodeableConcept;
 	}
@@ -1173,6 +1205,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueCodeableConcept(CodeableConcept newValueCodeableConcept) {
 		if (newValueCodeableConcept != valueCodeableConcept) {
 			NotificationChain msgs = null;
@@ -1192,6 +1225,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getValueString() {
 		return valueString;
 	}
@@ -1216,6 +1250,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueString(org.hl7.fhir.String newValueString) {
 		if (newValueString != valueString) {
 			NotificationChain msgs = null;
@@ -1235,6 +1270,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getValueBoolean() {
 		return valueBoolean;
 	}
@@ -1259,6 +1295,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueBoolean(org.hl7.fhir.Boolean newValueBoolean) {
 		if (newValueBoolean != valueBoolean) {
 			NotificationChain msgs = null;
@@ -1278,6 +1315,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Integer getValueInteger() {
 		return valueInteger;
 	}
@@ -1302,6 +1340,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueInteger(org.hl7.fhir.Integer newValueInteger) {
 		if (newValueInteger != valueInteger) {
 			NotificationChain msgs = null;
@@ -1321,6 +1360,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Range getValueRange() {
 		return valueRange;
 	}
@@ -1345,6 +1385,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueRange(Range newValueRange) {
 		if (newValueRange != valueRange) {
 			NotificationChain msgs = null;
@@ -1364,6 +1405,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Ratio getValueRatio() {
 		return valueRatio;
 	}
@@ -1388,6 +1430,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueRatio(Ratio newValueRatio) {
 		if (newValueRatio != valueRatio) {
 			NotificationChain msgs = null;
@@ -1407,6 +1450,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SampledData getValueSampledData() {
 		return valueSampledData;
 	}
@@ -1431,6 +1475,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueSampledData(SampledData newValueSampledData) {
 		if (newValueSampledData != valueSampledData) {
 			NotificationChain msgs = null;
@@ -1450,6 +1495,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Time getValueTime() {
 		return valueTime;
 	}
@@ -1474,6 +1520,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueTime(Time newValueTime) {
 		if (newValueTime != valueTime) {
 			NotificationChain msgs = null;
@@ -1493,6 +1540,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getValueDateTime() {
 		return valueDateTime;
 	}
@@ -1517,6 +1565,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueDateTime(DateTime newValueDateTime) {
 		if (newValueDateTime != valueDateTime) {
 			NotificationChain msgs = null;
@@ -1536,6 +1585,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getValuePeriod() {
 		return valuePeriod;
 	}
@@ -1560,6 +1610,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValuePeriod(Period newValuePeriod) {
 		if (newValuePeriod != valuePeriod) {
 			NotificationChain msgs = null;
@@ -1579,6 +1630,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Attachment getValueAttachment() {
 		return valueAttachment;
 	}
@@ -1603,6 +1655,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueAttachment(Attachment newValueAttachment) {
 		if (newValueAttachment != valueAttachment) {
 			NotificationChain msgs = null;
@@ -1622,6 +1675,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getValueReference() {
 		return valueReference;
 	}
@@ -1646,6 +1700,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueReference(Reference newValueReference) {
 		if (newValueReference != valueReference) {
 			NotificationChain msgs = null;
@@ -1665,6 +1720,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getDataAbsentReason() {
 		return dataAbsentReason;
 	}
@@ -1689,6 +1745,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDataAbsentReason(CodeableConcept newDataAbsentReason) {
 		if (newDataAbsentReason != dataAbsentReason) {
 			NotificationChain msgs = null;
@@ -1708,6 +1765,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getInterpretation() {
 		if (interpretation == null) {
 			interpretation = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.OBSERVATION__INTERPRETATION);
@@ -1720,6 +1778,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.OBSERVATION__NOTE);
@@ -1732,6 +1791,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getBodySite() {
 		return bodySite;
 	}
@@ -1756,6 +1816,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBodySite(CodeableConcept newBodySite) {
 		if (newBodySite != bodySite) {
 			NotificationChain msgs = null;
@@ -1775,6 +1836,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getBodyStructure() {
 		return bodyStructure;
 	}
@@ -1799,6 +1861,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBodyStructure(Reference newBodyStructure) {
 		if (newBodyStructure != bodyStructure) {
 			NotificationChain msgs = null;
@@ -1818,6 +1881,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getMethod() {
 		return method;
 	}
@@ -1842,6 +1906,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMethod(CodeableConcept newMethod) {
 		if (newMethod != method) {
 			NotificationChain msgs = null;
@@ -1861,6 +1926,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSpecimen() {
 		return specimen;
 	}
@@ -1885,6 +1951,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSpecimen(Reference newSpecimen) {
 		if (newSpecimen != specimen) {
 			NotificationChain msgs = null;
@@ -1904,6 +1971,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getDevice() {
 		return device;
 	}
@@ -1928,6 +1996,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDevice(Reference newDevice) {
 		if (newDevice != device) {
 			NotificationChain msgs = null;
@@ -1947,6 +2016,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ObservationReferenceRange> getReferenceRange() {
 		if (referenceRange == null) {
 			referenceRange = new EObjectContainmentEList<ObservationReferenceRange>(ObservationReferenceRange.class, this, FhirPackage.OBSERVATION__REFERENCE_RANGE);
@@ -1959,6 +2029,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getHasMember() {
 		if (hasMember == null) {
 			hasMember = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.OBSERVATION__HAS_MEMBER);
@@ -1971,6 +2042,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getDerivedFrom() {
 		if (derivedFrom == null) {
 			derivedFrom = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.OBSERVATION__DERIVED_FROM);
@@ -1983,6 +2055,7 @@ public class ObservationImpl extends DomainResourceImpl implements Observation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ObservationComponent> getComponent() {
 		if (component == null) {
 			component = new EObjectContainmentEList<ObservationComponent>(ObservationComponent.class, this, FhirPackage.OBSERVATION__COMPONENT);

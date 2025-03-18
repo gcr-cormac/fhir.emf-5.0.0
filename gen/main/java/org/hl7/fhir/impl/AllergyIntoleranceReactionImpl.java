@@ -139,6 +139,7 @@ public class AllergyIntoleranceReactionImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getSubstance() {
 		return substance;
 	}
@@ -163,6 +164,7 @@ public class AllergyIntoleranceReactionImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubstance(CodeableConcept newSubstance) {
 		if (newSubstance != substance) {
 			NotificationChain msgs = null;
@@ -182,6 +184,7 @@ public class AllergyIntoleranceReactionImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getManifestation() {
 		if (manifestation == null) {
 			manifestation = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.ALLERGY_INTOLERANCE_REACTION__MANIFESTATION);
@@ -194,6 +197,7 @@ public class AllergyIntoleranceReactionImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDescription() {
 		return description;
 	}
@@ -218,6 +222,7 @@ public class AllergyIntoleranceReactionImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(org.hl7.fhir.String newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -237,6 +242,7 @@ public class AllergyIntoleranceReactionImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getOnset() {
 		return onset;
 	}
@@ -261,6 +267,7 @@ public class AllergyIntoleranceReactionImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOnset(DateTime newOnset) {
 		if (newOnset != onset) {
 			NotificationChain msgs = null;
@@ -280,6 +287,7 @@ public class AllergyIntoleranceReactionImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AllergyIntoleranceSeverity getSeverity() {
 		return severity;
 	}
@@ -304,6 +312,7 @@ public class AllergyIntoleranceReactionImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSeverity(AllergyIntoleranceSeverity newSeverity) {
 		if (newSeverity != severity) {
 			NotificationChain msgs = null;
@@ -323,6 +332,7 @@ public class AllergyIntoleranceReactionImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getExposureRoute() {
 		return exposureRoute;
 	}
@@ -347,6 +357,7 @@ public class AllergyIntoleranceReactionImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExposureRoute(CodeableConcept newExposureRoute) {
 		if (newExposureRoute != exposureRoute) {
 			NotificationChain msgs = null;
@@ -366,6 +377,7 @@ public class AllergyIntoleranceReactionImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.ALLERGY_INTOLERANCE_REACTION__NOTE);

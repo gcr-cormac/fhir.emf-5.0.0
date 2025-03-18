@@ -97,6 +97,7 @@ public class DeviceVersionImpl extends BackboneElementImpl implements DeviceVers
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -121,6 +122,7 @@ public class DeviceVersionImpl extends BackboneElementImpl implements DeviceVers
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -140,6 +142,7 @@ public class DeviceVersionImpl extends BackboneElementImpl implements DeviceVers
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Identifier getComponent() {
 		return component;
 	}
@@ -164,6 +167,7 @@ public class DeviceVersionImpl extends BackboneElementImpl implements DeviceVers
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setComponent(Identifier newComponent) {
 		if (newComponent != component) {
 			NotificationChain msgs = null;
@@ -183,6 +187,7 @@ public class DeviceVersionImpl extends BackboneElementImpl implements DeviceVers
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getInstallDate() {
 		return installDate;
 	}
@@ -207,6 +212,7 @@ public class DeviceVersionImpl extends BackboneElementImpl implements DeviceVers
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInstallDate(DateTime newInstallDate) {
 		if (newInstallDate != installDate) {
 			NotificationChain msgs = null;
@@ -226,6 +232,7 @@ public class DeviceVersionImpl extends BackboneElementImpl implements DeviceVers
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getValue() {
 		return value;
 	}
@@ -250,6 +257,7 @@ public class DeviceVersionImpl extends BackboneElementImpl implements DeviceVers
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(org.hl7.fhir.String newValue) {
 		if (newValue != value) {
 			NotificationChain msgs = null;

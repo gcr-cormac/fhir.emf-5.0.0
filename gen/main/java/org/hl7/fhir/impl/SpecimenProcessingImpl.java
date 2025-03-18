@@ -116,6 +116,7 @@ public class SpecimenProcessingImpl extends BackboneElementImpl implements Speci
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDescription() {
 		return description;
 	}
@@ -140,6 +141,7 @@ public class SpecimenProcessingImpl extends BackboneElementImpl implements Speci
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(org.hl7.fhir.String newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -159,6 +161,7 @@ public class SpecimenProcessingImpl extends BackboneElementImpl implements Speci
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getMethod() {
 		return method;
 	}
@@ -183,6 +186,7 @@ public class SpecimenProcessingImpl extends BackboneElementImpl implements Speci
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMethod(CodeableConcept newMethod) {
 		if (newMethod != method) {
 			NotificationChain msgs = null;
@@ -202,6 +206,7 @@ public class SpecimenProcessingImpl extends BackboneElementImpl implements Speci
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getAdditive() {
 		if (additive == null) {
 			additive = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.SPECIMEN_PROCESSING__ADDITIVE);
@@ -214,6 +219,7 @@ public class SpecimenProcessingImpl extends BackboneElementImpl implements Speci
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getTimeDateTime() {
 		return timeDateTime;
 	}
@@ -238,6 +244,7 @@ public class SpecimenProcessingImpl extends BackboneElementImpl implements Speci
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTimeDateTime(DateTime newTimeDateTime) {
 		if (newTimeDateTime != timeDateTime) {
 			NotificationChain msgs = null;
@@ -257,6 +264,7 @@ public class SpecimenProcessingImpl extends BackboneElementImpl implements Speci
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getTimePeriod() {
 		return timePeriod;
 	}
@@ -281,6 +289,7 @@ public class SpecimenProcessingImpl extends BackboneElementImpl implements Speci
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTimePeriod(Period newTimePeriod) {
 		if (newTimePeriod != timePeriod) {
 			NotificationChain msgs = null;

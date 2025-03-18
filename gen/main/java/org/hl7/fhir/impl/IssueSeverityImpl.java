@@ -79,6 +79,7 @@ public class IssueSeverityImpl extends ElementImpl implements IssueSeverity {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public IssueSeverityEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class IssueSeverityImpl extends ElementImpl implements IssueSeverity {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(IssueSeverityEnum newValue) {
 		IssueSeverityEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class IssueSeverityImpl extends ElementImpl implements IssueSeverity {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		IssueSeverityEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class IssueSeverityImpl extends ElementImpl implements IssueSeverity {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

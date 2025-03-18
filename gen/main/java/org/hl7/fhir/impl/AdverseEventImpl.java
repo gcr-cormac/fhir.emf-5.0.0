@@ -358,6 +358,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.ADVERSE_EVENT__IDENTIFIER);
@@ -370,6 +371,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AdverseEventStatus getStatus() {
 		return status;
 	}
@@ -394,6 +396,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(AdverseEventStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -413,6 +416,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AdverseEventActuality getActuality() {
 		return actuality;
 	}
@@ -437,6 +441,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setActuality(AdverseEventActuality newActuality) {
 		if (newActuality != actuality) {
 			NotificationChain msgs = null;
@@ -456,6 +461,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCategory() {
 		if (category == null) {
 			category = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.ADVERSE_EVENT__CATEGORY);
@@ -468,6 +474,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -492,6 +499,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -511,6 +519,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubject() {
 		return subject;
 	}
@@ -535,6 +544,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubject(Reference newSubject) {
 		if (newSubject != subject) {
 			NotificationChain msgs = null;
@@ -554,6 +564,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getEncounter() {
 		return encounter;
 	}
@@ -578,6 +589,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEncounter(Reference newEncounter) {
 		if (newEncounter != encounter) {
 			NotificationChain msgs = null;
@@ -597,6 +609,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getOccurrenceDateTime() {
 		return occurrenceDateTime;
 	}
@@ -621,6 +634,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOccurrenceDateTime(DateTime newOccurrenceDateTime) {
 		if (newOccurrenceDateTime != occurrenceDateTime) {
 			NotificationChain msgs = null;
@@ -640,6 +654,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getOccurrencePeriod() {
 		return occurrencePeriod;
 	}
@@ -664,6 +679,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOccurrencePeriod(Period newOccurrencePeriod) {
 		if (newOccurrencePeriod != occurrencePeriod) {
 			NotificationChain msgs = null;
@@ -683,6 +699,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Timing getOccurrenceTiming() {
 		return occurrenceTiming;
 	}
@@ -707,6 +724,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOccurrenceTiming(Timing newOccurrenceTiming) {
 		if (newOccurrenceTiming != occurrenceTiming) {
 			NotificationChain msgs = null;
@@ -726,6 +744,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getDetected() {
 		return detected;
 	}
@@ -750,6 +769,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDetected(DateTime newDetected) {
 		if (newDetected != detected) {
 			NotificationChain msgs = null;
@@ -769,6 +789,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getRecordedDate() {
 		return recordedDate;
 	}
@@ -793,6 +814,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRecordedDate(DateTime newRecordedDate) {
 		if (newRecordedDate != recordedDate) {
 			NotificationChain msgs = null;
@@ -812,6 +834,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getResultingEffect() {
 		if (resultingEffect == null) {
 			resultingEffect = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.ADVERSE_EVENT__RESULTING_EFFECT);
@@ -824,6 +847,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getLocation() {
 		return location;
 	}
@@ -848,6 +872,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLocation(Reference newLocation) {
 		if (newLocation != location) {
 			NotificationChain msgs = null;
@@ -867,6 +892,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getSeriousness() {
 		return seriousness;
 	}
@@ -891,6 +917,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSeriousness(CodeableConcept newSeriousness) {
 		if (newSeriousness != seriousness) {
 			NotificationChain msgs = null;
@@ -910,6 +937,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getOutcome() {
 		if (outcome == null) {
 			outcome = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.ADVERSE_EVENT__OUTCOME);
@@ -922,6 +950,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getRecorder() {
 		return recorder;
 	}
@@ -946,6 +975,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRecorder(Reference newRecorder) {
 		if (newRecorder != recorder) {
 			NotificationChain msgs = null;
@@ -965,6 +995,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<AdverseEventParticipant> getParticipant() {
 		if (participant == null) {
 			participant = new EObjectContainmentEList<AdverseEventParticipant>(AdverseEventParticipant.class, this, FhirPackage.ADVERSE_EVENT__PARTICIPANT);
@@ -977,6 +1008,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getStudy() {
 		if (study == null) {
 			study = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.ADVERSE_EVENT__STUDY);
@@ -989,6 +1021,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getExpectedInResearchStudy() {
 		return expectedInResearchStudy;
 	}
@@ -1013,6 +1046,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExpectedInResearchStudy(org.hl7.fhir.Boolean newExpectedInResearchStudy) {
 		if (newExpectedInResearchStudy != expectedInResearchStudy) {
 			NotificationChain msgs = null;
@@ -1032,6 +1066,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<AdverseEventSuspectEntity> getSuspectEntity() {
 		if (suspectEntity == null) {
 			suspectEntity = new EObjectContainmentEList<AdverseEventSuspectEntity>(AdverseEventSuspectEntity.class, this, FhirPackage.ADVERSE_EVENT__SUSPECT_ENTITY);
@@ -1044,6 +1079,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<AdverseEventContributingFactor> getContributingFactor() {
 		if (contributingFactor == null) {
 			contributingFactor = new EObjectContainmentEList<AdverseEventContributingFactor>(AdverseEventContributingFactor.class, this, FhirPackage.ADVERSE_EVENT__CONTRIBUTING_FACTOR);
@@ -1056,6 +1092,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<AdverseEventPreventiveAction> getPreventiveAction() {
 		if (preventiveAction == null) {
 			preventiveAction = new EObjectContainmentEList<AdverseEventPreventiveAction>(AdverseEventPreventiveAction.class, this, FhirPackage.ADVERSE_EVENT__PREVENTIVE_ACTION);
@@ -1068,6 +1105,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<AdverseEventMitigatingAction> getMitigatingAction() {
 		if (mitigatingAction == null) {
 			mitigatingAction = new EObjectContainmentEList<AdverseEventMitigatingAction>(AdverseEventMitigatingAction.class, this, FhirPackage.ADVERSE_EVENT__MITIGATING_ACTION);
@@ -1080,6 +1118,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<AdverseEventSupportingInfo> getSupportingInfo() {
 		if (supportingInfo == null) {
 			supportingInfo = new EObjectContainmentEList<AdverseEventSupportingInfo>(AdverseEventSupportingInfo.class, this, FhirPackage.ADVERSE_EVENT__SUPPORTING_INFO);
@@ -1092,6 +1131,7 @@ public class AdverseEventImpl extends DomainResourceImpl implements AdverseEvent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.ADVERSE_EVENT__NOTE);

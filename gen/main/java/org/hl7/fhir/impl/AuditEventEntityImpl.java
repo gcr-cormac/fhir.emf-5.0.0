@@ -128,6 +128,7 @@ public class AuditEventEntityImpl extends BackboneElementImpl implements AuditEv
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getWhat() {
 		return what;
 	}
@@ -152,6 +153,7 @@ public class AuditEventEntityImpl extends BackboneElementImpl implements AuditEv
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setWhat(Reference newWhat) {
 		if (newWhat != what) {
 			NotificationChain msgs = null;
@@ -171,6 +173,7 @@ public class AuditEventEntityImpl extends BackboneElementImpl implements AuditEv
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getRole() {
 		return role;
 	}
@@ -195,6 +198,7 @@ public class AuditEventEntityImpl extends BackboneElementImpl implements AuditEv
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRole(CodeableConcept newRole) {
 		if (newRole != role) {
 			NotificationChain msgs = null;
@@ -214,6 +218,7 @@ public class AuditEventEntityImpl extends BackboneElementImpl implements AuditEv
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getSecurityLabel() {
 		if (securityLabel == null) {
 			securityLabel = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.AUDIT_EVENT_ENTITY__SECURITY_LABEL);
@@ -226,6 +231,7 @@ public class AuditEventEntityImpl extends BackboneElementImpl implements AuditEv
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Base64Binary getQuery() {
 		return query;
 	}
@@ -250,6 +256,7 @@ public class AuditEventEntityImpl extends BackboneElementImpl implements AuditEv
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setQuery(Base64Binary newQuery) {
 		if (newQuery != query) {
 			NotificationChain msgs = null;
@@ -269,6 +276,7 @@ public class AuditEventEntityImpl extends BackboneElementImpl implements AuditEv
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<AuditEventDetail> getDetail() {
 		if (detail == null) {
 			detail = new EObjectContainmentEList<AuditEventDetail>(AuditEventDetail.class, this, FhirPackage.AUDIT_EVENT_ENTITY__DETAIL);
@@ -281,6 +289,7 @@ public class AuditEventEntityImpl extends BackboneElementImpl implements AuditEv
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<AuditEventAgent> getAgent() {
 		if (agent == null) {
 			agent = new EObjectContainmentEList<AuditEventAgent>(AuditEventAgent.class, this, FhirPackage.AUDIT_EVENT_ENTITY__AGENT);

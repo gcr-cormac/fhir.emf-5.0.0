@@ -79,6 +79,7 @@ public class GraphCompartmentRuleImpl extends ElementImpl implements GraphCompar
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public GraphCompartmentRuleEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class GraphCompartmentRuleImpl extends ElementImpl implements GraphCompar
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(GraphCompartmentRuleEnum newValue) {
 		GraphCompartmentRuleEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class GraphCompartmentRuleImpl extends ElementImpl implements GraphCompar
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		GraphCompartmentRuleEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class GraphCompartmentRuleImpl extends ElementImpl implements GraphCompar
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

@@ -79,6 +79,7 @@ public class SubscriptionNotificationTypeImpl extends ElementImpl implements Sub
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SubscriptionNotificationTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class SubscriptionNotificationTypeImpl extends ElementImpl implements Sub
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(SubscriptionNotificationTypeEnum newValue) {
 		SubscriptionNotificationTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class SubscriptionNotificationTypeImpl extends ElementImpl implements Sub
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		SubscriptionNotificationTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class SubscriptionNotificationTypeImpl extends ElementImpl implements Sub
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

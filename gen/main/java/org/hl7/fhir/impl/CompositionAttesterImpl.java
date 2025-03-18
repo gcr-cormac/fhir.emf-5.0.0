@@ -86,6 +86,7 @@ public class CompositionAttesterImpl extends BackboneElementImpl implements Comp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getMode() {
 		return mode;
 	}
@@ -110,6 +111,7 @@ public class CompositionAttesterImpl extends BackboneElementImpl implements Comp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMode(CodeableConcept newMode) {
 		if (newMode != mode) {
 			NotificationChain msgs = null;
@@ -129,6 +131,7 @@ public class CompositionAttesterImpl extends BackboneElementImpl implements Comp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getTime() {
 		return time;
 	}
@@ -153,6 +156,7 @@ public class CompositionAttesterImpl extends BackboneElementImpl implements Comp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTime(DateTime newTime) {
 		if (newTime != time) {
 			NotificationChain msgs = null;
@@ -172,6 +176,7 @@ public class CompositionAttesterImpl extends BackboneElementImpl implements Comp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getParty() {
 		return party;
 	}
@@ -196,6 +201,7 @@ public class CompositionAttesterImpl extends BackboneElementImpl implements Comp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setParty(Reference newParty) {
 		if (newParty != party) {
 			NotificationChain msgs = null;

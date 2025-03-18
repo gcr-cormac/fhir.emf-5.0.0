@@ -119,6 +119,7 @@ public class EncounterAdmissionImpl extends BackboneElementImpl implements Encou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Identifier getPreAdmissionIdentifier() {
 		return preAdmissionIdentifier;
 	}
@@ -143,6 +144,7 @@ public class EncounterAdmissionImpl extends BackboneElementImpl implements Encou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPreAdmissionIdentifier(Identifier newPreAdmissionIdentifier) {
 		if (newPreAdmissionIdentifier != preAdmissionIdentifier) {
 			NotificationChain msgs = null;
@@ -162,6 +164,7 @@ public class EncounterAdmissionImpl extends BackboneElementImpl implements Encou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getOrigin() {
 		return origin;
 	}
@@ -186,6 +189,7 @@ public class EncounterAdmissionImpl extends BackboneElementImpl implements Encou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOrigin(Reference newOrigin) {
 		if (newOrigin != origin) {
 			NotificationChain msgs = null;
@@ -205,6 +209,7 @@ public class EncounterAdmissionImpl extends BackboneElementImpl implements Encou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getAdmitSource() {
 		return admitSource;
 	}
@@ -229,6 +234,7 @@ public class EncounterAdmissionImpl extends BackboneElementImpl implements Encou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAdmitSource(CodeableConcept newAdmitSource) {
 		if (newAdmitSource != admitSource) {
 			NotificationChain msgs = null;
@@ -248,6 +254,7 @@ public class EncounterAdmissionImpl extends BackboneElementImpl implements Encou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getReAdmission() {
 		return reAdmission;
 	}
@@ -272,6 +279,7 @@ public class EncounterAdmissionImpl extends BackboneElementImpl implements Encou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReAdmission(CodeableConcept newReAdmission) {
 		if (newReAdmission != reAdmission) {
 			NotificationChain msgs = null;
@@ -291,6 +299,7 @@ public class EncounterAdmissionImpl extends BackboneElementImpl implements Encou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getDestination() {
 		return destination;
 	}
@@ -315,6 +324,7 @@ public class EncounterAdmissionImpl extends BackboneElementImpl implements Encou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDestination(Reference newDestination) {
 		if (newDestination != destination) {
 			NotificationChain msgs = null;
@@ -334,6 +344,7 @@ public class EncounterAdmissionImpl extends BackboneElementImpl implements Encou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getDischargeDisposition() {
 		return dischargeDisposition;
 	}
@@ -358,6 +369,7 @@ public class EncounterAdmissionImpl extends BackboneElementImpl implements Encou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDischargeDisposition(CodeableConcept newDischargeDisposition) {
 		if (newDischargeDisposition != dischargeDisposition) {
 			NotificationChain msgs = null;

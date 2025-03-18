@@ -61,6 +61,7 @@ public class TerminologyCapabilitiesClosureImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getTranslation() {
 		return translation;
 	}
@@ -85,6 +86,7 @@ public class TerminologyCapabilitiesClosureImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTranslation(org.hl7.fhir.Boolean newTranslation) {
 		if (newTranslation != translation) {
 			NotificationChain msgs = null;

@@ -74,6 +74,7 @@ public class EpisodeOfCareStatusHistoryImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EpisodeOfCareStatus getStatus() {
 		return status;
 	}
@@ -98,6 +99,7 @@ public class EpisodeOfCareStatusHistoryImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(EpisodeOfCareStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class EpisodeOfCareStatusHistoryImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getPeriod() {
 		return period;
 	}
@@ -141,6 +144,7 @@ public class EpisodeOfCareStatusHistoryImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriod(Period newPeriod) {
 		if (newPeriod != period) {
 			NotificationChain msgs = null;

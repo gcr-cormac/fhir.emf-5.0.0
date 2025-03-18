@@ -214,6 +214,7 @@ public class InventoryItemCharacteristicImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCharacteristicType() {
 		return characteristicType;
 	}
@@ -238,6 +239,7 @@ public class InventoryItemCharacteristicImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCharacteristicType(CodeableConcept newCharacteristicType) {
 		if (newCharacteristicType != characteristicType) {
 			NotificationChain msgs = null;
@@ -257,6 +259,7 @@ public class InventoryItemCharacteristicImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getValueString() {
 		return valueString;
 	}
@@ -281,6 +284,7 @@ public class InventoryItemCharacteristicImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueString(org.hl7.fhir.String newValueString) {
 		if (newValueString != valueString) {
 			NotificationChain msgs = null;
@@ -300,6 +304,7 @@ public class InventoryItemCharacteristicImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Integer getValueInteger() {
 		return valueInteger;
 	}
@@ -324,6 +329,7 @@ public class InventoryItemCharacteristicImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueInteger(org.hl7.fhir.Integer newValueInteger) {
 		if (newValueInteger != valueInteger) {
 			NotificationChain msgs = null;
@@ -343,6 +349,7 @@ public class InventoryItemCharacteristicImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Decimal getValueDecimal() {
 		return valueDecimal;
 	}
@@ -367,6 +374,7 @@ public class InventoryItemCharacteristicImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueDecimal(Decimal newValueDecimal) {
 		if (newValueDecimal != valueDecimal) {
 			NotificationChain msgs = null;
@@ -386,6 +394,7 @@ public class InventoryItemCharacteristicImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getValueBoolean() {
 		return valueBoolean;
 	}
@@ -410,6 +419,7 @@ public class InventoryItemCharacteristicImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueBoolean(org.hl7.fhir.Boolean newValueBoolean) {
 		if (newValueBoolean != valueBoolean) {
 			NotificationChain msgs = null;
@@ -429,6 +439,7 @@ public class InventoryItemCharacteristicImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Url getValueUrl() {
 		return valueUrl;
 	}
@@ -453,6 +464,7 @@ public class InventoryItemCharacteristicImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueUrl(Url newValueUrl) {
 		if (newValueUrl != valueUrl) {
 			NotificationChain msgs = null;
@@ -472,6 +484,7 @@ public class InventoryItemCharacteristicImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getValueDateTime() {
 		return valueDateTime;
 	}
@@ -496,6 +509,7 @@ public class InventoryItemCharacteristicImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueDateTime(DateTime newValueDateTime) {
 		if (newValueDateTime != valueDateTime) {
 			NotificationChain msgs = null;
@@ -515,6 +529,7 @@ public class InventoryItemCharacteristicImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getValueQuantity() {
 		return valueQuantity;
 	}
@@ -539,6 +554,7 @@ public class InventoryItemCharacteristicImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueQuantity(Quantity newValueQuantity) {
 		if (newValueQuantity != valueQuantity) {
 			NotificationChain msgs = null;
@@ -558,6 +574,7 @@ public class InventoryItemCharacteristicImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Range getValueRange() {
 		return valueRange;
 	}
@@ -582,6 +599,7 @@ public class InventoryItemCharacteristicImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueRange(Range newValueRange) {
 		if (newValueRange != valueRange) {
 			NotificationChain msgs = null;
@@ -601,6 +619,7 @@ public class InventoryItemCharacteristicImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Ratio getValueRatio() {
 		return valueRatio;
 	}
@@ -625,6 +644,7 @@ public class InventoryItemCharacteristicImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueRatio(Ratio newValueRatio) {
 		if (newValueRatio != valueRatio) {
 			NotificationChain msgs = null;
@@ -644,6 +664,7 @@ public class InventoryItemCharacteristicImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Annotation getValueAnnotation() {
 		return valueAnnotation;
 	}
@@ -668,6 +689,7 @@ public class InventoryItemCharacteristicImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueAnnotation(Annotation newValueAnnotation) {
 		if (newValueAnnotation != valueAnnotation) {
 			NotificationChain msgs = null;
@@ -687,6 +709,7 @@ public class InventoryItemCharacteristicImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Address getValueAddress() {
 		return valueAddress;
 	}
@@ -711,6 +734,7 @@ public class InventoryItemCharacteristicImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueAddress(Address newValueAddress) {
 		if (newValueAddress != valueAddress) {
 			NotificationChain msgs = null;
@@ -730,6 +754,7 @@ public class InventoryItemCharacteristicImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Duration getValueDuration() {
 		return valueDuration;
 	}
@@ -754,6 +779,7 @@ public class InventoryItemCharacteristicImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueDuration(Duration newValueDuration) {
 		if (newValueDuration != valueDuration) {
 			NotificationChain msgs = null;
@@ -773,6 +799,7 @@ public class InventoryItemCharacteristicImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getValueCodeableConcept() {
 		return valueCodeableConcept;
 	}
@@ -797,6 +824,7 @@ public class InventoryItemCharacteristicImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueCodeableConcept(CodeableConcept newValueCodeableConcept) {
 		if (newValueCodeableConcept != valueCodeableConcept) {
 			NotificationChain msgs = null;

@@ -97,6 +97,7 @@ public class GraphDefinitionNodeImpl extends BackboneElementImpl implements Grap
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Id getNodeId() {
 		return nodeId;
 	}
@@ -121,6 +122,7 @@ public class GraphDefinitionNodeImpl extends BackboneElementImpl implements Grap
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNodeId(Id newNodeId) {
 		if (newNodeId != nodeId) {
 			NotificationChain msgs = null;
@@ -140,6 +142,7 @@ public class GraphDefinitionNodeImpl extends BackboneElementImpl implements Grap
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDescription() {
 		return description;
 	}
@@ -164,6 +167,7 @@ public class GraphDefinitionNodeImpl extends BackboneElementImpl implements Grap
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(org.hl7.fhir.String newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -183,6 +187,7 @@ public class GraphDefinitionNodeImpl extends BackboneElementImpl implements Grap
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public VersionIndependentResourceTypesAll getType() {
 		return type;
 	}
@@ -207,6 +212,7 @@ public class GraphDefinitionNodeImpl extends BackboneElementImpl implements Grap
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(VersionIndependentResourceTypesAll newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -226,6 +232,7 @@ public class GraphDefinitionNodeImpl extends BackboneElementImpl implements Grap
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getProfile() {
 		return profile;
 	}
@@ -250,6 +257,7 @@ public class GraphDefinitionNodeImpl extends BackboneElementImpl implements Grap
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProfile(Canonical newProfile) {
 		if (newProfile != profile) {
 			NotificationChain msgs = null;

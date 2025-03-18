@@ -199,6 +199,7 @@ public class ClinicalUseDefinitionImpl extends DomainResourceImpl implements Cli
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.CLINICAL_USE_DEFINITION__IDENTIFIER);
@@ -211,6 +212,7 @@ public class ClinicalUseDefinitionImpl extends DomainResourceImpl implements Cli
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ClinicalUseDefinitionType getType() {
 		return type;
 	}
@@ -235,6 +237,7 @@ public class ClinicalUseDefinitionImpl extends DomainResourceImpl implements Cli
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(ClinicalUseDefinitionType newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -254,6 +257,7 @@ public class ClinicalUseDefinitionImpl extends DomainResourceImpl implements Cli
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCategory() {
 		if (category == null) {
 			category = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.CLINICAL_USE_DEFINITION__CATEGORY);
@@ -266,6 +270,7 @@ public class ClinicalUseDefinitionImpl extends DomainResourceImpl implements Cli
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getSubject() {
 		if (subject == null) {
 			subject = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.CLINICAL_USE_DEFINITION__SUBJECT);
@@ -278,6 +283,7 @@ public class ClinicalUseDefinitionImpl extends DomainResourceImpl implements Cli
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getStatus() {
 		return status;
 	}
@@ -302,6 +308,7 @@ public class ClinicalUseDefinitionImpl extends DomainResourceImpl implements Cli
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(CodeableConcept newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -321,6 +328,7 @@ public class ClinicalUseDefinitionImpl extends DomainResourceImpl implements Cli
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ClinicalUseDefinitionContraindication getContraindication() {
 		return contraindication;
 	}
@@ -345,6 +353,7 @@ public class ClinicalUseDefinitionImpl extends DomainResourceImpl implements Cli
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setContraindication(ClinicalUseDefinitionContraindication newContraindication) {
 		if (newContraindication != contraindication) {
 			NotificationChain msgs = null;
@@ -364,6 +373,7 @@ public class ClinicalUseDefinitionImpl extends DomainResourceImpl implements Cli
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ClinicalUseDefinitionIndication getIndication() {
 		return indication;
 	}
@@ -388,6 +398,7 @@ public class ClinicalUseDefinitionImpl extends DomainResourceImpl implements Cli
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIndication(ClinicalUseDefinitionIndication newIndication) {
 		if (newIndication != indication) {
 			NotificationChain msgs = null;
@@ -407,6 +418,7 @@ public class ClinicalUseDefinitionImpl extends DomainResourceImpl implements Cli
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ClinicalUseDefinitionInteraction getInteraction() {
 		return interaction;
 	}
@@ -431,6 +443,7 @@ public class ClinicalUseDefinitionImpl extends DomainResourceImpl implements Cli
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInteraction(ClinicalUseDefinitionInteraction newInteraction) {
 		if (newInteraction != interaction) {
 			NotificationChain msgs = null;
@@ -450,6 +463,7 @@ public class ClinicalUseDefinitionImpl extends DomainResourceImpl implements Cli
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getPopulation() {
 		if (population == null) {
 			population = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.CLINICAL_USE_DEFINITION__POPULATION);
@@ -462,6 +476,7 @@ public class ClinicalUseDefinitionImpl extends DomainResourceImpl implements Cli
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Canonical> getLibrary() {
 		if (library == null) {
 			library = new EObjectContainmentEList<Canonical>(Canonical.class, this, FhirPackage.CLINICAL_USE_DEFINITION__LIBRARY);
@@ -474,6 +489,7 @@ public class ClinicalUseDefinitionImpl extends DomainResourceImpl implements Cli
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ClinicalUseDefinitionUndesirableEffect getUndesirableEffect() {
 		return undesirableEffect;
 	}
@@ -498,6 +514,7 @@ public class ClinicalUseDefinitionImpl extends DomainResourceImpl implements Cli
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUndesirableEffect(ClinicalUseDefinitionUndesirableEffect newUndesirableEffect) {
 		if (newUndesirableEffect != undesirableEffect) {
 			NotificationChain msgs = null;
@@ -517,6 +534,7 @@ public class ClinicalUseDefinitionImpl extends DomainResourceImpl implements Cli
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ClinicalUseDefinitionWarning getWarning() {
 		return warning;
 	}
@@ -541,6 +559,7 @@ public class ClinicalUseDefinitionImpl extends DomainResourceImpl implements Cli
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setWarning(ClinicalUseDefinitionWarning newWarning) {
 		if (newWarning != warning) {
 			NotificationChain msgs = null;

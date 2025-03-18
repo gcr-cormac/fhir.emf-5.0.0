@@ -116,6 +116,7 @@ public class BasicImpl extends DomainResourceImpl implements Basic {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.BASIC__IDENTIFIER);
@@ -128,6 +129,7 @@ public class BasicImpl extends DomainResourceImpl implements Basic {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -152,6 +154,7 @@ public class BasicImpl extends DomainResourceImpl implements Basic {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -171,6 +174,7 @@ public class BasicImpl extends DomainResourceImpl implements Basic {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubject() {
 		return subject;
 	}
@@ -195,6 +199,7 @@ public class BasicImpl extends DomainResourceImpl implements Basic {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubject(Reference newSubject) {
 		if (newSubject != subject) {
 			NotificationChain msgs = null;
@@ -214,6 +219,7 @@ public class BasicImpl extends DomainResourceImpl implements Basic {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getCreated() {
 		return created;
 	}
@@ -238,6 +244,7 @@ public class BasicImpl extends DomainResourceImpl implements Basic {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCreated(DateTime newCreated) {
 		if (newCreated != created) {
 			NotificationChain msgs = null;
@@ -257,6 +264,7 @@ public class BasicImpl extends DomainResourceImpl implements Basic {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getAuthor() {
 		return author;
 	}
@@ -281,6 +289,7 @@ public class BasicImpl extends DomainResourceImpl implements Basic {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAuthor(Reference newAuthor) {
 		if (newAuthor != author) {
 			NotificationChain msgs = null;

@@ -153,6 +153,7 @@ public class MolecularSequenceStartingSequenceImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getGenomeAssembly() {
 		return genomeAssembly;
 	}
@@ -177,6 +178,7 @@ public class MolecularSequenceStartingSequenceImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setGenomeAssembly(CodeableConcept newGenomeAssembly) {
 		if (newGenomeAssembly != genomeAssembly) {
 			NotificationChain msgs = null;
@@ -196,6 +198,7 @@ public class MolecularSequenceStartingSequenceImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getChromosome() {
 		return chromosome;
 	}
@@ -220,6 +223,7 @@ public class MolecularSequenceStartingSequenceImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setChromosome(CodeableConcept newChromosome) {
 		if (newChromosome != chromosome) {
 			NotificationChain msgs = null;
@@ -239,6 +243,7 @@ public class MolecularSequenceStartingSequenceImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getSequenceCodeableConcept() {
 		return sequenceCodeableConcept;
 	}
@@ -263,6 +268,7 @@ public class MolecularSequenceStartingSequenceImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSequenceCodeableConcept(CodeableConcept newSequenceCodeableConcept) {
 		if (newSequenceCodeableConcept != sequenceCodeableConcept) {
 			NotificationChain msgs = null;
@@ -282,6 +288,7 @@ public class MolecularSequenceStartingSequenceImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getSequenceString() {
 		return sequenceString;
 	}
@@ -306,6 +313,7 @@ public class MolecularSequenceStartingSequenceImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSequenceString(org.hl7.fhir.String newSequenceString) {
 		if (newSequenceString != sequenceString) {
 			NotificationChain msgs = null;
@@ -325,6 +333,7 @@ public class MolecularSequenceStartingSequenceImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSequenceReference() {
 		return sequenceReference;
 	}
@@ -349,6 +358,7 @@ public class MolecularSequenceStartingSequenceImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSequenceReference(Reference newSequenceReference) {
 		if (newSequenceReference != sequenceReference) {
 			NotificationChain msgs = null;
@@ -368,6 +378,7 @@ public class MolecularSequenceStartingSequenceImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Integer getWindowStart() {
 		return windowStart;
 	}
@@ -392,6 +403,7 @@ public class MolecularSequenceStartingSequenceImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setWindowStart(org.hl7.fhir.Integer newWindowStart) {
 		if (newWindowStart != windowStart) {
 			NotificationChain msgs = null;
@@ -411,6 +423,7 @@ public class MolecularSequenceStartingSequenceImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Integer getWindowEnd() {
 		return windowEnd;
 	}
@@ -435,6 +448,7 @@ public class MolecularSequenceStartingSequenceImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setWindowEnd(org.hl7.fhir.Integer newWindowEnd) {
 		if (newWindowEnd != windowEnd) {
 			NotificationChain msgs = null;
@@ -454,6 +468,7 @@ public class MolecularSequenceStartingSequenceImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public OrientationType getOrientation() {
 		return orientation;
 	}
@@ -478,6 +493,7 @@ public class MolecularSequenceStartingSequenceImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOrientation(OrientationType newOrientation) {
 		if (newOrientation != orientation) {
 			NotificationChain msgs = null;
@@ -497,6 +513,7 @@ public class MolecularSequenceStartingSequenceImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public StrandType getStrand() {
 		return strand;
 	}
@@ -521,6 +538,7 @@ public class MolecularSequenceStartingSequenceImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStrand(StrandType newStrand) {
 		if (newStrand != strand) {
 			NotificationChain msgs = null;

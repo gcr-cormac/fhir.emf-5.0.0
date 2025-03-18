@@ -127,6 +127,7 @@ public class ExampleScenarioStepImpl extends BackboneElementImpl implements Exam
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getNumber() {
 		return number;
 	}
@@ -151,6 +152,7 @@ public class ExampleScenarioStepImpl extends BackboneElementImpl implements Exam
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNumber(org.hl7.fhir.String newNumber) {
 		if (newNumber != number) {
 			NotificationChain msgs = null;
@@ -170,6 +172,7 @@ public class ExampleScenarioStepImpl extends BackboneElementImpl implements Exam
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ExampleScenarioProcess getProcess() {
 		return process;
 	}
@@ -194,6 +197,7 @@ public class ExampleScenarioStepImpl extends BackboneElementImpl implements Exam
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProcess(ExampleScenarioProcess newProcess) {
 		if (newProcess != process) {
 			NotificationChain msgs = null;
@@ -213,6 +217,7 @@ public class ExampleScenarioStepImpl extends BackboneElementImpl implements Exam
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getWorkflow() {
 		return workflow;
 	}
@@ -237,6 +242,7 @@ public class ExampleScenarioStepImpl extends BackboneElementImpl implements Exam
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setWorkflow(Canonical newWorkflow) {
 		if (newWorkflow != workflow) {
 			NotificationChain msgs = null;
@@ -256,6 +262,7 @@ public class ExampleScenarioStepImpl extends BackboneElementImpl implements Exam
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ExampleScenarioOperation getOperation() {
 		return operation;
 	}
@@ -280,6 +287,7 @@ public class ExampleScenarioStepImpl extends BackboneElementImpl implements Exam
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOperation(ExampleScenarioOperation newOperation) {
 		if (newOperation != operation) {
 			NotificationChain msgs = null;
@@ -299,6 +307,7 @@ public class ExampleScenarioStepImpl extends BackboneElementImpl implements Exam
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ExampleScenarioAlternative> getAlternative() {
 		if (alternative == null) {
 			alternative = new EObjectContainmentEList<ExampleScenarioAlternative>(ExampleScenarioAlternative.class, this, FhirPackage.EXAMPLE_SCENARIO_STEP__ALTERNATIVE);
@@ -311,6 +320,7 @@ public class ExampleScenarioStepImpl extends BackboneElementImpl implements Exam
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getPause() {
 		return pause;
 	}
@@ -335,6 +345,7 @@ public class ExampleScenarioStepImpl extends BackboneElementImpl implements Exam
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPause(org.hl7.fhir.Boolean newPause) {
 		if (newPause != pause) {
 			NotificationChain msgs = null;

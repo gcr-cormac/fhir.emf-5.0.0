@@ -144,6 +144,7 @@ public class ManufacturedItemDefinitionPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -168,6 +169,7 @@ public class ManufacturedItemDefinitionPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -187,6 +189,7 @@ public class ManufacturedItemDefinitionPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getValueCodeableConcept() {
 		return valueCodeableConcept;
 	}
@@ -211,6 +214,7 @@ public class ManufacturedItemDefinitionPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueCodeableConcept(CodeableConcept newValueCodeableConcept) {
 		if (newValueCodeableConcept != valueCodeableConcept) {
 			NotificationChain msgs = null;
@@ -230,6 +234,7 @@ public class ManufacturedItemDefinitionPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getValueQuantity() {
 		return valueQuantity;
 	}
@@ -254,6 +259,7 @@ public class ManufacturedItemDefinitionPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueQuantity(Quantity newValueQuantity) {
 		if (newValueQuantity != valueQuantity) {
 			NotificationChain msgs = null;
@@ -273,6 +279,7 @@ public class ManufacturedItemDefinitionPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getValueDate() {
 		return valueDate;
 	}
@@ -297,6 +304,7 @@ public class ManufacturedItemDefinitionPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueDate(Date newValueDate) {
 		if (newValueDate != valueDate) {
 			NotificationChain msgs = null;
@@ -316,6 +324,7 @@ public class ManufacturedItemDefinitionPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getValueBoolean() {
 		return valueBoolean;
 	}
@@ -340,6 +349,7 @@ public class ManufacturedItemDefinitionPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueBoolean(org.hl7.fhir.Boolean newValueBoolean) {
 		if (newValueBoolean != valueBoolean) {
 			NotificationChain msgs = null;
@@ -359,6 +369,7 @@ public class ManufacturedItemDefinitionPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getValueMarkdown() {
 		return valueMarkdown;
 	}
@@ -383,6 +394,7 @@ public class ManufacturedItemDefinitionPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueMarkdown(Markdown newValueMarkdown) {
 		if (newValueMarkdown != valueMarkdown) {
 			NotificationChain msgs = null;
@@ -402,6 +414,7 @@ public class ManufacturedItemDefinitionPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Attachment getValueAttachment() {
 		return valueAttachment;
 	}
@@ -426,6 +439,7 @@ public class ManufacturedItemDefinitionPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueAttachment(Attachment newValueAttachment) {
 		if (newValueAttachment != valueAttachment) {
 			NotificationChain msgs = null;
@@ -445,6 +459,7 @@ public class ManufacturedItemDefinitionPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getValueReference() {
 		return valueReference;
 	}
@@ -469,6 +484,7 @@ public class ManufacturedItemDefinitionPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueReference(Reference newValueReference) {
 		if (newValueReference != valueReference) {
 			NotificationChain msgs = null;

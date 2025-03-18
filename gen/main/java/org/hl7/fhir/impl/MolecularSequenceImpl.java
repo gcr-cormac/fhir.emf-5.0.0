@@ -172,6 +172,7 @@ public class MolecularSequenceImpl extends DomainResourceImpl implements Molecul
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.MOLECULAR_SEQUENCE__IDENTIFIER);
@@ -184,6 +185,7 @@ public class MolecularSequenceImpl extends DomainResourceImpl implements Molecul
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SequenceType getType() {
 		return type;
 	}
@@ -208,6 +210,7 @@ public class MolecularSequenceImpl extends DomainResourceImpl implements Molecul
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(SequenceType newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -227,6 +230,7 @@ public class MolecularSequenceImpl extends DomainResourceImpl implements Molecul
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubject() {
 		return subject;
 	}
@@ -251,6 +255,7 @@ public class MolecularSequenceImpl extends DomainResourceImpl implements Molecul
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubject(Reference newSubject) {
 		if (newSubject != subject) {
 			NotificationChain msgs = null;
@@ -270,6 +275,7 @@ public class MolecularSequenceImpl extends DomainResourceImpl implements Molecul
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getFocus() {
 		if (focus == null) {
 			focus = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.MOLECULAR_SEQUENCE__FOCUS);
@@ -282,6 +288,7 @@ public class MolecularSequenceImpl extends DomainResourceImpl implements Molecul
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSpecimen() {
 		return specimen;
 	}
@@ -306,6 +313,7 @@ public class MolecularSequenceImpl extends DomainResourceImpl implements Molecul
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSpecimen(Reference newSpecimen) {
 		if (newSpecimen != specimen) {
 			NotificationChain msgs = null;
@@ -325,6 +333,7 @@ public class MolecularSequenceImpl extends DomainResourceImpl implements Molecul
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getDevice() {
 		return device;
 	}
@@ -349,6 +358,7 @@ public class MolecularSequenceImpl extends DomainResourceImpl implements Molecul
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDevice(Reference newDevice) {
 		if (newDevice != device) {
 			NotificationChain msgs = null;
@@ -368,6 +378,7 @@ public class MolecularSequenceImpl extends DomainResourceImpl implements Molecul
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getPerformer() {
 		return performer;
 	}
@@ -392,6 +403,7 @@ public class MolecularSequenceImpl extends DomainResourceImpl implements Molecul
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPerformer(Reference newPerformer) {
 		if (newPerformer != performer) {
 			NotificationChain msgs = null;
@@ -411,6 +423,7 @@ public class MolecularSequenceImpl extends DomainResourceImpl implements Molecul
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getLiteral() {
 		return literal;
 	}
@@ -435,6 +448,7 @@ public class MolecularSequenceImpl extends DomainResourceImpl implements Molecul
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLiteral(org.hl7.fhir.String newLiteral) {
 		if (newLiteral != literal) {
 			NotificationChain msgs = null;
@@ -454,6 +468,7 @@ public class MolecularSequenceImpl extends DomainResourceImpl implements Molecul
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Attachment> getFormatted() {
 		if (formatted == null) {
 			formatted = new EObjectContainmentEList<Attachment>(Attachment.class, this, FhirPackage.MOLECULAR_SEQUENCE__FORMATTED);
@@ -466,6 +481,7 @@ public class MolecularSequenceImpl extends DomainResourceImpl implements Molecul
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MolecularSequenceRelative> getRelative() {
 		if (relative == null) {
 			relative = new EObjectContainmentEList<MolecularSequenceRelative>(MolecularSequenceRelative.class, this, FhirPackage.MOLECULAR_SEQUENCE__RELATIVE);

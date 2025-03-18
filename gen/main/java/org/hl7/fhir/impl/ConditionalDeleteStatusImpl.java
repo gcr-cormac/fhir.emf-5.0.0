@@ -79,6 +79,7 @@ public class ConditionalDeleteStatusImpl extends ElementImpl implements Conditio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ConditionalDeleteStatusEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ConditionalDeleteStatusImpl extends ElementImpl implements Conditio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ConditionalDeleteStatusEnum newValue) {
 		ConditionalDeleteStatusEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ConditionalDeleteStatusImpl extends ElementImpl implements Conditio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ConditionalDeleteStatusEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ConditionalDeleteStatusImpl extends ElementImpl implements Conditio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

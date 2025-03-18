@@ -79,6 +79,7 @@ public class StructureMapTransformImpl extends ElementImpl implements StructureM
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public StructureMapTransformEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class StructureMapTransformImpl extends ElementImpl implements StructureM
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(StructureMapTransformEnum newValue) {
 		StructureMapTransformEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class StructureMapTransformImpl extends ElementImpl implements StructureM
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		StructureMapTransformEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class StructureMapTransformImpl extends ElementImpl implements StructureM
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

@@ -79,6 +79,7 @@ public class CharacteristicCombinationImpl extends ElementImpl implements Charac
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CharacteristicCombinationEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class CharacteristicCombinationImpl extends ElementImpl implements Charac
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(CharacteristicCombinationEnum newValue) {
 		CharacteristicCombinationEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class CharacteristicCombinationImpl extends ElementImpl implements Charac
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		CharacteristicCombinationEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class CharacteristicCombinationImpl extends ElementImpl implements Charac
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

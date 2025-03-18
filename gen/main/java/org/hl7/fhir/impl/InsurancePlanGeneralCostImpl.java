@@ -97,6 +97,7 @@ public class InsurancePlanGeneralCostImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -121,6 +122,7 @@ public class InsurancePlanGeneralCostImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -140,6 +142,7 @@ public class InsurancePlanGeneralCostImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PositiveInt getGroupSize() {
 		return groupSize;
 	}
@@ -164,6 +167,7 @@ public class InsurancePlanGeneralCostImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setGroupSize(PositiveInt newGroupSize) {
 		if (newGroupSize != groupSize) {
 			NotificationChain msgs = null;
@@ -183,6 +187,7 @@ public class InsurancePlanGeneralCostImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Money getCost() {
 		return cost;
 	}
@@ -207,6 +212,7 @@ public class InsurancePlanGeneralCostImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCost(Money newCost) {
 		if (newCost != cost) {
 			NotificationChain msgs = null;
@@ -226,6 +232,7 @@ public class InsurancePlanGeneralCostImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getComment() {
 		return comment;
 	}
@@ -250,6 +257,7 @@ public class InsurancePlanGeneralCostImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setComment(org.hl7.fhir.String newComment) {
 		if (newComment != comment) {
 			NotificationChain msgs = null;

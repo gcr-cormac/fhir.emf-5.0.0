@@ -86,6 +86,7 @@ public class DeviceMetricCalibrationImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DeviceMetricCalibrationType getType() {
 		return type;
 	}
@@ -110,6 +111,7 @@ public class DeviceMetricCalibrationImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(DeviceMetricCalibrationType newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -129,6 +131,7 @@ public class DeviceMetricCalibrationImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DeviceMetricCalibrationState getState() {
 		return state;
 	}
@@ -153,6 +156,7 @@ public class DeviceMetricCalibrationImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setState(DeviceMetricCalibrationState newState) {
 		if (newState != state) {
 			NotificationChain msgs = null;
@@ -172,6 +176,7 @@ public class DeviceMetricCalibrationImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Instant getTime() {
 		return time;
 	}
@@ -196,6 +201,7 @@ public class DeviceMetricCalibrationImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTime(Instant newTime) {
 		if (newTime != time) {
 			NotificationChain msgs = null;

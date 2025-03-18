@@ -86,6 +86,7 @@ public class SubscriptionTopicEventTriggerImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -110,6 +111,7 @@ public class SubscriptionTopicEventTriggerImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -129,6 +131,7 @@ public class SubscriptionTopicEventTriggerImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getEvent() {
 		return event;
 	}
@@ -153,6 +156,7 @@ public class SubscriptionTopicEventTriggerImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEvent(CodeableConcept newEvent) {
 		if (newEvent != event) {
 			NotificationChain msgs = null;
@@ -172,6 +176,7 @@ public class SubscriptionTopicEventTriggerImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getResource() {
 		return resource;
 	}
@@ -196,6 +201,7 @@ public class SubscriptionTopicEventTriggerImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setResource(Uri newResource) {
 		if (newResource != resource) {
 			NotificationChain msgs = null;

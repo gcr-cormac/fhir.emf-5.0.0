@@ -74,6 +74,7 @@ public class InvoiceParticipantImpl extends BackboneElementImpl implements Invoi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getRole() {
 		return role;
 	}
@@ -98,6 +99,7 @@ public class InvoiceParticipantImpl extends BackboneElementImpl implements Invoi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRole(CodeableConcept newRole) {
 		if (newRole != role) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class InvoiceParticipantImpl extends BackboneElementImpl implements Invoi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getActor() {
 		return actor;
 	}
@@ -141,6 +144,7 @@ public class InvoiceParticipantImpl extends BackboneElementImpl implements Invoi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setActor(Reference newActor) {
 		if (newActor != actor) {
 			NotificationChain msgs = null;

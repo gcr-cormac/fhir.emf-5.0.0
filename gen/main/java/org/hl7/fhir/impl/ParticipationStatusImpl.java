@@ -79,6 +79,7 @@ public class ParticipationStatusImpl extends ElementImpl implements Participatio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ParticipationStatusEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ParticipationStatusImpl extends ElementImpl implements Participatio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ParticipationStatusEnum newValue) {
 		ParticipationStatusEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ParticipationStatusImpl extends ElementImpl implements Participatio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ParticipationStatusEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ParticipationStatusImpl extends ElementImpl implements Participatio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

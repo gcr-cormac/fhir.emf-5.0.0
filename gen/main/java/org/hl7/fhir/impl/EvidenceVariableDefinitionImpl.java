@@ -127,6 +127,7 @@ public class EvidenceVariableDefinitionImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -151,6 +152,7 @@ public class EvidenceVariableDefinitionImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -170,6 +172,7 @@ public class EvidenceVariableDefinitionImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.EVIDENCE_VARIABLE_DEFINITION__NOTE);
@@ -182,6 +185,7 @@ public class EvidenceVariableDefinitionImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getVariableRole() {
 		return variableRole;
 	}
@@ -206,6 +210,7 @@ public class EvidenceVariableDefinitionImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVariableRole(CodeableConcept newVariableRole) {
 		if (newVariableRole != variableRole) {
 			NotificationChain msgs = null;
@@ -225,6 +230,7 @@ public class EvidenceVariableDefinitionImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getObserved() {
 		return observed;
 	}
@@ -249,6 +255,7 @@ public class EvidenceVariableDefinitionImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setObserved(Reference newObserved) {
 		if (newObserved != observed) {
 			NotificationChain msgs = null;
@@ -268,6 +275,7 @@ public class EvidenceVariableDefinitionImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getIntended() {
 		return intended;
 	}
@@ -292,6 +300,7 @@ public class EvidenceVariableDefinitionImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIntended(Reference newIntended) {
 		if (newIntended != intended) {
 			NotificationChain msgs = null;
@@ -311,6 +320,7 @@ public class EvidenceVariableDefinitionImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getDirectnessMatch() {
 		return directnessMatch;
 	}
@@ -335,6 +345,7 @@ public class EvidenceVariableDefinitionImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDirectnessMatch(CodeableConcept newDirectnessMatch) {
 		if (newDirectnessMatch != directnessMatch) {
 			NotificationChain msgs = null;

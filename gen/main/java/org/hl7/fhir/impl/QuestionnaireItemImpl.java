@@ -265,6 +265,7 @@ public class QuestionnaireItemImpl extends BackboneElementImpl implements Questi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getLinkId() {
 		return linkId;
 	}
@@ -289,6 +290,7 @@ public class QuestionnaireItemImpl extends BackboneElementImpl implements Questi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLinkId(org.hl7.fhir.String newLinkId) {
 		if (newLinkId != linkId) {
 			NotificationChain msgs = null;
@@ -308,6 +310,7 @@ public class QuestionnaireItemImpl extends BackboneElementImpl implements Questi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getDefinition() {
 		return definition;
 	}
@@ -332,6 +335,7 @@ public class QuestionnaireItemImpl extends BackboneElementImpl implements Questi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDefinition(Uri newDefinition) {
 		if (newDefinition != definition) {
 			NotificationChain msgs = null;
@@ -351,6 +355,7 @@ public class QuestionnaireItemImpl extends BackboneElementImpl implements Questi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Coding> getCode() {
 		if (code == null) {
 			code = new EObjectContainmentEList<Coding>(Coding.class, this, FhirPackage.QUESTIONNAIRE_ITEM__CODE);
@@ -363,6 +368,7 @@ public class QuestionnaireItemImpl extends BackboneElementImpl implements Questi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPrefix() {
 		return prefix;
 	}
@@ -387,6 +393,7 @@ public class QuestionnaireItemImpl extends BackboneElementImpl implements Questi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPrefix(org.hl7.fhir.String newPrefix) {
 		if (newPrefix != prefix) {
 			NotificationChain msgs = null;
@@ -406,6 +413,7 @@ public class QuestionnaireItemImpl extends BackboneElementImpl implements Questi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getText() {
 		return text;
 	}
@@ -430,6 +438,7 @@ public class QuestionnaireItemImpl extends BackboneElementImpl implements Questi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setText(org.hl7.fhir.String newText) {
 		if (newText != text) {
 			NotificationChain msgs = null;
@@ -449,6 +458,7 @@ public class QuestionnaireItemImpl extends BackboneElementImpl implements Questi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public QuestionnaireItemType getType() {
 		return type;
 	}
@@ -473,6 +483,7 @@ public class QuestionnaireItemImpl extends BackboneElementImpl implements Questi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(QuestionnaireItemType newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -492,6 +503,7 @@ public class QuestionnaireItemImpl extends BackboneElementImpl implements Questi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<QuestionnaireEnableWhen> getEnableWhen() {
 		if (enableWhen == null) {
 			enableWhen = new EObjectContainmentEList<QuestionnaireEnableWhen>(QuestionnaireEnableWhen.class, this, FhirPackage.QUESTIONNAIRE_ITEM__ENABLE_WHEN);
@@ -504,6 +516,7 @@ public class QuestionnaireItemImpl extends BackboneElementImpl implements Questi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EnableWhenBehavior getEnableBehavior() {
 		return enableBehavior;
 	}
@@ -528,6 +541,7 @@ public class QuestionnaireItemImpl extends BackboneElementImpl implements Questi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEnableBehavior(EnableWhenBehavior newEnableBehavior) {
 		if (newEnableBehavior != enableBehavior) {
 			NotificationChain msgs = null;
@@ -547,6 +561,7 @@ public class QuestionnaireItemImpl extends BackboneElementImpl implements Questi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public QuestionnaireItemDisabledDisplay getDisabledDisplay() {
 		return disabledDisplay;
 	}
@@ -571,6 +586,7 @@ public class QuestionnaireItemImpl extends BackboneElementImpl implements Questi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDisabledDisplay(QuestionnaireItemDisabledDisplay newDisabledDisplay) {
 		if (newDisabledDisplay != disabledDisplay) {
 			NotificationChain msgs = null;
@@ -590,6 +606,7 @@ public class QuestionnaireItemImpl extends BackboneElementImpl implements Questi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getRequired() {
 		return required;
 	}
@@ -614,6 +631,7 @@ public class QuestionnaireItemImpl extends BackboneElementImpl implements Questi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRequired(org.hl7.fhir.Boolean newRequired) {
 		if (newRequired != required) {
 			NotificationChain msgs = null;
@@ -633,6 +651,7 @@ public class QuestionnaireItemImpl extends BackboneElementImpl implements Questi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getRepeats() {
 		return repeats;
 	}
@@ -657,6 +676,7 @@ public class QuestionnaireItemImpl extends BackboneElementImpl implements Questi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRepeats(org.hl7.fhir.Boolean newRepeats) {
 		if (newRepeats != repeats) {
 			NotificationChain msgs = null;
@@ -676,6 +696,7 @@ public class QuestionnaireItemImpl extends BackboneElementImpl implements Questi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getReadOnly() {
 		return readOnly;
 	}
@@ -700,6 +721,7 @@ public class QuestionnaireItemImpl extends BackboneElementImpl implements Questi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReadOnly(org.hl7.fhir.Boolean newReadOnly) {
 		if (newReadOnly != readOnly) {
 			NotificationChain msgs = null;
@@ -719,6 +741,7 @@ public class QuestionnaireItemImpl extends BackboneElementImpl implements Questi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Integer getMaxLength() {
 		return maxLength;
 	}
@@ -743,6 +766,7 @@ public class QuestionnaireItemImpl extends BackboneElementImpl implements Questi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMaxLength(org.hl7.fhir.Integer newMaxLength) {
 		if (newMaxLength != maxLength) {
 			NotificationChain msgs = null;
@@ -762,6 +786,7 @@ public class QuestionnaireItemImpl extends BackboneElementImpl implements Questi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public QuestionnaireAnswerConstraint getAnswerConstraint() {
 		return answerConstraint;
 	}
@@ -786,6 +811,7 @@ public class QuestionnaireItemImpl extends BackboneElementImpl implements Questi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAnswerConstraint(QuestionnaireAnswerConstraint newAnswerConstraint) {
 		if (newAnswerConstraint != answerConstraint) {
 			NotificationChain msgs = null;
@@ -805,6 +831,7 @@ public class QuestionnaireItemImpl extends BackboneElementImpl implements Questi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getAnswerValueSet() {
 		return answerValueSet;
 	}
@@ -829,6 +856,7 @@ public class QuestionnaireItemImpl extends BackboneElementImpl implements Questi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAnswerValueSet(Canonical newAnswerValueSet) {
 		if (newAnswerValueSet != answerValueSet) {
 			NotificationChain msgs = null;
@@ -848,6 +876,7 @@ public class QuestionnaireItemImpl extends BackboneElementImpl implements Questi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<QuestionnaireAnswerOption> getAnswerOption() {
 		if (answerOption == null) {
 			answerOption = new EObjectContainmentEList<QuestionnaireAnswerOption>(QuestionnaireAnswerOption.class, this, FhirPackage.QUESTIONNAIRE_ITEM__ANSWER_OPTION);
@@ -860,6 +889,7 @@ public class QuestionnaireItemImpl extends BackboneElementImpl implements Questi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<QuestionnaireInitial> getInitial() {
 		if (initial == null) {
 			initial = new EObjectContainmentEList<QuestionnaireInitial>(QuestionnaireInitial.class, this, FhirPackage.QUESTIONNAIRE_ITEM__INITIAL);
@@ -872,6 +902,7 @@ public class QuestionnaireItemImpl extends BackboneElementImpl implements Questi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<QuestionnaireItem> getItem() {
 		if (item == null) {
 			item = new EObjectContainmentEList<QuestionnaireItem>(QuestionnaireItem.class, this, FhirPackage.QUESTIONNAIRE_ITEM__ITEM);

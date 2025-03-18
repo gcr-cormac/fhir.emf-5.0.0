@@ -332,6 +332,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.CONDITION__IDENTIFIER);
@@ -344,6 +345,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getClinicalStatus() {
 		return clinicalStatus;
 	}
@@ -368,6 +370,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setClinicalStatus(CodeableConcept newClinicalStatus) {
 		if (newClinicalStatus != clinicalStatus) {
 			NotificationChain msgs = null;
@@ -387,6 +390,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getVerificationStatus() {
 		return verificationStatus;
 	}
@@ -411,6 +415,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVerificationStatus(CodeableConcept newVerificationStatus) {
 		if (newVerificationStatus != verificationStatus) {
 			NotificationChain msgs = null;
@@ -430,6 +435,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCategory() {
 		if (category == null) {
 			category = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.CONDITION__CATEGORY);
@@ -442,6 +448,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getSeverity() {
 		return severity;
 	}
@@ -466,6 +473,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSeverity(CodeableConcept newSeverity) {
 		if (newSeverity != severity) {
 			NotificationChain msgs = null;
@@ -485,6 +493,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -509,6 +518,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -528,6 +538,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getBodySite() {
 		if (bodySite == null) {
 			bodySite = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.CONDITION__BODY_SITE);
@@ -540,6 +551,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubject() {
 		return subject;
 	}
@@ -564,6 +576,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubject(Reference newSubject) {
 		if (newSubject != subject) {
 			NotificationChain msgs = null;
@@ -583,6 +596,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getEncounter() {
 		return encounter;
 	}
@@ -607,6 +621,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEncounter(Reference newEncounter) {
 		if (newEncounter != encounter) {
 			NotificationChain msgs = null;
@@ -626,6 +641,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getOnsetDateTime() {
 		return onsetDateTime;
 	}
@@ -650,6 +666,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOnsetDateTime(DateTime newOnsetDateTime) {
 		if (newOnsetDateTime != onsetDateTime) {
 			NotificationChain msgs = null;
@@ -669,6 +686,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Age getOnsetAge() {
 		return onsetAge;
 	}
@@ -693,6 +711,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOnsetAge(Age newOnsetAge) {
 		if (newOnsetAge != onsetAge) {
 			NotificationChain msgs = null;
@@ -712,6 +731,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getOnsetPeriod() {
 		return onsetPeriod;
 	}
@@ -736,6 +756,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOnsetPeriod(Period newOnsetPeriod) {
 		if (newOnsetPeriod != onsetPeriod) {
 			NotificationChain msgs = null;
@@ -755,6 +776,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Range getOnsetRange() {
 		return onsetRange;
 	}
@@ -779,6 +801,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOnsetRange(Range newOnsetRange) {
 		if (newOnsetRange != onsetRange) {
 			NotificationChain msgs = null;
@@ -798,6 +821,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getOnsetString() {
 		return onsetString;
 	}
@@ -822,6 +846,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOnsetString(org.hl7.fhir.String newOnsetString) {
 		if (newOnsetString != onsetString) {
 			NotificationChain msgs = null;
@@ -841,6 +866,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getAbatementDateTime() {
 		return abatementDateTime;
 	}
@@ -865,6 +891,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAbatementDateTime(DateTime newAbatementDateTime) {
 		if (newAbatementDateTime != abatementDateTime) {
 			NotificationChain msgs = null;
@@ -884,6 +911,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Age getAbatementAge() {
 		return abatementAge;
 	}
@@ -908,6 +936,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAbatementAge(Age newAbatementAge) {
 		if (newAbatementAge != abatementAge) {
 			NotificationChain msgs = null;
@@ -927,6 +956,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getAbatementPeriod() {
 		return abatementPeriod;
 	}
@@ -951,6 +981,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAbatementPeriod(Period newAbatementPeriod) {
 		if (newAbatementPeriod != abatementPeriod) {
 			NotificationChain msgs = null;
@@ -970,6 +1001,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Range getAbatementRange() {
 		return abatementRange;
 	}
@@ -994,6 +1026,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAbatementRange(Range newAbatementRange) {
 		if (newAbatementRange != abatementRange) {
 			NotificationChain msgs = null;
@@ -1013,6 +1046,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getAbatementString() {
 		return abatementString;
 	}
@@ -1037,6 +1071,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAbatementString(org.hl7.fhir.String newAbatementString) {
 		if (newAbatementString != abatementString) {
 			NotificationChain msgs = null;
@@ -1056,6 +1091,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getRecordedDate() {
 		return recordedDate;
 	}
@@ -1080,6 +1116,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRecordedDate(DateTime newRecordedDate) {
 		if (newRecordedDate != recordedDate) {
 			NotificationChain msgs = null;
@@ -1099,6 +1136,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ConditionParticipant> getParticipant() {
 		if (participant == null) {
 			participant = new EObjectContainmentEList<ConditionParticipant>(ConditionParticipant.class, this, FhirPackage.CONDITION__PARTICIPANT);
@@ -1111,6 +1149,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ConditionStage> getStage() {
 		if (stage == null) {
 			stage = new EObjectContainmentEList<ConditionStage>(ConditionStage.class, this, FhirPackage.CONDITION__STAGE);
@@ -1123,6 +1162,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getEvidence() {
 		if (evidence == null) {
 			evidence = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.CONDITION__EVIDENCE);
@@ -1135,6 +1175,7 @@ public class ConditionImpl extends DomainResourceImpl implements Condition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.CONDITION__NOTE);

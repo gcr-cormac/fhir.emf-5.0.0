@@ -79,6 +79,7 @@ public class LinkageTypeImpl extends ElementImpl implements LinkageType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public LinkageTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class LinkageTypeImpl extends ElementImpl implements LinkageType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(LinkageTypeEnum newValue) {
 		LinkageTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class LinkageTypeImpl extends ElementImpl implements LinkageType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		LinkageTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class LinkageTypeImpl extends ElementImpl implements LinkageType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

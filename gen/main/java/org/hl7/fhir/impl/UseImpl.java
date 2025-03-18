@@ -79,6 +79,7 @@ public class UseImpl extends ElementImpl implements Use {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public UseEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class UseImpl extends ElementImpl implements Use {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(UseEnum newValue) {
 		UseEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class UseImpl extends ElementImpl implements Use {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		UseEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class UseImpl extends ElementImpl implements Use {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

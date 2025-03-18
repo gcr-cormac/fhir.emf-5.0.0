@@ -79,6 +79,7 @@ public class ConditionQuestionnairePurposeImpl extends ElementImpl implements Co
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ConditionQuestionnairePurposeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ConditionQuestionnairePurposeImpl extends ElementImpl implements Co
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ConditionQuestionnairePurposeEnum newValue) {
 		ConditionQuestionnairePurposeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ConditionQuestionnairePurposeImpl extends ElementImpl implements Co
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ConditionQuestionnairePurposeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ConditionQuestionnairePurposeImpl extends ElementImpl implements Co
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

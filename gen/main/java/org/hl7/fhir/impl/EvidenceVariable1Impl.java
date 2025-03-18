@@ -117,6 +117,7 @@ public class EvidenceVariable1Impl extends BackboneElementImpl implements Eviden
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getVariableDefinition() {
 		return variableDefinition;
 	}
@@ -141,6 +142,7 @@ public class EvidenceVariable1Impl extends BackboneElementImpl implements Eviden
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVariableDefinition(Reference newVariableDefinition) {
 		if (newVariableDefinition != variableDefinition) {
 			NotificationChain msgs = null;
@@ -160,6 +162,7 @@ public class EvidenceVariable1Impl extends BackboneElementImpl implements Eviden
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EvidenceVariableHandling getHandling() {
 		return handling;
 	}
@@ -184,6 +187,7 @@ public class EvidenceVariable1Impl extends BackboneElementImpl implements Eviden
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setHandling(EvidenceVariableHandling newHandling) {
 		if (newHandling != handling) {
 			NotificationChain msgs = null;
@@ -203,6 +207,7 @@ public class EvidenceVariable1Impl extends BackboneElementImpl implements Eviden
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getValueCategory() {
 		if (valueCategory == null) {
 			valueCategory = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.EVIDENCE_VARIABLE1__VALUE_CATEGORY);
@@ -215,6 +220,7 @@ public class EvidenceVariable1Impl extends BackboneElementImpl implements Eviden
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Quantity> getValueQuantity() {
 		if (valueQuantity == null) {
 			valueQuantity = new EObjectContainmentEList<Quantity>(Quantity.class, this, FhirPackage.EVIDENCE_VARIABLE1__VALUE_QUANTITY);
@@ -227,6 +233,7 @@ public class EvidenceVariable1Impl extends BackboneElementImpl implements Eviden
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Range> getValueRange() {
 		if (valueRange == null) {
 			valueRange = new EObjectContainmentEList<Range>(Range.class, this, FhirPackage.EVIDENCE_VARIABLE1__VALUE_RANGE);

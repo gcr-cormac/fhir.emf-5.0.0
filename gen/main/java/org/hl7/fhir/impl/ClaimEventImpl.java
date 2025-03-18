@@ -86,6 +86,7 @@ public class ClaimEventImpl extends BackboneElementImpl implements ClaimEvent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -110,6 +111,7 @@ public class ClaimEventImpl extends BackboneElementImpl implements ClaimEvent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -129,6 +131,7 @@ public class ClaimEventImpl extends BackboneElementImpl implements ClaimEvent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getWhenDateTime() {
 		return whenDateTime;
 	}
@@ -153,6 +156,7 @@ public class ClaimEventImpl extends BackboneElementImpl implements ClaimEvent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setWhenDateTime(DateTime newWhenDateTime) {
 		if (newWhenDateTime != whenDateTime) {
 			NotificationChain msgs = null;
@@ -172,6 +176,7 @@ public class ClaimEventImpl extends BackboneElementImpl implements ClaimEvent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getWhenPeriod() {
 		return whenPeriod;
 	}
@@ -196,6 +201,7 @@ public class ClaimEventImpl extends BackboneElementImpl implements ClaimEvent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setWhenPeriod(Period newWhenPeriod) {
 		if (newWhenPeriod != whenPeriod) {
 			NotificationChain msgs = null;

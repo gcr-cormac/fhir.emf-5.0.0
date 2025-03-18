@@ -139,6 +139,7 @@ public class TestScriptVariableImpl extends BackboneElementImpl implements TestS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -163,6 +164,7 @@ public class TestScriptVariableImpl extends BackboneElementImpl implements TestS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -182,6 +184,7 @@ public class TestScriptVariableImpl extends BackboneElementImpl implements TestS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDefaultValue() {
 		return defaultValue;
 	}
@@ -206,6 +209,7 @@ public class TestScriptVariableImpl extends BackboneElementImpl implements TestS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDefaultValue(org.hl7.fhir.String newDefaultValue) {
 		if (newDefaultValue != defaultValue) {
 			NotificationChain msgs = null;
@@ -225,6 +229,7 @@ public class TestScriptVariableImpl extends BackboneElementImpl implements TestS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDescription() {
 		return description;
 	}
@@ -249,6 +254,7 @@ public class TestScriptVariableImpl extends BackboneElementImpl implements TestS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(org.hl7.fhir.String newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -268,6 +274,7 @@ public class TestScriptVariableImpl extends BackboneElementImpl implements TestS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getExpression() {
 		return expression;
 	}
@@ -292,6 +299,7 @@ public class TestScriptVariableImpl extends BackboneElementImpl implements TestS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExpression(org.hl7.fhir.String newExpression) {
 		if (newExpression != expression) {
 			NotificationChain msgs = null;
@@ -311,6 +319,7 @@ public class TestScriptVariableImpl extends BackboneElementImpl implements TestS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getHeaderField() {
 		return headerField;
 	}
@@ -335,6 +344,7 @@ public class TestScriptVariableImpl extends BackboneElementImpl implements TestS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setHeaderField(org.hl7.fhir.String newHeaderField) {
 		if (newHeaderField != headerField) {
 			NotificationChain msgs = null;
@@ -354,6 +364,7 @@ public class TestScriptVariableImpl extends BackboneElementImpl implements TestS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getHint() {
 		return hint;
 	}
@@ -378,6 +389,7 @@ public class TestScriptVariableImpl extends BackboneElementImpl implements TestS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setHint(org.hl7.fhir.String newHint) {
 		if (newHint != hint) {
 			NotificationChain msgs = null;
@@ -397,6 +409,7 @@ public class TestScriptVariableImpl extends BackboneElementImpl implements TestS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPath() {
 		return path;
 	}
@@ -421,6 +434,7 @@ public class TestScriptVariableImpl extends BackboneElementImpl implements TestS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPath(org.hl7.fhir.String newPath) {
 		if (newPath != path) {
 			NotificationChain msgs = null;
@@ -440,6 +454,7 @@ public class TestScriptVariableImpl extends BackboneElementImpl implements TestS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Id getSourceId() {
 		return sourceId;
 	}
@@ -464,6 +479,7 @@ public class TestScriptVariableImpl extends BackboneElementImpl implements TestS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSourceId(Id newSourceId) {
 		if (newSourceId != sourceId) {
 			NotificationChain msgs = null;

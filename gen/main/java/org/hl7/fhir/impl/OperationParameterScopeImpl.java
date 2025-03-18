@@ -79,6 +79,7 @@ public class OperationParameterScopeImpl extends ElementImpl implements Operatio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public OperationParameterScopeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class OperationParameterScopeImpl extends ElementImpl implements Operatio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(OperationParameterScopeEnum newValue) {
 		OperationParameterScopeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class OperationParameterScopeImpl extends ElementImpl implements Operatio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		OperationParameterScopeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class OperationParameterScopeImpl extends ElementImpl implements Operatio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

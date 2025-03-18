@@ -79,6 +79,7 @@ public class AllergyIntoleranceCategoryImpl extends ElementImpl implements Aller
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AllergyIntoleranceCategoryEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class AllergyIntoleranceCategoryImpl extends ElementImpl implements Aller
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(AllergyIntoleranceCategoryEnum newValue) {
 		AllergyIntoleranceCategoryEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class AllergyIntoleranceCategoryImpl extends ElementImpl implements Aller
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		AllergyIntoleranceCategoryEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class AllergyIntoleranceCategoryImpl extends ElementImpl implements Aller
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

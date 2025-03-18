@@ -80,6 +80,7 @@ public class CoverageEligibilityResponseErrorImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -104,6 +105,7 @@ public class CoverageEligibilityResponseErrorImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -123,6 +125,7 @@ public class CoverageEligibilityResponseErrorImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<org.hl7.fhir.String> getExpression() {
 		if (expression == null) {
 			expression = new EObjectContainmentEList<org.hl7.fhir.String>(org.hl7.fhir.String.class, this, FhirPackage.COVERAGE_ELIGIBILITY_RESPONSE_ERROR__EXPRESSION);

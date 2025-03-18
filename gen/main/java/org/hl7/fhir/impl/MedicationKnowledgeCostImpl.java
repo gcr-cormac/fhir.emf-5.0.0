@@ -115,6 +115,7 @@ public class MedicationKnowledgeCostImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Period> getEffectiveDate() {
 		if (effectiveDate == null) {
 			effectiveDate = new EObjectContainmentEList<Period>(Period.class, this, FhirPackage.MEDICATION_KNOWLEDGE_COST__EFFECTIVE_DATE);
@@ -127,6 +128,7 @@ public class MedicationKnowledgeCostImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -151,6 +153,7 @@ public class MedicationKnowledgeCostImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -170,6 +173,7 @@ public class MedicationKnowledgeCostImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getSource() {
 		return source;
 	}
@@ -194,6 +198,7 @@ public class MedicationKnowledgeCostImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSource(org.hl7.fhir.String newSource) {
 		if (newSource != source) {
 			NotificationChain msgs = null;
@@ -213,6 +218,7 @@ public class MedicationKnowledgeCostImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Money getCostMoney() {
 		return costMoney;
 	}
@@ -237,6 +243,7 @@ public class MedicationKnowledgeCostImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCostMoney(Money newCostMoney) {
 		if (newCostMoney != costMoney) {
 			NotificationChain msgs = null;
@@ -256,6 +263,7 @@ public class MedicationKnowledgeCostImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCostCodeableConcept() {
 		return costCodeableConcept;
 	}
@@ -280,6 +288,7 @@ public class MedicationKnowledgeCostImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCostCodeableConcept(CodeableConcept newCostCodeableConcept) {
 		if (newCostCodeableConcept != costCodeableConcept) {
 			NotificationChain msgs = null;

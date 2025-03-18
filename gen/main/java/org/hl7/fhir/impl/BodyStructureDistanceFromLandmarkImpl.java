@@ -78,6 +78,7 @@ public class BodyStructureDistanceFromLandmarkImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getDevice() {
 		if (device == null) {
 			device = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.BODY_STRUCTURE_DISTANCE_FROM_LANDMARK__DEVICE);
@@ -90,6 +91,7 @@ public class BodyStructureDistanceFromLandmarkImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Quantity> getValue() {
 		if (value == null) {
 			value = new EObjectContainmentEList<Quantity>(Quantity.class, this, FhirPackage.BODY_STRUCTURE_DISTANCE_FROM_LANDMARK__VALUE);

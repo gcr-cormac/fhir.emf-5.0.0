@@ -116,6 +116,7 @@ public class SubstanceDefinitionCodeImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -140,6 +141,7 @@ public class SubstanceDefinitionCodeImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -159,6 +161,7 @@ public class SubstanceDefinitionCodeImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getStatus() {
 		return status;
 	}
@@ -183,6 +186,7 @@ public class SubstanceDefinitionCodeImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(CodeableConcept newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -202,6 +206,7 @@ public class SubstanceDefinitionCodeImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getStatusDate() {
 		return statusDate;
 	}
@@ -226,6 +231,7 @@ public class SubstanceDefinitionCodeImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatusDate(DateTime newStatusDate) {
 		if (newStatusDate != statusDate) {
 			NotificationChain msgs = null;
@@ -245,6 +251,7 @@ public class SubstanceDefinitionCodeImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.SUBSTANCE_DEFINITION_CODE__NOTE);
@@ -257,6 +264,7 @@ public class SubstanceDefinitionCodeImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getSource() {
 		if (source == null) {
 			source = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.SUBSTANCE_DEFINITION_CODE__SOURCE);

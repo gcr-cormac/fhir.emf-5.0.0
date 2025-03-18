@@ -93,6 +93,7 @@ public class CarePlanActivityImpl extends BackboneElementImpl implements CarePla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getPerformedActivity() {
 		if (performedActivity == null) {
 			performedActivity = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.CARE_PLAN_ACTIVITY__PERFORMED_ACTIVITY);
@@ -105,6 +106,7 @@ public class CarePlanActivityImpl extends BackboneElementImpl implements CarePla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getProgress() {
 		if (progress == null) {
 			progress = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.CARE_PLAN_ACTIVITY__PROGRESS);
@@ -117,6 +119,7 @@ public class CarePlanActivityImpl extends BackboneElementImpl implements CarePla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getPlannedActivityReference() {
 		return plannedActivityReference;
 	}
@@ -141,6 +144,7 @@ public class CarePlanActivityImpl extends BackboneElementImpl implements CarePla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPlannedActivityReference(Reference newPlannedActivityReference) {
 		if (newPlannedActivityReference != plannedActivityReference) {
 			NotificationChain msgs = null;

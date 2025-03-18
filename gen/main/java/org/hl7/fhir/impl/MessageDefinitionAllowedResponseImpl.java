@@ -74,6 +74,7 @@ public class MessageDefinitionAllowedResponseImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getMessage() {
 		return message;
 	}
@@ -98,6 +99,7 @@ public class MessageDefinitionAllowedResponseImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMessage(Canonical newMessage) {
 		if (newMessage != message) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class MessageDefinitionAllowedResponseImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getSituation() {
 		return situation;
 	}
@@ -141,6 +144,7 @@ public class MessageDefinitionAllowedResponseImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSituation(Markdown newSituation) {
 		if (newSituation != situation) {
 			NotificationChain msgs = null;

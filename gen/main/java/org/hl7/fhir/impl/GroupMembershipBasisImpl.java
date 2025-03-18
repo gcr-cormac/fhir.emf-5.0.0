@@ -79,6 +79,7 @@ public class GroupMembershipBasisImpl extends ElementImpl implements GroupMember
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public GroupMembershipBasisEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class GroupMembershipBasisImpl extends ElementImpl implements GroupMember
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(GroupMembershipBasisEnum newValue) {
 		GroupMembershipBasisEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class GroupMembershipBasisImpl extends ElementImpl implements GroupMember
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		GroupMembershipBasisEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class GroupMembershipBasisImpl extends ElementImpl implements GroupMember
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

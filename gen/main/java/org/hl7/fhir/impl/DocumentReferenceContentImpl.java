@@ -81,6 +81,7 @@ public class DocumentReferenceContentImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Attachment getAttachment() {
 		return attachment;
 	}
@@ -105,6 +106,7 @@ public class DocumentReferenceContentImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAttachment(Attachment newAttachment) {
 		if (newAttachment != attachment) {
 			NotificationChain msgs = null;
@@ -124,6 +126,7 @@ public class DocumentReferenceContentImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<DocumentReferenceProfile> getProfile() {
 		if (profile == null) {
 			profile = new EObjectContainmentEList<DocumentReferenceProfile>(DocumentReferenceProfile.class, this, FhirPackage.DOCUMENT_REFERENCE_CONTENT__PROFILE);

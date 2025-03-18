@@ -74,6 +74,7 @@ public class ConsentPolicyBasisImpl extends BackboneElementImpl implements Conse
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getReference() {
 		return reference;
 	}
@@ -98,6 +99,7 @@ public class ConsentPolicyBasisImpl extends BackboneElementImpl implements Conse
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReference(Reference newReference) {
 		if (newReference != reference) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class ConsentPolicyBasisImpl extends BackboneElementImpl implements Conse
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Url getUrl() {
 		return url;
 	}
@@ -141,6 +144,7 @@ public class ConsentPolicyBasisImpl extends BackboneElementImpl implements Conse
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUrl(Url newUrl) {
 		if (newUrl != url) {
 			NotificationChain msgs = null;

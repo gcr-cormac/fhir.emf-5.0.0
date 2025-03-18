@@ -73,6 +73,7 @@ public class MedicinalProductDefinitionPartImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPart() {
 		return part;
 	}
@@ -97,6 +98,7 @@ public class MedicinalProductDefinitionPartImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPart(org.hl7.fhir.String newPart) {
 		if (newPart != part) {
 			NotificationChain msgs = null;
@@ -116,6 +118,7 @@ public class MedicinalProductDefinitionPartImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -140,6 +143,7 @@ public class MedicinalProductDefinitionPartImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;

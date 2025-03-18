@@ -79,6 +79,7 @@ public class SpecimenCombinedImpl extends ElementImpl implements SpecimenCombine
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SpecimenCombinedEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class SpecimenCombinedImpl extends ElementImpl implements SpecimenCombine
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(SpecimenCombinedEnum newValue) {
 		SpecimenCombinedEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class SpecimenCombinedImpl extends ElementImpl implements SpecimenCombine
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		SpecimenCombinedEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class SpecimenCombinedImpl extends ElementImpl implements SpecimenCombine
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

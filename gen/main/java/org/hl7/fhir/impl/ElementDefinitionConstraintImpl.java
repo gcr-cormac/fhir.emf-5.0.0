@@ -131,6 +131,7 @@ public class ElementDefinitionConstraintImpl extends BackboneTypeImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Id getKey() {
 		return key;
 	}
@@ -155,6 +156,7 @@ public class ElementDefinitionConstraintImpl extends BackboneTypeImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setKey(Id newKey) {
 		if (newKey != key) {
 			NotificationChain msgs = null;
@@ -174,6 +176,7 @@ public class ElementDefinitionConstraintImpl extends BackboneTypeImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getRequirements() {
 		return requirements;
 	}
@@ -198,6 +201,7 @@ public class ElementDefinitionConstraintImpl extends BackboneTypeImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRequirements(Markdown newRequirements) {
 		if (newRequirements != requirements) {
 			NotificationChain msgs = null;
@@ -217,6 +221,7 @@ public class ElementDefinitionConstraintImpl extends BackboneTypeImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ConstraintSeverity getSeverity() {
 		return severity;
 	}
@@ -241,6 +246,7 @@ public class ElementDefinitionConstraintImpl extends BackboneTypeImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSeverity(ConstraintSeverity newSeverity) {
 		if (newSeverity != severity) {
 			NotificationChain msgs = null;
@@ -260,6 +266,7 @@ public class ElementDefinitionConstraintImpl extends BackboneTypeImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getSuppress() {
 		return suppress;
 	}
@@ -284,6 +291,7 @@ public class ElementDefinitionConstraintImpl extends BackboneTypeImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSuppress(org.hl7.fhir.Boolean newSuppress) {
 		if (newSuppress != suppress) {
 			NotificationChain msgs = null;
@@ -303,6 +311,7 @@ public class ElementDefinitionConstraintImpl extends BackboneTypeImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getHuman() {
 		return human;
 	}
@@ -327,6 +336,7 @@ public class ElementDefinitionConstraintImpl extends BackboneTypeImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setHuman(org.hl7.fhir.String newHuman) {
 		if (newHuman != human) {
 			NotificationChain msgs = null;
@@ -346,6 +356,7 @@ public class ElementDefinitionConstraintImpl extends BackboneTypeImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getExpression() {
 		return expression;
 	}
@@ -370,6 +381,7 @@ public class ElementDefinitionConstraintImpl extends BackboneTypeImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExpression(org.hl7.fhir.String newExpression) {
 		if (newExpression != expression) {
 			NotificationChain msgs = null;
@@ -389,6 +401,7 @@ public class ElementDefinitionConstraintImpl extends BackboneTypeImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getSource() {
 		return source;
 	}
@@ -413,6 +426,7 @@ public class ElementDefinitionConstraintImpl extends BackboneTypeImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSource(Canonical newSource) {
 		if (newSource != source) {
 			NotificationChain msgs = null;

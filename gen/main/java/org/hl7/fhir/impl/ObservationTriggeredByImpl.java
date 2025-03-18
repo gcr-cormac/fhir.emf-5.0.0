@@ -85,6 +85,7 @@ public class ObservationTriggeredByImpl extends BackboneElementImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getObservation() {
 		return observation;
 	}
@@ -109,6 +110,7 @@ public class ObservationTriggeredByImpl extends BackboneElementImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setObservation(Reference newObservation) {
 		if (newObservation != observation) {
 			NotificationChain msgs = null;
@@ -128,6 +130,7 @@ public class ObservationTriggeredByImpl extends BackboneElementImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TriggeredBytype getType() {
 		return type;
 	}
@@ -152,6 +155,7 @@ public class ObservationTriggeredByImpl extends BackboneElementImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(TriggeredBytype newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -171,6 +175,7 @@ public class ObservationTriggeredByImpl extends BackboneElementImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getReason() {
 		return reason;
 	}
@@ -195,6 +200,7 @@ public class ObservationTriggeredByImpl extends BackboneElementImpl implements O
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReason(org.hl7.fhir.String newReason) {
 		if (newReason != reason) {
 			NotificationChain msgs = null;

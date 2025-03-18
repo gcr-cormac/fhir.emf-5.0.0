@@ -98,6 +98,7 @@ public class MonetaryComponentImpl extends DataTypeImpl implements MonetaryCompo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Code getType() {
 		return type;
 	}
@@ -122,6 +123,7 @@ public class MonetaryComponentImpl extends DataTypeImpl implements MonetaryCompo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(Code newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -141,6 +143,7 @@ public class MonetaryComponentImpl extends DataTypeImpl implements MonetaryCompo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -165,6 +168,7 @@ public class MonetaryComponentImpl extends DataTypeImpl implements MonetaryCompo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -184,6 +188,7 @@ public class MonetaryComponentImpl extends DataTypeImpl implements MonetaryCompo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Decimal getFactor() {
 		return factor;
 	}
@@ -208,6 +213,7 @@ public class MonetaryComponentImpl extends DataTypeImpl implements MonetaryCompo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFactor(Decimal newFactor) {
 		if (newFactor != factor) {
 			NotificationChain msgs = null;
@@ -227,6 +233,7 @@ public class MonetaryComponentImpl extends DataTypeImpl implements MonetaryCompo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Money getAmount() {
 		return amount;
 	}
@@ -251,6 +258,7 @@ public class MonetaryComponentImpl extends DataTypeImpl implements MonetaryCompo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAmount(Money newAmount) {
 		if (newAmount != amount) {
 			NotificationChain msgs = null;

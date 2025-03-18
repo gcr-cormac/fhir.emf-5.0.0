@@ -158,6 +158,7 @@ public class GraphDefinitionLinkImpl extends BackboneElementImpl implements Grap
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDescription() {
 		return description;
 	}
@@ -182,6 +183,7 @@ public class GraphDefinitionLinkImpl extends BackboneElementImpl implements Grap
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(org.hl7.fhir.String newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -201,6 +203,7 @@ public class GraphDefinitionLinkImpl extends BackboneElementImpl implements Grap
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Integer getMin() {
 		return min;
 	}
@@ -225,6 +228,7 @@ public class GraphDefinitionLinkImpl extends BackboneElementImpl implements Grap
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMin(org.hl7.fhir.Integer newMin) {
 		if (newMin != min) {
 			NotificationChain msgs = null;
@@ -244,6 +248,7 @@ public class GraphDefinitionLinkImpl extends BackboneElementImpl implements Grap
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getMax() {
 		return max;
 	}
@@ -268,6 +273,7 @@ public class GraphDefinitionLinkImpl extends BackboneElementImpl implements Grap
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMax(org.hl7.fhir.String newMax) {
 		if (newMax != max) {
 			NotificationChain msgs = null;
@@ -287,6 +293,7 @@ public class GraphDefinitionLinkImpl extends BackboneElementImpl implements Grap
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Id getSourceId() {
 		return sourceId;
 	}
@@ -311,6 +318,7 @@ public class GraphDefinitionLinkImpl extends BackboneElementImpl implements Grap
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSourceId(Id newSourceId) {
 		if (newSourceId != sourceId) {
 			NotificationChain msgs = null;
@@ -330,6 +338,7 @@ public class GraphDefinitionLinkImpl extends BackboneElementImpl implements Grap
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPath() {
 		return path;
 	}
@@ -354,6 +363,7 @@ public class GraphDefinitionLinkImpl extends BackboneElementImpl implements Grap
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPath(org.hl7.fhir.String newPath) {
 		if (newPath != path) {
 			NotificationChain msgs = null;
@@ -373,6 +383,7 @@ public class GraphDefinitionLinkImpl extends BackboneElementImpl implements Grap
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getSliceName() {
 		return sliceName;
 	}
@@ -397,6 +408,7 @@ public class GraphDefinitionLinkImpl extends BackboneElementImpl implements Grap
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSliceName(org.hl7.fhir.String newSliceName) {
 		if (newSliceName != sliceName) {
 			NotificationChain msgs = null;
@@ -416,6 +428,7 @@ public class GraphDefinitionLinkImpl extends BackboneElementImpl implements Grap
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Id getTargetId() {
 		return targetId;
 	}
@@ -440,6 +453,7 @@ public class GraphDefinitionLinkImpl extends BackboneElementImpl implements Grap
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTargetId(Id newTargetId) {
 		if (newTargetId != targetId) {
 			NotificationChain msgs = null;
@@ -459,6 +473,7 @@ public class GraphDefinitionLinkImpl extends BackboneElementImpl implements Grap
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getParams() {
 		return params;
 	}
@@ -483,6 +498,7 @@ public class GraphDefinitionLinkImpl extends BackboneElementImpl implements Grap
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setParams(org.hl7.fhir.String newParams) {
 		if (newParams != params) {
 			NotificationChain msgs = null;
@@ -502,6 +518,7 @@ public class GraphDefinitionLinkImpl extends BackboneElementImpl implements Grap
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<GraphDefinitionCompartment> getCompartment() {
 		if (compartment == null) {
 			compartment = new EObjectContainmentEList<GraphDefinitionCompartment>(GraphDefinitionCompartment.class, this, FhirPackage.GRAPH_DEFINITION_LINK__COMPARTMENT);

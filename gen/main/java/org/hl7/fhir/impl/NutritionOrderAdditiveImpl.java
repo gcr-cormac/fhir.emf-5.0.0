@@ -85,6 +85,7 @@ public class NutritionOrderAdditiveImpl extends BackboneElementImpl implements N
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getType() {
 		return type;
 	}
@@ -109,6 +110,7 @@ public class NutritionOrderAdditiveImpl extends BackboneElementImpl implements N
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableReference newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -128,6 +130,7 @@ public class NutritionOrderAdditiveImpl extends BackboneElementImpl implements N
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getProductName() {
 		return productName;
 	}
@@ -152,6 +155,7 @@ public class NutritionOrderAdditiveImpl extends BackboneElementImpl implements N
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProductName(org.hl7.fhir.String newProductName) {
 		if (newProductName != productName) {
 			NotificationChain msgs = null;
@@ -171,6 +175,7 @@ public class NutritionOrderAdditiveImpl extends BackboneElementImpl implements N
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getQuantity() {
 		return quantity;
 	}
@@ -195,6 +200,7 @@ public class NutritionOrderAdditiveImpl extends BackboneElementImpl implements N
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setQuantity(Quantity newQuantity) {
 		if (newQuantity != quantity) {
 			NotificationChain msgs = null;

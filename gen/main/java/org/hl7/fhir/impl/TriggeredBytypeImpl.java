@@ -79,6 +79,7 @@ public class TriggeredBytypeImpl extends ElementImpl implements TriggeredBytype 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TriggeredBytypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class TriggeredBytypeImpl extends ElementImpl implements TriggeredBytype 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(TriggeredBytypeEnum newValue) {
 		TriggeredBytypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class TriggeredBytypeImpl extends ElementImpl implements TriggeredBytype 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		TriggeredBytypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class TriggeredBytypeImpl extends ElementImpl implements TriggeredBytype 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

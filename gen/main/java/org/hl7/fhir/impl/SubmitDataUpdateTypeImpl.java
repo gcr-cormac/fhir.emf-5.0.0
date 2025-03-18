@@ -79,6 +79,7 @@ public class SubmitDataUpdateTypeImpl extends ElementImpl implements SubmitDataU
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SubmitDataUpdateTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class SubmitDataUpdateTypeImpl extends ElementImpl implements SubmitDataU
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(SubmitDataUpdateTypeEnum newValue) {
 		SubmitDataUpdateTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class SubmitDataUpdateTypeImpl extends ElementImpl implements SubmitDataU
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		SubmitDataUpdateTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class SubmitDataUpdateTypeImpl extends ElementImpl implements SubmitDataU
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

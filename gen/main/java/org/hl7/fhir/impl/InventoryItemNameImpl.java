@@ -85,6 +85,7 @@ public class InventoryItemNameImpl extends BackboneElementImpl implements Invent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getNameType() {
 		return nameType;
 	}
@@ -109,6 +110,7 @@ public class InventoryItemNameImpl extends BackboneElementImpl implements Invent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNameType(Coding newNameType) {
 		if (newNameType != nameType) {
 			NotificationChain msgs = null;
@@ -128,6 +130,7 @@ public class InventoryItemNameImpl extends BackboneElementImpl implements Invent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CommonLanguages getLanguage() {
 		return language;
 	}
@@ -152,6 +155,7 @@ public class InventoryItemNameImpl extends BackboneElementImpl implements Invent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLanguage(CommonLanguages newLanguage) {
 		if (newLanguage != language) {
 			NotificationChain msgs = null;
@@ -171,6 +175,7 @@ public class InventoryItemNameImpl extends BackboneElementImpl implements Invent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -195,6 +200,7 @@ public class InventoryItemNameImpl extends BackboneElementImpl implements Invent
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;

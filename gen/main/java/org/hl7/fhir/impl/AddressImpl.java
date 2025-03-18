@@ -170,6 +170,7 @@ public class AddressImpl extends DataTypeImpl implements Address {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AddressUse getUse() {
 		return use;
 	}
@@ -194,6 +195,7 @@ public class AddressImpl extends DataTypeImpl implements Address {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUse(AddressUse newUse) {
 		if (newUse != use) {
 			NotificationChain msgs = null;
@@ -213,6 +215,7 @@ public class AddressImpl extends DataTypeImpl implements Address {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AddressType getType() {
 		return type;
 	}
@@ -237,6 +240,7 @@ public class AddressImpl extends DataTypeImpl implements Address {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(AddressType newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -256,6 +260,7 @@ public class AddressImpl extends DataTypeImpl implements Address {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getText() {
 		return text;
 	}
@@ -280,6 +285,7 @@ public class AddressImpl extends DataTypeImpl implements Address {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setText(org.hl7.fhir.String newText) {
 		if (newText != text) {
 			NotificationChain msgs = null;
@@ -299,6 +305,7 @@ public class AddressImpl extends DataTypeImpl implements Address {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<org.hl7.fhir.String> getLine() {
 		if (line == null) {
 			line = new EObjectContainmentEList<org.hl7.fhir.String>(org.hl7.fhir.String.class, this, FhirPackage.ADDRESS__LINE);
@@ -311,6 +318,7 @@ public class AddressImpl extends DataTypeImpl implements Address {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getCity() {
 		return city;
 	}
@@ -335,6 +343,7 @@ public class AddressImpl extends DataTypeImpl implements Address {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCity(org.hl7.fhir.String newCity) {
 		if (newCity != city) {
 			NotificationChain msgs = null;
@@ -354,6 +363,7 @@ public class AddressImpl extends DataTypeImpl implements Address {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDistrict() {
 		return district;
 	}
@@ -378,6 +388,7 @@ public class AddressImpl extends DataTypeImpl implements Address {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDistrict(org.hl7.fhir.String newDistrict) {
 		if (newDistrict != district) {
 			NotificationChain msgs = null;
@@ -397,6 +408,7 @@ public class AddressImpl extends DataTypeImpl implements Address {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getState() {
 		return state;
 	}
@@ -421,6 +433,7 @@ public class AddressImpl extends DataTypeImpl implements Address {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setState(org.hl7.fhir.String newState) {
 		if (newState != state) {
 			NotificationChain msgs = null;
@@ -440,6 +453,7 @@ public class AddressImpl extends DataTypeImpl implements Address {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPostalCode() {
 		return postalCode;
 	}
@@ -464,6 +478,7 @@ public class AddressImpl extends DataTypeImpl implements Address {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPostalCode(org.hl7.fhir.String newPostalCode) {
 		if (newPostalCode != postalCode) {
 			NotificationChain msgs = null;
@@ -483,6 +498,7 @@ public class AddressImpl extends DataTypeImpl implements Address {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getCountry() {
 		return country;
 	}
@@ -507,6 +523,7 @@ public class AddressImpl extends DataTypeImpl implements Address {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCountry(org.hl7.fhir.String newCountry) {
 		if (newCountry != country) {
 			NotificationChain msgs = null;
@@ -526,6 +543,7 @@ public class AddressImpl extends DataTypeImpl implements Address {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getPeriod() {
 		return period;
 	}
@@ -550,6 +568,7 @@ public class AddressImpl extends DataTypeImpl implements Address {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriod(Period newPeriod) {
 		if (newPeriod != period) {
 			NotificationChain msgs = null;

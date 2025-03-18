@@ -116,6 +116,7 @@ public class MedicationKnowledgeDefinitionalImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getDefinition() {
 		if (definition == null) {
 			definition = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.MEDICATION_KNOWLEDGE_DEFINITIONAL__DEFINITION);
@@ -128,6 +129,7 @@ public class MedicationKnowledgeDefinitionalImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getDoseForm() {
 		return doseForm;
 	}
@@ -152,6 +154,7 @@ public class MedicationKnowledgeDefinitionalImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDoseForm(CodeableConcept newDoseForm) {
 		if (newDoseForm != doseForm) {
 			NotificationChain msgs = null;
@@ -171,6 +174,7 @@ public class MedicationKnowledgeDefinitionalImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getIntendedRoute() {
 		if (intendedRoute == null) {
 			intendedRoute = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.MEDICATION_KNOWLEDGE_DEFINITIONAL__INTENDED_ROUTE);
@@ -183,6 +187,7 @@ public class MedicationKnowledgeDefinitionalImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MedicationKnowledgeIngredient> getIngredient() {
 		if (ingredient == null) {
 			ingredient = new EObjectContainmentEList<MedicationKnowledgeIngredient>(MedicationKnowledgeIngredient.class, this, FhirPackage.MEDICATION_KNOWLEDGE_DEFINITIONAL__INGREDIENT);
@@ -195,6 +200,7 @@ public class MedicationKnowledgeDefinitionalImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MedicationKnowledgeDrugCharacteristic> getDrugCharacteristic() {
 		if (drugCharacteristic == null) {
 			drugCharacteristic = new EObjectContainmentEList<MedicationKnowledgeDrugCharacteristic>(MedicationKnowledgeDrugCharacteristic.class, this, FhirPackage.MEDICATION_KNOWLEDGE_DEFINITIONAL__DRUG_CHARACTERISTIC);

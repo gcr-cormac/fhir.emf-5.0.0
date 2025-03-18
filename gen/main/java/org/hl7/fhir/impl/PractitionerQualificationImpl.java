@@ -105,6 +105,7 @@ public class PractitionerQualificationImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.PRACTITIONER_QUALIFICATION__IDENTIFIER);
@@ -117,6 +118,7 @@ public class PractitionerQualificationImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -141,6 +143,7 @@ public class PractitionerQualificationImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -160,6 +163,7 @@ public class PractitionerQualificationImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getPeriod() {
 		return period;
 	}
@@ -184,6 +188,7 @@ public class PractitionerQualificationImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriod(Period newPeriod) {
 		if (newPeriod != period) {
 			NotificationChain msgs = null;
@@ -203,6 +208,7 @@ public class PractitionerQualificationImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getIssuer() {
 		return issuer;
 	}
@@ -227,6 +233,7 @@ public class PractitionerQualificationImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIssuer(Reference newIssuer) {
 		if (newIssuer != issuer) {
 			NotificationChain msgs = null;

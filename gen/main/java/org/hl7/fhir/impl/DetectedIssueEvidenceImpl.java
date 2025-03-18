@@ -78,6 +78,7 @@ public class DetectedIssueEvidenceImpl extends BackboneElementImpl implements De
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCode() {
 		if (code == null) {
 			code = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.DETECTED_ISSUE_EVIDENCE__CODE);
@@ -90,6 +91,7 @@ public class DetectedIssueEvidenceImpl extends BackboneElementImpl implements De
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getDetail() {
 		if (detail == null) {
 			detail = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.DETECTED_ISSUE_EVIDENCE__DETAIL);

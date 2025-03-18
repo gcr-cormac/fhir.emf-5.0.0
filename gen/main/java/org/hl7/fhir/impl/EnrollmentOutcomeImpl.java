@@ -79,6 +79,7 @@ public class EnrollmentOutcomeImpl extends ElementImpl implements EnrollmentOutc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EnrollmentOutcomeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class EnrollmentOutcomeImpl extends ElementImpl implements EnrollmentOutc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(EnrollmentOutcomeEnum newValue) {
 		EnrollmentOutcomeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class EnrollmentOutcomeImpl extends ElementImpl implements EnrollmentOutc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		EnrollmentOutcomeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class EnrollmentOutcomeImpl extends ElementImpl implements EnrollmentOutc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

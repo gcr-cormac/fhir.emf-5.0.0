@@ -230,6 +230,7 @@ public class ContractValuedItemImpl extends BackboneElementImpl implements Contr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getEntityCodeableConcept() {
 		return entityCodeableConcept;
 	}
@@ -254,6 +255,7 @@ public class ContractValuedItemImpl extends BackboneElementImpl implements Contr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEntityCodeableConcept(CodeableConcept newEntityCodeableConcept) {
 		if (newEntityCodeableConcept != entityCodeableConcept) {
 			NotificationChain msgs = null;
@@ -273,6 +275,7 @@ public class ContractValuedItemImpl extends BackboneElementImpl implements Contr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getEntityReference() {
 		return entityReference;
 	}
@@ -297,6 +300,7 @@ public class ContractValuedItemImpl extends BackboneElementImpl implements Contr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEntityReference(Reference newEntityReference) {
 		if (newEntityReference != entityReference) {
 			NotificationChain msgs = null;
@@ -316,6 +320,7 @@ public class ContractValuedItemImpl extends BackboneElementImpl implements Contr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Identifier getIdentifier() {
 		return identifier;
 	}
@@ -340,6 +345,7 @@ public class ContractValuedItemImpl extends BackboneElementImpl implements Contr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIdentifier(Identifier newIdentifier) {
 		if (newIdentifier != identifier) {
 			NotificationChain msgs = null;
@@ -359,6 +365,7 @@ public class ContractValuedItemImpl extends BackboneElementImpl implements Contr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getEffectiveTime() {
 		return effectiveTime;
 	}
@@ -383,6 +390,7 @@ public class ContractValuedItemImpl extends BackboneElementImpl implements Contr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEffectiveTime(DateTime newEffectiveTime) {
 		if (newEffectiveTime != effectiveTime) {
 			NotificationChain msgs = null;
@@ -402,6 +410,7 @@ public class ContractValuedItemImpl extends BackboneElementImpl implements Contr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getQuantity() {
 		return quantity;
 	}
@@ -426,6 +435,7 @@ public class ContractValuedItemImpl extends BackboneElementImpl implements Contr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setQuantity(Quantity newQuantity) {
 		if (newQuantity != quantity) {
 			NotificationChain msgs = null;
@@ -445,6 +455,7 @@ public class ContractValuedItemImpl extends BackboneElementImpl implements Contr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Money getUnitPrice() {
 		return unitPrice;
 	}
@@ -469,6 +480,7 @@ public class ContractValuedItemImpl extends BackboneElementImpl implements Contr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUnitPrice(Money newUnitPrice) {
 		if (newUnitPrice != unitPrice) {
 			NotificationChain msgs = null;
@@ -488,6 +500,7 @@ public class ContractValuedItemImpl extends BackboneElementImpl implements Contr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Decimal getFactor() {
 		return factor;
 	}
@@ -512,6 +525,7 @@ public class ContractValuedItemImpl extends BackboneElementImpl implements Contr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFactor(Decimal newFactor) {
 		if (newFactor != factor) {
 			NotificationChain msgs = null;
@@ -531,6 +545,7 @@ public class ContractValuedItemImpl extends BackboneElementImpl implements Contr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Decimal getPoints() {
 		return points;
 	}
@@ -555,6 +570,7 @@ public class ContractValuedItemImpl extends BackboneElementImpl implements Contr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPoints(Decimal newPoints) {
 		if (newPoints != points) {
 			NotificationChain msgs = null;
@@ -574,6 +590,7 @@ public class ContractValuedItemImpl extends BackboneElementImpl implements Contr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Money getNet() {
 		return net;
 	}
@@ -598,6 +615,7 @@ public class ContractValuedItemImpl extends BackboneElementImpl implements Contr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNet(Money newNet) {
 		if (newNet != net) {
 			NotificationChain msgs = null;
@@ -617,6 +635,7 @@ public class ContractValuedItemImpl extends BackboneElementImpl implements Contr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPayment() {
 		return payment;
 	}
@@ -641,6 +660,7 @@ public class ContractValuedItemImpl extends BackboneElementImpl implements Contr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPayment(org.hl7.fhir.String newPayment) {
 		if (newPayment != payment) {
 			NotificationChain msgs = null;
@@ -660,6 +680,7 @@ public class ContractValuedItemImpl extends BackboneElementImpl implements Contr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getPaymentDate() {
 		return paymentDate;
 	}
@@ -684,6 +705,7 @@ public class ContractValuedItemImpl extends BackboneElementImpl implements Contr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPaymentDate(DateTime newPaymentDate) {
 		if (newPaymentDate != paymentDate) {
 			NotificationChain msgs = null;
@@ -703,6 +725,7 @@ public class ContractValuedItemImpl extends BackboneElementImpl implements Contr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getResponsible() {
 		return responsible;
 	}
@@ -727,6 +750,7 @@ public class ContractValuedItemImpl extends BackboneElementImpl implements Contr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setResponsible(Reference newResponsible) {
 		if (newResponsible != responsible) {
 			NotificationChain msgs = null;
@@ -746,6 +770,7 @@ public class ContractValuedItemImpl extends BackboneElementImpl implements Contr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getRecipient() {
 		return recipient;
 	}
@@ -770,6 +795,7 @@ public class ContractValuedItemImpl extends BackboneElementImpl implements Contr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRecipient(Reference newRecipient) {
 		if (newRecipient != recipient) {
 			NotificationChain msgs = null;
@@ -789,6 +815,7 @@ public class ContractValuedItemImpl extends BackboneElementImpl implements Contr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<org.hl7.fhir.String> getLinkId() {
 		if (linkId == null) {
 			linkId = new EObjectContainmentEList<org.hl7.fhir.String>(org.hl7.fhir.String.class, this, FhirPackage.CONTRACT_VALUED_ITEM__LINK_ID);
@@ -801,6 +828,7 @@ public class ContractValuedItemImpl extends BackboneElementImpl implements Contr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<UnsignedInt> getSecurityLabelNumber() {
 		if (securityLabelNumber == null) {
 			securityLabelNumber = new EObjectContainmentEList<UnsignedInt>(UnsignedInt.class, this, FhirPackage.CONTRACT_VALUED_ITEM__SECURITY_LABEL_NUMBER);

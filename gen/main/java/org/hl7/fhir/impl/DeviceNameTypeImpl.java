@@ -79,6 +79,7 @@ public class DeviceNameTypeImpl extends ElementImpl implements DeviceNameType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DeviceNameTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class DeviceNameTypeImpl extends ElementImpl implements DeviceNameType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(DeviceNameTypeEnum newValue) {
 		DeviceNameTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class DeviceNameTypeImpl extends ElementImpl implements DeviceNameType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		DeviceNameTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class DeviceNameTypeImpl extends ElementImpl implements DeviceNameType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

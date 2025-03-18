@@ -300,6 +300,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getUrl() {
 		return url;
 	}
@@ -324,6 +325,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUrl(Uri newUrl) {
 		if (newUrl != url) {
 			NotificationChain msgs = null;
@@ -343,6 +345,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.GRAPH_DEFINITION__IDENTIFIER);
@@ -355,6 +358,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersion() {
 		return version;
 	}
@@ -379,6 +383,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersion(org.hl7.fhir.String newVersion) {
 		if (newVersion != version) {
 			NotificationChain msgs = null;
@@ -398,6 +403,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersionAlgorithmString() {
 		return versionAlgorithmString;
 	}
@@ -422,6 +428,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersionAlgorithmString(org.hl7.fhir.String newVersionAlgorithmString) {
 		if (newVersionAlgorithmString != versionAlgorithmString) {
 			NotificationChain msgs = null;
@@ -441,6 +448,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getVersionAlgorithmCoding() {
 		return versionAlgorithmCoding;
 	}
@@ -465,6 +473,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersionAlgorithmCoding(Coding newVersionAlgorithmCoding) {
 		if (newVersionAlgorithmCoding != versionAlgorithmCoding) {
 			NotificationChain msgs = null;
@@ -484,6 +493,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -508,6 +518,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -527,6 +538,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getTitle() {
 		return title;
 	}
@@ -551,6 +563,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(org.hl7.fhir.String newTitle) {
 		if (newTitle != title) {
 			NotificationChain msgs = null;
@@ -570,6 +583,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PublicationStatus getStatus() {
 		return status;
 	}
@@ -594,6 +608,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(PublicationStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -613,6 +628,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getExperimental() {
 		return experimental;
 	}
@@ -637,6 +653,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExperimental(org.hl7.fhir.Boolean newExperimental) {
 		if (newExperimental != experimental) {
 			NotificationChain msgs = null;
@@ -656,6 +673,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getDate() {
 		return date;
 	}
@@ -680,6 +698,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDate(DateTime newDate) {
 		if (newDate != date) {
 			NotificationChain msgs = null;
@@ -699,6 +718,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPublisher() {
 		return publisher;
 	}
@@ -723,6 +743,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPublisher(org.hl7.fhir.String newPublisher) {
 		if (newPublisher != publisher) {
 			NotificationChain msgs = null;
@@ -742,6 +763,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getContact() {
 		if (contact == null) {
 			contact = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.GRAPH_DEFINITION__CONTACT);
@@ -754,6 +776,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -778,6 +801,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -797,6 +821,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<UsageContext> getUseContext() {
 		if (useContext == null) {
 			useContext = new EObjectContainmentEList<UsageContext>(UsageContext.class, this, FhirPackage.GRAPH_DEFINITION__USE_CONTEXT);
@@ -809,6 +834,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getJurisdiction() {
 		if (jurisdiction == null) {
 			jurisdiction = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.GRAPH_DEFINITION__JURISDICTION);
@@ -821,6 +847,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getPurpose() {
 		return purpose;
 	}
@@ -845,6 +872,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPurpose(Markdown newPurpose) {
 		if (newPurpose != purpose) {
 			NotificationChain msgs = null;
@@ -864,6 +892,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getCopyright() {
 		return copyright;
 	}
@@ -888,6 +917,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCopyright(Markdown newCopyright) {
 		if (newCopyright != copyright) {
 			NotificationChain msgs = null;
@@ -907,6 +937,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getCopyrightLabel() {
 		return copyrightLabel;
 	}
@@ -931,6 +962,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCopyrightLabel(org.hl7.fhir.String newCopyrightLabel) {
 		if (newCopyrightLabel != copyrightLabel) {
 			NotificationChain msgs = null;
@@ -950,6 +982,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Id getStart() {
 		return start;
 	}
@@ -974,6 +1007,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStart(Id newStart) {
 		if (newStart != start) {
 			NotificationChain msgs = null;
@@ -993,6 +1027,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<GraphDefinitionNode> getNode() {
 		if (node == null) {
 			node = new EObjectContainmentEList<GraphDefinitionNode>(GraphDefinitionNode.class, this, FhirPackage.GRAPH_DEFINITION__NODE);
@@ -1005,6 +1040,7 @@ public class GraphDefinitionImpl extends CanonicalResourceImpl implements GraphD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<GraphDefinitionLink> getLink() {
 		if (link == null) {
 			link = new EObjectContainmentEList<GraphDefinitionLink>(GraphDefinitionLink.class, this, FhirPackage.GRAPH_DEFINITION__LINK);

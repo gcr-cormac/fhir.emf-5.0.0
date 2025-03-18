@@ -79,6 +79,7 @@ public class MessageheaderResponseRequestImpl extends ElementImpl implements Mes
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public MessageheaderResponseRequestEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class MessageheaderResponseRequestImpl extends ElementImpl implements Mes
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(MessageheaderResponseRequestEnum newValue) {
 		MessageheaderResponseRequestEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class MessageheaderResponseRequestImpl extends ElementImpl implements Mes
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		MessageheaderResponseRequestEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class MessageheaderResponseRequestImpl extends ElementImpl implements Mes
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

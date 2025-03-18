@@ -103,6 +103,7 @@ public class ProvenanceAgentImpl extends BackboneElementImpl implements Provenan
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -127,6 +128,7 @@ public class ProvenanceAgentImpl extends BackboneElementImpl implements Provenan
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -146,6 +148,7 @@ public class ProvenanceAgentImpl extends BackboneElementImpl implements Provenan
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getRole() {
 		if (role == null) {
 			role = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.PROVENANCE_AGENT__ROLE);
@@ -158,6 +161,7 @@ public class ProvenanceAgentImpl extends BackboneElementImpl implements Provenan
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getWho() {
 		return who;
 	}
@@ -182,6 +186,7 @@ public class ProvenanceAgentImpl extends BackboneElementImpl implements Provenan
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setWho(Reference newWho) {
 		if (newWho != who) {
 			NotificationChain msgs = null;
@@ -201,6 +206,7 @@ public class ProvenanceAgentImpl extends BackboneElementImpl implements Provenan
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getOnBehalfOf() {
 		return onBehalfOf;
 	}
@@ -225,6 +231,7 @@ public class ProvenanceAgentImpl extends BackboneElementImpl implements Provenan
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOnBehalfOf(Reference newOnBehalfOf) {
 		if (newOnBehalfOf != onBehalfOf) {
 			NotificationChain msgs = null;

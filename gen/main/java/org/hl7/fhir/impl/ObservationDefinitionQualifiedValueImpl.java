@@ -194,6 +194,7 @@ public class ObservationDefinitionQualifiedValueImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getContext() {
 		return context;
 	}
@@ -218,6 +219,7 @@ public class ObservationDefinitionQualifiedValueImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setContext(CodeableConcept newContext) {
 		if (newContext != context) {
 			NotificationChain msgs = null;
@@ -237,6 +239,7 @@ public class ObservationDefinitionQualifiedValueImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getAppliesTo() {
 		if (appliesTo == null) {
 			appliesTo = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.OBSERVATION_DEFINITION_QUALIFIED_VALUE__APPLIES_TO);
@@ -249,6 +252,7 @@ public class ObservationDefinitionQualifiedValueImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AdministrativeGender getGender() {
 		return gender;
 	}
@@ -273,6 +277,7 @@ public class ObservationDefinitionQualifiedValueImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setGender(AdministrativeGender newGender) {
 		if (newGender != gender) {
 			NotificationChain msgs = null;
@@ -292,6 +297,7 @@ public class ObservationDefinitionQualifiedValueImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Range getAge() {
 		return age;
 	}
@@ -316,6 +322,7 @@ public class ObservationDefinitionQualifiedValueImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAge(Range newAge) {
 		if (newAge != age) {
 			NotificationChain msgs = null;
@@ -335,6 +342,7 @@ public class ObservationDefinitionQualifiedValueImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Range getGestationalAge() {
 		return gestationalAge;
 	}
@@ -359,6 +367,7 @@ public class ObservationDefinitionQualifiedValueImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setGestationalAge(Range newGestationalAge) {
 		if (newGestationalAge != gestationalAge) {
 			NotificationChain msgs = null;
@@ -378,6 +387,7 @@ public class ObservationDefinitionQualifiedValueImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getCondition() {
 		return condition;
 	}
@@ -402,6 +412,7 @@ public class ObservationDefinitionQualifiedValueImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCondition(org.hl7.fhir.String newCondition) {
 		if (newCondition != condition) {
 			NotificationChain msgs = null;
@@ -421,6 +432,7 @@ public class ObservationDefinitionQualifiedValueImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ObservationRangeCategory getRangeCategory() {
 		return rangeCategory;
 	}
@@ -445,6 +457,7 @@ public class ObservationDefinitionQualifiedValueImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRangeCategory(ObservationRangeCategory newRangeCategory) {
 		if (newRangeCategory != rangeCategory) {
 			NotificationChain msgs = null;
@@ -464,6 +477,7 @@ public class ObservationDefinitionQualifiedValueImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Range getRange() {
 		return range;
 	}
@@ -488,6 +502,7 @@ public class ObservationDefinitionQualifiedValueImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRange(Range newRange) {
 		if (newRange != range) {
 			NotificationChain msgs = null;
@@ -507,6 +522,7 @@ public class ObservationDefinitionQualifiedValueImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getValidCodedValueSet() {
 		return validCodedValueSet;
 	}
@@ -531,6 +547,7 @@ public class ObservationDefinitionQualifiedValueImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValidCodedValueSet(Canonical newValidCodedValueSet) {
 		if (newValidCodedValueSet != validCodedValueSet) {
 			NotificationChain msgs = null;
@@ -550,6 +567,7 @@ public class ObservationDefinitionQualifiedValueImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getNormalCodedValueSet() {
 		return normalCodedValueSet;
 	}
@@ -574,6 +592,7 @@ public class ObservationDefinitionQualifiedValueImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNormalCodedValueSet(Canonical newNormalCodedValueSet) {
 		if (newNormalCodedValueSet != normalCodedValueSet) {
 			NotificationChain msgs = null;
@@ -593,6 +612,7 @@ public class ObservationDefinitionQualifiedValueImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getAbnormalCodedValueSet() {
 		return abnormalCodedValueSet;
 	}
@@ -617,6 +637,7 @@ public class ObservationDefinitionQualifiedValueImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAbnormalCodedValueSet(Canonical newAbnormalCodedValueSet) {
 		if (newAbnormalCodedValueSet != abnormalCodedValueSet) {
 			NotificationChain msgs = null;
@@ -636,6 +657,7 @@ public class ObservationDefinitionQualifiedValueImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getCriticalCodedValueSet() {
 		return criticalCodedValueSet;
 	}
@@ -660,6 +682,7 @@ public class ObservationDefinitionQualifiedValueImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCriticalCodedValueSet(Canonical newCriticalCodedValueSet) {
 		if (newCriticalCodedValueSet != criticalCodedValueSet) {
 			NotificationChain msgs = null;

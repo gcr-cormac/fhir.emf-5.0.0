@@ -79,6 +79,7 @@ public class DeviceProductionIdentifierInUDIImpl extends ElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DeviceProductionIdentifierInUDIEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class DeviceProductionIdentifierInUDIImpl extends ElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(DeviceProductionIdentifierInUDIEnum newValue) {
 		DeviceProductionIdentifierInUDIEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class DeviceProductionIdentifierInUDIImpl extends ElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		DeviceProductionIdentifierInUDIEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class DeviceProductionIdentifierInUDIImpl extends ElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

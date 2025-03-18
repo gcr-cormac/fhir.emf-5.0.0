@@ -92,6 +92,7 @@ public class ValueSetConceptImpl extends BackboneElementImpl implements ValueSet
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Code getCode() {
 		return code;
 	}
@@ -116,6 +117,7 @@ public class ValueSetConceptImpl extends BackboneElementImpl implements ValueSet
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(Code newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -135,6 +137,7 @@ public class ValueSetConceptImpl extends BackboneElementImpl implements ValueSet
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDisplay() {
 		return display;
 	}
@@ -159,6 +162,7 @@ public class ValueSetConceptImpl extends BackboneElementImpl implements ValueSet
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDisplay(org.hl7.fhir.String newDisplay) {
 		if (newDisplay != display) {
 			NotificationChain msgs = null;
@@ -178,6 +182,7 @@ public class ValueSetConceptImpl extends BackboneElementImpl implements ValueSet
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ValueSetDesignation> getDesignation() {
 		if (designation == null) {
 			designation = new EObjectContainmentEList<ValueSetDesignation>(ValueSetDesignation.class, this, FhirPackage.VALUE_SET_CONCEPT__DESIGNATION);

@@ -103,6 +103,7 @@ public class DeviceDefinitionUdiDeviceIdentifierImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDeviceIdentifier() {
 		return deviceIdentifier;
 	}
@@ -127,6 +128,7 @@ public class DeviceDefinitionUdiDeviceIdentifierImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDeviceIdentifier(org.hl7.fhir.String newDeviceIdentifier) {
 		if (newDeviceIdentifier != deviceIdentifier) {
 			NotificationChain msgs = null;
@@ -146,6 +148,7 @@ public class DeviceDefinitionUdiDeviceIdentifierImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getIssuer() {
 		return issuer;
 	}
@@ -170,6 +173,7 @@ public class DeviceDefinitionUdiDeviceIdentifierImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIssuer(Uri newIssuer) {
 		if (newIssuer != issuer) {
 			NotificationChain msgs = null;
@@ -189,6 +193,7 @@ public class DeviceDefinitionUdiDeviceIdentifierImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getJurisdiction() {
 		return jurisdiction;
 	}
@@ -213,6 +218,7 @@ public class DeviceDefinitionUdiDeviceIdentifierImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setJurisdiction(Uri newJurisdiction) {
 		if (newJurisdiction != jurisdiction) {
 			NotificationChain msgs = null;
@@ -232,6 +238,7 @@ public class DeviceDefinitionUdiDeviceIdentifierImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<DeviceDefinitionMarketDistribution> getMarketDistribution() {
 		if (marketDistribution == null) {
 			marketDistribution = new EObjectContainmentEList<DeviceDefinitionMarketDistribution>(DeviceDefinitionMarketDistribution.class, this, FhirPackage.DEVICE_DEFINITION_UDI_DEVICE_IDENTIFIER__MARKET_DISTRIBUTION);

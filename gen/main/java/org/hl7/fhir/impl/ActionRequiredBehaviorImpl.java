@@ -79,6 +79,7 @@ public class ActionRequiredBehaviorImpl extends ElementImpl implements ActionReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ActionRequiredBehaviorEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ActionRequiredBehaviorImpl extends ElementImpl implements ActionReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ActionRequiredBehaviorEnum newValue) {
 		ActionRequiredBehaviorEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ActionRequiredBehaviorImpl extends ElementImpl implements ActionReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ActionRequiredBehaviorEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ActionRequiredBehaviorImpl extends ElementImpl implements ActionReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

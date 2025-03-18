@@ -73,6 +73,7 @@ public class StructureDefinitionContextImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ExtensionContextType getType() {
 		return type;
 	}
@@ -97,6 +98,7 @@ public class StructureDefinitionContextImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(ExtensionContextType newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -116,6 +118,7 @@ public class StructureDefinitionContextImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getExpression() {
 		return expression;
 	}
@@ -140,6 +143,7 @@ public class StructureDefinitionContextImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExpression(org.hl7.fhir.String newExpression) {
 		if (newExpression != expression) {
 			NotificationChain msgs = null;

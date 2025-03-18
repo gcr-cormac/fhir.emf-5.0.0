@@ -79,6 +79,7 @@ public class ExampleScenarioActorTypeImpl extends ElementImpl implements Example
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ExampleScenarioActorTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ExampleScenarioActorTypeImpl extends ElementImpl implements Example
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ExampleScenarioActorTypeEnum newValue) {
 		ExampleScenarioActorTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ExampleScenarioActorTypeImpl extends ElementImpl implements Example
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ExampleScenarioActorTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ExampleScenarioActorTypeImpl extends ElementImpl implements Example
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

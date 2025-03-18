@@ -85,6 +85,7 @@ public class SubstanceDefinitionMolecularWeightImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getMethod() {
 		return method;
 	}
@@ -109,6 +110,7 @@ public class SubstanceDefinitionMolecularWeightImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMethod(CodeableConcept newMethod) {
 		if (newMethod != method) {
 			NotificationChain msgs = null;
@@ -128,6 +130,7 @@ public class SubstanceDefinitionMolecularWeightImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -152,6 +155,7 @@ public class SubstanceDefinitionMolecularWeightImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -171,6 +175,7 @@ public class SubstanceDefinitionMolecularWeightImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getAmount() {
 		return amount;
 	}
@@ -195,6 +200,7 @@ public class SubstanceDefinitionMolecularWeightImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAmount(Quantity newAmount) {
 		if (newAmount != amount) {
 			NotificationChain msgs = null;

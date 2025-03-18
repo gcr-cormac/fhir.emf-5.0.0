@@ -86,6 +86,7 @@ public class InventoryItemAssociationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getAssociationType() {
 		return associationType;
 	}
@@ -110,6 +111,7 @@ public class InventoryItemAssociationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAssociationType(CodeableConcept newAssociationType) {
 		if (newAssociationType != associationType) {
 			NotificationChain msgs = null;
@@ -129,6 +131,7 @@ public class InventoryItemAssociationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getRelatedItem() {
 		return relatedItem;
 	}
@@ -153,6 +156,7 @@ public class InventoryItemAssociationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRelatedItem(Reference newRelatedItem) {
 		if (newRelatedItem != relatedItem) {
 			NotificationChain msgs = null;
@@ -172,6 +176,7 @@ public class InventoryItemAssociationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Ratio getQuantity() {
 		return quantity;
 	}
@@ -196,6 +201,7 @@ public class InventoryItemAssociationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setQuantity(Ratio newQuantity) {
 		if (newQuantity != quantity) {
 			NotificationChain msgs = null;

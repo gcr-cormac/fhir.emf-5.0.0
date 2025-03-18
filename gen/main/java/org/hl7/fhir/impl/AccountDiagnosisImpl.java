@@ -127,6 +127,7 @@ public class AccountDiagnosisImpl extends BackboneElementImpl implements Account
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PositiveInt getSequence() {
 		return sequence;
 	}
@@ -151,6 +152,7 @@ public class AccountDiagnosisImpl extends BackboneElementImpl implements Account
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSequence(PositiveInt newSequence) {
 		if (newSequence != sequence) {
 			NotificationChain msgs = null;
@@ -170,6 +172,7 @@ public class AccountDiagnosisImpl extends BackboneElementImpl implements Account
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getCondition() {
 		return condition;
 	}
@@ -194,6 +197,7 @@ public class AccountDiagnosisImpl extends BackboneElementImpl implements Account
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCondition(CodeableReference newCondition) {
 		if (newCondition != condition) {
 			NotificationChain msgs = null;
@@ -213,6 +217,7 @@ public class AccountDiagnosisImpl extends BackboneElementImpl implements Account
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getDateOfDiagnosis() {
 		return dateOfDiagnosis;
 	}
@@ -237,6 +242,7 @@ public class AccountDiagnosisImpl extends BackboneElementImpl implements Account
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDateOfDiagnosis(DateTime newDateOfDiagnosis) {
 		if (newDateOfDiagnosis != dateOfDiagnosis) {
 			NotificationChain msgs = null;
@@ -256,6 +262,7 @@ public class AccountDiagnosisImpl extends BackboneElementImpl implements Account
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getType() {
 		if (type == null) {
 			type = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.ACCOUNT_DIAGNOSIS__TYPE);
@@ -268,6 +275,7 @@ public class AccountDiagnosisImpl extends BackboneElementImpl implements Account
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getOnAdmission() {
 		return onAdmission;
 	}
@@ -292,6 +300,7 @@ public class AccountDiagnosisImpl extends BackboneElementImpl implements Account
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOnAdmission(org.hl7.fhir.Boolean newOnAdmission) {
 		if (newOnAdmission != onAdmission) {
 			NotificationChain msgs = null;
@@ -311,6 +320,7 @@ public class AccountDiagnosisImpl extends BackboneElementImpl implements Account
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getPackageCode() {
 		if (packageCode == null) {
 			packageCode = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.ACCOUNT_DIAGNOSIS__PACKAGE_CODE);

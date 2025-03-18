@@ -79,6 +79,7 @@ public class HTTPVerbImpl extends ElementImpl implements HTTPVerb {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public HTTPVerbEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class HTTPVerbImpl extends ElementImpl implements HTTPVerb {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(HTTPVerbEnum newValue) {
 		HTTPVerbEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class HTTPVerbImpl extends ElementImpl implements HTTPVerb {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		HTTPVerbEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class HTTPVerbImpl extends ElementImpl implements HTTPVerb {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

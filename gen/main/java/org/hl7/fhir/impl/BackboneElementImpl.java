@@ -66,6 +66,7 @@ public class BackboneElementImpl extends ElementImpl implements BackboneElement 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Extension> getModifierExtension() {
 		if (modifierExtension == null) {
 			modifierExtension = new EObjectContainmentEList<Extension>(Extension.class, this, FhirPackage.BACKBONE_ELEMENT__MODIFIER_EXTENSION);

@@ -79,6 +79,7 @@ public class SequenceTypeImpl extends ElementImpl implements SequenceType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SequenceTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class SequenceTypeImpl extends ElementImpl implements SequenceType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(SequenceTypeEnum newValue) {
 		SequenceTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class SequenceTypeImpl extends ElementImpl implements SequenceType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		SequenceTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class SequenceTypeImpl extends ElementImpl implements SequenceType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

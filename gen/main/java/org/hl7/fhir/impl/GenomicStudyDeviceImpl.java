@@ -74,6 +74,7 @@ public class GenomicStudyDeviceImpl extends BackboneElementImpl implements Genom
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getDevice() {
 		return device;
 	}
@@ -98,6 +99,7 @@ public class GenomicStudyDeviceImpl extends BackboneElementImpl implements Genom
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDevice(Reference newDevice) {
 		if (newDevice != device) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class GenomicStudyDeviceImpl extends BackboneElementImpl implements Genom
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getFunction() {
 		return function;
 	}
@@ -141,6 +144,7 @@ public class GenomicStudyDeviceImpl extends BackboneElementImpl implements Genom
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFunction(CodeableConcept newFunction) {
 		if (newFunction != function) {
 			NotificationChain msgs = null;

@@ -127,6 +127,7 @@ public class ClaimProcedureImpl extends BackboneElementImpl implements ClaimProc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PositiveInt getSequence() {
 		return sequence;
 	}
@@ -151,6 +152,7 @@ public class ClaimProcedureImpl extends BackboneElementImpl implements ClaimProc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSequence(PositiveInt newSequence) {
 		if (newSequence != sequence) {
 			NotificationChain msgs = null;
@@ -170,6 +172,7 @@ public class ClaimProcedureImpl extends BackboneElementImpl implements ClaimProc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getType() {
 		if (type == null) {
 			type = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.CLAIM_PROCEDURE__TYPE);
@@ -182,6 +185,7 @@ public class ClaimProcedureImpl extends BackboneElementImpl implements ClaimProc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getDate() {
 		return date;
 	}
@@ -206,6 +210,7 @@ public class ClaimProcedureImpl extends BackboneElementImpl implements ClaimProc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDate(DateTime newDate) {
 		if (newDate != date) {
 			NotificationChain msgs = null;
@@ -225,6 +230,7 @@ public class ClaimProcedureImpl extends BackboneElementImpl implements ClaimProc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getProcedureCodeableConcept() {
 		return procedureCodeableConcept;
 	}
@@ -249,6 +255,7 @@ public class ClaimProcedureImpl extends BackboneElementImpl implements ClaimProc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProcedureCodeableConcept(CodeableConcept newProcedureCodeableConcept) {
 		if (newProcedureCodeableConcept != procedureCodeableConcept) {
 			NotificationChain msgs = null;
@@ -268,6 +275,7 @@ public class ClaimProcedureImpl extends BackboneElementImpl implements ClaimProc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getProcedureReference() {
 		return procedureReference;
 	}
@@ -292,6 +300,7 @@ public class ClaimProcedureImpl extends BackboneElementImpl implements ClaimProc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProcedureReference(Reference newProcedureReference) {
 		if (newProcedureReference != procedureReference) {
 			NotificationChain msgs = null;
@@ -311,6 +320,7 @@ public class ClaimProcedureImpl extends BackboneElementImpl implements ClaimProc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getUdi() {
 		if (udi == null) {
 			udi = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.CLAIM_PROCEDURE__UDI);

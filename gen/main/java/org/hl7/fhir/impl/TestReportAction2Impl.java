@@ -62,6 +62,7 @@ public class TestReportAction2Impl extends BackboneElementImpl implements TestRe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TestReportOperation getOperation() {
 		return operation;
 	}
@@ -86,6 +87,7 @@ public class TestReportAction2Impl extends BackboneElementImpl implements TestRe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOperation(TestReportOperation newOperation) {
 		if (newOperation != operation) {
 			NotificationChain msgs = null;

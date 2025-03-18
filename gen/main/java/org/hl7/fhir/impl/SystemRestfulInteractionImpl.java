@@ -79,6 +79,7 @@ public class SystemRestfulInteractionImpl extends ElementImpl implements SystemR
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SystemRestfulInteractionEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class SystemRestfulInteractionImpl extends ElementImpl implements SystemR
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(SystemRestfulInteractionEnum newValue) {
 		SystemRestfulInteractionEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class SystemRestfulInteractionImpl extends ElementImpl implements SystemR
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		SystemRestfulInteractionEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class SystemRestfulInteractionImpl extends ElementImpl implements SystemR
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

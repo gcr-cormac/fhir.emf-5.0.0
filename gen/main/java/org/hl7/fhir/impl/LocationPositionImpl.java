@@ -84,6 +84,7 @@ public class LocationPositionImpl extends BackboneElementImpl implements Locatio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Decimal getLongitude() {
 		return longitude;
 	}
@@ -108,6 +109,7 @@ public class LocationPositionImpl extends BackboneElementImpl implements Locatio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLongitude(Decimal newLongitude) {
 		if (newLongitude != longitude) {
 			NotificationChain msgs = null;
@@ -127,6 +129,7 @@ public class LocationPositionImpl extends BackboneElementImpl implements Locatio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Decimal getLatitude() {
 		return latitude;
 	}
@@ -151,6 +154,7 @@ public class LocationPositionImpl extends BackboneElementImpl implements Locatio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLatitude(Decimal newLatitude) {
 		if (newLatitude != latitude) {
 			NotificationChain msgs = null;
@@ -170,6 +174,7 @@ public class LocationPositionImpl extends BackboneElementImpl implements Locatio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Decimal getAltitude() {
 		return altitude;
 	}
@@ -194,6 +199,7 @@ public class LocationPositionImpl extends BackboneElementImpl implements Locatio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAltitude(Decimal newAltitude) {
 		if (newAltitude != altitude) {
 			NotificationChain msgs = null;

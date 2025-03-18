@@ -93,6 +93,7 @@ public class EncounterParticipantImpl extends BackboneElementImpl implements Enc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getType() {
 		if (type == null) {
 			type = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.ENCOUNTER_PARTICIPANT__TYPE);
@@ -105,6 +106,7 @@ public class EncounterParticipantImpl extends BackboneElementImpl implements Enc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getPeriod() {
 		return period;
 	}
@@ -129,6 +131,7 @@ public class EncounterParticipantImpl extends BackboneElementImpl implements Enc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriod(Period newPeriod) {
 		if (newPeriod != period) {
 			NotificationChain msgs = null;
@@ -148,6 +151,7 @@ public class EncounterParticipantImpl extends BackboneElementImpl implements Enc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getActor() {
 		return actor;
 	}
@@ -172,6 +176,7 @@ public class EncounterParticipantImpl extends BackboneElementImpl implements Enc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setActor(Reference newActor) {
 		if (newActor != actor) {
 			NotificationChain msgs = null;

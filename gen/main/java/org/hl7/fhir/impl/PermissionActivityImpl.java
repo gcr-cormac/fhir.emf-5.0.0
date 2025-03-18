@@ -89,6 +89,7 @@ public class PermissionActivityImpl extends BackboneElementImpl implements Permi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getActor() {
 		if (actor == null) {
 			actor = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.PERMISSION_ACTIVITY__ACTOR);
@@ -101,6 +102,7 @@ public class PermissionActivityImpl extends BackboneElementImpl implements Permi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getAction() {
 		if (action == null) {
 			action = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.PERMISSION_ACTIVITY__ACTION);
@@ -113,6 +115,7 @@ public class PermissionActivityImpl extends BackboneElementImpl implements Permi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getPurpose() {
 		if (purpose == null) {
 			purpose = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.PERMISSION_ACTIVITY__PURPOSE);

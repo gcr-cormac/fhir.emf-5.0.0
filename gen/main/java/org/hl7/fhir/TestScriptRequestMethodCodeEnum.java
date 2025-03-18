@@ -329,6 +329,7 @@ public enum TestScriptRequestMethodCodeEnum implements Enumerator {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public int getValue() {
 	  return value;
 	}
@@ -338,6 +339,7 @@ public enum TestScriptRequestMethodCodeEnum implements Enumerator {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getName() {
 	  return name;
 	}
@@ -347,6 +349,7 @@ public enum TestScriptRequestMethodCodeEnum implements Enumerator {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getLiteral() {
 	  return literal;
 	}

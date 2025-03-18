@@ -592,6 +592,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getUrl() {
 		return url;
 	}
@@ -616,6 +617,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUrl(Uri newUrl) {
 		if (newUrl != url) {
 			NotificationChain msgs = null;
@@ -635,6 +637,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.MEASURE__IDENTIFIER);
@@ -647,6 +650,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersion() {
 		return version;
 	}
@@ -671,6 +675,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersion(org.hl7.fhir.String newVersion) {
 		if (newVersion != version) {
 			NotificationChain msgs = null;
@@ -690,6 +695,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersionAlgorithmString() {
 		return versionAlgorithmString;
 	}
@@ -714,6 +720,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersionAlgorithmString(org.hl7.fhir.String newVersionAlgorithmString) {
 		if (newVersionAlgorithmString != versionAlgorithmString) {
 			NotificationChain msgs = null;
@@ -733,6 +740,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getVersionAlgorithmCoding() {
 		return versionAlgorithmCoding;
 	}
@@ -757,6 +765,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersionAlgorithmCoding(Coding newVersionAlgorithmCoding) {
 		if (newVersionAlgorithmCoding != versionAlgorithmCoding) {
 			NotificationChain msgs = null;
@@ -776,6 +785,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -800,6 +810,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -819,6 +830,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getTitle() {
 		return title;
 	}
@@ -843,6 +855,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(org.hl7.fhir.String newTitle) {
 		if (newTitle != title) {
 			NotificationChain msgs = null;
@@ -862,6 +875,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getSubtitle() {
 		return subtitle;
 	}
@@ -886,6 +900,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubtitle(org.hl7.fhir.String newSubtitle) {
 		if (newSubtitle != subtitle) {
 			NotificationChain msgs = null;
@@ -905,6 +920,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PublicationStatus getStatus() {
 		return status;
 	}
@@ -929,6 +945,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(PublicationStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -948,6 +965,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getExperimental() {
 		return experimental;
 	}
@@ -972,6 +990,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExperimental(org.hl7.fhir.Boolean newExperimental) {
 		if (newExperimental != experimental) {
 			NotificationChain msgs = null;
@@ -991,6 +1010,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getSubjectCodeableConcept() {
 		return subjectCodeableConcept;
 	}
@@ -1015,6 +1035,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubjectCodeableConcept(CodeableConcept newSubjectCodeableConcept) {
 		if (newSubjectCodeableConcept != subjectCodeableConcept) {
 			NotificationChain msgs = null;
@@ -1034,6 +1055,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubjectReference() {
 		return subjectReference;
 	}
@@ -1058,6 +1080,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubjectReference(Reference newSubjectReference) {
 		if (newSubjectReference != subjectReference) {
 			NotificationChain msgs = null;
@@ -1077,6 +1100,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public FHIRTypes getBasis() {
 		return basis;
 	}
@@ -1101,6 +1125,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBasis(FHIRTypes newBasis) {
 		if (newBasis != basis) {
 			NotificationChain msgs = null;
@@ -1120,6 +1145,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getDate() {
 		return date;
 	}
@@ -1144,6 +1170,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDate(DateTime newDate) {
 		if (newDate != date) {
 			NotificationChain msgs = null;
@@ -1163,6 +1190,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPublisher() {
 		return publisher;
 	}
@@ -1187,6 +1215,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPublisher(org.hl7.fhir.String newPublisher) {
 		if (newPublisher != publisher) {
 			NotificationChain msgs = null;
@@ -1206,6 +1235,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getContact() {
 		if (contact == null) {
 			contact = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.MEASURE__CONTACT);
@@ -1218,6 +1248,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -1242,6 +1273,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -1261,6 +1293,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<UsageContext> getUseContext() {
 		if (useContext == null) {
 			useContext = new EObjectContainmentEList<UsageContext>(UsageContext.class, this, FhirPackage.MEASURE__USE_CONTEXT);
@@ -1273,6 +1306,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getJurisdiction() {
 		if (jurisdiction == null) {
 			jurisdiction = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.MEASURE__JURISDICTION);
@@ -1285,6 +1319,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getPurpose() {
 		return purpose;
 	}
@@ -1309,6 +1344,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPurpose(Markdown newPurpose) {
 		if (newPurpose != purpose) {
 			NotificationChain msgs = null;
@@ -1328,6 +1364,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getUsage() {
 		return usage;
 	}
@@ -1352,6 +1389,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUsage(Markdown newUsage) {
 		if (newUsage != usage) {
 			NotificationChain msgs = null;
@@ -1371,6 +1409,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getCopyright() {
 		return copyright;
 	}
@@ -1395,6 +1434,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCopyright(Markdown newCopyright) {
 		if (newCopyright != copyright) {
 			NotificationChain msgs = null;
@@ -1414,6 +1454,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getCopyrightLabel() {
 		return copyrightLabel;
 	}
@@ -1438,6 +1479,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCopyrightLabel(org.hl7.fhir.String newCopyrightLabel) {
 		if (newCopyrightLabel != copyrightLabel) {
 			NotificationChain msgs = null;
@@ -1457,6 +1499,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getApprovalDate() {
 		return approvalDate;
 	}
@@ -1481,6 +1524,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setApprovalDate(Date newApprovalDate) {
 		if (newApprovalDate != approvalDate) {
 			NotificationChain msgs = null;
@@ -1500,6 +1544,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getLastReviewDate() {
 		return lastReviewDate;
 	}
@@ -1524,6 +1569,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLastReviewDate(Date newLastReviewDate) {
 		if (newLastReviewDate != lastReviewDate) {
 			NotificationChain msgs = null;
@@ -1543,6 +1589,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getEffectivePeriod() {
 		return effectivePeriod;
 	}
@@ -1567,6 +1614,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEffectivePeriod(Period newEffectivePeriod) {
 		if (newEffectivePeriod != effectivePeriod) {
 			NotificationChain msgs = null;
@@ -1586,6 +1634,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getTopic() {
 		if (topic == null) {
 			topic = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.MEASURE__TOPIC);
@@ -1598,6 +1647,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getAuthor() {
 		if (author == null) {
 			author = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.MEASURE__AUTHOR);
@@ -1610,6 +1660,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getEditor() {
 		if (editor == null) {
 			editor = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.MEASURE__EDITOR);
@@ -1622,6 +1673,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getReviewer() {
 		if (reviewer == null) {
 			reviewer = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.MEASURE__REVIEWER);
@@ -1634,6 +1686,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getEndorser() {
 		if (endorser == null) {
 			endorser = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.MEASURE__ENDORSER);
@@ -1646,6 +1699,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<RelatedArtifact> getRelatedArtifact() {
 		if (relatedArtifact == null) {
 			relatedArtifact = new EObjectContainmentEList<RelatedArtifact>(RelatedArtifact.class, this, FhirPackage.MEASURE__RELATED_ARTIFACT);
@@ -1658,6 +1712,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Canonical> getLibrary() {
 		if (library == null) {
 			library = new EObjectContainmentEList<Canonical>(Canonical.class, this, FhirPackage.MEASURE__LIBRARY);
@@ -1670,6 +1725,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDisclaimer() {
 		return disclaimer;
 	}
@@ -1694,6 +1750,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDisclaimer(Markdown newDisclaimer) {
 		if (newDisclaimer != disclaimer) {
 			NotificationChain msgs = null;
@@ -1713,6 +1770,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getScoring() {
 		return scoring;
 	}
@@ -1737,6 +1795,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setScoring(CodeableConcept newScoring) {
 		if (newScoring != scoring) {
 			NotificationChain msgs = null;
@@ -1756,6 +1815,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getScoringUnit() {
 		return scoringUnit;
 	}
@@ -1780,6 +1840,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setScoringUnit(CodeableConcept newScoringUnit) {
 		if (newScoringUnit != scoringUnit) {
 			NotificationChain msgs = null;
@@ -1799,6 +1860,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCompositeScoring() {
 		return compositeScoring;
 	}
@@ -1823,6 +1885,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCompositeScoring(CodeableConcept newCompositeScoring) {
 		if (newCompositeScoring != compositeScoring) {
 			NotificationChain msgs = null;
@@ -1842,6 +1905,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getType() {
 		if (type == null) {
 			type = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.MEASURE__TYPE);
@@ -1854,6 +1918,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getRiskAdjustment() {
 		return riskAdjustment;
 	}
@@ -1878,6 +1943,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRiskAdjustment(Markdown newRiskAdjustment) {
 		if (newRiskAdjustment != riskAdjustment) {
 			NotificationChain msgs = null;
@@ -1897,6 +1963,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getRateAggregation() {
 		return rateAggregation;
 	}
@@ -1921,6 +1988,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRateAggregation(Markdown newRateAggregation) {
 		if (newRateAggregation != rateAggregation) {
 			NotificationChain msgs = null;
@@ -1940,6 +2008,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getRationale() {
 		return rationale;
 	}
@@ -1964,6 +2033,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRationale(Markdown newRationale) {
 		if (newRationale != rationale) {
 			NotificationChain msgs = null;
@@ -1983,6 +2053,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getClinicalRecommendationStatement() {
 		return clinicalRecommendationStatement;
 	}
@@ -2007,6 +2078,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setClinicalRecommendationStatement(Markdown newClinicalRecommendationStatement) {
 		if (newClinicalRecommendationStatement != clinicalRecommendationStatement) {
 			NotificationChain msgs = null;
@@ -2026,6 +2098,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getImprovementNotation() {
 		return improvementNotation;
 	}
@@ -2050,6 +2123,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setImprovementNotation(CodeableConcept newImprovementNotation) {
 		if (newImprovementNotation != improvementNotation) {
 			NotificationChain msgs = null;
@@ -2069,6 +2143,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MeasureTerm> getTerm() {
 		if (term == null) {
 			term = new EObjectContainmentEList<MeasureTerm>(MeasureTerm.class, this, FhirPackage.MEASURE__TERM);
@@ -2081,6 +2156,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getGuidance() {
 		return guidance;
 	}
@@ -2105,6 +2181,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setGuidance(Markdown newGuidance) {
 		if (newGuidance != guidance) {
 			NotificationChain msgs = null;
@@ -2124,6 +2201,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MeasureGroup> getGroup() {
 		if (group == null) {
 			group = new EObjectContainmentEList<MeasureGroup>(MeasureGroup.class, this, FhirPackage.MEASURE__GROUP);
@@ -2136,6 +2214,7 @@ public class MeasureImpl extends MetadataResourceImpl implements Measure {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MeasureSupplementalData> getSupplementalData() {
 		if (supplementalData == null) {
 			supplementalData = new EObjectContainmentEList<MeasureSupplementalData>(MeasureSupplementalData.class, this, FhirPackage.MEASURE__SUPPLEMENTAL_DATA);

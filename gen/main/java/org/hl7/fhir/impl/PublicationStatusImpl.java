@@ -79,6 +79,7 @@ public class PublicationStatusImpl extends ElementImpl implements PublicationSta
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PublicationStatusEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class PublicationStatusImpl extends ElementImpl implements PublicationSta
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(PublicationStatusEnum newValue) {
 		PublicationStatusEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class PublicationStatusImpl extends ElementImpl implements PublicationSta
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		PublicationStatusEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class PublicationStatusImpl extends ElementImpl implements PublicationSta
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

@@ -79,6 +79,7 @@ public class FormularyItemStatusCodesImpl extends ElementImpl implements Formula
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public FormularyItemStatusCodesEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class FormularyItemStatusCodesImpl extends ElementImpl implements Formula
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(FormularyItemStatusCodesEnum newValue) {
 		FormularyItemStatusCodesEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class FormularyItemStatusCodesImpl extends ElementImpl implements Formula
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		FormularyItemStatusCodesEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class FormularyItemStatusCodesImpl extends ElementImpl implements Formula
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

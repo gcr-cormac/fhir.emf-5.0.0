@@ -232,6 +232,7 @@ public class DlTypeImpl extends MinimalEObjectImpl.Container implements DlType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public FeatureMap getGroup() {
 		if (group == null) {
 			group = new BasicFeatureMap(this, XhtmlPackage.DL_TYPE__GROUP);
@@ -244,6 +245,7 @@ public class DlTypeImpl extends MinimalEObjectImpl.Container implements DlType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<DtType> getDt() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getDlType_Dt());
 	}
@@ -253,6 +255,7 @@ public class DlTypeImpl extends MinimalEObjectImpl.Container implements DlType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<DdType> getDd() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getDlType_Dd());
 	}
@@ -262,6 +265,7 @@ public class DlTypeImpl extends MinimalEObjectImpl.Container implements DlType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public List<String> getClass_() {
 		return class_;
 	}
@@ -271,6 +275,7 @@ public class DlTypeImpl extends MinimalEObjectImpl.Container implements DlType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setClass(List<String> newClass) {
 		List<String> oldClass = class_;
 		class_ = newClass;
@@ -283,6 +288,7 @@ public class DlTypeImpl extends MinimalEObjectImpl.Container implements DlType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DirType getDir() {
 		return dir;
 	}
@@ -292,6 +298,7 @@ public class DlTypeImpl extends MinimalEObjectImpl.Container implements DlType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDir(DirType newDir) {
 		DirType oldDir = dir;
 		dir = newDir == null ? DIR_EDEFAULT : newDir;
@@ -306,6 +313,7 @@ public class DlTypeImpl extends MinimalEObjectImpl.Container implements DlType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetDir() {
 		DirType oldDir = dir;
 		boolean oldDirESet = dirESet;
@@ -320,6 +328,7 @@ public class DlTypeImpl extends MinimalEObjectImpl.Container implements DlType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetDir() {
 		return dirESet;
 	}
@@ -329,6 +338,7 @@ public class DlTypeImpl extends MinimalEObjectImpl.Container implements DlType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getId() {
 		return id;
 	}
@@ -338,6 +348,7 @@ public class DlTypeImpl extends MinimalEObjectImpl.Container implements DlType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setId(String newId) {
 		String oldId = id;
 		id = newId;
@@ -350,6 +361,7 @@ public class DlTypeImpl extends MinimalEObjectImpl.Container implements DlType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getLang() {
 		return lang;
 	}
@@ -359,6 +371,7 @@ public class DlTypeImpl extends MinimalEObjectImpl.Container implements DlType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLang(String newLang) {
 		String oldLang = lang;
 		lang = newLang;
@@ -371,6 +384,7 @@ public class DlTypeImpl extends MinimalEObjectImpl.Container implements DlType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Object getLang1() {
 		return lang1;
 	}
@@ -380,6 +394,7 @@ public class DlTypeImpl extends MinimalEObjectImpl.Container implements DlType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLang1(Object newLang1) {
 		Object oldLang1 = lang1;
 		lang1 = newLang1;
@@ -392,6 +407,7 @@ public class DlTypeImpl extends MinimalEObjectImpl.Container implements DlType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getStyle() {
 		return style;
 	}
@@ -401,6 +417,7 @@ public class DlTypeImpl extends MinimalEObjectImpl.Container implements DlType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStyle(String newStyle) {
 		String oldStyle = style;
 		style = newStyle;
@@ -413,6 +430,7 @@ public class DlTypeImpl extends MinimalEObjectImpl.Container implements DlType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getTitle() {
 		return title;
 	}
@@ -422,6 +440,7 @@ public class DlTypeImpl extends MinimalEObjectImpl.Container implements DlType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(String newTitle) {
 		String oldTitle = title;
 		title = newTitle;

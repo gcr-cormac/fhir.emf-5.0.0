@@ -387,6 +387,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.PAYMENT_RECONCILIATION__IDENTIFIER);
@@ -399,6 +400,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -423,6 +425,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -442,6 +445,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public FinancialResourceStatusCodes getStatus() {
 		return status;
 	}
@@ -466,6 +470,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(FinancialResourceStatusCodes newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -485,6 +490,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getKind() {
 		return kind;
 	}
@@ -509,6 +515,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setKind(CodeableConcept newKind) {
 		if (newKind != kind) {
 			NotificationChain msgs = null;
@@ -528,6 +535,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getPeriod() {
 		return period;
 	}
@@ -552,6 +560,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriod(Period newPeriod) {
 		if (newPeriod != period) {
 			NotificationChain msgs = null;
@@ -571,6 +580,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getCreated() {
 		return created;
 	}
@@ -595,6 +605,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCreated(DateTime newCreated) {
 		if (newCreated != created) {
 			NotificationChain msgs = null;
@@ -614,6 +625,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getEnterer() {
 		return enterer;
 	}
@@ -638,6 +650,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEnterer(Reference newEnterer) {
 		if (newEnterer != enterer) {
 			NotificationChain msgs = null;
@@ -657,6 +670,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getIssuerType() {
 		return issuerType;
 	}
@@ -681,6 +695,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIssuerType(CodeableConcept newIssuerType) {
 		if (newIssuerType != issuerType) {
 			NotificationChain msgs = null;
@@ -700,6 +715,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getPaymentIssuer() {
 		return paymentIssuer;
 	}
@@ -724,6 +740,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPaymentIssuer(Reference newPaymentIssuer) {
 		if (newPaymentIssuer != paymentIssuer) {
 			NotificationChain msgs = null;
@@ -743,6 +760,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getRequest() {
 		return request;
 	}
@@ -767,6 +785,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRequest(Reference newRequest) {
 		if (newRequest != request) {
 			NotificationChain msgs = null;
@@ -786,6 +805,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getRequestor() {
 		return requestor;
 	}
@@ -810,6 +830,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRequestor(Reference newRequestor) {
 		if (newRequestor != requestor) {
 			NotificationChain msgs = null;
@@ -829,6 +850,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PaymentOutcome getOutcome() {
 		return outcome;
 	}
@@ -853,6 +875,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOutcome(PaymentOutcome newOutcome) {
 		if (newOutcome != outcome) {
 			NotificationChain msgs = null;
@@ -872,6 +895,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDisposition() {
 		return disposition;
 	}
@@ -896,6 +920,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDisposition(org.hl7.fhir.String newDisposition) {
 		if (newDisposition != disposition) {
 			NotificationChain msgs = null;
@@ -915,6 +940,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getDate() {
 		return date;
 	}
@@ -939,6 +965,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDate(Date newDate) {
 		if (newDate != date) {
 			NotificationChain msgs = null;
@@ -958,6 +985,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getLocation() {
 		return location;
 	}
@@ -982,6 +1010,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLocation(Reference newLocation) {
 		if (newLocation != location) {
 			NotificationChain msgs = null;
@@ -1001,6 +1030,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getMethod() {
 		return method;
 	}
@@ -1025,6 +1055,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMethod(CodeableConcept newMethod) {
 		if (newMethod != method) {
 			NotificationChain msgs = null;
@@ -1044,6 +1075,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getCardBrand() {
 		return cardBrand;
 	}
@@ -1068,6 +1100,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCardBrand(org.hl7.fhir.String newCardBrand) {
 		if (newCardBrand != cardBrand) {
 			NotificationChain msgs = null;
@@ -1087,6 +1120,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getAccountNumber() {
 		return accountNumber;
 	}
@@ -1111,6 +1145,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAccountNumber(org.hl7.fhir.String newAccountNumber) {
 		if (newAccountNumber != accountNumber) {
 			NotificationChain msgs = null;
@@ -1130,6 +1165,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getExpirationDate() {
 		return expirationDate;
 	}
@@ -1154,6 +1190,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExpirationDate(Date newExpirationDate) {
 		if (newExpirationDate != expirationDate) {
 			NotificationChain msgs = null;
@@ -1173,6 +1210,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getProcessor() {
 		return processor;
 	}
@@ -1197,6 +1235,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProcessor(org.hl7.fhir.String newProcessor) {
 		if (newProcessor != processor) {
 			NotificationChain msgs = null;
@@ -1216,6 +1255,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getReferenceNumber() {
 		return referenceNumber;
 	}
@@ -1240,6 +1280,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReferenceNumber(org.hl7.fhir.String newReferenceNumber) {
 		if (newReferenceNumber != referenceNumber) {
 			NotificationChain msgs = null;
@@ -1259,6 +1300,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getAuthorization() {
 		return authorization;
 	}
@@ -1283,6 +1325,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAuthorization(org.hl7.fhir.String newAuthorization) {
 		if (newAuthorization != authorization) {
 			NotificationChain msgs = null;
@@ -1302,6 +1345,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Money getTenderedAmount() {
 		return tenderedAmount;
 	}
@@ -1326,6 +1370,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTenderedAmount(Money newTenderedAmount) {
 		if (newTenderedAmount != tenderedAmount) {
 			NotificationChain msgs = null;
@@ -1345,6 +1390,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Money getReturnedAmount() {
 		return returnedAmount;
 	}
@@ -1369,6 +1415,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReturnedAmount(Money newReturnedAmount) {
 		if (newReturnedAmount != returnedAmount) {
 			NotificationChain msgs = null;
@@ -1388,6 +1435,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Money getAmount() {
 		return amount;
 	}
@@ -1412,6 +1460,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAmount(Money newAmount) {
 		if (newAmount != amount) {
 			NotificationChain msgs = null;
@@ -1431,6 +1480,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Identifier getPaymentIdentifier() {
 		return paymentIdentifier;
 	}
@@ -1455,6 +1505,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPaymentIdentifier(Identifier newPaymentIdentifier) {
 		if (newPaymentIdentifier != paymentIdentifier) {
 			NotificationChain msgs = null;
@@ -1474,6 +1525,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<PaymentReconciliationAllocation> getAllocation() {
 		if (allocation == null) {
 			allocation = new EObjectContainmentEList<PaymentReconciliationAllocation>(PaymentReconciliationAllocation.class, this, FhirPackage.PAYMENT_RECONCILIATION__ALLOCATION);
@@ -1486,6 +1538,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getFormCode() {
 		return formCode;
 	}
@@ -1510,6 +1563,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFormCode(CodeableConcept newFormCode) {
 		if (newFormCode != formCode) {
 			NotificationChain msgs = null;
@@ -1529,6 +1583,7 @@ public class PaymentReconciliationImpl extends DomainResourceImpl implements Pay
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<PaymentReconciliationProcessNote> getProcessNote() {
 		if (processNote == null) {
 			processNote = new EObjectContainmentEList<PaymentReconciliationProcessNote>(PaymentReconciliationProcessNote.class, this, FhirPackage.PAYMENT_RECONCILIATION__PROCESS_NOTE);

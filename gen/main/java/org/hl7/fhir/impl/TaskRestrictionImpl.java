@@ -93,6 +93,7 @@ public class TaskRestrictionImpl extends BackboneElementImpl implements TaskRest
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PositiveInt getRepetitions() {
 		return repetitions;
 	}
@@ -117,6 +118,7 @@ public class TaskRestrictionImpl extends BackboneElementImpl implements TaskRest
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRepetitions(PositiveInt newRepetitions) {
 		if (newRepetitions != repetitions) {
 			NotificationChain msgs = null;
@@ -136,6 +138,7 @@ public class TaskRestrictionImpl extends BackboneElementImpl implements TaskRest
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getPeriod() {
 		return period;
 	}
@@ -160,6 +163,7 @@ public class TaskRestrictionImpl extends BackboneElementImpl implements TaskRest
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriod(Period newPeriod) {
 		if (newPeriod != period) {
 			NotificationChain msgs = null;
@@ -179,6 +183,7 @@ public class TaskRestrictionImpl extends BackboneElementImpl implements TaskRest
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getRecipient() {
 		if (recipient == null) {
 			recipient = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.TASK_RESTRICTION__RECIPIENT);

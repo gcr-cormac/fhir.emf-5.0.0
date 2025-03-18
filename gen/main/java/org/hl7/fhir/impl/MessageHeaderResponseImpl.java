@@ -86,6 +86,7 @@ public class MessageHeaderResponseImpl extends BackboneElementImpl implements Me
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Identifier getIdentifier() {
 		return identifier;
 	}
@@ -110,6 +111,7 @@ public class MessageHeaderResponseImpl extends BackboneElementImpl implements Me
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIdentifier(Identifier newIdentifier) {
 		if (newIdentifier != identifier) {
 			NotificationChain msgs = null;
@@ -129,6 +131,7 @@ public class MessageHeaderResponseImpl extends BackboneElementImpl implements Me
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ResponseType getCode() {
 		return code;
 	}
@@ -153,6 +156,7 @@ public class MessageHeaderResponseImpl extends BackboneElementImpl implements Me
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(ResponseType newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -172,6 +176,7 @@ public class MessageHeaderResponseImpl extends BackboneElementImpl implements Me
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getDetails() {
 		return details;
 	}
@@ -196,6 +201,7 @@ public class MessageHeaderResponseImpl extends BackboneElementImpl implements Me
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDetails(Reference newDetails) {
 		if (newDetails != details) {
 			NotificationChain msgs = null;

@@ -427,6 +427,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getUrl() {
 		return url;
 	}
@@ -451,6 +452,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUrl(Uri newUrl) {
 		if (newUrl != url) {
 			NotificationChain msgs = null;
@@ -470,6 +472,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.RESEARCH_STUDY__IDENTIFIER);
@@ -482,6 +485,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersion() {
 		return version;
 	}
@@ -506,6 +510,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersion(org.hl7.fhir.String newVersion) {
 		if (newVersion != version) {
 			NotificationChain msgs = null;
@@ -525,6 +530,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -549,6 +555,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -568,6 +575,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getTitle() {
 		return title;
 	}
@@ -592,6 +600,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(org.hl7.fhir.String newTitle) {
 		if (newTitle != title) {
 			NotificationChain msgs = null;
@@ -611,6 +620,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ResearchStudyLabel> getLabel() {
 		if (label == null) {
 			label = new EObjectContainmentEList<ResearchStudyLabel>(ResearchStudyLabel.class, this, FhirPackage.RESEARCH_STUDY__LABEL);
@@ -623,6 +633,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getProtocol() {
 		if (protocol == null) {
 			protocol = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.RESEARCH_STUDY__PROTOCOL);
@@ -635,6 +646,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getPartOf() {
 		if (partOf == null) {
 			partOf = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.RESEARCH_STUDY__PART_OF);
@@ -647,6 +659,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<RelatedArtifact> getRelatedArtifact() {
 		if (relatedArtifact == null) {
 			relatedArtifact = new EObjectContainmentEList<RelatedArtifact>(RelatedArtifact.class, this, FhirPackage.RESEARCH_STUDY__RELATED_ARTIFACT);
@@ -659,6 +672,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getDate() {
 		return date;
 	}
@@ -683,6 +697,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDate(DateTime newDate) {
 		if (newDate != date) {
 			NotificationChain msgs = null;
@@ -702,6 +717,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PublicationStatus getStatus() {
 		return status;
 	}
@@ -726,6 +742,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(PublicationStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -745,6 +762,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getPrimaryPurposeType() {
 		return primaryPurposeType;
 	}
@@ -769,6 +787,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPrimaryPurposeType(CodeableConcept newPrimaryPurposeType) {
 		if (newPrimaryPurposeType != primaryPurposeType) {
 			NotificationChain msgs = null;
@@ -788,6 +807,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getPhase() {
 		return phase;
 	}
@@ -812,6 +832,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPhase(CodeableConcept newPhase) {
 		if (newPhase != phase) {
 			NotificationChain msgs = null;
@@ -831,6 +852,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getStudyDesign() {
 		if (studyDesign == null) {
 			studyDesign = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.RESEARCH_STUDY__STUDY_DESIGN);
@@ -843,6 +865,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getFocus() {
 		if (focus == null) {
 			focus = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.RESEARCH_STUDY__FOCUS);
@@ -855,6 +878,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCondition() {
 		if (condition == null) {
 			condition = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.RESEARCH_STUDY__CONDITION);
@@ -867,6 +891,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getKeyword() {
 		if (keyword == null) {
 			keyword = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.RESEARCH_STUDY__KEYWORD);
@@ -879,6 +904,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getRegion() {
 		if (region == null) {
 			region = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.RESEARCH_STUDY__REGION);
@@ -891,6 +917,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescriptionSummary() {
 		return descriptionSummary;
 	}
@@ -915,6 +942,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescriptionSummary(Markdown newDescriptionSummary) {
 		if (newDescriptionSummary != descriptionSummary) {
 			NotificationChain msgs = null;
@@ -934,6 +962,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -958,6 +987,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -977,6 +1007,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getPeriod() {
 		return period;
 	}
@@ -1001,6 +1032,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriod(Period newPeriod) {
 		if (newPeriod != period) {
 			NotificationChain msgs = null;
@@ -1020,6 +1052,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getSite() {
 		if (site == null) {
 			site = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.RESEARCH_STUDY__SITE);
@@ -1032,6 +1065,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.RESEARCH_STUDY__NOTE);
@@ -1044,6 +1078,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getClassifier() {
 		if (classifier == null) {
 			classifier = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.RESEARCH_STUDY__CLASSIFIER);
@@ -1056,6 +1091,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ResearchStudyAssociatedParty> getAssociatedParty() {
 		if (associatedParty == null) {
 			associatedParty = new EObjectContainmentEList<ResearchStudyAssociatedParty>(ResearchStudyAssociatedParty.class, this, FhirPackage.RESEARCH_STUDY__ASSOCIATED_PARTY);
@@ -1068,6 +1104,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ResearchStudyProgressStatus> getProgressStatus() {
 		if (progressStatus == null) {
 			progressStatus = new EObjectContainmentEList<ResearchStudyProgressStatus>(ResearchStudyProgressStatus.class, this, FhirPackage.RESEARCH_STUDY__PROGRESS_STATUS);
@@ -1080,6 +1117,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getWhyStopped() {
 		return whyStopped;
 	}
@@ -1104,6 +1142,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setWhyStopped(CodeableConcept newWhyStopped) {
 		if (newWhyStopped != whyStopped) {
 			NotificationChain msgs = null;
@@ -1123,6 +1162,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ResearchStudyRecruitment getRecruitment() {
 		return recruitment;
 	}
@@ -1147,6 +1187,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRecruitment(ResearchStudyRecruitment newRecruitment) {
 		if (newRecruitment != recruitment) {
 			NotificationChain msgs = null;
@@ -1166,6 +1207,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ResearchStudyComparisonGroup> getComparisonGroup() {
 		if (comparisonGroup == null) {
 			comparisonGroup = new EObjectContainmentEList<ResearchStudyComparisonGroup>(ResearchStudyComparisonGroup.class, this, FhirPackage.RESEARCH_STUDY__COMPARISON_GROUP);
@@ -1178,6 +1220,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ResearchStudyObjective> getObjective() {
 		if (objective == null) {
 			objective = new EObjectContainmentEList<ResearchStudyObjective>(ResearchStudyObjective.class, this, FhirPackage.RESEARCH_STUDY__OBJECTIVE);
@@ -1190,6 +1233,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ResearchStudyOutcomeMeasure> getOutcomeMeasure() {
 		if (outcomeMeasure == null) {
 			outcomeMeasure = new EObjectContainmentEList<ResearchStudyOutcomeMeasure>(ResearchStudyOutcomeMeasure.class, this, FhirPackage.RESEARCH_STUDY__OUTCOME_MEASURE);
@@ -1202,6 +1246,7 @@ public class ResearchStudyImpl extends DomainResourceImpl implements ResearchStu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getResult() {
 		if (result == null) {
 			result = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.RESEARCH_STUDY__RESULT);

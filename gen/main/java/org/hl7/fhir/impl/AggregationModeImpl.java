@@ -79,6 +79,7 @@ public class AggregationModeImpl extends ElementImpl implements AggregationMode 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AggregationModeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class AggregationModeImpl extends ElementImpl implements AggregationMode 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(AggregationModeEnum newValue) {
 		AggregationModeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class AggregationModeImpl extends ElementImpl implements AggregationMode 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		AggregationModeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class AggregationModeImpl extends ElementImpl implements AggregationMode 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

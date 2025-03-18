@@ -79,6 +79,7 @@ public class GraphCompartmentUseImpl extends ElementImpl implements GraphCompart
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public GraphCompartmentUseEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class GraphCompartmentUseImpl extends ElementImpl implements GraphCompart
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(GraphCompartmentUseEnum newValue) {
 		GraphCompartmentUseEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class GraphCompartmentUseImpl extends ElementImpl implements GraphCompart
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		GraphCompartmentUseEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class GraphCompartmentUseImpl extends ElementImpl implements GraphCompart
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

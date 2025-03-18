@@ -105,6 +105,7 @@ public class InventoryReportInventoryListingImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getLocation() {
 		return location;
 	}
@@ -129,6 +130,7 @@ public class InventoryReportInventoryListingImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLocation(Reference newLocation) {
 		if (newLocation != location) {
 			NotificationChain msgs = null;
@@ -148,6 +150,7 @@ public class InventoryReportInventoryListingImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getItemStatus() {
 		return itemStatus;
 	}
@@ -172,6 +175,7 @@ public class InventoryReportInventoryListingImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setItemStatus(CodeableConcept newItemStatus) {
 		if (newItemStatus != itemStatus) {
 			NotificationChain msgs = null;
@@ -191,6 +195,7 @@ public class InventoryReportInventoryListingImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getCountingDateTime() {
 		return countingDateTime;
 	}
@@ -215,6 +220,7 @@ public class InventoryReportInventoryListingImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCountingDateTime(DateTime newCountingDateTime) {
 		if (newCountingDateTime != countingDateTime) {
 			NotificationChain msgs = null;
@@ -234,6 +240,7 @@ public class InventoryReportInventoryListingImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<InventoryReportItem> getItem() {
 		if (item == null) {
 			item = new EObjectContainmentEList<InventoryReportItem>(InventoryReportItem.class, this, FhirPackage.INVENTORY_REPORT_INVENTORY_LISTING__ITEM);

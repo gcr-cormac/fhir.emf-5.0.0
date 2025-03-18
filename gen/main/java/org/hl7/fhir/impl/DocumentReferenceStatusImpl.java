@@ -79,6 +79,7 @@ public class DocumentReferenceStatusImpl extends ElementImpl implements Document
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DocumentReferenceStatusEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class DocumentReferenceStatusImpl extends ElementImpl implements Document
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(DocumentReferenceStatusEnum newValue) {
 		DocumentReferenceStatusEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class DocumentReferenceStatusImpl extends ElementImpl implements Document
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		DocumentReferenceStatusEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class DocumentReferenceStatusImpl extends ElementImpl implements Document
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

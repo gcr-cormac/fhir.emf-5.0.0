@@ -79,6 +79,7 @@ public class PermissionRuleCombiningImpl extends ElementImpl implements Permissi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PermissionRuleCombiningEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class PermissionRuleCombiningImpl extends ElementImpl implements Permissi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(PermissionRuleCombiningEnum newValue) {
 		PermissionRuleCombiningEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class PermissionRuleCombiningImpl extends ElementImpl implements Permissi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		PermissionRuleCombiningEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class PermissionRuleCombiningImpl extends ElementImpl implements Permissi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

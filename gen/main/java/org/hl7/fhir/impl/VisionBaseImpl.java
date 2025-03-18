@@ -79,6 +79,7 @@ public class VisionBaseImpl extends ElementImpl implements VisionBase {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public VisionBaseEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class VisionBaseImpl extends ElementImpl implements VisionBase {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(VisionBaseEnum newValue) {
 		VisionBaseEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class VisionBaseImpl extends ElementImpl implements VisionBase {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		VisionBaseEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class VisionBaseImpl extends ElementImpl implements VisionBase {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

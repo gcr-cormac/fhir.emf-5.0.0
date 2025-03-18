@@ -226,6 +226,7 @@ public class CitationPublicationFormImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CitationPublishedIn getPublishedIn() {
 		return publishedIn;
 	}
@@ -250,6 +251,7 @@ public class CitationPublicationFormImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPublishedIn(CitationPublishedIn newPublishedIn) {
 		if (newPublishedIn != publishedIn) {
 			NotificationChain msgs = null;
@@ -269,6 +271,7 @@ public class CitationPublicationFormImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCitedMedium() {
 		return citedMedium;
 	}
@@ -293,6 +296,7 @@ public class CitationPublicationFormImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCitedMedium(CodeableConcept newCitedMedium) {
 		if (newCitedMedium != citedMedium) {
 			NotificationChain msgs = null;
@@ -312,6 +316,7 @@ public class CitationPublicationFormImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVolume() {
 		return volume;
 	}
@@ -336,6 +341,7 @@ public class CitationPublicationFormImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVolume(org.hl7.fhir.String newVolume) {
 		if (newVolume != volume) {
 			NotificationChain msgs = null;
@@ -355,6 +361,7 @@ public class CitationPublicationFormImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getIssue() {
 		return issue;
 	}
@@ -379,6 +386,7 @@ public class CitationPublicationFormImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIssue(org.hl7.fhir.String newIssue) {
 		if (newIssue != issue) {
 			NotificationChain msgs = null;
@@ -398,6 +406,7 @@ public class CitationPublicationFormImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getArticleDate() {
 		return articleDate;
 	}
@@ -422,6 +431,7 @@ public class CitationPublicationFormImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setArticleDate(DateTime newArticleDate) {
 		if (newArticleDate != articleDate) {
 			NotificationChain msgs = null;
@@ -441,6 +451,7 @@ public class CitationPublicationFormImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPublicationDateText() {
 		return publicationDateText;
 	}
@@ -465,6 +476,7 @@ public class CitationPublicationFormImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPublicationDateText(org.hl7.fhir.String newPublicationDateText) {
 		if (newPublicationDateText != publicationDateText) {
 			NotificationChain msgs = null;
@@ -484,6 +496,7 @@ public class CitationPublicationFormImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPublicationDateSeason() {
 		return publicationDateSeason;
 	}
@@ -508,6 +521,7 @@ public class CitationPublicationFormImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPublicationDateSeason(org.hl7.fhir.String newPublicationDateSeason) {
 		if (newPublicationDateSeason != publicationDateSeason) {
 			NotificationChain msgs = null;
@@ -527,6 +541,7 @@ public class CitationPublicationFormImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getLastRevisionDate() {
 		return lastRevisionDate;
 	}
@@ -551,6 +566,7 @@ public class CitationPublicationFormImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLastRevisionDate(DateTime newLastRevisionDate) {
 		if (newLastRevisionDate != lastRevisionDate) {
 			NotificationChain msgs = null;
@@ -570,6 +586,7 @@ public class CitationPublicationFormImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getLanguage() {
 		if (language == null) {
 			language = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.CITATION_PUBLICATION_FORM__LANGUAGE);
@@ -582,6 +599,7 @@ public class CitationPublicationFormImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getAccessionNumber() {
 		return accessionNumber;
 	}
@@ -606,6 +624,7 @@ public class CitationPublicationFormImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAccessionNumber(org.hl7.fhir.String newAccessionNumber) {
 		if (newAccessionNumber != accessionNumber) {
 			NotificationChain msgs = null;
@@ -625,6 +644,7 @@ public class CitationPublicationFormImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPageString() {
 		return pageString;
 	}
@@ -649,6 +669,7 @@ public class CitationPublicationFormImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPageString(org.hl7.fhir.String newPageString) {
 		if (newPageString != pageString) {
 			NotificationChain msgs = null;
@@ -668,6 +689,7 @@ public class CitationPublicationFormImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getFirstPage() {
 		return firstPage;
 	}
@@ -692,6 +714,7 @@ public class CitationPublicationFormImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFirstPage(org.hl7.fhir.String newFirstPage) {
 		if (newFirstPage != firstPage) {
 			NotificationChain msgs = null;
@@ -711,6 +734,7 @@ public class CitationPublicationFormImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getLastPage() {
 		return lastPage;
 	}
@@ -735,6 +759,7 @@ public class CitationPublicationFormImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLastPage(org.hl7.fhir.String newLastPage) {
 		if (newLastPage != lastPage) {
 			NotificationChain msgs = null;
@@ -754,6 +779,7 @@ public class CitationPublicationFormImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPageCount() {
 		return pageCount;
 	}
@@ -778,6 +804,7 @@ public class CitationPublicationFormImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPageCount(org.hl7.fhir.String newPageCount) {
 		if (newPageCount != pageCount) {
 			NotificationChain msgs = null;
@@ -797,6 +824,7 @@ public class CitationPublicationFormImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getCopyright() {
 		return copyright;
 	}
@@ -821,6 +849,7 @@ public class CitationPublicationFormImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCopyright(Markdown newCopyright) {
 		if (newCopyright != copyright) {
 			NotificationChain msgs = null;

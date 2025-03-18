@@ -104,6 +104,7 @@ public class TerminologyCapabilitiesCodeSystemImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getUri() {
 		return uri;
 	}
@@ -128,6 +129,7 @@ public class TerminologyCapabilitiesCodeSystemImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUri(Canonical newUri) {
 		if (newUri != uri) {
 			NotificationChain msgs = null;
@@ -147,6 +149,7 @@ public class TerminologyCapabilitiesCodeSystemImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<TerminologyCapabilitiesVersion> getVersion() {
 		if (version == null) {
 			version = new EObjectContainmentEList<TerminologyCapabilitiesVersion>(TerminologyCapabilitiesVersion.class, this, FhirPackage.TERMINOLOGY_CAPABILITIES_CODE_SYSTEM__VERSION);
@@ -159,6 +162,7 @@ public class TerminologyCapabilitiesCodeSystemImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeSystemContentMode getContent() {
 		return content;
 	}
@@ -183,6 +187,7 @@ public class TerminologyCapabilitiesCodeSystemImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setContent(CodeSystemContentMode newContent) {
 		if (newContent != content) {
 			NotificationChain msgs = null;
@@ -202,6 +207,7 @@ public class TerminologyCapabilitiesCodeSystemImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getSubsumption() {
 		return subsumption;
 	}
@@ -226,6 +232,7 @@ public class TerminologyCapabilitiesCodeSystemImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubsumption(org.hl7.fhir.Boolean newSubsumption) {
 		if (newSubsumption != subsumption) {
 			NotificationChain msgs = null;

@@ -151,6 +151,7 @@ public class CitationRelatesToImpl extends BackboneElementImpl implements Citati
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public RelatedArtifactTypeExpanded getType() {
 		return type;
 	}
@@ -175,6 +176,7 @@ public class CitationRelatesToImpl extends BackboneElementImpl implements Citati
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(RelatedArtifactTypeExpanded newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -194,6 +196,7 @@ public class CitationRelatesToImpl extends BackboneElementImpl implements Citati
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getClassifier() {
 		if (classifier == null) {
 			classifier = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.CITATION_RELATES_TO__CLASSIFIER);
@@ -206,6 +209,7 @@ public class CitationRelatesToImpl extends BackboneElementImpl implements Citati
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getLabel() {
 		return label;
 	}
@@ -230,6 +234,7 @@ public class CitationRelatesToImpl extends BackboneElementImpl implements Citati
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLabel(org.hl7.fhir.String newLabel) {
 		if (newLabel != label) {
 			NotificationChain msgs = null;
@@ -249,6 +254,7 @@ public class CitationRelatesToImpl extends BackboneElementImpl implements Citati
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDisplay() {
 		return display;
 	}
@@ -273,6 +279,7 @@ public class CitationRelatesToImpl extends BackboneElementImpl implements Citati
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDisplay(org.hl7.fhir.String newDisplay) {
 		if (newDisplay != display) {
 			NotificationChain msgs = null;
@@ -292,6 +299,7 @@ public class CitationRelatesToImpl extends BackboneElementImpl implements Citati
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getCitation() {
 		return citation;
 	}
@@ -316,6 +324,7 @@ public class CitationRelatesToImpl extends BackboneElementImpl implements Citati
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCitation(Markdown newCitation) {
 		if (newCitation != citation) {
 			NotificationChain msgs = null;
@@ -335,6 +344,7 @@ public class CitationRelatesToImpl extends BackboneElementImpl implements Citati
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Attachment getDocument() {
 		return document;
 	}
@@ -359,6 +369,7 @@ public class CitationRelatesToImpl extends BackboneElementImpl implements Citati
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDocument(Attachment newDocument) {
 		if (newDocument != document) {
 			NotificationChain msgs = null;
@@ -378,6 +389,7 @@ public class CitationRelatesToImpl extends BackboneElementImpl implements Citati
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getResource() {
 		return resource;
 	}
@@ -402,6 +414,7 @@ public class CitationRelatesToImpl extends BackboneElementImpl implements Citati
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setResource(Canonical newResource) {
 		if (newResource != resource) {
 			NotificationChain msgs = null;
@@ -421,6 +434,7 @@ public class CitationRelatesToImpl extends BackboneElementImpl implements Citati
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getResourceReference() {
 		return resourceReference;
 	}
@@ -445,6 +459,7 @@ public class CitationRelatesToImpl extends BackboneElementImpl implements Citati
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setResourceReference(Reference newResourceReference) {
 		if (newResourceReference != resourceReference) {
 			NotificationChain msgs = null;

@@ -85,6 +85,7 @@ public class SpecimenContainerImpl extends BackboneElementImpl implements Specim
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getDevice() {
 		return device;
 	}
@@ -109,6 +110,7 @@ public class SpecimenContainerImpl extends BackboneElementImpl implements Specim
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDevice(Reference newDevice) {
 		if (newDevice != device) {
 			NotificationChain msgs = null;
@@ -128,6 +130,7 @@ public class SpecimenContainerImpl extends BackboneElementImpl implements Specim
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getLocation() {
 		return location;
 	}
@@ -152,6 +155,7 @@ public class SpecimenContainerImpl extends BackboneElementImpl implements Specim
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLocation(Reference newLocation) {
 		if (newLocation != location) {
 			NotificationChain msgs = null;
@@ -171,6 +175,7 @@ public class SpecimenContainerImpl extends BackboneElementImpl implements Specim
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getSpecimenQuantity() {
 		return specimenQuantity;
 	}
@@ -195,6 +200,7 @@ public class SpecimenContainerImpl extends BackboneElementImpl implements Specim
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSpecimenQuantity(Quantity newSpecimenQuantity) {
 		if (newSpecimenQuantity != specimenQuantity) {
 			NotificationChain msgs = null;

@@ -62,6 +62,7 @@ public class AppointmentYearlyTemplateImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PositiveInt getYearInterval() {
 		return yearInterval;
 	}
@@ -86,6 +87,7 @@ public class AppointmentYearlyTemplateImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setYearInterval(PositiveInt newYearInterval) {
 		if (newYearInterval != yearInterval) {
 			NotificationChain msgs = null;

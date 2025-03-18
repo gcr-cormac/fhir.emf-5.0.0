@@ -74,6 +74,7 @@ public class MedicationKnowledgeMaxDispenseImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getQuantity() {
 		return quantity;
 	}
@@ -98,6 +99,7 @@ public class MedicationKnowledgeMaxDispenseImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setQuantity(Quantity newQuantity) {
 		if (newQuantity != quantity) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class MedicationKnowledgeMaxDispenseImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Duration getPeriod() {
 		return period;
 	}
@@ -141,6 +144,7 @@ public class MedicationKnowledgeMaxDispenseImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriod(Duration newPeriod) {
 		if (newPeriod != period) {
 			NotificationChain msgs = null;

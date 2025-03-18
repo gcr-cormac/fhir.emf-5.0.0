@@ -78,6 +78,7 @@ public class EndpointPayloadImpl extends BackboneElementImpl implements Endpoint
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getType() {
 		if (type == null) {
 			type = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.ENDPOINT_PAYLOAD__TYPE);
@@ -90,6 +91,7 @@ public class EndpointPayloadImpl extends BackboneElementImpl implements Endpoint
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Code> getMimeType() {
 		if (mimeType == null) {
 			mimeType = new EObjectContainmentEList<Code>(Code.class, this, FhirPackage.ENDPOINT_PAYLOAD__MIME_TYPE);

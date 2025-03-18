@@ -79,6 +79,7 @@ public class DocumentModeImpl extends ElementImpl implements DocumentMode {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DocumentModeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class DocumentModeImpl extends ElementImpl implements DocumentMode {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(DocumentModeEnum newValue) {
 		DocumentModeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class DocumentModeImpl extends ElementImpl implements DocumentMode {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		DocumentModeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class DocumentModeImpl extends ElementImpl implements DocumentMode {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

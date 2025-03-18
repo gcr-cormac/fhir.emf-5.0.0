@@ -79,6 +79,7 @@ public class MedicationStatusCodesImpl extends ElementImpl implements Medication
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public MedicationStatusCodesEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class MedicationStatusCodesImpl extends ElementImpl implements Medication
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(MedicationStatusCodesEnum newValue) {
 		MedicationStatusCodesEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class MedicationStatusCodesImpl extends ElementImpl implements Medication
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		MedicationStatusCodesEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class MedicationStatusCodesImpl extends ElementImpl implements Medication
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

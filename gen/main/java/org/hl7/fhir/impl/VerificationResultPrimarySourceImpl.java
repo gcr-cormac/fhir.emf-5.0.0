@@ -137,6 +137,7 @@ public class VerificationResultPrimarySourceImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getWho() {
 		return who;
 	}
@@ -161,6 +162,7 @@ public class VerificationResultPrimarySourceImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setWho(Reference newWho) {
 		if (newWho != who) {
 			NotificationChain msgs = null;
@@ -180,6 +182,7 @@ public class VerificationResultPrimarySourceImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getType() {
 		if (type == null) {
 			type = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.VERIFICATION_RESULT_PRIMARY_SOURCE__TYPE);
@@ -192,6 +195,7 @@ public class VerificationResultPrimarySourceImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCommunicationMethod() {
 		if (communicationMethod == null) {
 			communicationMethod = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.VERIFICATION_RESULT_PRIMARY_SOURCE__COMMUNICATION_METHOD);
@@ -204,6 +208,7 @@ public class VerificationResultPrimarySourceImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getValidationStatus() {
 		return validationStatus;
 	}
@@ -228,6 +233,7 @@ public class VerificationResultPrimarySourceImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValidationStatus(CodeableConcept newValidationStatus) {
 		if (newValidationStatus != validationStatus) {
 			NotificationChain msgs = null;
@@ -247,6 +253,7 @@ public class VerificationResultPrimarySourceImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getValidationDate() {
 		return validationDate;
 	}
@@ -271,6 +278,7 @@ public class VerificationResultPrimarySourceImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValidationDate(DateTime newValidationDate) {
 		if (newValidationDate != validationDate) {
 			NotificationChain msgs = null;
@@ -290,6 +298,7 @@ public class VerificationResultPrimarySourceImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCanPushUpdates() {
 		return canPushUpdates;
 	}
@@ -314,6 +323,7 @@ public class VerificationResultPrimarySourceImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCanPushUpdates(CodeableConcept newCanPushUpdates) {
 		if (newCanPushUpdates != canPushUpdates) {
 			NotificationChain msgs = null;
@@ -333,6 +343,7 @@ public class VerificationResultPrimarySourceImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getPushTypeAvailable() {
 		if (pushTypeAvailable == null) {
 			pushTypeAvailable = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.VERIFICATION_RESULT_PRIMARY_SOURCE__PUSH_TYPE_AVAILABLE);

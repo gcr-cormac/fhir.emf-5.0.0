@@ -125,6 +125,7 @@ public class MeasureReportPopulation1Impl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getLinkId() {
 		return linkId;
 	}
@@ -149,6 +150,7 @@ public class MeasureReportPopulation1Impl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLinkId(org.hl7.fhir.String newLinkId) {
 		if (newLinkId != linkId) {
 			NotificationChain msgs = null;
@@ -168,6 +170,7 @@ public class MeasureReportPopulation1Impl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -192,6 +195,7 @@ public class MeasureReportPopulation1Impl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -211,6 +215,7 @@ public class MeasureReportPopulation1Impl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Integer getCount() {
 		return count;
 	}
@@ -235,6 +240,7 @@ public class MeasureReportPopulation1Impl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCount(org.hl7.fhir.Integer newCount) {
 		if (newCount != count) {
 			NotificationChain msgs = null;
@@ -254,6 +260,7 @@ public class MeasureReportPopulation1Impl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubjectResults() {
 		return subjectResults;
 	}
@@ -278,6 +285,7 @@ public class MeasureReportPopulation1Impl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubjectResults(Reference newSubjectResults) {
 		if (newSubjectResults != subjectResults) {
 			NotificationChain msgs = null;
@@ -297,6 +305,7 @@ public class MeasureReportPopulation1Impl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getSubjectReport() {
 		if (subjectReport == null) {
 			subjectReport = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.MEASURE_REPORT_POPULATION1__SUBJECT_REPORT);
@@ -309,6 +318,7 @@ public class MeasureReportPopulation1Impl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubjects() {
 		return subjects;
 	}
@@ -333,6 +343,7 @@ public class MeasureReportPopulation1Impl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubjects(Reference newSubjects) {
 		if (newSubjects != subjects) {
 			NotificationChain msgs = null;

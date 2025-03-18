@@ -161,6 +161,7 @@ public class ClinicalUseDefinitionIndicationImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getDiseaseSymptomProcedure() {
 		return diseaseSymptomProcedure;
 	}
@@ -185,6 +186,7 @@ public class ClinicalUseDefinitionIndicationImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDiseaseSymptomProcedure(CodeableReference newDiseaseSymptomProcedure) {
 		if (newDiseaseSymptomProcedure != diseaseSymptomProcedure) {
 			NotificationChain msgs = null;
@@ -204,6 +206,7 @@ public class ClinicalUseDefinitionIndicationImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getDiseaseStatus() {
 		return diseaseStatus;
 	}
@@ -228,6 +231,7 @@ public class ClinicalUseDefinitionIndicationImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDiseaseStatus(CodeableReference newDiseaseStatus) {
 		if (newDiseaseStatus != diseaseStatus) {
 			NotificationChain msgs = null;
@@ -247,6 +251,7 @@ public class ClinicalUseDefinitionIndicationImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getComorbidity() {
 		if (comorbidity == null) {
 			comorbidity = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.CLINICAL_USE_DEFINITION_INDICATION__COMORBIDITY);
@@ -259,6 +264,7 @@ public class ClinicalUseDefinitionIndicationImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getIntendedEffect() {
 		return intendedEffect;
 	}
@@ -283,6 +289,7 @@ public class ClinicalUseDefinitionIndicationImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIntendedEffect(CodeableReference newIntendedEffect) {
 		if (newIntendedEffect != intendedEffect) {
 			NotificationChain msgs = null;
@@ -302,6 +309,7 @@ public class ClinicalUseDefinitionIndicationImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Range getDurationRange() {
 		return durationRange;
 	}
@@ -326,6 +334,7 @@ public class ClinicalUseDefinitionIndicationImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDurationRange(Range newDurationRange) {
 		if (newDurationRange != durationRange) {
 			NotificationChain msgs = null;
@@ -345,6 +354,7 @@ public class ClinicalUseDefinitionIndicationImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDurationString() {
 		return durationString;
 	}
@@ -369,6 +379,7 @@ public class ClinicalUseDefinitionIndicationImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDurationString(org.hl7.fhir.String newDurationString) {
 		if (newDurationString != durationString) {
 			NotificationChain msgs = null;
@@ -388,6 +399,7 @@ public class ClinicalUseDefinitionIndicationImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getUndesirableEffect() {
 		if (undesirableEffect == null) {
 			undesirableEffect = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.CLINICAL_USE_DEFINITION_INDICATION__UNDESIRABLE_EFFECT);
@@ -400,6 +412,7 @@ public class ClinicalUseDefinitionIndicationImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Expression getApplicability() {
 		return applicability;
 	}
@@ -424,6 +437,7 @@ public class ClinicalUseDefinitionIndicationImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setApplicability(Expression newApplicability) {
 		if (newApplicability != applicability) {
 			NotificationChain msgs = null;
@@ -443,6 +457,7 @@ public class ClinicalUseDefinitionIndicationImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ClinicalUseDefinitionOtherTherapy> getOtherTherapy() {
 		if (otherTherapy == null) {
 			otherTherapy = new EObjectContainmentEList<ClinicalUseDefinitionOtherTherapy>(ClinicalUseDefinitionOtherTherapy.class, this, FhirPackage.CLINICAL_USE_DEFINITION_INDICATION__OTHER_THERAPY);

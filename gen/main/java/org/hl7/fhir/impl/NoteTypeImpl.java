@@ -79,6 +79,7 @@ public class NoteTypeImpl extends ElementImpl implements NoteType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public NoteTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class NoteTypeImpl extends ElementImpl implements NoteType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(NoteTypeEnum newValue) {
 		NoteTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class NoteTypeImpl extends ElementImpl implements NoteType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		NoteTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class NoteTypeImpl extends ElementImpl implements NoteType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

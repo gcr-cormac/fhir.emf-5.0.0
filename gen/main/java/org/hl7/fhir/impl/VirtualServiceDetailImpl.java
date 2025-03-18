@@ -150,6 +150,7 @@ public class VirtualServiceDetailImpl extends DataTypeImpl implements VirtualSer
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getChannelType() {
 		return channelType;
 	}
@@ -174,6 +175,7 @@ public class VirtualServiceDetailImpl extends DataTypeImpl implements VirtualSer
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setChannelType(Coding newChannelType) {
 		if (newChannelType != channelType) {
 			NotificationChain msgs = null;
@@ -193,6 +195,7 @@ public class VirtualServiceDetailImpl extends DataTypeImpl implements VirtualSer
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Url getAddressUrl() {
 		return addressUrl;
 	}
@@ -217,6 +220,7 @@ public class VirtualServiceDetailImpl extends DataTypeImpl implements VirtualSer
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAddressUrl(Url newAddressUrl) {
 		if (newAddressUrl != addressUrl) {
 			NotificationChain msgs = null;
@@ -236,6 +240,7 @@ public class VirtualServiceDetailImpl extends DataTypeImpl implements VirtualSer
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getAddressString() {
 		return addressString;
 	}
@@ -260,6 +265,7 @@ public class VirtualServiceDetailImpl extends DataTypeImpl implements VirtualSer
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAddressString(org.hl7.fhir.String newAddressString) {
 		if (newAddressString != addressString) {
 			NotificationChain msgs = null;
@@ -279,6 +285,7 @@ public class VirtualServiceDetailImpl extends DataTypeImpl implements VirtualSer
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ContactPoint getAddressContactPoint() {
 		return addressContactPoint;
 	}
@@ -303,6 +310,7 @@ public class VirtualServiceDetailImpl extends DataTypeImpl implements VirtualSer
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAddressContactPoint(ContactPoint newAddressContactPoint) {
 		if (newAddressContactPoint != addressContactPoint) {
 			NotificationChain msgs = null;
@@ -322,6 +330,7 @@ public class VirtualServiceDetailImpl extends DataTypeImpl implements VirtualSer
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ExtendedContactDetail getAddressExtendedContactDetail() {
 		return addressExtendedContactDetail;
 	}
@@ -346,6 +355,7 @@ public class VirtualServiceDetailImpl extends DataTypeImpl implements VirtualSer
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAddressExtendedContactDetail(ExtendedContactDetail newAddressExtendedContactDetail) {
 		if (newAddressExtendedContactDetail != addressExtendedContactDetail) {
 			NotificationChain msgs = null;
@@ -365,6 +375,7 @@ public class VirtualServiceDetailImpl extends DataTypeImpl implements VirtualSer
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Url> getAdditionalInfo() {
 		if (additionalInfo == null) {
 			additionalInfo = new EObjectContainmentEList<Url>(Url.class, this, FhirPackage.VIRTUAL_SERVICE_DETAIL__ADDITIONAL_INFO);
@@ -377,6 +388,7 @@ public class VirtualServiceDetailImpl extends DataTypeImpl implements VirtualSer
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PositiveInt getMaxParticipants() {
 		return maxParticipants;
 	}
@@ -401,6 +413,7 @@ public class VirtualServiceDetailImpl extends DataTypeImpl implements VirtualSer
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMaxParticipants(PositiveInt newMaxParticipants) {
 		if (newMaxParticipants != maxParticipants) {
 			NotificationChain msgs = null;
@@ -420,6 +433,7 @@ public class VirtualServiceDetailImpl extends DataTypeImpl implements VirtualSer
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getSessionKey() {
 		return sessionKey;
 	}
@@ -444,6 +458,7 @@ public class VirtualServiceDetailImpl extends DataTypeImpl implements VirtualSer
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSessionKey(org.hl7.fhir.String newSessionKey) {
 		if (newSessionKey != sessionKey) {
 			NotificationChain msgs = null;

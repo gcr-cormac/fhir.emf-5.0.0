@@ -81,6 +81,7 @@ public class CitationWebLocationImpl extends BackboneElementImpl implements Cita
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getClassifier() {
 		if (classifier == null) {
 			classifier = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.CITATION_WEB_LOCATION__CLASSIFIER);
@@ -93,6 +94,7 @@ public class CitationWebLocationImpl extends BackboneElementImpl implements Cita
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getUrl() {
 		return url;
 	}
@@ -117,6 +119,7 @@ public class CitationWebLocationImpl extends BackboneElementImpl implements Cita
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUrl(Uri newUrl) {
 		if (newUrl != url) {
 			NotificationChain msgs = null;

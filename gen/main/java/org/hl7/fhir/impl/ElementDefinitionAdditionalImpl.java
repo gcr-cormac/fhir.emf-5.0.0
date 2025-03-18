@@ -127,6 +127,7 @@ public class ElementDefinitionAdditionalImpl extends BackboneTypeImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Code getPurpose() {
 		return purpose;
 	}
@@ -151,6 +152,7 @@ public class ElementDefinitionAdditionalImpl extends BackboneTypeImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPurpose(Code newPurpose) {
 		if (newPurpose != purpose) {
 			NotificationChain msgs = null;
@@ -170,6 +172,7 @@ public class ElementDefinitionAdditionalImpl extends BackboneTypeImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getValueSet() {
 		return valueSet;
 	}
@@ -194,6 +197,7 @@ public class ElementDefinitionAdditionalImpl extends BackboneTypeImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueSet(Canonical newValueSet) {
 		if (newValueSet != valueSet) {
 			NotificationChain msgs = null;
@@ -213,6 +217,7 @@ public class ElementDefinitionAdditionalImpl extends BackboneTypeImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDocumentation() {
 		return documentation;
 	}
@@ -237,6 +242,7 @@ public class ElementDefinitionAdditionalImpl extends BackboneTypeImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDocumentation(Markdown newDocumentation) {
 		if (newDocumentation != documentation) {
 			NotificationChain msgs = null;
@@ -256,6 +262,7 @@ public class ElementDefinitionAdditionalImpl extends BackboneTypeImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getShortDoco() {
 		return shortDoco;
 	}
@@ -280,6 +287,7 @@ public class ElementDefinitionAdditionalImpl extends BackboneTypeImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setShortDoco(org.hl7.fhir.String newShortDoco) {
 		if (newShortDoco != shortDoco) {
 			NotificationChain msgs = null;
@@ -299,6 +307,7 @@ public class ElementDefinitionAdditionalImpl extends BackboneTypeImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<UsageContext> getUsage() {
 		if (usage == null) {
 			usage = new EObjectContainmentEList<UsageContext>(UsageContext.class, this, FhirPackage.ELEMENT_DEFINITION_ADDITIONAL__USAGE);
@@ -311,6 +320,7 @@ public class ElementDefinitionAdditionalImpl extends BackboneTypeImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getAny() {
 		return any;
 	}
@@ -335,6 +345,7 @@ public class ElementDefinitionAdditionalImpl extends BackboneTypeImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAny(org.hl7.fhir.Boolean newAny) {
 		if (newAny != any) {
 			NotificationChain msgs = null;

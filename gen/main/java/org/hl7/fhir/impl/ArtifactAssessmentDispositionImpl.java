@@ -79,6 +79,7 @@ public class ArtifactAssessmentDispositionImpl extends ElementImpl implements Ar
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ArtifactAssessmentDispositionEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ArtifactAssessmentDispositionImpl extends ElementImpl implements Ar
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ArtifactAssessmentDispositionEnum newValue) {
 		ArtifactAssessmentDispositionEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ArtifactAssessmentDispositionImpl extends ElementImpl implements Ar
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ArtifactAssessmentDispositionEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ArtifactAssessmentDispositionImpl extends ElementImpl implements Ar
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

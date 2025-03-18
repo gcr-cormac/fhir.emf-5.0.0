@@ -115,6 +115,7 @@ public class ClaimDiagnosisImpl extends BackboneElementImpl implements ClaimDiag
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PositiveInt getSequence() {
 		return sequence;
 	}
@@ -139,6 +140,7 @@ public class ClaimDiagnosisImpl extends BackboneElementImpl implements ClaimDiag
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSequence(PositiveInt newSequence) {
 		if (newSequence != sequence) {
 			NotificationChain msgs = null;
@@ -158,6 +160,7 @@ public class ClaimDiagnosisImpl extends BackboneElementImpl implements ClaimDiag
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getDiagnosisCodeableConcept() {
 		return diagnosisCodeableConcept;
 	}
@@ -182,6 +185,7 @@ public class ClaimDiagnosisImpl extends BackboneElementImpl implements ClaimDiag
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDiagnosisCodeableConcept(CodeableConcept newDiagnosisCodeableConcept) {
 		if (newDiagnosisCodeableConcept != diagnosisCodeableConcept) {
 			NotificationChain msgs = null;
@@ -201,6 +205,7 @@ public class ClaimDiagnosisImpl extends BackboneElementImpl implements ClaimDiag
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getDiagnosisReference() {
 		return diagnosisReference;
 	}
@@ -225,6 +230,7 @@ public class ClaimDiagnosisImpl extends BackboneElementImpl implements ClaimDiag
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDiagnosisReference(Reference newDiagnosisReference) {
 		if (newDiagnosisReference != diagnosisReference) {
 			NotificationChain msgs = null;
@@ -244,6 +250,7 @@ public class ClaimDiagnosisImpl extends BackboneElementImpl implements ClaimDiag
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getType() {
 		if (type == null) {
 			type = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.CLAIM_DIAGNOSIS__TYPE);
@@ -256,6 +263,7 @@ public class ClaimDiagnosisImpl extends BackboneElementImpl implements ClaimDiag
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getOnAdmission() {
 		return onAdmission;
 	}
@@ -280,6 +288,7 @@ public class ClaimDiagnosisImpl extends BackboneElementImpl implements ClaimDiag
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOnAdmission(CodeableConcept newOnAdmission) {
 		if (newOnAdmission != onAdmission) {
 			NotificationChain msgs = null;

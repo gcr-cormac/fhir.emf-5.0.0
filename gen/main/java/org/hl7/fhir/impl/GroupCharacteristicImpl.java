@@ -143,6 +143,7 @@ public class GroupCharacteristicImpl extends BackboneElementImpl implements Grou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -167,6 +168,7 @@ public class GroupCharacteristicImpl extends BackboneElementImpl implements Grou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -186,6 +188,7 @@ public class GroupCharacteristicImpl extends BackboneElementImpl implements Grou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getValueCodeableConcept() {
 		return valueCodeableConcept;
 	}
@@ -210,6 +213,7 @@ public class GroupCharacteristicImpl extends BackboneElementImpl implements Grou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueCodeableConcept(CodeableConcept newValueCodeableConcept) {
 		if (newValueCodeableConcept != valueCodeableConcept) {
 			NotificationChain msgs = null;
@@ -229,6 +233,7 @@ public class GroupCharacteristicImpl extends BackboneElementImpl implements Grou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getValueBoolean() {
 		return valueBoolean;
 	}
@@ -253,6 +258,7 @@ public class GroupCharacteristicImpl extends BackboneElementImpl implements Grou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueBoolean(org.hl7.fhir.Boolean newValueBoolean) {
 		if (newValueBoolean != valueBoolean) {
 			NotificationChain msgs = null;
@@ -272,6 +278,7 @@ public class GroupCharacteristicImpl extends BackboneElementImpl implements Grou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getValueQuantity() {
 		return valueQuantity;
 	}
@@ -296,6 +303,7 @@ public class GroupCharacteristicImpl extends BackboneElementImpl implements Grou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueQuantity(Quantity newValueQuantity) {
 		if (newValueQuantity != valueQuantity) {
 			NotificationChain msgs = null;
@@ -315,6 +323,7 @@ public class GroupCharacteristicImpl extends BackboneElementImpl implements Grou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Range getValueRange() {
 		return valueRange;
 	}
@@ -339,6 +348,7 @@ public class GroupCharacteristicImpl extends BackboneElementImpl implements Grou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueRange(Range newValueRange) {
 		if (newValueRange != valueRange) {
 			NotificationChain msgs = null;
@@ -358,6 +368,7 @@ public class GroupCharacteristicImpl extends BackboneElementImpl implements Grou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getValueReference() {
 		return valueReference;
 	}
@@ -382,6 +393,7 @@ public class GroupCharacteristicImpl extends BackboneElementImpl implements Grou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueReference(Reference newValueReference) {
 		if (newValueReference != valueReference) {
 			NotificationChain msgs = null;
@@ -401,6 +413,7 @@ public class GroupCharacteristicImpl extends BackboneElementImpl implements Grou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getExclude() {
 		return exclude;
 	}
@@ -425,6 +438,7 @@ public class GroupCharacteristicImpl extends BackboneElementImpl implements Grou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExclude(org.hl7.fhir.Boolean newExclude) {
 		if (newExclude != exclude) {
 			NotificationChain msgs = null;
@@ -444,6 +458,7 @@ public class GroupCharacteristicImpl extends BackboneElementImpl implements Grou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getPeriod() {
 		return period;
 	}
@@ -468,6 +483,7 @@ public class GroupCharacteristicImpl extends BackboneElementImpl implements Grou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriod(Period newPeriod) {
 		if (newPeriod != period) {
 			NotificationChain msgs = null;

@@ -85,6 +85,7 @@ public class AdministrableProductDefinitionWithdrawalPeriodImpl extends Backbone
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getTissue() {
 		return tissue;
 	}
@@ -109,6 +110,7 @@ public class AdministrableProductDefinitionWithdrawalPeriodImpl extends Backbone
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTissue(CodeableConcept newTissue) {
 		if (newTissue != tissue) {
 			NotificationChain msgs = null;
@@ -128,6 +130,7 @@ public class AdministrableProductDefinitionWithdrawalPeriodImpl extends Backbone
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getValue() {
 		return value;
 	}
@@ -152,6 +155,7 @@ public class AdministrableProductDefinitionWithdrawalPeriodImpl extends Backbone
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(Quantity newValue) {
 		if (newValue != value) {
 			NotificationChain msgs = null;
@@ -171,6 +175,7 @@ public class AdministrableProductDefinitionWithdrawalPeriodImpl extends Backbone
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getSupportingInformation() {
 		return supportingInformation;
 	}
@@ -195,6 +200,7 @@ public class AdministrableProductDefinitionWithdrawalPeriodImpl extends Backbone
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSupportingInformation(org.hl7.fhir.String newSupportingInformation) {
 		if (newSupportingInformation != supportingInformation) {
 			NotificationChain msgs = null;

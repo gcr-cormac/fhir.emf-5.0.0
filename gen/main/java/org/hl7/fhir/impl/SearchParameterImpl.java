@@ -426,6 +426,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getUrl() {
 		return url;
 	}
@@ -450,6 +451,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUrl(Uri newUrl) {
 		if (newUrl != url) {
 			NotificationChain msgs = null;
@@ -469,6 +471,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.SEARCH_PARAMETER__IDENTIFIER);
@@ -481,6 +484,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersion() {
 		return version;
 	}
@@ -505,6 +509,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersion(org.hl7.fhir.String newVersion) {
 		if (newVersion != version) {
 			NotificationChain msgs = null;
@@ -524,6 +529,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersionAlgorithmString() {
 		return versionAlgorithmString;
 	}
@@ -548,6 +554,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersionAlgorithmString(org.hl7.fhir.String newVersionAlgorithmString) {
 		if (newVersionAlgorithmString != versionAlgorithmString) {
 			NotificationChain msgs = null;
@@ -567,6 +574,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getVersionAlgorithmCoding() {
 		return versionAlgorithmCoding;
 	}
@@ -591,6 +599,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersionAlgorithmCoding(Coding newVersionAlgorithmCoding) {
 		if (newVersionAlgorithmCoding != versionAlgorithmCoding) {
 			NotificationChain msgs = null;
@@ -610,6 +619,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -634,6 +644,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -653,6 +664,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getTitle() {
 		return title;
 	}
@@ -677,6 +689,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(org.hl7.fhir.String newTitle) {
 		if (newTitle != title) {
 			NotificationChain msgs = null;
@@ -696,6 +709,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getDerivedFrom() {
 		return derivedFrom;
 	}
@@ -720,6 +734,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDerivedFrom(Canonical newDerivedFrom) {
 		if (newDerivedFrom != derivedFrom) {
 			NotificationChain msgs = null;
@@ -739,6 +754,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PublicationStatus getStatus() {
 		return status;
 	}
@@ -763,6 +779,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(PublicationStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -782,6 +799,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getExperimental() {
 		return experimental;
 	}
@@ -806,6 +824,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExperimental(org.hl7.fhir.Boolean newExperimental) {
 		if (newExperimental != experimental) {
 			NotificationChain msgs = null;
@@ -825,6 +844,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getDate() {
 		return date;
 	}
@@ -849,6 +869,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDate(DateTime newDate) {
 		if (newDate != date) {
 			NotificationChain msgs = null;
@@ -868,6 +889,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPublisher() {
 		return publisher;
 	}
@@ -892,6 +914,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPublisher(org.hl7.fhir.String newPublisher) {
 		if (newPublisher != publisher) {
 			NotificationChain msgs = null;
@@ -911,6 +934,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getContact() {
 		if (contact == null) {
 			contact = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.SEARCH_PARAMETER__CONTACT);
@@ -923,6 +947,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -947,6 +972,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -966,6 +992,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<UsageContext> getUseContext() {
 		if (useContext == null) {
 			useContext = new EObjectContainmentEList<UsageContext>(UsageContext.class, this, FhirPackage.SEARCH_PARAMETER__USE_CONTEXT);
@@ -978,6 +1005,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getJurisdiction() {
 		if (jurisdiction == null) {
 			jurisdiction = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.SEARCH_PARAMETER__JURISDICTION);
@@ -990,6 +1018,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getPurpose() {
 		return purpose;
 	}
@@ -1014,6 +1043,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPurpose(Markdown newPurpose) {
 		if (newPurpose != purpose) {
 			NotificationChain msgs = null;
@@ -1033,6 +1063,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getCopyright() {
 		return copyright;
 	}
@@ -1057,6 +1088,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCopyright(Markdown newCopyright) {
 		if (newCopyright != copyright) {
 			NotificationChain msgs = null;
@@ -1076,6 +1108,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getCopyrightLabel() {
 		return copyrightLabel;
 	}
@@ -1100,6 +1133,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCopyrightLabel(org.hl7.fhir.String newCopyrightLabel) {
 		if (newCopyrightLabel != copyrightLabel) {
 			NotificationChain msgs = null;
@@ -1119,6 +1153,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Code getCode() {
 		return code;
 	}
@@ -1143,6 +1178,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(Code newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -1162,6 +1198,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<VersionIndependentResourceTypesAll> getBase() {
 		if (base == null) {
 			base = new EObjectContainmentEList<VersionIndependentResourceTypesAll>(VersionIndependentResourceTypesAll.class, this, FhirPackage.SEARCH_PARAMETER__BASE);
@@ -1174,6 +1211,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SearchParamType getType() {
 		return type;
 	}
@@ -1198,6 +1236,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(SearchParamType newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -1217,6 +1256,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getExpression() {
 		return expression;
 	}
@@ -1241,6 +1281,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExpression(org.hl7.fhir.String newExpression) {
 		if (newExpression != expression) {
 			NotificationChain msgs = null;
@@ -1260,6 +1301,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SearchProcessingModeType getProcessingMode() {
 		return processingMode;
 	}
@@ -1284,6 +1326,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProcessingMode(SearchProcessingModeType newProcessingMode) {
 		if (newProcessingMode != processingMode) {
 			NotificationChain msgs = null;
@@ -1303,6 +1346,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getConstraint() {
 		return constraint;
 	}
@@ -1327,6 +1371,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setConstraint(org.hl7.fhir.String newConstraint) {
 		if (newConstraint != constraint) {
 			NotificationChain msgs = null;
@@ -1346,6 +1391,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<VersionIndependentResourceTypesAll> getTarget() {
 		if (target == null) {
 			target = new EObjectContainmentEList<VersionIndependentResourceTypesAll>(VersionIndependentResourceTypesAll.class, this, FhirPackage.SEARCH_PARAMETER__TARGET);
@@ -1358,6 +1404,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getMultipleOr() {
 		return multipleOr;
 	}
@@ -1382,6 +1429,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMultipleOr(org.hl7.fhir.Boolean newMultipleOr) {
 		if (newMultipleOr != multipleOr) {
 			NotificationChain msgs = null;
@@ -1401,6 +1449,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getMultipleAnd() {
 		return multipleAnd;
 	}
@@ -1425,6 +1474,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMultipleAnd(org.hl7.fhir.Boolean newMultipleAnd) {
 		if (newMultipleAnd != multipleAnd) {
 			NotificationChain msgs = null;
@@ -1444,6 +1494,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SearchComparator> getComparator() {
 		if (comparator == null) {
 			comparator = new EObjectContainmentEList<SearchComparator>(SearchComparator.class, this, FhirPackage.SEARCH_PARAMETER__COMPARATOR);
@@ -1456,6 +1507,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SearchModifierCode> getModifier() {
 		if (modifier == null) {
 			modifier = new EObjectContainmentEList<SearchModifierCode>(SearchModifierCode.class, this, FhirPackage.SEARCH_PARAMETER__MODIFIER);
@@ -1468,6 +1520,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<org.hl7.fhir.String> getChain() {
 		if (chain == null) {
 			chain = new EObjectContainmentEList<org.hl7.fhir.String>(org.hl7.fhir.String.class, this, FhirPackage.SEARCH_PARAMETER__CHAIN);
@@ -1480,6 +1533,7 @@ public class SearchParameterImpl extends CanonicalResourceImpl implements Search
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SearchParameterComponent> getComponent() {
 		if (component == null) {
 			component = new EObjectContainmentEList<SearchParameterComponent>(SearchParameterComponent.class, this, FhirPackage.SEARCH_PARAMETER__COMPONENT);

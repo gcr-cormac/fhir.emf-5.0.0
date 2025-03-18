@@ -84,6 +84,7 @@ public class MedicationRequestSubstitutionImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getAllowedBoolean() {
 		return allowedBoolean;
 	}
@@ -108,6 +109,7 @@ public class MedicationRequestSubstitutionImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAllowedBoolean(org.hl7.fhir.Boolean newAllowedBoolean) {
 		if (newAllowedBoolean != allowedBoolean) {
 			NotificationChain msgs = null;
@@ -127,6 +129,7 @@ public class MedicationRequestSubstitutionImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getAllowedCodeableConcept() {
 		return allowedCodeableConcept;
 	}
@@ -151,6 +154,7 @@ public class MedicationRequestSubstitutionImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAllowedCodeableConcept(CodeableConcept newAllowedCodeableConcept) {
 		if (newAllowedCodeableConcept != allowedCodeableConcept) {
 			NotificationChain msgs = null;
@@ -170,6 +174,7 @@ public class MedicationRequestSubstitutionImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getReason() {
 		return reason;
 	}
@@ -194,6 +199,7 @@ public class MedicationRequestSubstitutionImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReason(CodeableConcept newReason) {
 		if (newReason != reason) {
 			NotificationChain msgs = null;

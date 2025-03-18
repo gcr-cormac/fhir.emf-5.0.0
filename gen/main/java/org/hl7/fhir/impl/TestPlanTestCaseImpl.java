@@ -128,6 +128,7 @@ public class TestPlanTestCaseImpl extends BackboneElementImpl implements TestPla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Integer getSequence() {
 		return sequence;
 	}
@@ -152,6 +153,7 @@ public class TestPlanTestCaseImpl extends BackboneElementImpl implements TestPla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSequence(org.hl7.fhir.Integer newSequence) {
 		if (newSequence != sequence) {
 			NotificationChain msgs = null;
@@ -171,6 +173,7 @@ public class TestPlanTestCaseImpl extends BackboneElementImpl implements TestPla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getScope() {
 		if (scope == null) {
 			scope = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.TEST_PLAN_TEST_CASE__SCOPE);
@@ -183,6 +186,7 @@ public class TestPlanTestCaseImpl extends BackboneElementImpl implements TestPla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<TestPlanDependency1> getDependency() {
 		if (dependency == null) {
 			dependency = new EObjectContainmentEList<TestPlanDependency1>(TestPlanDependency1.class, this, FhirPackage.TEST_PLAN_TEST_CASE__DEPENDENCY);
@@ -195,6 +199,7 @@ public class TestPlanTestCaseImpl extends BackboneElementImpl implements TestPla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<TestPlanTestRun> getTestRun() {
 		if (testRun == null) {
 			testRun = new EObjectContainmentEList<TestPlanTestRun>(TestPlanTestRun.class, this, FhirPackage.TEST_PLAN_TEST_CASE__TEST_RUN);
@@ -207,6 +212,7 @@ public class TestPlanTestCaseImpl extends BackboneElementImpl implements TestPla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<TestPlanTestData> getTestData() {
 		if (testData == null) {
 			testData = new EObjectContainmentEList<TestPlanTestData>(TestPlanTestData.class, this, FhirPackage.TEST_PLAN_TEST_CASE__TEST_DATA);
@@ -219,6 +225,7 @@ public class TestPlanTestCaseImpl extends BackboneElementImpl implements TestPla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<TestPlanAssertion> getAssertion() {
 		if (assertion == null) {
 			assertion = new EObjectContainmentEList<TestPlanAssertion>(TestPlanAssertion.class, this, FhirPackage.TEST_PLAN_TEST_CASE__ASSERTION);

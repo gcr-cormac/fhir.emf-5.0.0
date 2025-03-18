@@ -152,6 +152,7 @@ public class SubstanceDefinitionMoietyImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getRole() {
 		return role;
 	}
@@ -176,6 +177,7 @@ public class SubstanceDefinitionMoietyImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRole(CodeableConcept newRole) {
 		if (newRole != role) {
 			NotificationChain msgs = null;
@@ -195,6 +197,7 @@ public class SubstanceDefinitionMoietyImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Identifier getIdentifier() {
 		return identifier;
 	}
@@ -219,6 +222,7 @@ public class SubstanceDefinitionMoietyImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIdentifier(Identifier newIdentifier) {
 		if (newIdentifier != identifier) {
 			NotificationChain msgs = null;
@@ -238,6 +242,7 @@ public class SubstanceDefinitionMoietyImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -262,6 +267,7 @@ public class SubstanceDefinitionMoietyImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -281,6 +287,7 @@ public class SubstanceDefinitionMoietyImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getStereochemistry() {
 		return stereochemistry;
 	}
@@ -305,6 +312,7 @@ public class SubstanceDefinitionMoietyImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStereochemistry(CodeableConcept newStereochemistry) {
 		if (newStereochemistry != stereochemistry) {
 			NotificationChain msgs = null;
@@ -324,6 +332,7 @@ public class SubstanceDefinitionMoietyImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getOpticalActivity() {
 		return opticalActivity;
 	}
@@ -348,6 +357,7 @@ public class SubstanceDefinitionMoietyImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOpticalActivity(CodeableConcept newOpticalActivity) {
 		if (newOpticalActivity != opticalActivity) {
 			NotificationChain msgs = null;
@@ -367,6 +377,7 @@ public class SubstanceDefinitionMoietyImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getMolecularFormula() {
 		return molecularFormula;
 	}
@@ -391,6 +402,7 @@ public class SubstanceDefinitionMoietyImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMolecularFormula(org.hl7.fhir.String newMolecularFormula) {
 		if (newMolecularFormula != molecularFormula) {
 			NotificationChain msgs = null;
@@ -410,6 +422,7 @@ public class SubstanceDefinitionMoietyImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getAmountQuantity() {
 		return amountQuantity;
 	}
@@ -434,6 +447,7 @@ public class SubstanceDefinitionMoietyImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAmountQuantity(Quantity newAmountQuantity) {
 		if (newAmountQuantity != amountQuantity) {
 			NotificationChain msgs = null;
@@ -453,6 +467,7 @@ public class SubstanceDefinitionMoietyImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getAmountString() {
 		return amountString;
 	}
@@ -477,6 +492,7 @@ public class SubstanceDefinitionMoietyImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAmountString(org.hl7.fhir.String newAmountString) {
 		if (newAmountString != amountString) {
 			NotificationChain msgs = null;
@@ -496,6 +512,7 @@ public class SubstanceDefinitionMoietyImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getMeasurementType() {
 		return measurementType;
 	}
@@ -520,6 +537,7 @@ public class SubstanceDefinitionMoietyImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMeasurementType(CodeableConcept newMeasurementType) {
 		if (newMeasurementType != measurementType) {
 			NotificationChain msgs = null;

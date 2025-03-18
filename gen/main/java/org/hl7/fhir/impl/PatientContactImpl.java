@@ -141,6 +141,7 @@ public class PatientContactImpl extends BackboneElementImpl implements PatientCo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getRelationship() {
 		if (relationship == null) {
 			relationship = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.PATIENT_CONTACT__RELATIONSHIP);
@@ -153,6 +154,7 @@ public class PatientContactImpl extends BackboneElementImpl implements PatientCo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public HumanName getName() {
 		return name;
 	}
@@ -177,6 +179,7 @@ public class PatientContactImpl extends BackboneElementImpl implements PatientCo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(HumanName newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -196,6 +199,7 @@ public class PatientContactImpl extends BackboneElementImpl implements PatientCo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactPoint> getTelecom() {
 		if (telecom == null) {
 			telecom = new EObjectContainmentEList<ContactPoint>(ContactPoint.class, this, FhirPackage.PATIENT_CONTACT__TELECOM);
@@ -208,6 +212,7 @@ public class PatientContactImpl extends BackboneElementImpl implements PatientCo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Address getAddress() {
 		return address;
 	}
@@ -232,6 +237,7 @@ public class PatientContactImpl extends BackboneElementImpl implements PatientCo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAddress(Address newAddress) {
 		if (newAddress != address) {
 			NotificationChain msgs = null;
@@ -251,6 +257,7 @@ public class PatientContactImpl extends BackboneElementImpl implements PatientCo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AdministrativeGender getGender() {
 		return gender;
 	}
@@ -275,6 +282,7 @@ public class PatientContactImpl extends BackboneElementImpl implements PatientCo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setGender(AdministrativeGender newGender) {
 		if (newGender != gender) {
 			NotificationChain msgs = null;
@@ -294,6 +302,7 @@ public class PatientContactImpl extends BackboneElementImpl implements PatientCo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getOrganization() {
 		return organization;
 	}
@@ -318,6 +327,7 @@ public class PatientContactImpl extends BackboneElementImpl implements PatientCo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOrganization(Reference newOrganization) {
 		if (newOrganization != organization) {
 			NotificationChain msgs = null;
@@ -337,6 +347,7 @@ public class PatientContactImpl extends BackboneElementImpl implements PatientCo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getPeriod() {
 		return period;
 	}
@@ -361,6 +372,7 @@ public class PatientContactImpl extends BackboneElementImpl implements PatientCo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriod(Period newPeriod) {
 		if (newPeriod != period) {
 			NotificationChain msgs = null;

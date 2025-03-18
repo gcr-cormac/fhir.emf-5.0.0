@@ -96,6 +96,7 @@ public class DeviceDefinitionRegulatoryIdentifierImpl extends BackboneElementImp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DeviceDefinitionRegulatoryIdentifierType getType() {
 		return type;
 	}
@@ -120,6 +121,7 @@ public class DeviceDefinitionRegulatoryIdentifierImpl extends BackboneElementImp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(DeviceDefinitionRegulatoryIdentifierType newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -139,6 +141,7 @@ public class DeviceDefinitionRegulatoryIdentifierImpl extends BackboneElementImp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDeviceIdentifier() {
 		return deviceIdentifier;
 	}
@@ -163,6 +166,7 @@ public class DeviceDefinitionRegulatoryIdentifierImpl extends BackboneElementImp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDeviceIdentifier(org.hl7.fhir.String newDeviceIdentifier) {
 		if (newDeviceIdentifier != deviceIdentifier) {
 			NotificationChain msgs = null;
@@ -182,6 +186,7 @@ public class DeviceDefinitionRegulatoryIdentifierImpl extends BackboneElementImp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getIssuer() {
 		return issuer;
 	}
@@ -206,6 +211,7 @@ public class DeviceDefinitionRegulatoryIdentifierImpl extends BackboneElementImp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIssuer(Uri newIssuer) {
 		if (newIssuer != issuer) {
 			NotificationChain msgs = null;
@@ -225,6 +231,7 @@ public class DeviceDefinitionRegulatoryIdentifierImpl extends BackboneElementImp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getJurisdiction() {
 		return jurisdiction;
 	}
@@ -249,6 +256,7 @@ public class DeviceDefinitionRegulatoryIdentifierImpl extends BackboneElementImp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setJurisdiction(Uri newJurisdiction) {
 		if (newJurisdiction != jurisdiction) {
 			NotificationChain msgs = null;

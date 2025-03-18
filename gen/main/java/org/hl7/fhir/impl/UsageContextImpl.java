@@ -110,6 +110,7 @@ public class UsageContextImpl extends DataTypeImpl implements UsageContext {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getCode() {
 		return code;
 	}
@@ -134,6 +135,7 @@ public class UsageContextImpl extends DataTypeImpl implements UsageContext {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(Coding newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -153,6 +155,7 @@ public class UsageContextImpl extends DataTypeImpl implements UsageContext {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getValueCodeableConcept() {
 		return valueCodeableConcept;
 	}
@@ -177,6 +180,7 @@ public class UsageContextImpl extends DataTypeImpl implements UsageContext {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueCodeableConcept(CodeableConcept newValueCodeableConcept) {
 		if (newValueCodeableConcept != valueCodeableConcept) {
 			NotificationChain msgs = null;
@@ -196,6 +200,7 @@ public class UsageContextImpl extends DataTypeImpl implements UsageContext {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getValueQuantity() {
 		return valueQuantity;
 	}
@@ -220,6 +225,7 @@ public class UsageContextImpl extends DataTypeImpl implements UsageContext {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueQuantity(Quantity newValueQuantity) {
 		if (newValueQuantity != valueQuantity) {
 			NotificationChain msgs = null;
@@ -239,6 +245,7 @@ public class UsageContextImpl extends DataTypeImpl implements UsageContext {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Range getValueRange() {
 		return valueRange;
 	}
@@ -263,6 +270,7 @@ public class UsageContextImpl extends DataTypeImpl implements UsageContext {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueRange(Range newValueRange) {
 		if (newValueRange != valueRange) {
 			NotificationChain msgs = null;
@@ -282,6 +290,7 @@ public class UsageContextImpl extends DataTypeImpl implements UsageContext {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getValueReference() {
 		return valueReference;
 	}
@@ -306,6 +315,7 @@ public class UsageContextImpl extends DataTypeImpl implements UsageContext {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueReference(Reference newValueReference) {
 		if (newValueReference != valueReference) {
 			NotificationChain msgs = null;

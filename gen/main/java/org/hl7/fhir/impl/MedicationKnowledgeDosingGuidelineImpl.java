@@ -104,6 +104,7 @@ public class MedicationKnowledgeDosingGuidelineImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getTreatmentIntent() {
 		return treatmentIntent;
 	}
@@ -128,6 +129,7 @@ public class MedicationKnowledgeDosingGuidelineImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTreatmentIntent(CodeableConcept newTreatmentIntent) {
 		if (newTreatmentIntent != treatmentIntent) {
 			NotificationChain msgs = null;
@@ -147,6 +149,7 @@ public class MedicationKnowledgeDosingGuidelineImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MedicationKnowledgeDosage> getDosage() {
 		if (dosage == null) {
 			dosage = new EObjectContainmentEList<MedicationKnowledgeDosage>(MedicationKnowledgeDosage.class, this, FhirPackage.MEDICATION_KNOWLEDGE_DOSING_GUIDELINE__DOSAGE);
@@ -159,6 +162,7 @@ public class MedicationKnowledgeDosingGuidelineImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getAdministrationTreatment() {
 		return administrationTreatment;
 	}
@@ -183,6 +187,7 @@ public class MedicationKnowledgeDosingGuidelineImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAdministrationTreatment(CodeableConcept newAdministrationTreatment) {
 		if (newAdministrationTreatment != administrationTreatment) {
 			NotificationChain msgs = null;
@@ -202,6 +207,7 @@ public class MedicationKnowledgeDosingGuidelineImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MedicationKnowledgePatientCharacteristic> getPatientCharacteristic() {
 		if (patientCharacteristic == null) {
 			patientCharacteristic = new EObjectContainmentEList<MedicationKnowledgePatientCharacteristic>(MedicationKnowledgePatientCharacteristic.class, this, FhirPackage.MEDICATION_KNOWLEDGE_DOSING_GUIDELINE__PATIENT_CHARACTERISTIC);

@@ -128,6 +128,7 @@ public class AccountProcedureImpl extends BackboneElementImpl implements Account
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PositiveInt getSequence() {
 		return sequence;
 	}
@@ -152,6 +153,7 @@ public class AccountProcedureImpl extends BackboneElementImpl implements Account
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSequence(PositiveInt newSequence) {
 		if (newSequence != sequence) {
 			NotificationChain msgs = null;
@@ -171,6 +173,7 @@ public class AccountProcedureImpl extends BackboneElementImpl implements Account
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getCode() {
 		return code;
 	}
@@ -195,6 +198,7 @@ public class AccountProcedureImpl extends BackboneElementImpl implements Account
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableReference newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -214,6 +218,7 @@ public class AccountProcedureImpl extends BackboneElementImpl implements Account
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getDateOfService() {
 		return dateOfService;
 	}
@@ -238,6 +243,7 @@ public class AccountProcedureImpl extends BackboneElementImpl implements Account
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDateOfService(DateTime newDateOfService) {
 		if (newDateOfService != dateOfService) {
 			NotificationChain msgs = null;
@@ -257,6 +263,7 @@ public class AccountProcedureImpl extends BackboneElementImpl implements Account
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getType() {
 		if (type == null) {
 			type = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.ACCOUNT_PROCEDURE__TYPE);
@@ -269,6 +276,7 @@ public class AccountProcedureImpl extends BackboneElementImpl implements Account
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getPackageCode() {
 		if (packageCode == null) {
 			packageCode = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.ACCOUNT_PROCEDURE__PACKAGE_CODE);
@@ -281,6 +289,7 @@ public class AccountProcedureImpl extends BackboneElementImpl implements Account
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getDevice() {
 		if (device == null) {
 			device = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.ACCOUNT_PROCEDURE__DEVICE);

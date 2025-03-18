@@ -103,6 +103,7 @@ public class ContractSecurityLabelImpl extends BackboneElementImpl implements Co
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<UnsignedInt> getNumber() {
 		if (number == null) {
 			number = new EObjectContainmentEList<UnsignedInt>(UnsignedInt.class, this, FhirPackage.CONTRACT_SECURITY_LABEL__NUMBER);
@@ -115,6 +116,7 @@ public class ContractSecurityLabelImpl extends BackboneElementImpl implements Co
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getClassification() {
 		return classification;
 	}
@@ -139,6 +141,7 @@ public class ContractSecurityLabelImpl extends BackboneElementImpl implements Co
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setClassification(Coding newClassification) {
 		if (newClassification != classification) {
 			NotificationChain msgs = null;
@@ -158,6 +161,7 @@ public class ContractSecurityLabelImpl extends BackboneElementImpl implements Co
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Coding> getCategory() {
 		if (category == null) {
 			category = new EObjectContainmentEList<Coding>(Coding.class, this, FhirPackage.CONTRACT_SECURITY_LABEL__CATEGORY);
@@ -170,6 +174,7 @@ public class ContractSecurityLabelImpl extends BackboneElementImpl implements Co
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Coding> getControl() {
 		if (control == null) {
 			control = new EObjectContainmentEList<Coding>(Coding.class, this, FhirPackage.CONTRACT_SECURITY_LABEL__CONTROL);

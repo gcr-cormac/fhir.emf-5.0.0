@@ -149,6 +149,7 @@ public class CitationEntryImpl extends BackboneElementImpl implements CitationEn
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getContributor() {
 		return contributor;
 	}
@@ -173,6 +174,7 @@ public class CitationEntryImpl extends BackboneElementImpl implements CitationEn
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setContributor(Reference newContributor) {
 		if (newContributor != contributor) {
 			NotificationChain msgs = null;
@@ -192,6 +194,7 @@ public class CitationEntryImpl extends BackboneElementImpl implements CitationEn
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getForenameInitials() {
 		return forenameInitials;
 	}
@@ -216,6 +219,7 @@ public class CitationEntryImpl extends BackboneElementImpl implements CitationEn
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setForenameInitials(org.hl7.fhir.String newForenameInitials) {
 		if (newForenameInitials != forenameInitials) {
 			NotificationChain msgs = null;
@@ -235,6 +239,7 @@ public class CitationEntryImpl extends BackboneElementImpl implements CitationEn
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getAffiliation() {
 		if (affiliation == null) {
 			affiliation = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.CITATION_ENTRY__AFFILIATION);
@@ -247,6 +252,7 @@ public class CitationEntryImpl extends BackboneElementImpl implements CitationEn
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getContributionType() {
 		if (contributionType == null) {
 			contributionType = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.CITATION_ENTRY__CONTRIBUTION_TYPE);
@@ -259,6 +265,7 @@ public class CitationEntryImpl extends BackboneElementImpl implements CitationEn
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getRole() {
 		return role;
 	}
@@ -283,6 +290,7 @@ public class CitationEntryImpl extends BackboneElementImpl implements CitationEn
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRole(CodeableConcept newRole) {
 		if (newRole != role) {
 			NotificationChain msgs = null;
@@ -302,6 +310,7 @@ public class CitationEntryImpl extends BackboneElementImpl implements CitationEn
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CitationContributionInstance> getContributionInstance() {
 		if (contributionInstance == null) {
 			contributionInstance = new EObjectContainmentEList<CitationContributionInstance>(CitationContributionInstance.class, this, FhirPackage.CITATION_ENTRY__CONTRIBUTION_INSTANCE);
@@ -314,6 +323,7 @@ public class CitationEntryImpl extends BackboneElementImpl implements CitationEn
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getCorrespondingContact() {
 		return correspondingContact;
 	}
@@ -338,6 +348,7 @@ public class CitationEntryImpl extends BackboneElementImpl implements CitationEn
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCorrespondingContact(org.hl7.fhir.Boolean newCorrespondingContact) {
 		if (newCorrespondingContact != correspondingContact) {
 			NotificationChain msgs = null;
@@ -357,6 +368,7 @@ public class CitationEntryImpl extends BackboneElementImpl implements CitationEn
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PositiveInt getRankingOrder() {
 		return rankingOrder;
 	}
@@ -381,6 +393,7 @@ public class CitationEntryImpl extends BackboneElementImpl implements CitationEn
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRankingOrder(PositiveInt newRankingOrder) {
 		if (newRankingOrder != rankingOrder) {
 			NotificationChain msgs = null;

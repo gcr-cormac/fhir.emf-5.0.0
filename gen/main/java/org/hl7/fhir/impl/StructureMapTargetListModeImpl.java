@@ -79,6 +79,7 @@ public class StructureMapTargetListModeImpl extends ElementImpl implements Struc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public StructureMapTargetListModeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class StructureMapTargetListModeImpl extends ElementImpl implements Struc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(StructureMapTargetListModeEnum newValue) {
 		StructureMapTargetListModeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class StructureMapTargetListModeImpl extends ElementImpl implements Struc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		StructureMapTargetListModeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class StructureMapTargetListModeImpl extends ElementImpl implements Struc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

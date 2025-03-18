@@ -113,6 +113,7 @@ public class SubstanceDefinitionSourceMaterialImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -137,6 +138,7 @@ public class SubstanceDefinitionSourceMaterialImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -156,6 +158,7 @@ public class SubstanceDefinitionSourceMaterialImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getGenus() {
 		return genus;
 	}
@@ -180,6 +183,7 @@ public class SubstanceDefinitionSourceMaterialImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setGenus(CodeableConcept newGenus) {
 		if (newGenus != genus) {
 			NotificationChain msgs = null;
@@ -199,6 +203,7 @@ public class SubstanceDefinitionSourceMaterialImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getSpecies() {
 		return species;
 	}
@@ -223,6 +228,7 @@ public class SubstanceDefinitionSourceMaterialImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSpecies(CodeableConcept newSpecies) {
 		if (newSpecies != species) {
 			NotificationChain msgs = null;
@@ -242,6 +248,7 @@ public class SubstanceDefinitionSourceMaterialImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getPart() {
 		return part;
 	}
@@ -266,6 +273,7 @@ public class SubstanceDefinitionSourceMaterialImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPart(CodeableConcept newPart) {
 		if (newPart != part) {
 			NotificationChain msgs = null;
@@ -285,6 +293,7 @@ public class SubstanceDefinitionSourceMaterialImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCountryOfOrigin() {
 		if (countryOfOrigin == null) {
 			countryOfOrigin = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.SUBSTANCE_DEFINITION_SOURCE_MATERIAL__COUNTRY_OF_ORIGIN);

@@ -254,6 +254,7 @@ public class ImagingSelectionImpl extends DomainResourceImpl implements ImagingS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.IMAGING_SELECTION__IDENTIFIER);
@@ -266,6 +267,7 @@ public class ImagingSelectionImpl extends DomainResourceImpl implements ImagingS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ImagingSelectionStatus getStatus() {
 		return status;
 	}
@@ -290,6 +292,7 @@ public class ImagingSelectionImpl extends DomainResourceImpl implements ImagingS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(ImagingSelectionStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -309,6 +312,7 @@ public class ImagingSelectionImpl extends DomainResourceImpl implements ImagingS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubject() {
 		return subject;
 	}
@@ -333,6 +337,7 @@ public class ImagingSelectionImpl extends DomainResourceImpl implements ImagingS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubject(Reference newSubject) {
 		if (newSubject != subject) {
 			NotificationChain msgs = null;
@@ -352,6 +357,7 @@ public class ImagingSelectionImpl extends DomainResourceImpl implements ImagingS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Instant getIssued() {
 		return issued;
 	}
@@ -376,6 +382,7 @@ public class ImagingSelectionImpl extends DomainResourceImpl implements ImagingS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIssued(Instant newIssued) {
 		if (newIssued != issued) {
 			NotificationChain msgs = null;
@@ -395,6 +402,7 @@ public class ImagingSelectionImpl extends DomainResourceImpl implements ImagingS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ImagingSelectionPerformer> getPerformer() {
 		if (performer == null) {
 			performer = new EObjectContainmentEList<ImagingSelectionPerformer>(ImagingSelectionPerformer.class, this, FhirPackage.IMAGING_SELECTION__PERFORMER);
@@ -407,6 +415,7 @@ public class ImagingSelectionImpl extends DomainResourceImpl implements ImagingS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getBasedOn() {
 		if (basedOn == null) {
 			basedOn = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.IMAGING_SELECTION__BASED_ON);
@@ -419,6 +428,7 @@ public class ImagingSelectionImpl extends DomainResourceImpl implements ImagingS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCategory() {
 		if (category == null) {
 			category = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.IMAGING_SELECTION__CATEGORY);
@@ -431,6 +441,7 @@ public class ImagingSelectionImpl extends DomainResourceImpl implements ImagingS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -455,6 +466,7 @@ public class ImagingSelectionImpl extends DomainResourceImpl implements ImagingS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -474,6 +486,7 @@ public class ImagingSelectionImpl extends DomainResourceImpl implements ImagingS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Id getStudyUid() {
 		return studyUid;
 	}
@@ -498,6 +511,7 @@ public class ImagingSelectionImpl extends DomainResourceImpl implements ImagingS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStudyUid(Id newStudyUid) {
 		if (newStudyUid != studyUid) {
 			NotificationChain msgs = null;
@@ -517,6 +531,7 @@ public class ImagingSelectionImpl extends DomainResourceImpl implements ImagingS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getDerivedFrom() {
 		if (derivedFrom == null) {
 			derivedFrom = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.IMAGING_SELECTION__DERIVED_FROM);
@@ -529,6 +544,7 @@ public class ImagingSelectionImpl extends DomainResourceImpl implements ImagingS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getEndpoint() {
 		if (endpoint == null) {
 			endpoint = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.IMAGING_SELECTION__ENDPOINT);
@@ -541,6 +557,7 @@ public class ImagingSelectionImpl extends DomainResourceImpl implements ImagingS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Id getSeriesUid() {
 		return seriesUid;
 	}
@@ -565,6 +582,7 @@ public class ImagingSelectionImpl extends DomainResourceImpl implements ImagingS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSeriesUid(Id newSeriesUid) {
 		if (newSeriesUid != seriesUid) {
 			NotificationChain msgs = null;
@@ -584,6 +602,7 @@ public class ImagingSelectionImpl extends DomainResourceImpl implements ImagingS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public UnsignedInt getSeriesNumber() {
 		return seriesNumber;
 	}
@@ -608,6 +627,7 @@ public class ImagingSelectionImpl extends DomainResourceImpl implements ImagingS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSeriesNumber(UnsignedInt newSeriesNumber) {
 		if (newSeriesNumber != seriesNumber) {
 			NotificationChain msgs = null;
@@ -627,6 +647,7 @@ public class ImagingSelectionImpl extends DomainResourceImpl implements ImagingS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Id getFrameOfReferenceUid() {
 		return frameOfReferenceUid;
 	}
@@ -651,6 +672,7 @@ public class ImagingSelectionImpl extends DomainResourceImpl implements ImagingS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFrameOfReferenceUid(Id newFrameOfReferenceUid) {
 		if (newFrameOfReferenceUid != frameOfReferenceUid) {
 			NotificationChain msgs = null;
@@ -670,6 +692,7 @@ public class ImagingSelectionImpl extends DomainResourceImpl implements ImagingS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getBodySite() {
 		return bodySite;
 	}
@@ -694,6 +717,7 @@ public class ImagingSelectionImpl extends DomainResourceImpl implements ImagingS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBodySite(CodeableReference newBodySite) {
 		if (newBodySite != bodySite) {
 			NotificationChain msgs = null;
@@ -713,6 +737,7 @@ public class ImagingSelectionImpl extends DomainResourceImpl implements ImagingS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getFocus() {
 		if (focus == null) {
 			focus = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.IMAGING_SELECTION__FOCUS);
@@ -725,6 +750,7 @@ public class ImagingSelectionImpl extends DomainResourceImpl implements ImagingS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ImagingSelectionInstance> getInstance() {
 		if (instance == null) {
 			instance = new EObjectContainmentEList<ImagingSelectionInstance>(ImagingSelectionInstance.class, this, FhirPackage.IMAGING_SELECTION__INSTANCE);

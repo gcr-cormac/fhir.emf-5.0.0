@@ -80,6 +80,7 @@ public class CodeableConceptImpl extends DataTypeImpl implements CodeableConcept
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Coding> getCoding() {
 		if (coding == null) {
 			coding = new EObjectContainmentEList<Coding>(Coding.class, this, FhirPackage.CODEABLE_CONCEPT__CODING);
@@ -92,6 +93,7 @@ public class CodeableConceptImpl extends DataTypeImpl implements CodeableConcept
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getText() {
 		return text;
 	}
@@ -116,6 +118,7 @@ public class CodeableConceptImpl extends DataTypeImpl implements CodeableConcept
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setText(org.hl7.fhir.String newText) {
 		if (newText != text) {
 			NotificationChain msgs = null;

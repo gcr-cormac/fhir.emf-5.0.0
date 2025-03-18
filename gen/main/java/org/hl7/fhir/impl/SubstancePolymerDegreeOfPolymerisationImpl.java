@@ -95,6 +95,7 @@ public class SubstancePolymerDegreeOfPolymerisationImpl extends BackboneElementI
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -119,6 +120,7 @@ public class SubstancePolymerDegreeOfPolymerisationImpl extends BackboneElementI
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -138,6 +140,7 @@ public class SubstancePolymerDegreeOfPolymerisationImpl extends BackboneElementI
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Integer getAverage() {
 		return average;
 	}
@@ -162,6 +165,7 @@ public class SubstancePolymerDegreeOfPolymerisationImpl extends BackboneElementI
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAverage(org.hl7.fhir.Integer newAverage) {
 		if (newAverage != average) {
 			NotificationChain msgs = null;
@@ -181,6 +185,7 @@ public class SubstancePolymerDegreeOfPolymerisationImpl extends BackboneElementI
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Integer getLow() {
 		return low;
 	}
@@ -205,6 +210,7 @@ public class SubstancePolymerDegreeOfPolymerisationImpl extends BackboneElementI
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLow(org.hl7.fhir.Integer newLow) {
 		if (newLow != low) {
 			NotificationChain msgs = null;
@@ -224,6 +230,7 @@ public class SubstancePolymerDegreeOfPolymerisationImpl extends BackboneElementI
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Integer getHigh() {
 		return high;
 	}
@@ -248,6 +255,7 @@ public class SubstancePolymerDegreeOfPolymerisationImpl extends BackboneElementI
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setHigh(org.hl7.fhir.Integer newHigh) {
 		if (newHigh != high) {
 			NotificationChain msgs = null;

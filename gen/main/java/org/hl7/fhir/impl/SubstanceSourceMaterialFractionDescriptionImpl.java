@@ -73,6 +73,7 @@ public class SubstanceSourceMaterialFractionDescriptionImpl extends BackboneElem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getFraction() {
 		return fraction;
 	}
@@ -97,6 +98,7 @@ public class SubstanceSourceMaterialFractionDescriptionImpl extends BackboneElem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFraction(org.hl7.fhir.String newFraction) {
 		if (newFraction != fraction) {
 			NotificationChain msgs = null;
@@ -116,6 +118,7 @@ public class SubstanceSourceMaterialFractionDescriptionImpl extends BackboneElem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getMaterialType() {
 		return materialType;
 	}
@@ -140,6 +143,7 @@ public class SubstanceSourceMaterialFractionDescriptionImpl extends BackboneElem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMaterialType(CodeableConcept newMaterialType) {
 		if (newMaterialType != materialType) {
 			NotificationChain msgs = null;

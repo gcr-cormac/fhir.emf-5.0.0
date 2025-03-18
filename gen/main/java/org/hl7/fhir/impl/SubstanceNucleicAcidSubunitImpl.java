@@ -149,6 +149,7 @@ public class SubstanceNucleicAcidSubunitImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Integer getSubunit() {
 		return subunit;
 	}
@@ -173,6 +174,7 @@ public class SubstanceNucleicAcidSubunitImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubunit(org.hl7.fhir.Integer newSubunit) {
 		if (newSubunit != subunit) {
 			NotificationChain msgs = null;
@@ -192,6 +194,7 @@ public class SubstanceNucleicAcidSubunitImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getSequence() {
 		return sequence;
 	}
@@ -216,6 +219,7 @@ public class SubstanceNucleicAcidSubunitImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSequence(org.hl7.fhir.String newSequence) {
 		if (newSequence != sequence) {
 			NotificationChain msgs = null;
@@ -235,6 +239,7 @@ public class SubstanceNucleicAcidSubunitImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Integer getLength() {
 		return length;
 	}
@@ -259,6 +264,7 @@ public class SubstanceNucleicAcidSubunitImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLength(org.hl7.fhir.Integer newLength) {
 		if (newLength != length) {
 			NotificationChain msgs = null;
@@ -278,6 +284,7 @@ public class SubstanceNucleicAcidSubunitImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Attachment getSequenceAttachment() {
 		return sequenceAttachment;
 	}
@@ -302,6 +309,7 @@ public class SubstanceNucleicAcidSubunitImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSequenceAttachment(Attachment newSequenceAttachment) {
 		if (newSequenceAttachment != sequenceAttachment) {
 			NotificationChain msgs = null;
@@ -321,6 +329,7 @@ public class SubstanceNucleicAcidSubunitImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getFivePrime() {
 		return fivePrime;
 	}
@@ -345,6 +354,7 @@ public class SubstanceNucleicAcidSubunitImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFivePrime(CodeableConcept newFivePrime) {
 		if (newFivePrime != fivePrime) {
 			NotificationChain msgs = null;
@@ -364,6 +374,7 @@ public class SubstanceNucleicAcidSubunitImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getThreePrime() {
 		return threePrime;
 	}
@@ -388,6 +399,7 @@ public class SubstanceNucleicAcidSubunitImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setThreePrime(CodeableConcept newThreePrime) {
 		if (newThreePrime != threePrime) {
 			NotificationChain msgs = null;
@@ -407,6 +419,7 @@ public class SubstanceNucleicAcidSubunitImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SubstanceNucleicAcidLinkage> getLinkage() {
 		if (linkage == null) {
 			linkage = new EObjectContainmentEList<SubstanceNucleicAcidLinkage>(SubstanceNucleicAcidLinkage.class, this, FhirPackage.SUBSTANCE_NUCLEIC_ACID_SUBUNIT__LINKAGE);
@@ -419,6 +432,7 @@ public class SubstanceNucleicAcidSubunitImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SubstanceNucleicAcidSugar> getSugar() {
 		if (sugar == null) {
 			sugar = new EObjectContainmentEList<SubstanceNucleicAcidSugar>(SubstanceNucleicAcidSugar.class, this, FhirPackage.SUBSTANCE_NUCLEIC_ACID_SUBUNIT__SUGAR);

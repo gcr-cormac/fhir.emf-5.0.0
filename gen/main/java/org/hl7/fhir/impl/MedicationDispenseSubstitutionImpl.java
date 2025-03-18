@@ -103,6 +103,7 @@ public class MedicationDispenseSubstitutionImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getWasSubstituted() {
 		return wasSubstituted;
 	}
@@ -127,6 +128,7 @@ public class MedicationDispenseSubstitutionImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setWasSubstituted(org.hl7.fhir.Boolean newWasSubstituted) {
 		if (newWasSubstituted != wasSubstituted) {
 			NotificationChain msgs = null;
@@ -146,6 +148,7 @@ public class MedicationDispenseSubstitutionImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -170,6 +173,7 @@ public class MedicationDispenseSubstitutionImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -189,6 +193,7 @@ public class MedicationDispenseSubstitutionImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getReason() {
 		if (reason == null) {
 			reason = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.MEDICATION_DISPENSE_SUBSTITUTION__REASON);
@@ -201,6 +206,7 @@ public class MedicationDispenseSubstitutionImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getResponsibleParty() {
 		return responsibleParty;
 	}
@@ -225,6 +231,7 @@ public class MedicationDispenseSubstitutionImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setResponsibleParty(Reference newResponsibleParty) {
 		if (newResponsibleParty != responsibleParty) {
 			NotificationChain msgs = null;

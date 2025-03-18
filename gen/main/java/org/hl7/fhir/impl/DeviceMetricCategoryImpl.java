@@ -79,6 +79,7 @@ public class DeviceMetricCategoryImpl extends ElementImpl implements DeviceMetri
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DeviceMetricCategoryEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class DeviceMetricCategoryImpl extends ElementImpl implements DeviceMetri
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(DeviceMetricCategoryEnum newValue) {
 		DeviceMetricCategoryEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class DeviceMetricCategoryImpl extends ElementImpl implements DeviceMetri
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		DeviceMetricCategoryEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class DeviceMetricCategoryImpl extends ElementImpl implements DeviceMetri
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

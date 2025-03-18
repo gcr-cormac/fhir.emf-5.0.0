@@ -85,6 +85,7 @@ public class AdverseEventCausalityImpl extends BackboneElementImpl implements Ad
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getAssessmentMethod() {
 		return assessmentMethod;
 	}
@@ -109,6 +110,7 @@ public class AdverseEventCausalityImpl extends BackboneElementImpl implements Ad
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAssessmentMethod(CodeableConcept newAssessmentMethod) {
 		if (newAssessmentMethod != assessmentMethod) {
 			NotificationChain msgs = null;
@@ -128,6 +130,7 @@ public class AdverseEventCausalityImpl extends BackboneElementImpl implements Ad
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getEntityRelatedness() {
 		return entityRelatedness;
 	}
@@ -152,6 +155,7 @@ public class AdverseEventCausalityImpl extends BackboneElementImpl implements Ad
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEntityRelatedness(CodeableConcept newEntityRelatedness) {
 		if (newEntityRelatedness != entityRelatedness) {
 			NotificationChain msgs = null;
@@ -171,6 +175,7 @@ public class AdverseEventCausalityImpl extends BackboneElementImpl implements Ad
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getAuthor() {
 		return author;
 	}
@@ -195,6 +200,7 @@ public class AdverseEventCausalityImpl extends BackboneElementImpl implements Ad
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAuthor(Reference newAuthor) {
 		if (newAuthor != author) {
 			NotificationChain msgs = null;

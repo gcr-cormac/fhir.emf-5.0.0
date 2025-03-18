@@ -103,6 +103,7 @@ public class InsurancePlanCostImpl extends BackboneElementImpl implements Insura
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -127,6 +128,7 @@ public class InsurancePlanCostImpl extends BackboneElementImpl implements Insura
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -146,6 +148,7 @@ public class InsurancePlanCostImpl extends BackboneElementImpl implements Insura
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getApplicability() {
 		return applicability;
 	}
@@ -170,6 +173,7 @@ public class InsurancePlanCostImpl extends BackboneElementImpl implements Insura
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setApplicability(CodeableConcept newApplicability) {
 		if (newApplicability != applicability) {
 			NotificationChain msgs = null;
@@ -189,6 +193,7 @@ public class InsurancePlanCostImpl extends BackboneElementImpl implements Insura
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getQualifiers() {
 		if (qualifiers == null) {
 			qualifiers = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.INSURANCE_PLAN_COST__QUALIFIERS);
@@ -201,6 +206,7 @@ public class InsurancePlanCostImpl extends BackboneElementImpl implements Insura
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getValue() {
 		return value;
 	}
@@ -225,6 +231,7 @@ public class InsurancePlanCostImpl extends BackboneElementImpl implements Insura
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(Quantity newValue) {
 		if (newValue != value) {
 			NotificationChain msgs = null;

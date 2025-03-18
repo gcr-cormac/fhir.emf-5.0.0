@@ -121,6 +121,7 @@ public class IdentifierImpl extends DataTypeImpl implements Identifier {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public IdentifierUse getUse() {
 		return use;
 	}
@@ -145,6 +146,7 @@ public class IdentifierImpl extends DataTypeImpl implements Identifier {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUse(IdentifierUse newUse) {
 		if (newUse != use) {
 			NotificationChain msgs = null;
@@ -164,6 +166,7 @@ public class IdentifierImpl extends DataTypeImpl implements Identifier {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -188,6 +191,7 @@ public class IdentifierImpl extends DataTypeImpl implements Identifier {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -207,6 +211,7 @@ public class IdentifierImpl extends DataTypeImpl implements Identifier {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getSystem() {
 		return system;
 	}
@@ -231,6 +236,7 @@ public class IdentifierImpl extends DataTypeImpl implements Identifier {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSystem(Uri newSystem) {
 		if (newSystem != system) {
 			NotificationChain msgs = null;
@@ -250,6 +256,7 @@ public class IdentifierImpl extends DataTypeImpl implements Identifier {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getValue() {
 		return value;
 	}
@@ -274,6 +281,7 @@ public class IdentifierImpl extends DataTypeImpl implements Identifier {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(org.hl7.fhir.String newValue) {
 		if (newValue != value) {
 			NotificationChain msgs = null;
@@ -293,6 +301,7 @@ public class IdentifierImpl extends DataTypeImpl implements Identifier {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getPeriod() {
 		return period;
 	}
@@ -317,6 +326,7 @@ public class IdentifierImpl extends DataTypeImpl implements Identifier {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriod(Period newPeriod) {
 		if (newPeriod != period) {
 			NotificationChain msgs = null;
@@ -336,6 +346,7 @@ public class IdentifierImpl extends DataTypeImpl implements Identifier {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getAssigner() {
 		return assigner;
 	}
@@ -360,6 +371,7 @@ public class IdentifierImpl extends DataTypeImpl implements Identifier {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAssigner(Reference newAssigner) {
 		if (newAssigner != assigner) {
 			NotificationChain msgs = null;

@@ -79,6 +79,7 @@ public class UDIEntryTypeImpl extends ElementImpl implements UDIEntryType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public UDIEntryTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class UDIEntryTypeImpl extends ElementImpl implements UDIEntryType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(UDIEntryTypeEnum newValue) {
 		UDIEntryTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class UDIEntryTypeImpl extends ElementImpl implements UDIEntryType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		UDIEntryTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class UDIEntryTypeImpl extends ElementImpl implements UDIEntryType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

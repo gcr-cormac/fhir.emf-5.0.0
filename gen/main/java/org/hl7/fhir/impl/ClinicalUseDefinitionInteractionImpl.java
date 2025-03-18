@@ -115,6 +115,7 @@ public class ClinicalUseDefinitionInteractionImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ClinicalUseDefinitionInteractant> getInteractant() {
 		if (interactant == null) {
 			interactant = new EObjectContainmentEList<ClinicalUseDefinitionInteractant>(ClinicalUseDefinitionInteractant.class, this, FhirPackage.CLINICAL_USE_DEFINITION_INTERACTION__INTERACTANT);
@@ -127,6 +128,7 @@ public class ClinicalUseDefinitionInteractionImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -151,6 +153,7 @@ public class ClinicalUseDefinitionInteractionImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -170,6 +173,7 @@ public class ClinicalUseDefinitionInteractionImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getEffect() {
 		return effect;
 	}
@@ -194,6 +198,7 @@ public class ClinicalUseDefinitionInteractionImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEffect(CodeableReference newEffect) {
 		if (newEffect != effect) {
 			NotificationChain msgs = null;
@@ -213,6 +218,7 @@ public class ClinicalUseDefinitionInteractionImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getIncidence() {
 		return incidence;
 	}
@@ -237,6 +243,7 @@ public class ClinicalUseDefinitionInteractionImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIncidence(CodeableConcept newIncidence) {
 		if (newIncidence != incidence) {
 			NotificationChain msgs = null;
@@ -256,6 +263,7 @@ public class ClinicalUseDefinitionInteractionImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getManagement() {
 		if (management == null) {
 			management = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.CLINICAL_USE_DEFINITION_INTERACTION__MANAGEMENT);

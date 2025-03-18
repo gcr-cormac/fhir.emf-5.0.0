@@ -79,6 +79,7 @@ public class AppointmentResponseStatusImpl extends ElementImpl implements Appoin
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AppointmentResponseStatusEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class AppointmentResponseStatusImpl extends ElementImpl implements Appoin
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(AppointmentResponseStatusEnum newValue) {
 		AppointmentResponseStatusEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class AppointmentResponseStatusImpl extends ElementImpl implements Appoin
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		AppointmentResponseStatusEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class AppointmentResponseStatusImpl extends ElementImpl implements Appoin
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

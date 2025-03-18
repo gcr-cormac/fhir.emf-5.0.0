@@ -116,6 +116,7 @@ public class MolecularSequenceRelativeImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCoordinateSystem() {
 		return coordinateSystem;
 	}
@@ -140,6 +141,7 @@ public class MolecularSequenceRelativeImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCoordinateSystem(CodeableConcept newCoordinateSystem) {
 		if (newCoordinateSystem != coordinateSystem) {
 			NotificationChain msgs = null;
@@ -159,6 +161,7 @@ public class MolecularSequenceRelativeImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Integer getOrdinalPosition() {
 		return ordinalPosition;
 	}
@@ -183,6 +186,7 @@ public class MolecularSequenceRelativeImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOrdinalPosition(org.hl7.fhir.Integer newOrdinalPosition) {
 		if (newOrdinalPosition != ordinalPosition) {
 			NotificationChain msgs = null;
@@ -202,6 +206,7 @@ public class MolecularSequenceRelativeImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Range getSequenceRange() {
 		return sequenceRange;
 	}
@@ -226,6 +231,7 @@ public class MolecularSequenceRelativeImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSequenceRange(Range newSequenceRange) {
 		if (newSequenceRange != sequenceRange) {
 			NotificationChain msgs = null;
@@ -245,6 +251,7 @@ public class MolecularSequenceRelativeImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public MolecularSequenceStartingSequence getStartingSequence() {
 		return startingSequence;
 	}
@@ -269,6 +276,7 @@ public class MolecularSequenceRelativeImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStartingSequence(MolecularSequenceStartingSequence newStartingSequence) {
 		if (newStartingSequence != startingSequence) {
 			NotificationChain msgs = null;
@@ -288,6 +296,7 @@ public class MolecularSequenceRelativeImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MolecularSequenceEdit> getEdit() {
 		if (edit == null) {
 			edit = new EObjectContainmentEList<MolecularSequenceEdit>(MolecularSequenceEdit.class, this, FhirPackage.MOLECULAR_SEQUENCE_RELATIVE__EDIT);

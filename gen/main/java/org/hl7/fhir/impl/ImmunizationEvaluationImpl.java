@@ -206,6 +206,7 @@ public class ImmunizationEvaluationImpl extends DomainResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.IMMUNIZATION_EVALUATION__IDENTIFIER);
@@ -218,6 +219,7 @@ public class ImmunizationEvaluationImpl extends DomainResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ImmunizationEvaluationStatusCodes getStatus() {
 		return status;
 	}
@@ -242,6 +244,7 @@ public class ImmunizationEvaluationImpl extends DomainResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(ImmunizationEvaluationStatusCodes newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -261,6 +264,7 @@ public class ImmunizationEvaluationImpl extends DomainResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getPatient() {
 		return patient;
 	}
@@ -285,6 +289,7 @@ public class ImmunizationEvaluationImpl extends DomainResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPatient(Reference newPatient) {
 		if (newPatient != patient) {
 			NotificationChain msgs = null;
@@ -304,6 +309,7 @@ public class ImmunizationEvaluationImpl extends DomainResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getDate() {
 		return date;
 	}
@@ -328,6 +334,7 @@ public class ImmunizationEvaluationImpl extends DomainResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDate(DateTime newDate) {
 		if (newDate != date) {
 			NotificationChain msgs = null;
@@ -347,6 +354,7 @@ public class ImmunizationEvaluationImpl extends DomainResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getAuthority() {
 		return authority;
 	}
@@ -371,6 +379,7 @@ public class ImmunizationEvaluationImpl extends DomainResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAuthority(Reference newAuthority) {
 		if (newAuthority != authority) {
 			NotificationChain msgs = null;
@@ -390,6 +399,7 @@ public class ImmunizationEvaluationImpl extends DomainResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getTargetDisease() {
 		return targetDisease;
 	}
@@ -414,6 +424,7 @@ public class ImmunizationEvaluationImpl extends DomainResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTargetDisease(CodeableConcept newTargetDisease) {
 		if (newTargetDisease != targetDisease) {
 			NotificationChain msgs = null;
@@ -433,6 +444,7 @@ public class ImmunizationEvaluationImpl extends DomainResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getImmunizationEvent() {
 		return immunizationEvent;
 	}
@@ -457,6 +469,7 @@ public class ImmunizationEvaluationImpl extends DomainResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setImmunizationEvent(Reference newImmunizationEvent) {
 		if (newImmunizationEvent != immunizationEvent) {
 			NotificationChain msgs = null;
@@ -476,6 +489,7 @@ public class ImmunizationEvaluationImpl extends DomainResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getDoseStatus() {
 		return doseStatus;
 	}
@@ -500,6 +514,7 @@ public class ImmunizationEvaluationImpl extends DomainResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDoseStatus(CodeableConcept newDoseStatus) {
 		if (newDoseStatus != doseStatus) {
 			NotificationChain msgs = null;
@@ -519,6 +534,7 @@ public class ImmunizationEvaluationImpl extends DomainResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getDoseStatusReason() {
 		if (doseStatusReason == null) {
 			doseStatusReason = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.IMMUNIZATION_EVALUATION__DOSE_STATUS_REASON);
@@ -531,6 +547,7 @@ public class ImmunizationEvaluationImpl extends DomainResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -555,6 +572,7 @@ public class ImmunizationEvaluationImpl extends DomainResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -574,6 +592,7 @@ public class ImmunizationEvaluationImpl extends DomainResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getSeries() {
 		return series;
 	}
@@ -598,6 +617,7 @@ public class ImmunizationEvaluationImpl extends DomainResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSeries(org.hl7.fhir.String newSeries) {
 		if (newSeries != series) {
 			NotificationChain msgs = null;
@@ -617,6 +637,7 @@ public class ImmunizationEvaluationImpl extends DomainResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDoseNumber() {
 		return doseNumber;
 	}
@@ -641,6 +662,7 @@ public class ImmunizationEvaluationImpl extends DomainResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDoseNumber(org.hl7.fhir.String newDoseNumber) {
 		if (newDoseNumber != doseNumber) {
 			NotificationChain msgs = null;
@@ -660,6 +682,7 @@ public class ImmunizationEvaluationImpl extends DomainResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getSeriesDoses() {
 		return seriesDoses;
 	}
@@ -684,6 +707,7 @@ public class ImmunizationEvaluationImpl extends DomainResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSeriesDoses(org.hl7.fhir.String newSeriesDoses) {
 		if (newSeriesDoses != seriesDoses) {
 			NotificationChain msgs = null;

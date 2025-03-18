@@ -209,6 +209,7 @@ public class EncounterHistoryImpl extends DomainResourceImpl implements Encounte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getEncounter() {
 		return encounter;
 	}
@@ -233,6 +234,7 @@ public class EncounterHistoryImpl extends DomainResourceImpl implements Encounte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEncounter(Reference newEncounter) {
 		if (newEncounter != encounter) {
 			NotificationChain msgs = null;
@@ -252,6 +254,7 @@ public class EncounterHistoryImpl extends DomainResourceImpl implements Encounte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.ENCOUNTER_HISTORY__IDENTIFIER);
@@ -264,6 +267,7 @@ public class EncounterHistoryImpl extends DomainResourceImpl implements Encounte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EncounterStatus getStatus() {
 		return status;
 	}
@@ -288,6 +292,7 @@ public class EncounterHistoryImpl extends DomainResourceImpl implements Encounte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(EncounterStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -307,6 +312,7 @@ public class EncounterHistoryImpl extends DomainResourceImpl implements Encounte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getClass_() {
 		return class_;
 	}
@@ -331,6 +337,7 @@ public class EncounterHistoryImpl extends DomainResourceImpl implements Encounte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setClass(CodeableConcept newClass) {
 		if (newClass != class_) {
 			NotificationChain msgs = null;
@@ -350,6 +357,7 @@ public class EncounterHistoryImpl extends DomainResourceImpl implements Encounte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getType() {
 		if (type == null) {
 			type = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.ENCOUNTER_HISTORY__TYPE);
@@ -362,6 +370,7 @@ public class EncounterHistoryImpl extends DomainResourceImpl implements Encounte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getServiceType() {
 		if (serviceType == null) {
 			serviceType = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.ENCOUNTER_HISTORY__SERVICE_TYPE);
@@ -374,6 +383,7 @@ public class EncounterHistoryImpl extends DomainResourceImpl implements Encounte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubject() {
 		return subject;
 	}
@@ -398,6 +408,7 @@ public class EncounterHistoryImpl extends DomainResourceImpl implements Encounte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubject(Reference newSubject) {
 		if (newSubject != subject) {
 			NotificationChain msgs = null;
@@ -417,6 +428,7 @@ public class EncounterHistoryImpl extends DomainResourceImpl implements Encounte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getSubjectStatus() {
 		return subjectStatus;
 	}
@@ -441,6 +453,7 @@ public class EncounterHistoryImpl extends DomainResourceImpl implements Encounte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubjectStatus(CodeableConcept newSubjectStatus) {
 		if (newSubjectStatus != subjectStatus) {
 			NotificationChain msgs = null;
@@ -460,6 +473,7 @@ public class EncounterHistoryImpl extends DomainResourceImpl implements Encounte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getActualPeriod() {
 		return actualPeriod;
 	}
@@ -484,6 +498,7 @@ public class EncounterHistoryImpl extends DomainResourceImpl implements Encounte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setActualPeriod(Period newActualPeriod) {
 		if (newActualPeriod != actualPeriod) {
 			NotificationChain msgs = null;
@@ -503,6 +518,7 @@ public class EncounterHistoryImpl extends DomainResourceImpl implements Encounte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getPlannedStartDate() {
 		return plannedStartDate;
 	}
@@ -527,6 +543,7 @@ public class EncounterHistoryImpl extends DomainResourceImpl implements Encounte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPlannedStartDate(DateTime newPlannedStartDate) {
 		if (newPlannedStartDate != plannedStartDate) {
 			NotificationChain msgs = null;
@@ -546,6 +563,7 @@ public class EncounterHistoryImpl extends DomainResourceImpl implements Encounte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getPlannedEndDate() {
 		return plannedEndDate;
 	}
@@ -570,6 +588,7 @@ public class EncounterHistoryImpl extends DomainResourceImpl implements Encounte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPlannedEndDate(DateTime newPlannedEndDate) {
 		if (newPlannedEndDate != plannedEndDate) {
 			NotificationChain msgs = null;
@@ -589,6 +608,7 @@ public class EncounterHistoryImpl extends DomainResourceImpl implements Encounte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Duration getLength() {
 		return length;
 	}
@@ -613,6 +633,7 @@ public class EncounterHistoryImpl extends DomainResourceImpl implements Encounte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLength(Duration newLength) {
 		if (newLength != length) {
 			NotificationChain msgs = null;
@@ -632,6 +653,7 @@ public class EncounterHistoryImpl extends DomainResourceImpl implements Encounte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<EncounterHistoryLocation> getLocation() {
 		if (location == null) {
 			location = new EObjectContainmentEList<EncounterHistoryLocation>(EncounterHistoryLocation.class, this, FhirPackage.ENCOUNTER_HISTORY__LOCATION);

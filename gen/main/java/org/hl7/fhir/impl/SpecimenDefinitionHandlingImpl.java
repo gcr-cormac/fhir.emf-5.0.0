@@ -98,6 +98,7 @@ public class SpecimenDefinitionHandlingImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getTemperatureQualifier() {
 		return temperatureQualifier;
 	}
@@ -122,6 +123,7 @@ public class SpecimenDefinitionHandlingImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTemperatureQualifier(CodeableConcept newTemperatureQualifier) {
 		if (newTemperatureQualifier != temperatureQualifier) {
 			NotificationChain msgs = null;
@@ -141,6 +143,7 @@ public class SpecimenDefinitionHandlingImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Range getTemperatureRange() {
 		return temperatureRange;
 	}
@@ -165,6 +168,7 @@ public class SpecimenDefinitionHandlingImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTemperatureRange(Range newTemperatureRange) {
 		if (newTemperatureRange != temperatureRange) {
 			NotificationChain msgs = null;
@@ -184,6 +188,7 @@ public class SpecimenDefinitionHandlingImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Duration getMaxDuration() {
 		return maxDuration;
 	}
@@ -208,6 +213,7 @@ public class SpecimenDefinitionHandlingImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMaxDuration(Duration newMaxDuration) {
 		if (newMaxDuration != maxDuration) {
 			NotificationChain msgs = null;
@@ -227,6 +233,7 @@ public class SpecimenDefinitionHandlingImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getInstruction() {
 		return instruction;
 	}
@@ -251,6 +258,7 @@ public class SpecimenDefinitionHandlingImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInstruction(Markdown newInstruction) {
 		if (newInstruction != instruction) {
 			NotificationChain msgs = null;

@@ -74,6 +74,7 @@ public class AccountRelatedAccountImpl extends BackboneElementImpl implements Ac
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getRelationship() {
 		return relationship;
 	}
@@ -98,6 +99,7 @@ public class AccountRelatedAccountImpl extends BackboneElementImpl implements Ac
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRelationship(CodeableConcept newRelationship) {
 		if (newRelationship != relationship) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class AccountRelatedAccountImpl extends BackboneElementImpl implements Ac
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getAccount() {
 		return account;
 	}
@@ -141,6 +144,7 @@ public class AccountRelatedAccountImpl extends BackboneElementImpl implements Ac
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAccount(Reference newAccount) {
 		if (newAccount != account) {
 			NotificationChain msgs = null;

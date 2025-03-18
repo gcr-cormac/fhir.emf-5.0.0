@@ -208,6 +208,7 @@ public class BiologicallyDerivedProductImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getProductCategory() {
 		return productCategory;
 	}
@@ -232,6 +233,7 @@ public class BiologicallyDerivedProductImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProductCategory(Coding newProductCategory) {
 		if (newProductCategory != productCategory) {
 			NotificationChain msgs = null;
@@ -251,6 +253,7 @@ public class BiologicallyDerivedProductImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getProductCode() {
 		return productCode;
 	}
@@ -275,6 +278,7 @@ public class BiologicallyDerivedProductImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProductCode(CodeableConcept newProductCode) {
 		if (newProductCode != productCode) {
 			NotificationChain msgs = null;
@@ -294,6 +298,7 @@ public class BiologicallyDerivedProductImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getParent() {
 		if (parent == null) {
 			parent = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.BIOLOGICALLY_DERIVED_PRODUCT__PARENT);
@@ -306,6 +311,7 @@ public class BiologicallyDerivedProductImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getRequest() {
 		if (request == null) {
 			request = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.BIOLOGICALLY_DERIVED_PRODUCT__REQUEST);
@@ -318,6 +324,7 @@ public class BiologicallyDerivedProductImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.BIOLOGICALLY_DERIVED_PRODUCT__IDENTIFIER);
@@ -330,6 +337,7 @@ public class BiologicallyDerivedProductImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Identifier getBiologicalSourceEvent() {
 		return biologicalSourceEvent;
 	}
@@ -354,6 +362,7 @@ public class BiologicallyDerivedProductImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBiologicalSourceEvent(Identifier newBiologicalSourceEvent) {
 		if (newBiologicalSourceEvent != biologicalSourceEvent) {
 			NotificationChain msgs = null;
@@ -373,6 +382,7 @@ public class BiologicallyDerivedProductImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getProcessingFacility() {
 		if (processingFacility == null) {
 			processingFacility = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.BIOLOGICALLY_DERIVED_PRODUCT__PROCESSING_FACILITY);
@@ -385,6 +395,7 @@ public class BiologicallyDerivedProductImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDivision() {
 		return division;
 	}
@@ -409,6 +420,7 @@ public class BiologicallyDerivedProductImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDivision(org.hl7.fhir.String newDivision) {
 		if (newDivision != division) {
 			NotificationChain msgs = null;
@@ -428,6 +440,7 @@ public class BiologicallyDerivedProductImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getProductStatus() {
 		return productStatus;
 	}
@@ -452,6 +465,7 @@ public class BiologicallyDerivedProductImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProductStatus(Coding newProductStatus) {
 		if (newProductStatus != productStatus) {
 			NotificationChain msgs = null;
@@ -471,6 +485,7 @@ public class BiologicallyDerivedProductImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getExpirationDate() {
 		return expirationDate;
 	}
@@ -495,6 +510,7 @@ public class BiologicallyDerivedProductImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExpirationDate(DateTime newExpirationDate) {
 		if (newExpirationDate != expirationDate) {
 			NotificationChain msgs = null;
@@ -514,6 +530,7 @@ public class BiologicallyDerivedProductImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public BiologicallyDerivedProductCollection getCollection() {
 		return collection;
 	}
@@ -538,6 +555,7 @@ public class BiologicallyDerivedProductImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCollection(BiologicallyDerivedProductCollection newCollection) {
 		if (newCollection != collection) {
 			NotificationChain msgs = null;
@@ -557,6 +575,7 @@ public class BiologicallyDerivedProductImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Range getStorageTempRequirements() {
 		return storageTempRequirements;
 	}
@@ -581,6 +600,7 @@ public class BiologicallyDerivedProductImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStorageTempRequirements(Range newStorageTempRequirements) {
 		if (newStorageTempRequirements != storageTempRequirements) {
 			NotificationChain msgs = null;
@@ -600,6 +620,7 @@ public class BiologicallyDerivedProductImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<BiologicallyDerivedProductProperty> getProperty() {
 		if (property == null) {
 			property = new EObjectContainmentEList<BiologicallyDerivedProductProperty>(BiologicallyDerivedProductProperty.class, this, FhirPackage.BIOLOGICALLY_DERIVED_PRODUCT__PROPERTY);

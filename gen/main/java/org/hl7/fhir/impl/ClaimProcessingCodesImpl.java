@@ -79,6 +79,7 @@ public class ClaimProcessingCodesImpl extends ElementImpl implements ClaimProces
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ClaimProcessingCodesEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ClaimProcessingCodesImpl extends ElementImpl implements ClaimProces
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ClaimProcessingCodesEnum newValue) {
 		ClaimProcessingCodesEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ClaimProcessingCodesImpl extends ElementImpl implements ClaimProces
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ClaimProcessingCodesEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ClaimProcessingCodesImpl extends ElementImpl implements ClaimProces
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

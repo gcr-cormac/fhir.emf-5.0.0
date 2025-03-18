@@ -115,6 +115,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public FeatureMap getMixed() {
 		if (mixed == null) {
 			mixed = new BasicFeatureMap(this, XhtmlPackage.ACONTENT__MIXED);
@@ -127,6 +128,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public FeatureMap getGroup() {
 		return (FeatureMap)getMixed().<FeatureMap.Entry>list(XhtmlPackage.eINSTANCE.getAContent_Group());
 	}
@@ -136,6 +138,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<BrType> getBr() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getAContent_Br());
 	}
@@ -145,6 +148,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SpanType> getSpan() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getAContent_Span());
 	}
@@ -154,6 +158,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<BdoType> getBdo() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getAContent_Bdo());
 	}
@@ -163,6 +168,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MapType> getMap() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getAContent_Map());
 	}
@@ -172,6 +178,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ImgType> getImg() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getAContent_Img());
 	}
@@ -181,6 +188,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<TtType> getTt() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getAContent_Tt());
 	}
@@ -190,6 +198,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<IType> getI() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getAContent_I());
 	}
@@ -199,6 +208,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<BType> getB() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getAContent_B());
 	}
@@ -208,6 +218,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<BigType> getBig() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getAContent_Big());
 	}
@@ -217,6 +228,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SmallType> getSmall() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getAContent_Small());
 	}
@@ -226,6 +238,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<EmType> getEm() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getAContent_Em());
 	}
@@ -235,6 +248,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<StrongType> getStrong() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getAContent_Strong());
 	}
@@ -244,6 +258,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<DfnType> getDfn() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getAContent_Dfn());
 	}
@@ -253,6 +268,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeType> getCode() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getAContent_Code());
 	}
@@ -262,6 +278,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<QType> getQ() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getAContent_Q());
 	}
@@ -271,6 +288,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SampType> getSamp() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getAContent_Samp());
 	}
@@ -280,6 +298,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<KbdType> getKbd() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getAContent_Kbd());
 	}
@@ -289,6 +308,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<VarType> getVar() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getAContent_Var());
 	}
@@ -298,6 +318,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CiteType> getCite() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getAContent_Cite());
 	}
@@ -307,6 +328,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<AbbrType> getAbbr() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getAContent_Abbr());
 	}
@@ -316,6 +338,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<AcronymType> getAcronym() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getAContent_Acronym());
 	}
@@ -325,6 +348,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SubType> getSub() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getAContent_Sub());
 	}
@@ -334,6 +358,7 @@ public class AContentImpl extends MinimalEObjectImpl.Container implements AConte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SupType> getSup() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getAContent_Sup());
 	}

@@ -66,6 +66,7 @@ public class TestReportSetupImpl extends BackboneElementImpl implements TestRepo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<TestReportAction> getAction() {
 		if (action == null) {
 			action = new EObjectContainmentEList<TestReportAction>(TestReportAction.class, this, FhirPackage.TEST_REPORT_SETUP__ACTION);

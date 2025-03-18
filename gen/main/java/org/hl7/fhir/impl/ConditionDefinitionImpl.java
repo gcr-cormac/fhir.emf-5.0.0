@@ -402,6 +402,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getUrl() {
 		return url;
 	}
@@ -426,6 +427,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUrl(Uri newUrl) {
 		if (newUrl != url) {
 			NotificationChain msgs = null;
@@ -445,6 +447,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.CONDITION_DEFINITION__IDENTIFIER);
@@ -457,6 +460,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersion() {
 		return version;
 	}
@@ -481,6 +485,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersion(org.hl7.fhir.String newVersion) {
 		if (newVersion != version) {
 			NotificationChain msgs = null;
@@ -500,6 +505,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersionAlgorithmString() {
 		return versionAlgorithmString;
 	}
@@ -524,6 +530,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersionAlgorithmString(org.hl7.fhir.String newVersionAlgorithmString) {
 		if (newVersionAlgorithmString != versionAlgorithmString) {
 			NotificationChain msgs = null;
@@ -543,6 +550,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getVersionAlgorithmCoding() {
 		return versionAlgorithmCoding;
 	}
@@ -567,6 +575,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersionAlgorithmCoding(Coding newVersionAlgorithmCoding) {
 		if (newVersionAlgorithmCoding != versionAlgorithmCoding) {
 			NotificationChain msgs = null;
@@ -586,6 +595,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -610,6 +620,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -629,6 +640,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getTitle() {
 		return title;
 	}
@@ -653,6 +665,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(org.hl7.fhir.String newTitle) {
 		if (newTitle != title) {
 			NotificationChain msgs = null;
@@ -672,6 +685,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getSubtitle() {
 		return subtitle;
 	}
@@ -696,6 +710,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubtitle(org.hl7.fhir.String newSubtitle) {
 		if (newSubtitle != subtitle) {
 			NotificationChain msgs = null;
@@ -715,6 +730,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PublicationStatus getStatus() {
 		return status;
 	}
@@ -739,6 +755,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(PublicationStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -758,6 +775,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getExperimental() {
 		return experimental;
 	}
@@ -782,6 +800,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExperimental(org.hl7.fhir.Boolean newExperimental) {
 		if (newExperimental != experimental) {
 			NotificationChain msgs = null;
@@ -801,6 +820,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getDate() {
 		return date;
 	}
@@ -825,6 +845,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDate(DateTime newDate) {
 		if (newDate != date) {
 			NotificationChain msgs = null;
@@ -844,6 +865,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPublisher() {
 		return publisher;
 	}
@@ -868,6 +890,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPublisher(org.hl7.fhir.String newPublisher) {
 		if (newPublisher != publisher) {
 			NotificationChain msgs = null;
@@ -887,6 +910,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getContact() {
 		if (contact == null) {
 			contact = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.CONDITION_DEFINITION__CONTACT);
@@ -899,6 +923,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -923,6 +948,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -942,6 +968,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<UsageContext> getUseContext() {
 		if (useContext == null) {
 			useContext = new EObjectContainmentEList<UsageContext>(UsageContext.class, this, FhirPackage.CONDITION_DEFINITION__USE_CONTEXT);
@@ -954,6 +981,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getJurisdiction() {
 		if (jurisdiction == null) {
 			jurisdiction = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.CONDITION_DEFINITION__JURISDICTION);
@@ -966,6 +994,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -990,6 +1019,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -1009,6 +1039,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getSeverity() {
 		return severity;
 	}
@@ -1033,6 +1064,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSeverity(CodeableConcept newSeverity) {
 		if (newSeverity != severity) {
 			NotificationChain msgs = null;
@@ -1052,6 +1084,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getBodySite() {
 		return bodySite;
 	}
@@ -1076,6 +1109,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBodySite(CodeableConcept newBodySite) {
 		if (newBodySite != bodySite) {
 			NotificationChain msgs = null;
@@ -1095,6 +1129,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getStage() {
 		return stage;
 	}
@@ -1119,6 +1154,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStage(CodeableConcept newStage) {
 		if (newStage != stage) {
 			NotificationChain msgs = null;
@@ -1138,6 +1174,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getHasSeverity() {
 		return hasSeverity;
 	}
@@ -1162,6 +1199,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setHasSeverity(org.hl7.fhir.Boolean newHasSeverity) {
 		if (newHasSeverity != hasSeverity) {
 			NotificationChain msgs = null;
@@ -1181,6 +1219,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getHasBodySite() {
 		return hasBodySite;
 	}
@@ -1205,6 +1244,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setHasBodySite(org.hl7.fhir.Boolean newHasBodySite) {
 		if (newHasBodySite != hasBodySite) {
 			NotificationChain msgs = null;
@@ -1224,6 +1264,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getHasStage() {
 		return hasStage;
 	}
@@ -1248,6 +1289,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setHasStage(org.hl7.fhir.Boolean newHasStage) {
 		if (newHasStage != hasStage) {
 			NotificationChain msgs = null;
@@ -1267,6 +1309,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Uri> getDefinition() {
 		if (definition == null) {
 			definition = new EObjectContainmentEList<Uri>(Uri.class, this, FhirPackage.CONDITION_DEFINITION__DEFINITION);
@@ -1279,6 +1322,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ConditionDefinitionObservation> getObservation() {
 		if (observation == null) {
 			observation = new EObjectContainmentEList<ConditionDefinitionObservation>(ConditionDefinitionObservation.class, this, FhirPackage.CONDITION_DEFINITION__OBSERVATION);
@@ -1291,6 +1335,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ConditionDefinitionMedication> getMedication() {
 		if (medication == null) {
 			medication = new EObjectContainmentEList<ConditionDefinitionMedication>(ConditionDefinitionMedication.class, this, FhirPackage.CONDITION_DEFINITION__MEDICATION);
@@ -1303,6 +1348,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ConditionDefinitionPrecondition> getPrecondition() {
 		if (precondition == null) {
 			precondition = new EObjectContainmentEList<ConditionDefinitionPrecondition>(ConditionDefinitionPrecondition.class, this, FhirPackage.CONDITION_DEFINITION__PRECONDITION);
@@ -1315,6 +1361,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getTeam() {
 		if (team == null) {
 			team = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.CONDITION_DEFINITION__TEAM);
@@ -1327,6 +1374,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ConditionDefinitionQuestionnaire> getQuestionnaire() {
 		if (questionnaire == null) {
 			questionnaire = new EObjectContainmentEList<ConditionDefinitionQuestionnaire>(ConditionDefinitionQuestionnaire.class, this, FhirPackage.CONDITION_DEFINITION__QUESTIONNAIRE);
@@ -1339,6 +1387,7 @@ public class ConditionDefinitionImpl extends MetadataResourceImpl implements Con
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ConditionDefinitionPlan> getPlan() {
 		if (plan == null) {
 			plan = new EObjectContainmentEList<ConditionDefinitionPlan>(ConditionDefinitionPlan.class, this, FhirPackage.CONDITION_DEFINITION__PLAN);

@@ -86,6 +86,7 @@ public class BinaryImpl extends ResourceImpl implements Binary {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Code getContentType() {
 		return contentType;
 	}
@@ -110,6 +111,7 @@ public class BinaryImpl extends ResourceImpl implements Binary {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setContentType(Code newContentType) {
 		if (newContentType != contentType) {
 			NotificationChain msgs = null;
@@ -129,6 +131,7 @@ public class BinaryImpl extends ResourceImpl implements Binary {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSecurityContext() {
 		return securityContext;
 	}
@@ -153,6 +156,7 @@ public class BinaryImpl extends ResourceImpl implements Binary {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSecurityContext(Reference newSecurityContext) {
 		if (newSecurityContext != securityContext) {
 			NotificationChain msgs = null;
@@ -172,6 +176,7 @@ public class BinaryImpl extends ResourceImpl implements Binary {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Base64Binary getData() {
 		return data;
 	}
@@ -196,6 +201,7 @@ public class BinaryImpl extends ResourceImpl implements Binary {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setData(Base64Binary newData) {
 		if (newData != data) {
 			NotificationChain msgs = null;

@@ -149,6 +149,7 @@ public class CoverageCostToBeneficiaryImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -173,6 +174,7 @@ public class CoverageCostToBeneficiaryImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -192,6 +194,7 @@ public class CoverageCostToBeneficiaryImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCategory() {
 		return category;
 	}
@@ -216,6 +219,7 @@ public class CoverageCostToBeneficiaryImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCategory(CodeableConcept newCategory) {
 		if (newCategory != category) {
 			NotificationChain msgs = null;
@@ -235,6 +239,7 @@ public class CoverageCostToBeneficiaryImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getNetwork() {
 		return network;
 	}
@@ -259,6 +264,7 @@ public class CoverageCostToBeneficiaryImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNetwork(CodeableConcept newNetwork) {
 		if (newNetwork != network) {
 			NotificationChain msgs = null;
@@ -278,6 +284,7 @@ public class CoverageCostToBeneficiaryImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getUnit() {
 		return unit;
 	}
@@ -302,6 +309,7 @@ public class CoverageCostToBeneficiaryImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUnit(CodeableConcept newUnit) {
 		if (newUnit != unit) {
 			NotificationChain msgs = null;
@@ -321,6 +329,7 @@ public class CoverageCostToBeneficiaryImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getTerm() {
 		return term;
 	}
@@ -345,6 +354,7 @@ public class CoverageCostToBeneficiaryImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTerm(CodeableConcept newTerm) {
 		if (newTerm != term) {
 			NotificationChain msgs = null;
@@ -364,6 +374,7 @@ public class CoverageCostToBeneficiaryImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getValueQuantity() {
 		return valueQuantity;
 	}
@@ -388,6 +399,7 @@ public class CoverageCostToBeneficiaryImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueQuantity(Quantity newValueQuantity) {
 		if (newValueQuantity != valueQuantity) {
 			NotificationChain msgs = null;
@@ -407,6 +419,7 @@ public class CoverageCostToBeneficiaryImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Money getValueMoney() {
 		return valueMoney;
 	}
@@ -431,6 +444,7 @@ public class CoverageCostToBeneficiaryImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueMoney(Money newValueMoney) {
 		if (newValueMoney != valueMoney) {
 			NotificationChain msgs = null;
@@ -450,6 +464,7 @@ public class CoverageCostToBeneficiaryImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CoverageException> getException() {
 		if (exception == null) {
 			exception = new EObjectContainmentEList<CoverageException>(CoverageException.class, this, FhirPackage.COVERAGE_COST_TO_BENEFICIARY__EXCEPTION);

@@ -116,6 +116,7 @@ public class ImmunizationRecommendationImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.IMMUNIZATION_RECOMMENDATION__IDENTIFIER);
@@ -128,6 +129,7 @@ public class ImmunizationRecommendationImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getPatient() {
 		return patient;
 	}
@@ -152,6 +154,7 @@ public class ImmunizationRecommendationImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPatient(Reference newPatient) {
 		if (newPatient != patient) {
 			NotificationChain msgs = null;
@@ -171,6 +174,7 @@ public class ImmunizationRecommendationImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getDate() {
 		return date;
 	}
@@ -195,6 +199,7 @@ public class ImmunizationRecommendationImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDate(DateTime newDate) {
 		if (newDate != date) {
 			NotificationChain msgs = null;
@@ -214,6 +219,7 @@ public class ImmunizationRecommendationImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getAuthority() {
 		return authority;
 	}
@@ -238,6 +244,7 @@ public class ImmunizationRecommendationImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAuthority(Reference newAuthority) {
 		if (newAuthority != authority) {
 			NotificationChain msgs = null;
@@ -257,6 +264,7 @@ public class ImmunizationRecommendationImpl extends DomainResourceImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ImmunizationRecommendationRecommendation> getRecommendation() {
 		if (recommendation == null) {
 			recommendation = new EObjectContainmentEList<ImmunizationRecommendationRecommendation>(ImmunizationRecommendationRecommendation.class, this, FhirPackage.IMMUNIZATION_RECOMMENDATION__RECOMMENDATION);

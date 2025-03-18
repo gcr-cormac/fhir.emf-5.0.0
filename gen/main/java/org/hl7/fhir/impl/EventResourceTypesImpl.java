@@ -79,6 +79,7 @@ public class EventResourceTypesImpl extends ElementImpl implements EventResource
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EventResourceTypesEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class EventResourceTypesImpl extends ElementImpl implements EventResource
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(EventResourceTypesEnum newValue) {
 		EventResourceTypesEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class EventResourceTypesImpl extends ElementImpl implements EventResource
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		EventResourceTypesEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class EventResourceTypesImpl extends ElementImpl implements EventResource
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

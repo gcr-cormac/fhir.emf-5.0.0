@@ -494,6 +494,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getUrl() {
 		return url;
 	}
@@ -518,6 +519,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUrl(Uri newUrl) {
 		if (newUrl != url) {
 			NotificationChain msgs = null;
@@ -537,6 +539,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.CODE_SYSTEM__IDENTIFIER);
@@ -549,6 +552,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersion() {
 		return version;
 	}
@@ -573,6 +577,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersion(org.hl7.fhir.String newVersion) {
 		if (newVersion != version) {
 			NotificationChain msgs = null;
@@ -592,6 +597,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersionAlgorithmString() {
 		return versionAlgorithmString;
 	}
@@ -616,6 +622,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersionAlgorithmString(org.hl7.fhir.String newVersionAlgorithmString) {
 		if (newVersionAlgorithmString != versionAlgorithmString) {
 			NotificationChain msgs = null;
@@ -635,6 +642,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getVersionAlgorithmCoding() {
 		return versionAlgorithmCoding;
 	}
@@ -659,6 +667,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersionAlgorithmCoding(Coding newVersionAlgorithmCoding) {
 		if (newVersionAlgorithmCoding != versionAlgorithmCoding) {
 			NotificationChain msgs = null;
@@ -678,6 +687,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -702,6 +712,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -721,6 +732,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getTitle() {
 		return title;
 	}
@@ -745,6 +757,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(org.hl7.fhir.String newTitle) {
 		if (newTitle != title) {
 			NotificationChain msgs = null;
@@ -764,6 +777,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PublicationStatus getStatus() {
 		return status;
 	}
@@ -788,6 +802,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(PublicationStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -807,6 +822,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getExperimental() {
 		return experimental;
 	}
@@ -831,6 +847,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExperimental(org.hl7.fhir.Boolean newExperimental) {
 		if (newExperimental != experimental) {
 			NotificationChain msgs = null;
@@ -850,6 +867,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getDate() {
 		return date;
 	}
@@ -874,6 +892,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDate(DateTime newDate) {
 		if (newDate != date) {
 			NotificationChain msgs = null;
@@ -893,6 +912,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPublisher() {
 		return publisher;
 	}
@@ -917,6 +937,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPublisher(org.hl7.fhir.String newPublisher) {
 		if (newPublisher != publisher) {
 			NotificationChain msgs = null;
@@ -936,6 +957,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getContact() {
 		if (contact == null) {
 			contact = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.CODE_SYSTEM__CONTACT);
@@ -948,6 +970,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -972,6 +995,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -991,6 +1015,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<UsageContext> getUseContext() {
 		if (useContext == null) {
 			useContext = new EObjectContainmentEList<UsageContext>(UsageContext.class, this, FhirPackage.CODE_SYSTEM__USE_CONTEXT);
@@ -1003,6 +1028,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getJurisdiction() {
 		if (jurisdiction == null) {
 			jurisdiction = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.CODE_SYSTEM__JURISDICTION);
@@ -1015,6 +1041,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getPurpose() {
 		return purpose;
 	}
@@ -1039,6 +1066,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPurpose(Markdown newPurpose) {
 		if (newPurpose != purpose) {
 			NotificationChain msgs = null;
@@ -1058,6 +1086,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getCopyright() {
 		return copyright;
 	}
@@ -1082,6 +1111,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCopyright(Markdown newCopyright) {
 		if (newCopyright != copyright) {
 			NotificationChain msgs = null;
@@ -1101,6 +1131,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getCopyrightLabel() {
 		return copyrightLabel;
 	}
@@ -1125,6 +1156,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCopyrightLabel(org.hl7.fhir.String newCopyrightLabel) {
 		if (newCopyrightLabel != copyrightLabel) {
 			NotificationChain msgs = null;
@@ -1144,6 +1176,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getApprovalDate() {
 		return approvalDate;
 	}
@@ -1168,6 +1201,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setApprovalDate(Date newApprovalDate) {
 		if (newApprovalDate != approvalDate) {
 			NotificationChain msgs = null;
@@ -1187,6 +1221,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getLastReviewDate() {
 		return lastReviewDate;
 	}
@@ -1211,6 +1246,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLastReviewDate(Date newLastReviewDate) {
 		if (newLastReviewDate != lastReviewDate) {
 			NotificationChain msgs = null;
@@ -1230,6 +1266,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getEffectivePeriod() {
 		return effectivePeriod;
 	}
@@ -1254,6 +1291,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEffectivePeriod(Period newEffectivePeriod) {
 		if (newEffectivePeriod != effectivePeriod) {
 			NotificationChain msgs = null;
@@ -1273,6 +1311,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getTopic() {
 		if (topic == null) {
 			topic = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.CODE_SYSTEM__TOPIC);
@@ -1285,6 +1324,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getAuthor() {
 		if (author == null) {
 			author = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.CODE_SYSTEM__AUTHOR);
@@ -1297,6 +1337,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getEditor() {
 		if (editor == null) {
 			editor = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.CODE_SYSTEM__EDITOR);
@@ -1309,6 +1350,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getReviewer() {
 		if (reviewer == null) {
 			reviewer = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.CODE_SYSTEM__REVIEWER);
@@ -1321,6 +1363,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getEndorser() {
 		if (endorser == null) {
 			endorser = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.CODE_SYSTEM__ENDORSER);
@@ -1333,6 +1376,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<RelatedArtifact> getRelatedArtifact() {
 		if (relatedArtifact == null) {
 			relatedArtifact = new EObjectContainmentEList<RelatedArtifact>(RelatedArtifact.class, this, FhirPackage.CODE_SYSTEM__RELATED_ARTIFACT);
@@ -1345,6 +1389,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getCaseSensitive() {
 		return caseSensitive;
 	}
@@ -1369,6 +1414,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCaseSensitive(org.hl7.fhir.Boolean newCaseSensitive) {
 		if (newCaseSensitive != caseSensitive) {
 			NotificationChain msgs = null;
@@ -1388,6 +1434,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getValueSet() {
 		return valueSet;
 	}
@@ -1412,6 +1459,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueSet(Canonical newValueSet) {
 		if (newValueSet != valueSet) {
 			NotificationChain msgs = null;
@@ -1431,6 +1479,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeSystemHierarchyMeaning getHierarchyMeaning() {
 		return hierarchyMeaning;
 	}
@@ -1455,6 +1504,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setHierarchyMeaning(CodeSystemHierarchyMeaning newHierarchyMeaning) {
 		if (newHierarchyMeaning != hierarchyMeaning) {
 			NotificationChain msgs = null;
@@ -1474,6 +1524,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getCompositional() {
 		return compositional;
 	}
@@ -1498,6 +1549,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCompositional(org.hl7.fhir.Boolean newCompositional) {
 		if (newCompositional != compositional) {
 			NotificationChain msgs = null;
@@ -1517,6 +1569,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getVersionNeeded() {
 		return versionNeeded;
 	}
@@ -1541,6 +1594,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersionNeeded(org.hl7.fhir.Boolean newVersionNeeded) {
 		if (newVersionNeeded != versionNeeded) {
 			NotificationChain msgs = null;
@@ -1560,6 +1614,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeSystemContentMode getContent() {
 		return content;
 	}
@@ -1584,6 +1639,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setContent(CodeSystemContentMode newContent) {
 		if (newContent != content) {
 			NotificationChain msgs = null;
@@ -1603,6 +1659,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getSupplements() {
 		return supplements;
 	}
@@ -1627,6 +1684,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSupplements(Canonical newSupplements) {
 		if (newSupplements != supplements) {
 			NotificationChain msgs = null;
@@ -1646,6 +1704,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public UnsignedInt getCount() {
 		return count;
 	}
@@ -1670,6 +1729,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCount(UnsignedInt newCount) {
 		if (newCount != count) {
 			NotificationChain msgs = null;
@@ -1689,6 +1749,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeSystemFilter> getFilter() {
 		if (filter == null) {
 			filter = new EObjectContainmentEList<CodeSystemFilter>(CodeSystemFilter.class, this, FhirPackage.CODE_SYSTEM__FILTER);
@@ -1701,6 +1762,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeSystemProperty> getProperty() {
 		if (property == null) {
 			property = new EObjectContainmentEList<CodeSystemProperty>(CodeSystemProperty.class, this, FhirPackage.CODE_SYSTEM__PROPERTY);
@@ -1713,6 +1775,7 @@ public class CodeSystemImpl extends MetadataResourceImpl implements CodeSystem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeSystemConcept> getConcept() {
 		if (concept == null) {
 			concept = new EObjectContainmentEList<CodeSystemConcept>(CodeSystemConcept.class, this, FhirPackage.CODE_SYSTEM__CONCEPT);

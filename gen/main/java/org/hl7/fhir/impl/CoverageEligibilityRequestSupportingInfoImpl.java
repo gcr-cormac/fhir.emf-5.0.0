@@ -85,6 +85,7 @@ public class CoverageEligibilityRequestSupportingInfoImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PositiveInt getSequence() {
 		return sequence;
 	}
@@ -109,6 +110,7 @@ public class CoverageEligibilityRequestSupportingInfoImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSequence(PositiveInt newSequence) {
 		if (newSequence != sequence) {
 			NotificationChain msgs = null;
@@ -128,6 +130,7 @@ public class CoverageEligibilityRequestSupportingInfoImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getInformation() {
 		return information;
 	}
@@ -152,6 +155,7 @@ public class CoverageEligibilityRequestSupportingInfoImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInformation(Reference newInformation) {
 		if (newInformation != information) {
 			NotificationChain msgs = null;
@@ -171,6 +175,7 @@ public class CoverageEligibilityRequestSupportingInfoImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getAppliesToAll() {
 		return appliesToAll;
 	}
@@ -195,6 +200,7 @@ public class CoverageEligibilityRequestSupportingInfoImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAppliesToAll(org.hl7.fhir.Boolean newAppliesToAll) {
 		if (newAppliesToAll != appliesToAll) {
 			NotificationChain msgs = null;

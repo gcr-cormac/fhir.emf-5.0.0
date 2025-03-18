@@ -318,6 +318,7 @@ public class HealthcareServiceImpl extends DomainResourceImpl implements Healthc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.HEALTHCARE_SERVICE__IDENTIFIER);
@@ -330,6 +331,7 @@ public class HealthcareServiceImpl extends DomainResourceImpl implements Healthc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getActive() {
 		return active;
 	}
@@ -354,6 +356,7 @@ public class HealthcareServiceImpl extends DomainResourceImpl implements Healthc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setActive(org.hl7.fhir.Boolean newActive) {
 		if (newActive != active) {
 			NotificationChain msgs = null;
@@ -373,6 +376,7 @@ public class HealthcareServiceImpl extends DomainResourceImpl implements Healthc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getProvidedBy() {
 		return providedBy;
 	}
@@ -397,6 +401,7 @@ public class HealthcareServiceImpl extends DomainResourceImpl implements Healthc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProvidedBy(Reference newProvidedBy) {
 		if (newProvidedBy != providedBy) {
 			NotificationChain msgs = null;
@@ -416,6 +421,7 @@ public class HealthcareServiceImpl extends DomainResourceImpl implements Healthc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getOfferedIn() {
 		if (offeredIn == null) {
 			offeredIn = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.HEALTHCARE_SERVICE__OFFERED_IN);
@@ -428,6 +434,7 @@ public class HealthcareServiceImpl extends DomainResourceImpl implements Healthc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCategory() {
 		if (category == null) {
 			category = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.HEALTHCARE_SERVICE__CATEGORY);
@@ -440,6 +447,7 @@ public class HealthcareServiceImpl extends DomainResourceImpl implements Healthc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getType() {
 		if (type == null) {
 			type = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.HEALTHCARE_SERVICE__TYPE);
@@ -452,6 +460,7 @@ public class HealthcareServiceImpl extends DomainResourceImpl implements Healthc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getSpecialty() {
 		if (specialty == null) {
 			specialty = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.HEALTHCARE_SERVICE__SPECIALTY);
@@ -464,6 +473,7 @@ public class HealthcareServiceImpl extends DomainResourceImpl implements Healthc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getLocation() {
 		if (location == null) {
 			location = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.HEALTHCARE_SERVICE__LOCATION);
@@ -476,6 +486,7 @@ public class HealthcareServiceImpl extends DomainResourceImpl implements Healthc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -500,6 +511,7 @@ public class HealthcareServiceImpl extends DomainResourceImpl implements Healthc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -519,6 +531,7 @@ public class HealthcareServiceImpl extends DomainResourceImpl implements Healthc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getComment() {
 		return comment;
 	}
@@ -543,6 +556,7 @@ public class HealthcareServiceImpl extends DomainResourceImpl implements Healthc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setComment(Markdown newComment) {
 		if (newComment != comment) {
 			NotificationChain msgs = null;
@@ -562,6 +576,7 @@ public class HealthcareServiceImpl extends DomainResourceImpl implements Healthc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getExtraDetails() {
 		return extraDetails;
 	}
@@ -586,6 +601,7 @@ public class HealthcareServiceImpl extends DomainResourceImpl implements Healthc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExtraDetails(Markdown newExtraDetails) {
 		if (newExtraDetails != extraDetails) {
 			NotificationChain msgs = null;
@@ -605,6 +621,7 @@ public class HealthcareServiceImpl extends DomainResourceImpl implements Healthc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Attachment getPhoto() {
 		return photo;
 	}
@@ -629,6 +646,7 @@ public class HealthcareServiceImpl extends DomainResourceImpl implements Healthc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPhoto(Attachment newPhoto) {
 		if (newPhoto != photo) {
 			NotificationChain msgs = null;
@@ -648,6 +666,7 @@ public class HealthcareServiceImpl extends DomainResourceImpl implements Healthc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ExtendedContactDetail> getContact() {
 		if (contact == null) {
 			contact = new EObjectContainmentEList<ExtendedContactDetail>(ExtendedContactDetail.class, this, FhirPackage.HEALTHCARE_SERVICE__CONTACT);
@@ -660,6 +679,7 @@ public class HealthcareServiceImpl extends DomainResourceImpl implements Healthc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getCoverageArea() {
 		if (coverageArea == null) {
 			coverageArea = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.HEALTHCARE_SERVICE__COVERAGE_AREA);
@@ -672,6 +692,7 @@ public class HealthcareServiceImpl extends DomainResourceImpl implements Healthc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getServiceProvisionCode() {
 		if (serviceProvisionCode == null) {
 			serviceProvisionCode = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.HEALTHCARE_SERVICE__SERVICE_PROVISION_CODE);
@@ -684,6 +705,7 @@ public class HealthcareServiceImpl extends DomainResourceImpl implements Healthc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<HealthcareServiceEligibility> getEligibility() {
 		if (eligibility == null) {
 			eligibility = new EObjectContainmentEList<HealthcareServiceEligibility>(HealthcareServiceEligibility.class, this, FhirPackage.HEALTHCARE_SERVICE__ELIGIBILITY);
@@ -696,6 +718,7 @@ public class HealthcareServiceImpl extends DomainResourceImpl implements Healthc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getProgram() {
 		if (program == null) {
 			program = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.HEALTHCARE_SERVICE__PROGRAM);
@@ -708,6 +731,7 @@ public class HealthcareServiceImpl extends DomainResourceImpl implements Healthc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCharacteristic() {
 		if (characteristic == null) {
 			characteristic = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.HEALTHCARE_SERVICE__CHARACTERISTIC);
@@ -720,6 +744,7 @@ public class HealthcareServiceImpl extends DomainResourceImpl implements Healthc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCommunication() {
 		if (communication == null) {
 			communication = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.HEALTHCARE_SERVICE__COMMUNICATION);
@@ -732,6 +757,7 @@ public class HealthcareServiceImpl extends DomainResourceImpl implements Healthc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getReferralMethod() {
 		if (referralMethod == null) {
 			referralMethod = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.HEALTHCARE_SERVICE__REFERRAL_METHOD);
@@ -744,6 +770,7 @@ public class HealthcareServiceImpl extends DomainResourceImpl implements Healthc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getAppointmentRequired() {
 		return appointmentRequired;
 	}
@@ -768,6 +795,7 @@ public class HealthcareServiceImpl extends DomainResourceImpl implements Healthc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAppointmentRequired(org.hl7.fhir.Boolean newAppointmentRequired) {
 		if (newAppointmentRequired != appointmentRequired) {
 			NotificationChain msgs = null;
@@ -787,6 +815,7 @@ public class HealthcareServiceImpl extends DomainResourceImpl implements Healthc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Availability> getAvailability() {
 		if (availability == null) {
 			availability = new EObjectContainmentEList<Availability>(Availability.class, this, FhirPackage.HEALTHCARE_SERVICE__AVAILABILITY);
@@ -799,6 +828,7 @@ public class HealthcareServiceImpl extends DomainResourceImpl implements Healthc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getEndpoint() {
 		if (endpoint == null) {
 			endpoint = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.HEALTHCARE_SERVICE__ENDPOINT);

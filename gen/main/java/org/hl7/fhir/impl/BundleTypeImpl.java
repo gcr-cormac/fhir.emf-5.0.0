@@ -79,6 +79,7 @@ public class BundleTypeImpl extends ElementImpl implements BundleType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public BundleTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class BundleTypeImpl extends ElementImpl implements BundleType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(BundleTypeEnum newValue) {
 		BundleTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class BundleTypeImpl extends ElementImpl implements BundleType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		BundleTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class BundleTypeImpl extends ElementImpl implements BundleType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

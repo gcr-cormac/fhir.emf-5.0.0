@@ -62,6 +62,7 @@ public class TestScriptAction2Impl extends BackboneElementImpl implements TestSc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TestScriptOperation getOperation() {
 		return operation;
 	}
@@ -86,6 +87,7 @@ public class TestScriptAction2Impl extends BackboneElementImpl implements TestSc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOperation(TestScriptOperation newOperation) {
 		if (newOperation != operation) {
 			NotificationChain msgs = null;

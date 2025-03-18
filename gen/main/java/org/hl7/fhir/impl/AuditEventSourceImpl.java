@@ -92,6 +92,7 @@ public class AuditEventSourceImpl extends BackboneElementImpl implements AuditEv
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSite() {
 		return site;
 	}
@@ -116,6 +117,7 @@ public class AuditEventSourceImpl extends BackboneElementImpl implements AuditEv
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSite(Reference newSite) {
 		if (newSite != site) {
 			NotificationChain msgs = null;
@@ -135,6 +137,7 @@ public class AuditEventSourceImpl extends BackboneElementImpl implements AuditEv
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getObserver() {
 		return observer;
 	}
@@ -159,6 +162,7 @@ public class AuditEventSourceImpl extends BackboneElementImpl implements AuditEv
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setObserver(Reference newObserver) {
 		if (newObserver != observer) {
 			NotificationChain msgs = null;
@@ -178,6 +182,7 @@ public class AuditEventSourceImpl extends BackboneElementImpl implements AuditEv
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getType() {
 		if (type == null) {
 			type = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.AUDIT_EVENT_SOURCE__TYPE);

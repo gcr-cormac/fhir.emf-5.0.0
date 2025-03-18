@@ -377,6 +377,7 @@ public class AreaTypeImpl extends MinimalEObjectImpl.Container implements AreaTy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getAccesskey() {
 		return accesskey;
 	}
@@ -386,6 +387,7 @@ public class AreaTypeImpl extends MinimalEObjectImpl.Container implements AreaTy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAccesskey(String newAccesskey) {
 		String oldAccesskey = accesskey;
 		accesskey = newAccesskey;
@@ -398,6 +400,7 @@ public class AreaTypeImpl extends MinimalEObjectImpl.Container implements AreaTy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getAlt() {
 		return alt;
 	}
@@ -407,6 +410,7 @@ public class AreaTypeImpl extends MinimalEObjectImpl.Container implements AreaTy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAlt(String newAlt) {
 		String oldAlt = alt;
 		alt = newAlt;
@@ -419,6 +423,7 @@ public class AreaTypeImpl extends MinimalEObjectImpl.Container implements AreaTy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public List<String> getClass_() {
 		return class_;
 	}
@@ -428,6 +433,7 @@ public class AreaTypeImpl extends MinimalEObjectImpl.Container implements AreaTy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setClass(List<String> newClass) {
 		List<String> oldClass = class_;
 		class_ = newClass;
@@ -440,6 +446,7 @@ public class AreaTypeImpl extends MinimalEObjectImpl.Container implements AreaTy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getCoords() {
 		return coords;
 	}
@@ -449,6 +456,7 @@ public class AreaTypeImpl extends MinimalEObjectImpl.Container implements AreaTy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCoords(String newCoords) {
 		String oldCoords = coords;
 		coords = newCoords;
@@ -461,6 +469,7 @@ public class AreaTypeImpl extends MinimalEObjectImpl.Container implements AreaTy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DirType getDir() {
 		return dir;
 	}
@@ -470,6 +479,7 @@ public class AreaTypeImpl extends MinimalEObjectImpl.Container implements AreaTy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDir(DirType newDir) {
 		DirType oldDir = dir;
 		dir = newDir == null ? DIR_EDEFAULT : newDir;
@@ -484,6 +494,7 @@ public class AreaTypeImpl extends MinimalEObjectImpl.Container implements AreaTy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetDir() {
 		DirType oldDir = dir;
 		boolean oldDirESet = dirESet;
@@ -498,6 +509,7 @@ public class AreaTypeImpl extends MinimalEObjectImpl.Container implements AreaTy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetDir() {
 		return dirESet;
 	}
@@ -507,6 +519,7 @@ public class AreaTypeImpl extends MinimalEObjectImpl.Container implements AreaTy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getHref() {
 		return href;
 	}
@@ -516,6 +529,7 @@ public class AreaTypeImpl extends MinimalEObjectImpl.Container implements AreaTy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setHref(String newHref) {
 		String oldHref = href;
 		href = newHref;
@@ -528,6 +542,7 @@ public class AreaTypeImpl extends MinimalEObjectImpl.Container implements AreaTy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getId() {
 		return id;
 	}
@@ -537,6 +552,7 @@ public class AreaTypeImpl extends MinimalEObjectImpl.Container implements AreaTy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setId(String newId) {
 		String oldId = id;
 		id = newId;
@@ -549,6 +565,7 @@ public class AreaTypeImpl extends MinimalEObjectImpl.Container implements AreaTy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getLang() {
 		return lang;
 	}
@@ -558,6 +575,7 @@ public class AreaTypeImpl extends MinimalEObjectImpl.Container implements AreaTy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLang(String newLang) {
 		String oldLang = lang;
 		lang = newLang;
@@ -570,6 +588,7 @@ public class AreaTypeImpl extends MinimalEObjectImpl.Container implements AreaTy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Object getLang1() {
 		return lang1;
 	}
@@ -579,6 +598,7 @@ public class AreaTypeImpl extends MinimalEObjectImpl.Container implements AreaTy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLang1(Object newLang1) {
 		Object oldLang1 = lang1;
 		lang1 = newLang1;
@@ -591,6 +611,7 @@ public class AreaTypeImpl extends MinimalEObjectImpl.Container implements AreaTy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public NohrefType getNohref() {
 		return nohref;
 	}
@@ -600,6 +621,7 @@ public class AreaTypeImpl extends MinimalEObjectImpl.Container implements AreaTy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNohref(NohrefType newNohref) {
 		NohrefType oldNohref = nohref;
 		nohref = newNohref == null ? NOHREF_EDEFAULT : newNohref;
@@ -614,6 +636,7 @@ public class AreaTypeImpl extends MinimalEObjectImpl.Container implements AreaTy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetNohref() {
 		NohrefType oldNohref = nohref;
 		boolean oldNohrefESet = nohrefESet;
@@ -628,6 +651,7 @@ public class AreaTypeImpl extends MinimalEObjectImpl.Container implements AreaTy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetNohref() {
 		return nohrefESet;
 	}
@@ -637,6 +661,7 @@ public class AreaTypeImpl extends MinimalEObjectImpl.Container implements AreaTy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Shape getShape() {
 		return shape;
 	}
@@ -646,6 +671,7 @@ public class AreaTypeImpl extends MinimalEObjectImpl.Container implements AreaTy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setShape(Shape newShape) {
 		Shape oldShape = shape;
 		shape = newShape == null ? SHAPE_EDEFAULT : newShape;
@@ -660,6 +686,7 @@ public class AreaTypeImpl extends MinimalEObjectImpl.Container implements AreaTy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetShape() {
 		Shape oldShape = shape;
 		boolean oldShapeESet = shapeESet;
@@ -674,6 +701,7 @@ public class AreaTypeImpl extends MinimalEObjectImpl.Container implements AreaTy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetShape() {
 		return shapeESet;
 	}
@@ -683,6 +711,7 @@ public class AreaTypeImpl extends MinimalEObjectImpl.Container implements AreaTy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getStyle() {
 		return style;
 	}
@@ -692,6 +721,7 @@ public class AreaTypeImpl extends MinimalEObjectImpl.Container implements AreaTy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStyle(String newStyle) {
 		String oldStyle = style;
 		style = newStyle;
@@ -704,6 +734,7 @@ public class AreaTypeImpl extends MinimalEObjectImpl.Container implements AreaTy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public BigInteger getTabindex() {
 		return tabindex;
 	}
@@ -713,6 +744,7 @@ public class AreaTypeImpl extends MinimalEObjectImpl.Container implements AreaTy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTabindex(BigInteger newTabindex) {
 		BigInteger oldTabindex = tabindex;
 		tabindex = newTabindex;
@@ -725,6 +757,7 @@ public class AreaTypeImpl extends MinimalEObjectImpl.Container implements AreaTy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getTitle() {
 		return title;
 	}
@@ -734,6 +767,7 @@ public class AreaTypeImpl extends MinimalEObjectImpl.Container implements AreaTy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(String newTitle) {
 		String oldTitle = title;
 		title = newTitle;

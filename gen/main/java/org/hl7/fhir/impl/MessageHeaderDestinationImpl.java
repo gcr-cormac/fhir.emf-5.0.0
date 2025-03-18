@@ -107,6 +107,7 @@ public class MessageHeaderDestinationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Url getEndpointUrl() {
 		return endpointUrl;
 	}
@@ -131,6 +132,7 @@ public class MessageHeaderDestinationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEndpointUrl(Url newEndpointUrl) {
 		if (newEndpointUrl != endpointUrl) {
 			NotificationChain msgs = null;
@@ -150,6 +152,7 @@ public class MessageHeaderDestinationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getEndpointReference() {
 		return endpointReference;
 	}
@@ -174,6 +177,7 @@ public class MessageHeaderDestinationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEndpointReference(Reference newEndpointReference) {
 		if (newEndpointReference != endpointReference) {
 			NotificationChain msgs = null;
@@ -193,6 +197,7 @@ public class MessageHeaderDestinationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -217,6 +222,7 @@ public class MessageHeaderDestinationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -236,6 +242,7 @@ public class MessageHeaderDestinationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getTarget() {
 		return target;
 	}
@@ -260,6 +267,7 @@ public class MessageHeaderDestinationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTarget(Reference newTarget) {
 		if (newTarget != target) {
 			NotificationChain msgs = null;
@@ -279,6 +287,7 @@ public class MessageHeaderDestinationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getReceiver() {
 		return receiver;
 	}
@@ -303,6 +312,7 @@ public class MessageHeaderDestinationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReceiver(Reference newReceiver) {
 		if (newReceiver != receiver) {
 			NotificationChain msgs = null;

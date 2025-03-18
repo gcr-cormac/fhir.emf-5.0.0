@@ -117,6 +117,7 @@ public class ImplementationGuideDefinitionImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ImplementationGuideGrouping> getGrouping() {
 		if (grouping == null) {
 			grouping = new EObjectContainmentEList<ImplementationGuideGrouping>(ImplementationGuideGrouping.class, this, FhirPackage.IMPLEMENTATION_GUIDE_DEFINITION__GROUPING);
@@ -129,6 +130,7 @@ public class ImplementationGuideDefinitionImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ImplementationGuideResource> getResource() {
 		if (resource == null) {
 			resource = new EObjectContainmentEList<ImplementationGuideResource>(ImplementationGuideResource.class, this, FhirPackage.IMPLEMENTATION_GUIDE_DEFINITION__RESOURCE);
@@ -141,6 +143,7 @@ public class ImplementationGuideDefinitionImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ImplementationGuidePage getPage() {
 		return page;
 	}
@@ -165,6 +168,7 @@ public class ImplementationGuideDefinitionImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPage(ImplementationGuidePage newPage) {
 		if (newPage != page) {
 			NotificationChain msgs = null;
@@ -184,6 +188,7 @@ public class ImplementationGuideDefinitionImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ImplementationGuideParameter> getParameter() {
 		if (parameter == null) {
 			parameter = new EObjectContainmentEList<ImplementationGuideParameter>(ImplementationGuideParameter.class, this, FhirPackage.IMPLEMENTATION_GUIDE_DEFINITION__PARAMETER);
@@ -196,6 +201,7 @@ public class ImplementationGuideDefinitionImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ImplementationGuideTemplate> getTemplate() {
 		if (template == null) {
 			template = new EObjectContainmentEList<ImplementationGuideTemplate>(ImplementationGuideTemplate.class, this, FhirPackage.IMPLEMENTATION_GUIDE_DEFINITION__TEMPLATE);

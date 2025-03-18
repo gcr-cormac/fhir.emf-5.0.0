@@ -96,6 +96,7 @@ public class SubstancePolymerStructuralRepresentationImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -120,6 +121,7 @@ public class SubstancePolymerStructuralRepresentationImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -139,6 +141,7 @@ public class SubstancePolymerStructuralRepresentationImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getRepresentation() {
 		return representation;
 	}
@@ -163,6 +166,7 @@ public class SubstancePolymerStructuralRepresentationImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRepresentation(org.hl7.fhir.String newRepresentation) {
 		if (newRepresentation != representation) {
 			NotificationChain msgs = null;
@@ -182,6 +186,7 @@ public class SubstancePolymerStructuralRepresentationImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getFormat() {
 		return format;
 	}
@@ -206,6 +211,7 @@ public class SubstancePolymerStructuralRepresentationImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFormat(CodeableConcept newFormat) {
 		if (newFormat != format) {
 			NotificationChain msgs = null;
@@ -225,6 +231,7 @@ public class SubstancePolymerStructuralRepresentationImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Attachment getAttachment() {
 		return attachment;
 	}
@@ -249,6 +256,7 @@ public class SubstancePolymerStructuralRepresentationImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAttachment(Attachment newAttachment) {
 		if (newAttachment != attachment) {
 			NotificationChain msgs = null;

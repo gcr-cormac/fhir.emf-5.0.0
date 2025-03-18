@@ -79,6 +79,7 @@ public class RemittanceOutcomeImpl extends ElementImpl implements RemittanceOutc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public RemittanceOutcomeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class RemittanceOutcomeImpl extends ElementImpl implements RemittanceOutc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(RemittanceOutcomeEnum newValue) {
 		RemittanceOutcomeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class RemittanceOutcomeImpl extends ElementImpl implements RemittanceOutc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		RemittanceOutcomeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class RemittanceOutcomeImpl extends ElementImpl implements RemittanceOutc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

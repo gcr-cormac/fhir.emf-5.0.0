@@ -128,6 +128,7 @@ public class MeasureStratifierImpl extends BackboneElementImpl implements Measur
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getLinkId() {
 		return linkId;
 	}
@@ -152,6 +153,7 @@ public class MeasureStratifierImpl extends BackboneElementImpl implements Measur
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLinkId(org.hl7.fhir.String newLinkId) {
 		if (newLinkId != linkId) {
 			NotificationChain msgs = null;
@@ -171,6 +173,7 @@ public class MeasureStratifierImpl extends BackboneElementImpl implements Measur
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -195,6 +198,7 @@ public class MeasureStratifierImpl extends BackboneElementImpl implements Measur
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -214,6 +218,7 @@ public class MeasureStratifierImpl extends BackboneElementImpl implements Measur
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -238,6 +243,7 @@ public class MeasureStratifierImpl extends BackboneElementImpl implements Measur
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -257,6 +263,7 @@ public class MeasureStratifierImpl extends BackboneElementImpl implements Measur
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Expression getCriteria() {
 		return criteria;
 	}
@@ -281,6 +288,7 @@ public class MeasureStratifierImpl extends BackboneElementImpl implements Measur
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCriteria(Expression newCriteria) {
 		if (newCriteria != criteria) {
 			NotificationChain msgs = null;
@@ -300,6 +308,7 @@ public class MeasureStratifierImpl extends BackboneElementImpl implements Measur
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getGroupDefinition() {
 		return groupDefinition;
 	}
@@ -324,6 +333,7 @@ public class MeasureStratifierImpl extends BackboneElementImpl implements Measur
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setGroupDefinition(Reference newGroupDefinition) {
 		if (newGroupDefinition != groupDefinition) {
 			NotificationChain msgs = null;
@@ -343,6 +353,7 @@ public class MeasureStratifierImpl extends BackboneElementImpl implements Measur
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MeasureComponent> getComponent() {
 		if (component == null) {
 			component = new EObjectContainmentEList<MeasureComponent>(MeasureComponent.class, this, FhirPackage.MEASURE_STRATIFIER__COMPONENT);

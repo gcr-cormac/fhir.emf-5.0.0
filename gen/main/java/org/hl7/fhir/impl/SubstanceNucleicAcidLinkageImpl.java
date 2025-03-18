@@ -95,6 +95,7 @@ public class SubstanceNucleicAcidLinkageImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getConnectivity() {
 		return connectivity;
 	}
@@ -119,6 +120,7 @@ public class SubstanceNucleicAcidLinkageImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setConnectivity(org.hl7.fhir.String newConnectivity) {
 		if (newConnectivity != connectivity) {
 			NotificationChain msgs = null;
@@ -138,6 +140,7 @@ public class SubstanceNucleicAcidLinkageImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Identifier getIdentifier() {
 		return identifier;
 	}
@@ -162,6 +165,7 @@ public class SubstanceNucleicAcidLinkageImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIdentifier(Identifier newIdentifier) {
 		if (newIdentifier != identifier) {
 			NotificationChain msgs = null;
@@ -181,6 +185,7 @@ public class SubstanceNucleicAcidLinkageImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -205,6 +210,7 @@ public class SubstanceNucleicAcidLinkageImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -224,6 +230,7 @@ public class SubstanceNucleicAcidLinkageImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getResidueSite() {
 		return residueSite;
 	}
@@ -248,6 +255,7 @@ public class SubstanceNucleicAcidLinkageImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setResidueSite(org.hl7.fhir.String newResidueSite) {
 		if (newResidueSite != residueSite) {
 			NotificationChain msgs = null;

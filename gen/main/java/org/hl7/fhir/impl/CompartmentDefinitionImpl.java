@@ -253,6 +253,7 @@ public class CompartmentDefinitionImpl extends CanonicalResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getUrl() {
 		return url;
 	}
@@ -277,6 +278,7 @@ public class CompartmentDefinitionImpl extends CanonicalResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUrl(Uri newUrl) {
 		if (newUrl != url) {
 			NotificationChain msgs = null;
@@ -296,6 +298,7 @@ public class CompartmentDefinitionImpl extends CanonicalResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersion() {
 		return version;
 	}
@@ -320,6 +323,7 @@ public class CompartmentDefinitionImpl extends CanonicalResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersion(org.hl7.fhir.String newVersion) {
 		if (newVersion != version) {
 			NotificationChain msgs = null;
@@ -339,6 +343,7 @@ public class CompartmentDefinitionImpl extends CanonicalResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersionAlgorithmString() {
 		return versionAlgorithmString;
 	}
@@ -363,6 +368,7 @@ public class CompartmentDefinitionImpl extends CanonicalResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersionAlgorithmString(org.hl7.fhir.String newVersionAlgorithmString) {
 		if (newVersionAlgorithmString != versionAlgorithmString) {
 			NotificationChain msgs = null;
@@ -382,6 +388,7 @@ public class CompartmentDefinitionImpl extends CanonicalResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getVersionAlgorithmCoding() {
 		return versionAlgorithmCoding;
 	}
@@ -406,6 +413,7 @@ public class CompartmentDefinitionImpl extends CanonicalResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersionAlgorithmCoding(Coding newVersionAlgorithmCoding) {
 		if (newVersionAlgorithmCoding != versionAlgorithmCoding) {
 			NotificationChain msgs = null;
@@ -425,6 +433,7 @@ public class CompartmentDefinitionImpl extends CanonicalResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -449,6 +458,7 @@ public class CompartmentDefinitionImpl extends CanonicalResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -468,6 +478,7 @@ public class CompartmentDefinitionImpl extends CanonicalResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getTitle() {
 		return title;
 	}
@@ -492,6 +503,7 @@ public class CompartmentDefinitionImpl extends CanonicalResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(org.hl7.fhir.String newTitle) {
 		if (newTitle != title) {
 			NotificationChain msgs = null;
@@ -511,6 +523,7 @@ public class CompartmentDefinitionImpl extends CanonicalResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PublicationStatus getStatus() {
 		return status;
 	}
@@ -535,6 +548,7 @@ public class CompartmentDefinitionImpl extends CanonicalResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(PublicationStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -554,6 +568,7 @@ public class CompartmentDefinitionImpl extends CanonicalResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getExperimental() {
 		return experimental;
 	}
@@ -578,6 +593,7 @@ public class CompartmentDefinitionImpl extends CanonicalResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExperimental(org.hl7.fhir.Boolean newExperimental) {
 		if (newExperimental != experimental) {
 			NotificationChain msgs = null;
@@ -597,6 +613,7 @@ public class CompartmentDefinitionImpl extends CanonicalResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getDate() {
 		return date;
 	}
@@ -621,6 +638,7 @@ public class CompartmentDefinitionImpl extends CanonicalResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDate(DateTime newDate) {
 		if (newDate != date) {
 			NotificationChain msgs = null;
@@ -640,6 +658,7 @@ public class CompartmentDefinitionImpl extends CanonicalResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPublisher() {
 		return publisher;
 	}
@@ -664,6 +683,7 @@ public class CompartmentDefinitionImpl extends CanonicalResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPublisher(org.hl7.fhir.String newPublisher) {
 		if (newPublisher != publisher) {
 			NotificationChain msgs = null;
@@ -683,6 +703,7 @@ public class CompartmentDefinitionImpl extends CanonicalResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getContact() {
 		if (contact == null) {
 			contact = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.COMPARTMENT_DEFINITION__CONTACT);
@@ -695,6 +716,7 @@ public class CompartmentDefinitionImpl extends CanonicalResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -719,6 +741,7 @@ public class CompartmentDefinitionImpl extends CanonicalResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -738,6 +761,7 @@ public class CompartmentDefinitionImpl extends CanonicalResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<UsageContext> getUseContext() {
 		if (useContext == null) {
 			useContext = new EObjectContainmentEList<UsageContext>(UsageContext.class, this, FhirPackage.COMPARTMENT_DEFINITION__USE_CONTEXT);
@@ -750,6 +774,7 @@ public class CompartmentDefinitionImpl extends CanonicalResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getPurpose() {
 		return purpose;
 	}
@@ -774,6 +799,7 @@ public class CompartmentDefinitionImpl extends CanonicalResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPurpose(Markdown newPurpose) {
 		if (newPurpose != purpose) {
 			NotificationChain msgs = null;
@@ -793,6 +819,7 @@ public class CompartmentDefinitionImpl extends CanonicalResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CompartmentType getCode() {
 		return code;
 	}
@@ -817,6 +844,7 @@ public class CompartmentDefinitionImpl extends CanonicalResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CompartmentType newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -836,6 +864,7 @@ public class CompartmentDefinitionImpl extends CanonicalResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getSearch() {
 		return search;
 	}
@@ -860,6 +889,7 @@ public class CompartmentDefinitionImpl extends CanonicalResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSearch(org.hl7.fhir.Boolean newSearch) {
 		if (newSearch != search) {
 			NotificationChain msgs = null;
@@ -879,6 +909,7 @@ public class CompartmentDefinitionImpl extends CanonicalResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CompartmentDefinitionResource> getResource() {
 		if (resource == null) {
 			resource = new EObjectContainmentEList<CompartmentDefinitionResource>(CompartmentDefinitionResource.class, this, FhirPackage.COMPARTMENT_DEFINITION__RESOURCE);

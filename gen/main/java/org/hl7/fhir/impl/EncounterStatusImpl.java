@@ -79,6 +79,7 @@ public class EncounterStatusImpl extends ElementImpl implements EncounterStatus 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EncounterStatusEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class EncounterStatusImpl extends ElementImpl implements EncounterStatus 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(EncounterStatusEnum newValue) {
 		EncounterStatusEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class EncounterStatusImpl extends ElementImpl implements EncounterStatus 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		EncounterStatusEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class EncounterStatusImpl extends ElementImpl implements EncounterStatus 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

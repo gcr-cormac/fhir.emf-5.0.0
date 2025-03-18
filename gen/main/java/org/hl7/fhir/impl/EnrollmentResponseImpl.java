@@ -150,6 +150,7 @@ public class EnrollmentResponseImpl extends DomainResourceImpl implements Enroll
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.ENROLLMENT_RESPONSE__IDENTIFIER);
@@ -162,6 +163,7 @@ public class EnrollmentResponseImpl extends DomainResourceImpl implements Enroll
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public FinancialResourceStatusCodes getStatus() {
 		return status;
 	}
@@ -186,6 +188,7 @@ public class EnrollmentResponseImpl extends DomainResourceImpl implements Enroll
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(FinancialResourceStatusCodes newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -205,6 +208,7 @@ public class EnrollmentResponseImpl extends DomainResourceImpl implements Enroll
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getRequest() {
 		return request;
 	}
@@ -229,6 +233,7 @@ public class EnrollmentResponseImpl extends DomainResourceImpl implements Enroll
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRequest(Reference newRequest) {
 		if (newRequest != request) {
 			NotificationChain msgs = null;
@@ -248,6 +253,7 @@ public class EnrollmentResponseImpl extends DomainResourceImpl implements Enroll
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EnrollmentOutcome getOutcome() {
 		return outcome;
 	}
@@ -272,6 +278,7 @@ public class EnrollmentResponseImpl extends DomainResourceImpl implements Enroll
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOutcome(EnrollmentOutcome newOutcome) {
 		if (newOutcome != outcome) {
 			NotificationChain msgs = null;
@@ -291,6 +298,7 @@ public class EnrollmentResponseImpl extends DomainResourceImpl implements Enroll
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDisposition() {
 		return disposition;
 	}
@@ -315,6 +323,7 @@ public class EnrollmentResponseImpl extends DomainResourceImpl implements Enroll
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDisposition(org.hl7.fhir.String newDisposition) {
 		if (newDisposition != disposition) {
 			NotificationChain msgs = null;
@@ -334,6 +343,7 @@ public class EnrollmentResponseImpl extends DomainResourceImpl implements Enroll
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getCreated() {
 		return created;
 	}
@@ -358,6 +368,7 @@ public class EnrollmentResponseImpl extends DomainResourceImpl implements Enroll
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCreated(DateTime newCreated) {
 		if (newCreated != created) {
 			NotificationChain msgs = null;
@@ -377,6 +388,7 @@ public class EnrollmentResponseImpl extends DomainResourceImpl implements Enroll
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getOrganization() {
 		return organization;
 	}
@@ -401,6 +413,7 @@ public class EnrollmentResponseImpl extends DomainResourceImpl implements Enroll
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOrganization(Reference newOrganization) {
 		if (newOrganization != organization) {
 			NotificationChain msgs = null;
@@ -420,6 +433,7 @@ public class EnrollmentResponseImpl extends DomainResourceImpl implements Enroll
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getRequestProvider() {
 		return requestProvider;
 	}
@@ -444,6 +458,7 @@ public class EnrollmentResponseImpl extends DomainResourceImpl implements Enroll
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRequestProvider(Reference newRequestProvider) {
 		if (newRequestProvider != requestProvider) {
 			NotificationChain msgs = null;

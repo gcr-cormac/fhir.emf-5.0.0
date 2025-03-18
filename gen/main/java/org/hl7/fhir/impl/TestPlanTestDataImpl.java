@@ -96,6 +96,7 @@ public class TestPlanTestDataImpl extends BackboneElementImpl implements TestPla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getType() {
 		return type;
 	}
@@ -120,6 +121,7 @@ public class TestPlanTestDataImpl extends BackboneElementImpl implements TestPla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(Coding newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -139,6 +141,7 @@ public class TestPlanTestDataImpl extends BackboneElementImpl implements TestPla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getContent() {
 		return content;
 	}
@@ -163,6 +166,7 @@ public class TestPlanTestDataImpl extends BackboneElementImpl implements TestPla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setContent(Reference newContent) {
 		if (newContent != content) {
 			NotificationChain msgs = null;
@@ -182,6 +186,7 @@ public class TestPlanTestDataImpl extends BackboneElementImpl implements TestPla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getSourceString() {
 		return sourceString;
 	}
@@ -206,6 +211,7 @@ public class TestPlanTestDataImpl extends BackboneElementImpl implements TestPla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSourceString(org.hl7.fhir.String newSourceString) {
 		if (newSourceString != sourceString) {
 			NotificationChain msgs = null;
@@ -225,6 +231,7 @@ public class TestPlanTestDataImpl extends BackboneElementImpl implements TestPla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSourceReference() {
 		return sourceReference;
 	}
@@ -249,6 +256,7 @@ public class TestPlanTestDataImpl extends BackboneElementImpl implements TestPla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSourceReference(Reference newSourceReference) {
 		if (newSourceReference != sourceReference) {
 			NotificationChain msgs = null;

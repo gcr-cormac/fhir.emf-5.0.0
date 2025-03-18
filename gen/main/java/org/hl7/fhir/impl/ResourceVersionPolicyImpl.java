@@ -79,6 +79,7 @@ public class ResourceVersionPolicyImpl extends ElementImpl implements ResourceVe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ResourceVersionPolicyEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ResourceVersionPolicyImpl extends ElementImpl implements ResourceVe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ResourceVersionPolicyEnum newValue) {
 		ResourceVersionPolicyEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ResourceVersionPolicyImpl extends ElementImpl implements ResourceVe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ResourceVersionPolicyEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ResourceVersionPolicyImpl extends ElementImpl implements ResourceVe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

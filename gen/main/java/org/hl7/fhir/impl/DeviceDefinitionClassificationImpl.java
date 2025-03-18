@@ -81,6 +81,7 @@ public class DeviceDefinitionClassificationImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -105,6 +106,7 @@ public class DeviceDefinitionClassificationImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -124,6 +126,7 @@ public class DeviceDefinitionClassificationImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<RelatedArtifact> getJustification() {
 		if (justification == null) {
 			justification = new EObjectContainmentEList<RelatedArtifact>(RelatedArtifact.class, this, FhirPackage.DEVICE_DEFINITION_CLASSIFICATION__JUSTIFICATION);

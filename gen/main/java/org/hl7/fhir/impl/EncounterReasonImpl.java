@@ -78,6 +78,7 @@ public class EncounterReasonImpl extends BackboneElementImpl implements Encounte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getUse() {
 		if (use == null) {
 			use = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.ENCOUNTER_REASON__USE);
@@ -90,6 +91,7 @@ public class EncounterReasonImpl extends BackboneElementImpl implements Encounte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getValue() {
 		if (value == null) {
 			value = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.ENCOUNTER_REASON__VALUE);

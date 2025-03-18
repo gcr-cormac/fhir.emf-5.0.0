@@ -86,6 +86,7 @@ public class TestReportOperationImpl extends BackboneElementImpl implements Test
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TestReportActionResult getResult() {
 		return result;
 	}
@@ -110,6 +111,7 @@ public class TestReportOperationImpl extends BackboneElementImpl implements Test
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setResult(TestReportActionResult newResult) {
 		if (newResult != result) {
 			NotificationChain msgs = null;
@@ -129,6 +131,7 @@ public class TestReportOperationImpl extends BackboneElementImpl implements Test
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getMessage() {
 		return message;
 	}
@@ -153,6 +156,7 @@ public class TestReportOperationImpl extends BackboneElementImpl implements Test
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMessage(Markdown newMessage) {
 		if (newMessage != message) {
 			NotificationChain msgs = null;
@@ -172,6 +176,7 @@ public class TestReportOperationImpl extends BackboneElementImpl implements Test
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getDetail() {
 		return detail;
 	}
@@ -196,6 +201,7 @@ public class TestReportOperationImpl extends BackboneElementImpl implements Test
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDetail(Uri newDetail) {
 		if (newDetail != detail) {
 			NotificationChain msgs = null;

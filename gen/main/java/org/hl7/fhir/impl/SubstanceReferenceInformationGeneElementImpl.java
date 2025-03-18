@@ -93,6 +93,7 @@ public class SubstanceReferenceInformationGeneElementImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -117,6 +118,7 @@ public class SubstanceReferenceInformationGeneElementImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -136,6 +138,7 @@ public class SubstanceReferenceInformationGeneElementImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Identifier getElement() {
 		return element;
 	}
@@ -160,6 +163,7 @@ public class SubstanceReferenceInformationGeneElementImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setElement(Identifier newElement) {
 		if (newElement != element) {
 			NotificationChain msgs = null;
@@ -179,6 +183,7 @@ public class SubstanceReferenceInformationGeneElementImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getSource() {
 		if (source == null) {
 			source = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.SUBSTANCE_REFERENCE_INFORMATION_GENE_ELEMENT__SOURCE);

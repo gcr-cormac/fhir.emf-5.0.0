@@ -66,6 +66,7 @@ public class StructureDefinitionSnapshotImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ElementDefinition> getElement() {
 		if (element == null) {
 			element = new EObjectContainmentEList<ElementDefinition>(ElementDefinition.class, this, FhirPackage.STRUCTURE_DEFINITION_SNAPSHOT__ELEMENT);

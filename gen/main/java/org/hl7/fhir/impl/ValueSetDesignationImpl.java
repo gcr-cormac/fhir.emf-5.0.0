@@ -103,6 +103,7 @@ public class ValueSetDesignationImpl extends BackboneElementImpl implements Valu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Code getLanguage() {
 		return language;
 	}
@@ -127,6 +128,7 @@ public class ValueSetDesignationImpl extends BackboneElementImpl implements Valu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLanguage(Code newLanguage) {
 		if (newLanguage != language) {
 			NotificationChain msgs = null;
@@ -146,6 +148,7 @@ public class ValueSetDesignationImpl extends BackboneElementImpl implements Valu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getUse() {
 		return use;
 	}
@@ -170,6 +173,7 @@ public class ValueSetDesignationImpl extends BackboneElementImpl implements Valu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUse(Coding newUse) {
 		if (newUse != use) {
 			NotificationChain msgs = null;
@@ -189,6 +193,7 @@ public class ValueSetDesignationImpl extends BackboneElementImpl implements Valu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Coding> getAdditionalUse() {
 		if (additionalUse == null) {
 			additionalUse = new EObjectContainmentEList<Coding>(Coding.class, this, FhirPackage.VALUE_SET_DESIGNATION__ADDITIONAL_USE);
@@ -201,6 +206,7 @@ public class ValueSetDesignationImpl extends BackboneElementImpl implements Valu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getValue() {
 		return value;
 	}
@@ -225,6 +231,7 @@ public class ValueSetDesignationImpl extends BackboneElementImpl implements Valu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(org.hl7.fhir.String newValue) {
 		if (newValue != value) {
 			NotificationChain msgs = null;

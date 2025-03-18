@@ -190,6 +190,7 @@ public class QuestionnaireEnableWhenImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getQuestion() {
 		return question;
 	}
@@ -214,6 +215,7 @@ public class QuestionnaireEnableWhenImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setQuestion(org.hl7.fhir.String newQuestion) {
 		if (newQuestion != question) {
 			NotificationChain msgs = null;
@@ -233,6 +235,7 @@ public class QuestionnaireEnableWhenImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public QuestionnaireItemOperator getOperator() {
 		return operator;
 	}
@@ -257,6 +260,7 @@ public class QuestionnaireEnableWhenImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOperator(QuestionnaireItemOperator newOperator) {
 		if (newOperator != operator) {
 			NotificationChain msgs = null;
@@ -276,6 +280,7 @@ public class QuestionnaireEnableWhenImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getAnswerBoolean() {
 		return answerBoolean;
 	}
@@ -300,6 +305,7 @@ public class QuestionnaireEnableWhenImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAnswerBoolean(org.hl7.fhir.Boolean newAnswerBoolean) {
 		if (newAnswerBoolean != answerBoolean) {
 			NotificationChain msgs = null;
@@ -319,6 +325,7 @@ public class QuestionnaireEnableWhenImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Decimal getAnswerDecimal() {
 		return answerDecimal;
 	}
@@ -343,6 +350,7 @@ public class QuestionnaireEnableWhenImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAnswerDecimal(Decimal newAnswerDecimal) {
 		if (newAnswerDecimal != answerDecimal) {
 			NotificationChain msgs = null;
@@ -362,6 +370,7 @@ public class QuestionnaireEnableWhenImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Integer getAnswerInteger() {
 		return answerInteger;
 	}
@@ -386,6 +395,7 @@ public class QuestionnaireEnableWhenImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAnswerInteger(org.hl7.fhir.Integer newAnswerInteger) {
 		if (newAnswerInteger != answerInteger) {
 			NotificationChain msgs = null;
@@ -405,6 +415,7 @@ public class QuestionnaireEnableWhenImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getAnswerDate() {
 		return answerDate;
 	}
@@ -429,6 +440,7 @@ public class QuestionnaireEnableWhenImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAnswerDate(Date newAnswerDate) {
 		if (newAnswerDate != answerDate) {
 			NotificationChain msgs = null;
@@ -448,6 +460,7 @@ public class QuestionnaireEnableWhenImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getAnswerDateTime() {
 		return answerDateTime;
 	}
@@ -472,6 +485,7 @@ public class QuestionnaireEnableWhenImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAnswerDateTime(DateTime newAnswerDateTime) {
 		if (newAnswerDateTime != answerDateTime) {
 			NotificationChain msgs = null;
@@ -491,6 +505,7 @@ public class QuestionnaireEnableWhenImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Time getAnswerTime() {
 		return answerTime;
 	}
@@ -515,6 +530,7 @@ public class QuestionnaireEnableWhenImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAnswerTime(Time newAnswerTime) {
 		if (newAnswerTime != answerTime) {
 			NotificationChain msgs = null;
@@ -534,6 +550,7 @@ public class QuestionnaireEnableWhenImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getAnswerString() {
 		return answerString;
 	}
@@ -558,6 +575,7 @@ public class QuestionnaireEnableWhenImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAnswerString(org.hl7.fhir.String newAnswerString) {
 		if (newAnswerString != answerString) {
 			NotificationChain msgs = null;
@@ -577,6 +595,7 @@ public class QuestionnaireEnableWhenImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getAnswerCoding() {
 		return answerCoding;
 	}
@@ -601,6 +620,7 @@ public class QuestionnaireEnableWhenImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAnswerCoding(Coding newAnswerCoding) {
 		if (newAnswerCoding != answerCoding) {
 			NotificationChain msgs = null;
@@ -620,6 +640,7 @@ public class QuestionnaireEnableWhenImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getAnswerQuantity() {
 		return answerQuantity;
 	}
@@ -644,6 +665,7 @@ public class QuestionnaireEnableWhenImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAnswerQuantity(Quantity newAnswerQuantity) {
 		if (newAnswerQuantity != answerQuantity) {
 			NotificationChain msgs = null;
@@ -663,6 +685,7 @@ public class QuestionnaireEnableWhenImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getAnswerReference() {
 		return answerReference;
 	}
@@ -687,6 +710,7 @@ public class QuestionnaireEnableWhenImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAnswerReference(Reference newAnswerReference) {
 		if (newAnswerReference != answerReference) {
 			NotificationChain msgs = null;

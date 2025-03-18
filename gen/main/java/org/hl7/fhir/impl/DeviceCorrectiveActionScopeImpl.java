@@ -79,6 +79,7 @@ public class DeviceCorrectiveActionScopeImpl extends ElementImpl implements Devi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DeviceCorrectiveActionScopeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class DeviceCorrectiveActionScopeImpl extends ElementImpl implements Devi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(DeviceCorrectiveActionScopeEnum newValue) {
 		DeviceCorrectiveActionScopeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class DeviceCorrectiveActionScopeImpl extends ElementImpl implements Devi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		DeviceCorrectiveActionScopeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class DeviceCorrectiveActionScopeImpl extends ElementImpl implements Devi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

@@ -66,6 +66,7 @@ public class ParametersImpl extends ResourceImpl implements Parameters {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ParametersParameter> getParameter() {
 		if (parameter == null) {
 			parameter = new EObjectContainmentEList<ParametersParameter>(ParametersParameter.class, this, FhirPackage.PARAMETERS__PARAMETER);

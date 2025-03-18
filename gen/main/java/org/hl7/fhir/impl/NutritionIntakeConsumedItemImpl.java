@@ -131,6 +131,7 @@ public class NutritionIntakeConsumedItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -155,6 +156,7 @@ public class NutritionIntakeConsumedItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -174,6 +176,7 @@ public class NutritionIntakeConsumedItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getNutritionProduct() {
 		return nutritionProduct;
 	}
@@ -198,6 +201,7 @@ public class NutritionIntakeConsumedItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNutritionProduct(CodeableReference newNutritionProduct) {
 		if (newNutritionProduct != nutritionProduct) {
 			NotificationChain msgs = null;
@@ -217,6 +221,7 @@ public class NutritionIntakeConsumedItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Timing getSchedule() {
 		return schedule;
 	}
@@ -241,6 +246,7 @@ public class NutritionIntakeConsumedItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSchedule(Timing newSchedule) {
 		if (newSchedule != schedule) {
 			NotificationChain msgs = null;
@@ -260,6 +266,7 @@ public class NutritionIntakeConsumedItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getAmount() {
 		return amount;
 	}
@@ -284,6 +291,7 @@ public class NutritionIntakeConsumedItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAmount(Quantity newAmount) {
 		if (newAmount != amount) {
 			NotificationChain msgs = null;
@@ -303,6 +311,7 @@ public class NutritionIntakeConsumedItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getRate() {
 		return rate;
 	}
@@ -327,6 +336,7 @@ public class NutritionIntakeConsumedItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRate(Quantity newRate) {
 		if (newRate != rate) {
 			NotificationChain msgs = null;
@@ -346,6 +356,7 @@ public class NutritionIntakeConsumedItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getNotConsumed() {
 		return notConsumed;
 	}
@@ -370,6 +381,7 @@ public class NutritionIntakeConsumedItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNotConsumed(org.hl7.fhir.Boolean newNotConsumed) {
 		if (newNotConsumed != notConsumed) {
 			NotificationChain msgs = null;
@@ -389,6 +401,7 @@ public class NutritionIntakeConsumedItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getNotConsumedReason() {
 		return notConsumedReason;
 	}
@@ -413,6 +426,7 @@ public class NutritionIntakeConsumedItemImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNotConsumedReason(CodeableConcept newNotConsumedReason) {
 		if (newNotConsumedReason != notConsumedReason) {
 			NotificationChain msgs = null;

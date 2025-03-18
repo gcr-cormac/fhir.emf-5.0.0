@@ -324,6 +324,7 @@ public class NutritionOrderImpl extends DomainResourceImpl implements NutritionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.NUTRITION_ORDER__IDENTIFIER);
@@ -336,6 +337,7 @@ public class NutritionOrderImpl extends DomainResourceImpl implements NutritionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Canonical> getInstantiatesCanonical() {
 		if (instantiatesCanonical == null) {
 			instantiatesCanonical = new EObjectContainmentEList<Canonical>(Canonical.class, this, FhirPackage.NUTRITION_ORDER__INSTANTIATES_CANONICAL);
@@ -348,6 +350,7 @@ public class NutritionOrderImpl extends DomainResourceImpl implements NutritionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Uri> getInstantiatesUri() {
 		if (instantiatesUri == null) {
 			instantiatesUri = new EObjectContainmentEList<Uri>(Uri.class, this, FhirPackage.NUTRITION_ORDER__INSTANTIATES_URI);
@@ -360,6 +363,7 @@ public class NutritionOrderImpl extends DomainResourceImpl implements NutritionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Uri> getInstantiates() {
 		if (instantiates == null) {
 			instantiates = new EObjectContainmentEList<Uri>(Uri.class, this, FhirPackage.NUTRITION_ORDER__INSTANTIATES);
@@ -372,6 +376,7 @@ public class NutritionOrderImpl extends DomainResourceImpl implements NutritionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getBasedOn() {
 		if (basedOn == null) {
 			basedOn = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.NUTRITION_ORDER__BASED_ON);
@@ -384,6 +389,7 @@ public class NutritionOrderImpl extends DomainResourceImpl implements NutritionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Identifier getGroupIdentifier() {
 		return groupIdentifier;
 	}
@@ -408,6 +414,7 @@ public class NutritionOrderImpl extends DomainResourceImpl implements NutritionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setGroupIdentifier(Identifier newGroupIdentifier) {
 		if (newGroupIdentifier != groupIdentifier) {
 			NotificationChain msgs = null;
@@ -427,6 +434,7 @@ public class NutritionOrderImpl extends DomainResourceImpl implements NutritionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public RequestStatus getStatus() {
 		return status;
 	}
@@ -451,6 +459,7 @@ public class NutritionOrderImpl extends DomainResourceImpl implements NutritionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(RequestStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -470,6 +479,7 @@ public class NutritionOrderImpl extends DomainResourceImpl implements NutritionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public RequestIntent getIntent() {
 		return intent;
 	}
@@ -494,6 +504,7 @@ public class NutritionOrderImpl extends DomainResourceImpl implements NutritionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIntent(RequestIntent newIntent) {
 		if (newIntent != intent) {
 			NotificationChain msgs = null;
@@ -513,6 +524,7 @@ public class NutritionOrderImpl extends DomainResourceImpl implements NutritionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public RequestPriority getPriority() {
 		return priority;
 	}
@@ -537,6 +549,7 @@ public class NutritionOrderImpl extends DomainResourceImpl implements NutritionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPriority(RequestPriority newPriority) {
 		if (newPriority != priority) {
 			NotificationChain msgs = null;
@@ -556,6 +569,7 @@ public class NutritionOrderImpl extends DomainResourceImpl implements NutritionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubject() {
 		return subject;
 	}
@@ -580,6 +594,7 @@ public class NutritionOrderImpl extends DomainResourceImpl implements NutritionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubject(Reference newSubject) {
 		if (newSubject != subject) {
 			NotificationChain msgs = null;
@@ -599,6 +614,7 @@ public class NutritionOrderImpl extends DomainResourceImpl implements NutritionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getEncounter() {
 		return encounter;
 	}
@@ -623,6 +639,7 @@ public class NutritionOrderImpl extends DomainResourceImpl implements NutritionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEncounter(Reference newEncounter) {
 		if (newEncounter != encounter) {
 			NotificationChain msgs = null;
@@ -642,6 +659,7 @@ public class NutritionOrderImpl extends DomainResourceImpl implements NutritionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getSupportingInformation() {
 		if (supportingInformation == null) {
 			supportingInformation = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.NUTRITION_ORDER__SUPPORTING_INFORMATION);
@@ -654,6 +672,7 @@ public class NutritionOrderImpl extends DomainResourceImpl implements NutritionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getDateTime() {
 		return dateTime;
 	}
@@ -678,6 +697,7 @@ public class NutritionOrderImpl extends DomainResourceImpl implements NutritionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDateTime(DateTime newDateTime) {
 		if (newDateTime != dateTime) {
 			NotificationChain msgs = null;
@@ -697,6 +717,7 @@ public class NutritionOrderImpl extends DomainResourceImpl implements NutritionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getOrderer() {
 		return orderer;
 	}
@@ -721,6 +742,7 @@ public class NutritionOrderImpl extends DomainResourceImpl implements NutritionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOrderer(Reference newOrderer) {
 		if (newOrderer != orderer) {
 			NotificationChain msgs = null;
@@ -740,6 +762,7 @@ public class NutritionOrderImpl extends DomainResourceImpl implements NutritionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getPerformer() {
 		if (performer == null) {
 			performer = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.NUTRITION_ORDER__PERFORMER);
@@ -752,6 +775,7 @@ public class NutritionOrderImpl extends DomainResourceImpl implements NutritionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getAllergyIntolerance() {
 		if (allergyIntolerance == null) {
 			allergyIntolerance = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.NUTRITION_ORDER__ALLERGY_INTOLERANCE);
@@ -764,6 +788,7 @@ public class NutritionOrderImpl extends DomainResourceImpl implements NutritionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getFoodPreferenceModifier() {
 		if (foodPreferenceModifier == null) {
 			foodPreferenceModifier = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.NUTRITION_ORDER__FOOD_PREFERENCE_MODIFIER);
@@ -776,6 +801,7 @@ public class NutritionOrderImpl extends DomainResourceImpl implements NutritionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getExcludeFoodModifier() {
 		if (excludeFoodModifier == null) {
 			excludeFoodModifier = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.NUTRITION_ORDER__EXCLUDE_FOOD_MODIFIER);
@@ -788,6 +814,7 @@ public class NutritionOrderImpl extends DomainResourceImpl implements NutritionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getOutsideFoodAllowed() {
 		return outsideFoodAllowed;
 	}
@@ -812,6 +839,7 @@ public class NutritionOrderImpl extends DomainResourceImpl implements NutritionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOutsideFoodAllowed(org.hl7.fhir.Boolean newOutsideFoodAllowed) {
 		if (newOutsideFoodAllowed != outsideFoodAllowed) {
 			NotificationChain msgs = null;
@@ -831,6 +859,7 @@ public class NutritionOrderImpl extends DomainResourceImpl implements NutritionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public NutritionOrderOralDiet getOralDiet() {
 		return oralDiet;
 	}
@@ -855,6 +884,7 @@ public class NutritionOrderImpl extends DomainResourceImpl implements NutritionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOralDiet(NutritionOrderOralDiet newOralDiet) {
 		if (newOralDiet != oralDiet) {
 			NotificationChain msgs = null;
@@ -874,6 +904,7 @@ public class NutritionOrderImpl extends DomainResourceImpl implements NutritionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<NutritionOrderSupplement> getSupplement() {
 		if (supplement == null) {
 			supplement = new EObjectContainmentEList<NutritionOrderSupplement>(NutritionOrderSupplement.class, this, FhirPackage.NUTRITION_ORDER__SUPPLEMENT);
@@ -886,6 +917,7 @@ public class NutritionOrderImpl extends DomainResourceImpl implements NutritionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public NutritionOrderEnteralFormula getEnteralFormula() {
 		return enteralFormula;
 	}
@@ -910,6 +942,7 @@ public class NutritionOrderImpl extends DomainResourceImpl implements NutritionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEnteralFormula(NutritionOrderEnteralFormula newEnteralFormula) {
 		if (newEnteralFormula != enteralFormula) {
 			NotificationChain msgs = null;
@@ -929,6 +962,7 @@ public class NutritionOrderImpl extends DomainResourceImpl implements NutritionO
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.NUTRITION_ORDER__NOTE);

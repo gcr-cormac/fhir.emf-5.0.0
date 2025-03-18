@@ -92,6 +92,7 @@ public class CitationClassification1Impl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -116,6 +117,7 @@ public class CitationClassification1Impl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -135,6 +137,7 @@ public class CitationClassification1Impl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getClassifier() {
 		if (classifier == null) {
 			classifier = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.CITATION_CLASSIFICATION1__CLASSIFIER);
@@ -147,6 +150,7 @@ public class CitationClassification1Impl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getArtifactAssessment() {
 		if (artifactAssessment == null) {
 			artifactAssessment = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.CITATION_CLASSIFICATION1__ARTIFACT_ASSESSMENT);

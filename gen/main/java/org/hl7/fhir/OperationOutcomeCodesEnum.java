@@ -2199,6 +2199,7 @@ public enum OperationOutcomeCodesEnum implements Enumerator {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public int getValue() {
 	  return value;
 	}
@@ -2208,6 +2209,7 @@ public enum OperationOutcomeCodesEnum implements Enumerator {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getName() {
 	  return name;
 	}
@@ -2217,6 +2219,7 @@ public enum OperationOutcomeCodesEnum implements Enumerator {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getLiteral() {
 	  return literal;
 	}

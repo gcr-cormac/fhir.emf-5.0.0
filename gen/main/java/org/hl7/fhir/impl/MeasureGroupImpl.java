@@ -218,6 +218,7 @@ public class MeasureGroupImpl extends BackboneElementImpl implements MeasureGrou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getLinkId() {
 		return linkId;
 	}
@@ -242,6 +243,7 @@ public class MeasureGroupImpl extends BackboneElementImpl implements MeasureGrou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLinkId(org.hl7.fhir.String newLinkId) {
 		if (newLinkId != linkId) {
 			NotificationChain msgs = null;
@@ -261,6 +263,7 @@ public class MeasureGroupImpl extends BackboneElementImpl implements MeasureGrou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -285,6 +288,7 @@ public class MeasureGroupImpl extends BackboneElementImpl implements MeasureGrou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -304,6 +308,7 @@ public class MeasureGroupImpl extends BackboneElementImpl implements MeasureGrou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -328,6 +333,7 @@ public class MeasureGroupImpl extends BackboneElementImpl implements MeasureGrou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -347,6 +353,7 @@ public class MeasureGroupImpl extends BackboneElementImpl implements MeasureGrou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getType() {
 		if (type == null) {
 			type = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.MEASURE_GROUP__TYPE);
@@ -359,6 +366,7 @@ public class MeasureGroupImpl extends BackboneElementImpl implements MeasureGrou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getSubjectCodeableConcept() {
 		return subjectCodeableConcept;
 	}
@@ -383,6 +391,7 @@ public class MeasureGroupImpl extends BackboneElementImpl implements MeasureGrou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubjectCodeableConcept(CodeableConcept newSubjectCodeableConcept) {
 		if (newSubjectCodeableConcept != subjectCodeableConcept) {
 			NotificationChain msgs = null;
@@ -402,6 +411,7 @@ public class MeasureGroupImpl extends BackboneElementImpl implements MeasureGrou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubjectReference() {
 		return subjectReference;
 	}
@@ -426,6 +436,7 @@ public class MeasureGroupImpl extends BackboneElementImpl implements MeasureGrou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubjectReference(Reference newSubjectReference) {
 		if (newSubjectReference != subjectReference) {
 			NotificationChain msgs = null;
@@ -445,6 +456,7 @@ public class MeasureGroupImpl extends BackboneElementImpl implements MeasureGrou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public FHIRTypes getBasis() {
 		return basis;
 	}
@@ -469,6 +481,7 @@ public class MeasureGroupImpl extends BackboneElementImpl implements MeasureGrou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBasis(FHIRTypes newBasis) {
 		if (newBasis != basis) {
 			NotificationChain msgs = null;
@@ -488,6 +501,7 @@ public class MeasureGroupImpl extends BackboneElementImpl implements MeasureGrou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getScoring() {
 		return scoring;
 	}
@@ -512,6 +526,7 @@ public class MeasureGroupImpl extends BackboneElementImpl implements MeasureGrou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setScoring(CodeableConcept newScoring) {
 		if (newScoring != scoring) {
 			NotificationChain msgs = null;
@@ -531,6 +546,7 @@ public class MeasureGroupImpl extends BackboneElementImpl implements MeasureGrou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getScoringUnit() {
 		return scoringUnit;
 	}
@@ -555,6 +571,7 @@ public class MeasureGroupImpl extends BackboneElementImpl implements MeasureGrou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setScoringUnit(CodeableConcept newScoringUnit) {
 		if (newScoringUnit != scoringUnit) {
 			NotificationChain msgs = null;
@@ -574,6 +591,7 @@ public class MeasureGroupImpl extends BackboneElementImpl implements MeasureGrou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getRateAggregation() {
 		return rateAggregation;
 	}
@@ -598,6 +616,7 @@ public class MeasureGroupImpl extends BackboneElementImpl implements MeasureGrou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRateAggregation(Markdown newRateAggregation) {
 		if (newRateAggregation != rateAggregation) {
 			NotificationChain msgs = null;
@@ -617,6 +636,7 @@ public class MeasureGroupImpl extends BackboneElementImpl implements MeasureGrou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getImprovementNotation() {
 		return improvementNotation;
 	}
@@ -641,6 +661,7 @@ public class MeasureGroupImpl extends BackboneElementImpl implements MeasureGrou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setImprovementNotation(CodeableConcept newImprovementNotation) {
 		if (newImprovementNotation != improvementNotation) {
 			NotificationChain msgs = null;
@@ -660,6 +681,7 @@ public class MeasureGroupImpl extends BackboneElementImpl implements MeasureGrou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Canonical> getLibrary() {
 		if (library == null) {
 			library = new EObjectContainmentEList<Canonical>(Canonical.class, this, FhirPackage.MEASURE_GROUP__LIBRARY);
@@ -672,6 +694,7 @@ public class MeasureGroupImpl extends BackboneElementImpl implements MeasureGrou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MeasurePopulation> getPopulation() {
 		if (population == null) {
 			population = new EObjectContainmentEList<MeasurePopulation>(MeasurePopulation.class, this, FhirPackage.MEASURE_GROUP__POPULATION);
@@ -684,6 +707,7 @@ public class MeasureGroupImpl extends BackboneElementImpl implements MeasureGrou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MeasureStratifier> getStratifier() {
 		if (stratifier == null) {
 			stratifier = new EObjectContainmentEList<MeasureStratifier>(MeasureStratifier.class, this, FhirPackage.MEASURE_GROUP__STRATIFIER);

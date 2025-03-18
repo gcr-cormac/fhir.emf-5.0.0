@@ -78,6 +78,7 @@ public class TestScriptMetadataImpl extends BackboneElementImpl implements TestS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<TestScriptLink> getLink() {
 		if (link == null) {
 			link = new EObjectContainmentEList<TestScriptLink>(TestScriptLink.class, this, FhirPackage.TEST_SCRIPT_METADATA__LINK);
@@ -90,6 +91,7 @@ public class TestScriptMetadataImpl extends BackboneElementImpl implements TestS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<TestScriptCapability> getCapability() {
 		if (capability == null) {
 			capability = new EObjectContainmentEList<TestScriptCapability>(TestScriptCapability.class, this, FhirPackage.TEST_SCRIPT_METADATA__CAPABILITY);

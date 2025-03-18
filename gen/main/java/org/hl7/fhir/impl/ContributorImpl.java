@@ -92,6 +92,7 @@ public class ContributorImpl extends DataTypeImpl implements Contributor {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ContributorType getType() {
 		return type;
 	}
@@ -116,6 +117,7 @@ public class ContributorImpl extends DataTypeImpl implements Contributor {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(ContributorType newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -135,6 +137,7 @@ public class ContributorImpl extends DataTypeImpl implements Contributor {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -159,6 +162,7 @@ public class ContributorImpl extends DataTypeImpl implements Contributor {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -178,6 +182,7 @@ public class ContributorImpl extends DataTypeImpl implements Contributor {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getContact() {
 		if (contact == null) {
 			contact = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.CONTRIBUTOR__CONTACT);

@@ -103,6 +103,7 @@ public class AvailabilityAvailableTimeImpl extends DataTypeImpl implements Avail
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Code> getDaysOfWeek() {
 		if (daysOfWeek == null) {
 			daysOfWeek = new EObjectContainmentEList<Code>(Code.class, this, FhirPackage.AVAILABILITY_AVAILABLE_TIME__DAYS_OF_WEEK);
@@ -115,6 +116,7 @@ public class AvailabilityAvailableTimeImpl extends DataTypeImpl implements Avail
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getAllDay() {
 		return allDay;
 	}
@@ -139,6 +141,7 @@ public class AvailabilityAvailableTimeImpl extends DataTypeImpl implements Avail
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAllDay(org.hl7.fhir.Boolean newAllDay) {
 		if (newAllDay != allDay) {
 			NotificationChain msgs = null;
@@ -158,6 +161,7 @@ public class AvailabilityAvailableTimeImpl extends DataTypeImpl implements Avail
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Time getAvailableStartTime() {
 		return availableStartTime;
 	}
@@ -182,6 +186,7 @@ public class AvailabilityAvailableTimeImpl extends DataTypeImpl implements Avail
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAvailableStartTime(Time newAvailableStartTime) {
 		if (newAvailableStartTime != availableStartTime) {
 			NotificationChain msgs = null;
@@ -201,6 +206,7 @@ public class AvailabilityAvailableTimeImpl extends DataTypeImpl implements Avail
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Time getAvailableEndTime() {
 		return availableEndTime;
 	}
@@ -225,6 +231,7 @@ public class AvailabilityAvailableTimeImpl extends DataTypeImpl implements Avail
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAvailableEndTime(Time newAvailableEndTime) {
 		if (newAvailableEndTime != availableEndTime) {
 			NotificationChain msgs = null;

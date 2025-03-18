@@ -74,6 +74,7 @@ public class IngredientManufacturerImpl extends BackboneElementImpl implements I
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public IngredientManufacturerRole getRole() {
 		return role;
 	}
@@ -98,6 +99,7 @@ public class IngredientManufacturerImpl extends BackboneElementImpl implements I
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRole(IngredientManufacturerRole newRole) {
 		if (newRole != role) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class IngredientManufacturerImpl extends BackboneElementImpl implements I
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getManufacturer() {
 		return manufacturer;
 	}
@@ -141,6 +144,7 @@ public class IngredientManufacturerImpl extends BackboneElementImpl implements I
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setManufacturer(Reference newManufacturer) {
 		if (newManufacturer != manufacturer) {
 			NotificationChain msgs = null;

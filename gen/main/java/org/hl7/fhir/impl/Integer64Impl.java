@@ -78,6 +78,7 @@ public class Integer64Impl extends ElementImpl implements Integer64 {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public long getValue() {
 		return value;
 	}
@@ -87,6 +88,7 @@ public class Integer64Impl extends ElementImpl implements Integer64 {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(long newValue) {
 		long oldValue = value;
 		value = newValue;
@@ -101,6 +103,7 @@ public class Integer64Impl extends ElementImpl implements Integer64 {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		long oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -115,6 +118,7 @@ public class Integer64Impl extends ElementImpl implements Integer64 {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

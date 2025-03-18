@@ -74,6 +74,7 @@ public class NutritionOrderNutrientImpl extends BackboneElementImpl implements N
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getModifier() {
 		return modifier;
 	}
@@ -98,6 +99,7 @@ public class NutritionOrderNutrientImpl extends BackboneElementImpl implements N
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setModifier(CodeableConcept newModifier) {
 		if (newModifier != modifier) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class NutritionOrderNutrientImpl extends BackboneElementImpl implements N
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getAmount() {
 		return amount;
 	}
@@ -141,6 +144,7 @@ public class NutritionOrderNutrientImpl extends BackboneElementImpl implements N
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAmount(Quantity newAmount) {
 		if (newAmount != amount) {
 			NotificationChain msgs = null;

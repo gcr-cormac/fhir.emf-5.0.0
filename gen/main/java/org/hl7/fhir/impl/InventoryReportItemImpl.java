@@ -86,6 +86,7 @@ public class InventoryReportItemImpl extends BackboneElementImpl implements Inve
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCategory() {
 		return category;
 	}
@@ -110,6 +111,7 @@ public class InventoryReportItemImpl extends BackboneElementImpl implements Inve
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCategory(CodeableConcept newCategory) {
 		if (newCategory != category) {
 			NotificationChain msgs = null;
@@ -129,6 +131,7 @@ public class InventoryReportItemImpl extends BackboneElementImpl implements Inve
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getQuantity() {
 		return quantity;
 	}
@@ -153,6 +156,7 @@ public class InventoryReportItemImpl extends BackboneElementImpl implements Inve
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setQuantity(Quantity newQuantity) {
 		if (newQuantity != quantity) {
 			NotificationChain msgs = null;
@@ -172,6 +176,7 @@ public class InventoryReportItemImpl extends BackboneElementImpl implements Inve
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getItem() {
 		return item;
 	}
@@ -196,6 +201,7 @@ public class InventoryReportItemImpl extends BackboneElementImpl implements Inve
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setItem(CodeableReference newItem) {
 		if (newItem != item) {
 			NotificationChain msgs = null;

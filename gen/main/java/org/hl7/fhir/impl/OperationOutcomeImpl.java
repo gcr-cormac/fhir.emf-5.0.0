@@ -66,6 +66,7 @@ public class OperationOutcomeImpl extends DomainResourceImpl implements Operatio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<OperationOutcomeIssue> getIssue() {
 		if (issue == null) {
 			issue = new EObjectContainmentEList<OperationOutcomeIssue>(OperationOutcomeIssue.class, this, FhirPackage.OPERATION_OUTCOME__ISSUE);

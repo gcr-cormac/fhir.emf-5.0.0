@@ -101,6 +101,7 @@ public class ManufacturedItemDefinitionConstituentImpl extends BackboneElementIm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Quantity> getAmount() {
 		if (amount == null) {
 			amount = new EObjectContainmentEList<Quantity>(Quantity.class, this, FhirPackage.MANUFACTURED_ITEM_DEFINITION_CONSTITUENT__AMOUNT);
@@ -113,6 +114,7 @@ public class ManufacturedItemDefinitionConstituentImpl extends BackboneElementIm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getLocation() {
 		if (location == null) {
 			location = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.MANUFACTURED_ITEM_DEFINITION_CONSTITUENT__LOCATION);
@@ -125,6 +127,7 @@ public class ManufacturedItemDefinitionConstituentImpl extends BackboneElementIm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getFunction() {
 		if (function == null) {
 			function = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.MANUFACTURED_ITEM_DEFINITION_CONSTITUENT__FUNCTION);
@@ -137,6 +140,7 @@ public class ManufacturedItemDefinitionConstituentImpl extends BackboneElementIm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getHasIngredient() {
 		if (hasIngredient == null) {
 			hasIngredient = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.MANUFACTURED_ITEM_DEFINITION_CONSTITUENT__HAS_INGREDIENT);

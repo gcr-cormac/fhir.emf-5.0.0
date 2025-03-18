@@ -79,6 +79,7 @@ public class DeviceDefinitionRegulatoryIdentifierTypeImpl extends ElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DeviceDefinitionRegulatoryIdentifierTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class DeviceDefinitionRegulatoryIdentifierTypeImpl extends ElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(DeviceDefinitionRegulatoryIdentifierTypeEnum newValue) {
 		DeviceDefinitionRegulatoryIdentifierTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class DeviceDefinitionRegulatoryIdentifierTypeImpl extends ElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		DeviceDefinitionRegulatoryIdentifierTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class DeviceDefinitionRegulatoryIdentifierTypeImpl extends ElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

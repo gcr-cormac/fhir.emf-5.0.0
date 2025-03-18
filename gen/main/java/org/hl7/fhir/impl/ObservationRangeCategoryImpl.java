@@ -79,6 +79,7 @@ public class ObservationRangeCategoryImpl extends ElementImpl implements Observa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ObservationRangeCategoryEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ObservationRangeCategoryImpl extends ElementImpl implements Observa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ObservationRangeCategoryEnum newValue) {
 		ObservationRangeCategoryEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ObservationRangeCategoryImpl extends ElementImpl implements Observa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ObservationRangeCategoryEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ObservationRangeCategoryImpl extends ElementImpl implements Observa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

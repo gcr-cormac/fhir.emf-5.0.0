@@ -73,6 +73,7 @@ public class PeriodImpl extends DataTypeImpl implements Period {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getStart() {
 		return start;
 	}
@@ -97,6 +98,7 @@ public class PeriodImpl extends DataTypeImpl implements Period {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStart(DateTime newStart) {
 		if (newStart != start) {
 			NotificationChain msgs = null;
@@ -116,6 +118,7 @@ public class PeriodImpl extends DataTypeImpl implements Period {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getEnd() {
 		return end;
 	}
@@ -140,6 +143,7 @@ public class PeriodImpl extends DataTypeImpl implements Period {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEnd(DateTime newEnd) {
 		if (newEnd != end) {
 			NotificationChain msgs = null;

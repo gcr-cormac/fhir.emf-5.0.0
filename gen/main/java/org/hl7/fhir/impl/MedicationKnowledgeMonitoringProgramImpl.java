@@ -73,6 +73,7 @@ public class MedicationKnowledgeMonitoringProgramImpl extends BackboneElementImp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -97,6 +98,7 @@ public class MedicationKnowledgeMonitoringProgramImpl extends BackboneElementImp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -116,6 +118,7 @@ public class MedicationKnowledgeMonitoringProgramImpl extends BackboneElementImp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -140,6 +143,7 @@ public class MedicationKnowledgeMonitoringProgramImpl extends BackboneElementImp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;

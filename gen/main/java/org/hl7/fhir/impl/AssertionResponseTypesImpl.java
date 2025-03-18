@@ -79,6 +79,7 @@ public class AssertionResponseTypesImpl extends ElementImpl implements Assertion
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AssertionResponseTypesEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class AssertionResponseTypesImpl extends ElementImpl implements Assertion
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(AssertionResponseTypesEnum newValue) {
 		AssertionResponseTypesEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class AssertionResponseTypesImpl extends ElementImpl implements Assertion
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		AssertionResponseTypesEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class AssertionResponseTypesImpl extends ElementImpl implements Assertion
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

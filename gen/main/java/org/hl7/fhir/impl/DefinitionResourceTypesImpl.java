@@ -79,6 +79,7 @@ public class DefinitionResourceTypesImpl extends ElementImpl implements Definiti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DefinitionResourceTypesEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class DefinitionResourceTypesImpl extends ElementImpl implements Definiti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(DefinitionResourceTypesEnum newValue) {
 		DefinitionResourceTypesEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class DefinitionResourceTypesImpl extends ElementImpl implements Definiti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		DefinitionResourceTypesEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class DefinitionResourceTypesImpl extends ElementImpl implements Definiti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

@@ -104,6 +104,7 @@ public class DomainResourceImpl extends ResourceImpl implements DomainResource {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Narrative getText() {
 		return text;
 	}
@@ -128,6 +129,7 @@ public class DomainResourceImpl extends ResourceImpl implements DomainResource {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setText(Narrative newText) {
 		if (newText != text) {
 			NotificationChain msgs = null;
@@ -147,6 +149,7 @@ public class DomainResourceImpl extends ResourceImpl implements DomainResource {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ResourceContainer> getContained() {
 		if (contained == null) {
 			contained = new EObjectContainmentEList<ResourceContainer>(ResourceContainer.class, this, FhirPackage.DOMAIN_RESOURCE__CONTAINED);
@@ -159,6 +162,7 @@ public class DomainResourceImpl extends ResourceImpl implements DomainResource {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Extension> getExtension() {
 		if (extension == null) {
 			extension = new EObjectContainmentEList<Extension>(Extension.class, this, FhirPackage.DOMAIN_RESOURCE__EXTENSION);
@@ -171,6 +175,7 @@ public class DomainResourceImpl extends ResourceImpl implements DomainResource {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Extension> getModifierExtension() {
 		if (modifierExtension == null) {
 			modifierExtension = new EObjectContainmentEList<Extension>(Extension.class, this, FhirPackage.DOMAIN_RESOURCE__MODIFIER_EXTENSION);

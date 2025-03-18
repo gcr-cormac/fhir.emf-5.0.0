@@ -79,6 +79,7 @@ public class ListModeImpl extends ElementImpl implements ListMode {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ListModeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ListModeImpl extends ElementImpl implements ListMode {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ListModeEnum newValue) {
 		ListModeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ListModeImpl extends ElementImpl implements ListMode {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ListModeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ListModeImpl extends ElementImpl implements ListMode {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

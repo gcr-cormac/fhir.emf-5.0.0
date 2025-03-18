@@ -78,6 +78,7 @@ public class ChargeItemDefinitionPropertyGroupImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ChargeItemDefinitionApplicability> getApplicability() {
 		if (applicability == null) {
 			applicability = new EObjectContainmentEList<ChargeItemDefinitionApplicability>(ChargeItemDefinitionApplicability.class, this, FhirPackage.CHARGE_ITEM_DEFINITION_PROPERTY_GROUP__APPLICABILITY);
@@ -90,6 +91,7 @@ public class ChargeItemDefinitionPropertyGroupImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MonetaryComponent> getPriceComponent() {
 		if (priceComponent == null) {
 			priceComponent = new EObjectContainmentEList<MonetaryComponent>(MonetaryComponent.class, this, FhirPackage.CHARGE_ITEM_DEFINITION_PROPERTY_GROUP__PRICE_COMPONENT);

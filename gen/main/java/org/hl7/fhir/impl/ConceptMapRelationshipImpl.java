@@ -79,6 +79,7 @@ public class ConceptMapRelationshipImpl extends ElementImpl implements ConceptMa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ConceptMapRelationshipEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ConceptMapRelationshipImpl extends ElementImpl implements ConceptMa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ConceptMapRelationshipEnum newValue) {
 		ConceptMapRelationshipEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ConceptMapRelationshipImpl extends ElementImpl implements ConceptMa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ConceptMapRelationshipEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ConceptMapRelationshipImpl extends ElementImpl implements ConceptMa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

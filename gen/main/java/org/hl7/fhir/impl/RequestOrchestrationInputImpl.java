@@ -85,6 +85,7 @@ public class RequestOrchestrationInputImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getTitle() {
 		return title;
 	}
@@ -109,6 +110,7 @@ public class RequestOrchestrationInputImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(org.hl7.fhir.String newTitle) {
 		if (newTitle != title) {
 			NotificationChain msgs = null;
@@ -128,6 +130,7 @@ public class RequestOrchestrationInputImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DataRequirement getRequirement() {
 		return requirement;
 	}
@@ -152,6 +155,7 @@ public class RequestOrchestrationInputImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRequirement(DataRequirement newRequirement) {
 		if (newRequirement != requirement) {
 			NotificationChain msgs = null;
@@ -171,6 +175,7 @@ public class RequestOrchestrationInputImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Id getRelatedData() {
 		return relatedData;
 	}
@@ -195,6 +200,7 @@ public class RequestOrchestrationInputImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRelatedData(Id newRelatedData) {
 		if (newRelatedData != relatedData) {
 			NotificationChain msgs = null;

@@ -217,6 +217,7 @@ public class PractitionerRoleImpl extends DomainResourceImpl implements Practiti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.PRACTITIONER_ROLE__IDENTIFIER);
@@ -229,6 +230,7 @@ public class PractitionerRoleImpl extends DomainResourceImpl implements Practiti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getActive() {
 		return active;
 	}
@@ -253,6 +255,7 @@ public class PractitionerRoleImpl extends DomainResourceImpl implements Practiti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setActive(org.hl7.fhir.Boolean newActive) {
 		if (newActive != active) {
 			NotificationChain msgs = null;
@@ -272,6 +275,7 @@ public class PractitionerRoleImpl extends DomainResourceImpl implements Practiti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getPeriod() {
 		return period;
 	}
@@ -296,6 +300,7 @@ public class PractitionerRoleImpl extends DomainResourceImpl implements Practiti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriod(Period newPeriod) {
 		if (newPeriod != period) {
 			NotificationChain msgs = null;
@@ -315,6 +320,7 @@ public class PractitionerRoleImpl extends DomainResourceImpl implements Practiti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getPractitioner() {
 		return practitioner;
 	}
@@ -339,6 +345,7 @@ public class PractitionerRoleImpl extends DomainResourceImpl implements Practiti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPractitioner(Reference newPractitioner) {
 		if (newPractitioner != practitioner) {
 			NotificationChain msgs = null;
@@ -358,6 +365,7 @@ public class PractitionerRoleImpl extends DomainResourceImpl implements Practiti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getOrganization() {
 		return organization;
 	}
@@ -382,6 +390,7 @@ public class PractitionerRoleImpl extends DomainResourceImpl implements Practiti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOrganization(Reference newOrganization) {
 		if (newOrganization != organization) {
 			NotificationChain msgs = null;
@@ -401,6 +410,7 @@ public class PractitionerRoleImpl extends DomainResourceImpl implements Practiti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCode() {
 		if (code == null) {
 			code = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.PRACTITIONER_ROLE__CODE);
@@ -413,6 +423,7 @@ public class PractitionerRoleImpl extends DomainResourceImpl implements Practiti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getSpecialty() {
 		if (specialty == null) {
 			specialty = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.PRACTITIONER_ROLE__SPECIALTY);
@@ -425,6 +436,7 @@ public class PractitionerRoleImpl extends DomainResourceImpl implements Practiti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getLocation() {
 		if (location == null) {
 			location = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.PRACTITIONER_ROLE__LOCATION);
@@ -437,6 +449,7 @@ public class PractitionerRoleImpl extends DomainResourceImpl implements Practiti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getHealthcareService() {
 		if (healthcareService == null) {
 			healthcareService = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.PRACTITIONER_ROLE__HEALTHCARE_SERVICE);
@@ -449,6 +462,7 @@ public class PractitionerRoleImpl extends DomainResourceImpl implements Practiti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ExtendedContactDetail> getContact() {
 		if (contact == null) {
 			contact = new EObjectContainmentEList<ExtendedContactDetail>(ExtendedContactDetail.class, this, FhirPackage.PRACTITIONER_ROLE__CONTACT);
@@ -461,6 +475,7 @@ public class PractitionerRoleImpl extends DomainResourceImpl implements Practiti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCharacteristic() {
 		if (characteristic == null) {
 			characteristic = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.PRACTITIONER_ROLE__CHARACTERISTIC);
@@ -473,6 +488,7 @@ public class PractitionerRoleImpl extends DomainResourceImpl implements Practiti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCommunication() {
 		if (communication == null) {
 			communication = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.PRACTITIONER_ROLE__COMMUNICATION);
@@ -485,6 +501,7 @@ public class PractitionerRoleImpl extends DomainResourceImpl implements Practiti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Availability> getAvailability() {
 		if (availability == null) {
 			availability = new EObjectContainmentEList<Availability>(Availability.class, this, FhirPackage.PRACTITIONER_ROLE__AVAILABILITY);
@@ -497,6 +514,7 @@ public class PractitionerRoleImpl extends DomainResourceImpl implements Practiti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getEndpoint() {
 		if (endpoint == null) {
 			endpoint = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.PRACTITIONER_ROLE__ENDPOINT);

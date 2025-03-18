@@ -92,6 +92,7 @@ public class ContractContextImpl extends BackboneElementImpl implements Contract
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getReference() {
 		return reference;
 	}
@@ -116,6 +117,7 @@ public class ContractContextImpl extends BackboneElementImpl implements Contract
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReference(Reference newReference) {
 		if (newReference != reference) {
 			NotificationChain msgs = null;
@@ -135,6 +137,7 @@ public class ContractContextImpl extends BackboneElementImpl implements Contract
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCode() {
 		if (code == null) {
 			code = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.CONTRACT_CONTEXT__CODE);
@@ -147,6 +150,7 @@ public class ContractContextImpl extends BackboneElementImpl implements Contract
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getText() {
 		return text;
 	}
@@ -171,6 +175,7 @@ public class ContractContextImpl extends BackboneElementImpl implements Contract
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setText(org.hl7.fhir.String newText) {
 		if (newText != text) {
 			NotificationChain msgs = null;

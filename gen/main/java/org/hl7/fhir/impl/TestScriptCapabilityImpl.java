@@ -136,6 +136,7 @@ public class TestScriptCapabilityImpl extends BackboneElementImpl implements Tes
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getRequired() {
 		return required;
 	}
@@ -160,6 +161,7 @@ public class TestScriptCapabilityImpl extends BackboneElementImpl implements Tes
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRequired(org.hl7.fhir.Boolean newRequired) {
 		if (newRequired != required) {
 			NotificationChain msgs = null;
@@ -179,6 +181,7 @@ public class TestScriptCapabilityImpl extends BackboneElementImpl implements Tes
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getValidated() {
 		return validated;
 	}
@@ -203,6 +206,7 @@ public class TestScriptCapabilityImpl extends BackboneElementImpl implements Tes
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValidated(org.hl7.fhir.Boolean newValidated) {
 		if (newValidated != validated) {
 			NotificationChain msgs = null;
@@ -222,6 +226,7 @@ public class TestScriptCapabilityImpl extends BackboneElementImpl implements Tes
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDescription() {
 		return description;
 	}
@@ -246,6 +251,7 @@ public class TestScriptCapabilityImpl extends BackboneElementImpl implements Tes
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(org.hl7.fhir.String newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -265,6 +271,7 @@ public class TestScriptCapabilityImpl extends BackboneElementImpl implements Tes
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<org.hl7.fhir.Integer> getOrigin() {
 		if (origin == null) {
 			origin = new EObjectContainmentEList<org.hl7.fhir.Integer>(org.hl7.fhir.Integer.class, this, FhirPackage.TEST_SCRIPT_CAPABILITY__ORIGIN);
@@ -277,6 +284,7 @@ public class TestScriptCapabilityImpl extends BackboneElementImpl implements Tes
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Integer getDestination() {
 		return destination;
 	}
@@ -301,6 +309,7 @@ public class TestScriptCapabilityImpl extends BackboneElementImpl implements Tes
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDestination(org.hl7.fhir.Integer newDestination) {
 		if (newDestination != destination) {
 			NotificationChain msgs = null;
@@ -320,6 +329,7 @@ public class TestScriptCapabilityImpl extends BackboneElementImpl implements Tes
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Uri> getLink() {
 		if (link == null) {
 			link = new EObjectContainmentEList<Uri>(Uri.class, this, FhirPackage.TEST_SCRIPT_CAPABILITY__LINK);
@@ -332,6 +342,7 @@ public class TestScriptCapabilityImpl extends BackboneElementImpl implements Tes
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getCapabilities() {
 		return capabilities;
 	}
@@ -356,6 +367,7 @@ public class TestScriptCapabilityImpl extends BackboneElementImpl implements Tes
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCapabilities(Canonical newCapabilities) {
 		if (newCapabilities != capabilities) {
 			NotificationChain msgs = null;

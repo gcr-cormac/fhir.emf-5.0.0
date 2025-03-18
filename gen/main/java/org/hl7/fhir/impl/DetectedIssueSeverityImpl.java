@@ -79,6 +79,7 @@ public class DetectedIssueSeverityImpl extends ElementImpl implements DetectedIs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DetectedIssueSeverityEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class DetectedIssueSeverityImpl extends ElementImpl implements DetectedIs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(DetectedIssueSeverityEnum newValue) {
 		DetectedIssueSeverityEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class DetectedIssueSeverityImpl extends ElementImpl implements DetectedIs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		DetectedIssueSeverityEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class DetectedIssueSeverityImpl extends ElementImpl implements DetectedIs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

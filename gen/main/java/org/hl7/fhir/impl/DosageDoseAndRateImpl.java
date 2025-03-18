@@ -120,6 +120,7 @@ public class DosageDoseAndRateImpl extends BackboneTypeImpl implements DosageDos
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -144,6 +145,7 @@ public class DosageDoseAndRateImpl extends BackboneTypeImpl implements DosageDos
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -163,6 +165,7 @@ public class DosageDoseAndRateImpl extends BackboneTypeImpl implements DosageDos
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Range getDoseRange() {
 		return doseRange;
 	}
@@ -187,6 +190,7 @@ public class DosageDoseAndRateImpl extends BackboneTypeImpl implements DosageDos
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDoseRange(Range newDoseRange) {
 		if (newDoseRange != doseRange) {
 			NotificationChain msgs = null;
@@ -206,6 +210,7 @@ public class DosageDoseAndRateImpl extends BackboneTypeImpl implements DosageDos
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getDoseQuantity() {
 		return doseQuantity;
 	}
@@ -230,6 +235,7 @@ public class DosageDoseAndRateImpl extends BackboneTypeImpl implements DosageDos
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDoseQuantity(Quantity newDoseQuantity) {
 		if (newDoseQuantity != doseQuantity) {
 			NotificationChain msgs = null;
@@ -249,6 +255,7 @@ public class DosageDoseAndRateImpl extends BackboneTypeImpl implements DosageDos
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Ratio getRateRatio() {
 		return rateRatio;
 	}
@@ -273,6 +280,7 @@ public class DosageDoseAndRateImpl extends BackboneTypeImpl implements DosageDos
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRateRatio(Ratio newRateRatio) {
 		if (newRateRatio != rateRatio) {
 			NotificationChain msgs = null;
@@ -292,6 +300,7 @@ public class DosageDoseAndRateImpl extends BackboneTypeImpl implements DosageDos
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Range getRateRange() {
 		return rateRange;
 	}
@@ -316,6 +325,7 @@ public class DosageDoseAndRateImpl extends BackboneTypeImpl implements DosageDos
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRateRange(Range newRateRange) {
 		if (newRateRange != rateRange) {
 			NotificationChain msgs = null;
@@ -335,6 +345,7 @@ public class DosageDoseAndRateImpl extends BackboneTypeImpl implements DosageDos
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getRateQuantity() {
 		return rateQuantity;
 	}
@@ -359,6 +370,7 @@ public class DosageDoseAndRateImpl extends BackboneTypeImpl implements DosageDos
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRateQuantity(Quantity newRateQuantity) {
 		if (newRateQuantity != rateQuantity) {
 			NotificationChain msgs = null;

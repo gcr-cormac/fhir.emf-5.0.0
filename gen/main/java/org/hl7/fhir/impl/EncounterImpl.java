@@ -379,6 +379,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.ENCOUNTER__IDENTIFIER);
@@ -391,6 +392,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EncounterStatus getStatus() {
 		return status;
 	}
@@ -415,6 +417,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(EncounterStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -434,6 +437,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getClass_() {
 		if (class_ == null) {
 			class_ = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.ENCOUNTER__CLASS);
@@ -446,6 +450,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getPriority() {
 		return priority;
 	}
@@ -470,6 +475,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPriority(CodeableConcept newPriority) {
 		if (newPriority != priority) {
 			NotificationChain msgs = null;
@@ -489,6 +495,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getType() {
 		if (type == null) {
 			type = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.ENCOUNTER__TYPE);
@@ -501,6 +508,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getServiceType() {
 		if (serviceType == null) {
 			serviceType = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.ENCOUNTER__SERVICE_TYPE);
@@ -513,6 +521,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubject() {
 		return subject;
 	}
@@ -537,6 +546,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubject(Reference newSubject) {
 		if (newSubject != subject) {
 			NotificationChain msgs = null;
@@ -556,6 +566,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getSubjectStatus() {
 		return subjectStatus;
 	}
@@ -580,6 +591,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubjectStatus(CodeableConcept newSubjectStatus) {
 		if (newSubjectStatus != subjectStatus) {
 			NotificationChain msgs = null;
@@ -599,6 +611,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getEpisodeOfCare() {
 		if (episodeOfCare == null) {
 			episodeOfCare = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.ENCOUNTER__EPISODE_OF_CARE);
@@ -611,6 +624,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getBasedOn() {
 		if (basedOn == null) {
 			basedOn = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.ENCOUNTER__BASED_ON);
@@ -623,6 +637,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getCareTeam() {
 		if (careTeam == null) {
 			careTeam = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.ENCOUNTER__CARE_TEAM);
@@ -635,6 +650,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getPartOf() {
 		return partOf;
 	}
@@ -659,6 +675,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPartOf(Reference newPartOf) {
 		if (newPartOf != partOf) {
 			NotificationChain msgs = null;
@@ -678,6 +695,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getServiceProvider() {
 		return serviceProvider;
 	}
@@ -702,6 +720,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setServiceProvider(Reference newServiceProvider) {
 		if (newServiceProvider != serviceProvider) {
 			NotificationChain msgs = null;
@@ -721,6 +740,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<EncounterParticipant> getParticipant() {
 		if (participant == null) {
 			participant = new EObjectContainmentEList<EncounterParticipant>(EncounterParticipant.class, this, FhirPackage.ENCOUNTER__PARTICIPANT);
@@ -733,6 +753,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getAppointment() {
 		if (appointment == null) {
 			appointment = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.ENCOUNTER__APPOINTMENT);
@@ -745,6 +766,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<VirtualServiceDetail> getVirtualService() {
 		if (virtualService == null) {
 			virtualService = new EObjectContainmentEList<VirtualServiceDetail>(VirtualServiceDetail.class, this, FhirPackage.ENCOUNTER__VIRTUAL_SERVICE);
@@ -757,6 +779,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getActualPeriod() {
 		return actualPeriod;
 	}
@@ -781,6 +804,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setActualPeriod(Period newActualPeriod) {
 		if (newActualPeriod != actualPeriod) {
 			NotificationChain msgs = null;
@@ -800,6 +824,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getPlannedStartDate() {
 		return plannedStartDate;
 	}
@@ -824,6 +849,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPlannedStartDate(DateTime newPlannedStartDate) {
 		if (newPlannedStartDate != plannedStartDate) {
 			NotificationChain msgs = null;
@@ -843,6 +869,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getPlannedEndDate() {
 		return plannedEndDate;
 	}
@@ -867,6 +894,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPlannedEndDate(DateTime newPlannedEndDate) {
 		if (newPlannedEndDate != plannedEndDate) {
 			NotificationChain msgs = null;
@@ -886,6 +914,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Duration getLength() {
 		return length;
 	}
@@ -910,6 +939,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLength(Duration newLength) {
 		if (newLength != length) {
 			NotificationChain msgs = null;
@@ -929,6 +959,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<EncounterReason> getReason() {
 		if (reason == null) {
 			reason = new EObjectContainmentEList<EncounterReason>(EncounterReason.class, this, FhirPackage.ENCOUNTER__REASON);
@@ -941,6 +972,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<EncounterDiagnosis> getDiagnosis() {
 		if (diagnosis == null) {
 			diagnosis = new EObjectContainmentEList<EncounterDiagnosis>(EncounterDiagnosis.class, this, FhirPackage.ENCOUNTER__DIAGNOSIS);
@@ -953,6 +985,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getAccount() {
 		if (account == null) {
 			account = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.ENCOUNTER__ACCOUNT);
@@ -965,6 +998,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getDietPreference() {
 		if (dietPreference == null) {
 			dietPreference = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.ENCOUNTER__DIET_PREFERENCE);
@@ -977,6 +1011,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getSpecialArrangement() {
 		if (specialArrangement == null) {
 			specialArrangement = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.ENCOUNTER__SPECIAL_ARRANGEMENT);
@@ -989,6 +1024,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getSpecialCourtesy() {
 		if (specialCourtesy == null) {
 			specialCourtesy = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.ENCOUNTER__SPECIAL_COURTESY);
@@ -1001,6 +1037,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EncounterAdmission getAdmission() {
 		return admission;
 	}
@@ -1025,6 +1062,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAdmission(EncounterAdmission newAdmission) {
 		if (newAdmission != admission) {
 			NotificationChain msgs = null;
@@ -1044,6 +1082,7 @@ public class EncounterImpl extends DomainResourceImpl implements Encounter {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<EncounterLocation> getLocation() {
 		if (location == null) {
 			location = new EObjectContainmentEList<EncounterLocation>(EncounterLocation.class, this, FhirPackage.ENCOUNTER__LOCATION);

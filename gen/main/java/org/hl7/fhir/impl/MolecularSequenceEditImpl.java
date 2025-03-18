@@ -94,6 +94,7 @@ public class MolecularSequenceEditImpl extends BackboneElementImpl implements Mo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Integer getStart() {
 		return start;
 	}
@@ -118,6 +119,7 @@ public class MolecularSequenceEditImpl extends BackboneElementImpl implements Mo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStart(org.hl7.fhir.Integer newStart) {
 		if (newStart != start) {
 			NotificationChain msgs = null;
@@ -137,6 +139,7 @@ public class MolecularSequenceEditImpl extends BackboneElementImpl implements Mo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Integer getEnd() {
 		return end;
 	}
@@ -161,6 +164,7 @@ public class MolecularSequenceEditImpl extends BackboneElementImpl implements Mo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEnd(org.hl7.fhir.Integer newEnd) {
 		if (newEnd != end) {
 			NotificationChain msgs = null;
@@ -180,6 +184,7 @@ public class MolecularSequenceEditImpl extends BackboneElementImpl implements Mo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getReplacementSequence() {
 		return replacementSequence;
 	}
@@ -204,6 +209,7 @@ public class MolecularSequenceEditImpl extends BackboneElementImpl implements Mo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReplacementSequence(org.hl7.fhir.String newReplacementSequence) {
 		if (newReplacementSequence != replacementSequence) {
 			NotificationChain msgs = null;
@@ -223,6 +229,7 @@ public class MolecularSequenceEditImpl extends BackboneElementImpl implements Mo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getReplacedSequence() {
 		return replacedSequence;
 	}
@@ -247,6 +254,7 @@ public class MolecularSequenceEditImpl extends BackboneElementImpl implements Mo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReplacedSequence(org.hl7.fhir.String newReplacedSequence) {
 		if (newReplacedSequence != replacedSequence) {
 			NotificationChain msgs = null;

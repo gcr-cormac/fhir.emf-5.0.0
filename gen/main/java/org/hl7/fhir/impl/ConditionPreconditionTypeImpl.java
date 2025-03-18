@@ -79,6 +79,7 @@ public class ConditionPreconditionTypeImpl extends ElementImpl implements Condit
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ConditionPreconditionTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ConditionPreconditionTypeImpl extends ElementImpl implements Condit
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ConditionPreconditionTypeEnum newValue) {
 		ConditionPreconditionTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ConditionPreconditionTypeImpl extends ElementImpl implements Condit
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ConditionPreconditionTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ConditionPreconditionTypeImpl extends ElementImpl implements Condit
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

@@ -81,6 +81,7 @@ public class ImagingSelectionImageRegion3DImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ImagingSelectionDGraphicType getRegionType() {
 		return regionType;
 	}
@@ -105,6 +106,7 @@ public class ImagingSelectionImageRegion3DImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRegionType(ImagingSelectionDGraphicType newRegionType) {
 		if (newRegionType != regionType) {
 			NotificationChain msgs = null;
@@ -124,6 +126,7 @@ public class ImagingSelectionImageRegion3DImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Decimal> getCoordinate() {
 		if (coordinate == null) {
 			coordinate = new EObjectContainmentEList<Decimal>(Decimal.class, this, FhirPackage.IMAGING_SELECTION_IMAGE_REGION3_D__COORDINATE);

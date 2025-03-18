@@ -197,6 +197,7 @@ public class AppointmentResponseImpl extends DomainResourceImpl implements Appoi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.APPOINTMENT_RESPONSE__IDENTIFIER);
@@ -209,6 +210,7 @@ public class AppointmentResponseImpl extends DomainResourceImpl implements Appoi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getAppointment() {
 		return appointment;
 	}
@@ -233,6 +235,7 @@ public class AppointmentResponseImpl extends DomainResourceImpl implements Appoi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAppointment(Reference newAppointment) {
 		if (newAppointment != appointment) {
 			NotificationChain msgs = null;
@@ -252,6 +255,7 @@ public class AppointmentResponseImpl extends DomainResourceImpl implements Appoi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getProposedNewTime() {
 		return proposedNewTime;
 	}
@@ -276,6 +280,7 @@ public class AppointmentResponseImpl extends DomainResourceImpl implements Appoi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProposedNewTime(org.hl7.fhir.Boolean newProposedNewTime) {
 		if (newProposedNewTime != proposedNewTime) {
 			NotificationChain msgs = null;
@@ -295,6 +300,7 @@ public class AppointmentResponseImpl extends DomainResourceImpl implements Appoi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Instant getStart() {
 		return start;
 	}
@@ -319,6 +325,7 @@ public class AppointmentResponseImpl extends DomainResourceImpl implements Appoi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStart(Instant newStart) {
 		if (newStart != start) {
 			NotificationChain msgs = null;
@@ -338,6 +345,7 @@ public class AppointmentResponseImpl extends DomainResourceImpl implements Appoi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Instant getEnd() {
 		return end;
 	}
@@ -362,6 +370,7 @@ public class AppointmentResponseImpl extends DomainResourceImpl implements Appoi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEnd(Instant newEnd) {
 		if (newEnd != end) {
 			NotificationChain msgs = null;
@@ -381,6 +390,7 @@ public class AppointmentResponseImpl extends DomainResourceImpl implements Appoi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getParticipantType() {
 		if (participantType == null) {
 			participantType = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.APPOINTMENT_RESPONSE__PARTICIPANT_TYPE);
@@ -393,6 +403,7 @@ public class AppointmentResponseImpl extends DomainResourceImpl implements Appoi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getActor() {
 		return actor;
 	}
@@ -417,6 +428,7 @@ public class AppointmentResponseImpl extends DomainResourceImpl implements Appoi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setActor(Reference newActor) {
 		if (newActor != actor) {
 			NotificationChain msgs = null;
@@ -436,6 +448,7 @@ public class AppointmentResponseImpl extends DomainResourceImpl implements Appoi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AppointmentResponseStatus getParticipantStatus() {
 		return participantStatus;
 	}
@@ -460,6 +473,7 @@ public class AppointmentResponseImpl extends DomainResourceImpl implements Appoi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setParticipantStatus(AppointmentResponseStatus newParticipantStatus) {
 		if (newParticipantStatus != participantStatus) {
 			NotificationChain msgs = null;
@@ -479,6 +493,7 @@ public class AppointmentResponseImpl extends DomainResourceImpl implements Appoi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getComment() {
 		return comment;
 	}
@@ -503,6 +518,7 @@ public class AppointmentResponseImpl extends DomainResourceImpl implements Appoi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setComment(Markdown newComment) {
 		if (newComment != comment) {
 			NotificationChain msgs = null;
@@ -522,6 +538,7 @@ public class AppointmentResponseImpl extends DomainResourceImpl implements Appoi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getRecurring() {
 		return recurring;
 	}
@@ -546,6 +563,7 @@ public class AppointmentResponseImpl extends DomainResourceImpl implements Appoi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRecurring(org.hl7.fhir.Boolean newRecurring) {
 		if (newRecurring != recurring) {
 			NotificationChain msgs = null;
@@ -565,6 +583,7 @@ public class AppointmentResponseImpl extends DomainResourceImpl implements Appoi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getOccurrenceDate() {
 		return occurrenceDate;
 	}
@@ -589,6 +608,7 @@ public class AppointmentResponseImpl extends DomainResourceImpl implements Appoi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOccurrenceDate(Date newOccurrenceDate) {
 		if (newOccurrenceDate != occurrenceDate) {
 			NotificationChain msgs = null;
@@ -608,6 +628,7 @@ public class AppointmentResponseImpl extends DomainResourceImpl implements Appoi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PositiveInt getRecurrenceId() {
 		return recurrenceId;
 	}
@@ -632,6 +653,7 @@ public class AppointmentResponseImpl extends DomainResourceImpl implements Appoi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRecurrenceId(PositiveInt newRecurrenceId) {
 		if (newRecurrenceId != recurrenceId) {
 			NotificationChain msgs = null;

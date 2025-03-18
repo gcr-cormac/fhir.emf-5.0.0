@@ -79,6 +79,7 @@ public class BooleanImpl extends ElementImpl implements org.hl7.fhir.Boolean {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class BooleanImpl extends ElementImpl implements org.hl7.fhir.Boolean {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(boolean newValue) {
 		boolean oldValue = value;
 		value = newValue;
@@ -102,6 +104,7 @@ public class BooleanImpl extends ElementImpl implements org.hl7.fhir.Boolean {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		boolean oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class BooleanImpl extends ElementImpl implements org.hl7.fhir.Boolean {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

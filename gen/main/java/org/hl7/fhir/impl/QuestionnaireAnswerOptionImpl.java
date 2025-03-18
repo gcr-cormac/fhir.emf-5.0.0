@@ -131,6 +131,7 @@ public class QuestionnaireAnswerOptionImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Integer getValueInteger() {
 		return valueInteger;
 	}
@@ -155,6 +156,7 @@ public class QuestionnaireAnswerOptionImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueInteger(org.hl7.fhir.Integer newValueInteger) {
 		if (newValueInteger != valueInteger) {
 			NotificationChain msgs = null;
@@ -174,6 +176,7 @@ public class QuestionnaireAnswerOptionImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getValueDate() {
 		return valueDate;
 	}
@@ -198,6 +201,7 @@ public class QuestionnaireAnswerOptionImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueDate(Date newValueDate) {
 		if (newValueDate != valueDate) {
 			NotificationChain msgs = null;
@@ -217,6 +221,7 @@ public class QuestionnaireAnswerOptionImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Time getValueTime() {
 		return valueTime;
 	}
@@ -241,6 +246,7 @@ public class QuestionnaireAnswerOptionImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueTime(Time newValueTime) {
 		if (newValueTime != valueTime) {
 			NotificationChain msgs = null;
@@ -260,6 +266,7 @@ public class QuestionnaireAnswerOptionImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getValueString() {
 		return valueString;
 	}
@@ -284,6 +291,7 @@ public class QuestionnaireAnswerOptionImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueString(org.hl7.fhir.String newValueString) {
 		if (newValueString != valueString) {
 			NotificationChain msgs = null;
@@ -303,6 +311,7 @@ public class QuestionnaireAnswerOptionImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getValueCoding() {
 		return valueCoding;
 	}
@@ -327,6 +336,7 @@ public class QuestionnaireAnswerOptionImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueCoding(Coding newValueCoding) {
 		if (newValueCoding != valueCoding) {
 			NotificationChain msgs = null;
@@ -346,6 +356,7 @@ public class QuestionnaireAnswerOptionImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getValueReference() {
 		return valueReference;
 	}
@@ -370,6 +381,7 @@ public class QuestionnaireAnswerOptionImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueReference(Reference newValueReference) {
 		if (newValueReference != valueReference) {
 			NotificationChain msgs = null;
@@ -389,6 +401,7 @@ public class QuestionnaireAnswerOptionImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getInitialSelected() {
 		return initialSelected;
 	}
@@ -413,6 +426,7 @@ public class QuestionnaireAnswerOptionImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInitialSelected(org.hl7.fhir.Boolean newInitialSelected) {
 		if (newInitialSelected != initialSelected) {
 			NotificationChain msgs = null;

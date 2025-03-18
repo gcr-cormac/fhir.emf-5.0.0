@@ -278,6 +278,7 @@ public class CompositionImpl extends DomainResourceImpl implements Composition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getUrl() {
 		return url;
 	}
@@ -302,6 +303,7 @@ public class CompositionImpl extends DomainResourceImpl implements Composition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUrl(Uri newUrl) {
 		if (newUrl != url) {
 			NotificationChain msgs = null;
@@ -321,6 +323,7 @@ public class CompositionImpl extends DomainResourceImpl implements Composition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.COMPOSITION__IDENTIFIER);
@@ -333,6 +336,7 @@ public class CompositionImpl extends DomainResourceImpl implements Composition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersion() {
 		return version;
 	}
@@ -357,6 +361,7 @@ public class CompositionImpl extends DomainResourceImpl implements Composition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersion(org.hl7.fhir.String newVersion) {
 		if (newVersion != version) {
 			NotificationChain msgs = null;
@@ -376,6 +381,7 @@ public class CompositionImpl extends DomainResourceImpl implements Composition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CompositionStatus getStatus() {
 		return status;
 	}
@@ -400,6 +406,7 @@ public class CompositionImpl extends DomainResourceImpl implements Composition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(CompositionStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -419,6 +426,7 @@ public class CompositionImpl extends DomainResourceImpl implements Composition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -443,6 +451,7 @@ public class CompositionImpl extends DomainResourceImpl implements Composition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -462,6 +471,7 @@ public class CompositionImpl extends DomainResourceImpl implements Composition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCategory() {
 		if (category == null) {
 			category = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.COMPOSITION__CATEGORY);
@@ -474,6 +484,7 @@ public class CompositionImpl extends DomainResourceImpl implements Composition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getSubject() {
 		if (subject == null) {
 			subject = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.COMPOSITION__SUBJECT);
@@ -486,6 +497,7 @@ public class CompositionImpl extends DomainResourceImpl implements Composition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getEncounter() {
 		return encounter;
 	}
@@ -510,6 +522,7 @@ public class CompositionImpl extends DomainResourceImpl implements Composition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEncounter(Reference newEncounter) {
 		if (newEncounter != encounter) {
 			NotificationChain msgs = null;
@@ -529,6 +542,7 @@ public class CompositionImpl extends DomainResourceImpl implements Composition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getDate() {
 		return date;
 	}
@@ -553,6 +567,7 @@ public class CompositionImpl extends DomainResourceImpl implements Composition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDate(DateTime newDate) {
 		if (newDate != date) {
 			NotificationChain msgs = null;
@@ -572,6 +587,7 @@ public class CompositionImpl extends DomainResourceImpl implements Composition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<UsageContext> getUseContext() {
 		if (useContext == null) {
 			useContext = new EObjectContainmentEList<UsageContext>(UsageContext.class, this, FhirPackage.COMPOSITION__USE_CONTEXT);
@@ -584,6 +600,7 @@ public class CompositionImpl extends DomainResourceImpl implements Composition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getAuthor() {
 		if (author == null) {
 			author = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.COMPOSITION__AUTHOR);
@@ -596,6 +613,7 @@ public class CompositionImpl extends DomainResourceImpl implements Composition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -620,6 +638,7 @@ public class CompositionImpl extends DomainResourceImpl implements Composition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -639,6 +658,7 @@ public class CompositionImpl extends DomainResourceImpl implements Composition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getTitle() {
 		return title;
 	}
@@ -663,6 +683,7 @@ public class CompositionImpl extends DomainResourceImpl implements Composition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(org.hl7.fhir.String newTitle) {
 		if (newTitle != title) {
 			NotificationChain msgs = null;
@@ -682,6 +703,7 @@ public class CompositionImpl extends DomainResourceImpl implements Composition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.COMPOSITION__NOTE);
@@ -694,6 +716,7 @@ public class CompositionImpl extends DomainResourceImpl implements Composition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CompositionAttester> getAttester() {
 		if (attester == null) {
 			attester = new EObjectContainmentEList<CompositionAttester>(CompositionAttester.class, this, FhirPackage.COMPOSITION__ATTESTER);
@@ -706,6 +729,7 @@ public class CompositionImpl extends DomainResourceImpl implements Composition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getCustodian() {
 		return custodian;
 	}
@@ -730,6 +754,7 @@ public class CompositionImpl extends DomainResourceImpl implements Composition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCustodian(Reference newCustodian) {
 		if (newCustodian != custodian) {
 			NotificationChain msgs = null;
@@ -749,6 +774,7 @@ public class CompositionImpl extends DomainResourceImpl implements Composition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<RelatedArtifact> getRelatesTo() {
 		if (relatesTo == null) {
 			relatesTo = new EObjectContainmentEList<RelatedArtifact>(RelatedArtifact.class, this, FhirPackage.COMPOSITION__RELATES_TO);
@@ -761,6 +787,7 @@ public class CompositionImpl extends DomainResourceImpl implements Composition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CompositionEvent> getEvent() {
 		if (event == null) {
 			event = new EObjectContainmentEList<CompositionEvent>(CompositionEvent.class, this, FhirPackage.COMPOSITION__EVENT);
@@ -773,6 +800,7 @@ public class CompositionImpl extends DomainResourceImpl implements Composition {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CompositionSection> getSection() {
 		if (section == null) {
 			section = new EObjectContainmentEList<CompositionSection>(CompositionSection.class, this, FhirPackage.COMPOSITION__SECTION);

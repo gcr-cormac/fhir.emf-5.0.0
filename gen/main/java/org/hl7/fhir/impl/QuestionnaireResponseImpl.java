@@ -184,6 +184,7 @@ public class QuestionnaireResponseImpl extends DomainResourceImpl implements Que
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.QUESTIONNAIRE_RESPONSE__IDENTIFIER);
@@ -196,6 +197,7 @@ public class QuestionnaireResponseImpl extends DomainResourceImpl implements Que
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getBasedOn() {
 		if (basedOn == null) {
 			basedOn = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.QUESTIONNAIRE_RESPONSE__BASED_ON);
@@ -208,6 +210,7 @@ public class QuestionnaireResponseImpl extends DomainResourceImpl implements Que
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getPartOf() {
 		if (partOf == null) {
 			partOf = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.QUESTIONNAIRE_RESPONSE__PART_OF);
@@ -220,6 +223,7 @@ public class QuestionnaireResponseImpl extends DomainResourceImpl implements Que
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getQuestionnaire() {
 		return questionnaire;
 	}
@@ -244,6 +248,7 @@ public class QuestionnaireResponseImpl extends DomainResourceImpl implements Que
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setQuestionnaire(Canonical newQuestionnaire) {
 		if (newQuestionnaire != questionnaire) {
 			NotificationChain msgs = null;
@@ -263,6 +268,7 @@ public class QuestionnaireResponseImpl extends DomainResourceImpl implements Que
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public QuestionnaireResponseStatus getStatus() {
 		return status;
 	}
@@ -287,6 +293,7 @@ public class QuestionnaireResponseImpl extends DomainResourceImpl implements Que
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(QuestionnaireResponseStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -306,6 +313,7 @@ public class QuestionnaireResponseImpl extends DomainResourceImpl implements Que
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubject() {
 		return subject;
 	}
@@ -330,6 +338,7 @@ public class QuestionnaireResponseImpl extends DomainResourceImpl implements Que
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubject(Reference newSubject) {
 		if (newSubject != subject) {
 			NotificationChain msgs = null;
@@ -349,6 +358,7 @@ public class QuestionnaireResponseImpl extends DomainResourceImpl implements Que
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getEncounter() {
 		return encounter;
 	}
@@ -373,6 +383,7 @@ public class QuestionnaireResponseImpl extends DomainResourceImpl implements Que
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEncounter(Reference newEncounter) {
 		if (newEncounter != encounter) {
 			NotificationChain msgs = null;
@@ -392,6 +403,7 @@ public class QuestionnaireResponseImpl extends DomainResourceImpl implements Que
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getAuthored() {
 		return authored;
 	}
@@ -416,6 +428,7 @@ public class QuestionnaireResponseImpl extends DomainResourceImpl implements Que
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAuthored(DateTime newAuthored) {
 		if (newAuthored != authored) {
 			NotificationChain msgs = null;
@@ -435,6 +448,7 @@ public class QuestionnaireResponseImpl extends DomainResourceImpl implements Que
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getAuthor() {
 		return author;
 	}
@@ -459,6 +473,7 @@ public class QuestionnaireResponseImpl extends DomainResourceImpl implements Que
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAuthor(Reference newAuthor) {
 		if (newAuthor != author) {
 			NotificationChain msgs = null;
@@ -478,6 +493,7 @@ public class QuestionnaireResponseImpl extends DomainResourceImpl implements Que
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSource() {
 		return source;
 	}
@@ -502,6 +518,7 @@ public class QuestionnaireResponseImpl extends DomainResourceImpl implements Que
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSource(Reference newSource) {
 		if (newSource != source) {
 			NotificationChain msgs = null;
@@ -521,6 +538,7 @@ public class QuestionnaireResponseImpl extends DomainResourceImpl implements Que
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<QuestionnaireResponseItem> getItem() {
 		if (item == null) {
 			item = new EObjectContainmentEList<QuestionnaireResponseItem>(QuestionnaireResponseItem.class, this, FhirPackage.QUESTIONNAIRE_RESPONSE__ITEM);

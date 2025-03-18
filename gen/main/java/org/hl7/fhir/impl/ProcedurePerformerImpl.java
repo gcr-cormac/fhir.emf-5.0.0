@@ -97,6 +97,7 @@ public class ProcedurePerformerImpl extends BackboneElementImpl implements Proce
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getFunction() {
 		return function;
 	}
@@ -121,6 +122,7 @@ public class ProcedurePerformerImpl extends BackboneElementImpl implements Proce
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFunction(CodeableConcept newFunction) {
 		if (newFunction != function) {
 			NotificationChain msgs = null;
@@ -140,6 +142,7 @@ public class ProcedurePerformerImpl extends BackboneElementImpl implements Proce
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getActor() {
 		return actor;
 	}
@@ -164,6 +167,7 @@ public class ProcedurePerformerImpl extends BackboneElementImpl implements Proce
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setActor(Reference newActor) {
 		if (newActor != actor) {
 			NotificationChain msgs = null;
@@ -183,6 +187,7 @@ public class ProcedurePerformerImpl extends BackboneElementImpl implements Proce
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getOnBehalfOf() {
 		return onBehalfOf;
 	}
@@ -207,6 +212,7 @@ public class ProcedurePerformerImpl extends BackboneElementImpl implements Proce
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOnBehalfOf(Reference newOnBehalfOf) {
 		if (newOnBehalfOf != onBehalfOf) {
 			NotificationChain msgs = null;
@@ -226,6 +232,7 @@ public class ProcedurePerformerImpl extends BackboneElementImpl implements Proce
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getPeriod() {
 		return period;
 	}
@@ -250,6 +257,7 @@ public class ProcedurePerformerImpl extends BackboneElementImpl implements Proce
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriod(Period newPeriod) {
 		if (newPeriod != period) {
 			NotificationChain msgs = null;

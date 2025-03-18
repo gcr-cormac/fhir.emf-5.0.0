@@ -297,6 +297,7 @@ public class ContractActionImpl extends BackboneElementImpl implements ContractA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getDoNotPerform() {
 		return doNotPerform;
 	}
@@ -321,6 +322,7 @@ public class ContractActionImpl extends BackboneElementImpl implements ContractA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDoNotPerform(org.hl7.fhir.Boolean newDoNotPerform) {
 		if (newDoNotPerform != doNotPerform) {
 			NotificationChain msgs = null;
@@ -340,6 +342,7 @@ public class ContractActionImpl extends BackboneElementImpl implements ContractA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -364,6 +367,7 @@ public class ContractActionImpl extends BackboneElementImpl implements ContractA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -383,6 +387,7 @@ public class ContractActionImpl extends BackboneElementImpl implements ContractA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContractSubject> getSubject() {
 		if (subject == null) {
 			subject = new EObjectContainmentEList<ContractSubject>(ContractSubject.class, this, FhirPackage.CONTRACT_ACTION__SUBJECT);
@@ -395,6 +400,7 @@ public class ContractActionImpl extends BackboneElementImpl implements ContractA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getIntent() {
 		return intent;
 	}
@@ -419,6 +425,7 @@ public class ContractActionImpl extends BackboneElementImpl implements ContractA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIntent(CodeableConcept newIntent) {
 		if (newIntent != intent) {
 			NotificationChain msgs = null;
@@ -438,6 +445,7 @@ public class ContractActionImpl extends BackboneElementImpl implements ContractA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<org.hl7.fhir.String> getLinkId() {
 		if (linkId == null) {
 			linkId = new EObjectContainmentEList<org.hl7.fhir.String>(org.hl7.fhir.String.class, this, FhirPackage.CONTRACT_ACTION__LINK_ID);
@@ -450,6 +458,7 @@ public class ContractActionImpl extends BackboneElementImpl implements ContractA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getStatus() {
 		return status;
 	}
@@ -474,6 +483,7 @@ public class ContractActionImpl extends BackboneElementImpl implements ContractA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(CodeableConcept newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -493,6 +503,7 @@ public class ContractActionImpl extends BackboneElementImpl implements ContractA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getContext() {
 		return context;
 	}
@@ -517,6 +528,7 @@ public class ContractActionImpl extends BackboneElementImpl implements ContractA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setContext(Reference newContext) {
 		if (newContext != context) {
 			NotificationChain msgs = null;
@@ -536,6 +548,7 @@ public class ContractActionImpl extends BackboneElementImpl implements ContractA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<org.hl7.fhir.String> getContextLinkId() {
 		if (contextLinkId == null) {
 			contextLinkId = new EObjectContainmentEList<org.hl7.fhir.String>(org.hl7.fhir.String.class, this, FhirPackage.CONTRACT_ACTION__CONTEXT_LINK_ID);
@@ -548,6 +561,7 @@ public class ContractActionImpl extends BackboneElementImpl implements ContractA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getOccurrenceDateTime() {
 		return occurrenceDateTime;
 	}
@@ -572,6 +586,7 @@ public class ContractActionImpl extends BackboneElementImpl implements ContractA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOccurrenceDateTime(DateTime newOccurrenceDateTime) {
 		if (newOccurrenceDateTime != occurrenceDateTime) {
 			NotificationChain msgs = null;
@@ -591,6 +606,7 @@ public class ContractActionImpl extends BackboneElementImpl implements ContractA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getOccurrencePeriod() {
 		return occurrencePeriod;
 	}
@@ -615,6 +631,7 @@ public class ContractActionImpl extends BackboneElementImpl implements ContractA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOccurrencePeriod(Period newOccurrencePeriod) {
 		if (newOccurrencePeriod != occurrencePeriod) {
 			NotificationChain msgs = null;
@@ -634,6 +651,7 @@ public class ContractActionImpl extends BackboneElementImpl implements ContractA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Timing getOccurrenceTiming() {
 		return occurrenceTiming;
 	}
@@ -658,6 +676,7 @@ public class ContractActionImpl extends BackboneElementImpl implements ContractA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOccurrenceTiming(Timing newOccurrenceTiming) {
 		if (newOccurrenceTiming != occurrenceTiming) {
 			NotificationChain msgs = null;
@@ -677,6 +696,7 @@ public class ContractActionImpl extends BackboneElementImpl implements ContractA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getRequester() {
 		if (requester == null) {
 			requester = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.CONTRACT_ACTION__REQUESTER);
@@ -689,6 +709,7 @@ public class ContractActionImpl extends BackboneElementImpl implements ContractA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<org.hl7.fhir.String> getRequesterLinkId() {
 		if (requesterLinkId == null) {
 			requesterLinkId = new EObjectContainmentEList<org.hl7.fhir.String>(org.hl7.fhir.String.class, this, FhirPackage.CONTRACT_ACTION__REQUESTER_LINK_ID);
@@ -701,6 +722,7 @@ public class ContractActionImpl extends BackboneElementImpl implements ContractA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getPerformerType() {
 		if (performerType == null) {
 			performerType = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.CONTRACT_ACTION__PERFORMER_TYPE);
@@ -713,6 +735,7 @@ public class ContractActionImpl extends BackboneElementImpl implements ContractA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getPerformerRole() {
 		return performerRole;
 	}
@@ -737,6 +760,7 @@ public class ContractActionImpl extends BackboneElementImpl implements ContractA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPerformerRole(CodeableConcept newPerformerRole) {
 		if (newPerformerRole != performerRole) {
 			NotificationChain msgs = null;
@@ -756,6 +780,7 @@ public class ContractActionImpl extends BackboneElementImpl implements ContractA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getPerformer() {
 		return performer;
 	}
@@ -780,6 +805,7 @@ public class ContractActionImpl extends BackboneElementImpl implements ContractA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPerformer(Reference newPerformer) {
 		if (newPerformer != performer) {
 			NotificationChain msgs = null;
@@ -799,6 +825,7 @@ public class ContractActionImpl extends BackboneElementImpl implements ContractA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<org.hl7.fhir.String> getPerformerLinkId() {
 		if (performerLinkId == null) {
 			performerLinkId = new EObjectContainmentEList<org.hl7.fhir.String>(org.hl7.fhir.String.class, this, FhirPackage.CONTRACT_ACTION__PERFORMER_LINK_ID);
@@ -811,6 +838,7 @@ public class ContractActionImpl extends BackboneElementImpl implements ContractA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getReason() {
 		if (reason == null) {
 			reason = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.CONTRACT_ACTION__REASON);
@@ -823,6 +851,7 @@ public class ContractActionImpl extends BackboneElementImpl implements ContractA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<org.hl7.fhir.String> getReasonLinkId() {
 		if (reasonLinkId == null) {
 			reasonLinkId = new EObjectContainmentEList<org.hl7.fhir.String>(org.hl7.fhir.String.class, this, FhirPackage.CONTRACT_ACTION__REASON_LINK_ID);
@@ -835,6 +864,7 @@ public class ContractActionImpl extends BackboneElementImpl implements ContractA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.CONTRACT_ACTION__NOTE);
@@ -847,6 +877,7 @@ public class ContractActionImpl extends BackboneElementImpl implements ContractA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<UnsignedInt> getSecurityLabelNumber() {
 		if (securityLabelNumber == null) {
 			securityLabelNumber = new EObjectContainmentEList<UnsignedInt>(UnsignedInt.class, this, FhirPackage.CONTRACT_ACTION__SECURITY_LABEL_NUMBER);

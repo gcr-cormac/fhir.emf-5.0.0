@@ -103,6 +103,7 @@ public class ElementDefinitionSlicingImpl extends BackboneTypeImpl implements El
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ElementDefinitionDiscriminator> getDiscriminator() {
 		if (discriminator == null) {
 			discriminator = new EObjectContainmentEList<ElementDefinitionDiscriminator>(ElementDefinitionDiscriminator.class, this, FhirPackage.ELEMENT_DEFINITION_SLICING__DISCRIMINATOR);
@@ -115,6 +116,7 @@ public class ElementDefinitionSlicingImpl extends BackboneTypeImpl implements El
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDescription() {
 		return description;
 	}
@@ -139,6 +141,7 @@ public class ElementDefinitionSlicingImpl extends BackboneTypeImpl implements El
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(org.hl7.fhir.String newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -158,6 +161,7 @@ public class ElementDefinitionSlicingImpl extends BackboneTypeImpl implements El
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getOrdered() {
 		return ordered;
 	}
@@ -182,6 +186,7 @@ public class ElementDefinitionSlicingImpl extends BackboneTypeImpl implements El
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOrdered(org.hl7.fhir.Boolean newOrdered) {
 		if (newOrdered != ordered) {
 			NotificationChain msgs = null;
@@ -201,6 +206,7 @@ public class ElementDefinitionSlicingImpl extends BackboneTypeImpl implements El
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SlicingRules getRules() {
 		return rules;
 	}
@@ -225,6 +231,7 @@ public class ElementDefinitionSlicingImpl extends BackboneTypeImpl implements El
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRules(SlicingRules newRules) {
 		if (newRules != rules) {
 			NotificationChain msgs = null;

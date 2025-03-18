@@ -244,6 +244,7 @@ public class SpecimenImpl extends DomainResourceImpl implements Specimen {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.SPECIMEN__IDENTIFIER);
@@ -256,6 +257,7 @@ public class SpecimenImpl extends DomainResourceImpl implements Specimen {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Identifier getAccessionIdentifier() {
 		return accessionIdentifier;
 	}
@@ -280,6 +282,7 @@ public class SpecimenImpl extends DomainResourceImpl implements Specimen {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAccessionIdentifier(Identifier newAccessionIdentifier) {
 		if (newAccessionIdentifier != accessionIdentifier) {
 			NotificationChain msgs = null;
@@ -299,6 +302,7 @@ public class SpecimenImpl extends DomainResourceImpl implements Specimen {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SpecimenStatus getStatus() {
 		return status;
 	}
@@ -323,6 +327,7 @@ public class SpecimenImpl extends DomainResourceImpl implements Specimen {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(SpecimenStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -342,6 +347,7 @@ public class SpecimenImpl extends DomainResourceImpl implements Specimen {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -366,6 +372,7 @@ public class SpecimenImpl extends DomainResourceImpl implements Specimen {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -385,6 +392,7 @@ public class SpecimenImpl extends DomainResourceImpl implements Specimen {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubject() {
 		return subject;
 	}
@@ -409,6 +417,7 @@ public class SpecimenImpl extends DomainResourceImpl implements Specimen {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubject(Reference newSubject) {
 		if (newSubject != subject) {
 			NotificationChain msgs = null;
@@ -428,6 +437,7 @@ public class SpecimenImpl extends DomainResourceImpl implements Specimen {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getReceivedTime() {
 		return receivedTime;
 	}
@@ -452,6 +462,7 @@ public class SpecimenImpl extends DomainResourceImpl implements Specimen {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReceivedTime(DateTime newReceivedTime) {
 		if (newReceivedTime != receivedTime) {
 			NotificationChain msgs = null;
@@ -471,6 +482,7 @@ public class SpecimenImpl extends DomainResourceImpl implements Specimen {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getParent() {
 		if (parent == null) {
 			parent = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.SPECIMEN__PARENT);
@@ -483,6 +495,7 @@ public class SpecimenImpl extends DomainResourceImpl implements Specimen {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getRequest() {
 		if (request == null) {
 			request = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.SPECIMEN__REQUEST);
@@ -495,6 +508,7 @@ public class SpecimenImpl extends DomainResourceImpl implements Specimen {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SpecimenCombined getCombined() {
 		return combined;
 	}
@@ -519,6 +533,7 @@ public class SpecimenImpl extends DomainResourceImpl implements Specimen {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCombined(SpecimenCombined newCombined) {
 		if (newCombined != combined) {
 			NotificationChain msgs = null;
@@ -538,6 +553,7 @@ public class SpecimenImpl extends DomainResourceImpl implements Specimen {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getRole() {
 		if (role == null) {
 			role = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.SPECIMEN__ROLE);
@@ -550,6 +566,7 @@ public class SpecimenImpl extends DomainResourceImpl implements Specimen {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SpecimenFeature> getFeature() {
 		if (feature == null) {
 			feature = new EObjectContainmentEList<SpecimenFeature>(SpecimenFeature.class, this, FhirPackage.SPECIMEN__FEATURE);
@@ -562,6 +579,7 @@ public class SpecimenImpl extends DomainResourceImpl implements Specimen {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SpecimenCollection getCollection() {
 		return collection;
 	}
@@ -586,6 +604,7 @@ public class SpecimenImpl extends DomainResourceImpl implements Specimen {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCollection(SpecimenCollection newCollection) {
 		if (newCollection != collection) {
 			NotificationChain msgs = null;
@@ -605,6 +624,7 @@ public class SpecimenImpl extends DomainResourceImpl implements Specimen {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SpecimenProcessing> getProcessing() {
 		if (processing == null) {
 			processing = new EObjectContainmentEList<SpecimenProcessing>(SpecimenProcessing.class, this, FhirPackage.SPECIMEN__PROCESSING);
@@ -617,6 +637,7 @@ public class SpecimenImpl extends DomainResourceImpl implements Specimen {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SpecimenContainer> getContainer() {
 		if (container == null) {
 			container = new EObjectContainmentEList<SpecimenContainer>(SpecimenContainer.class, this, FhirPackage.SPECIMEN__CONTAINER);
@@ -629,6 +650,7 @@ public class SpecimenImpl extends DomainResourceImpl implements Specimen {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCondition() {
 		if (condition == null) {
 			condition = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.SPECIMEN__CONDITION);
@@ -641,6 +663,7 @@ public class SpecimenImpl extends DomainResourceImpl implements Specimen {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.SPECIMEN__NOTE);

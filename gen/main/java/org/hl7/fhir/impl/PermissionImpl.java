@@ -141,6 +141,7 @@ public class PermissionImpl extends DomainResourceImpl implements Permission {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PermissionStatus getStatus() {
 		return status;
 	}
@@ -165,6 +166,7 @@ public class PermissionImpl extends DomainResourceImpl implements Permission {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(PermissionStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -184,6 +186,7 @@ public class PermissionImpl extends DomainResourceImpl implements Permission {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getAsserter() {
 		return asserter;
 	}
@@ -208,6 +211,7 @@ public class PermissionImpl extends DomainResourceImpl implements Permission {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAsserter(Reference newAsserter) {
 		if (newAsserter != asserter) {
 			NotificationChain msgs = null;
@@ -227,6 +231,7 @@ public class PermissionImpl extends DomainResourceImpl implements Permission {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<DateTime> getDate() {
 		if (date == null) {
 			date = new EObjectContainmentEList<DateTime>(DateTime.class, this, FhirPackage.PERMISSION__DATE);
@@ -239,6 +244,7 @@ public class PermissionImpl extends DomainResourceImpl implements Permission {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getValidity() {
 		return validity;
 	}
@@ -263,6 +269,7 @@ public class PermissionImpl extends DomainResourceImpl implements Permission {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValidity(Period newValidity) {
 		if (newValidity != validity) {
 			NotificationChain msgs = null;
@@ -282,6 +289,7 @@ public class PermissionImpl extends DomainResourceImpl implements Permission {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PermissionJustification getJustification() {
 		return justification;
 	}
@@ -306,6 +314,7 @@ public class PermissionImpl extends DomainResourceImpl implements Permission {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setJustification(PermissionJustification newJustification) {
 		if (newJustification != justification) {
 			NotificationChain msgs = null;
@@ -325,6 +334,7 @@ public class PermissionImpl extends DomainResourceImpl implements Permission {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PermissionRuleCombining getCombining() {
 		return combining;
 	}
@@ -349,6 +359,7 @@ public class PermissionImpl extends DomainResourceImpl implements Permission {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCombining(PermissionRuleCombining newCombining) {
 		if (newCombining != combining) {
 			NotificationChain msgs = null;
@@ -368,6 +379,7 @@ public class PermissionImpl extends DomainResourceImpl implements Permission {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<PermissionRule> getRule() {
 		if (rule == null) {
 			rule = new EObjectContainmentEList<PermissionRule>(PermissionRule.class, this, FhirPackage.PERMISSION__RULE);

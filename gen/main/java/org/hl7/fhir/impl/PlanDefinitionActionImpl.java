@@ -467,6 +467,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getLinkId() {
 		return linkId;
 	}
@@ -491,6 +492,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLinkId(org.hl7.fhir.String newLinkId) {
 		if (newLinkId != linkId) {
 			NotificationChain msgs = null;
@@ -510,6 +512,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPrefix() {
 		return prefix;
 	}
@@ -534,6 +537,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPrefix(org.hl7.fhir.String newPrefix) {
 		if (newPrefix != prefix) {
 			NotificationChain msgs = null;
@@ -553,6 +557,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getTitle() {
 		return title;
 	}
@@ -577,6 +582,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(org.hl7.fhir.String newTitle) {
 		if (newTitle != title) {
 			NotificationChain msgs = null;
@@ -596,6 +602,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -620,6 +627,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -639,6 +647,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getTextEquivalent() {
 		return textEquivalent;
 	}
@@ -663,6 +672,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTextEquivalent(Markdown newTextEquivalent) {
 		if (newTextEquivalent != textEquivalent) {
 			NotificationChain msgs = null;
@@ -682,6 +692,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public RequestPriority getPriority() {
 		return priority;
 	}
@@ -706,6 +717,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPriority(RequestPriority newPriority) {
 		if (newPriority != priority) {
 			NotificationChain msgs = null;
@@ -725,6 +737,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -749,6 +762,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -768,6 +782,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getReason() {
 		if (reason == null) {
 			reason = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.PLAN_DEFINITION_ACTION__REASON);
@@ -780,6 +795,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<RelatedArtifact> getDocumentation() {
 		if (documentation == null) {
 			documentation = new EObjectContainmentEList<RelatedArtifact>(RelatedArtifact.class, this, FhirPackage.PLAN_DEFINITION_ACTION__DOCUMENTATION);
@@ -792,6 +808,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Id> getGoalId() {
 		if (goalId == null) {
 			goalId = new EObjectContainmentEList<Id>(Id.class, this, FhirPackage.PLAN_DEFINITION_ACTION__GOAL_ID);
@@ -804,6 +821,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getSubjectCodeableConcept() {
 		return subjectCodeableConcept;
 	}
@@ -828,6 +846,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubjectCodeableConcept(CodeableConcept newSubjectCodeableConcept) {
 		if (newSubjectCodeableConcept != subjectCodeableConcept) {
 			NotificationChain msgs = null;
@@ -847,6 +866,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubjectReference() {
 		return subjectReference;
 	}
@@ -871,6 +891,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubjectReference(Reference newSubjectReference) {
 		if (newSubjectReference != subjectReference) {
 			NotificationChain msgs = null;
@@ -890,6 +911,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getSubjectCanonical() {
 		return subjectCanonical;
 	}
@@ -914,6 +936,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubjectCanonical(Canonical newSubjectCanonical) {
 		if (newSubjectCanonical != subjectCanonical) {
 			NotificationChain msgs = null;
@@ -933,6 +956,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<TriggerDefinition> getTrigger() {
 		if (trigger == null) {
 			trigger = new EObjectContainmentEList<TriggerDefinition>(TriggerDefinition.class, this, FhirPackage.PLAN_DEFINITION_ACTION__TRIGGER);
@@ -945,6 +969,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<PlanDefinitionCondition> getCondition() {
 		if (condition == null) {
 			condition = new EObjectContainmentEList<PlanDefinitionCondition>(PlanDefinitionCondition.class, this, FhirPackage.PLAN_DEFINITION_ACTION__CONDITION);
@@ -957,6 +982,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<PlanDefinitionInput> getInput() {
 		if (input == null) {
 			input = new EObjectContainmentEList<PlanDefinitionInput>(PlanDefinitionInput.class, this, FhirPackage.PLAN_DEFINITION_ACTION__INPUT);
@@ -969,6 +995,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<PlanDefinitionOutput> getOutput() {
 		if (output == null) {
 			output = new EObjectContainmentEList<PlanDefinitionOutput>(PlanDefinitionOutput.class, this, FhirPackage.PLAN_DEFINITION_ACTION__OUTPUT);
@@ -981,6 +1008,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<PlanDefinitionRelatedAction> getRelatedAction() {
 		if (relatedAction == null) {
 			relatedAction = new EObjectContainmentEList<PlanDefinitionRelatedAction>(PlanDefinitionRelatedAction.class, this, FhirPackage.PLAN_DEFINITION_ACTION__RELATED_ACTION);
@@ -993,6 +1021,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Age getTimingAge() {
 		return timingAge;
 	}
@@ -1017,6 +1046,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTimingAge(Age newTimingAge) {
 		if (newTimingAge != timingAge) {
 			NotificationChain msgs = null;
@@ -1036,6 +1066,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Duration getTimingDuration() {
 		return timingDuration;
 	}
@@ -1060,6 +1091,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTimingDuration(Duration newTimingDuration) {
 		if (newTimingDuration != timingDuration) {
 			NotificationChain msgs = null;
@@ -1079,6 +1111,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Range getTimingRange() {
 		return timingRange;
 	}
@@ -1103,6 +1136,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTimingRange(Range newTimingRange) {
 		if (newTimingRange != timingRange) {
 			NotificationChain msgs = null;
@@ -1122,6 +1156,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Timing getTimingTiming() {
 		return timingTiming;
 	}
@@ -1146,6 +1181,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTimingTiming(Timing newTimingTiming) {
 		if (newTimingTiming != timingTiming) {
 			NotificationChain msgs = null;
@@ -1165,6 +1201,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getLocation() {
 		return location;
 	}
@@ -1189,6 +1226,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLocation(CodeableReference newLocation) {
 		if (newLocation != location) {
 			NotificationChain msgs = null;
@@ -1208,6 +1246,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<PlanDefinitionParticipant> getParticipant() {
 		if (participant == null) {
 			participant = new EObjectContainmentEList<PlanDefinitionParticipant>(PlanDefinitionParticipant.class, this, FhirPackage.PLAN_DEFINITION_ACTION__PARTICIPANT);
@@ -1220,6 +1259,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -1244,6 +1284,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -1263,6 +1304,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ActionGroupingBehavior getGroupingBehavior() {
 		return groupingBehavior;
 	}
@@ -1287,6 +1329,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setGroupingBehavior(ActionGroupingBehavior newGroupingBehavior) {
 		if (newGroupingBehavior != groupingBehavior) {
 			NotificationChain msgs = null;
@@ -1306,6 +1349,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ActionSelectionBehavior getSelectionBehavior() {
 		return selectionBehavior;
 	}
@@ -1330,6 +1374,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSelectionBehavior(ActionSelectionBehavior newSelectionBehavior) {
 		if (newSelectionBehavior != selectionBehavior) {
 			NotificationChain msgs = null;
@@ -1349,6 +1394,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ActionRequiredBehavior getRequiredBehavior() {
 		return requiredBehavior;
 	}
@@ -1373,6 +1419,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRequiredBehavior(ActionRequiredBehavior newRequiredBehavior) {
 		if (newRequiredBehavior != requiredBehavior) {
 			NotificationChain msgs = null;
@@ -1392,6 +1439,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ActionPrecheckBehavior getPrecheckBehavior() {
 		return precheckBehavior;
 	}
@@ -1416,6 +1464,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPrecheckBehavior(ActionPrecheckBehavior newPrecheckBehavior) {
 		if (newPrecheckBehavior != precheckBehavior) {
 			NotificationChain msgs = null;
@@ -1435,6 +1484,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ActionCardinalityBehavior getCardinalityBehavior() {
 		return cardinalityBehavior;
 	}
@@ -1459,6 +1509,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCardinalityBehavior(ActionCardinalityBehavior newCardinalityBehavior) {
 		if (newCardinalityBehavior != cardinalityBehavior) {
 			NotificationChain msgs = null;
@@ -1478,6 +1529,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getDefinitionCanonical() {
 		return definitionCanonical;
 	}
@@ -1502,6 +1554,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDefinitionCanonical(Canonical newDefinitionCanonical) {
 		if (newDefinitionCanonical != definitionCanonical) {
 			NotificationChain msgs = null;
@@ -1521,6 +1574,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getDefinitionUri() {
 		return definitionUri;
 	}
@@ -1545,6 +1599,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDefinitionUri(Uri newDefinitionUri) {
 		if (newDefinitionUri != definitionUri) {
 			NotificationChain msgs = null;
@@ -1564,6 +1619,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getTransform() {
 		return transform;
 	}
@@ -1588,6 +1644,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTransform(Canonical newTransform) {
 		if (newTransform != transform) {
 			NotificationChain msgs = null;
@@ -1607,6 +1664,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<PlanDefinitionDynamicValue> getDynamicValue() {
 		if (dynamicValue == null) {
 			dynamicValue = new EObjectContainmentEList<PlanDefinitionDynamicValue>(PlanDefinitionDynamicValue.class, this, FhirPackage.PLAN_DEFINITION_ACTION__DYNAMIC_VALUE);
@@ -1619,6 +1677,7 @@ public class PlanDefinitionActionImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<PlanDefinitionAction> getAction() {
 		if (action == null) {
 			action = new EObjectContainmentEList<PlanDefinitionAction>(PlanDefinitionAction.class, this, FhirPackage.PLAN_DEFINITION_ACTION__ACTION);

@@ -365,6 +365,7 @@ public class ImgTypeImpl extends MinimalEObjectImpl.Container implements ImgType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getAlt() {
 		return alt;
 	}
@@ -374,6 +375,7 @@ public class ImgTypeImpl extends MinimalEObjectImpl.Container implements ImgType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAlt(String newAlt) {
 		String oldAlt = alt;
 		alt = newAlt;
@@ -386,6 +388,7 @@ public class ImgTypeImpl extends MinimalEObjectImpl.Container implements ImgType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public List<String> getClass_() {
 		return class_;
 	}
@@ -395,6 +398,7 @@ public class ImgTypeImpl extends MinimalEObjectImpl.Container implements ImgType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setClass(List<String> newClass) {
 		List<String> oldClass = class_;
 		class_ = newClass;
@@ -407,6 +411,7 @@ public class ImgTypeImpl extends MinimalEObjectImpl.Container implements ImgType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DirType getDir() {
 		return dir;
 	}
@@ -416,6 +421,7 @@ public class ImgTypeImpl extends MinimalEObjectImpl.Container implements ImgType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDir(DirType newDir) {
 		DirType oldDir = dir;
 		dir = newDir == null ? DIR_EDEFAULT : newDir;
@@ -430,6 +436,7 @@ public class ImgTypeImpl extends MinimalEObjectImpl.Container implements ImgType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetDir() {
 		DirType oldDir = dir;
 		boolean oldDirESet = dirESet;
@@ -444,6 +451,7 @@ public class ImgTypeImpl extends MinimalEObjectImpl.Container implements ImgType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetDir() {
 		return dirESet;
 	}
@@ -453,6 +461,7 @@ public class ImgTypeImpl extends MinimalEObjectImpl.Container implements ImgType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getHeight() {
 		return height;
 	}
@@ -462,6 +471,7 @@ public class ImgTypeImpl extends MinimalEObjectImpl.Container implements ImgType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setHeight(String newHeight) {
 		String oldHeight = height;
 		height = newHeight;
@@ -474,6 +484,7 @@ public class ImgTypeImpl extends MinimalEObjectImpl.Container implements ImgType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getId() {
 		return id;
 	}
@@ -483,6 +494,7 @@ public class ImgTypeImpl extends MinimalEObjectImpl.Container implements ImgType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setId(String newId) {
 		String oldId = id;
 		id = newId;
@@ -495,6 +507,7 @@ public class ImgTypeImpl extends MinimalEObjectImpl.Container implements ImgType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public IsmapType getIsmap() {
 		return ismap;
 	}
@@ -504,6 +517,7 @@ public class ImgTypeImpl extends MinimalEObjectImpl.Container implements ImgType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIsmap(IsmapType newIsmap) {
 		IsmapType oldIsmap = ismap;
 		ismap = newIsmap == null ? ISMAP_EDEFAULT : newIsmap;
@@ -518,6 +532,7 @@ public class ImgTypeImpl extends MinimalEObjectImpl.Container implements ImgType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetIsmap() {
 		IsmapType oldIsmap = ismap;
 		boolean oldIsmapESet = ismapESet;
@@ -532,6 +547,7 @@ public class ImgTypeImpl extends MinimalEObjectImpl.Container implements ImgType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetIsmap() {
 		return ismapESet;
 	}
@@ -541,6 +557,7 @@ public class ImgTypeImpl extends MinimalEObjectImpl.Container implements ImgType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getLang() {
 		return lang;
 	}
@@ -550,6 +567,7 @@ public class ImgTypeImpl extends MinimalEObjectImpl.Container implements ImgType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLang(String newLang) {
 		String oldLang = lang;
 		lang = newLang;
@@ -562,6 +580,7 @@ public class ImgTypeImpl extends MinimalEObjectImpl.Container implements ImgType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Object getLang1() {
 		return lang1;
 	}
@@ -571,6 +590,7 @@ public class ImgTypeImpl extends MinimalEObjectImpl.Container implements ImgType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLang1(Object newLang1) {
 		Object oldLang1 = lang1;
 		lang1 = newLang1;
@@ -583,6 +603,7 @@ public class ImgTypeImpl extends MinimalEObjectImpl.Container implements ImgType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getLongdesc() {
 		return longdesc;
 	}
@@ -592,6 +613,7 @@ public class ImgTypeImpl extends MinimalEObjectImpl.Container implements ImgType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLongdesc(String newLongdesc) {
 		String oldLongdesc = longdesc;
 		longdesc = newLongdesc;
@@ -604,6 +626,7 @@ public class ImgTypeImpl extends MinimalEObjectImpl.Container implements ImgType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getSrc() {
 		return src;
 	}
@@ -613,6 +636,7 @@ public class ImgTypeImpl extends MinimalEObjectImpl.Container implements ImgType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSrc(String newSrc) {
 		String oldSrc = src;
 		src = newSrc;
@@ -625,6 +649,7 @@ public class ImgTypeImpl extends MinimalEObjectImpl.Container implements ImgType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getStyle() {
 		return style;
 	}
@@ -634,6 +659,7 @@ public class ImgTypeImpl extends MinimalEObjectImpl.Container implements ImgType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStyle(String newStyle) {
 		String oldStyle = style;
 		style = newStyle;
@@ -646,6 +672,7 @@ public class ImgTypeImpl extends MinimalEObjectImpl.Container implements ImgType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getTitle() {
 		return title;
 	}
@@ -655,6 +682,7 @@ public class ImgTypeImpl extends MinimalEObjectImpl.Container implements ImgType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(String newTitle) {
 		String oldTitle = title;
 		title = newTitle;
@@ -667,6 +695,7 @@ public class ImgTypeImpl extends MinimalEObjectImpl.Container implements ImgType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getUsemap() {
 		return usemap;
 	}
@@ -676,6 +705,7 @@ public class ImgTypeImpl extends MinimalEObjectImpl.Container implements ImgType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUsemap(String newUsemap) {
 		String oldUsemap = usemap;
 		usemap = newUsemap;
@@ -688,6 +718,7 @@ public class ImgTypeImpl extends MinimalEObjectImpl.Container implements ImgType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getWidth() {
 		return width;
 	}
@@ -697,6 +728,7 @@ public class ImgTypeImpl extends MinimalEObjectImpl.Container implements ImgType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setWidth(String newWidth) {
 		String oldWidth = width;
 		width = newWidth;

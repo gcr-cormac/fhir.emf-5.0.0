@@ -79,6 +79,7 @@ public class CapabilityStatementKindImpl extends ElementImpl implements Capabili
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CapabilityStatementKindEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class CapabilityStatementKindImpl extends ElementImpl implements Capabili
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(CapabilityStatementKindEnum newValue) {
 		CapabilityStatementKindEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class CapabilityStatementKindImpl extends ElementImpl implements Capabili
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		CapabilityStatementKindEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class CapabilityStatementKindImpl extends ElementImpl implements Capabili
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

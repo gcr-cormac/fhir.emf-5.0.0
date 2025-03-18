@@ -410,6 +410,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public FeatureMap getMixed() {
 		if (mixed == null) {
 			mixed = new BasicFeatureMap(this, FhirPackage.DOCUMENT_ROOT__MIXED);
@@ -422,6 +423,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EMap<String, String> getXMLNSPrefixMap() {
 		if (xMLNSPrefixMap == null) {
 			xMLNSPrefixMap = new EcoreEMap<String,String>(EcorePackage.Literals.ESTRING_TO_STRING_MAP_ENTRY, EStringToStringMapEntryImpl.class, this, FhirPackage.DOCUMENT_ROOT__XMLNS_PREFIX_MAP);
@@ -434,6 +436,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EMap<String, String> getXSISchemaLocation() {
 		if (xSISchemaLocation == null) {
 			xSISchemaLocation = new EcoreEMap<String,String>(EcorePackage.Literals.ESTRING_TO_STRING_MAP_ENTRY, EStringToStringMapEntryImpl.class, this, FhirPackage.DOCUMENT_ROOT__XSI_SCHEMA_LOCATION);
@@ -446,6 +449,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Account getAccount() {
 		return (Account)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Account(), true);
 	}
@@ -464,6 +468,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAccount(Account newAccount) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Account(), newAccount);
 	}
@@ -473,6 +478,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ActivityDefinition getActivityDefinition() {
 		return (ActivityDefinition)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_ActivityDefinition(), true);
 	}
@@ -491,6 +497,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setActivityDefinition(ActivityDefinition newActivityDefinition) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_ActivityDefinition(), newActivityDefinition);
 	}
@@ -500,6 +507,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ActorDefinition getActorDefinition() {
 		return (ActorDefinition)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_ActorDefinition(), true);
 	}
@@ -518,6 +526,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setActorDefinition(ActorDefinition newActorDefinition) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_ActorDefinition(), newActorDefinition);
 	}
@@ -527,6 +536,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AdministrableProductDefinition getAdministrableProductDefinition() {
 		return (AdministrableProductDefinition)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_AdministrableProductDefinition(), true);
 	}
@@ -545,6 +555,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAdministrableProductDefinition(AdministrableProductDefinition newAdministrableProductDefinition) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_AdministrableProductDefinition(), newAdministrableProductDefinition);
 	}
@@ -554,6 +565,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AdverseEvent getAdverseEvent() {
 		return (AdverseEvent)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_AdverseEvent(), true);
 	}
@@ -572,6 +584,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAdverseEvent(AdverseEvent newAdverseEvent) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_AdverseEvent(), newAdverseEvent);
 	}
@@ -581,6 +594,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AllergyIntolerance getAllergyIntolerance() {
 		return (AllergyIntolerance)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_AllergyIntolerance(), true);
 	}
@@ -599,6 +613,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAllergyIntolerance(AllergyIntolerance newAllergyIntolerance) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_AllergyIntolerance(), newAllergyIntolerance);
 	}
@@ -608,6 +623,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Appointment getAppointment() {
 		return (Appointment)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Appointment(), true);
 	}
@@ -626,6 +642,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAppointment(Appointment newAppointment) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Appointment(), newAppointment);
 	}
@@ -635,6 +652,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AppointmentResponse getAppointmentResponse() {
 		return (AppointmentResponse)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_AppointmentResponse(), true);
 	}
@@ -653,6 +671,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAppointmentResponse(AppointmentResponse newAppointmentResponse) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_AppointmentResponse(), newAppointmentResponse);
 	}
@@ -662,6 +681,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ArtifactAssessment getArtifactAssessment() {
 		return (ArtifactAssessment)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_ArtifactAssessment(), true);
 	}
@@ -680,6 +700,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setArtifactAssessment(ArtifactAssessment newArtifactAssessment) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_ArtifactAssessment(), newArtifactAssessment);
 	}
@@ -689,6 +710,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AuditEvent getAuditEvent() {
 		return (AuditEvent)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_AuditEvent(), true);
 	}
@@ -707,6 +729,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAuditEvent(AuditEvent newAuditEvent) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_AuditEvent(), newAuditEvent);
 	}
@@ -716,6 +739,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Basic getBasic() {
 		return (Basic)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Basic(), true);
 	}
@@ -734,6 +758,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBasic(Basic newBasic) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Basic(), newBasic);
 	}
@@ -743,6 +768,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Binary getBinary() {
 		return (Binary)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Binary(), true);
 	}
@@ -761,6 +787,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBinary(Binary newBinary) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Binary(), newBinary);
 	}
@@ -770,6 +797,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public BiologicallyDerivedProduct getBiologicallyDerivedProduct() {
 		return (BiologicallyDerivedProduct)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_BiologicallyDerivedProduct(), true);
 	}
@@ -788,6 +816,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBiologicallyDerivedProduct(BiologicallyDerivedProduct newBiologicallyDerivedProduct) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_BiologicallyDerivedProduct(), newBiologicallyDerivedProduct);
 	}
@@ -797,6 +826,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public BiologicallyDerivedProductDispense getBiologicallyDerivedProductDispense() {
 		return (BiologicallyDerivedProductDispense)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_BiologicallyDerivedProductDispense(), true);
 	}
@@ -815,6 +845,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBiologicallyDerivedProductDispense(BiologicallyDerivedProductDispense newBiologicallyDerivedProductDispense) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_BiologicallyDerivedProductDispense(), newBiologicallyDerivedProductDispense);
 	}
@@ -824,6 +855,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public BodyStructure getBodyStructure() {
 		return (BodyStructure)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_BodyStructure(), true);
 	}
@@ -842,6 +874,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBodyStructure(BodyStructure newBodyStructure) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_BodyStructure(), newBodyStructure);
 	}
@@ -851,6 +884,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Bundle getBundle() {
 		return (Bundle)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Bundle(), true);
 	}
@@ -869,6 +903,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBundle(Bundle newBundle) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Bundle(), newBundle);
 	}
@@ -878,6 +913,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CapabilityStatement getCapabilityStatement() {
 		return (CapabilityStatement)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_CapabilityStatement(), true);
 	}
@@ -896,6 +932,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCapabilityStatement(CapabilityStatement newCapabilityStatement) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_CapabilityStatement(), newCapabilityStatement);
 	}
@@ -905,6 +942,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CarePlan getCarePlan() {
 		return (CarePlan)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_CarePlan(), true);
 	}
@@ -923,6 +961,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCarePlan(CarePlan newCarePlan) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_CarePlan(), newCarePlan);
 	}
@@ -932,6 +971,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CareTeam getCareTeam() {
 		return (CareTeam)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_CareTeam(), true);
 	}
@@ -950,6 +990,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCareTeam(CareTeam newCareTeam) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_CareTeam(), newCareTeam);
 	}
@@ -959,6 +1000,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ChargeItem getChargeItem() {
 		return (ChargeItem)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_ChargeItem(), true);
 	}
@@ -977,6 +1019,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setChargeItem(ChargeItem newChargeItem) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_ChargeItem(), newChargeItem);
 	}
@@ -986,6 +1029,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ChargeItemDefinition getChargeItemDefinition() {
 		return (ChargeItemDefinition)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_ChargeItemDefinition(), true);
 	}
@@ -1004,6 +1048,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setChargeItemDefinition(ChargeItemDefinition newChargeItemDefinition) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_ChargeItemDefinition(), newChargeItemDefinition);
 	}
@@ -1013,6 +1058,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Citation getCitation() {
 		return (Citation)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Citation(), true);
 	}
@@ -1031,6 +1077,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCitation(Citation newCitation) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Citation(), newCitation);
 	}
@@ -1040,6 +1087,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Claim getClaim() {
 		return (Claim)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Claim(), true);
 	}
@@ -1058,6 +1106,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setClaim(Claim newClaim) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Claim(), newClaim);
 	}
@@ -1067,6 +1116,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ClaimResponse getClaimResponse() {
 		return (ClaimResponse)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_ClaimResponse(), true);
 	}
@@ -1085,6 +1135,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setClaimResponse(ClaimResponse newClaimResponse) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_ClaimResponse(), newClaimResponse);
 	}
@@ -1094,6 +1145,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ClinicalImpression getClinicalImpression() {
 		return (ClinicalImpression)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_ClinicalImpression(), true);
 	}
@@ -1112,6 +1164,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setClinicalImpression(ClinicalImpression newClinicalImpression) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_ClinicalImpression(), newClinicalImpression);
 	}
@@ -1121,6 +1174,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ClinicalUseDefinition getClinicalUseDefinition() {
 		return (ClinicalUseDefinition)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_ClinicalUseDefinition(), true);
 	}
@@ -1139,6 +1193,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setClinicalUseDefinition(ClinicalUseDefinition newClinicalUseDefinition) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_ClinicalUseDefinition(), newClinicalUseDefinition);
 	}
@@ -1148,6 +1203,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeSystem getCodeSystem() {
 		return (CodeSystem)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_CodeSystem(), true);
 	}
@@ -1166,6 +1222,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCodeSystem(CodeSystem newCodeSystem) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_CodeSystem(), newCodeSystem);
 	}
@@ -1175,6 +1232,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Communication getCommunication() {
 		return (Communication)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Communication(), true);
 	}
@@ -1193,6 +1251,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCommunication(Communication newCommunication) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Communication(), newCommunication);
 	}
@@ -1202,6 +1261,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CommunicationRequest getCommunicationRequest() {
 		return (CommunicationRequest)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_CommunicationRequest(), true);
 	}
@@ -1220,6 +1280,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCommunicationRequest(CommunicationRequest newCommunicationRequest) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_CommunicationRequest(), newCommunicationRequest);
 	}
@@ -1229,6 +1290,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CompartmentDefinition getCompartmentDefinition() {
 		return (CompartmentDefinition)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_CompartmentDefinition(), true);
 	}
@@ -1247,6 +1309,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCompartmentDefinition(CompartmentDefinition newCompartmentDefinition) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_CompartmentDefinition(), newCompartmentDefinition);
 	}
@@ -1256,6 +1319,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Composition getComposition() {
 		return (Composition)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Composition(), true);
 	}
@@ -1274,6 +1338,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setComposition(Composition newComposition) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Composition(), newComposition);
 	}
@@ -1283,6 +1348,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ConceptMap getConceptMap() {
 		return (ConceptMap)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_ConceptMap(), true);
 	}
@@ -1301,6 +1367,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setConceptMap(ConceptMap newConceptMap) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_ConceptMap(), newConceptMap);
 	}
@@ -1310,6 +1377,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Condition getCondition() {
 		return (Condition)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Condition(), true);
 	}
@@ -1328,6 +1396,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCondition(Condition newCondition) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Condition(), newCondition);
 	}
@@ -1337,6 +1406,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ConditionDefinition getConditionDefinition() {
 		return (ConditionDefinition)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_ConditionDefinition(), true);
 	}
@@ -1355,6 +1425,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setConditionDefinition(ConditionDefinition newConditionDefinition) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_ConditionDefinition(), newConditionDefinition);
 	}
@@ -1364,6 +1435,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Consent getConsent() {
 		return (Consent)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Consent(), true);
 	}
@@ -1382,6 +1454,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setConsent(Consent newConsent) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Consent(), newConsent);
 	}
@@ -1391,6 +1464,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Contract getContract() {
 		return (Contract)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Contract(), true);
 	}
@@ -1409,6 +1483,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setContract(Contract newContract) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Contract(), newContract);
 	}
@@ -1418,6 +1493,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coverage getCoverage() {
 		return (Coverage)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Coverage(), true);
 	}
@@ -1436,6 +1512,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCoverage(Coverage newCoverage) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Coverage(), newCoverage);
 	}
@@ -1445,6 +1522,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CoverageEligibilityRequest getCoverageEligibilityRequest() {
 		return (CoverageEligibilityRequest)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_CoverageEligibilityRequest(), true);
 	}
@@ -1463,6 +1541,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCoverageEligibilityRequest(CoverageEligibilityRequest newCoverageEligibilityRequest) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_CoverageEligibilityRequest(), newCoverageEligibilityRequest);
 	}
@@ -1472,6 +1551,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CoverageEligibilityResponse getCoverageEligibilityResponse() {
 		return (CoverageEligibilityResponse)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_CoverageEligibilityResponse(), true);
 	}
@@ -1490,6 +1570,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCoverageEligibilityResponse(CoverageEligibilityResponse newCoverageEligibilityResponse) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_CoverageEligibilityResponse(), newCoverageEligibilityResponse);
 	}
@@ -1499,6 +1580,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DetectedIssue getDetectedIssue() {
 		return (DetectedIssue)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_DetectedIssue(), true);
 	}
@@ -1517,6 +1599,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDetectedIssue(DetectedIssue newDetectedIssue) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_DetectedIssue(), newDetectedIssue);
 	}
@@ -1526,6 +1609,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Device getDevice() {
 		return (Device)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Device(), true);
 	}
@@ -1544,6 +1628,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDevice(Device newDevice) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Device(), newDevice);
 	}
@@ -1553,6 +1638,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DeviceAssociation getDeviceAssociation() {
 		return (DeviceAssociation)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_DeviceAssociation(), true);
 	}
@@ -1571,6 +1657,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDeviceAssociation(DeviceAssociation newDeviceAssociation) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_DeviceAssociation(), newDeviceAssociation);
 	}
@@ -1580,6 +1667,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DeviceDefinition getDeviceDefinition() {
 		return (DeviceDefinition)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_DeviceDefinition(), true);
 	}
@@ -1598,6 +1686,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDeviceDefinition(DeviceDefinition newDeviceDefinition) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_DeviceDefinition(), newDeviceDefinition);
 	}
@@ -1607,6 +1696,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DeviceDispense getDeviceDispense() {
 		return (DeviceDispense)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_DeviceDispense(), true);
 	}
@@ -1625,6 +1715,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDeviceDispense(DeviceDispense newDeviceDispense) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_DeviceDispense(), newDeviceDispense);
 	}
@@ -1634,6 +1725,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DeviceMetric getDeviceMetric() {
 		return (DeviceMetric)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_DeviceMetric(), true);
 	}
@@ -1652,6 +1744,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDeviceMetric(DeviceMetric newDeviceMetric) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_DeviceMetric(), newDeviceMetric);
 	}
@@ -1661,6 +1754,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DeviceRequest getDeviceRequest() {
 		return (DeviceRequest)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_DeviceRequest(), true);
 	}
@@ -1679,6 +1773,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDeviceRequest(DeviceRequest newDeviceRequest) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_DeviceRequest(), newDeviceRequest);
 	}
@@ -1688,6 +1783,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DeviceUsage getDeviceUsage() {
 		return (DeviceUsage)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_DeviceUsage(), true);
 	}
@@ -1706,6 +1802,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDeviceUsage(DeviceUsage newDeviceUsage) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_DeviceUsage(), newDeviceUsage);
 	}
@@ -1715,6 +1812,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DiagnosticReport getDiagnosticReport() {
 		return (DiagnosticReport)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_DiagnosticReport(), true);
 	}
@@ -1733,6 +1831,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDiagnosticReport(DiagnosticReport newDiagnosticReport) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_DiagnosticReport(), newDiagnosticReport);
 	}
@@ -1742,6 +1841,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DocumentReference getDocumentReference() {
 		return (DocumentReference)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_DocumentReference(), true);
 	}
@@ -1760,6 +1860,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDocumentReference(DocumentReference newDocumentReference) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_DocumentReference(), newDocumentReference);
 	}
@@ -1769,6 +1870,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Encounter getEncounter() {
 		return (Encounter)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Encounter(), true);
 	}
@@ -1787,6 +1889,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEncounter(Encounter newEncounter) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Encounter(), newEncounter);
 	}
@@ -1796,6 +1899,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EncounterHistory getEncounterHistory() {
 		return (EncounterHistory)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_EncounterHistory(), true);
 	}
@@ -1814,6 +1918,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEncounterHistory(EncounterHistory newEncounterHistory) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_EncounterHistory(), newEncounterHistory);
 	}
@@ -1823,6 +1928,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Endpoint getEndpoint() {
 		return (Endpoint)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Endpoint(), true);
 	}
@@ -1841,6 +1947,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEndpoint(Endpoint newEndpoint) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Endpoint(), newEndpoint);
 	}
@@ -1850,6 +1957,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EnrollmentRequest getEnrollmentRequest() {
 		return (EnrollmentRequest)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_EnrollmentRequest(), true);
 	}
@@ -1868,6 +1976,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEnrollmentRequest(EnrollmentRequest newEnrollmentRequest) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_EnrollmentRequest(), newEnrollmentRequest);
 	}
@@ -1877,6 +1986,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EnrollmentResponse getEnrollmentResponse() {
 		return (EnrollmentResponse)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_EnrollmentResponse(), true);
 	}
@@ -1895,6 +2005,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEnrollmentResponse(EnrollmentResponse newEnrollmentResponse) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_EnrollmentResponse(), newEnrollmentResponse);
 	}
@@ -1904,6 +2015,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EpisodeOfCare getEpisodeOfCare() {
 		return (EpisodeOfCare)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_EpisodeOfCare(), true);
 	}
@@ -1922,6 +2034,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEpisodeOfCare(EpisodeOfCare newEpisodeOfCare) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_EpisodeOfCare(), newEpisodeOfCare);
 	}
@@ -1931,6 +2044,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EventDefinition getEventDefinition() {
 		return (EventDefinition)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_EventDefinition(), true);
 	}
@@ -1949,6 +2063,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEventDefinition(EventDefinition newEventDefinition) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_EventDefinition(), newEventDefinition);
 	}
@@ -1958,6 +2073,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Evidence getEvidence() {
 		return (Evidence)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Evidence(), true);
 	}
@@ -1976,6 +2092,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEvidence(Evidence newEvidence) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Evidence(), newEvidence);
 	}
@@ -1985,6 +2102,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EvidenceReport getEvidenceReport() {
 		return (EvidenceReport)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_EvidenceReport(), true);
 	}
@@ -2003,6 +2121,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEvidenceReport(EvidenceReport newEvidenceReport) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_EvidenceReport(), newEvidenceReport);
 	}
@@ -2012,6 +2131,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EvidenceVariable getEvidenceVariable() {
 		return (EvidenceVariable)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_EvidenceVariable(), true);
 	}
@@ -2030,6 +2150,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEvidenceVariable(EvidenceVariable newEvidenceVariable) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_EvidenceVariable(), newEvidenceVariable);
 	}
@@ -2039,6 +2160,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ExampleScenario getExampleScenario() {
 		return (ExampleScenario)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_ExampleScenario(), true);
 	}
@@ -2057,6 +2179,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExampleScenario(ExampleScenario newExampleScenario) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_ExampleScenario(), newExampleScenario);
 	}
@@ -2066,6 +2189,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ExplanationOfBenefit getExplanationOfBenefit() {
 		return (ExplanationOfBenefit)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_ExplanationOfBenefit(), true);
 	}
@@ -2084,6 +2208,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExplanationOfBenefit(ExplanationOfBenefit newExplanationOfBenefit) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_ExplanationOfBenefit(), newExplanationOfBenefit);
 	}
@@ -2093,6 +2218,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public FamilyMemberHistory getFamilyMemberHistory() {
 		return (FamilyMemberHistory)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_FamilyMemberHistory(), true);
 	}
@@ -2111,6 +2237,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFamilyMemberHistory(FamilyMemberHistory newFamilyMemberHistory) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_FamilyMemberHistory(), newFamilyMemberHistory);
 	}
@@ -2120,6 +2247,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Flag getFlag() {
 		return (Flag)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Flag(), true);
 	}
@@ -2138,6 +2266,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFlag(Flag newFlag) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Flag(), newFlag);
 	}
@@ -2147,6 +2276,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public FormularyItem getFormularyItem() {
 		return (FormularyItem)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_FormularyItem(), true);
 	}
@@ -2165,6 +2295,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFormularyItem(FormularyItem newFormularyItem) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_FormularyItem(), newFormularyItem);
 	}
@@ -2174,6 +2305,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public GenomicStudy getGenomicStudy() {
 		return (GenomicStudy)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_GenomicStudy(), true);
 	}
@@ -2192,6 +2324,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setGenomicStudy(GenomicStudy newGenomicStudy) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_GenomicStudy(), newGenomicStudy);
 	}
@@ -2201,6 +2334,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Goal getGoal() {
 		return (Goal)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Goal(), true);
 	}
@@ -2219,6 +2353,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setGoal(Goal newGoal) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Goal(), newGoal);
 	}
@@ -2228,6 +2363,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public GraphDefinition getGraphDefinition() {
 		return (GraphDefinition)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_GraphDefinition(), true);
 	}
@@ -2246,6 +2382,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setGraphDefinition(GraphDefinition newGraphDefinition) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_GraphDefinition(), newGraphDefinition);
 	}
@@ -2255,6 +2392,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Group getGroup() {
 		return (Group)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Group(), true);
 	}
@@ -2273,6 +2411,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setGroup(Group newGroup) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Group(), newGroup);
 	}
@@ -2282,6 +2421,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public GuidanceResponse getGuidanceResponse() {
 		return (GuidanceResponse)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_GuidanceResponse(), true);
 	}
@@ -2300,6 +2440,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setGuidanceResponse(GuidanceResponse newGuidanceResponse) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_GuidanceResponse(), newGuidanceResponse);
 	}
@@ -2309,6 +2450,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public HealthcareService getHealthcareService() {
 		return (HealthcareService)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_HealthcareService(), true);
 	}
@@ -2327,6 +2469,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setHealthcareService(HealthcareService newHealthcareService) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_HealthcareService(), newHealthcareService);
 	}
@@ -2336,6 +2479,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ImagingSelection getImagingSelection() {
 		return (ImagingSelection)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_ImagingSelection(), true);
 	}
@@ -2354,6 +2498,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setImagingSelection(ImagingSelection newImagingSelection) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_ImagingSelection(), newImagingSelection);
 	}
@@ -2363,6 +2508,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ImagingStudy getImagingStudy() {
 		return (ImagingStudy)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_ImagingStudy(), true);
 	}
@@ -2381,6 +2527,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setImagingStudy(ImagingStudy newImagingStudy) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_ImagingStudy(), newImagingStudy);
 	}
@@ -2390,6 +2537,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Immunization getImmunization() {
 		return (Immunization)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Immunization(), true);
 	}
@@ -2408,6 +2556,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setImmunization(Immunization newImmunization) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Immunization(), newImmunization);
 	}
@@ -2417,6 +2566,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ImmunizationEvaluation getImmunizationEvaluation() {
 		return (ImmunizationEvaluation)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_ImmunizationEvaluation(), true);
 	}
@@ -2435,6 +2585,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setImmunizationEvaluation(ImmunizationEvaluation newImmunizationEvaluation) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_ImmunizationEvaluation(), newImmunizationEvaluation);
 	}
@@ -2444,6 +2595,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ImmunizationRecommendation getImmunizationRecommendation() {
 		return (ImmunizationRecommendation)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_ImmunizationRecommendation(), true);
 	}
@@ -2462,6 +2614,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setImmunizationRecommendation(ImmunizationRecommendation newImmunizationRecommendation) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_ImmunizationRecommendation(), newImmunizationRecommendation);
 	}
@@ -2471,6 +2624,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ImplementationGuide getImplementationGuide() {
 		return (ImplementationGuide)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_ImplementationGuide(), true);
 	}
@@ -2489,6 +2643,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setImplementationGuide(ImplementationGuide newImplementationGuide) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_ImplementationGuide(), newImplementationGuide);
 	}
@@ -2498,6 +2653,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Ingredient getIngredient() {
 		return (Ingredient)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Ingredient(), true);
 	}
@@ -2516,6 +2672,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIngredient(Ingredient newIngredient) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Ingredient(), newIngredient);
 	}
@@ -2525,6 +2682,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public InsurancePlan getInsurancePlan() {
 		return (InsurancePlan)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_InsurancePlan(), true);
 	}
@@ -2543,6 +2701,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInsurancePlan(InsurancePlan newInsurancePlan) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_InsurancePlan(), newInsurancePlan);
 	}
@@ -2552,6 +2711,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public InventoryItem getInventoryItem() {
 		return (InventoryItem)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_InventoryItem(), true);
 	}
@@ -2570,6 +2730,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInventoryItem(InventoryItem newInventoryItem) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_InventoryItem(), newInventoryItem);
 	}
@@ -2579,6 +2740,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public InventoryReport getInventoryReport() {
 		return (InventoryReport)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_InventoryReport(), true);
 	}
@@ -2597,6 +2759,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInventoryReport(InventoryReport newInventoryReport) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_InventoryReport(), newInventoryReport);
 	}
@@ -2606,6 +2769,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Invoice getInvoice() {
 		return (Invoice)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Invoice(), true);
 	}
@@ -2624,6 +2788,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInvoice(Invoice newInvoice) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Invoice(), newInvoice);
 	}
@@ -2633,6 +2798,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Library getLibrary() {
 		return (Library)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Library(), true);
 	}
@@ -2651,6 +2817,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLibrary(Library newLibrary) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Library(), newLibrary);
 	}
@@ -2660,6 +2827,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Linkage getLinkage() {
 		return (Linkage)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Linkage(), true);
 	}
@@ -2678,6 +2846,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLinkage(Linkage newLinkage) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Linkage(), newLinkage);
 	}
@@ -2687,6 +2856,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public List getList() {
 		return (List)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_List(), true);
 	}
@@ -2705,6 +2875,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setList(List newList) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_List(), newList);
 	}
@@ -2714,6 +2885,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Location getLocation() {
 		return (Location)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Location(), true);
 	}
@@ -2732,6 +2904,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLocation(Location newLocation) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Location(), newLocation);
 	}
@@ -2741,6 +2914,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ManufacturedItemDefinition getManufacturedItemDefinition() {
 		return (ManufacturedItemDefinition)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_ManufacturedItemDefinition(), true);
 	}
@@ -2759,6 +2933,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setManufacturedItemDefinition(ManufacturedItemDefinition newManufacturedItemDefinition) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_ManufacturedItemDefinition(), newManufacturedItemDefinition);
 	}
@@ -2768,6 +2943,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Measure getMeasure() {
 		return (Measure)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Measure(), true);
 	}
@@ -2786,6 +2962,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMeasure(Measure newMeasure) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Measure(), newMeasure);
 	}
@@ -2795,6 +2972,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public MeasureReport getMeasureReport() {
 		return (MeasureReport)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_MeasureReport(), true);
 	}
@@ -2813,6 +2991,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMeasureReport(MeasureReport newMeasureReport) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_MeasureReport(), newMeasureReport);
 	}
@@ -2822,6 +3001,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Medication getMedication() {
 		return (Medication)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Medication(), true);
 	}
@@ -2840,6 +3020,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMedication(Medication newMedication) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Medication(), newMedication);
 	}
@@ -2849,6 +3030,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public MedicationAdministration getMedicationAdministration() {
 		return (MedicationAdministration)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_MedicationAdministration(), true);
 	}
@@ -2867,6 +3049,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMedicationAdministration(MedicationAdministration newMedicationAdministration) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_MedicationAdministration(), newMedicationAdministration);
 	}
@@ -2876,6 +3059,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public MedicationDispense getMedicationDispense() {
 		return (MedicationDispense)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_MedicationDispense(), true);
 	}
@@ -2894,6 +3078,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMedicationDispense(MedicationDispense newMedicationDispense) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_MedicationDispense(), newMedicationDispense);
 	}
@@ -2903,6 +3088,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public MedicationKnowledge getMedicationKnowledge() {
 		return (MedicationKnowledge)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_MedicationKnowledge(), true);
 	}
@@ -2921,6 +3107,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMedicationKnowledge(MedicationKnowledge newMedicationKnowledge) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_MedicationKnowledge(), newMedicationKnowledge);
 	}
@@ -2930,6 +3117,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public MedicationRequest getMedicationRequest() {
 		return (MedicationRequest)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_MedicationRequest(), true);
 	}
@@ -2948,6 +3136,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMedicationRequest(MedicationRequest newMedicationRequest) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_MedicationRequest(), newMedicationRequest);
 	}
@@ -2957,6 +3146,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public MedicationStatement getMedicationStatement() {
 		return (MedicationStatement)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_MedicationStatement(), true);
 	}
@@ -2975,6 +3165,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMedicationStatement(MedicationStatement newMedicationStatement) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_MedicationStatement(), newMedicationStatement);
 	}
@@ -2984,6 +3175,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public MedicinalProductDefinition getMedicinalProductDefinition() {
 		return (MedicinalProductDefinition)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_MedicinalProductDefinition(), true);
 	}
@@ -3002,6 +3194,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMedicinalProductDefinition(MedicinalProductDefinition newMedicinalProductDefinition) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_MedicinalProductDefinition(), newMedicinalProductDefinition);
 	}
@@ -3011,6 +3204,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public MessageDefinition getMessageDefinition() {
 		return (MessageDefinition)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_MessageDefinition(), true);
 	}
@@ -3029,6 +3223,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMessageDefinition(MessageDefinition newMessageDefinition) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_MessageDefinition(), newMessageDefinition);
 	}
@@ -3038,6 +3233,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public MessageHeader getMessageHeader() {
 		return (MessageHeader)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_MessageHeader(), true);
 	}
@@ -3056,6 +3252,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMessageHeader(MessageHeader newMessageHeader) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_MessageHeader(), newMessageHeader);
 	}
@@ -3065,6 +3262,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public MolecularSequence getMolecularSequence() {
 		return (MolecularSequence)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_MolecularSequence(), true);
 	}
@@ -3083,6 +3281,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMolecularSequence(MolecularSequence newMolecularSequence) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_MolecularSequence(), newMolecularSequence);
 	}
@@ -3092,6 +3291,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public NamingSystem getNamingSystem() {
 		return (NamingSystem)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_NamingSystem(), true);
 	}
@@ -3110,6 +3310,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNamingSystem(NamingSystem newNamingSystem) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_NamingSystem(), newNamingSystem);
 	}
@@ -3119,6 +3320,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public NutritionIntake getNutritionIntake() {
 		return (NutritionIntake)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_NutritionIntake(), true);
 	}
@@ -3137,6 +3339,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNutritionIntake(NutritionIntake newNutritionIntake) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_NutritionIntake(), newNutritionIntake);
 	}
@@ -3146,6 +3349,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public NutritionOrder getNutritionOrder() {
 		return (NutritionOrder)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_NutritionOrder(), true);
 	}
@@ -3164,6 +3368,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNutritionOrder(NutritionOrder newNutritionOrder) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_NutritionOrder(), newNutritionOrder);
 	}
@@ -3173,6 +3378,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public NutritionProduct getNutritionProduct() {
 		return (NutritionProduct)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_NutritionProduct(), true);
 	}
@@ -3191,6 +3397,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNutritionProduct(NutritionProduct newNutritionProduct) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_NutritionProduct(), newNutritionProduct);
 	}
@@ -3200,6 +3407,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Observation getObservation() {
 		return (Observation)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Observation(), true);
 	}
@@ -3218,6 +3426,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setObservation(Observation newObservation) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Observation(), newObservation);
 	}
@@ -3227,6 +3436,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ObservationDefinition getObservationDefinition() {
 		return (ObservationDefinition)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_ObservationDefinition(), true);
 	}
@@ -3245,6 +3455,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setObservationDefinition(ObservationDefinition newObservationDefinition) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_ObservationDefinition(), newObservationDefinition);
 	}
@@ -3254,6 +3465,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public OperationDefinition getOperationDefinition() {
 		return (OperationDefinition)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_OperationDefinition(), true);
 	}
@@ -3272,6 +3484,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOperationDefinition(OperationDefinition newOperationDefinition) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_OperationDefinition(), newOperationDefinition);
 	}
@@ -3281,6 +3494,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public OperationOutcome getOperationOutcome() {
 		return (OperationOutcome)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_OperationOutcome(), true);
 	}
@@ -3299,6 +3513,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOperationOutcome(OperationOutcome newOperationOutcome) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_OperationOutcome(), newOperationOutcome);
 	}
@@ -3308,6 +3523,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Organization getOrganization() {
 		return (Organization)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Organization(), true);
 	}
@@ -3326,6 +3542,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOrganization(Organization newOrganization) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Organization(), newOrganization);
 	}
@@ -3335,6 +3552,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public OrganizationAffiliation getOrganizationAffiliation() {
 		return (OrganizationAffiliation)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_OrganizationAffiliation(), true);
 	}
@@ -3353,6 +3571,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOrganizationAffiliation(OrganizationAffiliation newOrganizationAffiliation) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_OrganizationAffiliation(), newOrganizationAffiliation);
 	}
@@ -3362,6 +3581,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PackagedProductDefinition getPackagedProductDefinition() {
 		return (PackagedProductDefinition)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_PackagedProductDefinition(), true);
 	}
@@ -3380,6 +3600,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPackagedProductDefinition(PackagedProductDefinition newPackagedProductDefinition) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_PackagedProductDefinition(), newPackagedProductDefinition);
 	}
@@ -3389,6 +3610,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Parameters getParameters() {
 		return (Parameters)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Parameters(), true);
 	}
@@ -3407,6 +3629,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setParameters(Parameters newParameters) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Parameters(), newParameters);
 	}
@@ -3416,6 +3639,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Patient getPatient() {
 		return (Patient)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Patient(), true);
 	}
@@ -3434,6 +3658,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPatient(Patient newPatient) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Patient(), newPatient);
 	}
@@ -3443,6 +3668,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PaymentNotice getPaymentNotice() {
 		return (PaymentNotice)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_PaymentNotice(), true);
 	}
@@ -3461,6 +3687,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPaymentNotice(PaymentNotice newPaymentNotice) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_PaymentNotice(), newPaymentNotice);
 	}
@@ -3470,6 +3697,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PaymentReconciliation getPaymentReconciliation() {
 		return (PaymentReconciliation)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_PaymentReconciliation(), true);
 	}
@@ -3488,6 +3716,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPaymentReconciliation(PaymentReconciliation newPaymentReconciliation) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_PaymentReconciliation(), newPaymentReconciliation);
 	}
@@ -3497,6 +3726,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Permission getPermission() {
 		return (Permission)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Permission(), true);
 	}
@@ -3515,6 +3745,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPermission(Permission newPermission) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Permission(), newPermission);
 	}
@@ -3524,6 +3755,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Person getPerson() {
 		return (Person)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Person(), true);
 	}
@@ -3542,6 +3774,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPerson(Person newPerson) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Person(), newPerson);
 	}
@@ -3551,6 +3784,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PlanDefinition getPlanDefinition() {
 		return (PlanDefinition)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_PlanDefinition(), true);
 	}
@@ -3569,6 +3803,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPlanDefinition(PlanDefinition newPlanDefinition) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_PlanDefinition(), newPlanDefinition);
 	}
@@ -3578,6 +3813,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Practitioner getPractitioner() {
 		return (Practitioner)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Practitioner(), true);
 	}
@@ -3596,6 +3832,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPractitioner(Practitioner newPractitioner) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Practitioner(), newPractitioner);
 	}
@@ -3605,6 +3842,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PractitionerRole getPractitionerRole() {
 		return (PractitionerRole)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_PractitionerRole(), true);
 	}
@@ -3623,6 +3861,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPractitionerRole(PractitionerRole newPractitionerRole) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_PractitionerRole(), newPractitionerRole);
 	}
@@ -3632,6 +3871,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Procedure getProcedure() {
 		return (Procedure)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Procedure(), true);
 	}
@@ -3650,6 +3890,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProcedure(Procedure newProcedure) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Procedure(), newProcedure);
 	}
@@ -3659,6 +3900,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Provenance getProvenance() {
 		return (Provenance)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Provenance(), true);
 	}
@@ -3677,6 +3919,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProvenance(Provenance newProvenance) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Provenance(), newProvenance);
 	}
@@ -3686,6 +3929,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Questionnaire getQuestionnaire() {
 		return (Questionnaire)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Questionnaire(), true);
 	}
@@ -3704,6 +3948,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setQuestionnaire(Questionnaire newQuestionnaire) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Questionnaire(), newQuestionnaire);
 	}
@@ -3713,6 +3958,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public QuestionnaireResponse getQuestionnaireResponse() {
 		return (QuestionnaireResponse)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_QuestionnaireResponse(), true);
 	}
@@ -3731,6 +3977,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setQuestionnaireResponse(QuestionnaireResponse newQuestionnaireResponse) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_QuestionnaireResponse(), newQuestionnaireResponse);
 	}
@@ -3740,6 +3987,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public RegulatedAuthorization getRegulatedAuthorization() {
 		return (RegulatedAuthorization)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_RegulatedAuthorization(), true);
 	}
@@ -3758,6 +4006,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRegulatedAuthorization(RegulatedAuthorization newRegulatedAuthorization) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_RegulatedAuthorization(), newRegulatedAuthorization);
 	}
@@ -3767,6 +4016,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public RelatedPerson getRelatedPerson() {
 		return (RelatedPerson)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_RelatedPerson(), true);
 	}
@@ -3785,6 +4035,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRelatedPerson(RelatedPerson newRelatedPerson) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_RelatedPerson(), newRelatedPerson);
 	}
@@ -3794,6 +4045,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public RequestOrchestration getRequestOrchestration() {
 		return (RequestOrchestration)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_RequestOrchestration(), true);
 	}
@@ -3812,6 +4064,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRequestOrchestration(RequestOrchestration newRequestOrchestration) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_RequestOrchestration(), newRequestOrchestration);
 	}
@@ -3821,6 +4074,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Requirements getRequirements() {
 		return (Requirements)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Requirements(), true);
 	}
@@ -3839,6 +4093,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRequirements(Requirements newRequirements) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Requirements(), newRequirements);
 	}
@@ -3848,6 +4103,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ResearchStudy getResearchStudy() {
 		return (ResearchStudy)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_ResearchStudy(), true);
 	}
@@ -3866,6 +4122,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setResearchStudy(ResearchStudy newResearchStudy) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_ResearchStudy(), newResearchStudy);
 	}
@@ -3875,6 +4132,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ResearchSubject getResearchSubject() {
 		return (ResearchSubject)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_ResearchSubject(), true);
 	}
@@ -3893,6 +4151,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setResearchSubject(ResearchSubject newResearchSubject) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_ResearchSubject(), newResearchSubject);
 	}
@@ -3902,6 +4161,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public RiskAssessment getRiskAssessment() {
 		return (RiskAssessment)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_RiskAssessment(), true);
 	}
@@ -3920,6 +4180,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRiskAssessment(RiskAssessment newRiskAssessment) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_RiskAssessment(), newRiskAssessment);
 	}
@@ -3929,6 +4190,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Schedule getSchedule() {
 		return (Schedule)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Schedule(), true);
 	}
@@ -3947,6 +4209,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSchedule(Schedule newSchedule) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Schedule(), newSchedule);
 	}
@@ -3956,6 +4219,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SearchParameter getSearchParameter() {
 		return (SearchParameter)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_SearchParameter(), true);
 	}
@@ -3974,6 +4238,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSearchParameter(SearchParameter newSearchParameter) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_SearchParameter(), newSearchParameter);
 	}
@@ -3983,6 +4248,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ServiceRequest getServiceRequest() {
 		return (ServiceRequest)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_ServiceRequest(), true);
 	}
@@ -4001,6 +4267,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setServiceRequest(ServiceRequest newServiceRequest) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_ServiceRequest(), newServiceRequest);
 	}
@@ -4010,6 +4277,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Slot getSlot() {
 		return (Slot)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Slot(), true);
 	}
@@ -4028,6 +4296,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSlot(Slot newSlot) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Slot(), newSlot);
 	}
@@ -4037,6 +4306,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Specimen getSpecimen() {
 		return (Specimen)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Specimen(), true);
 	}
@@ -4055,6 +4325,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSpecimen(Specimen newSpecimen) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Specimen(), newSpecimen);
 	}
@@ -4064,6 +4335,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SpecimenDefinition getSpecimenDefinition() {
 		return (SpecimenDefinition)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_SpecimenDefinition(), true);
 	}
@@ -4082,6 +4354,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSpecimenDefinition(SpecimenDefinition newSpecimenDefinition) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_SpecimenDefinition(), newSpecimenDefinition);
 	}
@@ -4091,6 +4364,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public StructureDefinition getStructureDefinition() {
 		return (StructureDefinition)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_StructureDefinition(), true);
 	}
@@ -4109,6 +4383,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStructureDefinition(StructureDefinition newStructureDefinition) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_StructureDefinition(), newStructureDefinition);
 	}
@@ -4118,6 +4393,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public StructureMap getStructureMap() {
 		return (StructureMap)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_StructureMap(), true);
 	}
@@ -4136,6 +4412,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStructureMap(StructureMap newStructureMap) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_StructureMap(), newStructureMap);
 	}
@@ -4145,6 +4422,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Subscription getSubscription() {
 		return (Subscription)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Subscription(), true);
 	}
@@ -4163,6 +4441,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubscription(Subscription newSubscription) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Subscription(), newSubscription);
 	}
@@ -4172,6 +4451,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SubscriptionStatus getSubscriptionStatus() {
 		return (SubscriptionStatus)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_SubscriptionStatus(), true);
 	}
@@ -4190,6 +4470,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubscriptionStatus(SubscriptionStatus newSubscriptionStatus) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_SubscriptionStatus(), newSubscriptionStatus);
 	}
@@ -4199,6 +4480,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SubscriptionTopic getSubscriptionTopic() {
 		return (SubscriptionTopic)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_SubscriptionTopic(), true);
 	}
@@ -4217,6 +4499,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubscriptionTopic(SubscriptionTopic newSubscriptionTopic) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_SubscriptionTopic(), newSubscriptionTopic);
 	}
@@ -4226,6 +4509,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Substance getSubstance() {
 		return (Substance)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Substance(), true);
 	}
@@ -4244,6 +4528,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubstance(Substance newSubstance) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Substance(), newSubstance);
 	}
@@ -4253,6 +4538,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SubstanceDefinition getSubstanceDefinition() {
 		return (SubstanceDefinition)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_SubstanceDefinition(), true);
 	}
@@ -4271,6 +4557,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubstanceDefinition(SubstanceDefinition newSubstanceDefinition) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_SubstanceDefinition(), newSubstanceDefinition);
 	}
@@ -4280,6 +4567,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SubstanceNucleicAcid getSubstanceNucleicAcid() {
 		return (SubstanceNucleicAcid)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_SubstanceNucleicAcid(), true);
 	}
@@ -4298,6 +4586,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubstanceNucleicAcid(SubstanceNucleicAcid newSubstanceNucleicAcid) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_SubstanceNucleicAcid(), newSubstanceNucleicAcid);
 	}
@@ -4307,6 +4596,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SubstancePolymer getSubstancePolymer() {
 		return (SubstancePolymer)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_SubstancePolymer(), true);
 	}
@@ -4325,6 +4615,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubstancePolymer(SubstancePolymer newSubstancePolymer) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_SubstancePolymer(), newSubstancePolymer);
 	}
@@ -4334,6 +4625,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SubstanceProtein getSubstanceProtein() {
 		return (SubstanceProtein)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_SubstanceProtein(), true);
 	}
@@ -4352,6 +4644,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubstanceProtein(SubstanceProtein newSubstanceProtein) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_SubstanceProtein(), newSubstanceProtein);
 	}
@@ -4361,6 +4654,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SubstanceReferenceInformation getSubstanceReferenceInformation() {
 		return (SubstanceReferenceInformation)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_SubstanceReferenceInformation(), true);
 	}
@@ -4379,6 +4673,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubstanceReferenceInformation(SubstanceReferenceInformation newSubstanceReferenceInformation) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_SubstanceReferenceInformation(), newSubstanceReferenceInformation);
 	}
@@ -4388,6 +4683,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SubstanceSourceMaterial getSubstanceSourceMaterial() {
 		return (SubstanceSourceMaterial)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_SubstanceSourceMaterial(), true);
 	}
@@ -4406,6 +4702,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubstanceSourceMaterial(SubstanceSourceMaterial newSubstanceSourceMaterial) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_SubstanceSourceMaterial(), newSubstanceSourceMaterial);
 	}
@@ -4415,6 +4712,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SupplyDelivery getSupplyDelivery() {
 		return (SupplyDelivery)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_SupplyDelivery(), true);
 	}
@@ -4433,6 +4731,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSupplyDelivery(SupplyDelivery newSupplyDelivery) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_SupplyDelivery(), newSupplyDelivery);
 	}
@@ -4442,6 +4741,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SupplyRequest getSupplyRequest() {
 		return (SupplyRequest)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_SupplyRequest(), true);
 	}
@@ -4460,6 +4760,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSupplyRequest(SupplyRequest newSupplyRequest) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_SupplyRequest(), newSupplyRequest);
 	}
@@ -4469,6 +4770,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Task getTask() {
 		return (Task)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Task(), true);
 	}
@@ -4487,6 +4789,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTask(Task newTask) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Task(), newTask);
 	}
@@ -4496,6 +4799,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TerminologyCapabilities getTerminologyCapabilities() {
 		return (TerminologyCapabilities)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_TerminologyCapabilities(), true);
 	}
@@ -4514,6 +4818,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTerminologyCapabilities(TerminologyCapabilities newTerminologyCapabilities) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_TerminologyCapabilities(), newTerminologyCapabilities);
 	}
@@ -4523,6 +4828,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TestPlan getTestPlan() {
 		return (TestPlan)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_TestPlan(), true);
 	}
@@ -4541,6 +4847,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTestPlan(TestPlan newTestPlan) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_TestPlan(), newTestPlan);
 	}
@@ -4550,6 +4857,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TestReport getTestReport() {
 		return (TestReport)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_TestReport(), true);
 	}
@@ -4568,6 +4876,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTestReport(TestReport newTestReport) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_TestReport(), newTestReport);
 	}
@@ -4577,6 +4886,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TestScript getTestScript() {
 		return (TestScript)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_TestScript(), true);
 	}
@@ -4595,6 +4905,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTestScript(TestScript newTestScript) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_TestScript(), newTestScript);
 	}
@@ -4604,6 +4915,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Transport getTransport() {
 		return (Transport)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_Transport(), true);
 	}
@@ -4622,6 +4934,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTransport(Transport newTransport) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_Transport(), newTransport);
 	}
@@ -4631,6 +4944,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ValueSet getValueSet() {
 		return (ValueSet)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_ValueSet(), true);
 	}
@@ -4649,6 +4963,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueSet(ValueSet newValueSet) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_ValueSet(), newValueSet);
 	}
@@ -4658,6 +4973,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public VerificationResult getVerificationResult() {
 		return (VerificationResult)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_VerificationResult(), true);
 	}
@@ -4676,6 +4992,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVerificationResult(VerificationResult newVerificationResult) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_VerificationResult(), newVerificationResult);
 	}
@@ -4685,6 +5002,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public VisionPrescription getVisionPrescription() {
 		return (VisionPrescription)getMixed().get(FhirPackage.eINSTANCE.getDocumentRoot_VisionPrescription(), true);
 	}
@@ -4703,6 +5021,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVisionPrescription(VisionPrescription newVisionPrescription) {
 		((FeatureMap.Internal)getMixed()).set(FhirPackage.eINSTANCE.getDocumentRoot_VisionPrescription(), newVisionPrescription);
 	}

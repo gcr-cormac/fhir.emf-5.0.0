@@ -73,6 +73,7 @@ public class SearchParameterComponentImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getDefinition() {
 		return definition;
 	}
@@ -97,6 +98,7 @@ public class SearchParameterComponentImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDefinition(Canonical newDefinition) {
 		if (newDefinition != definition) {
 			NotificationChain msgs = null;
@@ -116,6 +118,7 @@ public class SearchParameterComponentImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getExpression() {
 		return expression;
 	}
@@ -140,6 +143,7 @@ public class SearchParameterComponentImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExpression(org.hl7.fhir.String newExpression) {
 		if (newExpression != expression) {
 			NotificationChain msgs = null;

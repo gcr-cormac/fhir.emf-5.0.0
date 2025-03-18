@@ -104,6 +104,7 @@ public class CoverageEligibilityResponseInsuranceImpl extends BackboneElementImp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getCoverage() {
 		return coverage;
 	}
@@ -128,6 +129,7 @@ public class CoverageEligibilityResponseInsuranceImpl extends BackboneElementImp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCoverage(Reference newCoverage) {
 		if (newCoverage != coverage) {
 			NotificationChain msgs = null;
@@ -147,6 +149,7 @@ public class CoverageEligibilityResponseInsuranceImpl extends BackboneElementImp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getInforce() {
 		return inforce;
 	}
@@ -171,6 +174,7 @@ public class CoverageEligibilityResponseInsuranceImpl extends BackboneElementImp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInforce(org.hl7.fhir.Boolean newInforce) {
 		if (newInforce != inforce) {
 			NotificationChain msgs = null;
@@ -190,6 +194,7 @@ public class CoverageEligibilityResponseInsuranceImpl extends BackboneElementImp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getBenefitPeriod() {
 		return benefitPeriod;
 	}
@@ -214,6 +219,7 @@ public class CoverageEligibilityResponseInsuranceImpl extends BackboneElementImp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBenefitPeriod(Period newBenefitPeriod) {
 		if (newBenefitPeriod != benefitPeriod) {
 			NotificationChain msgs = null;
@@ -233,6 +239,7 @@ public class CoverageEligibilityResponseInsuranceImpl extends BackboneElementImp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CoverageEligibilityResponseItem> getItem() {
 		if (item == null) {
 			item = new EObjectContainmentEList<CoverageEligibilityResponseItem>(CoverageEligibilityResponseItem.class, this, FhirPackage.COVERAGE_ELIGIBILITY_RESPONSE_INSURANCE__ITEM);

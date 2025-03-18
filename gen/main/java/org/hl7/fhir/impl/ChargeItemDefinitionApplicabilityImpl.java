@@ -86,6 +86,7 @@ public class ChargeItemDefinitionApplicabilityImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Expression getCondition() {
 		return condition;
 	}
@@ -110,6 +111,7 @@ public class ChargeItemDefinitionApplicabilityImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCondition(Expression newCondition) {
 		if (newCondition != condition) {
 			NotificationChain msgs = null;
@@ -129,6 +131,7 @@ public class ChargeItemDefinitionApplicabilityImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getEffectivePeriod() {
 		return effectivePeriod;
 	}
@@ -153,6 +156,7 @@ public class ChargeItemDefinitionApplicabilityImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEffectivePeriod(Period newEffectivePeriod) {
 		if (newEffectivePeriod != effectivePeriod) {
 			NotificationChain msgs = null;
@@ -172,6 +176,7 @@ public class ChargeItemDefinitionApplicabilityImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public RelatedArtifact getRelatedArtifact() {
 		return relatedArtifact;
 	}
@@ -196,6 +201,7 @@ public class ChargeItemDefinitionApplicabilityImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRelatedArtifact(RelatedArtifact newRelatedArtifact) {
 		if (newRelatedArtifact != relatedArtifact) {
 			NotificationChain msgs = null;

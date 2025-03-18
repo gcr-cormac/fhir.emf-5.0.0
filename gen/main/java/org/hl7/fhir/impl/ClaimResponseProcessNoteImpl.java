@@ -96,6 +96,7 @@ public class ClaimResponseProcessNoteImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PositiveInt getNumber() {
 		return number;
 	}
@@ -120,6 +121,7 @@ public class ClaimResponseProcessNoteImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNumber(PositiveInt newNumber) {
 		if (newNumber != number) {
 			NotificationChain msgs = null;
@@ -139,6 +141,7 @@ public class ClaimResponseProcessNoteImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -163,6 +166,7 @@ public class ClaimResponseProcessNoteImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -182,6 +186,7 @@ public class ClaimResponseProcessNoteImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getText() {
 		return text;
 	}
@@ -206,6 +211,7 @@ public class ClaimResponseProcessNoteImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setText(org.hl7.fhir.String newText) {
 		if (newText != text) {
 			NotificationChain msgs = null;
@@ -225,6 +231,7 @@ public class ClaimResponseProcessNoteImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getLanguage() {
 		return language;
 	}
@@ -249,6 +256,7 @@ public class ClaimResponseProcessNoteImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLanguage(CodeableConcept newLanguage) {
 		if (newLanguage != language) {
 			NotificationChain msgs = null;

@@ -74,6 +74,7 @@ public class TestReportAction1Impl extends BackboneElementImpl implements TestRe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TestReportOperation getOperation() {
 		return operation;
 	}
@@ -98,6 +99,7 @@ public class TestReportAction1Impl extends BackboneElementImpl implements TestRe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOperation(TestReportOperation newOperation) {
 		if (newOperation != operation) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class TestReportAction1Impl extends BackboneElementImpl implements TestRe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TestReportAssert getAssert() {
 		return assert_;
 	}
@@ -141,6 +144,7 @@ public class TestReportAction1Impl extends BackboneElementImpl implements TestRe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAssert(TestReportAssert newAssert) {
 		if (newAssert != assert_) {
 			NotificationChain msgs = null;

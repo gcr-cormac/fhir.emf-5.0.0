@@ -166,6 +166,7 @@ public class BiologicallyDerivedProductPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -190,6 +191,7 @@ public class BiologicallyDerivedProductPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -209,6 +211,7 @@ public class BiologicallyDerivedProductPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getValueBoolean() {
 		return valueBoolean;
 	}
@@ -233,6 +236,7 @@ public class BiologicallyDerivedProductPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueBoolean(org.hl7.fhir.Boolean newValueBoolean) {
 		if (newValueBoolean != valueBoolean) {
 			NotificationChain msgs = null;
@@ -252,6 +256,7 @@ public class BiologicallyDerivedProductPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Integer getValueInteger() {
 		return valueInteger;
 	}
@@ -276,6 +281,7 @@ public class BiologicallyDerivedProductPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueInteger(org.hl7.fhir.Integer newValueInteger) {
 		if (newValueInteger != valueInteger) {
 			NotificationChain msgs = null;
@@ -295,6 +301,7 @@ public class BiologicallyDerivedProductPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getValueCodeableConcept() {
 		return valueCodeableConcept;
 	}
@@ -319,6 +326,7 @@ public class BiologicallyDerivedProductPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueCodeableConcept(CodeableConcept newValueCodeableConcept) {
 		if (newValueCodeableConcept != valueCodeableConcept) {
 			NotificationChain msgs = null;
@@ -338,6 +346,7 @@ public class BiologicallyDerivedProductPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getValuePeriod() {
 		return valuePeriod;
 	}
@@ -362,6 +371,7 @@ public class BiologicallyDerivedProductPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValuePeriod(Period newValuePeriod) {
 		if (newValuePeriod != valuePeriod) {
 			NotificationChain msgs = null;
@@ -381,6 +391,7 @@ public class BiologicallyDerivedProductPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getValueQuantity() {
 		return valueQuantity;
 	}
@@ -405,6 +416,7 @@ public class BiologicallyDerivedProductPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueQuantity(Quantity newValueQuantity) {
 		if (newValueQuantity != valueQuantity) {
 			NotificationChain msgs = null;
@@ -424,6 +436,7 @@ public class BiologicallyDerivedProductPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Range getValueRange() {
 		return valueRange;
 	}
@@ -448,6 +461,7 @@ public class BiologicallyDerivedProductPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueRange(Range newValueRange) {
 		if (newValueRange != valueRange) {
 			NotificationChain msgs = null;
@@ -467,6 +481,7 @@ public class BiologicallyDerivedProductPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Ratio getValueRatio() {
 		return valueRatio;
 	}
@@ -491,6 +506,7 @@ public class BiologicallyDerivedProductPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueRatio(Ratio newValueRatio) {
 		if (newValueRatio != valueRatio) {
 			NotificationChain msgs = null;
@@ -510,6 +526,7 @@ public class BiologicallyDerivedProductPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getValueString() {
 		return valueString;
 	}
@@ -534,6 +551,7 @@ public class BiologicallyDerivedProductPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueString(org.hl7.fhir.String newValueString) {
 		if (newValueString != valueString) {
 			NotificationChain msgs = null;
@@ -553,6 +571,7 @@ public class BiologicallyDerivedProductPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Attachment getValueAttachment() {
 		return valueAttachment;
 	}
@@ -577,6 +596,7 @@ public class BiologicallyDerivedProductPropertyImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueAttachment(Attachment newValueAttachment) {
 		if (newValueAttachment != valueAttachment) {
 			NotificationChain msgs = null;

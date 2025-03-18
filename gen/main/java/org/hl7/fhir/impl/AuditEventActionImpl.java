@@ -79,6 +79,7 @@ public class AuditEventActionImpl extends ElementImpl implements AuditEventActio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AuditEventActionEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class AuditEventActionImpl extends ElementImpl implements AuditEventActio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(AuditEventActionEnum newValue) {
 		AuditEventActionEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class AuditEventActionImpl extends ElementImpl implements AuditEventActio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		AuditEventActionEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class AuditEventActionImpl extends ElementImpl implements AuditEventActio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

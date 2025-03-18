@@ -79,6 +79,7 @@ public class GroupTypeImpl extends ElementImpl implements GroupType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public GroupTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class GroupTypeImpl extends ElementImpl implements GroupType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(GroupTypeEnum newValue) {
 		GroupTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class GroupTypeImpl extends ElementImpl implements GroupType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		GroupTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class GroupTypeImpl extends ElementImpl implements GroupType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

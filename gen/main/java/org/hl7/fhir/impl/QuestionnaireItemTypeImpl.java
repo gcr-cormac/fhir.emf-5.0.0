@@ -79,6 +79,7 @@ public class QuestionnaireItemTypeImpl extends ElementImpl implements Questionna
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public QuestionnaireItemTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class QuestionnaireItemTypeImpl extends ElementImpl implements Questionna
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(QuestionnaireItemTypeEnum newValue) {
 		QuestionnaireItemTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class QuestionnaireItemTypeImpl extends ElementImpl implements Questionna
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		QuestionnaireItemTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class QuestionnaireItemTypeImpl extends ElementImpl implements Questionna
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

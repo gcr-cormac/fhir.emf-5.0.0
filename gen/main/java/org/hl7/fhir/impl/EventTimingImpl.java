@@ -79,6 +79,7 @@ public class EventTimingImpl extends ElementImpl implements EventTiming {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EventTimingEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class EventTimingImpl extends ElementImpl implements EventTiming {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(EventTimingEnum newValue) {
 		EventTimingEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class EventTimingImpl extends ElementImpl implements EventTiming {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		EventTimingEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class EventTimingImpl extends ElementImpl implements EventTiming {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

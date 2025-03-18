@@ -98,6 +98,7 @@ public class EncounterLocationImpl extends BackboneElementImpl implements Encoun
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getLocation() {
 		return location;
 	}
@@ -122,6 +123,7 @@ public class EncounterLocationImpl extends BackboneElementImpl implements Encoun
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLocation(Reference newLocation) {
 		if (newLocation != location) {
 			NotificationChain msgs = null;
@@ -141,6 +143,7 @@ public class EncounterLocationImpl extends BackboneElementImpl implements Encoun
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EncounterLocationStatus getStatus() {
 		return status;
 	}
@@ -165,6 +168,7 @@ public class EncounterLocationImpl extends BackboneElementImpl implements Encoun
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(EncounterLocationStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -184,6 +188,7 @@ public class EncounterLocationImpl extends BackboneElementImpl implements Encoun
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getForm() {
 		return form;
 	}
@@ -208,6 +213,7 @@ public class EncounterLocationImpl extends BackboneElementImpl implements Encoun
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setForm(CodeableConcept newForm) {
 		if (newForm != form) {
 			NotificationChain msgs = null;
@@ -227,6 +233,7 @@ public class EncounterLocationImpl extends BackboneElementImpl implements Encoun
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getPeriod() {
 		return period;
 	}
@@ -251,6 +258,7 @@ public class EncounterLocationImpl extends BackboneElementImpl implements Encoun
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriod(Period newPeriod) {
 		if (newPeriod != period) {
 			NotificationChain msgs = null;

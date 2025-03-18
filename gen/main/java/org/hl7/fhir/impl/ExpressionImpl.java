@@ -107,6 +107,7 @@ public class ExpressionImpl extends DataTypeImpl implements Expression {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDescription() {
 		return description;
 	}
@@ -131,6 +132,7 @@ public class ExpressionImpl extends DataTypeImpl implements Expression {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(org.hl7.fhir.String newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -150,6 +152,7 @@ public class ExpressionImpl extends DataTypeImpl implements Expression {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Code getName() {
 		return name;
 	}
@@ -174,6 +177,7 @@ public class ExpressionImpl extends DataTypeImpl implements Expression {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(Code newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -193,6 +197,7 @@ public class ExpressionImpl extends DataTypeImpl implements Expression {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Code getLanguage() {
 		return language;
 	}
@@ -217,6 +222,7 @@ public class ExpressionImpl extends DataTypeImpl implements Expression {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLanguage(Code newLanguage) {
 		if (newLanguage != language) {
 			NotificationChain msgs = null;
@@ -236,6 +242,7 @@ public class ExpressionImpl extends DataTypeImpl implements Expression {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getExpression() {
 		return expression;
 	}
@@ -260,6 +267,7 @@ public class ExpressionImpl extends DataTypeImpl implements Expression {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExpression(org.hl7.fhir.String newExpression) {
 		if (newExpression != expression) {
 			NotificationChain msgs = null;
@@ -279,6 +287,7 @@ public class ExpressionImpl extends DataTypeImpl implements Expression {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getReference() {
 		return reference;
 	}
@@ -303,6 +312,7 @@ public class ExpressionImpl extends DataTypeImpl implements Expression {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReference(Uri newReference) {
 		if (newReference != reference) {
 			NotificationChain msgs = null;

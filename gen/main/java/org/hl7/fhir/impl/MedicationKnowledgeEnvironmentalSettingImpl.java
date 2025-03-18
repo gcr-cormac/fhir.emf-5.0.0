@@ -97,6 +97,7 @@ public class MedicationKnowledgeEnvironmentalSettingImpl extends BackboneElement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -121,6 +122,7 @@ public class MedicationKnowledgeEnvironmentalSettingImpl extends BackboneElement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -140,6 +142,7 @@ public class MedicationKnowledgeEnvironmentalSettingImpl extends BackboneElement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getValueQuantity() {
 		return valueQuantity;
 	}
@@ -164,6 +167,7 @@ public class MedicationKnowledgeEnvironmentalSettingImpl extends BackboneElement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueQuantity(Quantity newValueQuantity) {
 		if (newValueQuantity != valueQuantity) {
 			NotificationChain msgs = null;
@@ -183,6 +187,7 @@ public class MedicationKnowledgeEnvironmentalSettingImpl extends BackboneElement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Range getValueRange() {
 		return valueRange;
 	}
@@ -207,6 +212,7 @@ public class MedicationKnowledgeEnvironmentalSettingImpl extends BackboneElement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueRange(Range newValueRange) {
 		if (newValueRange != valueRange) {
 			NotificationChain msgs = null;
@@ -226,6 +232,7 @@ public class MedicationKnowledgeEnvironmentalSettingImpl extends BackboneElement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getValueCodeableConcept() {
 		return valueCodeableConcept;
 	}
@@ -250,6 +257,7 @@ public class MedicationKnowledgeEnvironmentalSettingImpl extends BackboneElement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueCodeableConcept(CodeableConcept newValueCodeableConcept) {
 		if (newValueCodeableConcept != valueCodeableConcept) {
 			NotificationChain msgs = null;

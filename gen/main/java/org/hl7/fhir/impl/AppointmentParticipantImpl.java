@@ -116,6 +116,7 @@ public class AppointmentParticipantImpl extends BackboneElementImpl implements A
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getType() {
 		if (type == null) {
 			type = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.APPOINTMENT_PARTICIPANT__TYPE);
@@ -128,6 +129,7 @@ public class AppointmentParticipantImpl extends BackboneElementImpl implements A
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getPeriod() {
 		return period;
 	}
@@ -152,6 +154,7 @@ public class AppointmentParticipantImpl extends BackboneElementImpl implements A
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriod(Period newPeriod) {
 		if (newPeriod != period) {
 			NotificationChain msgs = null;
@@ -171,6 +174,7 @@ public class AppointmentParticipantImpl extends BackboneElementImpl implements A
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getActor() {
 		return actor;
 	}
@@ -195,6 +199,7 @@ public class AppointmentParticipantImpl extends BackboneElementImpl implements A
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setActor(Reference newActor) {
 		if (newActor != actor) {
 			NotificationChain msgs = null;
@@ -214,6 +219,7 @@ public class AppointmentParticipantImpl extends BackboneElementImpl implements A
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getRequired() {
 		return required;
 	}
@@ -238,6 +244,7 @@ public class AppointmentParticipantImpl extends BackboneElementImpl implements A
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRequired(org.hl7.fhir.Boolean newRequired) {
 		if (newRequired != required) {
 			NotificationChain msgs = null;
@@ -257,6 +264,7 @@ public class AppointmentParticipantImpl extends BackboneElementImpl implements A
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ParticipationStatus getStatus() {
 		return status;
 	}
@@ -281,6 +289,7 @@ public class AppointmentParticipantImpl extends BackboneElementImpl implements A
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(ParticipationStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;

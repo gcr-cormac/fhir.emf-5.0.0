@@ -175,6 +175,7 @@ public class EvidenceStatisticImpl extends BackboneElementImpl implements Eviden
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -199,6 +200,7 @@ public class EvidenceStatisticImpl extends BackboneElementImpl implements Eviden
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -218,6 +220,7 @@ public class EvidenceStatisticImpl extends BackboneElementImpl implements Eviden
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.EVIDENCE_STATISTIC__NOTE);
@@ -230,6 +233,7 @@ public class EvidenceStatisticImpl extends BackboneElementImpl implements Eviden
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getStatisticType() {
 		return statisticType;
 	}
@@ -254,6 +258,7 @@ public class EvidenceStatisticImpl extends BackboneElementImpl implements Eviden
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatisticType(CodeableConcept newStatisticType) {
 		if (newStatisticType != statisticType) {
 			NotificationChain msgs = null;
@@ -273,6 +278,7 @@ public class EvidenceStatisticImpl extends BackboneElementImpl implements Eviden
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCategory() {
 		return category;
 	}
@@ -297,6 +303,7 @@ public class EvidenceStatisticImpl extends BackboneElementImpl implements Eviden
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCategory(CodeableConcept newCategory) {
 		if (newCategory != category) {
 			NotificationChain msgs = null;
@@ -316,6 +323,7 @@ public class EvidenceStatisticImpl extends BackboneElementImpl implements Eviden
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getQuantity() {
 		return quantity;
 	}
@@ -340,6 +348,7 @@ public class EvidenceStatisticImpl extends BackboneElementImpl implements Eviden
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setQuantity(Quantity newQuantity) {
 		if (newQuantity != quantity) {
 			NotificationChain msgs = null;
@@ -359,6 +368,7 @@ public class EvidenceStatisticImpl extends BackboneElementImpl implements Eviden
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public UnsignedInt getNumberOfEvents() {
 		return numberOfEvents;
 	}
@@ -383,6 +393,7 @@ public class EvidenceStatisticImpl extends BackboneElementImpl implements Eviden
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNumberOfEvents(UnsignedInt newNumberOfEvents) {
 		if (newNumberOfEvents != numberOfEvents) {
 			NotificationChain msgs = null;
@@ -402,6 +413,7 @@ public class EvidenceStatisticImpl extends BackboneElementImpl implements Eviden
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public UnsignedInt getNumberAffected() {
 		return numberAffected;
 	}
@@ -426,6 +438,7 @@ public class EvidenceStatisticImpl extends BackboneElementImpl implements Eviden
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNumberAffected(UnsignedInt newNumberAffected) {
 		if (newNumberAffected != numberAffected) {
 			NotificationChain msgs = null;
@@ -445,6 +458,7 @@ public class EvidenceStatisticImpl extends BackboneElementImpl implements Eviden
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EvidenceSampleSize getSampleSize() {
 		return sampleSize;
 	}
@@ -469,6 +483,7 @@ public class EvidenceStatisticImpl extends BackboneElementImpl implements Eviden
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSampleSize(EvidenceSampleSize newSampleSize) {
 		if (newSampleSize != sampleSize) {
 			NotificationChain msgs = null;
@@ -488,6 +503,7 @@ public class EvidenceStatisticImpl extends BackboneElementImpl implements Eviden
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<EvidenceAttributeEstimate> getAttributeEstimate() {
 		if (attributeEstimate == null) {
 			attributeEstimate = new EObjectContainmentEList<EvidenceAttributeEstimate>(EvidenceAttributeEstimate.class, this, FhirPackage.EVIDENCE_STATISTIC__ATTRIBUTE_ESTIMATE);
@@ -500,6 +516,7 @@ public class EvidenceStatisticImpl extends BackboneElementImpl implements Eviden
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<EvidenceModelCharacteristic> getModelCharacteristic() {
 		if (modelCharacteristic == null) {
 			modelCharacteristic = new EObjectContainmentEList<EvidenceModelCharacteristic>(EvidenceModelCharacteristic.class, this, FhirPackage.EVIDENCE_STATISTIC__MODEL_CHARACTERISTIC);

@@ -188,6 +188,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public FeatureMap getMixed() {
 		if (mixed == null) {
 			mixed = new BasicFeatureMap(this, NamespacePackage.DOCUMENT_ROOT__MIXED);
@@ -200,6 +201,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EMap<String, String> getXMLNSPrefixMap() {
 		if (xMLNSPrefixMap == null) {
 			xMLNSPrefixMap = new EcoreEMap<String,String>(EcorePackage.Literals.ESTRING_TO_STRING_MAP_ENTRY, EStringToStringMapEntryImpl.class, this, NamespacePackage.DOCUMENT_ROOT__XMLNS_PREFIX_MAP);
@@ -212,6 +214,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EMap<String, String> getXSISchemaLocation() {
 		if (xSISchemaLocation == null) {
 			xSISchemaLocation = new EcoreEMap<String,String>(EcorePackage.Literals.ESTRING_TO_STRING_MAP_ENTRY, EStringToStringMapEntryImpl.class, this, NamespacePackage.DOCUMENT_ROOT__XSI_SCHEMA_LOCATION);
@@ -224,6 +227,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getBase() {
 		return base;
 	}
@@ -233,6 +237,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBase(String newBase) {
 		String oldBase = base;
 		base = newBase;
@@ -245,6 +250,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getId() {
 		return id;
 	}
@@ -254,6 +260,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setId(String newId) {
 		String oldId = id;
 		id = newId;
@@ -266,6 +273,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Object getLang() {
 		return lang;
 	}
@@ -275,6 +283,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLang(Object newLang) {
 		Object oldLang = lang;
 		lang = newLang;
@@ -287,6 +296,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SpaceType getSpace() {
 		return space;
 	}
@@ -296,6 +306,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSpace(SpaceType newSpace) {
 		SpaceType oldSpace = space;
 		space = newSpace == null ? SPACE_EDEFAULT : newSpace;
@@ -310,6 +321,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetSpace() {
 		SpaceType oldSpace = space;
 		boolean oldSpaceESet = spaceESet;
@@ -324,6 +336,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetSpace() {
 		return spaceESet;
 	}

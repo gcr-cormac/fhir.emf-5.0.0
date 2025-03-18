@@ -115,6 +115,7 @@ public class EvidenceSampleSizeImpl extends BackboneElementImpl implements Evide
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -139,6 +140,7 @@ public class EvidenceSampleSizeImpl extends BackboneElementImpl implements Evide
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -158,6 +160,7 @@ public class EvidenceSampleSizeImpl extends BackboneElementImpl implements Evide
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.EVIDENCE_SAMPLE_SIZE__NOTE);
@@ -170,6 +173,7 @@ public class EvidenceSampleSizeImpl extends BackboneElementImpl implements Evide
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public UnsignedInt getNumberOfStudies() {
 		return numberOfStudies;
 	}
@@ -194,6 +198,7 @@ public class EvidenceSampleSizeImpl extends BackboneElementImpl implements Evide
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNumberOfStudies(UnsignedInt newNumberOfStudies) {
 		if (newNumberOfStudies != numberOfStudies) {
 			NotificationChain msgs = null;
@@ -213,6 +218,7 @@ public class EvidenceSampleSizeImpl extends BackboneElementImpl implements Evide
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public UnsignedInt getNumberOfParticipants() {
 		return numberOfParticipants;
 	}
@@ -237,6 +243,7 @@ public class EvidenceSampleSizeImpl extends BackboneElementImpl implements Evide
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNumberOfParticipants(UnsignedInt newNumberOfParticipants) {
 		if (newNumberOfParticipants != numberOfParticipants) {
 			NotificationChain msgs = null;
@@ -256,6 +263,7 @@ public class EvidenceSampleSizeImpl extends BackboneElementImpl implements Evide
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public UnsignedInt getKnownDataCount() {
 		return knownDataCount;
 	}
@@ -280,6 +288,7 @@ public class EvidenceSampleSizeImpl extends BackboneElementImpl implements Evide
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setKnownDataCount(UnsignedInt newKnownDataCount) {
 		if (newKnownDataCount != knownDataCount) {
 			NotificationChain msgs = null;

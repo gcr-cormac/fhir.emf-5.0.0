@@ -173,6 +173,7 @@ public class SpecimenDefinitionTypeTestedImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getIsDerived() {
 		return isDerived;
 	}
@@ -197,6 +198,7 @@ public class SpecimenDefinitionTypeTestedImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIsDerived(org.hl7.fhir.Boolean newIsDerived) {
 		if (newIsDerived != isDerived) {
 			NotificationChain msgs = null;
@@ -216,6 +218,7 @@ public class SpecimenDefinitionTypeTestedImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -240,6 +243,7 @@ public class SpecimenDefinitionTypeTestedImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -259,6 +263,7 @@ public class SpecimenDefinitionTypeTestedImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SpecimenContainedPreference getPreference() {
 		return preference;
 	}
@@ -283,6 +288,7 @@ public class SpecimenDefinitionTypeTestedImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPreference(SpecimenContainedPreference newPreference) {
 		if (newPreference != preference) {
 			NotificationChain msgs = null;
@@ -302,6 +308,7 @@ public class SpecimenDefinitionTypeTestedImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SpecimenDefinitionContainer getContainer() {
 		return container;
 	}
@@ -326,6 +333,7 @@ public class SpecimenDefinitionTypeTestedImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setContainer(SpecimenDefinitionContainer newContainer) {
 		if (newContainer != container) {
 			NotificationChain msgs = null;
@@ -345,6 +353,7 @@ public class SpecimenDefinitionTypeTestedImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getRequirement() {
 		return requirement;
 	}
@@ -369,6 +378,7 @@ public class SpecimenDefinitionTypeTestedImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRequirement(Markdown newRequirement) {
 		if (newRequirement != requirement) {
 			NotificationChain msgs = null;
@@ -388,6 +398,7 @@ public class SpecimenDefinitionTypeTestedImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Duration getRetentionTime() {
 		return retentionTime;
 	}
@@ -412,6 +423,7 @@ public class SpecimenDefinitionTypeTestedImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRetentionTime(Duration newRetentionTime) {
 		if (newRetentionTime != retentionTime) {
 			NotificationChain msgs = null;
@@ -431,6 +443,7 @@ public class SpecimenDefinitionTypeTestedImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getSingleUse() {
 		return singleUse;
 	}
@@ -455,6 +468,7 @@ public class SpecimenDefinitionTypeTestedImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSingleUse(org.hl7.fhir.Boolean newSingleUse) {
 		if (newSingleUse != singleUse) {
 			NotificationChain msgs = null;
@@ -474,6 +488,7 @@ public class SpecimenDefinitionTypeTestedImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getRejectionCriterion() {
 		if (rejectionCriterion == null) {
 			rejectionCriterion = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.SPECIMEN_DEFINITION_TYPE_TESTED__REJECTION_CRITERION);
@@ -486,6 +501,7 @@ public class SpecimenDefinitionTypeTestedImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SpecimenDefinitionHandling> getHandling() {
 		if (handling == null) {
 			handling = new EObjectContainmentEList<SpecimenDefinitionHandling>(SpecimenDefinitionHandling.class, this, FhirPackage.SPECIMEN_DEFINITION_TYPE_TESTED__HANDLING);
@@ -498,6 +514,7 @@ public class SpecimenDefinitionTypeTestedImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getTestingDestination() {
 		if (testingDestination == null) {
 			testingDestination = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.SPECIMEN_DEFINITION_TYPE_TESTED__TESTING_DESTINATION);

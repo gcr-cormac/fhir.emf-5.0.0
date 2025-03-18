@@ -84,6 +84,7 @@ public class TestScriptFixtureImpl extends BackboneElementImpl implements TestSc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getAutocreate() {
 		return autocreate;
 	}
@@ -108,6 +109,7 @@ public class TestScriptFixtureImpl extends BackboneElementImpl implements TestSc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAutocreate(org.hl7.fhir.Boolean newAutocreate) {
 		if (newAutocreate != autocreate) {
 			NotificationChain msgs = null;
@@ -127,6 +129,7 @@ public class TestScriptFixtureImpl extends BackboneElementImpl implements TestSc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getAutodelete() {
 		return autodelete;
 	}
@@ -151,6 +154,7 @@ public class TestScriptFixtureImpl extends BackboneElementImpl implements TestSc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAutodelete(org.hl7.fhir.Boolean newAutodelete) {
 		if (newAutodelete != autodelete) {
 			NotificationChain msgs = null;
@@ -170,6 +174,7 @@ public class TestScriptFixtureImpl extends BackboneElementImpl implements TestSc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getResource() {
 		return resource;
 	}
@@ -194,6 +199,7 @@ public class TestScriptFixtureImpl extends BackboneElementImpl implements TestSc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setResource(Reference newResource) {
 		if (newResource != resource) {
 			NotificationChain msgs = null;

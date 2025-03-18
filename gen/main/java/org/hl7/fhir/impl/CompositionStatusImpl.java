@@ -79,6 +79,7 @@ public class CompositionStatusImpl extends ElementImpl implements CompositionSta
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CompositionStatusEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class CompositionStatusImpl extends ElementImpl implements CompositionSta
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(CompositionStatusEnum newValue) {
 		CompositionStatusEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class CompositionStatusImpl extends ElementImpl implements CompositionSta
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		CompositionStatusEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class CompositionStatusImpl extends ElementImpl implements CompositionSta
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

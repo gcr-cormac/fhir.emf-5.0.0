@@ -79,6 +79,7 @@ public class LocationModeImpl extends ElementImpl implements LocationMode {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public LocationModeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class LocationModeImpl extends ElementImpl implements LocationMode {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(LocationModeEnum newValue) {
 		LocationModeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class LocationModeImpl extends ElementImpl implements LocationMode {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		LocationModeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class LocationModeImpl extends ElementImpl implements LocationMode {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

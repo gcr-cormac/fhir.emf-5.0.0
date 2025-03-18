@@ -86,6 +86,7 @@ public class DocumentReferenceProfileImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getValueCoding() {
 		return valueCoding;
 	}
@@ -110,6 +111,7 @@ public class DocumentReferenceProfileImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueCoding(Coding newValueCoding) {
 		if (newValueCoding != valueCoding) {
 			NotificationChain msgs = null;
@@ -129,6 +131,7 @@ public class DocumentReferenceProfileImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getValueUri() {
 		return valueUri;
 	}
@@ -153,6 +156,7 @@ public class DocumentReferenceProfileImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueUri(Uri newValueUri) {
 		if (newValueUri != valueUri) {
 			NotificationChain msgs = null;
@@ -172,6 +176,7 @@ public class DocumentReferenceProfileImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getValueCanonical() {
 		return valueCanonical;
 	}
@@ -196,6 +201,7 @@ public class DocumentReferenceProfileImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueCanonical(Canonical newValueCanonical) {
 		if (newValueCanonical != valueCanonical) {
 			NotificationChain msgs = null;

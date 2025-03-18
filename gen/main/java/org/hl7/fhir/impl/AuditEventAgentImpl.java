@@ -170,6 +170,7 @@ public class AuditEventAgentImpl extends BackboneElementImpl implements AuditEve
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -194,6 +195,7 @@ public class AuditEventAgentImpl extends BackboneElementImpl implements AuditEve
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -213,6 +215,7 @@ public class AuditEventAgentImpl extends BackboneElementImpl implements AuditEve
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getRole() {
 		if (role == null) {
 			role = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.AUDIT_EVENT_AGENT__ROLE);
@@ -225,6 +228,7 @@ public class AuditEventAgentImpl extends BackboneElementImpl implements AuditEve
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getWho() {
 		return who;
 	}
@@ -249,6 +253,7 @@ public class AuditEventAgentImpl extends BackboneElementImpl implements AuditEve
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setWho(Reference newWho) {
 		if (newWho != who) {
 			NotificationChain msgs = null;
@@ -268,6 +273,7 @@ public class AuditEventAgentImpl extends BackboneElementImpl implements AuditEve
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getRequestor() {
 		return requestor;
 	}
@@ -292,6 +298,7 @@ public class AuditEventAgentImpl extends BackboneElementImpl implements AuditEve
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRequestor(org.hl7.fhir.Boolean newRequestor) {
 		if (newRequestor != requestor) {
 			NotificationChain msgs = null;
@@ -311,6 +318,7 @@ public class AuditEventAgentImpl extends BackboneElementImpl implements AuditEve
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getLocation() {
 		return location;
 	}
@@ -335,6 +343,7 @@ public class AuditEventAgentImpl extends BackboneElementImpl implements AuditEve
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLocation(Reference newLocation) {
 		if (newLocation != location) {
 			NotificationChain msgs = null;
@@ -354,6 +363,7 @@ public class AuditEventAgentImpl extends BackboneElementImpl implements AuditEve
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Uri> getPolicy() {
 		if (policy == null) {
 			policy = new EObjectContainmentEList<Uri>(Uri.class, this, FhirPackage.AUDIT_EVENT_AGENT__POLICY);
@@ -366,6 +376,7 @@ public class AuditEventAgentImpl extends BackboneElementImpl implements AuditEve
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getNetworkReference() {
 		return networkReference;
 	}
@@ -390,6 +401,7 @@ public class AuditEventAgentImpl extends BackboneElementImpl implements AuditEve
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNetworkReference(Reference newNetworkReference) {
 		if (newNetworkReference != networkReference) {
 			NotificationChain msgs = null;
@@ -409,6 +421,7 @@ public class AuditEventAgentImpl extends BackboneElementImpl implements AuditEve
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getNetworkUri() {
 		return networkUri;
 	}
@@ -433,6 +446,7 @@ public class AuditEventAgentImpl extends BackboneElementImpl implements AuditEve
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNetworkUri(Uri newNetworkUri) {
 		if (newNetworkUri != networkUri) {
 			NotificationChain msgs = null;
@@ -452,6 +466,7 @@ public class AuditEventAgentImpl extends BackboneElementImpl implements AuditEve
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getNetworkString() {
 		return networkString;
 	}
@@ -476,6 +491,7 @@ public class AuditEventAgentImpl extends BackboneElementImpl implements AuditEve
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNetworkString(org.hl7.fhir.String newNetworkString) {
 		if (newNetworkString != networkString) {
 			NotificationChain msgs = null;
@@ -495,6 +511,7 @@ public class AuditEventAgentImpl extends BackboneElementImpl implements AuditEve
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getAuthorization() {
 		if (authorization == null) {
 			authorization = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.AUDIT_EVENT_AGENT__AUTHORIZATION);

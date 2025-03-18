@@ -74,6 +74,7 @@ public class CitationContributionInstanceImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -98,6 +99,7 @@ public class CitationContributionInstanceImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class CitationContributionInstanceImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getTime() {
 		return time;
 	}
@@ -141,6 +144,7 @@ public class CitationContributionInstanceImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTime(DateTime newTime) {
 		if (newTime != time) {
 			NotificationChain msgs = null;

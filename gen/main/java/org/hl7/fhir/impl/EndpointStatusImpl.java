@@ -79,6 +79,7 @@ public class EndpointStatusImpl extends ElementImpl implements EndpointStatus {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EndpointStatusEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class EndpointStatusImpl extends ElementImpl implements EndpointStatus {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(EndpointStatusEnum newValue) {
 		EndpointStatusEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class EndpointStatusImpl extends ElementImpl implements EndpointStatus {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		EndpointStatusEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class EndpointStatusImpl extends ElementImpl implements EndpointStatus {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

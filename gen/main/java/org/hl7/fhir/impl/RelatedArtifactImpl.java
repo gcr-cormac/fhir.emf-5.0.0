@@ -175,6 +175,7 @@ public class RelatedArtifactImpl extends DataTypeImpl implements RelatedArtifact
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public RelatedArtifactType getType() {
 		return type;
 	}
@@ -199,6 +200,7 @@ public class RelatedArtifactImpl extends DataTypeImpl implements RelatedArtifact
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(RelatedArtifactType newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -218,6 +220,7 @@ public class RelatedArtifactImpl extends DataTypeImpl implements RelatedArtifact
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getClassifier() {
 		if (classifier == null) {
 			classifier = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.RELATED_ARTIFACT__CLASSIFIER);
@@ -230,6 +233,7 @@ public class RelatedArtifactImpl extends DataTypeImpl implements RelatedArtifact
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getLabel() {
 		return label;
 	}
@@ -254,6 +258,7 @@ public class RelatedArtifactImpl extends DataTypeImpl implements RelatedArtifact
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLabel(org.hl7.fhir.String newLabel) {
 		if (newLabel != label) {
 			NotificationChain msgs = null;
@@ -273,6 +278,7 @@ public class RelatedArtifactImpl extends DataTypeImpl implements RelatedArtifact
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDisplay() {
 		return display;
 	}
@@ -297,6 +303,7 @@ public class RelatedArtifactImpl extends DataTypeImpl implements RelatedArtifact
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDisplay(org.hl7.fhir.String newDisplay) {
 		if (newDisplay != display) {
 			NotificationChain msgs = null;
@@ -316,6 +323,7 @@ public class RelatedArtifactImpl extends DataTypeImpl implements RelatedArtifact
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getCitation() {
 		return citation;
 	}
@@ -340,6 +348,7 @@ public class RelatedArtifactImpl extends DataTypeImpl implements RelatedArtifact
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCitation(Markdown newCitation) {
 		if (newCitation != citation) {
 			NotificationChain msgs = null;
@@ -359,6 +368,7 @@ public class RelatedArtifactImpl extends DataTypeImpl implements RelatedArtifact
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Attachment getDocument() {
 		return document;
 	}
@@ -383,6 +393,7 @@ public class RelatedArtifactImpl extends DataTypeImpl implements RelatedArtifact
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDocument(Attachment newDocument) {
 		if (newDocument != document) {
 			NotificationChain msgs = null;
@@ -402,6 +413,7 @@ public class RelatedArtifactImpl extends DataTypeImpl implements RelatedArtifact
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getResource() {
 		return resource;
 	}
@@ -426,6 +438,7 @@ public class RelatedArtifactImpl extends DataTypeImpl implements RelatedArtifact
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setResource(Canonical newResource) {
 		if (newResource != resource) {
 			NotificationChain msgs = null;
@@ -445,6 +458,7 @@ public class RelatedArtifactImpl extends DataTypeImpl implements RelatedArtifact
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getResourceReference() {
 		return resourceReference;
 	}
@@ -469,6 +483,7 @@ public class RelatedArtifactImpl extends DataTypeImpl implements RelatedArtifact
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setResourceReference(Reference newResourceReference) {
 		if (newResourceReference != resourceReference) {
 			NotificationChain msgs = null;
@@ -488,6 +503,7 @@ public class RelatedArtifactImpl extends DataTypeImpl implements RelatedArtifact
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Code getPublicationStatus() {
 		return publicationStatus;
 	}
@@ -512,6 +528,7 @@ public class RelatedArtifactImpl extends DataTypeImpl implements RelatedArtifact
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPublicationStatus(Code newPublicationStatus) {
 		if (newPublicationStatus != publicationStatus) {
 			NotificationChain msgs = null;
@@ -531,6 +548,7 @@ public class RelatedArtifactImpl extends DataTypeImpl implements RelatedArtifact
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getPublicationDate() {
 		return publicationDate;
 	}
@@ -555,6 +573,7 @@ public class RelatedArtifactImpl extends DataTypeImpl implements RelatedArtifact
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPublicationDate(Date newPublicationDate) {
 		if (newPublicationDate != publicationDate) {
 			NotificationChain msgs = null;

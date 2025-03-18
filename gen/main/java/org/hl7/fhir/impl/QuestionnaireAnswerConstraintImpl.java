@@ -79,6 +79,7 @@ public class QuestionnaireAnswerConstraintImpl extends ElementImpl implements Qu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public QuestionnaireAnswerConstraintEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class QuestionnaireAnswerConstraintImpl extends ElementImpl implements Qu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(QuestionnaireAnswerConstraintEnum newValue) {
 		QuestionnaireAnswerConstraintEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class QuestionnaireAnswerConstraintImpl extends ElementImpl implements Qu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		QuestionnaireAnswerConstraintEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class QuestionnaireAnswerConstraintImpl extends ElementImpl implements Qu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

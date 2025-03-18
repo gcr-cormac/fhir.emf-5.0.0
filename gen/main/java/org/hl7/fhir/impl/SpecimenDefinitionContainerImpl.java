@@ -160,6 +160,7 @@ public class SpecimenDefinitionContainerImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getMaterial() {
 		return material;
 	}
@@ -184,6 +185,7 @@ public class SpecimenDefinitionContainerImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMaterial(CodeableConcept newMaterial) {
 		if (newMaterial != material) {
 			NotificationChain msgs = null;
@@ -203,6 +205,7 @@ public class SpecimenDefinitionContainerImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -227,6 +230,7 @@ public class SpecimenDefinitionContainerImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -246,6 +250,7 @@ public class SpecimenDefinitionContainerImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCap() {
 		return cap;
 	}
@@ -270,6 +275,7 @@ public class SpecimenDefinitionContainerImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCap(CodeableConcept newCap) {
 		if (newCap != cap) {
 			NotificationChain msgs = null;
@@ -289,6 +295,7 @@ public class SpecimenDefinitionContainerImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -313,6 +320,7 @@ public class SpecimenDefinitionContainerImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -332,6 +340,7 @@ public class SpecimenDefinitionContainerImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getCapacity() {
 		return capacity;
 	}
@@ -356,6 +365,7 @@ public class SpecimenDefinitionContainerImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCapacity(Quantity newCapacity) {
 		if (newCapacity != capacity) {
 			NotificationChain msgs = null;
@@ -375,6 +385,7 @@ public class SpecimenDefinitionContainerImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getMinimumVolumeQuantity() {
 		return minimumVolumeQuantity;
 	}
@@ -399,6 +410,7 @@ public class SpecimenDefinitionContainerImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMinimumVolumeQuantity(Quantity newMinimumVolumeQuantity) {
 		if (newMinimumVolumeQuantity != minimumVolumeQuantity) {
 			NotificationChain msgs = null;
@@ -418,6 +430,7 @@ public class SpecimenDefinitionContainerImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getMinimumVolumeString() {
 		return minimumVolumeString;
 	}
@@ -442,6 +455,7 @@ public class SpecimenDefinitionContainerImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMinimumVolumeString(org.hl7.fhir.String newMinimumVolumeString) {
 		if (newMinimumVolumeString != minimumVolumeString) {
 			NotificationChain msgs = null;
@@ -461,6 +475,7 @@ public class SpecimenDefinitionContainerImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SpecimenDefinitionAdditive> getAdditive() {
 		if (additive == null) {
 			additive = new EObjectContainmentEList<SpecimenDefinitionAdditive>(SpecimenDefinitionAdditive.class, this, FhirPackage.SPECIMEN_DEFINITION_CONTAINER__ADDITIVE);
@@ -473,6 +488,7 @@ public class SpecimenDefinitionContainerImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getPreparation() {
 		return preparation;
 	}
@@ -497,6 +513,7 @@ public class SpecimenDefinitionContainerImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPreparation(Markdown newPreparation) {
 		if (newPreparation != preparation) {
 			NotificationChain msgs = null;

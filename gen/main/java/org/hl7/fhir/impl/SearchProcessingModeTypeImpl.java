@@ -79,6 +79,7 @@ public class SearchProcessingModeTypeImpl extends ElementImpl implements SearchP
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SearchProcessingModeTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class SearchProcessingModeTypeImpl extends ElementImpl implements SearchP
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(SearchProcessingModeTypeEnum newValue) {
 		SearchProcessingModeTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class SearchProcessingModeTypeImpl extends ElementImpl implements SearchP
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		SearchProcessingModeTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class SearchProcessingModeTypeImpl extends ElementImpl implements SearchP
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

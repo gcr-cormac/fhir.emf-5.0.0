@@ -79,6 +79,7 @@ public class AssertionDirectionTypeImpl extends ElementImpl implements Assertion
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AssertionDirectionTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class AssertionDirectionTypeImpl extends ElementImpl implements Assertion
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(AssertionDirectionTypeEnum newValue) {
 		AssertionDirectionTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class AssertionDirectionTypeImpl extends ElementImpl implements Assertion
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		AssertionDirectionTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class AssertionDirectionTypeImpl extends ElementImpl implements Assertion
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

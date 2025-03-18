@@ -197,6 +197,7 @@ public class EndpointImpl extends DomainResourceImpl implements Endpoint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.ENDPOINT__IDENTIFIER);
@@ -209,6 +210,7 @@ public class EndpointImpl extends DomainResourceImpl implements Endpoint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EndpointStatus getStatus() {
 		return status;
 	}
@@ -233,6 +235,7 @@ public class EndpointImpl extends DomainResourceImpl implements Endpoint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(EndpointStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -252,6 +255,7 @@ public class EndpointImpl extends DomainResourceImpl implements Endpoint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getConnectionType() {
 		if (connectionType == null) {
 			connectionType = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.ENDPOINT__CONNECTION_TYPE);
@@ -264,6 +268,7 @@ public class EndpointImpl extends DomainResourceImpl implements Endpoint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -288,6 +293,7 @@ public class EndpointImpl extends DomainResourceImpl implements Endpoint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -307,6 +313,7 @@ public class EndpointImpl extends DomainResourceImpl implements Endpoint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDescription() {
 		return description;
 	}
@@ -331,6 +338,7 @@ public class EndpointImpl extends DomainResourceImpl implements Endpoint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(org.hl7.fhir.String newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -350,6 +358,7 @@ public class EndpointImpl extends DomainResourceImpl implements Endpoint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getEnvironmentType() {
 		if (environmentType == null) {
 			environmentType = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.ENDPOINT__ENVIRONMENT_TYPE);
@@ -362,6 +371,7 @@ public class EndpointImpl extends DomainResourceImpl implements Endpoint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getManagingOrganization() {
 		return managingOrganization;
 	}
@@ -386,6 +396,7 @@ public class EndpointImpl extends DomainResourceImpl implements Endpoint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setManagingOrganization(Reference newManagingOrganization) {
 		if (newManagingOrganization != managingOrganization) {
 			NotificationChain msgs = null;
@@ -405,6 +416,7 @@ public class EndpointImpl extends DomainResourceImpl implements Endpoint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactPoint> getContact() {
 		if (contact == null) {
 			contact = new EObjectContainmentEList<ContactPoint>(ContactPoint.class, this, FhirPackage.ENDPOINT__CONTACT);
@@ -417,6 +429,7 @@ public class EndpointImpl extends DomainResourceImpl implements Endpoint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getPeriod() {
 		return period;
 	}
@@ -441,6 +454,7 @@ public class EndpointImpl extends DomainResourceImpl implements Endpoint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriod(Period newPeriod) {
 		if (newPeriod != period) {
 			NotificationChain msgs = null;
@@ -460,6 +474,7 @@ public class EndpointImpl extends DomainResourceImpl implements Endpoint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<EndpointPayload> getPayload() {
 		if (payload == null) {
 			payload = new EObjectContainmentEList<EndpointPayload>(EndpointPayload.class, this, FhirPackage.ENDPOINT__PAYLOAD);
@@ -472,6 +487,7 @@ public class EndpointImpl extends DomainResourceImpl implements Endpoint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Url getAddress() {
 		return address;
 	}
@@ -496,6 +512,7 @@ public class EndpointImpl extends DomainResourceImpl implements Endpoint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAddress(Url newAddress) {
 		if (newAddress != address) {
 			NotificationChain msgs = null;
@@ -515,6 +532,7 @@ public class EndpointImpl extends DomainResourceImpl implements Endpoint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<org.hl7.fhir.String> getHeader() {
 		if (header == null) {
 			header = new EObjectContainmentEList<org.hl7.fhir.String>(org.hl7.fhir.String.class, this, FhirPackage.ENDPOINT__HEADER);

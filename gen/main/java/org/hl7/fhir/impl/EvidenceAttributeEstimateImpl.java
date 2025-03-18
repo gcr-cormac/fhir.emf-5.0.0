@@ -140,6 +140,7 @@ public class EvidenceAttributeEstimateImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -164,6 +165,7 @@ public class EvidenceAttributeEstimateImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -183,6 +185,7 @@ public class EvidenceAttributeEstimateImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.EVIDENCE_ATTRIBUTE_ESTIMATE__NOTE);
@@ -195,6 +198,7 @@ public class EvidenceAttributeEstimateImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -219,6 +223,7 @@ public class EvidenceAttributeEstimateImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -238,6 +243,7 @@ public class EvidenceAttributeEstimateImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getQuantity() {
 		return quantity;
 	}
@@ -262,6 +268,7 @@ public class EvidenceAttributeEstimateImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setQuantity(Quantity newQuantity) {
 		if (newQuantity != quantity) {
 			NotificationChain msgs = null;
@@ -281,6 +288,7 @@ public class EvidenceAttributeEstimateImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Decimal getLevel() {
 		return level;
 	}
@@ -305,6 +313,7 @@ public class EvidenceAttributeEstimateImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLevel(Decimal newLevel) {
 		if (newLevel != level) {
 			NotificationChain msgs = null;
@@ -324,6 +333,7 @@ public class EvidenceAttributeEstimateImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Range getRange() {
 		return range;
 	}
@@ -348,6 +358,7 @@ public class EvidenceAttributeEstimateImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRange(Range newRange) {
 		if (newRange != range) {
 			NotificationChain msgs = null;
@@ -367,6 +378,7 @@ public class EvidenceAttributeEstimateImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<EvidenceAttributeEstimate> getAttributeEstimate() {
 		if (attributeEstimate == null) {
 			attributeEstimate = new EObjectContainmentEList<EvidenceAttributeEstimate>(EvidenceAttributeEstimate.class, this, FhirPackage.EVIDENCE_ATTRIBUTE_ESTIMATE__ATTRIBUTE_ESTIMATE);

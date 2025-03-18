@@ -80,6 +80,7 @@ public class DeviceDefinitionDistributorImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -104,6 +105,7 @@ public class DeviceDefinitionDistributorImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -123,6 +125,7 @@ public class DeviceDefinitionDistributorImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getOrganizationReference() {
 		if (organizationReference == null) {
 			organizationReference = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.DEVICE_DEFINITION_DISTRIBUTOR__ORGANIZATION_REFERENCE);

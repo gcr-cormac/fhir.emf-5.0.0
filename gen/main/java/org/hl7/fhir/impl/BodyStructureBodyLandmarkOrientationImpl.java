@@ -100,6 +100,7 @@ public class BodyStructureBodyLandmarkOrientationImpl extends BackboneElementImp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getLandmarkDescription() {
 		if (landmarkDescription == null) {
 			landmarkDescription = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.BODY_STRUCTURE_BODY_LANDMARK_ORIENTATION__LANDMARK_DESCRIPTION);
@@ -112,6 +113,7 @@ public class BodyStructureBodyLandmarkOrientationImpl extends BackboneElementImp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getClockFacePosition() {
 		if (clockFacePosition == null) {
 			clockFacePosition = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.BODY_STRUCTURE_BODY_LANDMARK_ORIENTATION__CLOCK_FACE_POSITION);
@@ -124,6 +126,7 @@ public class BodyStructureBodyLandmarkOrientationImpl extends BackboneElementImp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<BodyStructureDistanceFromLandmark> getDistanceFromLandmark() {
 		if (distanceFromLandmark == null) {
 			distanceFromLandmark = new EObjectContainmentEList<BodyStructureDistanceFromLandmark>(BodyStructureDistanceFromLandmark.class, this, FhirPackage.BODY_STRUCTURE_BODY_LANDMARK_ORIENTATION__DISTANCE_FROM_LANDMARK);
@@ -136,6 +139,7 @@ public class BodyStructureBodyLandmarkOrientationImpl extends BackboneElementImp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getSurfaceOrientation() {
 		if (surfaceOrientation == null) {
 			surfaceOrientation = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.BODY_STRUCTURE_BODY_LANDMARK_ORIENTATION__SURFACE_ORIENTATION);

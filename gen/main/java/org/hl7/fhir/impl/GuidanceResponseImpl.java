@@ -243,6 +243,7 @@ public class GuidanceResponseImpl extends DomainResourceImpl implements Guidance
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Identifier getRequestIdentifier() {
 		return requestIdentifier;
 	}
@@ -267,6 +268,7 @@ public class GuidanceResponseImpl extends DomainResourceImpl implements Guidance
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRequestIdentifier(Identifier newRequestIdentifier) {
 		if (newRequestIdentifier != requestIdentifier) {
 			NotificationChain msgs = null;
@@ -286,6 +288,7 @@ public class GuidanceResponseImpl extends DomainResourceImpl implements Guidance
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.GUIDANCE_RESPONSE__IDENTIFIER);
@@ -298,6 +301,7 @@ public class GuidanceResponseImpl extends DomainResourceImpl implements Guidance
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getModuleUri() {
 		return moduleUri;
 	}
@@ -322,6 +326,7 @@ public class GuidanceResponseImpl extends DomainResourceImpl implements Guidance
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setModuleUri(Uri newModuleUri) {
 		if (newModuleUri != moduleUri) {
 			NotificationChain msgs = null;
@@ -341,6 +346,7 @@ public class GuidanceResponseImpl extends DomainResourceImpl implements Guidance
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getModuleCanonical() {
 		return moduleCanonical;
 	}
@@ -365,6 +371,7 @@ public class GuidanceResponseImpl extends DomainResourceImpl implements Guidance
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setModuleCanonical(Canonical newModuleCanonical) {
 		if (newModuleCanonical != moduleCanonical) {
 			NotificationChain msgs = null;
@@ -384,6 +391,7 @@ public class GuidanceResponseImpl extends DomainResourceImpl implements Guidance
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getModuleCodeableConcept() {
 		return moduleCodeableConcept;
 	}
@@ -408,6 +416,7 @@ public class GuidanceResponseImpl extends DomainResourceImpl implements Guidance
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setModuleCodeableConcept(CodeableConcept newModuleCodeableConcept) {
 		if (newModuleCodeableConcept != moduleCodeableConcept) {
 			NotificationChain msgs = null;
@@ -427,6 +436,7 @@ public class GuidanceResponseImpl extends DomainResourceImpl implements Guidance
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public GuidanceResponseStatus getStatus() {
 		return status;
 	}
@@ -451,6 +461,7 @@ public class GuidanceResponseImpl extends DomainResourceImpl implements Guidance
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(GuidanceResponseStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -470,6 +481,7 @@ public class GuidanceResponseImpl extends DomainResourceImpl implements Guidance
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubject() {
 		return subject;
 	}
@@ -494,6 +506,7 @@ public class GuidanceResponseImpl extends DomainResourceImpl implements Guidance
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubject(Reference newSubject) {
 		if (newSubject != subject) {
 			NotificationChain msgs = null;
@@ -513,6 +526,7 @@ public class GuidanceResponseImpl extends DomainResourceImpl implements Guidance
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getEncounter() {
 		return encounter;
 	}
@@ -537,6 +551,7 @@ public class GuidanceResponseImpl extends DomainResourceImpl implements Guidance
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEncounter(Reference newEncounter) {
 		if (newEncounter != encounter) {
 			NotificationChain msgs = null;
@@ -556,6 +571,7 @@ public class GuidanceResponseImpl extends DomainResourceImpl implements Guidance
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getOccurrenceDateTime() {
 		return occurrenceDateTime;
 	}
@@ -580,6 +596,7 @@ public class GuidanceResponseImpl extends DomainResourceImpl implements Guidance
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOccurrenceDateTime(DateTime newOccurrenceDateTime) {
 		if (newOccurrenceDateTime != occurrenceDateTime) {
 			NotificationChain msgs = null;
@@ -599,6 +616,7 @@ public class GuidanceResponseImpl extends DomainResourceImpl implements Guidance
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getPerformer() {
 		return performer;
 	}
@@ -623,6 +641,7 @@ public class GuidanceResponseImpl extends DomainResourceImpl implements Guidance
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPerformer(Reference newPerformer) {
 		if (newPerformer != performer) {
 			NotificationChain msgs = null;
@@ -642,6 +661,7 @@ public class GuidanceResponseImpl extends DomainResourceImpl implements Guidance
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getReason() {
 		if (reason == null) {
 			reason = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.GUIDANCE_RESPONSE__REASON);
@@ -654,6 +674,7 @@ public class GuidanceResponseImpl extends DomainResourceImpl implements Guidance
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.GUIDANCE_RESPONSE__NOTE);
@@ -666,6 +687,7 @@ public class GuidanceResponseImpl extends DomainResourceImpl implements Guidance
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getEvaluationMessage() {
 		return evaluationMessage;
 	}
@@ -690,6 +712,7 @@ public class GuidanceResponseImpl extends DomainResourceImpl implements Guidance
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEvaluationMessage(Reference newEvaluationMessage) {
 		if (newEvaluationMessage != evaluationMessage) {
 			NotificationChain msgs = null;
@@ -709,6 +732,7 @@ public class GuidanceResponseImpl extends DomainResourceImpl implements Guidance
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getOutputParameters() {
 		return outputParameters;
 	}
@@ -733,6 +757,7 @@ public class GuidanceResponseImpl extends DomainResourceImpl implements Guidance
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOutputParameters(Reference newOutputParameters) {
 		if (newOutputParameters != outputParameters) {
 			NotificationChain msgs = null;
@@ -752,6 +777,7 @@ public class GuidanceResponseImpl extends DomainResourceImpl implements Guidance
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getResult() {
 		if (result == null) {
 			result = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.GUIDANCE_RESPONSE__RESULT);
@@ -764,6 +790,7 @@ public class GuidanceResponseImpl extends DomainResourceImpl implements Guidance
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<DataRequirement> getDataRequirement() {
 		if (dataRequirement == null) {
 			dataRequirement = new EObjectContainmentEList<DataRequirement>(DataRequirement.class, this, FhirPackage.GUIDANCE_RESPONSE__DATA_REQUIREMENT);

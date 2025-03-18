@@ -79,6 +79,7 @@ public class EnableWhenBehaviorImpl extends ElementImpl implements EnableWhenBeh
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EnableWhenBehaviorEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class EnableWhenBehaviorImpl extends ElementImpl implements EnableWhenBeh
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(EnableWhenBehaviorEnum newValue) {
 		EnableWhenBehaviorEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class EnableWhenBehaviorImpl extends ElementImpl implements EnableWhenBeh
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		EnableWhenBehaviorEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class EnableWhenBehaviorImpl extends ElementImpl implements EnableWhenBeh
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

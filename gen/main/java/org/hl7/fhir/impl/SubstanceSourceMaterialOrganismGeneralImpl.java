@@ -95,6 +95,7 @@ public class SubstanceSourceMaterialOrganismGeneralImpl extends BackboneElementI
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getKingdom() {
 		return kingdom;
 	}
@@ -119,6 +120,7 @@ public class SubstanceSourceMaterialOrganismGeneralImpl extends BackboneElementI
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setKingdom(CodeableConcept newKingdom) {
 		if (newKingdom != kingdom) {
 			NotificationChain msgs = null;
@@ -138,6 +140,7 @@ public class SubstanceSourceMaterialOrganismGeneralImpl extends BackboneElementI
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getPhylum() {
 		return phylum;
 	}
@@ -162,6 +165,7 @@ public class SubstanceSourceMaterialOrganismGeneralImpl extends BackboneElementI
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPhylum(CodeableConcept newPhylum) {
 		if (newPhylum != phylum) {
 			NotificationChain msgs = null;
@@ -181,6 +185,7 @@ public class SubstanceSourceMaterialOrganismGeneralImpl extends BackboneElementI
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getClass_() {
 		return class_;
 	}
@@ -205,6 +210,7 @@ public class SubstanceSourceMaterialOrganismGeneralImpl extends BackboneElementI
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setClass(CodeableConcept newClass) {
 		if (newClass != class_) {
 			NotificationChain msgs = null;
@@ -224,6 +230,7 @@ public class SubstanceSourceMaterialOrganismGeneralImpl extends BackboneElementI
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getOrder() {
 		return order;
 	}
@@ -248,6 +255,7 @@ public class SubstanceSourceMaterialOrganismGeneralImpl extends BackboneElementI
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOrder(CodeableConcept newOrder) {
 		if (newOrder != order) {
 			NotificationChain msgs = null;

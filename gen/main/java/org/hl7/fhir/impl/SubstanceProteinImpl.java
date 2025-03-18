@@ -103,6 +103,7 @@ public class SubstanceProteinImpl extends DomainResourceImpl implements Substanc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getSequenceType() {
 		return sequenceType;
 	}
@@ -127,6 +128,7 @@ public class SubstanceProteinImpl extends DomainResourceImpl implements Substanc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSequenceType(CodeableConcept newSequenceType) {
 		if (newSequenceType != sequenceType) {
 			NotificationChain msgs = null;
@@ -146,6 +148,7 @@ public class SubstanceProteinImpl extends DomainResourceImpl implements Substanc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Integer getNumberOfSubunits() {
 		return numberOfSubunits;
 	}
@@ -170,6 +173,7 @@ public class SubstanceProteinImpl extends DomainResourceImpl implements Substanc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNumberOfSubunits(org.hl7.fhir.Integer newNumberOfSubunits) {
 		if (newNumberOfSubunits != numberOfSubunits) {
 			NotificationChain msgs = null;
@@ -189,6 +193,7 @@ public class SubstanceProteinImpl extends DomainResourceImpl implements Substanc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<org.hl7.fhir.String> getDisulfideLinkage() {
 		if (disulfideLinkage == null) {
 			disulfideLinkage = new EObjectContainmentEList<org.hl7.fhir.String>(org.hl7.fhir.String.class, this, FhirPackage.SUBSTANCE_PROTEIN__DISULFIDE_LINKAGE);
@@ -201,6 +206,7 @@ public class SubstanceProteinImpl extends DomainResourceImpl implements Substanc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SubstanceProteinSubunit> getSubunit() {
 		if (subunit == null) {
 			subunit = new EObjectContainmentEList<SubstanceProteinSubunit>(SubstanceProteinSubunit.class, this, FhirPackage.SUBSTANCE_PROTEIN__SUBUNIT);

@@ -279,6 +279,7 @@ public class InvoiceImpl extends DomainResourceImpl implements Invoice {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.INVOICE__IDENTIFIER);
@@ -291,6 +292,7 @@ public class InvoiceImpl extends DomainResourceImpl implements Invoice {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public InvoiceStatus getStatus() {
 		return status;
 	}
@@ -315,6 +317,7 @@ public class InvoiceImpl extends DomainResourceImpl implements Invoice {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(InvoiceStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -334,6 +337,7 @@ public class InvoiceImpl extends DomainResourceImpl implements Invoice {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getCancelledReason() {
 		return cancelledReason;
 	}
@@ -358,6 +362,7 @@ public class InvoiceImpl extends DomainResourceImpl implements Invoice {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCancelledReason(org.hl7.fhir.String newCancelledReason) {
 		if (newCancelledReason != cancelledReason) {
 			NotificationChain msgs = null;
@@ -377,6 +382,7 @@ public class InvoiceImpl extends DomainResourceImpl implements Invoice {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -401,6 +407,7 @@ public class InvoiceImpl extends DomainResourceImpl implements Invoice {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -420,6 +427,7 @@ public class InvoiceImpl extends DomainResourceImpl implements Invoice {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubject() {
 		return subject;
 	}
@@ -444,6 +452,7 @@ public class InvoiceImpl extends DomainResourceImpl implements Invoice {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubject(Reference newSubject) {
 		if (newSubject != subject) {
 			NotificationChain msgs = null;
@@ -463,6 +472,7 @@ public class InvoiceImpl extends DomainResourceImpl implements Invoice {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getRecipient() {
 		return recipient;
 	}
@@ -487,6 +497,7 @@ public class InvoiceImpl extends DomainResourceImpl implements Invoice {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRecipient(Reference newRecipient) {
 		if (newRecipient != recipient) {
 			NotificationChain msgs = null;
@@ -506,6 +517,7 @@ public class InvoiceImpl extends DomainResourceImpl implements Invoice {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getDate() {
 		return date;
 	}
@@ -530,6 +542,7 @@ public class InvoiceImpl extends DomainResourceImpl implements Invoice {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDate(DateTime newDate) {
 		if (newDate != date) {
 			NotificationChain msgs = null;
@@ -549,6 +562,7 @@ public class InvoiceImpl extends DomainResourceImpl implements Invoice {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getCreation() {
 		return creation;
 	}
@@ -573,6 +587,7 @@ public class InvoiceImpl extends DomainResourceImpl implements Invoice {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCreation(DateTime newCreation) {
 		if (newCreation != creation) {
 			NotificationChain msgs = null;
@@ -592,6 +607,7 @@ public class InvoiceImpl extends DomainResourceImpl implements Invoice {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getPeriodDate() {
 		return periodDate;
 	}
@@ -616,6 +632,7 @@ public class InvoiceImpl extends DomainResourceImpl implements Invoice {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriodDate(Date newPeriodDate) {
 		if (newPeriodDate != periodDate) {
 			NotificationChain msgs = null;
@@ -635,6 +652,7 @@ public class InvoiceImpl extends DomainResourceImpl implements Invoice {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getPeriodPeriod() {
 		return periodPeriod;
 	}
@@ -659,6 +677,7 @@ public class InvoiceImpl extends DomainResourceImpl implements Invoice {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriodPeriod(Period newPeriodPeriod) {
 		if (newPeriodPeriod != periodPeriod) {
 			NotificationChain msgs = null;
@@ -678,6 +697,7 @@ public class InvoiceImpl extends DomainResourceImpl implements Invoice {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<InvoiceParticipant> getParticipant() {
 		if (participant == null) {
 			participant = new EObjectContainmentEList<InvoiceParticipant>(InvoiceParticipant.class, this, FhirPackage.INVOICE__PARTICIPANT);
@@ -690,6 +710,7 @@ public class InvoiceImpl extends DomainResourceImpl implements Invoice {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getIssuer() {
 		return issuer;
 	}
@@ -714,6 +735,7 @@ public class InvoiceImpl extends DomainResourceImpl implements Invoice {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIssuer(Reference newIssuer) {
 		if (newIssuer != issuer) {
 			NotificationChain msgs = null;
@@ -733,6 +755,7 @@ public class InvoiceImpl extends DomainResourceImpl implements Invoice {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getAccount() {
 		return account;
 	}
@@ -757,6 +780,7 @@ public class InvoiceImpl extends DomainResourceImpl implements Invoice {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAccount(Reference newAccount) {
 		if (newAccount != account) {
 			NotificationChain msgs = null;
@@ -776,6 +800,7 @@ public class InvoiceImpl extends DomainResourceImpl implements Invoice {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<InvoiceLineItem> getLineItem() {
 		if (lineItem == null) {
 			lineItem = new EObjectContainmentEList<InvoiceLineItem>(InvoiceLineItem.class, this, FhirPackage.INVOICE__LINE_ITEM);
@@ -788,6 +813,7 @@ public class InvoiceImpl extends DomainResourceImpl implements Invoice {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MonetaryComponent> getTotalPriceComponent() {
 		if (totalPriceComponent == null) {
 			totalPriceComponent = new EObjectContainmentEList<MonetaryComponent>(MonetaryComponent.class, this, FhirPackage.INVOICE__TOTAL_PRICE_COMPONENT);
@@ -800,6 +826,7 @@ public class InvoiceImpl extends DomainResourceImpl implements Invoice {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Money getTotalNet() {
 		return totalNet;
 	}
@@ -824,6 +851,7 @@ public class InvoiceImpl extends DomainResourceImpl implements Invoice {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTotalNet(Money newTotalNet) {
 		if (newTotalNet != totalNet) {
 			NotificationChain msgs = null;
@@ -843,6 +871,7 @@ public class InvoiceImpl extends DomainResourceImpl implements Invoice {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Money getTotalGross() {
 		return totalGross;
 	}
@@ -867,6 +896,7 @@ public class InvoiceImpl extends DomainResourceImpl implements Invoice {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTotalGross(Money newTotalGross) {
 		if (newTotalGross != totalGross) {
 			NotificationChain msgs = null;
@@ -886,6 +916,7 @@ public class InvoiceImpl extends DomainResourceImpl implements Invoice {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getPaymentTerms() {
 		return paymentTerms;
 	}
@@ -910,6 +941,7 @@ public class InvoiceImpl extends DomainResourceImpl implements Invoice {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPaymentTerms(Markdown newPaymentTerms) {
 		if (newPaymentTerms != paymentTerms) {
 			NotificationChain msgs = null;
@@ -929,6 +961,7 @@ public class InvoiceImpl extends DomainResourceImpl implements Invoice {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.INVOICE__NOTE);

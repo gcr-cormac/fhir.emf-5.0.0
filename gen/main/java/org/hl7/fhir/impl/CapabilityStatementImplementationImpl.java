@@ -86,6 +86,7 @@ public class CapabilityStatementImplementationImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -110,6 +111,7 @@ public class CapabilityStatementImplementationImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -129,6 +131,7 @@ public class CapabilityStatementImplementationImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Url getUrl() {
 		return url;
 	}
@@ -153,6 +156,7 @@ public class CapabilityStatementImplementationImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUrl(Url newUrl) {
 		if (newUrl != url) {
 			NotificationChain msgs = null;
@@ -172,6 +176,7 @@ public class CapabilityStatementImplementationImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getCustodian() {
 		return custodian;
 	}
@@ -196,6 +201,7 @@ public class CapabilityStatementImplementationImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCustodian(Reference newCustodian) {
 		if (newCustodian != custodian) {
 			NotificationChain msgs = null;

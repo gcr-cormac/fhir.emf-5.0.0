@@ -79,6 +79,7 @@ public class ImagingStudyStatusImpl extends ElementImpl implements ImagingStudyS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ImagingStudyStatusEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ImagingStudyStatusImpl extends ElementImpl implements ImagingStudyS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ImagingStudyStatusEnum newValue) {
 		ImagingStudyStatusEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ImagingStudyStatusImpl extends ElementImpl implements ImagingStudyS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ImagingStudyStatusEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ImagingStudyStatusImpl extends ElementImpl implements ImagingStudyS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

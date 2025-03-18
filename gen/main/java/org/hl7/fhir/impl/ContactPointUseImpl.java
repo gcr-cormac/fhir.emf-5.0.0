@@ -79,6 +79,7 @@ public class ContactPointUseImpl extends ElementImpl implements ContactPointUse 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ContactPointUseEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ContactPointUseImpl extends ElementImpl implements ContactPointUse 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ContactPointUseEnum newValue) {
 		ContactPointUseEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ContactPointUseImpl extends ElementImpl implements ContactPointUse 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ContactPointUseEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ContactPointUseImpl extends ElementImpl implements ContactPointUse 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

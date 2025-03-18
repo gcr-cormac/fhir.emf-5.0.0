@@ -79,6 +79,7 @@ public class CompartmentTypeImpl extends ElementImpl implements CompartmentType 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CompartmentTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class CompartmentTypeImpl extends ElementImpl implements CompartmentType 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(CompartmentTypeEnum newValue) {
 		CompartmentTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class CompartmentTypeImpl extends ElementImpl implements CompartmentType 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		CompartmentTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class CompartmentTypeImpl extends ElementImpl implements CompartmentType 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

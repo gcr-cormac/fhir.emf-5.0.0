@@ -115,6 +115,7 @@ public class ResearchStudyAssociatedPartyImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -139,6 +140,7 @@ public class ResearchStudyAssociatedPartyImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -158,6 +160,7 @@ public class ResearchStudyAssociatedPartyImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getRole() {
 		return role;
 	}
@@ -182,6 +185,7 @@ public class ResearchStudyAssociatedPartyImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRole(CodeableConcept newRole) {
 		if (newRole != role) {
 			NotificationChain msgs = null;
@@ -201,6 +205,7 @@ public class ResearchStudyAssociatedPartyImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Period> getPeriod() {
 		if (period == null) {
 			period = new EObjectContainmentEList<Period>(Period.class, this, FhirPackage.RESEARCH_STUDY_ASSOCIATED_PARTY__PERIOD);
@@ -213,6 +218,7 @@ public class ResearchStudyAssociatedPartyImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getClassifier() {
 		if (classifier == null) {
 			classifier = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.RESEARCH_STUDY_ASSOCIATED_PARTY__CLASSIFIER);
@@ -225,6 +231,7 @@ public class ResearchStudyAssociatedPartyImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getParty() {
 		return party;
 	}
@@ -249,6 +256,7 @@ public class ResearchStudyAssociatedPartyImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setParty(Reference newParty) {
 		if (newParty != party) {
 			NotificationChain msgs = null;

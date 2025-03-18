@@ -127,6 +127,7 @@ public class ResearchStudyComparisonGroupImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Id getLinkId() {
 		return linkId;
 	}
@@ -151,6 +152,7 @@ public class ResearchStudyComparisonGroupImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLinkId(Id newLinkId) {
 		if (newLinkId != linkId) {
 			NotificationChain msgs = null;
@@ -170,6 +172,7 @@ public class ResearchStudyComparisonGroupImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -194,6 +197,7 @@ public class ResearchStudyComparisonGroupImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -213,6 +217,7 @@ public class ResearchStudyComparisonGroupImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -237,6 +242,7 @@ public class ResearchStudyComparisonGroupImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -256,6 +262,7 @@ public class ResearchStudyComparisonGroupImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -280,6 +287,7 @@ public class ResearchStudyComparisonGroupImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -299,6 +307,7 @@ public class ResearchStudyComparisonGroupImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getIntendedExposure() {
 		if (intendedExposure == null) {
 			intendedExposure = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.RESEARCH_STUDY_COMPARISON_GROUP__INTENDED_EXPOSURE);
@@ -311,6 +320,7 @@ public class ResearchStudyComparisonGroupImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getObservedGroup() {
 		return observedGroup;
 	}
@@ -335,6 +345,7 @@ public class ResearchStudyComparisonGroupImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setObservedGroup(Reference newObservedGroup) {
 		if (newObservedGroup != observedGroup) {
 			NotificationChain msgs = null;

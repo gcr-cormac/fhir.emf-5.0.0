@@ -161,6 +161,7 @@ public class DeviceAssociationImpl extends DomainResourceImpl implements DeviceA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.DEVICE_ASSOCIATION__IDENTIFIER);
@@ -173,6 +174,7 @@ public class DeviceAssociationImpl extends DomainResourceImpl implements DeviceA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getDevice() {
 		return device;
 	}
@@ -197,6 +199,7 @@ public class DeviceAssociationImpl extends DomainResourceImpl implements DeviceA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDevice(Reference newDevice) {
 		if (newDevice != device) {
 			NotificationChain msgs = null;
@@ -216,6 +219,7 @@ public class DeviceAssociationImpl extends DomainResourceImpl implements DeviceA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCategory() {
 		if (category == null) {
 			category = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.DEVICE_ASSOCIATION__CATEGORY);
@@ -228,6 +232,7 @@ public class DeviceAssociationImpl extends DomainResourceImpl implements DeviceA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getStatus() {
 		return status;
 	}
@@ -252,6 +257,7 @@ public class DeviceAssociationImpl extends DomainResourceImpl implements DeviceA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(CodeableConcept newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -271,6 +277,7 @@ public class DeviceAssociationImpl extends DomainResourceImpl implements DeviceA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getStatusReason() {
 		if (statusReason == null) {
 			statusReason = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.DEVICE_ASSOCIATION__STATUS_REASON);
@@ -283,6 +290,7 @@ public class DeviceAssociationImpl extends DomainResourceImpl implements DeviceA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubject() {
 		return subject;
 	}
@@ -307,6 +315,7 @@ public class DeviceAssociationImpl extends DomainResourceImpl implements DeviceA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubject(Reference newSubject) {
 		if (newSubject != subject) {
 			NotificationChain msgs = null;
@@ -326,6 +335,7 @@ public class DeviceAssociationImpl extends DomainResourceImpl implements DeviceA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getBodyStructure() {
 		return bodyStructure;
 	}
@@ -350,6 +360,7 @@ public class DeviceAssociationImpl extends DomainResourceImpl implements DeviceA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBodyStructure(Reference newBodyStructure) {
 		if (newBodyStructure != bodyStructure) {
 			NotificationChain msgs = null;
@@ -369,6 +380,7 @@ public class DeviceAssociationImpl extends DomainResourceImpl implements DeviceA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getPeriod() {
 		return period;
 	}
@@ -393,6 +405,7 @@ public class DeviceAssociationImpl extends DomainResourceImpl implements DeviceA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriod(Period newPeriod) {
 		if (newPeriod != period) {
 			NotificationChain msgs = null;
@@ -412,6 +425,7 @@ public class DeviceAssociationImpl extends DomainResourceImpl implements DeviceA
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<DeviceAssociationOperation> getOperation() {
 		if (operation == null) {
 			operation = new EObjectContainmentEList<DeviceAssociationOperation>(DeviceAssociationOperation.class, this, FhirPackage.DEVICE_ASSOCIATION__OPERATION);

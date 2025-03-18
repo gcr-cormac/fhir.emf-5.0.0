@@ -79,6 +79,7 @@ public class ConstraintSeverityImpl extends ElementImpl implements ConstraintSev
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ConstraintSeverityEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ConstraintSeverityImpl extends ElementImpl implements ConstraintSev
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ConstraintSeverityEnum newValue) {
 		ConstraintSeverityEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ConstraintSeverityImpl extends ElementImpl implements ConstraintSev
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ConstraintSeverityEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ConstraintSeverityImpl extends ElementImpl implements ConstraintSev
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

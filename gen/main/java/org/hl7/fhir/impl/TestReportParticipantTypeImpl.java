@@ -79,6 +79,7 @@ public class TestReportParticipantTypeImpl extends ElementImpl implements TestRe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TestReportParticipantTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class TestReportParticipantTypeImpl extends ElementImpl implements TestRe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(TestReportParticipantTypeEnum newValue) {
 		TestReportParticipantTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class TestReportParticipantTypeImpl extends ElementImpl implements TestRe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		TestReportParticipantTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class TestReportParticipantTypeImpl extends ElementImpl implements TestRe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

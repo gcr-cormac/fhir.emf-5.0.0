@@ -266,6 +266,7 @@ public class GenomicStudyAnalysisImpl extends BackboneElementImpl implements Gen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.GENOMIC_STUDY_ANALYSIS__IDENTIFIER);
@@ -278,6 +279,7 @@ public class GenomicStudyAnalysisImpl extends BackboneElementImpl implements Gen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getMethodType() {
 		if (methodType == null) {
 			methodType = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.GENOMIC_STUDY_ANALYSIS__METHOD_TYPE);
@@ -290,6 +292,7 @@ public class GenomicStudyAnalysisImpl extends BackboneElementImpl implements Gen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getChangeType() {
 		if (changeType == null) {
 			changeType = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.GENOMIC_STUDY_ANALYSIS__CHANGE_TYPE);
@@ -302,6 +305,7 @@ public class GenomicStudyAnalysisImpl extends BackboneElementImpl implements Gen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getGenomeBuild() {
 		return genomeBuild;
 	}
@@ -326,6 +330,7 @@ public class GenomicStudyAnalysisImpl extends BackboneElementImpl implements Gen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setGenomeBuild(CodeableConcept newGenomeBuild) {
 		if (newGenomeBuild != genomeBuild) {
 			NotificationChain msgs = null;
@@ -345,6 +350,7 @@ public class GenomicStudyAnalysisImpl extends BackboneElementImpl implements Gen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getInstantiatesCanonical() {
 		return instantiatesCanonical;
 	}
@@ -369,6 +375,7 @@ public class GenomicStudyAnalysisImpl extends BackboneElementImpl implements Gen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInstantiatesCanonical(Canonical newInstantiatesCanonical) {
 		if (newInstantiatesCanonical != instantiatesCanonical) {
 			NotificationChain msgs = null;
@@ -388,6 +395,7 @@ public class GenomicStudyAnalysisImpl extends BackboneElementImpl implements Gen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getInstantiatesUri() {
 		return instantiatesUri;
 	}
@@ -412,6 +420,7 @@ public class GenomicStudyAnalysisImpl extends BackboneElementImpl implements Gen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInstantiatesUri(Uri newInstantiatesUri) {
 		if (newInstantiatesUri != instantiatesUri) {
 			NotificationChain msgs = null;
@@ -431,6 +440,7 @@ public class GenomicStudyAnalysisImpl extends BackboneElementImpl implements Gen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getTitle() {
 		return title;
 	}
@@ -455,6 +465,7 @@ public class GenomicStudyAnalysisImpl extends BackboneElementImpl implements Gen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(org.hl7.fhir.String newTitle) {
 		if (newTitle != title) {
 			NotificationChain msgs = null;
@@ -474,6 +485,7 @@ public class GenomicStudyAnalysisImpl extends BackboneElementImpl implements Gen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getFocus() {
 		if (focus == null) {
 			focus = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.GENOMIC_STUDY_ANALYSIS__FOCUS);
@@ -486,6 +498,7 @@ public class GenomicStudyAnalysisImpl extends BackboneElementImpl implements Gen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getSpecimen() {
 		if (specimen == null) {
 			specimen = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.GENOMIC_STUDY_ANALYSIS__SPECIMEN);
@@ -498,6 +511,7 @@ public class GenomicStudyAnalysisImpl extends BackboneElementImpl implements Gen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getDate() {
 		return date;
 	}
@@ -522,6 +536,7 @@ public class GenomicStudyAnalysisImpl extends BackboneElementImpl implements Gen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDate(DateTime newDate) {
 		if (newDate != date) {
 			NotificationChain msgs = null;
@@ -541,6 +556,7 @@ public class GenomicStudyAnalysisImpl extends BackboneElementImpl implements Gen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.GENOMIC_STUDY_ANALYSIS__NOTE);
@@ -553,6 +569,7 @@ public class GenomicStudyAnalysisImpl extends BackboneElementImpl implements Gen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getProtocolPerformed() {
 		return protocolPerformed;
 	}
@@ -577,6 +594,7 @@ public class GenomicStudyAnalysisImpl extends BackboneElementImpl implements Gen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProtocolPerformed(Reference newProtocolPerformed) {
 		if (newProtocolPerformed != protocolPerformed) {
 			NotificationChain msgs = null;
@@ -596,6 +614,7 @@ public class GenomicStudyAnalysisImpl extends BackboneElementImpl implements Gen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getRegionsStudied() {
 		if (regionsStudied == null) {
 			regionsStudied = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.GENOMIC_STUDY_ANALYSIS__REGIONS_STUDIED);
@@ -608,6 +627,7 @@ public class GenomicStudyAnalysisImpl extends BackboneElementImpl implements Gen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getRegionsCalled() {
 		if (regionsCalled == null) {
 			regionsCalled = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.GENOMIC_STUDY_ANALYSIS__REGIONS_CALLED);
@@ -620,6 +640,7 @@ public class GenomicStudyAnalysisImpl extends BackboneElementImpl implements Gen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<GenomicStudyInput> getInput() {
 		if (input == null) {
 			input = new EObjectContainmentEList<GenomicStudyInput>(GenomicStudyInput.class, this, FhirPackage.GENOMIC_STUDY_ANALYSIS__INPUT);
@@ -632,6 +653,7 @@ public class GenomicStudyAnalysisImpl extends BackboneElementImpl implements Gen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<GenomicStudyOutput> getOutput() {
 		if (output == null) {
 			output = new EObjectContainmentEList<GenomicStudyOutput>(GenomicStudyOutput.class, this, FhirPackage.GENOMIC_STUDY_ANALYSIS__OUTPUT);
@@ -644,6 +666,7 @@ public class GenomicStudyAnalysisImpl extends BackboneElementImpl implements Gen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<GenomicStudyPerformer> getPerformer() {
 		if (performer == null) {
 			performer = new EObjectContainmentEList<GenomicStudyPerformer>(GenomicStudyPerformer.class, this, FhirPackage.GENOMIC_STUDY_ANALYSIS__PERFORMER);
@@ -656,6 +679,7 @@ public class GenomicStudyAnalysisImpl extends BackboneElementImpl implements Gen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<GenomicStudyDevice> getDevice() {
 		if (device == null) {
 			device = new EObjectContainmentEList<GenomicStudyDevice>(GenomicStudyDevice.class, this, FhirPackage.GENOMIC_STUDY_ANALYSIS__DEVICE);

@@ -149,6 +149,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public FeatureMap getMixed() {
 		if (mixed == null) {
 			mixed = new BasicFeatureMap(this, XhtmlPackage.FLOW__MIXED);
@@ -161,6 +162,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public FeatureMap getGroup() {
 		return (FeatureMap)getMixed().<FeatureMap.Entry>list(XhtmlPackage.eINSTANCE.getFlow_Group());
 	}
@@ -170,6 +172,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<PType> getP() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_P());
 	}
@@ -179,6 +182,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<H1Type> getH1() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_H1());
 	}
@@ -188,6 +192,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<H2Type> getH2() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_H2());
 	}
@@ -197,6 +202,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<H3Type> getH3() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_H3());
 	}
@@ -206,6 +212,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<H4Type> getH4() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_H4());
 	}
@@ -215,6 +222,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<H5Type> getH5() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_H5());
 	}
@@ -224,6 +232,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<H6Type> getH6() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_H6());
 	}
@@ -233,6 +242,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<DivType> getDiv() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_Div());
 	}
@@ -242,6 +252,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<UlType> getUl() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_Ul());
 	}
@@ -251,6 +262,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<OlType> getOl() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_Ol());
 	}
@@ -260,6 +272,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<DlType> getDl() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_Dl());
 	}
@@ -269,6 +282,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<PreType> getPre() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_Pre());
 	}
@@ -278,6 +292,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<HrType> getHr() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_Hr());
 	}
@@ -287,6 +302,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<BlockquoteType> getBlockquote() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_Blockquote());
 	}
@@ -296,6 +312,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<AddressType> getAddress() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_Address());
 	}
@@ -305,6 +322,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<TableType> getTable() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_Table());
 	}
@@ -314,6 +332,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<AType> getA() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_A());
 	}
@@ -323,6 +342,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<BrType> getBr() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_Br());
 	}
@@ -332,6 +352,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SpanType> getSpan() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_Span());
 	}
@@ -341,6 +362,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<BdoType> getBdo() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_Bdo());
 	}
@@ -350,6 +372,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MapType> getMap() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_Map());
 	}
@@ -359,6 +382,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ImgType> getImg() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_Img());
 	}
@@ -368,6 +392,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<TtType> getTt() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_Tt());
 	}
@@ -377,6 +402,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<IType> getI() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_I());
 	}
@@ -386,6 +412,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<BType> getB() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_B());
 	}
@@ -395,6 +422,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<BigType> getBig() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_Big());
 	}
@@ -404,6 +432,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SmallType> getSmall() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_Small());
 	}
@@ -413,6 +442,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<EmType> getEm() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_Em());
 	}
@@ -422,6 +452,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<StrongType> getStrong() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_Strong());
 	}
@@ -431,6 +462,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<DfnType> getDfn() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_Dfn());
 	}
@@ -440,6 +472,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeType> getCode() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_Code());
 	}
@@ -449,6 +482,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<QType> getQ() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_Q());
 	}
@@ -458,6 +492,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SampType> getSamp() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_Samp());
 	}
@@ -467,6 +502,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<KbdType> getKbd() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_Kbd());
 	}
@@ -476,6 +512,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<VarType> getVar() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_Var());
 	}
@@ -485,6 +522,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CiteType> getCite() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_Cite());
 	}
@@ -494,6 +532,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<AbbrType> getAbbr() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_Abbr());
 	}
@@ -503,6 +542,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<AcronymType> getAcronym() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_Acronym());
 	}
@@ -512,6 +552,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SubType> getSub() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_Sub());
 	}
@@ -521,6 +562,7 @@ public class FlowImpl extends MinimalEObjectImpl.Container implements Flow {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SupType> getSup() {
 		return getGroup().list(XhtmlPackage.eINSTANCE.getFlow_Sup());
 	}

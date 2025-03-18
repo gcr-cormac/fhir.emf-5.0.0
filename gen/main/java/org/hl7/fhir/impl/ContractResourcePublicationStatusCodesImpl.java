@@ -79,6 +79,7 @@ public class ContractResourcePublicationStatusCodesImpl extends ElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ContractResourcePublicationStatusCodesEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ContractResourcePublicationStatusCodesImpl extends ElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ContractResourcePublicationStatusCodesEnum newValue) {
 		ContractResourcePublicationStatusCodesEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ContractResourcePublicationStatusCodesImpl extends ElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ContractResourcePublicationStatusCodesEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ContractResourcePublicationStatusCodesImpl extends ElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

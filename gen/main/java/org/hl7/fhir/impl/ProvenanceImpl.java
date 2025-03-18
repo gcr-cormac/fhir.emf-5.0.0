@@ -221,6 +221,7 @@ public class ProvenanceImpl extends DomainResourceImpl implements Provenance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getTarget() {
 		if (target == null) {
 			target = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.PROVENANCE__TARGET);
@@ -233,6 +234,7 @@ public class ProvenanceImpl extends DomainResourceImpl implements Provenance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getOccurredPeriod() {
 		return occurredPeriod;
 	}
@@ -257,6 +259,7 @@ public class ProvenanceImpl extends DomainResourceImpl implements Provenance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOccurredPeriod(Period newOccurredPeriod) {
 		if (newOccurredPeriod != occurredPeriod) {
 			NotificationChain msgs = null;
@@ -276,6 +279,7 @@ public class ProvenanceImpl extends DomainResourceImpl implements Provenance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getOccurredDateTime() {
 		return occurredDateTime;
 	}
@@ -300,6 +304,7 @@ public class ProvenanceImpl extends DomainResourceImpl implements Provenance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOccurredDateTime(DateTime newOccurredDateTime) {
 		if (newOccurredDateTime != occurredDateTime) {
 			NotificationChain msgs = null;
@@ -319,6 +324,7 @@ public class ProvenanceImpl extends DomainResourceImpl implements Provenance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Instant getRecorded() {
 		return recorded;
 	}
@@ -343,6 +349,7 @@ public class ProvenanceImpl extends DomainResourceImpl implements Provenance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRecorded(Instant newRecorded) {
 		if (newRecorded != recorded) {
 			NotificationChain msgs = null;
@@ -362,6 +369,7 @@ public class ProvenanceImpl extends DomainResourceImpl implements Provenance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Uri> getPolicy() {
 		if (policy == null) {
 			policy = new EObjectContainmentEList<Uri>(Uri.class, this, FhirPackage.PROVENANCE__POLICY);
@@ -374,6 +382,7 @@ public class ProvenanceImpl extends DomainResourceImpl implements Provenance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getLocation() {
 		return location;
 	}
@@ -398,6 +407,7 @@ public class ProvenanceImpl extends DomainResourceImpl implements Provenance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLocation(Reference newLocation) {
 		if (newLocation != location) {
 			NotificationChain msgs = null;
@@ -417,6 +427,7 @@ public class ProvenanceImpl extends DomainResourceImpl implements Provenance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getAuthorization() {
 		if (authorization == null) {
 			authorization = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.PROVENANCE__AUTHORIZATION);
@@ -429,6 +440,7 @@ public class ProvenanceImpl extends DomainResourceImpl implements Provenance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getActivity() {
 		return activity;
 	}
@@ -453,6 +465,7 @@ public class ProvenanceImpl extends DomainResourceImpl implements Provenance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setActivity(CodeableConcept newActivity) {
 		if (newActivity != activity) {
 			NotificationChain msgs = null;
@@ -472,6 +485,7 @@ public class ProvenanceImpl extends DomainResourceImpl implements Provenance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getBasedOn() {
 		if (basedOn == null) {
 			basedOn = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.PROVENANCE__BASED_ON);
@@ -484,6 +498,7 @@ public class ProvenanceImpl extends DomainResourceImpl implements Provenance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getPatient() {
 		return patient;
 	}
@@ -508,6 +523,7 @@ public class ProvenanceImpl extends DomainResourceImpl implements Provenance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPatient(Reference newPatient) {
 		if (newPatient != patient) {
 			NotificationChain msgs = null;
@@ -527,6 +543,7 @@ public class ProvenanceImpl extends DomainResourceImpl implements Provenance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getEncounter() {
 		return encounter;
 	}
@@ -551,6 +568,7 @@ public class ProvenanceImpl extends DomainResourceImpl implements Provenance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEncounter(Reference newEncounter) {
 		if (newEncounter != encounter) {
 			NotificationChain msgs = null;
@@ -570,6 +588,7 @@ public class ProvenanceImpl extends DomainResourceImpl implements Provenance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ProvenanceAgent> getAgent() {
 		if (agent == null) {
 			agent = new EObjectContainmentEList<ProvenanceAgent>(ProvenanceAgent.class, this, FhirPackage.PROVENANCE__AGENT);
@@ -582,6 +601,7 @@ public class ProvenanceImpl extends DomainResourceImpl implements Provenance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ProvenanceEntity> getEntity() {
 		if (entity == null) {
 			entity = new EObjectContainmentEList<ProvenanceEntity>(ProvenanceEntity.class, this, FhirPackage.PROVENANCE__ENTITY);
@@ -594,6 +614,7 @@ public class ProvenanceImpl extends DomainResourceImpl implements Provenance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Signature> getSignature() {
 		if (signature == null) {
 			signature = new EObjectContainmentEList<Signature>(Signature.class, this, FhirPackage.PROVENANCE__SIGNATURE);

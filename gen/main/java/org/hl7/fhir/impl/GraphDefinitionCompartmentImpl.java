@@ -108,6 +108,7 @@ public class GraphDefinitionCompartmentImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public GraphCompartmentUse getUse() {
 		return use;
 	}
@@ -132,6 +133,7 @@ public class GraphDefinitionCompartmentImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUse(GraphCompartmentUse newUse) {
 		if (newUse != use) {
 			NotificationChain msgs = null;
@@ -151,6 +153,7 @@ public class GraphDefinitionCompartmentImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public GraphCompartmentRule getRule() {
 		return rule;
 	}
@@ -175,6 +178,7 @@ public class GraphDefinitionCompartmentImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRule(GraphCompartmentRule newRule) {
 		if (newRule != rule) {
 			NotificationChain msgs = null;
@@ -194,6 +198,7 @@ public class GraphDefinitionCompartmentImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CompartmentType getCode() {
 		return code;
 	}
@@ -218,6 +223,7 @@ public class GraphDefinitionCompartmentImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CompartmentType newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -237,6 +243,7 @@ public class GraphDefinitionCompartmentImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getExpression() {
 		return expression;
 	}
@@ -261,6 +268,7 @@ public class GraphDefinitionCompartmentImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExpression(org.hl7.fhir.String newExpression) {
 		if (newExpression != expression) {
 			NotificationChain msgs = null;
@@ -280,6 +288,7 @@ public class GraphDefinitionCompartmentImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDescription() {
 		return description;
 	}
@@ -304,6 +313,7 @@ public class GraphDefinitionCompartmentImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(org.hl7.fhir.String newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;

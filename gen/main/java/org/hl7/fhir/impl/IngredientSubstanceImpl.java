@@ -81,6 +81,7 @@ public class IngredientSubstanceImpl extends BackboneElementImpl implements Ingr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getCode() {
 		return code;
 	}
@@ -105,6 +106,7 @@ public class IngredientSubstanceImpl extends BackboneElementImpl implements Ingr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableReference newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -124,6 +126,7 @@ public class IngredientSubstanceImpl extends BackboneElementImpl implements Ingr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<IngredientStrength> getStrength() {
 		if (strength == null) {
 			strength = new EObjectContainmentEList<IngredientStrength>(IngredientStrength.class, this, FhirPackage.INGREDIENT_SUBSTANCE__STRENGTH);

@@ -78,6 +78,7 @@ public class EvidenceReportSubjectImpl extends BackboneElementImpl implements Ev
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<EvidenceReportCharacteristic> getCharacteristic() {
 		if (characteristic == null) {
 			characteristic = new EObjectContainmentEList<EvidenceReportCharacteristic>(EvidenceReportCharacteristic.class, this, FhirPackage.EVIDENCE_REPORT_SUBJECT__CHARACTERISTIC);
@@ -90,6 +91,7 @@ public class EvidenceReportSubjectImpl extends BackboneElementImpl implements Ev
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.EVIDENCE_REPORT_SUBJECT__NOTE);

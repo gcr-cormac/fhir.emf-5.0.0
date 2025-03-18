@@ -131,6 +131,7 @@ public class ConceptMapDependsOnImpl extends BackboneElementImpl implements Conc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Code getAttribute() {
 		return attribute;
 	}
@@ -155,6 +156,7 @@ public class ConceptMapDependsOnImpl extends BackboneElementImpl implements Conc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAttribute(Code newAttribute) {
 		if (newAttribute != attribute) {
 			NotificationChain msgs = null;
@@ -174,6 +176,7 @@ public class ConceptMapDependsOnImpl extends BackboneElementImpl implements Conc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Code getValueCode() {
 		return valueCode;
 	}
@@ -198,6 +201,7 @@ public class ConceptMapDependsOnImpl extends BackboneElementImpl implements Conc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueCode(Code newValueCode) {
 		if (newValueCode != valueCode) {
 			NotificationChain msgs = null;
@@ -217,6 +221,7 @@ public class ConceptMapDependsOnImpl extends BackboneElementImpl implements Conc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getValueCoding() {
 		return valueCoding;
 	}
@@ -241,6 +246,7 @@ public class ConceptMapDependsOnImpl extends BackboneElementImpl implements Conc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueCoding(Coding newValueCoding) {
 		if (newValueCoding != valueCoding) {
 			NotificationChain msgs = null;
@@ -260,6 +266,7 @@ public class ConceptMapDependsOnImpl extends BackboneElementImpl implements Conc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getValueString() {
 		return valueString;
 	}
@@ -284,6 +291,7 @@ public class ConceptMapDependsOnImpl extends BackboneElementImpl implements Conc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueString(org.hl7.fhir.String newValueString) {
 		if (newValueString != valueString) {
 			NotificationChain msgs = null;
@@ -303,6 +311,7 @@ public class ConceptMapDependsOnImpl extends BackboneElementImpl implements Conc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getValueBoolean() {
 		return valueBoolean;
 	}
@@ -327,6 +336,7 @@ public class ConceptMapDependsOnImpl extends BackboneElementImpl implements Conc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueBoolean(org.hl7.fhir.Boolean newValueBoolean) {
 		if (newValueBoolean != valueBoolean) {
 			NotificationChain msgs = null;
@@ -346,6 +356,7 @@ public class ConceptMapDependsOnImpl extends BackboneElementImpl implements Conc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getValueQuantity() {
 		return valueQuantity;
 	}
@@ -370,6 +381,7 @@ public class ConceptMapDependsOnImpl extends BackboneElementImpl implements Conc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueQuantity(Quantity newValueQuantity) {
 		if (newValueQuantity != valueQuantity) {
 			NotificationChain msgs = null;
@@ -389,6 +401,7 @@ public class ConceptMapDependsOnImpl extends BackboneElementImpl implements Conc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getValueSet() {
 		return valueSet;
 	}
@@ -413,6 +426,7 @@ public class ConceptMapDependsOnImpl extends BackboneElementImpl implements Conc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueSet(Canonical newValueSet) {
 		if (newValueSet != valueSet) {
 			NotificationChain msgs = null;

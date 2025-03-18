@@ -85,6 +85,7 @@ public class VerificationResultValidatorImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getOrganization() {
 		return organization;
 	}
@@ -109,6 +110,7 @@ public class VerificationResultValidatorImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOrganization(Reference newOrganization) {
 		if (newOrganization != organization) {
 			NotificationChain msgs = null;
@@ -128,6 +130,7 @@ public class VerificationResultValidatorImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getIdentityCertificate() {
 		return identityCertificate;
 	}
@@ -152,6 +155,7 @@ public class VerificationResultValidatorImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIdentityCertificate(org.hl7.fhir.String newIdentityCertificate) {
 		if (newIdentityCertificate != identityCertificate) {
 			NotificationChain msgs = null;
@@ -171,6 +175,7 @@ public class VerificationResultValidatorImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Signature getAttestationSignature() {
 		return attestationSignature;
 	}
@@ -195,6 +200,7 @@ public class VerificationResultValidatorImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAttestationSignature(Signature newAttestationSignature) {
 		if (newAttestationSignature != attestationSignature) {
 			NotificationChain msgs = null;

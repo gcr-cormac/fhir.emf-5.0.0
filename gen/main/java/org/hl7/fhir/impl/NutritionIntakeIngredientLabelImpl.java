@@ -74,6 +74,7 @@ public class NutritionIntakeIngredientLabelImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getNutrient() {
 		return nutrient;
 	}
@@ -98,6 +99,7 @@ public class NutritionIntakeIngredientLabelImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNutrient(CodeableReference newNutrient) {
 		if (newNutrient != nutrient) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class NutritionIntakeIngredientLabelImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getAmount() {
 		return amount;
 	}
@@ -141,6 +144,7 @@ public class NutritionIntakeIngredientLabelImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAmount(Quantity newAmount) {
 		if (newAmount != amount) {
 			NotificationChain msgs = null;

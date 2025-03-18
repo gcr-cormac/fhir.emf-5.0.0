@@ -79,6 +79,7 @@ public class SortDirectionImpl extends ElementImpl implements SortDirection {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SortDirectionEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class SortDirectionImpl extends ElementImpl implements SortDirection {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(SortDirectionEnum newValue) {
 		SortDirectionEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class SortDirectionImpl extends ElementImpl implements SortDirection {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		SortDirectionEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class SortDirectionImpl extends ElementImpl implements SortDirection {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

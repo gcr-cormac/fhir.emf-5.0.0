@@ -196,6 +196,7 @@ public class PaymentNoticeImpl extends DomainResourceImpl implements PaymentNoti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.PAYMENT_NOTICE__IDENTIFIER);
@@ -208,6 +209,7 @@ public class PaymentNoticeImpl extends DomainResourceImpl implements PaymentNoti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public FinancialResourceStatusCodes getStatus() {
 		return status;
 	}
@@ -232,6 +234,7 @@ public class PaymentNoticeImpl extends DomainResourceImpl implements PaymentNoti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(FinancialResourceStatusCodes newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -251,6 +254,7 @@ public class PaymentNoticeImpl extends DomainResourceImpl implements PaymentNoti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getRequest() {
 		return request;
 	}
@@ -275,6 +279,7 @@ public class PaymentNoticeImpl extends DomainResourceImpl implements PaymentNoti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRequest(Reference newRequest) {
 		if (newRequest != request) {
 			NotificationChain msgs = null;
@@ -294,6 +299,7 @@ public class PaymentNoticeImpl extends DomainResourceImpl implements PaymentNoti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getResponse() {
 		return response;
 	}
@@ -318,6 +324,7 @@ public class PaymentNoticeImpl extends DomainResourceImpl implements PaymentNoti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setResponse(Reference newResponse) {
 		if (newResponse != response) {
 			NotificationChain msgs = null;
@@ -337,6 +344,7 @@ public class PaymentNoticeImpl extends DomainResourceImpl implements PaymentNoti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getCreated() {
 		return created;
 	}
@@ -361,6 +369,7 @@ public class PaymentNoticeImpl extends DomainResourceImpl implements PaymentNoti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCreated(DateTime newCreated) {
 		if (newCreated != created) {
 			NotificationChain msgs = null;
@@ -380,6 +389,7 @@ public class PaymentNoticeImpl extends DomainResourceImpl implements PaymentNoti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getReporter() {
 		return reporter;
 	}
@@ -404,6 +414,7 @@ public class PaymentNoticeImpl extends DomainResourceImpl implements PaymentNoti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReporter(Reference newReporter) {
 		if (newReporter != reporter) {
 			NotificationChain msgs = null;
@@ -423,6 +434,7 @@ public class PaymentNoticeImpl extends DomainResourceImpl implements PaymentNoti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getPayment() {
 		return payment;
 	}
@@ -447,6 +459,7 @@ public class PaymentNoticeImpl extends DomainResourceImpl implements PaymentNoti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPayment(Reference newPayment) {
 		if (newPayment != payment) {
 			NotificationChain msgs = null;
@@ -466,6 +479,7 @@ public class PaymentNoticeImpl extends DomainResourceImpl implements PaymentNoti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getPaymentDate() {
 		return paymentDate;
 	}
@@ -490,6 +504,7 @@ public class PaymentNoticeImpl extends DomainResourceImpl implements PaymentNoti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPaymentDate(Date newPaymentDate) {
 		if (newPaymentDate != paymentDate) {
 			NotificationChain msgs = null;
@@ -509,6 +524,7 @@ public class PaymentNoticeImpl extends DomainResourceImpl implements PaymentNoti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getPayee() {
 		return payee;
 	}
@@ -533,6 +549,7 @@ public class PaymentNoticeImpl extends DomainResourceImpl implements PaymentNoti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPayee(Reference newPayee) {
 		if (newPayee != payee) {
 			NotificationChain msgs = null;
@@ -552,6 +569,7 @@ public class PaymentNoticeImpl extends DomainResourceImpl implements PaymentNoti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getRecipient() {
 		return recipient;
 	}
@@ -576,6 +594,7 @@ public class PaymentNoticeImpl extends DomainResourceImpl implements PaymentNoti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRecipient(Reference newRecipient) {
 		if (newRecipient != recipient) {
 			NotificationChain msgs = null;
@@ -595,6 +614,7 @@ public class PaymentNoticeImpl extends DomainResourceImpl implements PaymentNoti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Money getAmount() {
 		return amount;
 	}
@@ -619,6 +639,7 @@ public class PaymentNoticeImpl extends DomainResourceImpl implements PaymentNoti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAmount(Money newAmount) {
 		if (newAmount != amount) {
 			NotificationChain msgs = null;
@@ -638,6 +659,7 @@ public class PaymentNoticeImpl extends DomainResourceImpl implements PaymentNoti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getPaymentStatus() {
 		return paymentStatus;
 	}
@@ -662,6 +684,7 @@ public class PaymentNoticeImpl extends DomainResourceImpl implements PaymentNoti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPaymentStatus(CodeableConcept newPaymentStatus) {
 		if (newPaymentStatus != paymentStatus) {
 			NotificationChain msgs = null;

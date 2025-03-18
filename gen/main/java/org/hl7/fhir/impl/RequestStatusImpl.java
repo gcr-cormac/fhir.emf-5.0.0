@@ -79,6 +79,7 @@ public class RequestStatusImpl extends ElementImpl implements RequestStatus {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public RequestStatusEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class RequestStatusImpl extends ElementImpl implements RequestStatus {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(RequestStatusEnum newValue) {
 		RequestStatusEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class RequestStatusImpl extends ElementImpl implements RequestStatus {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		RequestStatusEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class RequestStatusImpl extends ElementImpl implements RequestStatus {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

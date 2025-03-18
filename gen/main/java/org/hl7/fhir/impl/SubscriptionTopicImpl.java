@@ -359,6 +359,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getUrl() {
 		return url;
 	}
@@ -383,6 +384,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUrl(Uri newUrl) {
 		if (newUrl != url) {
 			NotificationChain msgs = null;
@@ -402,6 +404,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.SUBSCRIPTION_TOPIC__IDENTIFIER);
@@ -414,6 +417,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersion() {
 		return version;
 	}
@@ -438,6 +442,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersion(org.hl7.fhir.String newVersion) {
 		if (newVersion != version) {
 			NotificationChain msgs = null;
@@ -457,6 +462,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersionAlgorithmString() {
 		return versionAlgorithmString;
 	}
@@ -481,6 +487,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersionAlgorithmString(org.hl7.fhir.String newVersionAlgorithmString) {
 		if (newVersionAlgorithmString != versionAlgorithmString) {
 			NotificationChain msgs = null;
@@ -500,6 +507,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getVersionAlgorithmCoding() {
 		return versionAlgorithmCoding;
 	}
@@ -524,6 +532,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersionAlgorithmCoding(Coding newVersionAlgorithmCoding) {
 		if (newVersionAlgorithmCoding != versionAlgorithmCoding) {
 			NotificationChain msgs = null;
@@ -543,6 +552,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -567,6 +577,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -586,6 +597,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getTitle() {
 		return title;
 	}
@@ -610,6 +622,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(org.hl7.fhir.String newTitle) {
 		if (newTitle != title) {
 			NotificationChain msgs = null;
@@ -629,6 +642,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Canonical> getDerivedFrom() {
 		if (derivedFrom == null) {
 			derivedFrom = new EObjectContainmentEList<Canonical>(Canonical.class, this, FhirPackage.SUBSCRIPTION_TOPIC__DERIVED_FROM);
@@ -641,6 +655,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PublicationStatus getStatus() {
 		return status;
 	}
@@ -665,6 +680,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(PublicationStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -684,6 +700,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getExperimental() {
 		return experimental;
 	}
@@ -708,6 +725,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExperimental(org.hl7.fhir.Boolean newExperimental) {
 		if (newExperimental != experimental) {
 			NotificationChain msgs = null;
@@ -727,6 +745,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getDate() {
 		return date;
 	}
@@ -751,6 +770,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDate(DateTime newDate) {
 		if (newDate != date) {
 			NotificationChain msgs = null;
@@ -770,6 +790,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPublisher() {
 		return publisher;
 	}
@@ -794,6 +815,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPublisher(org.hl7.fhir.String newPublisher) {
 		if (newPublisher != publisher) {
 			NotificationChain msgs = null;
@@ -813,6 +835,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getContact() {
 		if (contact == null) {
 			contact = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.SUBSCRIPTION_TOPIC__CONTACT);
@@ -825,6 +848,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -849,6 +873,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -868,6 +893,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<UsageContext> getUseContext() {
 		if (useContext == null) {
 			useContext = new EObjectContainmentEList<UsageContext>(UsageContext.class, this, FhirPackage.SUBSCRIPTION_TOPIC__USE_CONTEXT);
@@ -880,6 +906,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getJurisdiction() {
 		if (jurisdiction == null) {
 			jurisdiction = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.SUBSCRIPTION_TOPIC__JURISDICTION);
@@ -892,6 +919,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getPurpose() {
 		return purpose;
 	}
@@ -916,6 +944,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPurpose(Markdown newPurpose) {
 		if (newPurpose != purpose) {
 			NotificationChain msgs = null;
@@ -935,6 +964,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getCopyright() {
 		return copyright;
 	}
@@ -959,6 +989,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCopyright(Markdown newCopyright) {
 		if (newCopyright != copyright) {
 			NotificationChain msgs = null;
@@ -978,6 +1009,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getCopyrightLabel() {
 		return copyrightLabel;
 	}
@@ -1002,6 +1034,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCopyrightLabel(org.hl7.fhir.String newCopyrightLabel) {
 		if (newCopyrightLabel != copyrightLabel) {
 			NotificationChain msgs = null;
@@ -1021,6 +1054,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getApprovalDate() {
 		return approvalDate;
 	}
@@ -1045,6 +1079,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setApprovalDate(Date newApprovalDate) {
 		if (newApprovalDate != approvalDate) {
 			NotificationChain msgs = null;
@@ -1064,6 +1099,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getLastReviewDate() {
 		return lastReviewDate;
 	}
@@ -1088,6 +1124,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLastReviewDate(Date newLastReviewDate) {
 		if (newLastReviewDate != lastReviewDate) {
 			NotificationChain msgs = null;
@@ -1107,6 +1144,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getEffectivePeriod() {
 		return effectivePeriod;
 	}
@@ -1131,6 +1169,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEffectivePeriod(Period newEffectivePeriod) {
 		if (newEffectivePeriod != effectivePeriod) {
 			NotificationChain msgs = null;
@@ -1150,6 +1189,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SubscriptionTopicResourceTrigger> getResourceTrigger() {
 		if (resourceTrigger == null) {
 			resourceTrigger = new EObjectContainmentEList<SubscriptionTopicResourceTrigger>(SubscriptionTopicResourceTrigger.class, this, FhirPackage.SUBSCRIPTION_TOPIC__RESOURCE_TRIGGER);
@@ -1162,6 +1202,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SubscriptionTopicEventTrigger> getEventTrigger() {
 		if (eventTrigger == null) {
 			eventTrigger = new EObjectContainmentEList<SubscriptionTopicEventTrigger>(SubscriptionTopicEventTrigger.class, this, FhirPackage.SUBSCRIPTION_TOPIC__EVENT_TRIGGER);
@@ -1174,6 +1215,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SubscriptionTopicCanFilterBy> getCanFilterBy() {
 		if (canFilterBy == null) {
 			canFilterBy = new EObjectContainmentEList<SubscriptionTopicCanFilterBy>(SubscriptionTopicCanFilterBy.class, this, FhirPackage.SUBSCRIPTION_TOPIC__CAN_FILTER_BY);
@@ -1186,6 +1228,7 @@ public class SubscriptionTopicImpl extends CanonicalResourceImpl implements Subs
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SubscriptionTopicNotificationShape> getNotificationShape() {
 		if (notificationShape == null) {
 			notificationShape = new EObjectContainmentEList<SubscriptionTopicNotificationShape>(SubscriptionTopicNotificationShape.class, this, FhirPackage.SUBSCRIPTION_TOPIC__NOTIFICATION_SHAPE);

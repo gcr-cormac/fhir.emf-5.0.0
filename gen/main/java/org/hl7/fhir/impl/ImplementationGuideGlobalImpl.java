@@ -74,6 +74,7 @@ public class ImplementationGuideGlobalImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ResourceType getType() {
 		return type;
 	}
@@ -98,6 +99,7 @@ public class ImplementationGuideGlobalImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(ResourceType newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class ImplementationGuideGlobalImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getProfile() {
 		return profile;
 	}
@@ -141,6 +144,7 @@ public class ImplementationGuideGlobalImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProfile(Canonical newProfile) {
 		if (newProfile != profile) {
 			NotificationChain msgs = null;

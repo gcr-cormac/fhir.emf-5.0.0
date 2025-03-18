@@ -311,6 +311,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getUrl() {
 		return url;
 	}
@@ -335,6 +336,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUrl(Uri newUrl) {
 		if (newUrl != url) {
 			NotificationChain msgs = null;
@@ -354,6 +356,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.REQUIREMENTS__IDENTIFIER);
@@ -366,6 +369,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersion() {
 		return version;
 	}
@@ -390,6 +394,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersion(org.hl7.fhir.String newVersion) {
 		if (newVersion != version) {
 			NotificationChain msgs = null;
@@ -409,6 +414,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersionAlgorithmString() {
 		return versionAlgorithmString;
 	}
@@ -433,6 +439,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersionAlgorithmString(org.hl7.fhir.String newVersionAlgorithmString) {
 		if (newVersionAlgorithmString != versionAlgorithmString) {
 			NotificationChain msgs = null;
@@ -452,6 +459,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getVersionAlgorithmCoding() {
 		return versionAlgorithmCoding;
 	}
@@ -476,6 +484,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersionAlgorithmCoding(Coding newVersionAlgorithmCoding) {
 		if (newVersionAlgorithmCoding != versionAlgorithmCoding) {
 			NotificationChain msgs = null;
@@ -495,6 +504,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -519,6 +529,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -538,6 +549,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getTitle() {
 		return title;
 	}
@@ -562,6 +574,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(org.hl7.fhir.String newTitle) {
 		if (newTitle != title) {
 			NotificationChain msgs = null;
@@ -581,6 +594,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PublicationStatus getStatus() {
 		return status;
 	}
@@ -605,6 +619,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(PublicationStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -624,6 +639,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getExperimental() {
 		return experimental;
 	}
@@ -648,6 +664,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExperimental(org.hl7.fhir.Boolean newExperimental) {
 		if (newExperimental != experimental) {
 			NotificationChain msgs = null;
@@ -667,6 +684,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getDate() {
 		return date;
 	}
@@ -691,6 +709,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDate(DateTime newDate) {
 		if (newDate != date) {
 			NotificationChain msgs = null;
@@ -710,6 +729,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPublisher() {
 		return publisher;
 	}
@@ -734,6 +754,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPublisher(org.hl7.fhir.String newPublisher) {
 		if (newPublisher != publisher) {
 			NotificationChain msgs = null;
@@ -753,6 +774,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getContact() {
 		if (contact == null) {
 			contact = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.REQUIREMENTS__CONTACT);
@@ -765,6 +787,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -789,6 +812,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -808,6 +832,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<UsageContext> getUseContext() {
 		if (useContext == null) {
 			useContext = new EObjectContainmentEList<UsageContext>(UsageContext.class, this, FhirPackage.REQUIREMENTS__USE_CONTEXT);
@@ -820,6 +845,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getJurisdiction() {
 		if (jurisdiction == null) {
 			jurisdiction = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.REQUIREMENTS__JURISDICTION);
@@ -832,6 +858,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getPurpose() {
 		return purpose;
 	}
@@ -856,6 +883,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPurpose(Markdown newPurpose) {
 		if (newPurpose != purpose) {
 			NotificationChain msgs = null;
@@ -875,6 +903,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getCopyright() {
 		return copyright;
 	}
@@ -899,6 +928,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCopyright(Markdown newCopyright) {
 		if (newCopyright != copyright) {
 			NotificationChain msgs = null;
@@ -918,6 +948,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getCopyrightLabel() {
 		return copyrightLabel;
 	}
@@ -942,6 +973,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCopyrightLabel(org.hl7.fhir.String newCopyrightLabel) {
 		if (newCopyrightLabel != copyrightLabel) {
 			NotificationChain msgs = null;
@@ -961,6 +993,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Canonical> getDerivedFrom() {
 		if (derivedFrom == null) {
 			derivedFrom = new EObjectContainmentEList<Canonical>(Canonical.class, this, FhirPackage.REQUIREMENTS__DERIVED_FROM);
@@ -973,6 +1006,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Url> getReference() {
 		if (reference == null) {
 			reference = new EObjectContainmentEList<Url>(Url.class, this, FhirPackage.REQUIREMENTS__REFERENCE);
@@ -985,6 +1019,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Canonical> getActor() {
 		if (actor == null) {
 			actor = new EObjectContainmentEList<Canonical>(Canonical.class, this, FhirPackage.REQUIREMENTS__ACTOR);
@@ -997,6 +1032,7 @@ public class RequirementsImpl extends CanonicalResourceImpl implements Requireme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<RequirementsStatement> getStatement() {
 		if (statement == null) {
 			statement = new EObjectContainmentEList<RequirementsStatement>(RequirementsStatement.class, this, FhirPackage.REQUIREMENTS__STATEMENT);

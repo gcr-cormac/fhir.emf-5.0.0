@@ -185,6 +185,7 @@ public class MessageHeaderImpl extends DomainResourceImpl implements MessageHead
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getEventCoding() {
 		return eventCoding;
 	}
@@ -209,6 +210,7 @@ public class MessageHeaderImpl extends DomainResourceImpl implements MessageHead
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEventCoding(Coding newEventCoding) {
 		if (newEventCoding != eventCoding) {
 			NotificationChain msgs = null;
@@ -228,6 +230,7 @@ public class MessageHeaderImpl extends DomainResourceImpl implements MessageHead
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getEventCanonical() {
 		return eventCanonical;
 	}
@@ -252,6 +255,7 @@ public class MessageHeaderImpl extends DomainResourceImpl implements MessageHead
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEventCanonical(Canonical newEventCanonical) {
 		if (newEventCanonical != eventCanonical) {
 			NotificationChain msgs = null;
@@ -271,6 +275,7 @@ public class MessageHeaderImpl extends DomainResourceImpl implements MessageHead
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MessageHeaderDestination> getDestination() {
 		if (destination == null) {
 			destination = new EObjectContainmentEList<MessageHeaderDestination>(MessageHeaderDestination.class, this, FhirPackage.MESSAGE_HEADER__DESTINATION);
@@ -283,6 +288,7 @@ public class MessageHeaderImpl extends DomainResourceImpl implements MessageHead
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSender() {
 		return sender;
 	}
@@ -307,6 +313,7 @@ public class MessageHeaderImpl extends DomainResourceImpl implements MessageHead
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSender(Reference newSender) {
 		if (newSender != sender) {
 			NotificationChain msgs = null;
@@ -326,6 +333,7 @@ public class MessageHeaderImpl extends DomainResourceImpl implements MessageHead
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getAuthor() {
 		return author;
 	}
@@ -350,6 +358,7 @@ public class MessageHeaderImpl extends DomainResourceImpl implements MessageHead
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAuthor(Reference newAuthor) {
 		if (newAuthor != author) {
 			NotificationChain msgs = null;
@@ -369,6 +378,7 @@ public class MessageHeaderImpl extends DomainResourceImpl implements MessageHead
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public MessageHeaderSource getSource() {
 		return source;
 	}
@@ -393,6 +403,7 @@ public class MessageHeaderImpl extends DomainResourceImpl implements MessageHead
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSource(MessageHeaderSource newSource) {
 		if (newSource != source) {
 			NotificationChain msgs = null;
@@ -412,6 +423,7 @@ public class MessageHeaderImpl extends DomainResourceImpl implements MessageHead
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getResponsible() {
 		return responsible;
 	}
@@ -436,6 +448,7 @@ public class MessageHeaderImpl extends DomainResourceImpl implements MessageHead
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setResponsible(Reference newResponsible) {
 		if (newResponsible != responsible) {
 			NotificationChain msgs = null;
@@ -455,6 +468,7 @@ public class MessageHeaderImpl extends DomainResourceImpl implements MessageHead
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getReason() {
 		return reason;
 	}
@@ -479,6 +493,7 @@ public class MessageHeaderImpl extends DomainResourceImpl implements MessageHead
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReason(CodeableConcept newReason) {
 		if (newReason != reason) {
 			NotificationChain msgs = null;
@@ -498,6 +513,7 @@ public class MessageHeaderImpl extends DomainResourceImpl implements MessageHead
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public MessageHeaderResponse getResponse() {
 		return response;
 	}
@@ -522,6 +538,7 @@ public class MessageHeaderImpl extends DomainResourceImpl implements MessageHead
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setResponse(MessageHeaderResponse newResponse) {
 		if (newResponse != response) {
 			NotificationChain msgs = null;
@@ -541,6 +558,7 @@ public class MessageHeaderImpl extends DomainResourceImpl implements MessageHead
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getFocus() {
 		if (focus == null) {
 			focus = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.MESSAGE_HEADER__FOCUS);
@@ -553,6 +571,7 @@ public class MessageHeaderImpl extends DomainResourceImpl implements MessageHead
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getDefinition() {
 		return definition;
 	}
@@ -577,6 +596,7 @@ public class MessageHeaderImpl extends DomainResourceImpl implements MessageHead
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDefinition(Canonical newDefinition) {
 		if (newDefinition != definition) {
 			NotificationChain msgs = null;

@@ -104,6 +104,7 @@ public class ImplementationGuideResource1Impl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getReference() {
 		return reference;
 	}
@@ -128,6 +129,7 @@ public class ImplementationGuideResource1Impl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReference(Reference newReference) {
 		if (newReference != reference) {
 			NotificationChain msgs = null;
@@ -147,6 +149,7 @@ public class ImplementationGuideResource1Impl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getIsExample() {
 		return isExample;
 	}
@@ -171,6 +174,7 @@ public class ImplementationGuideResource1Impl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIsExample(org.hl7.fhir.Boolean newIsExample) {
 		if (newIsExample != isExample) {
 			NotificationChain msgs = null;
@@ -190,6 +194,7 @@ public class ImplementationGuideResource1Impl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Canonical> getProfile() {
 		if (profile == null) {
 			profile = new EObjectContainmentEList<Canonical>(Canonical.class, this, FhirPackage.IMPLEMENTATION_GUIDE_RESOURCE1__PROFILE);
@@ -202,6 +207,7 @@ public class ImplementationGuideResource1Impl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Url getRelativePath() {
 		return relativePath;
 	}
@@ -226,6 +232,7 @@ public class ImplementationGuideResource1Impl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRelativePath(Url newRelativePath) {
 		if (newRelativePath != relativePath) {
 			NotificationChain msgs = null;

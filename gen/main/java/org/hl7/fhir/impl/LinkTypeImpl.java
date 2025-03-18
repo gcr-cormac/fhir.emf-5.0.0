@@ -79,6 +79,7 @@ public class LinkTypeImpl extends ElementImpl implements LinkType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public LinkTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class LinkTypeImpl extends ElementImpl implements LinkType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(LinkTypeEnum newValue) {
 		LinkTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class LinkTypeImpl extends ElementImpl implements LinkType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		LinkTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class LinkTypeImpl extends ElementImpl implements LinkType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

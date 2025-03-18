@@ -74,6 +74,7 @@ public class TestScriptActionImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TestScriptOperation getOperation() {
 		return operation;
 	}
@@ -98,6 +99,7 @@ public class TestScriptActionImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOperation(TestScriptOperation newOperation) {
 		if (newOperation != operation) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class TestScriptActionImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TestScriptAssert getAssert() {
 		return assert_;
 	}
@@ -141,6 +144,7 @@ public class TestScriptActionImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAssert(TestScriptAssert newAssert) {
 		if (newAssert != assert_) {
 			NotificationChain msgs = null;

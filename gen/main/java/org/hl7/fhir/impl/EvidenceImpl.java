@@ -436,6 +436,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getUrl() {
 		return url;
 	}
@@ -460,6 +461,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUrl(Uri newUrl) {
 		if (newUrl != url) {
 			NotificationChain msgs = null;
@@ -479,6 +481,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.EVIDENCE__IDENTIFIER);
@@ -491,6 +494,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersion() {
 		return version;
 	}
@@ -515,6 +519,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersion(org.hl7.fhir.String newVersion) {
 		if (newVersion != version) {
 			NotificationChain msgs = null;
@@ -534,6 +539,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersionAlgorithmString() {
 		return versionAlgorithmString;
 	}
@@ -558,6 +564,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersionAlgorithmString(org.hl7.fhir.String newVersionAlgorithmString) {
 		if (newVersionAlgorithmString != versionAlgorithmString) {
 			NotificationChain msgs = null;
@@ -577,6 +584,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getVersionAlgorithmCoding() {
 		return versionAlgorithmCoding;
 	}
@@ -601,6 +609,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersionAlgorithmCoding(Coding newVersionAlgorithmCoding) {
 		if (newVersionAlgorithmCoding != versionAlgorithmCoding) {
 			NotificationChain msgs = null;
@@ -620,6 +629,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -644,6 +654,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -663,6 +674,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getTitle() {
 		return title;
 	}
@@ -687,6 +699,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(org.hl7.fhir.String newTitle) {
 		if (newTitle != title) {
 			NotificationChain msgs = null;
@@ -706,6 +719,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getCiteAsReference() {
 		return citeAsReference;
 	}
@@ -730,6 +744,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCiteAsReference(Reference newCiteAsReference) {
 		if (newCiteAsReference != citeAsReference) {
 			NotificationChain msgs = null;
@@ -749,6 +764,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getCiteAsMarkdown() {
 		return citeAsMarkdown;
 	}
@@ -773,6 +789,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCiteAsMarkdown(Markdown newCiteAsMarkdown) {
 		if (newCiteAsMarkdown != citeAsMarkdown) {
 			NotificationChain msgs = null;
@@ -792,6 +809,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PublicationStatus getStatus() {
 		return status;
 	}
@@ -816,6 +834,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(PublicationStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -835,6 +854,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getExperimental() {
 		return experimental;
 	}
@@ -859,6 +879,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExperimental(org.hl7.fhir.Boolean newExperimental) {
 		if (newExperimental != experimental) {
 			NotificationChain msgs = null;
@@ -878,6 +899,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getDate() {
 		return date;
 	}
@@ -902,6 +924,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDate(DateTime newDate) {
 		if (newDate != date) {
 			NotificationChain msgs = null;
@@ -921,6 +944,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getApprovalDate() {
 		return approvalDate;
 	}
@@ -945,6 +969,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setApprovalDate(Date newApprovalDate) {
 		if (newApprovalDate != approvalDate) {
 			NotificationChain msgs = null;
@@ -964,6 +989,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getLastReviewDate() {
 		return lastReviewDate;
 	}
@@ -988,6 +1014,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLastReviewDate(Date newLastReviewDate) {
 		if (newLastReviewDate != lastReviewDate) {
 			NotificationChain msgs = null;
@@ -1007,6 +1034,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPublisher() {
 		return publisher;
 	}
@@ -1031,6 +1059,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPublisher(org.hl7.fhir.String newPublisher) {
 		if (newPublisher != publisher) {
 			NotificationChain msgs = null;
@@ -1050,6 +1079,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getContact() {
 		if (contact == null) {
 			contact = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.EVIDENCE__CONTACT);
@@ -1062,6 +1092,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getAuthor() {
 		if (author == null) {
 			author = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.EVIDENCE__AUTHOR);
@@ -1074,6 +1105,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getEditor() {
 		if (editor == null) {
 			editor = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.EVIDENCE__EDITOR);
@@ -1086,6 +1118,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getReviewer() {
 		if (reviewer == null) {
 			reviewer = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.EVIDENCE__REVIEWER);
@@ -1098,6 +1131,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getEndorser() {
 		if (endorser == null) {
 			endorser = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.EVIDENCE__ENDORSER);
@@ -1110,6 +1144,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<UsageContext> getUseContext() {
 		if (useContext == null) {
 			useContext = new EObjectContainmentEList<UsageContext>(UsageContext.class, this, FhirPackage.EVIDENCE__USE_CONTEXT);
@@ -1122,6 +1157,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getPurpose() {
 		return purpose;
 	}
@@ -1146,6 +1182,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPurpose(Markdown newPurpose) {
 		if (newPurpose != purpose) {
 			NotificationChain msgs = null;
@@ -1165,6 +1202,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getCopyright() {
 		return copyright;
 	}
@@ -1189,6 +1227,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCopyright(Markdown newCopyright) {
 		if (newCopyright != copyright) {
 			NotificationChain msgs = null;
@@ -1208,6 +1247,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getCopyrightLabel() {
 		return copyrightLabel;
 	}
@@ -1232,6 +1272,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCopyrightLabel(org.hl7.fhir.String newCopyrightLabel) {
 		if (newCopyrightLabel != copyrightLabel) {
 			NotificationChain msgs = null;
@@ -1251,6 +1292,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<RelatedArtifact> getRelatedArtifact() {
 		if (relatedArtifact == null) {
 			relatedArtifact = new EObjectContainmentEList<RelatedArtifact>(RelatedArtifact.class, this, FhirPackage.EVIDENCE__RELATED_ARTIFACT);
@@ -1263,6 +1305,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -1287,6 +1330,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -1306,6 +1350,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getAssertion() {
 		return assertion;
 	}
@@ -1330,6 +1375,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAssertion(Markdown newAssertion) {
 		if (newAssertion != assertion) {
 			NotificationChain msgs = null;
@@ -1349,6 +1395,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.EVIDENCE__NOTE);
@@ -1361,6 +1408,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<EvidenceVariableDefinition> getVariableDefinition() {
 		if (variableDefinition == null) {
 			variableDefinition = new EObjectContainmentEList<EvidenceVariableDefinition>(EvidenceVariableDefinition.class, this, FhirPackage.EVIDENCE__VARIABLE_DEFINITION);
@@ -1373,6 +1421,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getSynthesisType() {
 		return synthesisType;
 	}
@@ -1397,6 +1446,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSynthesisType(CodeableConcept newSynthesisType) {
 		if (newSynthesisType != synthesisType) {
 			NotificationChain msgs = null;
@@ -1416,6 +1466,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getStudyDesign() {
 		if (studyDesign == null) {
 			studyDesign = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.EVIDENCE__STUDY_DESIGN);
@@ -1428,6 +1479,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<EvidenceStatistic> getStatistic() {
 		if (statistic == null) {
 			statistic = new EObjectContainmentEList<EvidenceStatistic>(EvidenceStatistic.class, this, FhirPackage.EVIDENCE__STATISTIC);
@@ -1440,6 +1492,7 @@ public class EvidenceImpl extends MetadataResourceImpl implements Evidence {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<EvidenceCertainty> getCertainty() {
 		if (certainty == null) {
 			certainty = new EObjectContainmentEList<EvidenceCertainty>(EvidenceCertainty.class, this, FhirPackage.EVIDENCE__CERTAINTY);

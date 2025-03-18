@@ -104,6 +104,7 @@ public class SubstanceReferenceInformationImpl extends DomainResourceImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getComment() {
 		return comment;
 	}
@@ -128,6 +129,7 @@ public class SubstanceReferenceInformationImpl extends DomainResourceImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setComment(org.hl7.fhir.String newComment) {
 		if (newComment != comment) {
 			NotificationChain msgs = null;
@@ -147,6 +149,7 @@ public class SubstanceReferenceInformationImpl extends DomainResourceImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SubstanceReferenceInformationGene> getGene() {
 		if (gene == null) {
 			gene = new EObjectContainmentEList<SubstanceReferenceInformationGene>(SubstanceReferenceInformationGene.class, this, FhirPackage.SUBSTANCE_REFERENCE_INFORMATION__GENE);
@@ -159,6 +162,7 @@ public class SubstanceReferenceInformationImpl extends DomainResourceImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SubstanceReferenceInformationGeneElement> getGeneElement() {
 		if (geneElement == null) {
 			geneElement = new EObjectContainmentEList<SubstanceReferenceInformationGeneElement>(SubstanceReferenceInformationGeneElement.class, this, FhirPackage.SUBSTANCE_REFERENCE_INFORMATION__GENE_ELEMENT);
@@ -171,6 +175,7 @@ public class SubstanceReferenceInformationImpl extends DomainResourceImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SubstanceReferenceInformationTarget> getTarget() {
 		if (target == null) {
 			target = new EObjectContainmentEList<SubstanceReferenceInformationTarget>(SubstanceReferenceInformationTarget.class, this, FhirPackage.SUBSTANCE_REFERENCE_INFORMATION__TARGET);

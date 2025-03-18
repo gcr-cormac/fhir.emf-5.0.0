@@ -131,6 +131,7 @@ public class MeasurePopulationImpl extends BackboneElementImpl implements Measur
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getLinkId() {
 		return linkId;
 	}
@@ -155,6 +156,7 @@ public class MeasurePopulationImpl extends BackboneElementImpl implements Measur
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLinkId(org.hl7.fhir.String newLinkId) {
 		if (newLinkId != linkId) {
 			NotificationChain msgs = null;
@@ -174,6 +176,7 @@ public class MeasurePopulationImpl extends BackboneElementImpl implements Measur
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -198,6 +201,7 @@ public class MeasurePopulationImpl extends BackboneElementImpl implements Measur
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -217,6 +221,7 @@ public class MeasurePopulationImpl extends BackboneElementImpl implements Measur
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -241,6 +246,7 @@ public class MeasurePopulationImpl extends BackboneElementImpl implements Measur
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -260,6 +266,7 @@ public class MeasurePopulationImpl extends BackboneElementImpl implements Measur
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Expression getCriteria() {
 		return criteria;
 	}
@@ -284,6 +291,7 @@ public class MeasurePopulationImpl extends BackboneElementImpl implements Measur
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCriteria(Expression newCriteria) {
 		if (newCriteria != criteria) {
 			NotificationChain msgs = null;
@@ -303,6 +311,7 @@ public class MeasurePopulationImpl extends BackboneElementImpl implements Measur
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getGroupDefinition() {
 		return groupDefinition;
 	}
@@ -327,6 +336,7 @@ public class MeasurePopulationImpl extends BackboneElementImpl implements Measur
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setGroupDefinition(Reference newGroupDefinition) {
 		if (newGroupDefinition != groupDefinition) {
 			NotificationChain msgs = null;
@@ -346,6 +356,7 @@ public class MeasurePopulationImpl extends BackboneElementImpl implements Measur
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getInputPopulationId() {
 		return inputPopulationId;
 	}
@@ -370,6 +381,7 @@ public class MeasurePopulationImpl extends BackboneElementImpl implements Measur
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInputPopulationId(org.hl7.fhir.String newInputPopulationId) {
 		if (newInputPopulationId != inputPopulationId) {
 			NotificationChain msgs = null;
@@ -389,6 +401,7 @@ public class MeasurePopulationImpl extends BackboneElementImpl implements Measur
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getAggregateMethod() {
 		return aggregateMethod;
 	}
@@ -413,6 +426,7 @@ public class MeasurePopulationImpl extends BackboneElementImpl implements Measur
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAggregateMethod(CodeableConcept newAggregateMethod) {
 		if (newAggregateMethod != aggregateMethod) {
 			NotificationChain msgs = null;

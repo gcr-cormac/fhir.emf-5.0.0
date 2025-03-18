@@ -138,6 +138,7 @@ public class SubstancePolymerImpl extends DomainResourceImpl implements Substanc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Identifier getIdentifier() {
 		return identifier;
 	}
@@ -162,6 +163,7 @@ public class SubstancePolymerImpl extends DomainResourceImpl implements Substanc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIdentifier(Identifier newIdentifier) {
 		if (newIdentifier != identifier) {
 			NotificationChain msgs = null;
@@ -181,6 +183,7 @@ public class SubstancePolymerImpl extends DomainResourceImpl implements Substanc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getClass_() {
 		return class_;
 	}
@@ -205,6 +208,7 @@ public class SubstancePolymerImpl extends DomainResourceImpl implements Substanc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setClass(CodeableConcept newClass) {
 		if (newClass != class_) {
 			NotificationChain msgs = null;
@@ -224,6 +228,7 @@ public class SubstancePolymerImpl extends DomainResourceImpl implements Substanc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getGeometry() {
 		return geometry;
 	}
@@ -248,6 +253,7 @@ public class SubstancePolymerImpl extends DomainResourceImpl implements Substanc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setGeometry(CodeableConcept newGeometry) {
 		if (newGeometry != geometry) {
 			NotificationChain msgs = null;
@@ -267,6 +273,7 @@ public class SubstancePolymerImpl extends DomainResourceImpl implements Substanc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCopolymerConnectivity() {
 		if (copolymerConnectivity == null) {
 			copolymerConnectivity = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.SUBSTANCE_POLYMER__COPOLYMER_CONNECTIVITY);
@@ -279,6 +286,7 @@ public class SubstancePolymerImpl extends DomainResourceImpl implements Substanc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getModification() {
 		return modification;
 	}
@@ -303,6 +311,7 @@ public class SubstancePolymerImpl extends DomainResourceImpl implements Substanc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setModification(org.hl7.fhir.String newModification) {
 		if (newModification != modification) {
 			NotificationChain msgs = null;
@@ -322,6 +331,7 @@ public class SubstancePolymerImpl extends DomainResourceImpl implements Substanc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SubstancePolymerMonomerSet> getMonomerSet() {
 		if (monomerSet == null) {
 			monomerSet = new EObjectContainmentEList<SubstancePolymerMonomerSet>(SubstancePolymerMonomerSet.class, this, FhirPackage.SUBSTANCE_POLYMER__MONOMER_SET);
@@ -334,6 +344,7 @@ public class SubstancePolymerImpl extends DomainResourceImpl implements Substanc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SubstancePolymerRepeat> getRepeat() {
 		if (repeat == null) {
 			repeat = new EObjectContainmentEList<SubstancePolymerRepeat>(SubstancePolymerRepeat.class, this, FhirPackage.SUBSTANCE_POLYMER__REPEAT);

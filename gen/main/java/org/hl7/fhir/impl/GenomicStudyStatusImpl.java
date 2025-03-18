@@ -79,6 +79,7 @@ public class GenomicStudyStatusImpl extends ElementImpl implements GenomicStudyS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public GenomicStudyStatusEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class GenomicStudyStatusImpl extends ElementImpl implements GenomicStudyS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(GenomicStudyStatusEnum newValue) {
 		GenomicStudyStatusEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class GenomicStudyStatusImpl extends ElementImpl implements GenomicStudyS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		GenomicStudyStatusEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class GenomicStudyStatusImpl extends ElementImpl implements GenomicStudyS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

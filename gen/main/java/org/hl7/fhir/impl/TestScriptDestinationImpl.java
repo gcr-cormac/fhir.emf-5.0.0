@@ -85,6 +85,7 @@ public class TestScriptDestinationImpl extends BackboneElementImpl implements Te
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Integer getIndex() {
 		return index;
 	}
@@ -109,6 +110,7 @@ public class TestScriptDestinationImpl extends BackboneElementImpl implements Te
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIndex(org.hl7.fhir.Integer newIndex) {
 		if (newIndex != index) {
 			NotificationChain msgs = null;
@@ -128,6 +130,7 @@ public class TestScriptDestinationImpl extends BackboneElementImpl implements Te
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getProfile() {
 		return profile;
 	}
@@ -152,6 +155,7 @@ public class TestScriptDestinationImpl extends BackboneElementImpl implements Te
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProfile(Coding newProfile) {
 		if (newProfile != profile) {
 			NotificationChain msgs = null;
@@ -171,6 +175,7 @@ public class TestScriptDestinationImpl extends BackboneElementImpl implements Te
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Url getUrl() {
 		return url;
 	}
@@ -195,6 +200,7 @@ public class TestScriptDestinationImpl extends BackboneElementImpl implements Te
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUrl(Url newUrl) {
 		if (newUrl != url) {
 			NotificationChain msgs = null;

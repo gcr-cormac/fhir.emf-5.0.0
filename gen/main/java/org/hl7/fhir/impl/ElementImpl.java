@@ -92,6 +92,7 @@ public class ElementImpl extends BaseImpl implements Element {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Extension> getExtension() {
 		if (extension == null) {
 			extension = new EObjectContainmentEList<Extension>(Extension.class, this, FhirPackage.ELEMENT__EXTENSION);
@@ -104,6 +105,7 @@ public class ElementImpl extends BaseImpl implements Element {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getId() {
 		return id;
 	}
@@ -113,6 +115,7 @@ public class ElementImpl extends BaseImpl implements Element {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setId(String newId) {
 		String oldId = id;
 		id = newId;

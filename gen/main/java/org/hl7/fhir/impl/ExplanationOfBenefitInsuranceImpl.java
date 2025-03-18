@@ -91,6 +91,7 @@ public class ExplanationOfBenefitInsuranceImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getFocal() {
 		return focal;
 	}
@@ -115,6 +116,7 @@ public class ExplanationOfBenefitInsuranceImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFocal(org.hl7.fhir.Boolean newFocal) {
 		if (newFocal != focal) {
 			NotificationChain msgs = null;
@@ -134,6 +136,7 @@ public class ExplanationOfBenefitInsuranceImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getCoverage() {
 		return coverage;
 	}
@@ -158,6 +161,7 @@ public class ExplanationOfBenefitInsuranceImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCoverage(Reference newCoverage) {
 		if (newCoverage != coverage) {
 			NotificationChain msgs = null;
@@ -177,6 +181,7 @@ public class ExplanationOfBenefitInsuranceImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<org.hl7.fhir.String> getPreAuthRef() {
 		if (preAuthRef == null) {
 			preAuthRef = new EObjectContainmentEList<org.hl7.fhir.String>(org.hl7.fhir.String.class, this, FhirPackage.EXPLANATION_OF_BENEFIT_INSURANCE__PRE_AUTH_REF);

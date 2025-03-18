@@ -74,6 +74,7 @@ public class MedicationKnowledgeMonographImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -98,6 +99,7 @@ public class MedicationKnowledgeMonographImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class MedicationKnowledgeMonographImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSource() {
 		return source;
 	}
@@ -141,6 +144,7 @@ public class MedicationKnowledgeMonographImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSource(Reference newSource) {
 		if (newSource != source) {
 			NotificationChain msgs = null;

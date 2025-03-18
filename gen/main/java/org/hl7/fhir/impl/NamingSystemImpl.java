@@ -423,6 +423,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getUrl() {
 		return url;
 	}
@@ -447,6 +448,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUrl(Uri newUrl) {
 		if (newUrl != url) {
 			NotificationChain msgs = null;
@@ -466,6 +468,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.NAMING_SYSTEM__IDENTIFIER);
@@ -478,6 +481,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersion() {
 		return version;
 	}
@@ -502,6 +506,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersion(org.hl7.fhir.String newVersion) {
 		if (newVersion != version) {
 			NotificationChain msgs = null;
@@ -521,6 +526,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersionAlgorithmString() {
 		return versionAlgorithmString;
 	}
@@ -545,6 +551,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersionAlgorithmString(org.hl7.fhir.String newVersionAlgorithmString) {
 		if (newVersionAlgorithmString != versionAlgorithmString) {
 			NotificationChain msgs = null;
@@ -564,6 +571,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getVersionAlgorithmCoding() {
 		return versionAlgorithmCoding;
 	}
@@ -588,6 +596,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersionAlgorithmCoding(Coding newVersionAlgorithmCoding) {
 		if (newVersionAlgorithmCoding != versionAlgorithmCoding) {
 			NotificationChain msgs = null;
@@ -607,6 +616,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -631,6 +641,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -650,6 +661,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getTitle() {
 		return title;
 	}
@@ -674,6 +686,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(org.hl7.fhir.String newTitle) {
 		if (newTitle != title) {
 			NotificationChain msgs = null;
@@ -693,6 +706,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PublicationStatus getStatus() {
 		return status;
 	}
@@ -717,6 +731,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(PublicationStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -736,6 +751,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public NamingSystemType getKind() {
 		return kind;
 	}
@@ -760,6 +776,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setKind(NamingSystemType newKind) {
 		if (newKind != kind) {
 			NotificationChain msgs = null;
@@ -779,6 +796,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getExperimental() {
 		return experimental;
 	}
@@ -803,6 +821,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExperimental(org.hl7.fhir.Boolean newExperimental) {
 		if (newExperimental != experimental) {
 			NotificationChain msgs = null;
@@ -822,6 +841,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getDate() {
 		return date;
 	}
@@ -846,6 +866,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDate(DateTime newDate) {
 		if (newDate != date) {
 			NotificationChain msgs = null;
@@ -865,6 +886,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPublisher() {
 		return publisher;
 	}
@@ -889,6 +911,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPublisher(org.hl7.fhir.String newPublisher) {
 		if (newPublisher != publisher) {
 			NotificationChain msgs = null;
@@ -908,6 +931,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getContact() {
 		if (contact == null) {
 			contact = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.NAMING_SYSTEM__CONTACT);
@@ -920,6 +944,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getResponsible() {
 		return responsible;
 	}
@@ -944,6 +969,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setResponsible(org.hl7.fhir.String newResponsible) {
 		if (newResponsible != responsible) {
 			NotificationChain msgs = null;
@@ -963,6 +989,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -987,6 +1014,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -1006,6 +1034,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -1030,6 +1059,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -1049,6 +1079,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<UsageContext> getUseContext() {
 		if (useContext == null) {
 			useContext = new EObjectContainmentEList<UsageContext>(UsageContext.class, this, FhirPackage.NAMING_SYSTEM__USE_CONTEXT);
@@ -1061,6 +1092,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getJurisdiction() {
 		if (jurisdiction == null) {
 			jurisdiction = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.NAMING_SYSTEM__JURISDICTION);
@@ -1073,6 +1105,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getPurpose() {
 		return purpose;
 	}
@@ -1097,6 +1130,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPurpose(Markdown newPurpose) {
 		if (newPurpose != purpose) {
 			NotificationChain msgs = null;
@@ -1116,6 +1150,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getCopyright() {
 		return copyright;
 	}
@@ -1140,6 +1175,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCopyright(Markdown newCopyright) {
 		if (newCopyright != copyright) {
 			NotificationChain msgs = null;
@@ -1159,6 +1195,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getCopyrightLabel() {
 		return copyrightLabel;
 	}
@@ -1183,6 +1220,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCopyrightLabel(org.hl7.fhir.String newCopyrightLabel) {
 		if (newCopyrightLabel != copyrightLabel) {
 			NotificationChain msgs = null;
@@ -1202,6 +1240,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getApprovalDate() {
 		return approvalDate;
 	}
@@ -1226,6 +1265,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setApprovalDate(Date newApprovalDate) {
 		if (newApprovalDate != approvalDate) {
 			NotificationChain msgs = null;
@@ -1245,6 +1285,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getLastReviewDate() {
 		return lastReviewDate;
 	}
@@ -1269,6 +1310,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLastReviewDate(Date newLastReviewDate) {
 		if (newLastReviewDate != lastReviewDate) {
 			NotificationChain msgs = null;
@@ -1288,6 +1330,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getEffectivePeriod() {
 		return effectivePeriod;
 	}
@@ -1312,6 +1355,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEffectivePeriod(Period newEffectivePeriod) {
 		if (newEffectivePeriod != effectivePeriod) {
 			NotificationChain msgs = null;
@@ -1331,6 +1375,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getTopic() {
 		if (topic == null) {
 			topic = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.NAMING_SYSTEM__TOPIC);
@@ -1343,6 +1388,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getAuthor() {
 		if (author == null) {
 			author = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.NAMING_SYSTEM__AUTHOR);
@@ -1355,6 +1401,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getEditor() {
 		if (editor == null) {
 			editor = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.NAMING_SYSTEM__EDITOR);
@@ -1367,6 +1414,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getReviewer() {
 		if (reviewer == null) {
 			reviewer = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.NAMING_SYSTEM__REVIEWER);
@@ -1379,6 +1427,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getEndorser() {
 		if (endorser == null) {
 			endorser = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.NAMING_SYSTEM__ENDORSER);
@@ -1391,6 +1440,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<RelatedArtifact> getRelatedArtifact() {
 		if (relatedArtifact == null) {
 			relatedArtifact = new EObjectContainmentEList<RelatedArtifact>(RelatedArtifact.class, this, FhirPackage.NAMING_SYSTEM__RELATED_ARTIFACT);
@@ -1403,6 +1453,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getUsage() {
 		return usage;
 	}
@@ -1427,6 +1478,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUsage(org.hl7.fhir.String newUsage) {
 		if (newUsage != usage) {
 			NotificationChain msgs = null;
@@ -1446,6 +1498,7 @@ public class NamingSystemImpl extends MetadataResourceImpl implements NamingSyst
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<NamingSystemUniqueId> getUniqueId() {
 		if (uniqueId == null) {
 			uniqueId = new EObjectContainmentEList<NamingSystemUniqueId>(NamingSystemUniqueId.class, this, FhirPackage.NAMING_SYSTEM__UNIQUE_ID);

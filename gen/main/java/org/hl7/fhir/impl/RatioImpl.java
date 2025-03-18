@@ -73,6 +73,7 @@ public class RatioImpl extends DataTypeImpl implements Ratio {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getNumerator() {
 		return numerator;
 	}
@@ -97,6 +98,7 @@ public class RatioImpl extends DataTypeImpl implements Ratio {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNumerator(Quantity newNumerator) {
 		if (newNumerator != numerator) {
 			NotificationChain msgs = null;
@@ -116,6 +118,7 @@ public class RatioImpl extends DataTypeImpl implements Ratio {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getDenominator() {
 		return denominator;
 	}
@@ -140,6 +143,7 @@ public class RatioImpl extends DataTypeImpl implements Ratio {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDenominator(Quantity newDenominator) {
 		if (newDenominator != denominator) {
 			NotificationChain msgs = null;

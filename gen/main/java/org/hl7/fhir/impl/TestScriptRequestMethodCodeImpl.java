@@ -79,6 +79,7 @@ public class TestScriptRequestMethodCodeImpl extends ElementImpl implements Test
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TestScriptRequestMethodCodeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class TestScriptRequestMethodCodeImpl extends ElementImpl implements Test
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(TestScriptRequestMethodCodeEnum newValue) {
 		TestScriptRequestMethodCodeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class TestScriptRequestMethodCodeImpl extends ElementImpl implements Test
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		TestScriptRequestMethodCodeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class TestScriptRequestMethodCodeImpl extends ElementImpl implements Test
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

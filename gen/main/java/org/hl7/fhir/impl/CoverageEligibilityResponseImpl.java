@@ -256,6 +256,7 @@ public class CoverageEligibilityResponseImpl extends DomainResourceImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.COVERAGE_ELIGIBILITY_RESPONSE__IDENTIFIER);
@@ -268,6 +269,7 @@ public class CoverageEligibilityResponseImpl extends DomainResourceImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public FinancialResourceStatusCodes getStatus() {
 		return status;
 	}
@@ -292,6 +294,7 @@ public class CoverageEligibilityResponseImpl extends DomainResourceImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(FinancialResourceStatusCodes newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -311,6 +314,7 @@ public class CoverageEligibilityResponseImpl extends DomainResourceImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<EligibilityResponsePurpose> getPurpose() {
 		if (purpose == null) {
 			purpose = new EObjectContainmentEList<EligibilityResponsePurpose>(EligibilityResponsePurpose.class, this, FhirPackage.COVERAGE_ELIGIBILITY_RESPONSE__PURPOSE);
@@ -323,6 +327,7 @@ public class CoverageEligibilityResponseImpl extends DomainResourceImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getPatient() {
 		return patient;
 	}
@@ -347,6 +352,7 @@ public class CoverageEligibilityResponseImpl extends DomainResourceImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPatient(Reference newPatient) {
 		if (newPatient != patient) {
 			NotificationChain msgs = null;
@@ -366,6 +372,7 @@ public class CoverageEligibilityResponseImpl extends DomainResourceImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CoverageEligibilityResponseEvent> getEvent() {
 		if (event == null) {
 			event = new EObjectContainmentEList<CoverageEligibilityResponseEvent>(CoverageEligibilityResponseEvent.class, this, FhirPackage.COVERAGE_ELIGIBILITY_RESPONSE__EVENT);
@@ -378,6 +385,7 @@ public class CoverageEligibilityResponseImpl extends DomainResourceImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getServicedDate() {
 		return servicedDate;
 	}
@@ -402,6 +410,7 @@ public class CoverageEligibilityResponseImpl extends DomainResourceImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setServicedDate(Date newServicedDate) {
 		if (newServicedDate != servicedDate) {
 			NotificationChain msgs = null;
@@ -421,6 +430,7 @@ public class CoverageEligibilityResponseImpl extends DomainResourceImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getServicedPeriod() {
 		return servicedPeriod;
 	}
@@ -445,6 +455,7 @@ public class CoverageEligibilityResponseImpl extends DomainResourceImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setServicedPeriod(Period newServicedPeriod) {
 		if (newServicedPeriod != servicedPeriod) {
 			NotificationChain msgs = null;
@@ -464,6 +475,7 @@ public class CoverageEligibilityResponseImpl extends DomainResourceImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getCreated() {
 		return created;
 	}
@@ -488,6 +500,7 @@ public class CoverageEligibilityResponseImpl extends DomainResourceImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCreated(DateTime newCreated) {
 		if (newCreated != created) {
 			NotificationChain msgs = null;
@@ -507,6 +520,7 @@ public class CoverageEligibilityResponseImpl extends DomainResourceImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getRequestor() {
 		return requestor;
 	}
@@ -531,6 +545,7 @@ public class CoverageEligibilityResponseImpl extends DomainResourceImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRequestor(Reference newRequestor) {
 		if (newRequestor != requestor) {
 			NotificationChain msgs = null;
@@ -550,6 +565,7 @@ public class CoverageEligibilityResponseImpl extends DomainResourceImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getRequest() {
 		return request;
 	}
@@ -574,6 +590,7 @@ public class CoverageEligibilityResponseImpl extends DomainResourceImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRequest(Reference newRequest) {
 		if (newRequest != request) {
 			NotificationChain msgs = null;
@@ -593,6 +610,7 @@ public class CoverageEligibilityResponseImpl extends DomainResourceImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EligibilityOutcome getOutcome() {
 		return outcome;
 	}
@@ -617,6 +635,7 @@ public class CoverageEligibilityResponseImpl extends DomainResourceImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOutcome(EligibilityOutcome newOutcome) {
 		if (newOutcome != outcome) {
 			NotificationChain msgs = null;
@@ -636,6 +655,7 @@ public class CoverageEligibilityResponseImpl extends DomainResourceImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDisposition() {
 		return disposition;
 	}
@@ -660,6 +680,7 @@ public class CoverageEligibilityResponseImpl extends DomainResourceImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDisposition(org.hl7.fhir.String newDisposition) {
 		if (newDisposition != disposition) {
 			NotificationChain msgs = null;
@@ -679,6 +700,7 @@ public class CoverageEligibilityResponseImpl extends DomainResourceImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getInsurer() {
 		return insurer;
 	}
@@ -703,6 +725,7 @@ public class CoverageEligibilityResponseImpl extends DomainResourceImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInsurer(Reference newInsurer) {
 		if (newInsurer != insurer) {
 			NotificationChain msgs = null;
@@ -722,6 +745,7 @@ public class CoverageEligibilityResponseImpl extends DomainResourceImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CoverageEligibilityResponseInsurance> getInsurance() {
 		if (insurance == null) {
 			insurance = new EObjectContainmentEList<CoverageEligibilityResponseInsurance>(CoverageEligibilityResponseInsurance.class, this, FhirPackage.COVERAGE_ELIGIBILITY_RESPONSE__INSURANCE);
@@ -734,6 +758,7 @@ public class CoverageEligibilityResponseImpl extends DomainResourceImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPreAuthRef() {
 		return preAuthRef;
 	}
@@ -758,6 +783,7 @@ public class CoverageEligibilityResponseImpl extends DomainResourceImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPreAuthRef(org.hl7.fhir.String newPreAuthRef) {
 		if (newPreAuthRef != preAuthRef) {
 			NotificationChain msgs = null;
@@ -777,6 +803,7 @@ public class CoverageEligibilityResponseImpl extends DomainResourceImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getForm() {
 		return form;
 	}
@@ -801,6 +828,7 @@ public class CoverageEligibilityResponseImpl extends DomainResourceImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setForm(CodeableConcept newForm) {
 		if (newForm != form) {
 			NotificationChain msgs = null;
@@ -820,6 +848,7 @@ public class CoverageEligibilityResponseImpl extends DomainResourceImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CoverageEligibilityResponseError> getError() {
 		if (error == null) {
 			error = new EObjectContainmentEList<CoverageEligibilityResponseError>(CoverageEligibilityResponseError.class, this, FhirPackage.COVERAGE_ELIGIBILITY_RESPONSE__ERROR);

@@ -116,6 +116,7 @@ public class ElementDefinitionTypeImpl extends BackboneTypeImpl implements Eleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getCode() {
 		return code;
 	}
@@ -140,6 +141,7 @@ public class ElementDefinitionTypeImpl extends BackboneTypeImpl implements Eleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(Uri newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -159,6 +161,7 @@ public class ElementDefinitionTypeImpl extends BackboneTypeImpl implements Eleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Canonical> getProfile() {
 		if (profile == null) {
 			profile = new EObjectContainmentEList<Canonical>(Canonical.class, this, FhirPackage.ELEMENT_DEFINITION_TYPE__PROFILE);
@@ -171,6 +174,7 @@ public class ElementDefinitionTypeImpl extends BackboneTypeImpl implements Eleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Canonical> getTargetProfile() {
 		if (targetProfile == null) {
 			targetProfile = new EObjectContainmentEList<Canonical>(Canonical.class, this, FhirPackage.ELEMENT_DEFINITION_TYPE__TARGET_PROFILE);
@@ -183,6 +187,7 @@ public class ElementDefinitionTypeImpl extends BackboneTypeImpl implements Eleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<AggregationMode> getAggregation() {
 		if (aggregation == null) {
 			aggregation = new EObjectContainmentEList<AggregationMode>(AggregationMode.class, this, FhirPackage.ELEMENT_DEFINITION_TYPE__AGGREGATION);
@@ -195,6 +200,7 @@ public class ElementDefinitionTypeImpl extends BackboneTypeImpl implements Eleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ReferenceVersionRules getVersioning() {
 		return versioning;
 	}
@@ -219,6 +225,7 @@ public class ElementDefinitionTypeImpl extends BackboneTypeImpl implements Eleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersioning(ReferenceVersionRules newVersioning) {
 		if (newVersioning != versioning) {
 			NotificationChain msgs = null;

@@ -79,6 +79,7 @@ public class KindImpl extends ElementImpl implements Kind {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public KindEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class KindImpl extends ElementImpl implements Kind {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(KindEnum newValue) {
 		KindEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class KindImpl extends ElementImpl implements Kind {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		KindEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class KindImpl extends ElementImpl implements Kind {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

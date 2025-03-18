@@ -198,6 +198,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public FeatureMap getMixed() {
 		if (mixed == null) {
 			mixed = new BasicFeatureMap(this, XhtmlPackage.DOCUMENT_ROOT__MIXED);
@@ -210,6 +211,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EMap<String, String> getXMLNSPrefixMap() {
 		if (xMLNSPrefixMap == null) {
 			xMLNSPrefixMap = new EcoreEMap<String,String>(EcorePackage.Literals.ESTRING_TO_STRING_MAP_ENTRY, EStringToStringMapEntryImpl.class, this, XhtmlPackage.DOCUMENT_ROOT__XMLNS_PREFIX_MAP);
@@ -222,6 +224,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EMap<String, String> getXSISchemaLocation() {
 		if (xSISchemaLocation == null) {
 			xSISchemaLocation = new EcoreEMap<String,String>(EcorePackage.Literals.ESTRING_TO_STRING_MAP_ENTRY, EStringToStringMapEntryImpl.class, this, XhtmlPackage.DOCUMENT_ROOT__XSI_SCHEMA_LOCATION);
@@ -234,6 +237,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AType getA() {
 		return (AType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_A(), true);
 	}
@@ -252,6 +256,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setA(AType newA) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_A(), newA);
 	}
@@ -261,6 +266,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AbbrType getAbbr() {
 		return (AbbrType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Abbr(), true);
 	}
@@ -279,6 +285,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAbbr(AbbrType newAbbr) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Abbr(), newAbbr);
 	}
@@ -288,6 +295,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AcronymType getAcronym() {
 		return (AcronymType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Acronym(), true);
 	}
@@ -306,6 +314,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAcronym(AcronymType newAcronym) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Acronym(), newAcronym);
 	}
@@ -315,6 +324,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AddressType getAddress() {
 		return (AddressType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Address(), true);
 	}
@@ -333,6 +343,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAddress(AddressType newAddress) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Address(), newAddress);
 	}
@@ -342,6 +353,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AreaType getArea() {
 		return (AreaType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Area(), true);
 	}
@@ -360,6 +372,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setArea(AreaType newArea) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Area(), newArea);
 	}
@@ -369,6 +382,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public BType getB() {
 		return (BType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_B(), true);
 	}
@@ -387,6 +401,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setB(BType newB) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_B(), newB);
 	}
@@ -396,6 +411,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public BdoType getBdo() {
 		return (BdoType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Bdo(), true);
 	}
@@ -414,6 +430,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBdo(BdoType newBdo) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Bdo(), newBdo);
 	}
@@ -423,6 +440,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public BigType getBig() {
 		return (BigType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Big(), true);
 	}
@@ -441,6 +459,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBig(BigType newBig) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Big(), newBig);
 	}
@@ -450,6 +469,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public BlockquoteType getBlockquote() {
 		return (BlockquoteType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Blockquote(), true);
 	}
@@ -468,6 +488,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBlockquote(BlockquoteType newBlockquote) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Blockquote(), newBlockquote);
 	}
@@ -477,6 +498,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public BrType getBr() {
 		return (BrType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Br(), true);
 	}
@@ -495,6 +517,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBr(BrType newBr) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Br(), newBr);
 	}
@@ -504,6 +527,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CaptionType getCaption() {
 		return (CaptionType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Caption(), true);
 	}
@@ -522,6 +546,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCaption(CaptionType newCaption) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Caption(), newCaption);
 	}
@@ -531,6 +556,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CiteType getCite() {
 		return (CiteType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Cite(), true);
 	}
@@ -549,6 +575,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCite(CiteType newCite) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Cite(), newCite);
 	}
@@ -558,6 +585,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeType getCode() {
 		return (CodeType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Code(), true);
 	}
@@ -576,6 +604,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeType newCode) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Code(), newCode);
 	}
@@ -585,6 +614,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ColType getCol() {
 		return (ColType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Col(), true);
 	}
@@ -603,6 +633,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCol(ColType newCol) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Col(), newCol);
 	}
@@ -612,6 +643,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ColgroupType getColgroup() {
 		return (ColgroupType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Colgroup(), true);
 	}
@@ -630,6 +662,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setColgroup(ColgroupType newColgroup) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Colgroup(), newColgroup);
 	}
@@ -639,6 +672,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DdType getDd() {
 		return (DdType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Dd(), true);
 	}
@@ -657,6 +691,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDd(DdType newDd) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Dd(), newDd);
 	}
@@ -666,6 +701,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DfnType getDfn() {
 		return (DfnType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Dfn(), true);
 	}
@@ -684,6 +720,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDfn(DfnType newDfn) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Dfn(), newDfn);
 	}
@@ -693,6 +730,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DivType getDiv() {
 		return (DivType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Div(), true);
 	}
@@ -711,6 +749,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDiv(DivType newDiv) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Div(), newDiv);
 	}
@@ -720,6 +759,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DlType getDl() {
 		return (DlType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Dl(), true);
 	}
@@ -738,6 +778,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDl(DlType newDl) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Dl(), newDl);
 	}
@@ -747,6 +788,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DtType getDt() {
 		return (DtType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Dt(), true);
 	}
@@ -765,6 +807,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDt(DtType newDt) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Dt(), newDt);
 	}
@@ -774,6 +817,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EmType getEm() {
 		return (EmType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Em(), true);
 	}
@@ -792,6 +836,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEm(EmType newEm) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Em(), newEm);
 	}
@@ -801,6 +846,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public H1Type getH1() {
 		return (H1Type)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_H1(), true);
 	}
@@ -819,6 +865,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setH1(H1Type newH1) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_H1(), newH1);
 	}
@@ -828,6 +875,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public H2Type getH2() {
 		return (H2Type)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_H2(), true);
 	}
@@ -846,6 +894,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setH2(H2Type newH2) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_H2(), newH2);
 	}
@@ -855,6 +904,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public H3Type getH3() {
 		return (H3Type)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_H3(), true);
 	}
@@ -873,6 +923,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setH3(H3Type newH3) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_H3(), newH3);
 	}
@@ -882,6 +933,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public H4Type getH4() {
 		return (H4Type)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_H4(), true);
 	}
@@ -900,6 +952,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setH4(H4Type newH4) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_H4(), newH4);
 	}
@@ -909,6 +962,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public H5Type getH5() {
 		return (H5Type)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_H5(), true);
 	}
@@ -927,6 +981,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setH5(H5Type newH5) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_H5(), newH5);
 	}
@@ -936,6 +991,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public H6Type getH6() {
 		return (H6Type)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_H6(), true);
 	}
@@ -954,6 +1010,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setH6(H6Type newH6) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_H6(), newH6);
 	}
@@ -963,6 +1020,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public HrType getHr() {
 		return (HrType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Hr(), true);
 	}
@@ -981,6 +1039,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setHr(HrType newHr) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Hr(), newHr);
 	}
@@ -990,6 +1049,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public IType getI() {
 		return (IType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_I(), true);
 	}
@@ -1008,6 +1068,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setI(IType newI) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_I(), newI);
 	}
@@ -1017,6 +1078,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ImgType getImg() {
 		return (ImgType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Img(), true);
 	}
@@ -1035,6 +1097,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setImg(ImgType newImg) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Img(), newImg);
 	}
@@ -1044,6 +1107,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public KbdType getKbd() {
 		return (KbdType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Kbd(), true);
 	}
@@ -1062,6 +1126,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setKbd(KbdType newKbd) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Kbd(), newKbd);
 	}
@@ -1071,6 +1136,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public LiType getLi() {
 		return (LiType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Li(), true);
 	}
@@ -1089,6 +1155,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLi(LiType newLi) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Li(), newLi);
 	}
@@ -1098,6 +1165,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public MapType getMap() {
 		return (MapType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Map(), true);
 	}
@@ -1116,6 +1184,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMap(MapType newMap) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Map(), newMap);
 	}
@@ -1125,6 +1194,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public OlType getOl() {
 		return (OlType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Ol(), true);
 	}
@@ -1143,6 +1213,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOl(OlType newOl) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Ol(), newOl);
 	}
@@ -1152,6 +1223,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PType getP() {
 		return (PType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_P(), true);
 	}
@@ -1170,6 +1242,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setP(PType newP) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_P(), newP);
 	}
@@ -1179,6 +1252,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PreType getPre() {
 		return (PreType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Pre(), true);
 	}
@@ -1197,6 +1271,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPre(PreType newPre) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Pre(), newPre);
 	}
@@ -1206,6 +1281,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public QType getQ() {
 		return (QType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Q(), true);
 	}
@@ -1224,6 +1300,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setQ(QType newQ) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Q(), newQ);
 	}
@@ -1233,6 +1310,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SampType getSamp() {
 		return (SampType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Samp(), true);
 	}
@@ -1251,6 +1329,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSamp(SampType newSamp) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Samp(), newSamp);
 	}
@@ -1260,6 +1339,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SmallType getSmall() {
 		return (SmallType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Small(), true);
 	}
@@ -1278,6 +1358,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSmall(SmallType newSmall) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Small(), newSmall);
 	}
@@ -1287,6 +1368,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SpanType getSpan() {
 		return (SpanType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Span(), true);
 	}
@@ -1305,6 +1387,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSpan(SpanType newSpan) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Span(), newSpan);
 	}
@@ -1314,6 +1397,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public StrongType getStrong() {
 		return (StrongType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Strong(), true);
 	}
@@ -1332,6 +1416,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStrong(StrongType newStrong) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Strong(), newStrong);
 	}
@@ -1341,6 +1426,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SubType getSub() {
 		return (SubType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Sub(), true);
 	}
@@ -1359,6 +1445,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSub(SubType newSub) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Sub(), newSub);
 	}
@@ -1368,6 +1455,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SupType getSup() {
 		return (SupType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Sup(), true);
 	}
@@ -1386,6 +1474,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSup(SupType newSup) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Sup(), newSup);
 	}
@@ -1395,6 +1484,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TableType getTable() {
 		return (TableType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Table(), true);
 	}
@@ -1413,6 +1503,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTable(TableType newTable) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Table(), newTable);
 	}
@@ -1422,6 +1513,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TbodyType getTbody() {
 		return (TbodyType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Tbody(), true);
 	}
@@ -1440,6 +1532,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTbody(TbodyType newTbody) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Tbody(), newTbody);
 	}
@@ -1449,6 +1542,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TdType getTd() {
 		return (TdType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Td(), true);
 	}
@@ -1467,6 +1561,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTd(TdType newTd) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Td(), newTd);
 	}
@@ -1476,6 +1571,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TfootType getTfoot() {
 		return (TfootType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Tfoot(), true);
 	}
@@ -1494,6 +1590,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTfoot(TfootType newTfoot) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Tfoot(), newTfoot);
 	}
@@ -1503,6 +1600,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ThType getTh() {
 		return (ThType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Th(), true);
 	}
@@ -1521,6 +1619,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTh(ThType newTh) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Th(), newTh);
 	}
@@ -1530,6 +1629,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TheadType getThead() {
 		return (TheadType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Thead(), true);
 	}
@@ -1548,6 +1648,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setThead(TheadType newThead) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Thead(), newThead);
 	}
@@ -1557,6 +1658,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TrType getTr() {
 		return (TrType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Tr(), true);
 	}
@@ -1575,6 +1677,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTr(TrType newTr) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Tr(), newTr);
 	}
@@ -1584,6 +1687,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TtType getTt() {
 		return (TtType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Tt(), true);
 	}
@@ -1602,6 +1706,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTt(TtType newTt) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Tt(), newTt);
 	}
@@ -1611,6 +1716,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public UlType getUl() {
 		return (UlType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Ul(), true);
 	}
@@ -1629,6 +1735,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUl(UlType newUl) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Ul(), newUl);
 	}
@@ -1638,6 +1745,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public VarType getVar() {
 		return (VarType)getMixed().get(XhtmlPackage.eINSTANCE.getDocumentRoot_Var(), true);
 	}
@@ -1656,6 +1764,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVar(VarType newVar) {
 		((FeatureMap.Internal)getMixed()).set(XhtmlPackage.eINSTANCE.getDocumentRoot_Var(), newVar);
 	}

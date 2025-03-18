@@ -74,6 +74,7 @@ public class CapabilityStatementInteraction1Impl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SystemRestfulInteraction getCode() {
 		return code;
 	}
@@ -98,6 +99,7 @@ public class CapabilityStatementInteraction1Impl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(SystemRestfulInteraction newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class CapabilityStatementInteraction1Impl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDocumentation() {
 		return documentation;
 	}
@@ -141,6 +144,7 @@ public class CapabilityStatementInteraction1Impl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDocumentation(Markdown newDocumentation) {
 		if (newDocumentation != documentation) {
 			NotificationChain msgs = null;

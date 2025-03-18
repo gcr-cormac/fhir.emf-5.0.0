@@ -79,6 +79,7 @@ public class IssueTypeImpl extends ElementImpl implements IssueType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public IssueTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class IssueTypeImpl extends ElementImpl implements IssueType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(IssueTypeEnum newValue) {
 		IssueTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class IssueTypeImpl extends ElementImpl implements IssueType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		IssueTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class IssueTypeImpl extends ElementImpl implements IssueType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

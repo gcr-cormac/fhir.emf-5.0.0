@@ -96,6 +96,7 @@ public class ExampleScenarioVersionImpl extends BackboneElementImpl implements E
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getKey() {
 		return key;
 	}
@@ -120,6 +121,7 @@ public class ExampleScenarioVersionImpl extends BackboneElementImpl implements E
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setKey(org.hl7.fhir.String newKey) {
 		if (newKey != key) {
 			NotificationChain msgs = null;
@@ -139,6 +141,7 @@ public class ExampleScenarioVersionImpl extends BackboneElementImpl implements E
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getTitle() {
 		return title;
 	}
@@ -163,6 +166,7 @@ public class ExampleScenarioVersionImpl extends BackboneElementImpl implements E
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(org.hl7.fhir.String newTitle) {
 		if (newTitle != title) {
 			NotificationChain msgs = null;
@@ -182,6 +186,7 @@ public class ExampleScenarioVersionImpl extends BackboneElementImpl implements E
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -206,6 +211,7 @@ public class ExampleScenarioVersionImpl extends BackboneElementImpl implements E
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -225,6 +231,7 @@ public class ExampleScenarioVersionImpl extends BackboneElementImpl implements E
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getContent() {
 		return content;
 	}
@@ -249,6 +256,7 @@ public class ExampleScenarioVersionImpl extends BackboneElementImpl implements E
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setContent(Reference newContent) {
 		if (newContent != content) {
 			NotificationChain msgs = null;

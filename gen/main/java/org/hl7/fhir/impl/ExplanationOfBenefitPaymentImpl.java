@@ -120,6 +120,7 @@ public class ExplanationOfBenefitPaymentImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -144,6 +145,7 @@ public class ExplanationOfBenefitPaymentImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -163,6 +165,7 @@ public class ExplanationOfBenefitPaymentImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Money getAdjustment() {
 		return adjustment;
 	}
@@ -187,6 +190,7 @@ public class ExplanationOfBenefitPaymentImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAdjustment(Money newAdjustment) {
 		if (newAdjustment != adjustment) {
 			NotificationChain msgs = null;
@@ -206,6 +210,7 @@ public class ExplanationOfBenefitPaymentImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getAdjustmentReason() {
 		return adjustmentReason;
 	}
@@ -230,6 +235,7 @@ public class ExplanationOfBenefitPaymentImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAdjustmentReason(CodeableConcept newAdjustmentReason) {
 		if (newAdjustmentReason != adjustmentReason) {
 			NotificationChain msgs = null;
@@ -249,6 +255,7 @@ public class ExplanationOfBenefitPaymentImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getDate() {
 		return date;
 	}
@@ -273,6 +280,7 @@ public class ExplanationOfBenefitPaymentImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDate(Date newDate) {
 		if (newDate != date) {
 			NotificationChain msgs = null;
@@ -292,6 +300,7 @@ public class ExplanationOfBenefitPaymentImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Money getAmount() {
 		return amount;
 	}
@@ -316,6 +325,7 @@ public class ExplanationOfBenefitPaymentImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAmount(Money newAmount) {
 		if (newAmount != amount) {
 			NotificationChain msgs = null;
@@ -335,6 +345,7 @@ public class ExplanationOfBenefitPaymentImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Identifier getIdentifier() {
 		return identifier;
 	}
@@ -359,6 +370,7 @@ public class ExplanationOfBenefitPaymentImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIdentifier(Identifier newIdentifier) {
 		if (newIdentifier != identifier) {
 			NotificationChain msgs = null;

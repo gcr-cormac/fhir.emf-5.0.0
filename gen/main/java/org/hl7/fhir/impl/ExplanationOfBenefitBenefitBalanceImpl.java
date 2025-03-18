@@ -147,6 +147,7 @@ public class ExplanationOfBenefitBenefitBalanceImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCategory() {
 		return category;
 	}
@@ -171,6 +172,7 @@ public class ExplanationOfBenefitBenefitBalanceImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCategory(CodeableConcept newCategory) {
 		if (newCategory != category) {
 			NotificationChain msgs = null;
@@ -190,6 +192,7 @@ public class ExplanationOfBenefitBenefitBalanceImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getExcluded() {
 		return excluded;
 	}
@@ -214,6 +217,7 @@ public class ExplanationOfBenefitBenefitBalanceImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExcluded(org.hl7.fhir.Boolean newExcluded) {
 		if (newExcluded != excluded) {
 			NotificationChain msgs = null;
@@ -233,6 +237,7 @@ public class ExplanationOfBenefitBenefitBalanceImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -257,6 +262,7 @@ public class ExplanationOfBenefitBenefitBalanceImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -276,6 +282,7 @@ public class ExplanationOfBenefitBenefitBalanceImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDescription() {
 		return description;
 	}
@@ -300,6 +307,7 @@ public class ExplanationOfBenefitBenefitBalanceImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(org.hl7.fhir.String newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -319,6 +327,7 @@ public class ExplanationOfBenefitBenefitBalanceImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getNetwork() {
 		return network;
 	}
@@ -343,6 +352,7 @@ public class ExplanationOfBenefitBenefitBalanceImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNetwork(CodeableConcept newNetwork) {
 		if (newNetwork != network) {
 			NotificationChain msgs = null;
@@ -362,6 +372,7 @@ public class ExplanationOfBenefitBenefitBalanceImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getUnit() {
 		return unit;
 	}
@@ -386,6 +397,7 @@ public class ExplanationOfBenefitBenefitBalanceImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUnit(CodeableConcept newUnit) {
 		if (newUnit != unit) {
 			NotificationChain msgs = null;
@@ -405,6 +417,7 @@ public class ExplanationOfBenefitBenefitBalanceImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getTerm() {
 		return term;
 	}
@@ -429,6 +442,7 @@ public class ExplanationOfBenefitBenefitBalanceImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTerm(CodeableConcept newTerm) {
 		if (newTerm != term) {
 			NotificationChain msgs = null;
@@ -448,6 +462,7 @@ public class ExplanationOfBenefitBenefitBalanceImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ExplanationOfBenefitFinancial> getFinancial() {
 		if (financial == null) {
 			financial = new EObjectContainmentEList<ExplanationOfBenefitFinancial>(ExplanationOfBenefitFinancial.class, this, FhirPackage.EXPLANATION_OF_BENEFIT_BENEFIT_BALANCE__FINANCIAL);

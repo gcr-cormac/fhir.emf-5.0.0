@@ -74,6 +74,7 @@ public class MedicationAdministrationPerformerImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getFunction() {
 		return function;
 	}
@@ -98,6 +99,7 @@ public class MedicationAdministrationPerformerImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFunction(CodeableConcept newFunction) {
 		if (newFunction != function) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class MedicationAdministrationPerformerImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getActor() {
 		return actor;
 	}
@@ -141,6 +144,7 @@ public class MedicationAdministrationPerformerImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setActor(CodeableReference newActor) {
 		if (newActor != actor) {
 			NotificationChain msgs = null;

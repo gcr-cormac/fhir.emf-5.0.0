@@ -79,6 +79,7 @@ public class ArtifactAssessmentWorkflowStatusImpl extends ElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ArtifactAssessmentWorkflowStatusEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ArtifactAssessmentWorkflowStatusImpl extends ElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ArtifactAssessmentWorkflowStatusEnum newValue) {
 		ArtifactAssessmentWorkflowStatusEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ArtifactAssessmentWorkflowStatusImpl extends ElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ArtifactAssessmentWorkflowStatusEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ArtifactAssessmentWorkflowStatusImpl extends ElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

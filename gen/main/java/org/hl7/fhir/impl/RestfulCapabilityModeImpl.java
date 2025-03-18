@@ -79,6 +79,7 @@ public class RestfulCapabilityModeImpl extends ElementImpl implements RestfulCap
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public RestfulCapabilityModeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class RestfulCapabilityModeImpl extends ElementImpl implements RestfulCap
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(RestfulCapabilityModeEnum newValue) {
 		RestfulCapabilityModeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class RestfulCapabilityModeImpl extends ElementImpl implements RestfulCap
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		RestfulCapabilityModeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class RestfulCapabilityModeImpl extends ElementImpl implements RestfulCap
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

@@ -96,6 +96,7 @@ public class AppointmentMonthlyTemplateImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PositiveInt getDayOfMonth() {
 		return dayOfMonth;
 	}
@@ -120,6 +121,7 @@ public class AppointmentMonthlyTemplateImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDayOfMonth(PositiveInt newDayOfMonth) {
 		if (newDayOfMonth != dayOfMonth) {
 			NotificationChain msgs = null;
@@ -139,6 +141,7 @@ public class AppointmentMonthlyTemplateImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getNthWeekOfMonth() {
 		return nthWeekOfMonth;
 	}
@@ -163,6 +166,7 @@ public class AppointmentMonthlyTemplateImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNthWeekOfMonth(Coding newNthWeekOfMonth) {
 		if (newNthWeekOfMonth != nthWeekOfMonth) {
 			NotificationChain msgs = null;
@@ -182,6 +186,7 @@ public class AppointmentMonthlyTemplateImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getDayOfWeek() {
 		return dayOfWeek;
 	}
@@ -206,6 +211,7 @@ public class AppointmentMonthlyTemplateImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDayOfWeek(Coding newDayOfWeek) {
 		if (newDayOfWeek != dayOfWeek) {
 			NotificationChain msgs = null;
@@ -225,6 +231,7 @@ public class AppointmentMonthlyTemplateImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PositiveInt getMonthInterval() {
 		return monthInterval;
 	}
@@ -249,6 +256,7 @@ public class AppointmentMonthlyTemplateImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMonthInterval(PositiveInt newMonthInterval) {
 		if (newMonthInterval != monthInterval) {
 			NotificationChain msgs = null;

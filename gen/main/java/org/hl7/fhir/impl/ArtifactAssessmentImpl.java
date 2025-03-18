@@ -221,6 +221,7 @@ public class ArtifactAssessmentImpl extends DomainResourceImpl implements Artifa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.ARTIFACT_ASSESSMENT__IDENTIFIER);
@@ -233,6 +234,7 @@ public class ArtifactAssessmentImpl extends DomainResourceImpl implements Artifa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getTitle() {
 		return title;
 	}
@@ -257,6 +259,7 @@ public class ArtifactAssessmentImpl extends DomainResourceImpl implements Artifa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(org.hl7.fhir.String newTitle) {
 		if (newTitle != title) {
 			NotificationChain msgs = null;
@@ -276,6 +279,7 @@ public class ArtifactAssessmentImpl extends DomainResourceImpl implements Artifa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getCiteAsReference() {
 		return citeAsReference;
 	}
@@ -300,6 +304,7 @@ public class ArtifactAssessmentImpl extends DomainResourceImpl implements Artifa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCiteAsReference(Reference newCiteAsReference) {
 		if (newCiteAsReference != citeAsReference) {
 			NotificationChain msgs = null;
@@ -319,6 +324,7 @@ public class ArtifactAssessmentImpl extends DomainResourceImpl implements Artifa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getCiteAsMarkdown() {
 		return citeAsMarkdown;
 	}
@@ -343,6 +349,7 @@ public class ArtifactAssessmentImpl extends DomainResourceImpl implements Artifa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCiteAsMarkdown(Markdown newCiteAsMarkdown) {
 		if (newCiteAsMarkdown != citeAsMarkdown) {
 			NotificationChain msgs = null;
@@ -362,6 +369,7 @@ public class ArtifactAssessmentImpl extends DomainResourceImpl implements Artifa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getDate() {
 		return date;
 	}
@@ -386,6 +394,7 @@ public class ArtifactAssessmentImpl extends DomainResourceImpl implements Artifa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDate(DateTime newDate) {
 		if (newDate != date) {
 			NotificationChain msgs = null;
@@ -405,6 +414,7 @@ public class ArtifactAssessmentImpl extends DomainResourceImpl implements Artifa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getCopyright() {
 		return copyright;
 	}
@@ -429,6 +439,7 @@ public class ArtifactAssessmentImpl extends DomainResourceImpl implements Artifa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCopyright(Markdown newCopyright) {
 		if (newCopyright != copyright) {
 			NotificationChain msgs = null;
@@ -448,6 +459,7 @@ public class ArtifactAssessmentImpl extends DomainResourceImpl implements Artifa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getApprovalDate() {
 		return approvalDate;
 	}
@@ -472,6 +484,7 @@ public class ArtifactAssessmentImpl extends DomainResourceImpl implements Artifa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setApprovalDate(Date newApprovalDate) {
 		if (newApprovalDate != approvalDate) {
 			NotificationChain msgs = null;
@@ -491,6 +504,7 @@ public class ArtifactAssessmentImpl extends DomainResourceImpl implements Artifa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getLastReviewDate() {
 		return lastReviewDate;
 	}
@@ -515,6 +529,7 @@ public class ArtifactAssessmentImpl extends DomainResourceImpl implements Artifa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLastReviewDate(Date newLastReviewDate) {
 		if (newLastReviewDate != lastReviewDate) {
 			NotificationChain msgs = null;
@@ -534,6 +549,7 @@ public class ArtifactAssessmentImpl extends DomainResourceImpl implements Artifa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getArtifactReference() {
 		return artifactReference;
 	}
@@ -558,6 +574,7 @@ public class ArtifactAssessmentImpl extends DomainResourceImpl implements Artifa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setArtifactReference(Reference newArtifactReference) {
 		if (newArtifactReference != artifactReference) {
 			NotificationChain msgs = null;
@@ -577,6 +594,7 @@ public class ArtifactAssessmentImpl extends DomainResourceImpl implements Artifa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getArtifactCanonical() {
 		return artifactCanonical;
 	}
@@ -601,6 +619,7 @@ public class ArtifactAssessmentImpl extends DomainResourceImpl implements Artifa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setArtifactCanonical(Canonical newArtifactCanonical) {
 		if (newArtifactCanonical != artifactCanonical) {
 			NotificationChain msgs = null;
@@ -620,6 +639,7 @@ public class ArtifactAssessmentImpl extends DomainResourceImpl implements Artifa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getArtifactUri() {
 		return artifactUri;
 	}
@@ -644,6 +664,7 @@ public class ArtifactAssessmentImpl extends DomainResourceImpl implements Artifa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setArtifactUri(Uri newArtifactUri) {
 		if (newArtifactUri != artifactUri) {
 			NotificationChain msgs = null;
@@ -663,6 +684,7 @@ public class ArtifactAssessmentImpl extends DomainResourceImpl implements Artifa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ArtifactAssessmentContent> getContent() {
 		if (content == null) {
 			content = new EObjectContainmentEList<ArtifactAssessmentContent>(ArtifactAssessmentContent.class, this, FhirPackage.ARTIFACT_ASSESSMENT__CONTENT);
@@ -675,6 +697,7 @@ public class ArtifactAssessmentImpl extends DomainResourceImpl implements Artifa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ArtifactAssessmentWorkflowStatus getWorkflowStatus() {
 		return workflowStatus;
 	}
@@ -699,6 +722,7 @@ public class ArtifactAssessmentImpl extends DomainResourceImpl implements Artifa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setWorkflowStatus(ArtifactAssessmentWorkflowStatus newWorkflowStatus) {
 		if (newWorkflowStatus != workflowStatus) {
 			NotificationChain msgs = null;
@@ -718,6 +742,7 @@ public class ArtifactAssessmentImpl extends DomainResourceImpl implements Artifa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ArtifactAssessmentDisposition getDisposition() {
 		return disposition;
 	}
@@ -742,6 +767,7 @@ public class ArtifactAssessmentImpl extends DomainResourceImpl implements Artifa
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDisposition(ArtifactAssessmentDisposition newDisposition) {
 		if (newDisposition != disposition) {
 			NotificationChain msgs = null;

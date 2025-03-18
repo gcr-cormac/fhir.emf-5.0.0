@@ -79,6 +79,7 @@ public class AddressTypeImpl extends ElementImpl implements AddressType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AddressTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class AddressTypeImpl extends ElementImpl implements AddressType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(AddressTypeEnum newValue) {
 		AddressTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class AddressTypeImpl extends ElementImpl implements AddressType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		AddressTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class AddressTypeImpl extends ElementImpl implements AddressType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

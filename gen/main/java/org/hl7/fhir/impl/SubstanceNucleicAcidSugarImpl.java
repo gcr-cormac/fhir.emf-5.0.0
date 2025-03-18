@@ -84,6 +84,7 @@ public class SubstanceNucleicAcidSugarImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Identifier getIdentifier() {
 		return identifier;
 	}
@@ -108,6 +109,7 @@ public class SubstanceNucleicAcidSugarImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIdentifier(Identifier newIdentifier) {
 		if (newIdentifier != identifier) {
 			NotificationChain msgs = null;
@@ -127,6 +129,7 @@ public class SubstanceNucleicAcidSugarImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -151,6 +154,7 @@ public class SubstanceNucleicAcidSugarImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -170,6 +174,7 @@ public class SubstanceNucleicAcidSugarImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getResidueSite() {
 		return residueSite;
 	}
@@ -194,6 +199,7 @@ public class SubstanceNucleicAcidSugarImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setResidueSite(org.hl7.fhir.String newResidueSite) {
 		if (newResidueSite != residueSite) {
 			NotificationChain msgs = null;

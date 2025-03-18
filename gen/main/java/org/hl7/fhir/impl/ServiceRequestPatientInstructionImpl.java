@@ -74,6 +74,7 @@ public class ServiceRequestPatientInstructionImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getInstructionMarkdown() {
 		return instructionMarkdown;
 	}
@@ -98,6 +99,7 @@ public class ServiceRequestPatientInstructionImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInstructionMarkdown(Markdown newInstructionMarkdown) {
 		if (newInstructionMarkdown != instructionMarkdown) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class ServiceRequestPatientInstructionImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getInstructionReference() {
 		return instructionReference;
 	}
@@ -141,6 +144,7 @@ public class ServiceRequestPatientInstructionImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInstructionReference(Reference newInstructionReference) {
 		if (newInstructionReference != instructionReference) {
 			NotificationChain msgs = null;

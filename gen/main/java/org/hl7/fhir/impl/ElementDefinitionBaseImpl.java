@@ -84,6 +84,7 @@ public class ElementDefinitionBaseImpl extends BackboneTypeImpl implements Eleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPath() {
 		return path;
 	}
@@ -108,6 +109,7 @@ public class ElementDefinitionBaseImpl extends BackboneTypeImpl implements Eleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPath(org.hl7.fhir.String newPath) {
 		if (newPath != path) {
 			NotificationChain msgs = null;
@@ -127,6 +129,7 @@ public class ElementDefinitionBaseImpl extends BackboneTypeImpl implements Eleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public UnsignedInt getMin() {
 		return min;
 	}
@@ -151,6 +154,7 @@ public class ElementDefinitionBaseImpl extends BackboneTypeImpl implements Eleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMin(UnsignedInt newMin) {
 		if (newMin != min) {
 			NotificationChain msgs = null;
@@ -170,6 +174,7 @@ public class ElementDefinitionBaseImpl extends BackboneTypeImpl implements Eleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getMax() {
 		return max;
 	}
@@ -194,6 +199,7 @@ public class ElementDefinitionBaseImpl extends BackboneTypeImpl implements Eleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMax(org.hl7.fhir.String newMax) {
 		if (newMax != max) {
 			NotificationChain msgs = null;

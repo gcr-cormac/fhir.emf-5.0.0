@@ -79,6 +79,7 @@ public class ConceptMapGroupUnmappedModeImpl extends ElementImpl implements Conc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ConceptMapGroupUnmappedModeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ConceptMapGroupUnmappedModeImpl extends ElementImpl implements Conc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ConceptMapGroupUnmappedModeEnum newValue) {
 		ConceptMapGroupUnmappedModeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ConceptMapGroupUnmappedModeImpl extends ElementImpl implements Conc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ConceptMapGroupUnmappedModeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ConceptMapGroupUnmappedModeImpl extends ElementImpl implements Conc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

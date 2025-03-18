@@ -172,6 +172,7 @@ public class RequirementsStatementImpl extends BackboneElementImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Id getKey() {
 		return key;
 	}
@@ -196,6 +197,7 @@ public class RequirementsStatementImpl extends BackboneElementImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setKey(Id newKey) {
 		if (newKey != key) {
 			NotificationChain msgs = null;
@@ -215,6 +217,7 @@ public class RequirementsStatementImpl extends BackboneElementImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getLabel() {
 		return label;
 	}
@@ -239,6 +242,7 @@ public class RequirementsStatementImpl extends BackboneElementImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLabel(org.hl7.fhir.String newLabel) {
 		if (newLabel != label) {
 			NotificationChain msgs = null;
@@ -258,6 +262,7 @@ public class RequirementsStatementImpl extends BackboneElementImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ConformanceExpectation> getConformance() {
 		if (conformance == null) {
 			conformance = new EObjectContainmentEList<ConformanceExpectation>(ConformanceExpectation.class, this, FhirPackage.REQUIREMENTS_STATEMENT__CONFORMANCE);
@@ -270,6 +275,7 @@ public class RequirementsStatementImpl extends BackboneElementImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getConditionality() {
 		return conditionality;
 	}
@@ -294,6 +300,7 @@ public class RequirementsStatementImpl extends BackboneElementImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setConditionality(org.hl7.fhir.Boolean newConditionality) {
 		if (newConditionality != conditionality) {
 			NotificationChain msgs = null;
@@ -313,6 +320,7 @@ public class RequirementsStatementImpl extends BackboneElementImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getRequirement() {
 		return requirement;
 	}
@@ -337,6 +345,7 @@ public class RequirementsStatementImpl extends BackboneElementImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRequirement(Markdown newRequirement) {
 		if (newRequirement != requirement) {
 			NotificationChain msgs = null;
@@ -356,6 +365,7 @@ public class RequirementsStatementImpl extends BackboneElementImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDerivedFrom() {
 		return derivedFrom;
 	}
@@ -380,6 +390,7 @@ public class RequirementsStatementImpl extends BackboneElementImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDerivedFrom(org.hl7.fhir.String newDerivedFrom) {
 		if (newDerivedFrom != derivedFrom) {
 			NotificationChain msgs = null;
@@ -399,6 +410,7 @@ public class RequirementsStatementImpl extends BackboneElementImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getParent() {
 		return parent;
 	}
@@ -423,6 +435,7 @@ public class RequirementsStatementImpl extends BackboneElementImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setParent(org.hl7.fhir.String newParent) {
 		if (newParent != parent) {
 			NotificationChain msgs = null;
@@ -442,6 +455,7 @@ public class RequirementsStatementImpl extends BackboneElementImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Url> getSatisfiedBy() {
 		if (satisfiedBy == null) {
 			satisfiedBy = new EObjectContainmentEList<Url>(Url.class, this, FhirPackage.REQUIREMENTS_STATEMENT__SATISFIED_BY);
@@ -454,6 +468,7 @@ public class RequirementsStatementImpl extends BackboneElementImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Url> getReference() {
 		if (reference == null) {
 			reference = new EObjectContainmentEList<Url>(Url.class, this, FhirPackage.REQUIREMENTS_STATEMENT__REFERENCE);
@@ -466,6 +481,7 @@ public class RequirementsStatementImpl extends BackboneElementImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getSource() {
 		if (source == null) {
 			source = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.REQUIREMENTS_STATEMENT__SOURCE);

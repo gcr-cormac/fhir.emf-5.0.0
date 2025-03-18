@@ -105,6 +105,7 @@ public class PermissionRuleImpl extends BackboneElementImpl implements Permissio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ConsentProvisionType getType() {
 		return type;
 	}
@@ -129,6 +130,7 @@ public class PermissionRuleImpl extends BackboneElementImpl implements Permissio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(ConsentProvisionType newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -148,6 +150,7 @@ public class PermissionRuleImpl extends BackboneElementImpl implements Permissio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<PermissionData> getData() {
 		if (data == null) {
 			data = new EObjectContainmentEList<PermissionData>(PermissionData.class, this, FhirPackage.PERMISSION_RULE__DATA);
@@ -160,6 +163,7 @@ public class PermissionRuleImpl extends BackboneElementImpl implements Permissio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<PermissionActivity> getActivity() {
 		if (activity == null) {
 			activity = new EObjectContainmentEList<PermissionActivity>(PermissionActivity.class, this, FhirPackage.PERMISSION_RULE__ACTIVITY);
@@ -172,6 +176,7 @@ public class PermissionRuleImpl extends BackboneElementImpl implements Permissio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getLimit() {
 		if (limit == null) {
 			limit = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.PERMISSION_RULE__LIMIT);

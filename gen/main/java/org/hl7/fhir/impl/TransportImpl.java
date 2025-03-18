@@ -423,6 +423,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.TRANSPORT__IDENTIFIER);
@@ -435,6 +436,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getInstantiatesCanonical() {
 		return instantiatesCanonical;
 	}
@@ -459,6 +461,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInstantiatesCanonical(Canonical newInstantiatesCanonical) {
 		if (newInstantiatesCanonical != instantiatesCanonical) {
 			NotificationChain msgs = null;
@@ -478,6 +481,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getInstantiatesUri() {
 		return instantiatesUri;
 	}
@@ -502,6 +506,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInstantiatesUri(Uri newInstantiatesUri) {
 		if (newInstantiatesUri != instantiatesUri) {
 			NotificationChain msgs = null;
@@ -521,6 +526,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getBasedOn() {
 		if (basedOn == null) {
 			basedOn = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.TRANSPORT__BASED_ON);
@@ -533,6 +539,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Identifier getGroupIdentifier() {
 		return groupIdentifier;
 	}
@@ -557,6 +564,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setGroupIdentifier(Identifier newGroupIdentifier) {
 		if (newGroupIdentifier != groupIdentifier) {
 			NotificationChain msgs = null;
@@ -576,6 +584,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getPartOf() {
 		if (partOf == null) {
 			partOf = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.TRANSPORT__PART_OF);
@@ -588,6 +597,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TransportStatus getStatus() {
 		return status;
 	}
@@ -612,6 +622,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(TransportStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -631,6 +642,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getStatusReason() {
 		return statusReason;
 	}
@@ -655,6 +667,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatusReason(CodeableConcept newStatusReason) {
 		if (newStatusReason != statusReason) {
 			NotificationChain msgs = null;
@@ -674,6 +687,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TransportIntent getIntent() {
 		return intent;
 	}
@@ -698,6 +712,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIntent(TransportIntent newIntent) {
 		if (newIntent != intent) {
 			NotificationChain msgs = null;
@@ -717,6 +732,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public RequestPriority getPriority() {
 		return priority;
 	}
@@ -741,6 +757,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPriority(RequestPriority newPriority) {
 		if (newPriority != priority) {
 			NotificationChain msgs = null;
@@ -760,6 +777,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -784,6 +802,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -803,6 +822,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDescription() {
 		return description;
 	}
@@ -827,6 +847,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(org.hl7.fhir.String newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -846,6 +867,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getFocus() {
 		return focus;
 	}
@@ -870,6 +892,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFocus(Reference newFocus) {
 		if (newFocus != focus) {
 			NotificationChain msgs = null;
@@ -889,6 +912,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getFor() {
 		return for_;
 	}
@@ -913,6 +937,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFor(Reference newFor) {
 		if (newFor != for_) {
 			NotificationChain msgs = null;
@@ -932,6 +957,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getEncounter() {
 		return encounter;
 	}
@@ -956,6 +982,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEncounter(Reference newEncounter) {
 		if (newEncounter != encounter) {
 			NotificationChain msgs = null;
@@ -975,6 +1002,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getCompletionTime() {
 		return completionTime;
 	}
@@ -999,6 +1027,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCompletionTime(DateTime newCompletionTime) {
 		if (newCompletionTime != completionTime) {
 			NotificationChain msgs = null;
@@ -1018,6 +1047,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getAuthoredOn() {
 		return authoredOn;
 	}
@@ -1042,6 +1072,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAuthoredOn(DateTime newAuthoredOn) {
 		if (newAuthoredOn != authoredOn) {
 			NotificationChain msgs = null;
@@ -1061,6 +1092,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getLastModified() {
 		return lastModified;
 	}
@@ -1085,6 +1117,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLastModified(DateTime newLastModified) {
 		if (newLastModified != lastModified) {
 			NotificationChain msgs = null;
@@ -1104,6 +1137,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getRequester() {
 		return requester;
 	}
@@ -1128,6 +1162,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRequester(Reference newRequester) {
 		if (newRequester != requester) {
 			NotificationChain msgs = null;
@@ -1147,6 +1182,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getPerformerType() {
 		if (performerType == null) {
 			performerType = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.TRANSPORT__PERFORMER_TYPE);
@@ -1159,6 +1195,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getOwner() {
 		return owner;
 	}
@@ -1183,6 +1220,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOwner(Reference newOwner) {
 		if (newOwner != owner) {
 			NotificationChain msgs = null;
@@ -1202,6 +1240,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getLocation() {
 		return location;
 	}
@@ -1226,6 +1265,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLocation(Reference newLocation) {
 		if (newLocation != location) {
 			NotificationChain msgs = null;
@@ -1245,6 +1285,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getInsurance() {
 		if (insurance == null) {
 			insurance = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.TRANSPORT__INSURANCE);
@@ -1257,6 +1298,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.TRANSPORT__NOTE);
@@ -1269,6 +1311,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getRelevantHistory() {
 		if (relevantHistory == null) {
 			relevantHistory = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.TRANSPORT__RELEVANT_HISTORY);
@@ -1281,6 +1324,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TransportRestriction getRestriction() {
 		return restriction;
 	}
@@ -1305,6 +1349,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRestriction(TransportRestriction newRestriction) {
 		if (newRestriction != restriction) {
 			NotificationChain msgs = null;
@@ -1324,6 +1369,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<TransportInput> getInput() {
 		if (input == null) {
 			input = new EObjectContainmentEList<TransportInput>(TransportInput.class, this, FhirPackage.TRANSPORT__INPUT);
@@ -1336,6 +1382,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<TransportOutput> getOutput() {
 		if (output == null) {
 			output = new EObjectContainmentEList<TransportOutput>(TransportOutput.class, this, FhirPackage.TRANSPORT__OUTPUT);
@@ -1348,6 +1395,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getRequestedLocation() {
 		return requestedLocation;
 	}
@@ -1372,6 +1420,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRequestedLocation(Reference newRequestedLocation) {
 		if (newRequestedLocation != requestedLocation) {
 			NotificationChain msgs = null;
@@ -1391,6 +1440,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getCurrentLocation() {
 		return currentLocation;
 	}
@@ -1415,6 +1465,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCurrentLocation(Reference newCurrentLocation) {
 		if (newCurrentLocation != currentLocation) {
 			NotificationChain msgs = null;
@@ -1434,6 +1485,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getReason() {
 		return reason;
 	}
@@ -1458,6 +1510,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReason(CodeableReference newReason) {
 		if (newReason != reason) {
 			NotificationChain msgs = null;
@@ -1477,6 +1530,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getHistory() {
 		return history;
 	}
@@ -1501,6 +1555,7 @@ public class TransportImpl extends DomainResourceImpl implements Transport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setHistory(Reference newHistory) {
 		if (newHistory != history) {
 			NotificationChain msgs = null;

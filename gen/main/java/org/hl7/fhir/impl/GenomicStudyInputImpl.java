@@ -97,6 +97,7 @@ public class GenomicStudyInputImpl extends BackboneElementImpl implements Genomi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getFile() {
 		return file;
 	}
@@ -121,6 +122,7 @@ public class GenomicStudyInputImpl extends BackboneElementImpl implements Genomi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFile(Reference newFile) {
 		if (newFile != file) {
 			NotificationChain msgs = null;
@@ -140,6 +142,7 @@ public class GenomicStudyInputImpl extends BackboneElementImpl implements Genomi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -164,6 +167,7 @@ public class GenomicStudyInputImpl extends BackboneElementImpl implements Genomi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -183,6 +187,7 @@ public class GenomicStudyInputImpl extends BackboneElementImpl implements Genomi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Identifier getGeneratedByIdentifier() {
 		return generatedByIdentifier;
 	}
@@ -207,6 +212,7 @@ public class GenomicStudyInputImpl extends BackboneElementImpl implements Genomi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setGeneratedByIdentifier(Identifier newGeneratedByIdentifier) {
 		if (newGeneratedByIdentifier != generatedByIdentifier) {
 			NotificationChain msgs = null;
@@ -226,6 +232,7 @@ public class GenomicStudyInputImpl extends BackboneElementImpl implements Genomi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getGeneratedByReference() {
 		return generatedByReference;
 	}
@@ -250,6 +257,7 @@ public class GenomicStudyInputImpl extends BackboneElementImpl implements Genomi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setGeneratedByReference(Reference newGeneratedByReference) {
 		if (newGeneratedByReference != generatedByReference) {
 			NotificationChain msgs = null;

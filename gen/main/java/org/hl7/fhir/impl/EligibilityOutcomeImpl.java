@@ -79,6 +79,7 @@ public class EligibilityOutcomeImpl extends ElementImpl implements EligibilityOu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EligibilityOutcomeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class EligibilityOutcomeImpl extends ElementImpl implements EligibilityOu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(EligibilityOutcomeEnum newValue) {
 		EligibilityOutcomeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class EligibilityOutcomeImpl extends ElementImpl implements EligibilityOu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		EligibilityOutcomeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class EligibilityOutcomeImpl extends ElementImpl implements EligibilityOu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

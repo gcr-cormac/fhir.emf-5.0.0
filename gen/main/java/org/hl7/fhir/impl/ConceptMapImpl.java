@@ -447,6 +447,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getUrl() {
 		return url;
 	}
@@ -471,6 +472,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUrl(Uri newUrl) {
 		if (newUrl != url) {
 			NotificationChain msgs = null;
@@ -490,6 +492,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.CONCEPT_MAP__IDENTIFIER);
@@ -502,6 +505,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersion() {
 		return version;
 	}
@@ -526,6 +530,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersion(org.hl7.fhir.String newVersion) {
 		if (newVersion != version) {
 			NotificationChain msgs = null;
@@ -545,6 +550,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersionAlgorithmString() {
 		return versionAlgorithmString;
 	}
@@ -569,6 +575,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersionAlgorithmString(org.hl7.fhir.String newVersionAlgorithmString) {
 		if (newVersionAlgorithmString != versionAlgorithmString) {
 			NotificationChain msgs = null;
@@ -588,6 +595,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getVersionAlgorithmCoding() {
 		return versionAlgorithmCoding;
 	}
@@ -612,6 +620,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersionAlgorithmCoding(Coding newVersionAlgorithmCoding) {
 		if (newVersionAlgorithmCoding != versionAlgorithmCoding) {
 			NotificationChain msgs = null;
@@ -631,6 +640,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -655,6 +665,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -674,6 +685,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getTitle() {
 		return title;
 	}
@@ -698,6 +710,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(org.hl7.fhir.String newTitle) {
 		if (newTitle != title) {
 			NotificationChain msgs = null;
@@ -717,6 +730,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PublicationStatus getStatus() {
 		return status;
 	}
@@ -741,6 +755,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(PublicationStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -760,6 +775,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getExperimental() {
 		return experimental;
 	}
@@ -784,6 +800,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExperimental(org.hl7.fhir.Boolean newExperimental) {
 		if (newExperimental != experimental) {
 			NotificationChain msgs = null;
@@ -803,6 +820,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getDate() {
 		return date;
 	}
@@ -827,6 +845,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDate(DateTime newDate) {
 		if (newDate != date) {
 			NotificationChain msgs = null;
@@ -846,6 +865,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPublisher() {
 		return publisher;
 	}
@@ -870,6 +890,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPublisher(org.hl7.fhir.String newPublisher) {
 		if (newPublisher != publisher) {
 			NotificationChain msgs = null;
@@ -889,6 +910,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getContact() {
 		if (contact == null) {
 			contact = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.CONCEPT_MAP__CONTACT);
@@ -901,6 +923,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -925,6 +948,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -944,6 +968,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<UsageContext> getUseContext() {
 		if (useContext == null) {
 			useContext = new EObjectContainmentEList<UsageContext>(UsageContext.class, this, FhirPackage.CONCEPT_MAP__USE_CONTEXT);
@@ -956,6 +981,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getJurisdiction() {
 		if (jurisdiction == null) {
 			jurisdiction = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.CONCEPT_MAP__JURISDICTION);
@@ -968,6 +994,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getPurpose() {
 		return purpose;
 	}
@@ -992,6 +1019,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPurpose(Markdown newPurpose) {
 		if (newPurpose != purpose) {
 			NotificationChain msgs = null;
@@ -1011,6 +1039,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getCopyright() {
 		return copyright;
 	}
@@ -1035,6 +1064,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCopyright(Markdown newCopyright) {
 		if (newCopyright != copyright) {
 			NotificationChain msgs = null;
@@ -1054,6 +1084,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getCopyrightLabel() {
 		return copyrightLabel;
 	}
@@ -1078,6 +1109,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCopyrightLabel(org.hl7.fhir.String newCopyrightLabel) {
 		if (newCopyrightLabel != copyrightLabel) {
 			NotificationChain msgs = null;
@@ -1097,6 +1129,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getApprovalDate() {
 		return approvalDate;
 	}
@@ -1121,6 +1154,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setApprovalDate(Date newApprovalDate) {
 		if (newApprovalDate != approvalDate) {
 			NotificationChain msgs = null;
@@ -1140,6 +1174,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getLastReviewDate() {
 		return lastReviewDate;
 	}
@@ -1164,6 +1199,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLastReviewDate(Date newLastReviewDate) {
 		if (newLastReviewDate != lastReviewDate) {
 			NotificationChain msgs = null;
@@ -1183,6 +1219,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getEffectivePeriod() {
 		return effectivePeriod;
 	}
@@ -1207,6 +1244,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEffectivePeriod(Period newEffectivePeriod) {
 		if (newEffectivePeriod != effectivePeriod) {
 			NotificationChain msgs = null;
@@ -1226,6 +1264,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getTopic() {
 		if (topic == null) {
 			topic = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.CONCEPT_MAP__TOPIC);
@@ -1238,6 +1277,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getAuthor() {
 		if (author == null) {
 			author = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.CONCEPT_MAP__AUTHOR);
@@ -1250,6 +1290,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getEditor() {
 		if (editor == null) {
 			editor = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.CONCEPT_MAP__EDITOR);
@@ -1262,6 +1303,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getReviewer() {
 		if (reviewer == null) {
 			reviewer = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.CONCEPT_MAP__REVIEWER);
@@ -1274,6 +1316,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getEndorser() {
 		if (endorser == null) {
 			endorser = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.CONCEPT_MAP__ENDORSER);
@@ -1286,6 +1329,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<RelatedArtifact> getRelatedArtifact() {
 		if (relatedArtifact == null) {
 			relatedArtifact = new EObjectContainmentEList<RelatedArtifact>(RelatedArtifact.class, this, FhirPackage.CONCEPT_MAP__RELATED_ARTIFACT);
@@ -1298,6 +1342,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ConceptMapProperty> getProperty() {
 		if (property == null) {
 			property = new EObjectContainmentEList<ConceptMapProperty>(ConceptMapProperty.class, this, FhirPackage.CONCEPT_MAP__PROPERTY);
@@ -1310,6 +1355,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ConceptMapAdditionalAttribute> getAdditionalAttribute() {
 		if (additionalAttribute == null) {
 			additionalAttribute = new EObjectContainmentEList<ConceptMapAdditionalAttribute>(ConceptMapAdditionalAttribute.class, this, FhirPackage.CONCEPT_MAP__ADDITIONAL_ATTRIBUTE);
@@ -1322,6 +1368,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getSourceScopeUri() {
 		return sourceScopeUri;
 	}
@@ -1346,6 +1393,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSourceScopeUri(Uri newSourceScopeUri) {
 		if (newSourceScopeUri != sourceScopeUri) {
 			NotificationChain msgs = null;
@@ -1365,6 +1413,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getSourceScopeCanonical() {
 		return sourceScopeCanonical;
 	}
@@ -1389,6 +1438,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSourceScopeCanonical(Canonical newSourceScopeCanonical) {
 		if (newSourceScopeCanonical != sourceScopeCanonical) {
 			NotificationChain msgs = null;
@@ -1408,6 +1458,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getTargetScopeUri() {
 		return targetScopeUri;
 	}
@@ -1432,6 +1483,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTargetScopeUri(Uri newTargetScopeUri) {
 		if (newTargetScopeUri != targetScopeUri) {
 			NotificationChain msgs = null;
@@ -1451,6 +1503,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getTargetScopeCanonical() {
 		return targetScopeCanonical;
 	}
@@ -1475,6 +1528,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTargetScopeCanonical(Canonical newTargetScopeCanonical) {
 		if (newTargetScopeCanonical != targetScopeCanonical) {
 			NotificationChain msgs = null;
@@ -1494,6 +1548,7 @@ public class ConceptMapImpl extends MetadataResourceImpl implements ConceptMap {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ConceptMapGroup> getGroup() {
 		if (group == null) {
 			group = new EObjectContainmentEList<ConceptMapGroup>(ConceptMapGroup.class, this, FhirPackage.CONCEPT_MAP__GROUP);

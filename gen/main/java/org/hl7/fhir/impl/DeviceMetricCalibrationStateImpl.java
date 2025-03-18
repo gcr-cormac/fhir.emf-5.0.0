@@ -79,6 +79,7 @@ public class DeviceMetricCalibrationStateImpl extends ElementImpl implements Dev
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DeviceMetricCalibrationStateEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class DeviceMetricCalibrationStateImpl extends ElementImpl implements Dev
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(DeviceMetricCalibrationStateEnum newValue) {
 		DeviceMetricCalibrationStateEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class DeviceMetricCalibrationStateImpl extends ElementImpl implements Dev
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		DeviceMetricCalibrationStateEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class DeviceMetricCalibrationStateImpl extends ElementImpl implements Dev
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

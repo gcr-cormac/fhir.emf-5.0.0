@@ -79,6 +79,7 @@ public class FHIRTypesImpl extends ElementImpl implements FHIRTypes {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public FHIRTypesEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class FHIRTypesImpl extends ElementImpl implements FHIRTypes {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(FHIRTypesEnum newValue) {
 		FHIRTypesEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class FHIRTypesImpl extends ElementImpl implements FHIRTypes {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		FHIRTypesEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class FHIRTypesImpl extends ElementImpl implements FHIRTypes {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

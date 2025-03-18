@@ -91,6 +91,7 @@ public class SubscriptionTopicNotificationShapeImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getResource() {
 		return resource;
 	}
@@ -115,6 +116,7 @@ public class SubscriptionTopicNotificationShapeImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setResource(Uri newResource) {
 		if (newResource != resource) {
 			NotificationChain msgs = null;
@@ -134,6 +136,7 @@ public class SubscriptionTopicNotificationShapeImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<org.hl7.fhir.String> getInclude() {
 		if (include == null) {
 			include = new EObjectContainmentEList<org.hl7.fhir.String>(org.hl7.fhir.String.class, this, FhirPackage.SUBSCRIPTION_TOPIC_NOTIFICATION_SHAPE__INCLUDE);
@@ -146,6 +149,7 @@ public class SubscriptionTopicNotificationShapeImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<org.hl7.fhir.String> getRevInclude() {
 		if (revInclude == null) {
 			revInclude = new EObjectContainmentEList<org.hl7.fhir.String>(org.hl7.fhir.String.class, this, FhirPackage.SUBSCRIPTION_TOPIC_NOTIFICATION_SHAPE__REV_INCLUDE);

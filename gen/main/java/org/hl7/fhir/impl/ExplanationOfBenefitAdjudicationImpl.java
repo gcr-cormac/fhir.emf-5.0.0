@@ -97,6 +97,7 @@ public class ExplanationOfBenefitAdjudicationImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCategory() {
 		return category;
 	}
@@ -121,6 +122,7 @@ public class ExplanationOfBenefitAdjudicationImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCategory(CodeableConcept newCategory) {
 		if (newCategory != category) {
 			NotificationChain msgs = null;
@@ -140,6 +142,7 @@ public class ExplanationOfBenefitAdjudicationImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getReason() {
 		return reason;
 	}
@@ -164,6 +167,7 @@ public class ExplanationOfBenefitAdjudicationImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReason(CodeableConcept newReason) {
 		if (newReason != reason) {
 			NotificationChain msgs = null;
@@ -183,6 +187,7 @@ public class ExplanationOfBenefitAdjudicationImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Money getAmount() {
 		return amount;
 	}
@@ -207,6 +212,7 @@ public class ExplanationOfBenefitAdjudicationImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAmount(Money newAmount) {
 		if (newAmount != amount) {
 			NotificationChain msgs = null;
@@ -226,6 +232,7 @@ public class ExplanationOfBenefitAdjudicationImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getQuantity() {
 		return quantity;
 	}
@@ -250,6 +257,7 @@ public class ExplanationOfBenefitAdjudicationImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setQuantity(Quantity newQuantity) {
 		if (newQuantity != quantity) {
 			NotificationChain msgs = null;

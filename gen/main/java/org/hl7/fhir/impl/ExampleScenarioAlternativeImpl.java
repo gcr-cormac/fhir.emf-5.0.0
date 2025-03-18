@@ -92,6 +92,7 @@ public class ExampleScenarioAlternativeImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getTitle() {
 		return title;
 	}
@@ -116,6 +117,7 @@ public class ExampleScenarioAlternativeImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(org.hl7.fhir.String newTitle) {
 		if (newTitle != title) {
 			NotificationChain msgs = null;
@@ -135,6 +137,7 @@ public class ExampleScenarioAlternativeImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -159,6 +162,7 @@ public class ExampleScenarioAlternativeImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -178,6 +182,7 @@ public class ExampleScenarioAlternativeImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ExampleScenarioStep> getStep() {
 		if (step == null) {
 			step = new EObjectContainmentEList<ExampleScenarioStep>(ExampleScenarioStep.class, this, FhirPackage.EXAMPLE_SCENARIO_ALTERNATIVE__STEP);

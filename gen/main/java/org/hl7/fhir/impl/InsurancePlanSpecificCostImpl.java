@@ -81,6 +81,7 @@ public class InsurancePlanSpecificCostImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCategory() {
 		return category;
 	}
@@ -105,6 +106,7 @@ public class InsurancePlanSpecificCostImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCategory(CodeableConcept newCategory) {
 		if (newCategory != category) {
 			NotificationChain msgs = null;
@@ -124,6 +126,7 @@ public class InsurancePlanSpecificCostImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<InsurancePlanBenefit1> getBenefit() {
 		if (benefit == null) {
 			benefit = new EObjectContainmentEList<InsurancePlanBenefit1>(InsurancePlanBenefit1.class, this, FhirPackage.INSURANCE_PLAN_SPECIFIC_COST__BENEFIT);

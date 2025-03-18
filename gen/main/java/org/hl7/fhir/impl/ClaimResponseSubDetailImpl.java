@@ -116,6 +116,7 @@ public class ClaimResponseSubDetailImpl extends BackboneElementImpl implements C
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PositiveInt getSubDetailSequence() {
 		return subDetailSequence;
 	}
@@ -140,6 +141,7 @@ public class ClaimResponseSubDetailImpl extends BackboneElementImpl implements C
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubDetailSequence(PositiveInt newSubDetailSequence) {
 		if (newSubDetailSequence != subDetailSequence) {
 			NotificationChain msgs = null;
@@ -159,6 +161,7 @@ public class ClaimResponseSubDetailImpl extends BackboneElementImpl implements C
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getTraceNumber() {
 		if (traceNumber == null) {
 			traceNumber = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.CLAIM_RESPONSE_SUB_DETAIL__TRACE_NUMBER);
@@ -171,6 +174,7 @@ public class ClaimResponseSubDetailImpl extends BackboneElementImpl implements C
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<PositiveInt> getNoteNumber() {
 		if (noteNumber == null) {
 			noteNumber = new EObjectContainmentEList<PositiveInt>(PositiveInt.class, this, FhirPackage.CLAIM_RESPONSE_SUB_DETAIL__NOTE_NUMBER);
@@ -183,6 +187,7 @@ public class ClaimResponseSubDetailImpl extends BackboneElementImpl implements C
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ClaimResponseReviewOutcome getReviewOutcome() {
 		return reviewOutcome;
 	}
@@ -207,6 +212,7 @@ public class ClaimResponseSubDetailImpl extends BackboneElementImpl implements C
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReviewOutcome(ClaimResponseReviewOutcome newReviewOutcome) {
 		if (newReviewOutcome != reviewOutcome) {
 			NotificationChain msgs = null;
@@ -226,6 +232,7 @@ public class ClaimResponseSubDetailImpl extends BackboneElementImpl implements C
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ClaimResponseAdjudication> getAdjudication() {
 		if (adjudication == null) {
 			adjudication = new EObjectContainmentEList<ClaimResponseAdjudication>(ClaimResponseAdjudication.class, this, FhirPackage.CLAIM_RESPONSE_SUB_DETAIL__ADJUDICATION);

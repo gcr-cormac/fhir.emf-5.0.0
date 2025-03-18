@@ -187,6 +187,7 @@ public class MeasureReportGroupImpl extends BackboneElementImpl implements Measu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getLinkId() {
 		return linkId;
 	}
@@ -211,6 +212,7 @@ public class MeasureReportGroupImpl extends BackboneElementImpl implements Measu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLinkId(org.hl7.fhir.String newLinkId) {
 		if (newLinkId != linkId) {
 			NotificationChain msgs = null;
@@ -230,6 +232,7 @@ public class MeasureReportGroupImpl extends BackboneElementImpl implements Measu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -254,6 +257,7 @@ public class MeasureReportGroupImpl extends BackboneElementImpl implements Measu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -273,6 +277,7 @@ public class MeasureReportGroupImpl extends BackboneElementImpl implements Measu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubject() {
 		return subject;
 	}
@@ -297,6 +302,7 @@ public class MeasureReportGroupImpl extends BackboneElementImpl implements Measu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubject(Reference newSubject) {
 		if (newSubject != subject) {
 			NotificationChain msgs = null;
@@ -316,6 +322,7 @@ public class MeasureReportGroupImpl extends BackboneElementImpl implements Measu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MeasureReportPopulation> getPopulation() {
 		if (population == null) {
 			population = new EObjectContainmentEList<MeasureReportPopulation>(MeasureReportPopulation.class, this, FhirPackage.MEASURE_REPORT_GROUP__POPULATION);
@@ -328,6 +335,7 @@ public class MeasureReportGroupImpl extends BackboneElementImpl implements Measu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getMeasureScoreQuantity() {
 		return measureScoreQuantity;
 	}
@@ -352,6 +360,7 @@ public class MeasureReportGroupImpl extends BackboneElementImpl implements Measu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMeasureScoreQuantity(Quantity newMeasureScoreQuantity) {
 		if (newMeasureScoreQuantity != measureScoreQuantity) {
 			NotificationChain msgs = null;
@@ -371,6 +380,7 @@ public class MeasureReportGroupImpl extends BackboneElementImpl implements Measu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getMeasureScoreDateTime() {
 		return measureScoreDateTime;
 	}
@@ -395,6 +405,7 @@ public class MeasureReportGroupImpl extends BackboneElementImpl implements Measu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMeasureScoreDateTime(DateTime newMeasureScoreDateTime) {
 		if (newMeasureScoreDateTime != measureScoreDateTime) {
 			NotificationChain msgs = null;
@@ -414,6 +425,7 @@ public class MeasureReportGroupImpl extends BackboneElementImpl implements Measu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getMeasureScoreCodeableConcept() {
 		return measureScoreCodeableConcept;
 	}
@@ -438,6 +450,7 @@ public class MeasureReportGroupImpl extends BackboneElementImpl implements Measu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMeasureScoreCodeableConcept(CodeableConcept newMeasureScoreCodeableConcept) {
 		if (newMeasureScoreCodeableConcept != measureScoreCodeableConcept) {
 			NotificationChain msgs = null;
@@ -457,6 +470,7 @@ public class MeasureReportGroupImpl extends BackboneElementImpl implements Measu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getMeasureScorePeriod() {
 		return measureScorePeriod;
 	}
@@ -481,6 +495,7 @@ public class MeasureReportGroupImpl extends BackboneElementImpl implements Measu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMeasureScorePeriod(Period newMeasureScorePeriod) {
 		if (newMeasureScorePeriod != measureScorePeriod) {
 			NotificationChain msgs = null;
@@ -500,6 +515,7 @@ public class MeasureReportGroupImpl extends BackboneElementImpl implements Measu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Range getMeasureScoreRange() {
 		return measureScoreRange;
 	}
@@ -524,6 +540,7 @@ public class MeasureReportGroupImpl extends BackboneElementImpl implements Measu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMeasureScoreRange(Range newMeasureScoreRange) {
 		if (newMeasureScoreRange != measureScoreRange) {
 			NotificationChain msgs = null;
@@ -543,6 +560,7 @@ public class MeasureReportGroupImpl extends BackboneElementImpl implements Measu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Duration getMeasureScoreDuration() {
 		return measureScoreDuration;
 	}
@@ -567,6 +585,7 @@ public class MeasureReportGroupImpl extends BackboneElementImpl implements Measu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMeasureScoreDuration(Duration newMeasureScoreDuration) {
 		if (newMeasureScoreDuration != measureScoreDuration) {
 			NotificationChain msgs = null;
@@ -586,6 +605,7 @@ public class MeasureReportGroupImpl extends BackboneElementImpl implements Measu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MeasureReportStratifier> getStratifier() {
 		if (stratifier == null) {
 			stratifier = new EObjectContainmentEList<MeasureReportStratifier>(MeasureReportStratifier.class, this, FhirPackage.MEASURE_REPORT_GROUP__STRATIFIER);

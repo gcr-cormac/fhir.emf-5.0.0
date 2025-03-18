@@ -267,6 +267,7 @@ public class LocationImpl extends DomainResourceImpl implements Location {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.LOCATION__IDENTIFIER);
@@ -279,6 +280,7 @@ public class LocationImpl extends DomainResourceImpl implements Location {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public LocationStatus getStatus() {
 		return status;
 	}
@@ -303,6 +305,7 @@ public class LocationImpl extends DomainResourceImpl implements Location {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(LocationStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -322,6 +325,7 @@ public class LocationImpl extends DomainResourceImpl implements Location {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getOperationalStatus() {
 		return operationalStatus;
 	}
@@ -346,6 +350,7 @@ public class LocationImpl extends DomainResourceImpl implements Location {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOperationalStatus(Coding newOperationalStatus) {
 		if (newOperationalStatus != operationalStatus) {
 			NotificationChain msgs = null;
@@ -365,6 +370,7 @@ public class LocationImpl extends DomainResourceImpl implements Location {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -389,6 +395,7 @@ public class LocationImpl extends DomainResourceImpl implements Location {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -408,6 +415,7 @@ public class LocationImpl extends DomainResourceImpl implements Location {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<org.hl7.fhir.String> getAlias() {
 		if (alias == null) {
 			alias = new EObjectContainmentEList<org.hl7.fhir.String>(org.hl7.fhir.String.class, this, FhirPackage.LOCATION__ALIAS);
@@ -420,6 +428,7 @@ public class LocationImpl extends DomainResourceImpl implements Location {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -444,6 +453,7 @@ public class LocationImpl extends DomainResourceImpl implements Location {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -463,6 +473,7 @@ public class LocationImpl extends DomainResourceImpl implements Location {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public LocationMode getMode() {
 		return mode;
 	}
@@ -487,6 +498,7 @@ public class LocationImpl extends DomainResourceImpl implements Location {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMode(LocationMode newMode) {
 		if (newMode != mode) {
 			NotificationChain msgs = null;
@@ -506,6 +518,7 @@ public class LocationImpl extends DomainResourceImpl implements Location {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getType() {
 		if (type == null) {
 			type = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.LOCATION__TYPE);
@@ -518,6 +531,7 @@ public class LocationImpl extends DomainResourceImpl implements Location {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ExtendedContactDetail> getContact() {
 		if (contact == null) {
 			contact = new EObjectContainmentEList<ExtendedContactDetail>(ExtendedContactDetail.class, this, FhirPackage.LOCATION__CONTACT);
@@ -530,6 +544,7 @@ public class LocationImpl extends DomainResourceImpl implements Location {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Address getAddress() {
 		return address;
 	}
@@ -554,6 +569,7 @@ public class LocationImpl extends DomainResourceImpl implements Location {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAddress(Address newAddress) {
 		if (newAddress != address) {
 			NotificationChain msgs = null;
@@ -573,6 +589,7 @@ public class LocationImpl extends DomainResourceImpl implements Location {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getForm() {
 		return form;
 	}
@@ -597,6 +614,7 @@ public class LocationImpl extends DomainResourceImpl implements Location {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setForm(CodeableConcept newForm) {
 		if (newForm != form) {
 			NotificationChain msgs = null;
@@ -616,6 +634,7 @@ public class LocationImpl extends DomainResourceImpl implements Location {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public LocationPosition getPosition() {
 		return position;
 	}
@@ -640,6 +659,7 @@ public class LocationImpl extends DomainResourceImpl implements Location {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPosition(LocationPosition newPosition) {
 		if (newPosition != position) {
 			NotificationChain msgs = null;
@@ -659,6 +679,7 @@ public class LocationImpl extends DomainResourceImpl implements Location {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getManagingOrganization() {
 		return managingOrganization;
 	}
@@ -683,6 +704,7 @@ public class LocationImpl extends DomainResourceImpl implements Location {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setManagingOrganization(Reference newManagingOrganization) {
 		if (newManagingOrganization != managingOrganization) {
 			NotificationChain msgs = null;
@@ -702,6 +724,7 @@ public class LocationImpl extends DomainResourceImpl implements Location {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getPartOf() {
 		return partOf;
 	}
@@ -726,6 +749,7 @@ public class LocationImpl extends DomainResourceImpl implements Location {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPartOf(Reference newPartOf) {
 		if (newPartOf != partOf) {
 			NotificationChain msgs = null;
@@ -745,6 +769,7 @@ public class LocationImpl extends DomainResourceImpl implements Location {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCharacteristic() {
 		if (characteristic == null) {
 			characteristic = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.LOCATION__CHARACTERISTIC);
@@ -757,6 +782,7 @@ public class LocationImpl extends DomainResourceImpl implements Location {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Availability> getHoursOfOperation() {
 		if (hoursOfOperation == null) {
 			hoursOfOperation = new EObjectContainmentEList<Availability>(Availability.class, this, FhirPackage.LOCATION__HOURS_OF_OPERATION);
@@ -769,6 +795,7 @@ public class LocationImpl extends DomainResourceImpl implements Location {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<VirtualServiceDetail> getVirtualService() {
 		if (virtualService == null) {
 			virtualService = new EObjectContainmentEList<VirtualServiceDetail>(VirtualServiceDetail.class, this, FhirPackage.LOCATION__VIRTUAL_SERVICE);
@@ -781,6 +808,7 @@ public class LocationImpl extends DomainResourceImpl implements Location {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getEndpoint() {
 		if (endpoint == null) {
 			endpoint = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.LOCATION__ENDPOINT);

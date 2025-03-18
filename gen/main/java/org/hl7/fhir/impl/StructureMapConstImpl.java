@@ -73,6 +73,7 @@ public class StructureMapConstImpl extends BackboneElementImpl implements Struct
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Id getName() {
 		return name;
 	}
@@ -97,6 +98,7 @@ public class StructureMapConstImpl extends BackboneElementImpl implements Struct
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(Id newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -116,6 +118,7 @@ public class StructureMapConstImpl extends BackboneElementImpl implements Struct
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getValue() {
 		return value;
 	}
@@ -140,6 +143,7 @@ public class StructureMapConstImpl extends BackboneElementImpl implements Struct
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(org.hl7.fhir.String newValue) {
 		if (newValue != value) {
 			NotificationChain msgs = null;

@@ -92,6 +92,7 @@ public class ConditionStageImpl extends BackboneElementImpl implements Condition
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getSummary() {
 		return summary;
 	}
@@ -116,6 +117,7 @@ public class ConditionStageImpl extends BackboneElementImpl implements Condition
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSummary(CodeableConcept newSummary) {
 		if (newSummary != summary) {
 			NotificationChain msgs = null;
@@ -135,6 +137,7 @@ public class ConditionStageImpl extends BackboneElementImpl implements Condition
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getAssessment() {
 		if (assessment == null) {
 			assessment = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.CONDITION_STAGE__ASSESSMENT);
@@ -147,6 +150,7 @@ public class ConditionStageImpl extends BackboneElementImpl implements Condition
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -171,6 +175,7 @@ public class ConditionStageImpl extends BackboneElementImpl implements Condition
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;

@@ -127,6 +127,7 @@ public class ManufacturedItemDefinitionComponentImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -151,6 +152,7 @@ public class ManufacturedItemDefinitionComponentImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -170,6 +172,7 @@ public class ManufacturedItemDefinitionComponentImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getFunction() {
 		if (function == null) {
 			function = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.MANUFACTURED_ITEM_DEFINITION_COMPONENT__FUNCTION);
@@ -182,6 +185,7 @@ public class ManufacturedItemDefinitionComponentImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Quantity> getAmount() {
 		if (amount == null) {
 			amount = new EObjectContainmentEList<Quantity>(Quantity.class, this, FhirPackage.MANUFACTURED_ITEM_DEFINITION_COMPONENT__AMOUNT);
@@ -194,6 +198,7 @@ public class ManufacturedItemDefinitionComponentImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ManufacturedItemDefinitionConstituent> getConstituent() {
 		if (constituent == null) {
 			constituent = new EObjectContainmentEList<ManufacturedItemDefinitionConstituent>(ManufacturedItemDefinitionConstituent.class, this, FhirPackage.MANUFACTURED_ITEM_DEFINITION_COMPONENT__CONSTITUENT);
@@ -206,6 +211,7 @@ public class ManufacturedItemDefinitionComponentImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ManufacturedItemDefinitionProperty> getProperty() {
 		if (property == null) {
 			property = new EObjectContainmentEList<ManufacturedItemDefinitionProperty>(ManufacturedItemDefinitionProperty.class, this, FhirPackage.MANUFACTURED_ITEM_DEFINITION_COMPONENT__PROPERTY);
@@ -218,6 +224,7 @@ public class ManufacturedItemDefinitionComponentImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ManufacturedItemDefinitionComponent> getComponent() {
 		if (component == null) {
 			component = new EObjectContainmentEList<ManufacturedItemDefinitionComponent>(ManufacturedItemDefinitionComponent.class, this, FhirPackage.MANUFACTURED_ITEM_DEFINITION_COMPONENT__COMPONENT);

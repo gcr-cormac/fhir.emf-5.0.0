@@ -79,6 +79,7 @@ public class ActionRelationshipTypeImpl extends ElementImpl implements ActionRel
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ActionRelationshipTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ActionRelationshipTypeImpl extends ElementImpl implements ActionRel
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ActionRelationshipTypeEnum newValue) {
 		ActionRelationshipTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ActionRelationshipTypeImpl extends ElementImpl implements ActionRel
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ActionRelationshipTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ActionRelationshipTypeImpl extends ElementImpl implements ActionRel
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

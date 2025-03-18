@@ -73,6 +73,7 @@ public class PaymentReconciliationProcessNoteImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public NoteType getType() {
 		return type;
 	}
@@ -97,6 +98,7 @@ public class PaymentReconciliationProcessNoteImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(NoteType newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -116,6 +118,7 @@ public class PaymentReconciliationProcessNoteImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getText() {
 		return text;
 	}
@@ -140,6 +143,7 @@ public class PaymentReconciliationProcessNoteImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setText(org.hl7.fhir.String newText) {
 		if (newText != text) {
 			NotificationChain msgs = null;

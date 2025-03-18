@@ -74,6 +74,7 @@ public class ProcedureFocalDeviceImpl extends BackboneElementImpl implements Pro
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getAction() {
 		return action;
 	}
@@ -98,6 +99,7 @@ public class ProcedureFocalDeviceImpl extends BackboneElementImpl implements Pro
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAction(CodeableConcept newAction) {
 		if (newAction != action) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class ProcedureFocalDeviceImpl extends BackboneElementImpl implements Pro
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getManipulated() {
 		return manipulated;
 	}
@@ -141,6 +144,7 @@ public class ProcedureFocalDeviceImpl extends BackboneElementImpl implements Pro
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setManipulated(Reference newManipulated) {
 		if (newManipulated != manipulated) {
 			NotificationChain msgs = null;

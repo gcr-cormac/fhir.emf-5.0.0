@@ -74,6 +74,7 @@ public class DeviceDefinitionLinkImpl extends BackboneElementImpl implements Dev
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getRelation() {
 		return relation;
 	}
@@ -98,6 +99,7 @@ public class DeviceDefinitionLinkImpl extends BackboneElementImpl implements Dev
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRelation(Coding newRelation) {
 		if (newRelation != relation) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class DeviceDefinitionLinkImpl extends BackboneElementImpl implements Dev
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getRelatedDevice() {
 		return relatedDevice;
 	}
@@ -141,6 +144,7 @@ public class DeviceDefinitionLinkImpl extends BackboneElementImpl implements Dev
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRelatedDevice(CodeableReference newRelatedDevice) {
 		if (newRelatedDevice != relatedDevice) {
 			NotificationChain msgs = null;

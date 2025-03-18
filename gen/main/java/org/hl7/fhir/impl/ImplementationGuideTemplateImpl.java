@@ -84,6 +84,7 @@ public class ImplementationGuideTemplateImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Code getCode() {
 		return code;
 	}
@@ -108,6 +109,7 @@ public class ImplementationGuideTemplateImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(Code newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -127,6 +129,7 @@ public class ImplementationGuideTemplateImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getSource() {
 		return source;
 	}
@@ -151,6 +154,7 @@ public class ImplementationGuideTemplateImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSource(org.hl7.fhir.String newSource) {
 		if (newSource != source) {
 			NotificationChain msgs = null;
@@ -170,6 +174,7 @@ public class ImplementationGuideTemplateImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getScope() {
 		return scope;
 	}
@@ -194,6 +199,7 @@ public class ImplementationGuideTemplateImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setScope(org.hl7.fhir.String newScope) {
 		if (newScope != scope) {
 			NotificationChain msgs = null;

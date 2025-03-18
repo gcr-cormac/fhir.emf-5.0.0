@@ -79,6 +79,7 @@ public class ActionCardinalityBehaviorImpl extends ElementImpl implements Action
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ActionCardinalityBehaviorEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ActionCardinalityBehaviorImpl extends ElementImpl implements Action
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ActionCardinalityBehaviorEnum newValue) {
 		ActionCardinalityBehaviorEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ActionCardinalityBehaviorImpl extends ElementImpl implements Action
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ActionCardinalityBehaviorEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ActionCardinalityBehaviorImpl extends ElementImpl implements Action
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

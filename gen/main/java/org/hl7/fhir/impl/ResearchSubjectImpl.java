@@ -162,6 +162,7 @@ public class ResearchSubjectImpl extends DomainResourceImpl implements ResearchS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.RESEARCH_SUBJECT__IDENTIFIER);
@@ -174,6 +175,7 @@ public class ResearchSubjectImpl extends DomainResourceImpl implements ResearchS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PublicationStatus getStatus() {
 		return status;
 	}
@@ -198,6 +200,7 @@ public class ResearchSubjectImpl extends DomainResourceImpl implements ResearchS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(PublicationStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -217,6 +220,7 @@ public class ResearchSubjectImpl extends DomainResourceImpl implements ResearchS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ResearchSubjectProgress> getProgress() {
 		if (progress == null) {
 			progress = new EObjectContainmentEList<ResearchSubjectProgress>(ResearchSubjectProgress.class, this, FhirPackage.RESEARCH_SUBJECT__PROGRESS);
@@ -229,6 +233,7 @@ public class ResearchSubjectImpl extends DomainResourceImpl implements ResearchS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getPeriod() {
 		return period;
 	}
@@ -253,6 +258,7 @@ public class ResearchSubjectImpl extends DomainResourceImpl implements ResearchS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriod(Period newPeriod) {
 		if (newPeriod != period) {
 			NotificationChain msgs = null;
@@ -272,6 +278,7 @@ public class ResearchSubjectImpl extends DomainResourceImpl implements ResearchS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getStudy() {
 		return study;
 	}
@@ -296,6 +303,7 @@ public class ResearchSubjectImpl extends DomainResourceImpl implements ResearchS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStudy(Reference newStudy) {
 		if (newStudy != study) {
 			NotificationChain msgs = null;
@@ -315,6 +323,7 @@ public class ResearchSubjectImpl extends DomainResourceImpl implements ResearchS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubject() {
 		return subject;
 	}
@@ -339,6 +348,7 @@ public class ResearchSubjectImpl extends DomainResourceImpl implements ResearchS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubject(Reference newSubject) {
 		if (newSubject != subject) {
 			NotificationChain msgs = null;
@@ -358,6 +368,7 @@ public class ResearchSubjectImpl extends DomainResourceImpl implements ResearchS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Id getAssignedComparisonGroup() {
 		return assignedComparisonGroup;
 	}
@@ -382,6 +393,7 @@ public class ResearchSubjectImpl extends DomainResourceImpl implements ResearchS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAssignedComparisonGroup(Id newAssignedComparisonGroup) {
 		if (newAssignedComparisonGroup != assignedComparisonGroup) {
 			NotificationChain msgs = null;
@@ -401,6 +413,7 @@ public class ResearchSubjectImpl extends DomainResourceImpl implements ResearchS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Id getActualComparisonGroup() {
 		return actualComparisonGroup;
 	}
@@ -425,6 +438,7 @@ public class ResearchSubjectImpl extends DomainResourceImpl implements ResearchS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setActualComparisonGroup(Id newActualComparisonGroup) {
 		if (newActualComparisonGroup != actualComparisonGroup) {
 			NotificationChain msgs = null;
@@ -444,6 +458,7 @@ public class ResearchSubjectImpl extends DomainResourceImpl implements ResearchS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getConsent() {
 		if (consent == null) {
 			consent = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.RESEARCH_SUBJECT__CONSENT);

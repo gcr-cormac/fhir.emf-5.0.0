@@ -74,6 +74,7 @@ public class PersonLinkImpl extends BackboneElementImpl implements PersonLink {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getTarget() {
 		return target;
 	}
@@ -98,6 +99,7 @@ public class PersonLinkImpl extends BackboneElementImpl implements PersonLink {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTarget(Reference newTarget) {
 		if (newTarget != target) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class PersonLinkImpl extends BackboneElementImpl implements PersonLink {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public IdentityAssuranceLevel getAssurance() {
 		return assurance;
 	}
@@ -141,6 +144,7 @@ public class PersonLinkImpl extends BackboneElementImpl implements PersonLink {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAssurance(IdentityAssuranceLevel newAssurance) {
 		if (newAssurance != assurance) {
 			NotificationChain msgs = null;

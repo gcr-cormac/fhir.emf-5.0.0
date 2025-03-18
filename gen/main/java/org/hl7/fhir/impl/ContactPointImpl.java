@@ -109,6 +109,7 @@ public class ContactPointImpl extends DataTypeImpl implements ContactPoint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ContactPointSystem getSystem() {
 		return system;
 	}
@@ -133,6 +134,7 @@ public class ContactPointImpl extends DataTypeImpl implements ContactPoint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSystem(ContactPointSystem newSystem) {
 		if (newSystem != system) {
 			NotificationChain msgs = null;
@@ -152,6 +154,7 @@ public class ContactPointImpl extends DataTypeImpl implements ContactPoint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getValue() {
 		return value;
 	}
@@ -176,6 +179,7 @@ public class ContactPointImpl extends DataTypeImpl implements ContactPoint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(org.hl7.fhir.String newValue) {
 		if (newValue != value) {
 			NotificationChain msgs = null;
@@ -195,6 +199,7 @@ public class ContactPointImpl extends DataTypeImpl implements ContactPoint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ContactPointUse getUse() {
 		return use;
 	}
@@ -219,6 +224,7 @@ public class ContactPointImpl extends DataTypeImpl implements ContactPoint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUse(ContactPointUse newUse) {
 		if (newUse != use) {
 			NotificationChain msgs = null;
@@ -238,6 +244,7 @@ public class ContactPointImpl extends DataTypeImpl implements ContactPoint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PositiveInt getRank() {
 		return rank;
 	}
@@ -262,6 +269,7 @@ public class ContactPointImpl extends DataTypeImpl implements ContactPoint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRank(PositiveInt newRank) {
 		if (newRank != rank) {
 			NotificationChain msgs = null;
@@ -281,6 +289,7 @@ public class ContactPointImpl extends DataTypeImpl implements ContactPoint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getPeriod() {
 		return period;
 	}
@@ -305,6 +314,7 @@ public class ContactPointImpl extends DataTypeImpl implements ContactPoint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriod(Period newPeriod) {
 		if (newPeriod != period) {
 			NotificationChain msgs = null;

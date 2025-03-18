@@ -79,6 +79,7 @@ public class EligibilityRequestPurposeImpl extends ElementImpl implements Eligib
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EligibilityRequestPurposeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class EligibilityRequestPurposeImpl extends ElementImpl implements Eligib
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(EligibilityRequestPurposeEnum newValue) {
 		EligibilityRequestPurposeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class EligibilityRequestPurposeImpl extends ElementImpl implements Eligib
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		EligibilityRequestPurposeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class EligibilityRequestPurposeImpl extends ElementImpl implements Eligib
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

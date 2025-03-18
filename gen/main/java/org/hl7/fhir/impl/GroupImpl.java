@@ -187,6 +187,7 @@ public class GroupImpl extends DomainResourceImpl implements Group {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.GROUP__IDENTIFIER);
@@ -199,6 +200,7 @@ public class GroupImpl extends DomainResourceImpl implements Group {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getActive() {
 		return active;
 	}
@@ -223,6 +225,7 @@ public class GroupImpl extends DomainResourceImpl implements Group {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setActive(org.hl7.fhir.Boolean newActive) {
 		if (newActive != active) {
 			NotificationChain msgs = null;
@@ -242,6 +245,7 @@ public class GroupImpl extends DomainResourceImpl implements Group {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public GroupType getType() {
 		return type;
 	}
@@ -266,6 +270,7 @@ public class GroupImpl extends DomainResourceImpl implements Group {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(GroupType newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -285,6 +290,7 @@ public class GroupImpl extends DomainResourceImpl implements Group {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public GroupMembershipBasis getMembership() {
 		return membership;
 	}
@@ -309,6 +315,7 @@ public class GroupImpl extends DomainResourceImpl implements Group {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMembership(GroupMembershipBasis newMembership) {
 		if (newMembership != membership) {
 			NotificationChain msgs = null;
@@ -328,6 +335,7 @@ public class GroupImpl extends DomainResourceImpl implements Group {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -352,6 +360,7 @@ public class GroupImpl extends DomainResourceImpl implements Group {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -371,6 +380,7 @@ public class GroupImpl extends DomainResourceImpl implements Group {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -395,6 +405,7 @@ public class GroupImpl extends DomainResourceImpl implements Group {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -414,6 +425,7 @@ public class GroupImpl extends DomainResourceImpl implements Group {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -438,6 +450,7 @@ public class GroupImpl extends DomainResourceImpl implements Group {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -457,6 +470,7 @@ public class GroupImpl extends DomainResourceImpl implements Group {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public UnsignedInt getQuantity() {
 		return quantity;
 	}
@@ -481,6 +495,7 @@ public class GroupImpl extends DomainResourceImpl implements Group {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setQuantity(UnsignedInt newQuantity) {
 		if (newQuantity != quantity) {
 			NotificationChain msgs = null;
@@ -500,6 +515,7 @@ public class GroupImpl extends DomainResourceImpl implements Group {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getManagingEntity() {
 		return managingEntity;
 	}
@@ -524,6 +540,7 @@ public class GroupImpl extends DomainResourceImpl implements Group {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setManagingEntity(Reference newManagingEntity) {
 		if (newManagingEntity != managingEntity) {
 			NotificationChain msgs = null;
@@ -543,6 +560,7 @@ public class GroupImpl extends DomainResourceImpl implements Group {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<GroupCharacteristic> getCharacteristic() {
 		if (characteristic == null) {
 			characteristic = new EObjectContainmentEList<GroupCharacteristic>(GroupCharacteristic.class, this, FhirPackage.GROUP__CHARACTERISTIC);
@@ -555,6 +573,7 @@ public class GroupImpl extends DomainResourceImpl implements Group {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<GroupMember> getMember() {
 		if (member == null) {
 			member = new EObjectContainmentEList<GroupMember>(GroupMember.class, this, FhirPackage.GROUP__MEMBER);

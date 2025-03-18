@@ -79,6 +79,7 @@ public class AdverseEventStatusImpl extends ElementImpl implements AdverseEventS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AdverseEventStatusEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class AdverseEventStatusImpl extends ElementImpl implements AdverseEventS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(AdverseEventStatusEnum newValue) {
 		AdverseEventStatusEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class AdverseEventStatusImpl extends ElementImpl implements AdverseEventS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		AdverseEventStatusEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class AdverseEventStatusImpl extends ElementImpl implements AdverseEventS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

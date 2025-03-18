@@ -118,6 +118,7 @@ public class NamingSystemUniqueIdImpl extends BackboneElementImpl implements Nam
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public NamingSystemIdentifierType getType() {
 		return type;
 	}
@@ -142,6 +143,7 @@ public class NamingSystemUniqueIdImpl extends BackboneElementImpl implements Nam
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(NamingSystemIdentifierType newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -161,6 +163,7 @@ public class NamingSystemUniqueIdImpl extends BackboneElementImpl implements Nam
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getValue() {
 		return value;
 	}
@@ -185,6 +188,7 @@ public class NamingSystemUniqueIdImpl extends BackboneElementImpl implements Nam
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(org.hl7.fhir.String newValue) {
 		if (newValue != value) {
 			NotificationChain msgs = null;
@@ -204,6 +208,7 @@ public class NamingSystemUniqueIdImpl extends BackboneElementImpl implements Nam
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getPreferred() {
 		return preferred;
 	}
@@ -228,6 +233,7 @@ public class NamingSystemUniqueIdImpl extends BackboneElementImpl implements Nam
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPreferred(org.hl7.fhir.Boolean newPreferred) {
 		if (newPreferred != preferred) {
 			NotificationChain msgs = null;
@@ -247,6 +253,7 @@ public class NamingSystemUniqueIdImpl extends BackboneElementImpl implements Nam
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getComment() {
 		return comment;
 	}
@@ -271,6 +278,7 @@ public class NamingSystemUniqueIdImpl extends BackboneElementImpl implements Nam
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setComment(org.hl7.fhir.String newComment) {
 		if (newComment != comment) {
 			NotificationChain msgs = null;
@@ -290,6 +298,7 @@ public class NamingSystemUniqueIdImpl extends BackboneElementImpl implements Nam
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getPeriod() {
 		return period;
 	}
@@ -314,6 +323,7 @@ public class NamingSystemUniqueIdImpl extends BackboneElementImpl implements Nam
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriod(Period newPeriod) {
 		if (newPeriod != period) {
 			NotificationChain msgs = null;
@@ -333,6 +343,7 @@ public class NamingSystemUniqueIdImpl extends BackboneElementImpl implements Nam
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getAuthoritative() {
 		return authoritative;
 	}
@@ -357,6 +368,7 @@ public class NamingSystemUniqueIdImpl extends BackboneElementImpl implements Nam
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAuthoritative(org.hl7.fhir.Boolean newAuthoritative) {
 		if (newAuthoritative != authoritative) {
 			NotificationChain msgs = null;

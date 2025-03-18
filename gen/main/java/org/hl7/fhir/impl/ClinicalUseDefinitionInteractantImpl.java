@@ -74,6 +74,7 @@ public class ClinicalUseDefinitionInteractantImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getItemReference() {
 		return itemReference;
 	}
@@ -98,6 +99,7 @@ public class ClinicalUseDefinitionInteractantImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setItemReference(Reference newItemReference) {
 		if (newItemReference != itemReference) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class ClinicalUseDefinitionInteractantImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getItemCodeableConcept() {
 		return itemCodeableConcept;
 	}
@@ -141,6 +144,7 @@ public class ClinicalUseDefinitionInteractantImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setItemCodeableConcept(CodeableConcept newItemCodeableConcept) {
 		if (newItemCodeableConcept != itemCodeableConcept) {
 			NotificationChain msgs = null;

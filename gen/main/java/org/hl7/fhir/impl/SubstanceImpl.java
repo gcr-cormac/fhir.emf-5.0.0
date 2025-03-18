@@ -164,6 +164,7 @@ public class SubstanceImpl extends DomainResourceImpl implements Substance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.SUBSTANCE__IDENTIFIER);
@@ -176,6 +177,7 @@ public class SubstanceImpl extends DomainResourceImpl implements Substance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getInstance() {
 		return instance;
 	}
@@ -200,6 +202,7 @@ public class SubstanceImpl extends DomainResourceImpl implements Substance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInstance(org.hl7.fhir.Boolean newInstance) {
 		if (newInstance != instance) {
 			NotificationChain msgs = null;
@@ -219,6 +222,7 @@ public class SubstanceImpl extends DomainResourceImpl implements Substance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public FHIRSubstanceStatus getStatus() {
 		return status;
 	}
@@ -243,6 +247,7 @@ public class SubstanceImpl extends DomainResourceImpl implements Substance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(FHIRSubstanceStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -262,6 +267,7 @@ public class SubstanceImpl extends DomainResourceImpl implements Substance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCategory() {
 		if (category == null) {
 			category = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.SUBSTANCE__CATEGORY);
@@ -274,6 +280,7 @@ public class SubstanceImpl extends DomainResourceImpl implements Substance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getCode() {
 		return code;
 	}
@@ -298,6 +305,7 @@ public class SubstanceImpl extends DomainResourceImpl implements Substance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableReference newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -317,6 +325,7 @@ public class SubstanceImpl extends DomainResourceImpl implements Substance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -341,6 +350,7 @@ public class SubstanceImpl extends DomainResourceImpl implements Substance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -360,6 +370,7 @@ public class SubstanceImpl extends DomainResourceImpl implements Substance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getExpiry() {
 		return expiry;
 	}
@@ -384,6 +395,7 @@ public class SubstanceImpl extends DomainResourceImpl implements Substance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExpiry(DateTime newExpiry) {
 		if (newExpiry != expiry) {
 			NotificationChain msgs = null;
@@ -403,6 +415,7 @@ public class SubstanceImpl extends DomainResourceImpl implements Substance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getQuantity() {
 		return quantity;
 	}
@@ -427,6 +440,7 @@ public class SubstanceImpl extends DomainResourceImpl implements Substance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setQuantity(Quantity newQuantity) {
 		if (newQuantity != quantity) {
 			NotificationChain msgs = null;
@@ -446,6 +460,7 @@ public class SubstanceImpl extends DomainResourceImpl implements Substance {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SubstanceIngredient> getIngredient() {
 		if (ingredient == null) {
 			ingredient = new EObjectContainmentEList<SubstanceIngredient>(SubstanceIngredient.class, this, FhirPackage.SUBSTANCE__INGREDIENT);

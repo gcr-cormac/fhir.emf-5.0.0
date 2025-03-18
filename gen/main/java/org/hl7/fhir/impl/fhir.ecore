@@ -40106,6 +40106,1533 @@
     <eLiterals name="ZA" value="246"/>
     <eLiterals name="ZM" value="247"/>
     <eLiterals name="ZW" value="248"/>
+    <eLiterals name="ABW" value="249"/>
+    <eLiterals name="AFG" value="250"/>
+    <eLiterals name="AGO" value="251"/>
+    <eLiterals name="AIA" value="252"/>
+    <eLiterals name="ALA" value="253"/>
+    <eLiterals name="ALB" value="254"/>
+    <eLiterals name="AND" value="255"/>
+    <eLiterals name="ARE" value="256"/>
+    <eLiterals name="ARG" value="257"/>
+    <eLiterals name="ARM" value="258"/>
+    <eLiterals name="ASM" value="259"/>
+    <eLiterals name="ATA" value="260"/>
+    <eLiterals name="ATF" value="261"/>
+    <eLiterals name="ATG" value="262"/>
+    <eLiterals name="AUS" value="263"/>
+    <eLiterals name="AUT" value="264"/>
+    <eLiterals name="AZE" value="265"/>
+    <eLiterals name="BDI" value="266"/>
+    <eLiterals name="BEL" value="267"/>
+    <eLiterals name="BEN" value="268"/>
+    <eLiterals name="BES" value="269"/>
+    <eLiterals name="BFA" value="270"/>
+    <eLiterals name="BGD" value="271"/>
+    <eLiterals name="BGR" value="272"/>
+    <eLiterals name="BHR" value="273"/>
+    <eLiterals name="BHS" value="274"/>
+    <eLiterals name="BIH" value="275"/>
+    <eLiterals name="BLM" value="276"/>
+    <eLiterals name="BLR" value="277"/>
+    <eLiterals name="BLZ" value="278"/>
+    <eLiterals name="BMU" value="279"/>
+    <eLiterals name="BOL" value="280"/>
+    <eLiterals name="BRA" value="281"/>
+    <eLiterals name="BRB" value="282"/>
+    <eLiterals name="BRN" value="283"/>
+    <eLiterals name="BTN" value="284"/>
+    <eLiterals name="BVT" value="285"/>
+    <eLiterals name="BWA" value="286"/>
+    <eLiterals name="CAF" value="287"/>
+    <eLiterals name="CAN" value="288"/>
+    <eLiterals name="CCK" value="289"/>
+    <eLiterals name="CHE" value="290"/>
+    <eLiterals name="CHL" value="291"/>
+    <eLiterals name="CHN" value="292"/>
+    <eLiterals name="CIV" value="293"/>
+    <eLiterals name="CMR" value="294"/>
+    <eLiterals name="COD" value="295"/>
+    <eLiterals name="COG" value="296"/>
+    <eLiterals name="COK" value="297"/>
+    <eLiterals name="COL" value="298"/>
+    <eLiterals name="COM" value="299"/>
+    <eLiterals name="CPV" value="300"/>
+    <eLiterals name="CRI" value="301"/>
+    <eLiterals name="CUB" value="302"/>
+    <eLiterals name="CUW" value="303"/>
+    <eLiterals name="CXR" value="304"/>
+    <eLiterals name="CYM" value="305"/>
+    <eLiterals name="CYP" value="306"/>
+    <eLiterals name="CZE" value="307"/>
+    <eLiterals name="DEU" value="308"/>
+    <eLiterals name="DJI" value="309"/>
+    <eLiterals name="DMA" value="310"/>
+    <eLiterals name="DNK" value="311"/>
+    <eLiterals name="DOM" value="312"/>
+    <eLiterals name="DZA" value="313"/>
+    <eLiterals name="ECU" value="314"/>
+    <eLiterals name="EGY" value="315"/>
+    <eLiterals name="ERI" value="316"/>
+    <eLiterals name="ESH" value="317"/>
+    <eLiterals name="ESP" value="318"/>
+    <eLiterals name="EST" value="319"/>
+    <eLiterals name="ETH" value="320"/>
+    <eLiterals name="FIN" value="321"/>
+    <eLiterals name="FJI" value="322"/>
+    <eLiterals name="FLK" value="323"/>
+    <eLiterals name="FRA" value="324"/>
+    <eLiterals name="FRO" value="325"/>
+    <eLiterals name="FSM" value="326"/>
+    <eLiterals name="GAB" value="327"/>
+    <eLiterals name="GBR" value="328"/>
+    <eLiterals name="GEO" value="329"/>
+    <eLiterals name="GGY" value="330"/>
+    <eLiterals name="GHA" value="331"/>
+    <eLiterals name="GIB" value="332"/>
+    <eLiterals name="GIN" value="333"/>
+    <eLiterals name="GLP" value="334"/>
+    <eLiterals name="GMB" value="335"/>
+    <eLiterals name="GNB" value="336"/>
+    <eLiterals name="GNQ" value="337"/>
+    <eLiterals name="GRC" value="338"/>
+    <eLiterals name="GRD" value="339"/>
+    <eLiterals name="GRL" value="340"/>
+    <eLiterals name="GTM" value="341"/>
+    <eLiterals name="GUF" value="342"/>
+    <eLiterals name="GUM" value="343"/>
+    <eLiterals name="GUY" value="344"/>
+    <eLiterals name="HKG" value="345"/>
+    <eLiterals name="HMD" value="346"/>
+    <eLiterals name="HND" value="347"/>
+    <eLiterals name="HRV" value="348"/>
+    <eLiterals name="HTI" value="349"/>
+    <eLiterals name="HUN" value="350"/>
+    <eLiterals name="IDN" value="351"/>
+    <eLiterals name="IMN" value="352"/>
+    <eLiterals name="IND" value="353"/>
+    <eLiterals name="IOT" value="354"/>
+    <eLiterals name="IRL" value="355"/>
+    <eLiterals name="IRN" value="356"/>
+    <eLiterals name="IRQ" value="357"/>
+    <eLiterals name="ISL" value="358"/>
+    <eLiterals name="ISR" value="359"/>
+    <eLiterals name="ITA" value="360"/>
+    <eLiterals name="JAM" value="361"/>
+    <eLiterals name="JEY" value="362"/>
+    <eLiterals name="JOR" value="363"/>
+    <eLiterals name="JPN" value="364"/>
+    <eLiterals name="KAZ" value="365"/>
+    <eLiterals name="KEN" value="366"/>
+    <eLiterals name="KGZ" value="367"/>
+    <eLiterals name="KHM" value="368"/>
+    <eLiterals name="KIR" value="369"/>
+    <eLiterals name="KNA" value="370"/>
+    <eLiterals name="KOR" value="371"/>
+    <eLiterals name="KWT" value="372"/>
+    <eLiterals name="LAO" value="373"/>
+    <eLiterals name="LBN" value="374"/>
+    <eLiterals name="LBR" value="375"/>
+    <eLiterals name="LBY" value="376"/>
+    <eLiterals name="LCA" value="377"/>
+    <eLiterals name="LIE" value="378"/>
+    <eLiterals name="LKA" value="379"/>
+    <eLiterals name="LSO" value="380"/>
+    <eLiterals name="LTU" value="381"/>
+    <eLiterals name="LUX" value="382"/>
+    <eLiterals name="LVA" value="383"/>
+    <eLiterals name="MAC" value="384"/>
+    <eLiterals name="MAF" value="385"/>
+    <eLiterals name="MAR" value="386"/>
+    <eLiterals name="MCO" value="387"/>
+    <eLiterals name="MDA" value="388"/>
+    <eLiterals name="MDG" value="389"/>
+    <eLiterals name="MDV" value="390"/>
+    <eLiterals name="MEX" value="391"/>
+    <eLiterals name="MHL" value="392"/>
+    <eLiterals name="MKD" value="393"/>
+    <eLiterals name="MLI" value="394"/>
+    <eLiterals name="MLT" value="395"/>
+    <eLiterals name="MMR" value="396"/>
+    <eLiterals name="MNE" value="397"/>
+    <eLiterals name="MNG" value="398"/>
+    <eLiterals name="MNP" value="399"/>
+    <eLiterals name="MOZ" value="400"/>
+    <eLiterals name="MRT" value="401"/>
+    <eLiterals name="MSR" value="402"/>
+    <eLiterals name="MTQ" value="403"/>
+    <eLiterals name="MUS" value="404"/>
+    <eLiterals name="MWI" value="405"/>
+    <eLiterals name="MYS" value="406"/>
+    <eLiterals name="MYT" value="407"/>
+    <eLiterals name="NAM" value="408"/>
+    <eLiterals name="NCL" value="409"/>
+    <eLiterals name="NER" value="410"/>
+    <eLiterals name="NFK" value="411"/>
+    <eLiterals name="NGA" value="412"/>
+    <eLiterals name="NIC" value="413"/>
+    <eLiterals name="NIU" value="414"/>
+    <eLiterals name="NLD" value="415"/>
+    <eLiterals name="NOR" value="416"/>
+    <eLiterals name="NPL" value="417"/>
+    <eLiterals name="NRU" value="418"/>
+    <eLiterals name="NZL" value="419"/>
+    <eLiterals name="OMN" value="420"/>
+    <eLiterals name="PAK" value="421"/>
+    <eLiterals name="PAN" value="422"/>
+    <eLiterals name="PCN" value="423"/>
+    <eLiterals name="PER" value="424"/>
+    <eLiterals name="PHL" value="425"/>
+    <eLiterals name="PLW" value="426"/>
+    <eLiterals name="PNG" value="427"/>
+    <eLiterals name="POL" value="428"/>
+    <eLiterals name="PRI" value="429"/>
+    <eLiterals name="PRK" value="430"/>
+    <eLiterals name="PRT" value="431"/>
+    <eLiterals name="PRY" value="432"/>
+    <eLiterals name="PSE" value="433"/>
+    <eLiterals name="PYF" value="434"/>
+    <eLiterals name="QAT" value="435"/>
+    <eLiterals name="REU" value="436"/>
+    <eLiterals name="ROU" value="437"/>
+    <eLiterals name="RUS" value="438"/>
+    <eLiterals name="RWA" value="439"/>
+    <eLiterals name="SAU" value="440"/>
+    <eLiterals name="SDN" value="441"/>
+    <eLiterals name="SEN" value="442"/>
+    <eLiterals name="SGP" value="443"/>
+    <eLiterals name="SGS" value="444"/>
+    <eLiterals name="SHN" value="445"/>
+    <eLiterals name="SJM" value="446"/>
+    <eLiterals name="SLB" value="447"/>
+    <eLiterals name="SLE" value="448"/>
+    <eLiterals name="SLV" value="449"/>
+    <eLiterals name="SMR" value="450"/>
+    <eLiterals name="SOM" value="451"/>
+    <eLiterals name="SPM" value="452"/>
+    <eLiterals name="SRB" value="453"/>
+    <eLiterals name="SSD" value="454"/>
+    <eLiterals name="STP" value="455"/>
+    <eLiterals name="SUR" value="456"/>
+    <eLiterals name="SVK" value="457"/>
+    <eLiterals name="SVN" value="458"/>
+    <eLiterals name="SWE" value="459"/>
+    <eLiterals name="SWZ" value="460"/>
+    <eLiterals name="SXM" value="461"/>
+    <eLiterals name="SYC" value="462"/>
+    <eLiterals name="SYR" value="463"/>
+    <eLiterals name="TCA" value="464"/>
+    <eLiterals name="TCD" value="465"/>
+    <eLiterals name="TGO" value="466"/>
+    <eLiterals name="THA" value="467"/>
+    <eLiterals name="TJK" value="468"/>
+    <eLiterals name="TKL" value="469"/>
+    <eLiterals name="TKM" value="470"/>
+    <eLiterals name="TLS" value="471"/>
+    <eLiterals name="TON" value="472"/>
+    <eLiterals name="TTO" value="473"/>
+    <eLiterals name="TUN" value="474"/>
+    <eLiterals name="TUR" value="475"/>
+    <eLiterals name="TUV" value="476"/>
+    <eLiterals name="TWN" value="477"/>
+    <eLiterals name="TZA" value="478"/>
+    <eLiterals name="UGA" value="479"/>
+    <eLiterals name="UKR" value="480"/>
+    <eLiterals name="UMI" value="481"/>
+    <eLiterals name="URY" value="482"/>
+    <eLiterals name="USA" value="483"/>
+    <eLiterals name="UZB" value="484"/>
+    <eLiterals name="VAT" value="485"/>
+    <eLiterals name="VCT" value="486"/>
+    <eLiterals name="VEN" value="487"/>
+    <eLiterals name="VGB" value="488"/>
+    <eLiterals name="VIR" value="489"/>
+    <eLiterals name="VNM" value="490"/>
+    <eLiterals name="VUT" value="491"/>
+    <eLiterals name="WLF" value="492"/>
+    <eLiterals name="WSM" value="493"/>
+    <eLiterals name="YEM" value="494"/>
+    <eLiterals name="ZAF" value="495"/>
+    <eLiterals name="ZMB" value="496"/>
+    <eLiterals name="ZWE" value="497"/>
+    <eLiterals name="_004" value="498" literal="004"/>
+    <eLiterals name="_008" value="499" literal="008"/>
+    <eLiterals name="_010" value="500" literal="010"/>
+    <eLiterals name="_012" value="501" literal="012"/>
+    <eLiterals name="_016" value="502" literal="016"/>
+    <eLiterals name="_020" value="503" literal="020"/>
+    <eLiterals name="_024" value="504" literal="024"/>
+    <eLiterals name="_028" value="505" literal="028"/>
+    <eLiterals name="_031" value="506" literal="031"/>
+    <eLiterals name="_032" value="507" literal="032"/>
+    <eLiterals name="_036" value="508" literal="036"/>
+    <eLiterals name="_040" value="509" literal="040"/>
+    <eLiterals name="_044" value="510" literal="044"/>
+    <eLiterals name="_048" value="511" literal="048"/>
+    <eLiterals name="_050" value="512" literal="050"/>
+    <eLiterals name="_051" value="513" literal="051"/>
+    <eLiterals name="_052" value="514" literal="052"/>
+    <eLiterals name="_056" value="515" literal="056"/>
+    <eLiterals name="_060" value="516" literal="060"/>
+    <eLiterals name="_064" value="517" literal="064"/>
+    <eLiterals name="_068" value="518" literal="068"/>
+    <eLiterals name="_070" value="519" literal="070"/>
+    <eLiterals name="_072" value="520" literal="072"/>
+    <eLiterals name="_074" value="521" literal="074"/>
+    <eLiterals name="_076" value="522" literal="076"/>
+    <eLiterals name="_084" value="523" literal="084"/>
+    <eLiterals name="_086" value="524" literal="086"/>
+    <eLiterals name="_090" value="525" literal="090"/>
+    <eLiterals name="_092" value="526" literal="092"/>
+    <eLiterals name="_096" value="527" literal="096"/>
+    <eLiterals name="_100" value="528" literal="100"/>
+    <eLiterals name="_104" value="529" literal="104"/>
+    <eLiterals name="_108" value="530" literal="108"/>
+    <eLiterals name="_112" value="531" literal="112"/>
+    <eLiterals name="_116" value="532" literal="116"/>
+    <eLiterals name="_120" value="533" literal="120"/>
+    <eLiterals name="_124" value="534" literal="124"/>
+    <eLiterals name="_132" value="535" literal="132"/>
+    <eLiterals name="_136" value="536" literal="136"/>
+    <eLiterals name="_140" value="537" literal="140"/>
+    <eLiterals name="_144" value="538" literal="144"/>
+    <eLiterals name="_148" value="539" literal="148"/>
+    <eLiterals name="_152" value="540" literal="152"/>
+    <eLiterals name="_156" value="541" literal="156"/>
+    <eLiterals name="_158" value="542" literal="158"/>
+    <eLiterals name="_162" value="543" literal="162"/>
+    <eLiterals name="_166" value="544" literal="166"/>
+    <eLiterals name="_170" value="545" literal="170"/>
+    <eLiterals name="_174" value="546" literal="174"/>
+    <eLiterals name="_175" value="547" literal="175"/>
+    <eLiterals name="_178" value="548" literal="178"/>
+    <eLiterals name="_180" value="549" literal="180"/>
+    <eLiterals name="_184" value="550" literal="184"/>
+    <eLiterals name="_188" value="551" literal="188"/>
+    <eLiterals name="_191" value="552" literal="191"/>
+    <eLiterals name="_192" value="553" literal="192"/>
+    <eLiterals name="_196" value="554" literal="196"/>
+    <eLiterals name="_203" value="555" literal="203"/>
+    <eLiterals name="_204" value="556" literal="204"/>
+    <eLiterals name="_208" value="557" literal="208"/>
+    <eLiterals name="_212" value="558" literal="212"/>
+    <eLiterals name="_214" value="559" literal="214"/>
+    <eLiterals name="_218" value="560" literal="218"/>
+    <eLiterals name="_222" value="561" literal="222"/>
+    <eLiterals name="_226" value="562" literal="226"/>
+    <eLiterals name="_231" value="563" literal="231"/>
+    <eLiterals name="_232" value="564" literal="232"/>
+    <eLiterals name="_233" value="565" literal="233"/>
+    <eLiterals name="_234" value="566" literal="234"/>
+    <eLiterals name="_238" value="567" literal="238"/>
+    <eLiterals name="_239" value="568" literal="239"/>
+    <eLiterals name="_242" value="569" literal="242"/>
+    <eLiterals name="_246" value="570" literal="246"/>
+    <eLiterals name="_248" value="571" literal="248"/>
+    <eLiterals name="_250" value="572" literal="250"/>
+    <eLiterals name="_254" value="573" literal="254"/>
+    <eLiterals name="_258" value="574" literal="258"/>
+    <eLiterals name="_260" value="575" literal="260"/>
+    <eLiterals name="_262" value="576" literal="262"/>
+    <eLiterals name="_266" value="577" literal="266"/>
+    <eLiterals name="_268" value="578" literal="268"/>
+    <eLiterals name="_270" value="579" literal="270"/>
+    <eLiterals name="_275" value="580" literal="275"/>
+    <eLiterals name="_276" value="581" literal="276"/>
+    <eLiterals name="_288" value="582" literal="288"/>
+    <eLiterals name="_292" value="583" literal="292"/>
+    <eLiterals name="_296" value="584" literal="296"/>
+    <eLiterals name="_300" value="585" literal="300"/>
+    <eLiterals name="_304" value="586" literal="304"/>
+    <eLiterals name="_308" value="587" literal="308"/>
+    <eLiterals name="_312" value="588" literal="312"/>
+    <eLiterals name="_316" value="589" literal="316"/>
+    <eLiterals name="_320" value="590" literal="320"/>
+    <eLiterals name="_324" value="591" literal="324"/>
+    <eLiterals name="_328" value="592" literal="328"/>
+    <eLiterals name="_332" value="593" literal="332"/>
+    <eLiterals name="_334" value="594" literal="334"/>
+    <eLiterals name="_336" value="595" literal="336"/>
+    <eLiterals name="_340" value="596" literal="340"/>
+    <eLiterals name="_344" value="597" literal="344"/>
+    <eLiterals name="_348" value="598" literal="348"/>
+    <eLiterals name="_352" value="599" literal="352"/>
+    <eLiterals name="_356" value="600" literal="356"/>
+    <eLiterals name="_360" value="601" literal="360"/>
+    <eLiterals name="_364" value="602" literal="364"/>
+    <eLiterals name="_368" value="603" literal="368"/>
+    <eLiterals name="_372" value="604" literal="372"/>
+    <eLiterals name="_376" value="605" literal="376"/>
+    <eLiterals name="_380" value="606" literal="380"/>
+    <eLiterals name="_384" value="607" literal="384"/>
+    <eLiterals name="_388" value="608" literal="388"/>
+    <eLiterals name="_392" value="609" literal="392"/>
+    <eLiterals name="_398" value="610" literal="398"/>
+    <eLiterals name="_400" value="611" literal="400"/>
+    <eLiterals name="_404" value="612" literal="404"/>
+    <eLiterals name="_408" value="613" literal="408"/>
+    <eLiterals name="_410" value="614" literal="410"/>
+    <eLiterals name="_414" value="615" literal="414"/>
+    <eLiterals name="_417" value="616" literal="417"/>
+    <eLiterals name="_418" value="617" literal="418"/>
+    <eLiterals name="_422" value="618" literal="422"/>
+    <eLiterals name="_426" value="619" literal="426"/>
+    <eLiterals name="_428" value="620" literal="428"/>
+    <eLiterals name="_430" value="621" literal="430"/>
+    <eLiterals name="_434" value="622" literal="434"/>
+    <eLiterals name="_438" value="623" literal="438"/>
+    <eLiterals name="_440" value="624" literal="440"/>
+    <eLiterals name="_442" value="625" literal="442"/>
+    <eLiterals name="_446" value="626" literal="446"/>
+    <eLiterals name="_450" value="627" literal="450"/>
+    <eLiterals name="_454" value="628" literal="454"/>
+    <eLiterals name="_458" value="629" literal="458"/>
+    <eLiterals name="_462" value="630" literal="462"/>
+    <eLiterals name="_466" value="631" literal="466"/>
+    <eLiterals name="_470" value="632" literal="470"/>
+    <eLiterals name="_474" value="633" literal="474"/>
+    <eLiterals name="_478" value="634" literal="478"/>
+    <eLiterals name="_480" value="635" literal="480"/>
+    <eLiterals name="_484" value="636" literal="484"/>
+    <eLiterals name="_492" value="637" literal="492"/>
+    <eLiterals name="_496" value="638" literal="496"/>
+    <eLiterals name="_498" value="639" literal="498"/>
+    <eLiterals name="_499" value="640" literal="499"/>
+    <eLiterals name="_500" value="641" literal="500"/>
+    <eLiterals name="_504" value="642" literal="504"/>
+    <eLiterals name="_508" value="643" literal="508"/>
+    <eLiterals name="_512" value="644" literal="512"/>
+    <eLiterals name="_516" value="645" literal="516"/>
+    <eLiterals name="_520" value="646" literal="520"/>
+    <eLiterals name="_524" value="647" literal="524"/>
+    <eLiterals name="_528" value="648" literal="528"/>
+    <eLiterals name="_531" value="649" literal="531"/>
+    <eLiterals name="_533" value="650" literal="533"/>
+    <eLiterals name="_534" value="651" literal="534"/>
+    <eLiterals name="_535" value="652" literal="535"/>
+    <eLiterals name="_540" value="653" literal="540"/>
+    <eLiterals name="_548" value="654" literal="548"/>
+    <eLiterals name="_554" value="655" literal="554"/>
+    <eLiterals name="_558" value="656" literal="558"/>
+    <eLiterals name="_562" value="657" literal="562"/>
+    <eLiterals name="_566" value="658" literal="566"/>
+    <eLiterals name="_570" value="659" literal="570"/>
+    <eLiterals name="_574" value="660" literal="574"/>
+    <eLiterals name="_578" value="661" literal="578"/>
+    <eLiterals name="_580" value="662" literal="580"/>
+    <eLiterals name="_581" value="663" literal="581"/>
+    <eLiterals name="_583" value="664" literal="583"/>
+    <eLiterals name="_584" value="665" literal="584"/>
+    <eLiterals name="_585" value="666" literal="585"/>
+    <eLiterals name="_586" value="667" literal="586"/>
+    <eLiterals name="_591" value="668" literal="591"/>
+    <eLiterals name="_598" value="669" literal="598"/>
+    <eLiterals name="_600" value="670" literal="600"/>
+    <eLiterals name="_604" value="671" literal="604"/>
+    <eLiterals name="_608" value="672" literal="608"/>
+    <eLiterals name="_612" value="673" literal="612"/>
+    <eLiterals name="_616" value="674" literal="616"/>
+    <eLiterals name="_620" value="675" literal="620"/>
+    <eLiterals name="_624" value="676" literal="624"/>
+    <eLiterals name="_626" value="677" literal="626"/>
+    <eLiterals name="_630" value="678" literal="630"/>
+    <eLiterals name="_634" value="679" literal="634"/>
+    <eLiterals name="_638" value="680" literal="638"/>
+    <eLiterals name="_642" value="681" literal="642"/>
+    <eLiterals name="_643" value="682" literal="643"/>
+    <eLiterals name="_646" value="683" literal="646"/>
+    <eLiterals name="_652" value="684" literal="652"/>
+    <eLiterals name="_654" value="685" literal="654"/>
+    <eLiterals name="_659" value="686" literal="659"/>
+    <eLiterals name="_660" value="687" literal="660"/>
+    <eLiterals name="_662" value="688" literal="662"/>
+    <eLiterals name="_663" value="689" literal="663"/>
+    <eLiterals name="_666" value="690" literal="666"/>
+    <eLiterals name="_670" value="691" literal="670"/>
+    <eLiterals name="_674" value="692" literal="674"/>
+    <eLiterals name="_678" value="693" literal="678"/>
+    <eLiterals name="_682" value="694" literal="682"/>
+    <eLiterals name="_686" value="695" literal="686"/>
+    <eLiterals name="_688" value="696" literal="688"/>
+    <eLiterals name="_690" value="697" literal="690"/>
+    <eLiterals name="_694" value="698" literal="694"/>
+    <eLiterals name="_702" value="699" literal="702"/>
+    <eLiterals name="_703" value="700" literal="703"/>
+    <eLiterals name="_704" value="701" literal="704"/>
+    <eLiterals name="_705" value="702" literal="705"/>
+    <eLiterals name="_706" value="703" literal="706"/>
+    <eLiterals name="_710" value="704" literal="710"/>
+    <eLiterals name="_716" value="705" literal="716"/>
+    <eLiterals name="_724" value="706" literal="724"/>
+    <eLiterals name="_728" value="707" literal="728"/>
+    <eLiterals name="_729" value="708" literal="729"/>
+    <eLiterals name="_732" value="709" literal="732"/>
+    <eLiterals name="_740" value="710" literal="740"/>
+    <eLiterals name="_744" value="711" literal="744"/>
+    <eLiterals name="_748" value="712" literal="748"/>
+    <eLiterals name="_752" value="713" literal="752"/>
+    <eLiterals name="_756" value="714" literal="756"/>
+    <eLiterals name="_760" value="715" literal="760"/>
+    <eLiterals name="_762" value="716" literal="762"/>
+    <eLiterals name="_764" value="717" literal="764"/>
+    <eLiterals name="_768" value="718" literal="768"/>
+    <eLiterals name="_772" value="719" literal="772"/>
+    <eLiterals name="_776" value="720" literal="776"/>
+    <eLiterals name="_780" value="721" literal="780"/>
+    <eLiterals name="_784" value="722" literal="784"/>
+    <eLiterals name="_788" value="723" literal="788"/>
+    <eLiterals name="_792" value="724" literal="792"/>
+    <eLiterals name="_795" value="725" literal="795"/>
+    <eLiterals name="_796" value="726" literal="796"/>
+    <eLiterals name="_798" value="727" literal="798"/>
+    <eLiterals name="_800" value="728" literal="800"/>
+    <eLiterals name="_804" value="729" literal="804"/>
+    <eLiterals name="_807" value="730" literal="807"/>
+    <eLiterals name="_818" value="731" literal="818"/>
+    <eLiterals name="_826" value="732" literal="826"/>
+    <eLiterals name="_831" value="733" literal="831"/>
+    <eLiterals name="_832" value="734" literal="832"/>
+    <eLiterals name="_833" value="735" literal="833"/>
+    <eLiterals name="_834" value="736" literal="834"/>
+    <eLiterals name="_840" value="737" literal="840"/>
+    <eLiterals name="_850" value="738" literal="850"/>
+    <eLiterals name="_854" value="739" literal="854"/>
+    <eLiterals name="_858" value="740" literal="858"/>
+    <eLiterals name="_860" value="741" literal="860"/>
+    <eLiterals name="_862" value="742" literal="862"/>
+    <eLiterals name="_876" value="743" literal="876"/>
+    <eLiterals name="_882" value="744" literal="882"/>
+    <eLiterals name="_887" value="745" literal="887"/>
+    <eLiterals name="_894" value="746" literal="894"/>
+    <eLiterals name="AFBAL" value="747" literal="AF-BAL"/>
+    <eLiterals name="AFBAM" value="748" literal="AF-BAM"/>
+    <eLiterals name="AFBDG" value="749" literal="AF-BDG"/>
+    <eLiterals name="AFBDS" value="750" literal="AF-BDS"/>
+    <eLiterals name="AFBGL" value="751" literal="AF-BGL"/>
+    <eLiterals name="AFDAY" value="752" literal="AF-DAY"/>
+    <eLiterals name="AFFRA" value="753" literal="AF-FRA"/>
+    <eLiterals name="AFFYB" value="754" literal="AF-FYB"/>
+    <eLiterals name="AFGHA" value="755" literal="AF-GHA"/>
+    <eLiterals name="AFGHO" value="756" literal="AF-GHO"/>
+    <eLiterals name="AFHEL" value="757" literal="AF-HEL"/>
+    <eLiterals name="AFHER" value="758" literal="AF-HER"/>
+    <eLiterals name="AFJOW" value="759" literal="AF-JOW"/>
+    <eLiterals name="AFKAB" value="760" literal="AF-KAB"/>
+    <eLiterals name="AFKAN" value="761" literal="AF-KAN"/>
+    <eLiterals name="AFKAP" value="762" literal="AF-KAP"/>
+    <eLiterals name="AFKDZ" value="763" literal="AF-KDZ"/>
+    <eLiterals name="AFKHO" value="764" literal="AF-KHO"/>
+    <eLiterals name="AFKNR" value="765" literal="AF-KNR"/>
+    <eLiterals name="AFLAG" value="766" literal="AF-LAG"/>
+    <eLiterals name="AFLOG" value="767" literal="AF-LOG"/>
+    <eLiterals name="AFNAN" value="768" literal="AF-NAN"/>
+    <eLiterals name="AFNIM" value="769" literal="AF-NIM"/>
+    <eLiterals name="AFNUR" value="770" literal="AF-NUR"/>
+    <eLiterals name="AFPAN" value="771" literal="AF-PAN"/>
+    <eLiterals name="AFPAR" value="772" literal="AF-PAR"/>
+    <eLiterals name="AFPIA" value="773" literal="AF-PIA"/>
+    <eLiterals name="AFPKA" value="774" literal="AF-PKA"/>
+    <eLiterals name="AFSAM" value="775" literal="AF-SAM"/>
+    <eLiterals name="AFSAR" value="776" literal="AF-SAR"/>
+    <eLiterals name="AFTAK" value="777" literal="AF-TAK"/>
+    <eLiterals name="AFURU" value="778" literal="AF-URU"/>
+    <eLiterals name="AFWAR" value="779" literal="AF-WAR"/>
+    <eLiterals name="AFZAB" value="780" literal="AF-ZAB"/>
+    <eLiterals name="AXAX" value="781" literal="AX-AX"/>
+    <eLiterals name="AL01" value="782" literal="AL-01"/>
+    <eLiterals name="AL02" value="783" literal="AL-02"/>
+    <eLiterals name="AL03" value="784" literal="AL-03"/>
+    <eLiterals name="AL04" value="785" literal="AL-04"/>
+    <eLiterals name="AL05" value="786" literal="AL-05"/>
+    <eLiterals name="AL06" value="787" literal="AL-06"/>
+    <eLiterals name="AL07" value="788" literal="AL-07"/>
+    <eLiterals name="AL08" value="789" literal="AL-08"/>
+    <eLiterals name="AL09" value="790" literal="AL-09"/>
+    <eLiterals name="AL10" value="791" literal="AL-10"/>
+    <eLiterals name="AL11" value="792" literal="AL-11"/>
+    <eLiterals name="AL12" value="793" literal="AL-12"/>
+    <eLiterals name="ALBR" value="794" literal="AL-BR"/>
+    <eLiterals name="ALBU" value="795" literal="AL-BU"/>
+    <eLiterals name="ALDI" value="796" literal="AL-DI"/>
+    <eLiterals name="ALDL" value="797" literal="AL-DL"/>
+    <eLiterals name="ALDR" value="798" literal="AL-DR"/>
+    <eLiterals name="ALDV" value="799" literal="AL-DV"/>
+    <eLiterals name="ALEL" value="800" literal="AL-EL"/>
+    <eLiterals name="ALER" value="801" literal="AL-ER"/>
+    <eLiterals name="ALFR" value="802" literal="AL-FR"/>
+    <eLiterals name="ALGJ" value="803" literal="AL-GJ"/>
+    <eLiterals name="ALGR" value="804" literal="AL-GR"/>
+    <eLiterals name="ALHA" value="805" literal="AL-HA"/>
+    <eLiterals name="ALKA" value="806" literal="AL-KA"/>
+    <eLiterals name="ALKB" value="807" literal="AL-KB"/>
+    <eLiterals name="ALKC" value="808" literal="AL-KC"/>
+    <eLiterals name="ALKO" value="809" literal="AL-KO"/>
+    <eLiterals name="ALKR" value="810" literal="AL-KR"/>
+    <eLiterals name="ALKU" value="811" literal="AL-KU"/>
+    <eLiterals name="ALLB" value="812" literal="AL-LB"/>
+    <eLiterals name="ALLE" value="813" literal="AL-LE"/>
+    <eLiterals name="ALLU" value="814" literal="AL-LU"/>
+    <eLiterals name="ALMK" value="815" literal="AL-MK"/>
+    <eLiterals name="ALMM" value="816" literal="AL-MM"/>
+    <eLiterals name="ALMR" value="817" literal="AL-MR"/>
+    <eLiterals name="ALMT" value="818" literal="AL-MT"/>
+    <eLiterals name="ALPG" value="819" literal="AL-PG"/>
+    <eLiterals name="ALPQ" value="820" literal="AL-PQ"/>
+    <eLiterals name="ALPR" value="821" literal="AL-PR"/>
+    <eLiterals name="ALPU" value="822" literal="AL-PU"/>
+    <eLiterals name="ALSH" value="823" literal="AL-SH"/>
+    <eLiterals name="ALSK" value="824" literal="AL-SK"/>
+    <eLiterals name="ALSR" value="825" literal="AL-SR"/>
+    <eLiterals name="ALTE" value="826" literal="AL-TE"/>
+    <eLiterals name="ALTP" value="827" literal="AL-TP"/>
+    <eLiterals name="ALTR" value="828" literal="AL-TR"/>
+    <eLiterals name="ALVL" value="829" literal="AL-VL"/>
+    <eLiterals name="DZ01" value="830" literal="DZ-01"/>
+    <eLiterals name="DZ02" value="831" literal="DZ-02"/>
+    <eLiterals name="DZ03" value="832" literal="DZ-03"/>
+    <eLiterals name="DZ04" value="833" literal="DZ-04"/>
+    <eLiterals name="DZ05" value="834" literal="DZ-05"/>
+    <eLiterals name="DZ06" value="835" literal="DZ-06"/>
+    <eLiterals name="DZ07" value="836" literal="DZ-07"/>
+    <eLiterals name="DZ08" value="837" literal="DZ-08"/>
+    <eLiterals name="DZ09" value="838" literal="DZ-09"/>
+    <eLiterals name="DZ10" value="839" literal="DZ-10"/>
+    <eLiterals name="DZ11" value="840" literal="DZ-11"/>
+    <eLiterals name="DZ12" value="841" literal="DZ-12"/>
+    <eLiterals name="DZ13" value="842" literal="DZ-13"/>
+    <eLiterals name="DZ14" value="843" literal="DZ-14"/>
+    <eLiterals name="DZ15" value="844" literal="DZ-15"/>
+    <eLiterals name="DZ16" value="845" literal="DZ-16"/>
+    <eLiterals name="DZ17" value="846" literal="DZ-17"/>
+    <eLiterals name="DZ18" value="847" literal="DZ-18"/>
+    <eLiterals name="DZ19" value="848" literal="DZ-19"/>
+    <eLiterals name="DZ20" value="849" literal="DZ-20"/>
+    <eLiterals name="DZ21" value="850" literal="DZ-21"/>
+    <eLiterals name="DZ22" value="851" literal="DZ-22"/>
+    <eLiterals name="DZ23" value="852" literal="DZ-23"/>
+    <eLiterals name="DZ24" value="853" literal="DZ-24"/>
+    <eLiterals name="DZ25" value="854" literal="DZ-25"/>
+    <eLiterals name="DZ26" value="855" literal="DZ-26"/>
+    <eLiterals name="DZ27" value="856" literal="DZ-27"/>
+    <eLiterals name="DZ28" value="857" literal="DZ-28"/>
+    <eLiterals name="DZ29" value="858" literal="DZ-29"/>
+    <eLiterals name="DZ30" value="859" literal="DZ-30"/>
+    <eLiterals name="DZ31" value="860" literal="DZ-31"/>
+    <eLiterals name="DZ32" value="861" literal="DZ-32"/>
+    <eLiterals name="DZ33" value="862" literal="DZ-33"/>
+    <eLiterals name="DZ34" value="863" literal="DZ-34"/>
+    <eLiterals name="DZ35" value="864" literal="DZ-35"/>
+    <eLiterals name="DZ36" value="865" literal="DZ-36"/>
+    <eLiterals name="DZ37" value="866" literal="DZ-37"/>
+    <eLiterals name="DZ38" value="867" literal="DZ-38"/>
+    <eLiterals name="DZ39" value="868" literal="DZ-39"/>
+    <eLiterals name="DZ40" value="869" literal="DZ-40"/>
+    <eLiterals name="DZ41" value="870" literal="DZ-41"/>
+    <eLiterals name="DZ42" value="871" literal="DZ-42"/>
+    <eLiterals name="DZ43" value="872" literal="DZ-43"/>
+    <eLiterals name="DZ44" value="873" literal="DZ-44"/>
+    <eLiterals name="DZ45" value="874" literal="DZ-45"/>
+    <eLiterals name="DZ46" value="875" literal="DZ-46"/>
+    <eLiterals name="DZ47" value="876" literal="DZ-47"/>
+    <eLiterals name="DZ48" value="877" literal="DZ-48"/>
+    <eLiterals name="ASAS" value="878" literal="AS-AS"/>
+    <eLiterals name="AD02" value="879" literal="AD-02"/>
+    <eLiterals name="AD03" value="880" literal="AD-03"/>
+    <eLiterals name="AD04" value="881" literal="AD-04"/>
+    <eLiterals name="AD05" value="882" literal="AD-05"/>
+    <eLiterals name="AD06" value="883" literal="AD-06"/>
+    <eLiterals name="AD07" value="884" literal="AD-07"/>
+    <eLiterals name="AD08" value="885" literal="AD-08"/>
+    <eLiterals name="AOBGO" value="886" literal="AO-BGO"/>
+    <eLiterals name="AOBGU" value="887" literal="AO-BGU"/>
+    <eLiterals name="AOBIE" value="888" literal="AO-BIE"/>
+    <eLiterals name="AOCAB" value="889" literal="AO-CAB"/>
+    <eLiterals name="AOCCU" value="890" literal="AO-CCU"/>
+    <eLiterals name="AOCNN" value="891" literal="AO-CNN"/>
+    <eLiterals name="AOCNO" value="892" literal="AO-CNO"/>
+    <eLiterals name="AOCUS" value="893" literal="AO-CUS"/>
+    <eLiterals name="AOHUA" value="894" literal="AO-HUA"/>
+    <eLiterals name="AOHUI" value="895" literal="AO-HUI"/>
+    <eLiterals name="AOLNO" value="896" literal="AO-LNO"/>
+    <eLiterals name="AOLSU" value="897" literal="AO-LSU"/>
+    <eLiterals name="AOLUA" value="898" literal="AO-LUA"/>
+    <eLiterals name="AOMAL" value="899" literal="AO-MAL"/>
+    <eLiterals name="AOMOX" value="900" literal="AO-MOX"/>
+    <eLiterals name="AONAM" value="901" literal="AO-NAM"/>
+    <eLiterals name="AOUIG" value="902" literal="AO-UIG"/>
+    <eLiterals name="AOZAI" value="903" literal="AO-ZAI"/>
+    <eLiterals name="AIAI" value="904" literal="AI-AI"/>
+    <eLiterals name="AQAQ" value="905" literal="AQ-AQ"/>
+    <eLiterals name="AG03" value="906" literal="AG-03"/>
+    <eLiterals name="AG04" value="907" literal="AG-04"/>
+    <eLiterals name="AG05" value="908" literal="AG-05"/>
+    <eLiterals name="AG06" value="909" literal="AG-06"/>
+    <eLiterals name="AG07" value="910" literal="AG-07"/>
+    <eLiterals name="AG08" value="911" literal="AG-08"/>
+    <eLiterals name="AG10" value="912" literal="AG-10"/>
+    <eLiterals name="AG11" value="913" literal="AG-11"/>
+    <eLiterals name="ARA" value="914" literal="AR-A"/>
+    <eLiterals name="ARB" value="915" literal="AR-B"/>
+    <eLiterals name="ARC" value="916" literal="AR-C"/>
+    <eLiterals name="ARD" value="917" literal="AR-D"/>
+    <eLiterals name="ARE1" value="918" literal="AR-E"/>
+    <eLiterals name="ARF" value="919" literal="AR-F"/>
+    <eLiterals name="ARG1" value="920" literal="AR-G"/>
+    <eLiterals name="ARH" value="921" literal="AR-H"/>
+    <eLiterals name="ARJ" value="922" literal="AR-J"/>
+    <eLiterals name="ARK" value="923" literal="AR-K"/>
+    <eLiterals name="ARL" value="924" literal="AR-L"/>
+    <eLiterals name="ARM1" value="925" literal="AR-M"/>
+    <eLiterals name="ARN" value="926" literal="AR-N"/>
+    <eLiterals name="ARP" value="927" literal="AR-P"/>
+    <eLiterals name="ARQ" value="928" literal="AR-Q"/>
+    <eLiterals name="ARR" value="929" literal="AR-R"/>
+    <eLiterals name="ARS" value="930" literal="AR-S"/>
+    <eLiterals name="ART" value="931" literal="AR-T"/>
+    <eLiterals name="ARU" value="932" literal="AR-U"/>
+    <eLiterals name="ARV" value="933" literal="AR-V"/>
+    <eLiterals name="ARW" value="934" literal="AR-W"/>
+    <eLiterals name="ARX" value="935" literal="AR-X"/>
+    <eLiterals name="ARY" value="936" literal="AR-Y"/>
+    <eLiterals name="ARZ" value="937" literal="AR-Z"/>
+    <eLiterals name="AMAG" value="938" literal="AM-AG"/>
+    <eLiterals name="AMAR" value="939" literal="AM-AR"/>
+    <eLiterals name="AMAV" value="940" literal="AM-AV"/>
+    <eLiterals name="AMER" value="941" literal="AM-ER"/>
+    <eLiterals name="AMGR" value="942" literal="AM-GR"/>
+    <eLiterals name="AMKT" value="943" literal="AM-KT"/>
+    <eLiterals name="AMLO" value="944" literal="AM-LO"/>
+    <eLiterals name="AMSH" value="945" literal="AM-SH"/>
+    <eLiterals name="AMSU" value="946" literal="AM-SU"/>
+    <eLiterals name="AMTV" value="947" literal="AM-TV"/>
+    <eLiterals name="AMVD" value="948" literal="AM-VD"/>
+    <eLiterals name="AWAW" value="949" literal="AW-AW"/>
+    <eLiterals name="AUACT" value="950" literal="AU-ACT"/>
+    <eLiterals name="AUNSW" value="951" literal="AU-NSW"/>
+    <eLiterals name="AUNT" value="952" literal="AU-NT"/>
+    <eLiterals name="AUQLD" value="953" literal="AU-QLD"/>
+    <eLiterals name="AUSA" value="954" literal="AU-SA"/>
+    <eLiterals name="AUTAS" value="955" literal="AU-TAS"/>
+    <eLiterals name="AUVIC" value="956" literal="AU-VIC"/>
+    <eLiterals name="AUWA" value="957" literal="AU-WA"/>
+    <eLiterals name="AT1" value="958" literal="AT-1"/>
+    <eLiterals name="AT2" value="959" literal="AT-2"/>
+    <eLiterals name="AT3" value="960" literal="AT-3"/>
+    <eLiterals name="AT4" value="961" literal="AT-4"/>
+    <eLiterals name="AT5" value="962" literal="AT-5"/>
+    <eLiterals name="AT6" value="963" literal="AT-6"/>
+    <eLiterals name="AT7" value="964" literal="AT-7"/>
+    <eLiterals name="AT8" value="965" literal="AT-8"/>
+    <eLiterals name="AT9" value="966" literal="AT-9"/>
+    <eLiterals name="AZABS" value="967" literal="AZ-ABS"/>
+    <eLiterals name="AZAGA" value="968" literal="AZ-AGA"/>
+    <eLiterals name="AZAGC" value="969" literal="AZ-AGC"/>
+    <eLiterals name="AZAGM" value="970" literal="AZ-AGM"/>
+    <eLiterals name="AZAGS" value="971" literal="AZ-AGS"/>
+    <eLiterals name="AZAGU" value="972" literal="AZ-AGU"/>
+    <eLiterals name="AZAST" value="973" literal="AZ-AST"/>
+    <eLiterals name="AZBA" value="974" literal="AZ-BA"/>
+    <eLiterals name="AZBAB" value="975" literal="AZ-BAB"/>
+    <eLiterals name="AZBAL" value="976" literal="AZ-BAL"/>
+    <eLiterals name="AZBAR" value="977" literal="AZ-BAR"/>
+    <eLiterals name="AZBEY" value="978" literal="AZ-BEY"/>
+    <eLiterals name="AZBIL" value="979" literal="AZ-BIL"/>
+    <eLiterals name="AZCAB" value="980" literal="AZ-CAB"/>
+    <eLiterals name="AZCAL" value="981" literal="AZ-CAL"/>
+    <eLiterals name="AZCUL" value="982" literal="AZ-CUL"/>
+    <eLiterals name="AZDAS" value="983" literal="AZ-DAS"/>
+    <eLiterals name="AZFUZ" value="984" literal="AZ-FUZ"/>
+    <eLiterals name="AZGAD" value="985" literal="AZ-GAD"/>
+    <eLiterals name="AZGA" value="986" literal="AZ-GA"/>
+    <eLiterals name="AZGOR" value="987" literal="AZ-GOR"/>
+    <eLiterals name="AZGOY" value="988" literal="AZ-GOY"/>
+    <eLiterals name="AZGYG" value="989" literal="AZ-GYG"/>
+    <eLiterals name="AZHAC" value="990" literal="AZ-HAC"/>
+    <eLiterals name="AZIMI" value="991" literal="AZ-IMI"/>
+    <eLiterals name="AZISM" value="992" literal="AZ-ISM"/>
+    <eLiterals name="AZKAL" value="993" literal="AZ-KAL"/>
+    <eLiterals name="AZKAN" value="994" literal="AZ-KAN"/>
+    <eLiterals name="AZKUR" value="995" literal="AZ-KUR"/>
+    <eLiterals name="AZLAC" value="996" literal="AZ-LAC"/>
+    <eLiterals name="AZLA" value="997" literal="AZ-LA"/>
+    <eLiterals name="AZLAN" value="998" literal="AZ-LAN"/>
+    <eLiterals name="AZLER" value="999" literal="AZ-LER"/>
+    <eLiterals name="AZMAS" value="1000" literal="AZ-MAS"/>
+    <eLiterals name="AZMI" value="1001" literal="AZ-MI"/>
+    <eLiterals name="AZNA" value="1002" literal="AZ-NA"/>
+    <eLiterals name="AZNEF" value="1003" literal="AZ-NEF"/>
+    <eLiterals name="AZNV" value="1004" literal="AZ-NV"/>
+    <eLiterals name="AZNX" value="1005" literal="AZ-NX"/>
+    <eLiterals name="AZOGU" value="1006" literal="AZ-OGU"/>
+    <eLiterals name="AZORD" value="1007" literal="AZ-ORD"/>
+    <eLiterals name="AZQAB" value="1008" literal="AZ-QAB"/>
+    <eLiterals name="AZQAX" value="1009" literal="AZ-QAX"/>
+    <eLiterals name="AZQAZ" value="1010" literal="AZ-QAZ"/>
+    <eLiterals name="AZQBA" value="1011" literal="AZ-QBA"/>
+    <eLiterals name="AZQBI" value="1012" literal="AZ-QBI"/>
+    <eLiterals name="AZQOB" value="1013" literal="AZ-QOB"/>
+    <eLiterals name="AZQUS" value="1014" literal="AZ-QUS"/>
+    <eLiterals name="AZSAB" value="1015" literal="AZ-SAB"/>
+    <eLiterals name="AZSAD" value="1016" literal="AZ-SAD"/>
+    <eLiterals name="AZSAH" value="1017" literal="AZ-SAH"/>
+    <eLiterals name="AZSAK" value="1018" literal="AZ-SAK"/>
+    <eLiterals name="AZSAL" value="1019" literal="AZ-SAL"/>
+    <eLiterals name="AZSAR" value="1020" literal="AZ-SAR"/>
+    <eLiterals name="AZSA" value="1021" literal="AZ-SA"/>
+    <eLiterals name="AZSAT" value="1022" literal="AZ-SAT"/>
+    <eLiterals name="AZSBN" value="1023" literal="AZ-SBN"/>
+    <eLiterals name="AZSIY" value="1024" literal="AZ-SIY"/>
+    <eLiterals name="AZSKR" value="1025" literal="AZ-SKR"/>
+    <eLiterals name="AZSMI" value="1026" literal="AZ-SMI"/>
+    <eLiterals name="AZSM" value="1027" literal="AZ-SM"/>
+    <eLiterals name="AZSMX" value="1028" literal="AZ-SMX"/>
+    <eLiterals name="AZSR" value="1029" literal="AZ-SR"/>
+    <eLiterals name="AZSUS" value="1030" literal="AZ-SUS"/>
+    <eLiterals name="AZTAR" value="1031" literal="AZ-TAR"/>
+    <eLiterals name="AZTOV" value="1032" literal="AZ-TOV"/>
+    <eLiterals name="AZUCA" value="1033" literal="AZ-UCA"/>
+    <eLiterals name="AZXAC" value="1034" literal="AZ-XAC"/>
+    <eLiterals name="AZXA" value="1035" literal="AZ-XA"/>
+    <eLiterals name="AZXCI" value="1036" literal="AZ-XCI"/>
+    <eLiterals name="AZXIZ" value="1037" literal="AZ-XIZ"/>
+    <eLiterals name="AZXVD" value="1038" literal="AZ-XVD"/>
+    <eLiterals name="AZYAR" value="1039" literal="AZ-YAR"/>
+    <eLiterals name="AZYEV" value="1040" literal="AZ-YEV"/>
+    <eLiterals name="AZYE" value="1041" literal="AZ-YE"/>
+    <eLiterals name="AZZAN" value="1042" literal="AZ-ZAN"/>
+    <eLiterals name="AZZAQ" value="1043" literal="AZ-ZAQ"/>
+    <eLiterals name="AZZAR" value="1044" literal="AZ-ZAR"/>
+    <eLiterals name="BSAK" value="1045" literal="BS-AK"/>
+    <eLiterals name="BSBI" value="1046" literal="BS-BI"/>
+    <eLiterals name="BSBP" value="1047" literal="BS-BP"/>
+    <eLiterals name="BSBY" value="1048" literal="BS-BY"/>
+    <eLiterals name="BSCE" value="1049" literal="BS-CE"/>
+    <eLiterals name="BSCI" value="1050" literal="BS-CI"/>
+    <eLiterals name="BSCK" value="1051" literal="BS-CK"/>
+    <eLiterals name="BSCO" value="1052" literal="BS-CO"/>
+    <eLiterals name="BSCS" value="1053" literal="BS-CS"/>
+    <eLiterals name="BSEG" value="1054" literal="BS-EG"/>
+    <eLiterals name="BSEX" value="1055" literal="BS-EX"/>
+    <eLiterals name="BSFP" value="1056" literal="BS-FP"/>
+    <eLiterals name="BSGC" value="1057" literal="BS-GC"/>
+    <eLiterals name="BSHI" value="1058" literal="BS-HI"/>
+    <eLiterals name="BSHT" value="1059" literal="BS-HT"/>
+    <eLiterals name="BSIN" value="1060" literal="BS-IN"/>
+    <eLiterals name="BSLI" value="1061" literal="BS-LI"/>
+    <eLiterals name="BSMC" value="1062" literal="BS-MC"/>
+    <eLiterals name="BSMG" value="1063" literal="BS-MG"/>
+    <eLiterals name="BSMI" value="1064" literal="BS-MI"/>
+    <eLiterals name="BSNE" value="1065" literal="BS-NE"/>
+    <eLiterals name="BSNO" value="1066" literal="BS-NO"/>
+    <eLiterals name="BSNS" value="1067" literal="BS-NS"/>
+    <eLiterals name="BSRC" value="1068" literal="BS-RC"/>
+    <eLiterals name="BSRI" value="1069" literal="BS-RI"/>
+    <eLiterals name="BSSA" value="1070" literal="BS-SA"/>
+    <eLiterals name="BSSE" value="1071" literal="BS-SE"/>
+    <eLiterals name="BSSO" value="1072" literal="BS-SO"/>
+    <eLiterals name="BSSS" value="1073" literal="BS-SS"/>
+    <eLiterals name="BSSW" value="1074" literal="BS-SW"/>
+    <eLiterals name="BSWG" value="1075" literal="BS-WG"/>
+    <eLiterals name="BH13" value="1076" literal="BH-13"/>
+    <eLiterals name="BH14" value="1077" literal="BH-14"/>
+    <eLiterals name="BH15" value="1078" literal="BH-15"/>
+    <eLiterals name="BH16" value="1079" literal="BH-16"/>
+    <eLiterals name="BH17" value="1080" literal="BH-17"/>
+    <eLiterals name="BD01" value="1081" literal="BD-01"/>
+    <eLiterals name="BD02" value="1082" literal="BD-02"/>
+    <eLiterals name="BD03" value="1083" literal="BD-03"/>
+    <eLiterals name="BD04" value="1084" literal="BD-04"/>
+    <eLiterals name="BD05" value="1085" literal="BD-05"/>
+    <eLiterals name="BD06" value="1086" literal="BD-06"/>
+    <eLiterals name="BD07" value="1087" literal="BD-07"/>
+    <eLiterals name="BD08" value="1088" literal="BD-08"/>
+    <eLiterals name="BD09" value="1089" literal="BD-09"/>
+    <eLiterals name="BD10" value="1090" literal="BD-10"/>
+    <eLiterals name="BD11" value="1091" literal="BD-11"/>
+    <eLiterals name="BD12" value="1092" literal="BD-12"/>
+    <eLiterals name="BD13" value="1093" literal="BD-13"/>
+    <eLiterals name="BD14" value="1094" literal="BD-14"/>
+    <eLiterals name="BD15" value="1095" literal="BD-15"/>
+    <eLiterals name="BD16" value="1096" literal="BD-16"/>
+    <eLiterals name="BD17" value="1097" literal="BD-17"/>
+    <eLiterals name="BD18" value="1098" literal="BD-18"/>
+    <eLiterals name="BD19" value="1099" literal="BD-19"/>
+    <eLiterals name="BD20" value="1100" literal="BD-20"/>
+    <eLiterals name="BD21" value="1101" literal="BD-21"/>
+    <eLiterals name="BD22" value="1102" literal="BD-22"/>
+    <eLiterals name="BD23" value="1103" literal="BD-23"/>
+    <eLiterals name="BD24" value="1104" literal="BD-24"/>
+    <eLiterals name="BD25" value="1105" literal="BD-25"/>
+    <eLiterals name="BD26" value="1106" literal="BD-26"/>
+    <eLiterals name="BD27" value="1107" literal="BD-27"/>
+    <eLiterals name="BD28" value="1108" literal="BD-28"/>
+    <eLiterals name="BD29" value="1109" literal="BD-29"/>
+    <eLiterals name="BD30" value="1110" literal="BD-30"/>
+    <eLiterals name="BD31" value="1111" literal="BD-31"/>
+    <eLiterals name="BD32" value="1112" literal="BD-32"/>
+    <eLiterals name="BD33" value="1113" literal="BD-33"/>
+    <eLiterals name="BD34" value="1114" literal="BD-34"/>
+    <eLiterals name="BD35" value="1115" literal="BD-35"/>
+    <eLiterals name="BD36" value="1116" literal="BD-36"/>
+    <eLiterals name="BD37" value="1117" literal="BD-37"/>
+    <eLiterals name="BD38" value="1118" literal="BD-38"/>
+    <eLiterals name="BD39" value="1119" literal="BD-39"/>
+    <eLiterals name="BD40" value="1120" literal="BD-40"/>
+    <eLiterals name="BD41" value="1121" literal="BD-41"/>
+    <eLiterals name="BD42" value="1122" literal="BD-42"/>
+    <eLiterals name="BD43" value="1123" literal="BD-43"/>
+    <eLiterals name="BD44" value="1124" literal="BD-44"/>
+    <eLiterals name="BD45" value="1125" literal="BD-45"/>
+    <eLiterals name="BD46" value="1126" literal="BD-46"/>
+    <eLiterals name="BD47" value="1127" literal="BD-47"/>
+    <eLiterals name="BD48" value="1128" literal="BD-48"/>
+    <eLiterals name="BD49" value="1129" literal="BD-49"/>
+    <eLiterals name="BD50" value="1130" literal="BD-50"/>
+    <eLiterals name="BD51" value="1131" literal="BD-51"/>
+    <eLiterals name="BD52" value="1132" literal="BD-52"/>
+    <eLiterals name="BD53" value="1133" literal="BD-53"/>
+    <eLiterals name="BD54" value="1134" literal="BD-54"/>
+    <eLiterals name="BD55" value="1135" literal="BD-55"/>
+    <eLiterals name="BD56" value="1136" literal="BD-56"/>
+    <eLiterals name="BD57" value="1137" literal="BD-57"/>
+    <eLiterals name="BD58" value="1138" literal="BD-58"/>
+    <eLiterals name="BD59" value="1139" literal="BD-59"/>
+    <eLiterals name="BD60" value="1140" literal="BD-60"/>
+    <eLiterals name="BD61" value="1141" literal="BD-61"/>
+    <eLiterals name="BD62" value="1142" literal="BD-62"/>
+    <eLiterals name="BD63" value="1143" literal="BD-63"/>
+    <eLiterals name="BD64" value="1144" literal="BD-64"/>
+    <eLiterals name="BDA" value="1145" literal="BD-A"/>
+    <eLiterals name="BDB" value="1146" literal="BD-B"/>
+    <eLiterals name="BDC" value="1147" literal="BD-C"/>
+    <eLiterals name="BDD" value="1148" literal="BD-D"/>
+    <eLiterals name="BDE" value="1149" literal="BD-E"/>
+    <eLiterals name="BDF" value="1150" literal="BD-F"/>
+    <eLiterals name="BDG" value="1151" literal="BD-G"/>
+    <eLiterals name="BB01" value="1152" literal="BB-01"/>
+    <eLiterals name="BB02" value="1153" literal="BB-02"/>
+    <eLiterals name="BB03" value="1154" literal="BB-03"/>
+    <eLiterals name="BB04" value="1155" literal="BB-04"/>
+    <eLiterals name="BB05" value="1156" literal="BB-05"/>
+    <eLiterals name="BB06" value="1157" literal="BB-06"/>
+    <eLiterals name="BB07" value="1158" literal="BB-07"/>
+    <eLiterals name="BB08" value="1159" literal="BB-08"/>
+    <eLiterals name="BB09" value="1160" literal="BB-09"/>
+    <eLiterals name="BB10" value="1161" literal="BB-10"/>
+    <eLiterals name="BB11" value="1162" literal="BB-11"/>
+    <eLiterals name="BYBR" value="1163" literal="BY-BR"/>
+    <eLiterals name="BYHM" value="1164" literal="BY-HM"/>
+    <eLiterals name="BYHO" value="1165" literal="BY-HO"/>
+    <eLiterals name="BYHR" value="1166" literal="BY-HR"/>
+    <eLiterals name="BYMA" value="1167" literal="BY-MA"/>
+    <eLiterals name="BYMI" value="1168" literal="BY-MI"/>
+    <eLiterals name="BYVI" value="1169" literal="BY-VI"/>
+    <eLiterals name="BEBRU" value="1170" literal="BE-BRU"/>
+    <eLiterals name="BEVAN" value="1171" literal="BE-VAN"/>
+    <eLiterals name="BEVBR" value="1172" literal="BE-VBR"/>
+    <eLiterals name="BEVLG" value="1173" literal="BE-VLG"/>
+    <eLiterals name="BEVLI" value="1174" literal="BE-VLI"/>
+    <eLiterals name="BEVOV" value="1175" literal="BE-VOV"/>
+    <eLiterals name="BEVWV" value="1176" literal="BE-VWV"/>
+    <eLiterals name="BEWAL" value="1177" literal="BE-WAL"/>
+    <eLiterals name="BEWBR" value="1178" literal="BE-WBR"/>
+    <eLiterals name="BEWHT" value="1179" literal="BE-WHT"/>
+    <eLiterals name="BEWLG" value="1180" literal="BE-WLG"/>
+    <eLiterals name="BEWLX" value="1181" literal="BE-WLX"/>
+    <eLiterals name="BEWNA" value="1182" literal="BE-WNA"/>
+    <eLiterals name="BZBZ" value="1183" literal="BZ-BZ"/>
+    <eLiterals name="BZCY" value="1184" literal="BZ-CY"/>
+    <eLiterals name="BZCZL" value="1185" literal="BZ-CZL"/>
+    <eLiterals name="BZOW" value="1186" literal="BZ-OW"/>
+    <eLiterals name="BZSC" value="1187" literal="BZ-SC"/>
+    <eLiterals name="BZTOL" value="1188" literal="BZ-TOL"/>
+    <eLiterals name="BJAK" value="1189" literal="BJ-AK"/>
+    <eLiterals name="BJAL" value="1190" literal="BJ-AL"/>
+    <eLiterals name="BJAQ" value="1191" literal="BJ-AQ"/>
+    <eLiterals name="BJBO" value="1192" literal="BJ-BO"/>
+    <eLiterals name="BJCO" value="1193" literal="BJ-CO"/>
+    <eLiterals name="BJDO" value="1194" literal="BJ-DO"/>
+    <eLiterals name="BJKO" value="1195" literal="BJ-KO"/>
+    <eLiterals name="BJLI" value="1196" literal="BJ-LI"/>
+    <eLiterals name="BJMO" value="1197" literal="BJ-MO"/>
+    <eLiterals name="BJOU" value="1198" literal="BJ-OU"/>
+    <eLiterals name="BJPL" value="1199" literal="BJ-PL"/>
+    <eLiterals name="BJZO" value="1200" literal="BJ-ZO"/>
+    <eLiterals name="BMBM" value="1201" literal="BM-BM"/>
+    <eLiterals name="BT11" value="1202" literal="BT-11"/>
+    <eLiterals name="BT12" value="1203" literal="BT-12"/>
+    <eLiterals name="BT13" value="1204" literal="BT-13"/>
+    <eLiterals name="BT14" value="1205" literal="BT-14"/>
+    <eLiterals name="BT15" value="1206" literal="BT-15"/>
+    <eLiterals name="BT21" value="1207" literal="BT-21"/>
+    <eLiterals name="BT22" value="1208" literal="BT-22"/>
+    <eLiterals name="BT23" value="1209" literal="BT-23"/>
+    <eLiterals name="BT24" value="1210" literal="BT-24"/>
+    <eLiterals name="BT31" value="1211" literal="BT-31"/>
+    <eLiterals name="BT32" value="1212" literal="BT-32"/>
+    <eLiterals name="BT33" value="1213" literal="BT-33"/>
+    <eLiterals name="BT34" value="1214" literal="BT-34"/>
+    <eLiterals name="BT41" value="1215" literal="BT-41"/>
+    <eLiterals name="BT42" value="1216" literal="BT-42"/>
+    <eLiterals name="BT43" value="1217" literal="BT-43"/>
+    <eLiterals name="BT44" value="1218" literal="BT-44"/>
+    <eLiterals name="BT45" value="1219" literal="BT-45"/>
+    <eLiterals name="BTGA" value="1220" literal="BT-GA"/>
+    <eLiterals name="BTTY" value="1221" literal="BT-TY"/>
+    <eLiterals name="BOB" value="1222" literal="BO-B"/>
+    <eLiterals name="BOC" value="1223" literal="BO-C"/>
+    <eLiterals name="BOH" value="1224" literal="BO-H"/>
+    <eLiterals name="BOL1" value="1225" literal="BO-L"/>
+    <eLiterals name="BON" value="1226" literal="BO-N"/>
+    <eLiterals name="BOO" value="1227" literal="BO-O"/>
+    <eLiterals name="BOP" value="1228" literal="BO-P"/>
+    <eLiterals name="BOS" value="1229" literal="BO-S"/>
+    <eLiterals name="BOT" value="1230" literal="BO-T"/>
+    <eLiterals name="BQBO" value="1231" literal="BQ-BO"/>
+    <eLiterals name="BQSA" value="1232" literal="BQ-SA"/>
+    <eLiterals name="BQSE" value="1233" literal="BQ-SE"/>
+    <eLiterals name="BA01" value="1234" literal="BA-01"/>
+    <eLiterals name="BA02" value="1235" literal="BA-02"/>
+    <eLiterals name="BA03" value="1236" literal="BA-03"/>
+    <eLiterals name="BA04" value="1237" literal="BA-04"/>
+    <eLiterals name="BA05" value="1238" literal="BA-05"/>
+    <eLiterals name="BA06" value="1239" literal="BA-06"/>
+    <eLiterals name="BA07" value="1240" literal="BA-07"/>
+    <eLiterals name="BA08" value="1241" literal="BA-08"/>
+    <eLiterals name="BA09" value="1242" literal="BA-09"/>
+    <eLiterals name="BA10" value="1243" literal="BA-10"/>
+    <eLiterals name="BABIH" value="1244" literal="BA-BIH"/>
+    <eLiterals name="BABRC" value="1245" literal="BA-BRC"/>
+    <eLiterals name="BASRP" value="1246" literal="BA-SRP"/>
+    <eLiterals name="BWCE" value="1247" literal="BW-CE"/>
+    <eLiterals name="BWCH" value="1248" literal="BW-CH"/>
+    <eLiterals name="BWFR" value="1249" literal="BW-FR"/>
+    <eLiterals name="BWGA" value="1250" literal="BW-GA"/>
+    <eLiterals name="BWGH" value="1251" literal="BW-GH"/>
+    <eLiterals name="BWJW" value="1252" literal="BW-JW"/>
+    <eLiterals name="BWKG" value="1253" literal="BW-KG"/>
+    <eLiterals name="BWKL" value="1254" literal="BW-KL"/>
+    <eLiterals name="BWKW" value="1255" literal="BW-KW"/>
+    <eLiterals name="BWLO" value="1256" literal="BW-LO"/>
+    <eLiterals name="BWNE" value="1257" literal="BW-NE"/>
+    <eLiterals name="BWNW" value="1258" literal="BW-NW"/>
+    <eLiterals name="BWSE" value="1259" literal="BW-SE"/>
+    <eLiterals name="BWSO" value="1260" literal="BW-SO"/>
+    <eLiterals name="BWSP" value="1261" literal="BW-SP"/>
+    <eLiterals name="BWST" value="1262" literal="BW-ST"/>
+    <eLiterals name="BVBV" value="1263" literal="BV-BV"/>
+    <eLiterals name="BRAC" value="1264" literal="BR-AC"/>
+    <eLiterals name="BRAL" value="1265" literal="BR-AL"/>
+    <eLiterals name="BRAM" value="1266" literal="BR-AM"/>
+    <eLiterals name="BRAP" value="1267" literal="BR-AP"/>
+    <eLiterals name="BRBA" value="1268" literal="BR-BA"/>
+    <eLiterals name="BRCE" value="1269" literal="BR-CE"/>
+    <eLiterals name="BRDF" value="1270" literal="BR-DF"/>
+    <eLiterals name="BRES" value="1271" literal="BR-ES"/>
+    <eLiterals name="BRGO" value="1272" literal="BR-GO"/>
+    <eLiterals name="BRMA" value="1273" literal="BR-MA"/>
+    <eLiterals name="BRMG" value="1274" literal="BR-MG"/>
+    <eLiterals name="BRMS" value="1275" literal="BR-MS"/>
+    <eLiterals name="BRMT" value="1276" literal="BR-MT"/>
+    <eLiterals name="BRPA" value="1277" literal="BR-PA"/>
+    <eLiterals name="BRPB" value="1278" literal="BR-PB"/>
+    <eLiterals name="BRPE" value="1279" literal="BR-PE"/>
+    <eLiterals name="BRPI" value="1280" literal="BR-PI"/>
+    <eLiterals name="BRPR" value="1281" literal="BR-PR"/>
+    <eLiterals name="BRRJ" value="1282" literal="BR-RJ"/>
+    <eLiterals name="BRRN" value="1283" literal="BR-RN"/>
+    <eLiterals name="BRRO" value="1284" literal="BR-RO"/>
+    <eLiterals name="BRRR" value="1285" literal="BR-RR"/>
+    <eLiterals name="BRRS" value="1286" literal="BR-RS"/>
+    <eLiterals name="BRSC" value="1287" literal="BR-SC"/>
+    <eLiterals name="BRSE" value="1288" literal="BR-SE"/>
+    <eLiterals name="BRSP" value="1289" literal="BR-SP"/>
+    <eLiterals name="BRTO" value="1290" literal="BR-TO"/>
+    <eLiterals name="IOIO" value="1291" literal="IO-IO"/>
+    <eLiterals name="BNBE" value="1292" literal="BN-BE"/>
+    <eLiterals name="BNBM" value="1293" literal="BN-BM"/>
+    <eLiterals name="BNTE" value="1294" literal="BN-TE"/>
+    <eLiterals name="BNTU" value="1295" literal="BN-TU"/>
+    <eLiterals name="BG01" value="1296" literal="BG-01"/>
+    <eLiterals name="BG02" value="1297" literal="BG-02"/>
+    <eLiterals name="BG03" value="1298" literal="BG-03"/>
+    <eLiterals name="BG04" value="1299" literal="BG-04"/>
+    <eLiterals name="BG05" value="1300" literal="BG-05"/>
+    <eLiterals name="BG06" value="1301" literal="BG-06"/>
+    <eLiterals name="BG07" value="1302" literal="BG-07"/>
+    <eLiterals name="BG08" value="1303" literal="BG-08"/>
+    <eLiterals name="BG09" value="1304" literal="BG-09"/>
+    <eLiterals name="BG10" value="1305" literal="BG-10"/>
+    <eLiterals name="BG11" value="1306" literal="BG-11"/>
+    <eLiterals name="BG12" value="1307" literal="BG-12"/>
+    <eLiterals name="BG13" value="1308" literal="BG-13"/>
+    <eLiterals name="BG14" value="1309" literal="BG-14"/>
+    <eLiterals name="BG15" value="1310" literal="BG-15"/>
+    <eLiterals name="BG16" value="1311" literal="BG-16"/>
+    <eLiterals name="BG17" value="1312" literal="BG-17"/>
+    <eLiterals name="BG18" value="1313" literal="BG-18"/>
+    <eLiterals name="BG19" value="1314" literal="BG-19"/>
+    <eLiterals name="BG20" value="1315" literal="BG-20"/>
+    <eLiterals name="BG21" value="1316" literal="BG-21"/>
+    <eLiterals name="BG22" value="1317" literal="BG-22"/>
+    <eLiterals name="BG23" value="1318" literal="BG-23"/>
+    <eLiterals name="BG24" value="1319" literal="BG-24"/>
+    <eLiterals name="BG25" value="1320" literal="BG-25"/>
+    <eLiterals name="BG26" value="1321" literal="BG-26"/>
+    <eLiterals name="BG27" value="1322" literal="BG-27"/>
+    <eLiterals name="BG28" value="1323" literal="BG-28"/>
+    <eLiterals name="BF01" value="1324" literal="BF-01"/>
+    <eLiterals name="BF02" value="1325" literal="BF-02"/>
+    <eLiterals name="BF03" value="1326" literal="BF-03"/>
+    <eLiterals name="BF04" value="1327" literal="BF-04"/>
+    <eLiterals name="BF05" value="1328" literal="BF-05"/>
+    <eLiterals name="BF06" value="1329" literal="BF-06"/>
+    <eLiterals name="BF07" value="1330" literal="BF-07"/>
+    <eLiterals name="BF08" value="1331" literal="BF-08"/>
+    <eLiterals name="BF09" value="1332" literal="BF-09"/>
+    <eLiterals name="BF10" value="1333" literal="BF-10"/>
+    <eLiterals name="BF11" value="1334" literal="BF-11"/>
+    <eLiterals name="BF12" value="1335" literal="BF-12"/>
+    <eLiterals name="BF13" value="1336" literal="BF-13"/>
+    <eLiterals name="BFBAL" value="1337" literal="BF-BAL"/>
+    <eLiterals name="BFBAM" value="1338" literal="BF-BAM"/>
+    <eLiterals name="BFBAN" value="1339" literal="BF-BAN"/>
+    <eLiterals name="BFBAZ" value="1340" literal="BF-BAZ"/>
+    <eLiterals name="BFBGR" value="1341" literal="BF-BGR"/>
+    <eLiterals name="BFBLG" value="1342" literal="BF-BLG"/>
+    <eLiterals name="BFBLK" value="1343" literal="BF-BLK"/>
+    <eLiterals name="BFCOM" value="1344" literal="BF-COM"/>
+    <eLiterals name="BFGAN" value="1345" literal="BF-GAN"/>
+    <eLiterals name="BFGNA" value="1346" literal="BF-GNA"/>
+    <eLiterals name="BFGOU" value="1347" literal="BF-GOU"/>
+    <eLiterals name="BFHOU" value="1348" literal="BF-HOU"/>
+    <eLiterals name="BFIOB" value="1349" literal="BF-IOB"/>
+    <eLiterals name="BFKAD" value="1350" literal="BF-KAD"/>
+    <eLiterals name="BFKEN" value="1351" literal="BF-KEN"/>
+    <eLiterals name="BFKMD" value="1352" literal="BF-KMD"/>
+    <eLiterals name="BFKMP" value="1353" literal="BF-KMP"/>
+    <eLiterals name="BFKOP" value="1354" literal="BF-KOP"/>
+    <eLiterals name="BFKOS" value="1355" literal="BF-KOS"/>
+    <eLiterals name="BFKOT" value="1356" literal="BF-KOT"/>
+    <eLiterals name="BFKOW" value="1357" literal="BF-KOW"/>
+    <eLiterals name="BFLER" value="1358" literal="BF-LER"/>
+    <eLiterals name="BFLOR" value="1359" literal="BF-LOR"/>
+    <eLiterals name="BFMOU" value="1360" literal="BF-MOU"/>
+    <eLiterals name="BFNAM" value="1361" literal="BF-NAM"/>
+    <eLiterals name="BFNAO" value="1362" literal="BF-NAO"/>
+    <eLiterals name="BFNAY" value="1363" literal="BF-NAY"/>
+    <eLiterals name="BFNOU" value="1364" literal="BF-NOU"/>
+    <eLiterals name="BFOUB" value="1365" literal="BF-OUB"/>
+    <eLiterals name="BFOUD" value="1366" literal="BF-OUD"/>
+    <eLiterals name="BFPAS" value="1367" literal="BF-PAS"/>
+    <eLiterals name="BFPON" value="1368" literal="BF-PON"/>
+    <eLiterals name="BFSEN" value="1369" literal="BF-SEN"/>
+    <eLiterals name="BFSIS" value="1370" literal="BF-SIS"/>
+    <eLiterals name="BFSMT" value="1371" literal="BF-SMT"/>
+    <eLiterals name="BFSNG" value="1372" literal="BF-SNG"/>
+    <eLiterals name="BFSOM" value="1373" literal="BF-SOM"/>
+    <eLiterals name="BFSOR" value="1374" literal="BF-SOR"/>
+    <eLiterals name="BFTAP" value="1375" literal="BF-TAP"/>
+    <eLiterals name="BFTUI" value="1376" literal="BF-TUI"/>
+    <eLiterals name="BFYAG" value="1377" literal="BF-YAG"/>
+    <eLiterals name="BFYAT" value="1378" literal="BF-YAT"/>
+    <eLiterals name="BFZIR" value="1379" literal="BF-ZIR"/>
+    <eLiterals name="BFZON" value="1380" literal="BF-ZON"/>
+    <eLiterals name="BFZOU" value="1381" literal="BF-ZOU"/>
+    <eLiterals name="BIBB" value="1382" literal="BI-BB"/>
+    <eLiterals name="BIBL" value="1383" literal="BI-BL"/>
+    <eLiterals name="BIBM" value="1384" literal="BI-BM"/>
+    <eLiterals name="BIBR" value="1385" literal="BI-BR"/>
+    <eLiterals name="BICA" value="1386" literal="BI-CA"/>
+    <eLiterals name="BICI" value="1387" literal="BI-CI"/>
+    <eLiterals name="BIGI" value="1388" literal="BI-GI"/>
+    <eLiterals name="BIKI" value="1389" literal="BI-KI"/>
+    <eLiterals name="BIKR" value="1390" literal="BI-KR"/>
+    <eLiterals name="BIKY" value="1391" literal="BI-KY"/>
+    <eLiterals name="BIMA" value="1392" literal="BI-MA"/>
+    <eLiterals name="BIMU" value="1393" literal="BI-MU"/>
+    <eLiterals name="BIMW" value="1394" literal="BI-MW"/>
+    <eLiterals name="BIMY" value="1395" literal="BI-MY"/>
+    <eLiterals name="BING" value="1396" literal="BI-NG"/>
+    <eLiterals name="BIRT" value="1397" literal="BI-RT"/>
+    <eLiterals name="BIRY" value="1398" literal="BI-RY"/>
+    <eLiterals name="KH10" value="1399" literal="KH-10"/>
+    <eLiterals name="KH11" value="1400" literal="KH-11"/>
+    <eLiterals name="KH12" value="1401" literal="KH-12"/>
+    <eLiterals name="KH13" value="1402" literal="KH-13"/>
+    <eLiterals name="KH14" value="1403" literal="KH-14"/>
+    <eLiterals name="KH15" value="1404" literal="KH-15"/>
+    <eLiterals name="KH16" value="1405" literal="KH-16"/>
+    <eLiterals name="KH17" value="1406" literal="KH-17"/>
+    <eLiterals name="KH18" value="1407" literal="KH-18"/>
+    <eLiterals name="KH19" value="1408" literal="KH-19"/>
+    <eLiterals name="KH1" value="1409" literal="KH-1"/>
+    <eLiterals name="KH20" value="1410" literal="KH-20"/>
+    <eLiterals name="KH21" value="1411" literal="KH-21"/>
+    <eLiterals name="KH22" value="1412" literal="KH-22"/>
+    <eLiterals name="KH23" value="1413" literal="KH-23"/>
+    <eLiterals name="KH24" value="1414" literal="KH-24"/>
+    <eLiterals name="KH2" value="1415" literal="KH-2"/>
+    <eLiterals name="KH3" value="1416" literal="KH-3"/>
+    <eLiterals name="KH4" value="1417" literal="KH-4"/>
+    <eLiterals name="KH5" value="1418" literal="KH-5"/>
+    <eLiterals name="KH6" value="1419" literal="KH-6"/>
+    <eLiterals name="KH7" value="1420" literal="KH-7"/>
+    <eLiterals name="KH8" value="1421" literal="KH-8"/>
+    <eLiterals name="KH9" value="1422" literal="KH-9"/>
+    <eLiterals name="CMAD" value="1423" literal="CM-AD"/>
+    <eLiterals name="CMCE" value="1424" literal="CM-CE"/>
+    <eLiterals name="CMEN" value="1425" literal="CM-EN"/>
+    <eLiterals name="CMES" value="1426" literal="CM-ES"/>
+    <eLiterals name="CMLT" value="1427" literal="CM-LT"/>
+    <eLiterals name="CMNO" value="1428" literal="CM-NO"/>
+    <eLiterals name="CMNW" value="1429" literal="CM-NW"/>
+    <eLiterals name="CMOU" value="1430" literal="CM-OU"/>
+    <eLiterals name="CMSU" value="1431" literal="CM-SU"/>
+    <eLiterals name="CMSW" value="1432" literal="CM-SW"/>
+    <eLiterals name="CAAB" value="1433" literal="CA-AB"/>
+    <eLiterals name="CABC" value="1434" literal="CA-BC"/>
+    <eLiterals name="CAMB" value="1435" literal="CA-MB"/>
+    <eLiterals name="CANB" value="1436" literal="CA-NB"/>
+    <eLiterals name="CANL" value="1437" literal="CA-NL"/>
+    <eLiterals name="CANS" value="1438" literal="CA-NS"/>
+    <eLiterals name="CANT" value="1439" literal="CA-NT"/>
+    <eLiterals name="CANU" value="1440" literal="CA-NU"/>
+    <eLiterals name="CAON" value="1441" literal="CA-ON"/>
+    <eLiterals name="CAPE" value="1442" literal="CA-PE"/>
+    <eLiterals name="CAQC" value="1443" literal="CA-QC"/>
+    <eLiterals name="CASK" value="1444" literal="CA-SK"/>
+    <eLiterals name="CAYT" value="1445" literal="CA-YT"/>
+    <eLiterals name="CVB" value="1446" literal="CV-B"/>
+    <eLiterals name="CVBR" value="1447" literal="CV-BR"/>
+    <eLiterals name="CVBV" value="1448" literal="CV-BV"/>
+    <eLiterals name="CVCA" value="1449" literal="CV-CA"/>
+    <eLiterals name="CVCF" value="1450" literal="CV-CF"/>
+    <eLiterals name="CVCR" value="1451" literal="CV-CR"/>
+    <eLiterals name="CVMA" value="1452" literal="CV-MA"/>
+    <eLiterals name="CVMO" value="1453" literal="CV-MO"/>
+    <eLiterals name="CVPA" value="1454" literal="CV-PA"/>
+    <eLiterals name="CVPN" value="1455" literal="CV-PN"/>
+    <eLiterals name="CVPR" value="1456" literal="CV-PR"/>
+    <eLiterals name="CVRB" value="1457" literal="CV-RB"/>
+    <eLiterals name="CVRG" value="1458" literal="CV-RG"/>
+    <eLiterals name="CVRS" value="1459" literal="CV-RS"/>
+    <eLiterals name="CVSD" value="1460" literal="CV-SD"/>
+    <eLiterals name="CVSF" value="1461" literal="CV-SF"/>
+    <eLiterals name="CVS" value="1462" literal="CV-S"/>
+    <eLiterals name="CVSL" value="1463" literal="CV-SL"/>
+    <eLiterals name="CVSM" value="1464" literal="CV-SM"/>
+    <eLiterals name="CVSO" value="1465" literal="CV-SO"/>
+    <eLiterals name="CVSS" value="1466" literal="CV-SS"/>
+    <eLiterals name="CVSV" value="1467" literal="CV-SV"/>
+    <eLiterals name="CVTA" value="1468" literal="CV-TA"/>
+    <eLiterals name="CVTS" value="1469" literal="CV-TS"/>
+    <eLiterals name="KYKY" value="1470" literal="KY-KY"/>
+    <eLiterals name="CFAC" value="1471" literal="CF-AC"/>
+    <eLiterals name="CFBB" value="1472" literal="CF-BB"/>
+    <eLiterals name="CFBGF" value="1473" literal="CF-BGF"/>
+    <eLiterals name="CFBK" value="1474" literal="CF-BK"/>
+    <eLiterals name="CFHK" value="1475" literal="CF-HK"/>
+    <eLiterals name="CFHM" value="1476" literal="CF-HM"/>
+    <eLiterals name="CFHS" value="1477" literal="CF-HS"/>
+    <eLiterals name="CFKB" value="1478" literal="CF-KB"/>
+    <eLiterals name="CFKG" value="1479" literal="CF-KG"/>
+    <eLiterals name="CFLB" value="1480" literal="CF-LB"/>
+    <eLiterals name="CFMB" value="1481" literal="CF-MB"/>
+    <eLiterals name="CFMP" value="1482" literal="CF-MP"/>
+    <eLiterals name="CFNM" value="1483" literal="CF-NM"/>
+    <eLiterals name="CFOP" value="1484" literal="CF-OP"/>
+    <eLiterals name="CFSE" value="1485" literal="CF-SE"/>
+    <eLiterals name="CFUK" value="1486" literal="CF-UK"/>
+    <eLiterals name="CFVK" value="1487" literal="CF-VK"/>
+    <eLiterals name="TDBA" value="1488" literal="TD-BA"/>
+    <eLiterals name="TDBG" value="1489" literal="TD-BG"/>
+    <eLiterals name="TDBO" value="1490" literal="TD-BO"/>
+    <eLiterals name="TDCB" value="1491" literal="TD-CB"/>
+    <eLiterals name="TDEE" value="1492" literal="TD-EE"/>
+    <eLiterals name="TDEO" value="1493" literal="TD-EO"/>
+    <eLiterals name="TDGR" value="1494" literal="TD-GR"/>
+    <eLiterals name="TDHL" value="1495" literal="TD-HL"/>
+    <eLiterals name="TDKA" value="1496" literal="TD-KA"/>
+    <eLiterals name="TDLC" value="1497" literal="TD-LC"/>
+    <eLiterals name="TDLO" value="1498" literal="TD-LO"/>
+    <eLiterals name="TDLR" value="1499" literal="TD-LR"/>
+    <eLiterals name="TDMA" value="1500" literal="TD-MA"/>
+    <eLiterals name="TDMC" value="1501" literal="TD-MC"/>
+    <eLiterals name="TDME" value="1502" literal="TD-ME"/>
+    <eLiterals name="TDMO" value="1503" literal="TD-MO"/>
+    <eLiterals name="TDND" value="1504" literal="TD-ND"/>
+    <eLiterals name="TDOD" value="1505" literal="TD-OD"/>
+    <eLiterals name="TDSA" value="1506" literal="TD-SA"/>
+    <eLiterals name="TDSI" value="1507" literal="TD-SI"/>
+    <eLiterals name="TDTA" value="1508" literal="TD-TA"/>
+    <eLiterals name="TDTI" value="1509" literal="TD-TI"/>
+    <eLiterals name="TDWF" value="1510" literal="TD-WF"/>
+    <eLiterals name="CLAI" value="1511" literal="CL-AI"/>
+    <eLiterals name="CLAN" value="1512" literal="CL-AN"/>
+    <eLiterals name="CLAP" value="1513" literal="CL-AP"/>
+    <eLiterals name="CLAR" value="1514" literal="CL-AR"/>
+    <eLiterals name="CLAT" value="1515" literal="CL-AT"/>
+    <eLiterals name="CLBI" value="1516" literal="CL-BI"/>
+    <eLiterals name="CLCO" value="1517" literal="CL-CO"/>
+    <eLiterals name="CLLI" value="1518" literal="CL-LI"/>
+    <eLiterals name="CLLL" value="1519" literal="CL-LL"/>
+    <eLiterals name="CLLR" value="1520" literal="CL-LR"/>
+    <eLiterals name="CLMA" value="1521" literal="CL-MA"/>
+    <eLiterals name="CLML" value="1522" literal="CL-ML"/>
+    <eLiterals name="CLRM" value="1523" literal="CL-RM"/>
+    <eLiterals name="CLTA" value="1524" literal="CL-TA"/>
+    <eLiterals name="CLVS" value="1525" literal="CL-VS"/>
+    <eLiterals name="CN11" value="1526" literal="CN-11"/>
+    <eLiterals name="CN12" value="1527" literal="CN-12"/>
+    <eLiterals name="CN13" value="1528" literal="CN-13"/>
+    <eLiterals name="CN14" value="1529" literal="CN-14"/>
+    <eLiterals name="CN15" value="1530" literal="CN-15"/>
+    <eLiterals name="CN21" value="1531" literal="CN-21"/>
+    <eLiterals name="CN22" value="1532" literal="CN-22"/>
+    <eLiterals name="CN23" value="1533" literal="CN-23"/>
+    <eLiterals name="CN31" value="1534" literal="CN-31"/>
+    <eLiterals name="CN32" value="1535" literal="CN-32"/>
+    <eLiterals name="CN33" value="1536" literal="CN-33"/>
+    <eLiterals name="CN34" value="1537" literal="CN-34"/>
+    <eLiterals name="CN35" value="1538" literal="CN-35"/>
+    <eLiterals name="CN36" value="1539" literal="CN-36"/>
+    <eLiterals name="CN37" value="1540" literal="CN-37"/>
+    <eLiterals name="CN41" value="1541" literal="CN-41"/>
+    <eLiterals name="CN42" value="1542" literal="CN-42"/>
+    <eLiterals name="CN43" value="1543" literal="CN-43"/>
+    <eLiterals name="CN44" value="1544" literal="CN-44"/>
+    <eLiterals name="CN45" value="1545" literal="CN-45"/>
+    <eLiterals name="CN46" value="1546" literal="CN-46"/>
+    <eLiterals name="CN50" value="1547" literal="CN-50"/>
+    <eLiterals name="CN51" value="1548" literal="CN-51"/>
+    <eLiterals name="CN52" value="1549" literal="CN-52"/>
+    <eLiterals name="CN53" value="1550" literal="CN-53"/>
+    <eLiterals name="CN54" value="1551" literal="CN-54"/>
+    <eLiterals name="CN61" value="1552" literal="CN-61"/>
+    <eLiterals name="CN62" value="1553" literal="CN-62"/>
+    <eLiterals name="CN63" value="1554" literal="CN-63"/>
+    <eLiterals name="CN64" value="1555" literal="CN-64"/>
+    <eLiterals name="CN65" value="1556" literal="CN-65"/>
+    <eLiterals name="CN71" value="1557" literal="CN-71"/>
+    <eLiterals name="CN91" value="1558" literal="CN-91"/>
+    <eLiterals name="CN92" value="1559" literal="CN-92"/>
+    <eLiterals name="CXCX" value="1560" literal="CX-CX"/>
+    <eLiterals name="CCCC" value="1561" literal="CC-CC"/>
+    <eLiterals name="COAMA" value="1562" literal="CO-AMA"/>
+    <eLiterals name="COANT" value="1563" literal="CO-ANT"/>
+    <eLiterals name="COARA" value="1564" literal="CO-ARA"/>
+    <eLiterals name="COATL" value="1565" literal="CO-ATL"/>
+    <eLiterals name="COBOL" value="1566" literal="CO-BOL"/>
+    <eLiterals name="COBOY" value="1567" literal="CO-BOY"/>
+    <eLiterals name="COCAL" value="1568" literal="CO-CAL"/>
+    <eLiterals name="COCAQ" value="1569" literal="CO-CAQ"/>
+    <eLiterals name="COCAS" value="1570" literal="CO-CAS"/>
+    <eLiterals name="COCAU" value="1571" literal="CO-CAU"/>
+    <eLiterals name="COCES" value="1572" literal="CO-CES"/>
+    <eLiterals name="COCHO" value="1573" literal="CO-CHO"/>
+    <eLiterals name="COCOR" value="1574" literal="CO-COR"/>
+    <eLiterals name="COCUN" value="1575" literal="CO-CUN"/>
+    <eLiterals name="CODC" value="1576" literal="CO-DC"/>
+    <eLiterals name="COGUA" value="1577" literal="CO-GUA"/>
+    <eLiterals name="COGUV" value="1578" literal="CO-GUV"/>
+    <eLiterals name="COHUI" value="1579" literal="CO-HUI"/>
+    <eLiterals name="COLAG" value="1580" literal="CO-LAG"/>
+    <eLiterals name="COMAG" value="1581" literal="CO-MAG"/>
+    <eLiterals name="COMET" value="1582" literal="CO-MET"/>
+    <eLiterals name="CONAR" value="1583" literal="CO-NAR"/>
+    <eLiterals name="CONSA" value="1584" literal="CO-NSA"/>
+    <eLiterals name="COPUT" value="1585" literal="CO-PUT"/>
+    <eLiterals name="COQUI" value="1586" literal="CO-QUI"/>
+    <eLiterals name="CORIS" value="1587" literal="CO-RIS"/>
+    <eLiterals name="COSAN" value="1588" literal="CO-SAN"/>
+    <eLiterals name="COSAP" value="1589" literal="CO-SAP"/>
+    <eLiterals name="COSUC" value="1590" literal="CO-SUC"/>
+    <eLiterals name="COTOL" value="1591" literal="CO-TOL"/>
+    <eLiterals name="COVAC" value="1592" literal="CO-VAC"/>
+    <eLiterals name="COVAU" value="1593" literal="CO-VAU"/>
+    <eLiterals name="COVID" value="1594" literal="CO-VID"/>
+    <eLiterals name="KMA" value="1595" literal="KM-A"/>
+    <eLiterals name="KMG" value="1596" literal="KM-G"/>
+    <eLiterals name="KMM" value="1597" literal="KM-M"/>
+    <eLiterals name="CG11" value="1598" literal="CG-11"/>
+    <eLiterals name="CG12" value="1599" literal="CG-12"/>
+    <eLiterals name="CG13" value="1600" literal="CG-13"/>
+    <eLiterals name="CG14" value="1601" literal="CG-14"/>
+    <eLiterals name="CG15" value="1602" literal="CG-15"/>
+    <eLiterals name="CG16" value="1603" literal="CG-16"/>
+    <eLiterals name="CG2" value="1604" literal="CG-2"/>
+    <eLiterals name="CG5" value="1605" literal="CG-5"/>
+    <eLiterals name="CG7" value="1606" literal="CG-7"/>
+    <eLiterals name="CG8" value="1607" literal="CG-8"/>
+    <eLiterals name="CG9" value="1608" literal="CG-9"/>
+    <eLiterals name="CGBZV" value="1609" literal="CG-BZV"/>
+    <eLiterals name="CDBC" value="1610" literal="CD-BC"/>
+    <eLiterals name="CDBN" value="1611" literal="CD-BN"/>
+    <eLiterals name="CDEQ" value="1612" literal="CD-EQ"/>
+    <eLiterals name="CDKA" value="1613" literal="CD-KA"/>
+    <eLiterals name="CDKE" value="1614" literal="CD-KE"/>
+    <eLiterals name="CDKN" value="1615" literal="CD-KN"/>
+    <eLiterals name="CDKW" value="1616" literal="CD-KW"/>
+    <eLiterals name="CDMA" value="1617" literal="CD-MA"/>
+    <eLiterals name="CDNK" value="1618" literal="CD-NK"/>
+    <eLiterals name="CDOR" value="1619" literal="CD-OR"/>
+    <eLiterals name="CDSK" value="1620" literal="CD-SK"/>
+    <eLiterals name="CKCK" value="1621" literal="CK-CK"/>
+    <eLiterals name="CRA" value="1622" literal="CR-A"/>
+    <eLiterals name="CRC" value="1623" literal="CR-C"/>
+    <eLiterals name="CRG" value="1624" literal="CR-G"/>
+    <eLiterals name="CRH" value="1625" literal="CR-H"/>
+    <eLiterals name="CRL" value="1626" literal="CR-L"/>
+    <eLiterals name="CRP" value="1627" literal="CR-P"/>
+    <eLiterals name="CRSJ" value="1628" literal="CR-SJ"/>
+    <eLiterals name="CI01" value="1629" literal="CI-01"/>
+    <eLiterals name="CI02" value="1630" literal="CI-02"/>
+    <eLiterals name="CI03" value="1631" literal="CI-03"/>
+    <eLiterals name="CI04" value="1632" literal="CI-04"/>
+    <eLiterals name="CI05" value="1633" literal="CI-05"/>
+    <eLiterals name="CI06" value="1634" literal="CI-06"/>
+    <eLiterals name="CI07" value="1635" literal="CI-07"/>
+    <eLiterals name="CI08" value="1636" literal="CI-08"/>
+    <eLiterals name="CI09" value="1637" literal="CI-09"/>
+    <eLiterals name="CI10" value="1638" literal="CI-10"/>
+    <eLiterals name="CI11" value="1639" literal="CI-11"/>
+    <eLiterals name="CI12" value="1640" literal="CI-12"/>
+    <eLiterals name="CI13" value="1641" literal="CI-13"/>
+    <eLiterals name="CI14" value="1642" literal="CI-14"/>
+    <eLiterals name="CI15" value="1643" literal="CI-15"/>
+    <eLiterals name="CI16" value="1644" literal="CI-16"/>
+    <eLiterals name="CI17" value="1645" literal="CI-17"/>
+    <eLiterals name="CI18" value="1646" literal="CI-18"/>
+    <eLiterals name="CI19" value="1647" literal="CI-19"/>
+    <eLiterals name="HR01" value="1648" literal="HR-01"/>
+    <eLiterals name="HR02" value="1649" literal="HR-02"/>
+    <eLiterals name="HR03" value="1650" literal="HR-03"/>
+    <eLiterals name="HR04" value="1651" literal="HR-04"/>
+    <eLiterals name="HR05" value="1652" literal="HR-05"/>
+    <eLiterals name="HR06" value="1653" literal="HR-06"/>
+    <eLiterals name="HR07" value="1654" literal="HR-07"/>
+    <eLiterals name="HR08" value="1655" literal="HR-08"/>
+    <eLiterals name="HR09" value="1656" literal="HR-09"/>
+    <eLiterals name="HR10" value="1657" literal="HR-10"/>
+    <eLiterals name="HR11" value="1658" literal="HR-11"/>
+    <eLiterals name="HR12" value="1659" literal="HR-12"/>
+    <eLiterals name="HR13" value="1660" literal="HR-13"/>
+    <eLiterals name="HR14" value="1661" literal="HR-14"/>
+    <eLiterals name="HR15" value="1662" literal="HR-15"/>
+    <eLiterals name="HR16" value="1663" literal="HR-16"/>
+    <eLiterals name="HR17" value="1664" literal="HR-17"/>
+    <eLiterals name="HR18" value="1665" literal="HR-18"/>
+    <eLiterals name="HR19" value="1666" literal="HR-19"/>
+    <eLiterals name="HR20" value="1667" literal="HR-20"/>
+    <eLiterals name="HR21" value="1668" literal="HR-21"/>
+    <eLiterals name="CU01" value="1669" literal="CU-01"/>
+    <eLiterals name="CU03" value="1670" literal="CU-03"/>
+    <eLiterals name="CU04" value="1671" literal="CU-04"/>
+    <eLiterals name="CU05" value="1672" literal="CU-05"/>
+    <eLiterals name="CU06" value="1673" literal="CU-06"/>
+    <eLiterals name="CU07" value="1674" literal="CU-07"/>
+    <eLiterals name="CU08" value="1675" literal="CU-08"/>
+    <eLiterals name="CU09" value="1676" literal="CU-09"/>
+    <eLiterals name="CU10" value="1677" literal="CU-10"/>
+    <eLiterals name="CU11" value="1678" literal="CU-11"/>
+    <eLiterals name="CU12" value="1679" literal="CU-12"/>
+    <eLiterals name="CU13" value="1680" literal="CU-13"/>
+    <eLiterals name="CU14" value="1681" literal="CU-14"/>
+    <eLiterals name="CU15" value="1682" literal="CU-15"/>
+    <eLiterals name="CU16" value="1683" literal="CU-16"/>
+    <eLiterals name="CU99" value="1684" literal="CU-99"/>
+    <eLiterals name="CWCW" value="1685" literal="CW-CW"/>
+    <eLiterals name="CY01" value="1686" literal="CY-01"/>
+    <eLiterals name="CY02" value="1687" literal="CY-02"/>
+    <eLiterals name="CY03" value="1688" literal="CY-03"/>
+    <eLiterals name="CY04" value="1689" literal="CY-04"/>
+    <eLiterals name="CY05" value="1690" literal="CY-05"/>
+    <eLiterals name="CY06" value="1691" literal="CY-06"/>
+    <eLiterals name="CZ101" value="1692" literal="CZ-101"/>
+    <eLiterals name="CZ102" value="1693" literal="CZ-102"/>
+    <eLiterals name="CZ103" value="1694" literal="CZ-103"/>
+    <eLiterals name="CZ104" value="1695" literal="CZ-104"/>
+    <eLiterals name="CZ105" value="1696" literal="CZ-105"/>
+    <eLiterals name="CZ106" value="1697" literal="CZ-106"/>
+    <eLiterals name="CZ107" value="1698" literal="CZ-107"/>
+    <eLiterals name="CZ108" value="1699" literal="CZ-108"/>
+    <eLiterals name="CZ109" value="1700" literal="CZ-109"/>
+    <eLiterals name="CZ10A" value="1701" literal="CZ-10A"/>
+    <eLiterals name="CZ10B" value="1702" literal="CZ-10B"/>
+    <eLiterals name="CZ10C" value="1703" literal="CZ-10C"/>
+    <eLiterals name="CZ10D" value="1704" literal="CZ-10D"/>
+    <eLiterals name="CZ10E" value="1705" literal="CZ-10E"/>
+    <eLiterals name="CZ10F" value="1706" literal="CZ-10F"/>
+    <eLiterals name="CZ201" value="1707" literal="CZ-201"/>
+    <eLiterals name="CZ202" value="1708" literal="CZ-202"/>
+    <eLiterals name="CZ203" value="1709" literal="CZ-203"/>
+    <eLiterals name="CZ204" value="1710" literal="CZ-204"/>
+    <eLiterals name="CZ205" value="1711" literal="CZ-205"/>
+    <eLiterals name="CZ206" value="1712" literal="CZ-206"/>
+    <eLiterals name="CZ207" value="1713" literal="CZ-207"/>
+    <eLiterals name="CZ208" value="1714" literal="CZ-208"/>
+    <eLiterals name="CZ209" value="1715" literal="CZ-209"/>
+    <eLiterals name="CZ20A" value="1716" literal="CZ-20A"/>
+    <eLiterals name="CZ20B" value="1717" literal="CZ-20B"/>
+    <eLiterals name="CZ20C" value="1718" literal="CZ-20C"/>
+    <eLiterals name="CZ311" value="1719" literal="CZ-311"/>
+    <eLiterals name="CZ312" value="1720" literal="CZ-312"/>
+    <eLiterals name="CZ313" value="1721" literal="CZ-313"/>
+    <eLiterals name="CZ314" value="1722" literal="CZ-314"/>
+    <eLiterals name="CZ315" value="1723" literal="CZ-315"/>
+    <eLiterals name="CZ316" value="1724" literal="CZ-316"/>
+    <eLiterals name="CZ317" value="1725" literal="CZ-317"/>
+    <eLiterals name="CZ321" value="1726" literal="CZ-321"/>
+    <eLiterals name="CZ322" value="1727" literal="CZ-322"/>
+    <eLiterals name="CZ323" value="1728" literal="CZ-323"/>
+    <eLiterals name="CZ324" value="1729" literal="CZ-324"/>
+    <eLiterals name="CZ325" value="1730" literal="CZ-325"/>
+    <eLiterals name="CZ326" value="1731" literal="CZ-326"/>
+    <eLiterals name="CZ327" value="1732" literal="CZ-327"/>
+    <eLiterals name="CZ411" value="1733" literal="CZ-411"/>
+    <eLiterals name="CZ412" value="1734" literal="CZ-412"/>
+    <eLiterals name="CZ413" value="1735" literal="CZ-413"/>
+    <eLiterals name="CZ421" value="1736" literal="CZ-421"/>
+    <eLiterals name="CZ422" value="1737" literal="CZ-422"/>
+    <eLiterals name="CZ423" value="1738" literal="CZ-423"/>
+    <eLiterals name="CZ424" value="1739" literal="CZ-424"/>
+    <eLiterals name="CZ425" value="1740" literal="CZ-425"/>
+    <eLiterals name="CZ426" value="1741" literal="CZ-426"/>
+    <eLiterals name="CZ427" value="1742" literal="CZ-427"/>
+    <eLiterals name="CZ511" value="1743" literal="CZ-511"/>
+    <eLiterals name="CZ512" value="1744" literal="CZ-512"/>
+    <eLiterals name="CZ513" value="1745" literal="CZ-513"/>
+    <eLiterals name="CZ514" value="1746" literal="CZ-514"/>
+    <eLiterals name="_001" value="1747" literal="001"/>
+    <eLiterals name="_002" value="1748" literal="002"/>
+    <eLiterals name="_014" value="1749" literal="014"/>
+    <eLiterals name="_017" value="1750" literal="017"/>
+    <eLiterals name="_015" value="1751" literal="015"/>
+    <eLiterals name="_018" value="1752" literal="018"/>
+    <eLiterals name="_011" value="1753" literal="011"/>
+    <eLiterals name="_019" value="1754" literal="019"/>
+    <eLiterals name="_419" value="1755" literal="419"/>
+    <eLiterals name="_029" value="1756" literal="029"/>
+    <eLiterals name="_013" value="1757" literal="013"/>
+    <eLiterals name="_005" value="1758" literal="005"/>
+    <eLiterals name="_021" value="1759" literal="021"/>
+    <eLiterals name="_142" value="1760" literal="142"/>
+    <eLiterals name="_143" value="1761" literal="143"/>
+    <eLiterals name="_030" value="1762" literal="030"/>
+    <eLiterals name="_034" value="1763" literal="034"/>
+    <eLiterals name="_035" value="1764" literal="035"/>
+    <eLiterals name="_145" value="1765" literal="145"/>
+    <eLiterals name="_150" value="1766" literal="150"/>
+    <eLiterals name="_151" value="1767" literal="151"/>
+    <eLiterals name="_154" value="1768" literal="154"/>
+    <eLiterals name="_039" value="1769" literal="039"/>
+    <eLiterals name="_155" value="1770" literal="155"/>
+    <eLiterals name="_009" value="1771" literal="009"/>
+    <eLiterals name="_053" value="1772" literal="053"/>
+    <eLiterals name="_054" value="1773" literal="054"/>
+    <eLiterals name="_057" value="1774" literal="057"/>
+    <eLiterals name="_061" value="1775" literal="061"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EDataType" name="JurisdictionValueSetEnumObject" instanceClassName="org.eclipse.emf.common.util.Enumerator">
     <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">

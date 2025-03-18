@@ -129,6 +129,7 @@ public class ExtendedContactDetailImpl extends DataTypeImpl implements ExtendedC
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getPurpose() {
 		return purpose;
 	}
@@ -153,6 +154,7 @@ public class ExtendedContactDetailImpl extends DataTypeImpl implements ExtendedC
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPurpose(CodeableConcept newPurpose) {
 		if (newPurpose != purpose) {
 			NotificationChain msgs = null;
@@ -172,6 +174,7 @@ public class ExtendedContactDetailImpl extends DataTypeImpl implements ExtendedC
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<HumanName> getName() {
 		if (name == null) {
 			name = new EObjectContainmentEList<HumanName>(HumanName.class, this, FhirPackage.EXTENDED_CONTACT_DETAIL__NAME);
@@ -184,6 +187,7 @@ public class ExtendedContactDetailImpl extends DataTypeImpl implements ExtendedC
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactPoint> getTelecom() {
 		if (telecom == null) {
 			telecom = new EObjectContainmentEList<ContactPoint>(ContactPoint.class, this, FhirPackage.EXTENDED_CONTACT_DETAIL__TELECOM);
@@ -196,6 +200,7 @@ public class ExtendedContactDetailImpl extends DataTypeImpl implements ExtendedC
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Address getAddress() {
 		return address;
 	}
@@ -220,6 +225,7 @@ public class ExtendedContactDetailImpl extends DataTypeImpl implements ExtendedC
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAddress(Address newAddress) {
 		if (newAddress != address) {
 			NotificationChain msgs = null;
@@ -239,6 +245,7 @@ public class ExtendedContactDetailImpl extends DataTypeImpl implements ExtendedC
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getOrganization() {
 		return organization;
 	}
@@ -263,6 +270,7 @@ public class ExtendedContactDetailImpl extends DataTypeImpl implements ExtendedC
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOrganization(Reference newOrganization) {
 		if (newOrganization != organization) {
 			NotificationChain msgs = null;
@@ -282,6 +290,7 @@ public class ExtendedContactDetailImpl extends DataTypeImpl implements ExtendedC
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getPeriod() {
 		return period;
 	}
@@ -306,6 +315,7 @@ public class ExtendedContactDetailImpl extends DataTypeImpl implements ExtendedC
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriod(Period newPeriod) {
 		if (newPeriod != period) {
 			NotificationChain msgs = null;

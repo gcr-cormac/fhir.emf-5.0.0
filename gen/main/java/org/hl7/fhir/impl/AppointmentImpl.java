@@ -422,6 +422,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.APPOINTMENT__IDENTIFIER);
@@ -434,6 +435,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AppointmentStatus getStatus() {
 		return status;
 	}
@@ -458,6 +460,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(AppointmentStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -477,6 +480,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCancellationReason() {
 		return cancellationReason;
 	}
@@ -501,6 +505,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCancellationReason(CodeableConcept newCancellationReason) {
 		if (newCancellationReason != cancellationReason) {
 			NotificationChain msgs = null;
@@ -520,6 +525,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getClass_() {
 		if (class_ == null) {
 			class_ = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.APPOINTMENT__CLASS);
@@ -532,6 +538,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getServiceCategory() {
 		if (serviceCategory == null) {
 			serviceCategory = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.APPOINTMENT__SERVICE_CATEGORY);
@@ -544,6 +551,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getServiceType() {
 		if (serviceType == null) {
 			serviceType = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.APPOINTMENT__SERVICE_TYPE);
@@ -556,6 +564,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getSpecialty() {
 		if (specialty == null) {
 			specialty = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.APPOINTMENT__SPECIALTY);
@@ -568,6 +577,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getAppointmentType() {
 		return appointmentType;
 	}
@@ -592,6 +602,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAppointmentType(CodeableConcept newAppointmentType) {
 		if (newAppointmentType != appointmentType) {
 			NotificationChain msgs = null;
@@ -611,6 +622,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getReason() {
 		if (reason == null) {
 			reason = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.APPOINTMENT__REASON);
@@ -623,6 +635,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getPriority() {
 		return priority;
 	}
@@ -647,6 +660,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPriority(CodeableConcept newPriority) {
 		if (newPriority != priority) {
 			NotificationChain msgs = null;
@@ -666,6 +680,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDescription() {
 		return description;
 	}
@@ -690,6 +705,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(org.hl7.fhir.String newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -709,6 +725,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getReplaces() {
 		if (replaces == null) {
 			replaces = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.APPOINTMENT__REPLACES);
@@ -721,6 +738,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<VirtualServiceDetail> getVirtualService() {
 		if (virtualService == null) {
 			virtualService = new EObjectContainmentEList<VirtualServiceDetail>(VirtualServiceDetail.class, this, FhirPackage.APPOINTMENT__VIRTUAL_SERVICE);
@@ -733,6 +751,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getSupportingInformation() {
 		if (supportingInformation == null) {
 			supportingInformation = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.APPOINTMENT__SUPPORTING_INFORMATION);
@@ -745,6 +764,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getPreviousAppointment() {
 		return previousAppointment;
 	}
@@ -769,6 +789,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPreviousAppointment(Reference newPreviousAppointment) {
 		if (newPreviousAppointment != previousAppointment) {
 			NotificationChain msgs = null;
@@ -788,6 +809,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getOriginatingAppointment() {
 		return originatingAppointment;
 	}
@@ -812,6 +834,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOriginatingAppointment(Reference newOriginatingAppointment) {
 		if (newOriginatingAppointment != originatingAppointment) {
 			NotificationChain msgs = null;
@@ -831,6 +854,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Instant getStart() {
 		return start;
 	}
@@ -855,6 +879,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStart(Instant newStart) {
 		if (newStart != start) {
 			NotificationChain msgs = null;
@@ -874,6 +899,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Instant getEnd() {
 		return end;
 	}
@@ -898,6 +924,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEnd(Instant newEnd) {
 		if (newEnd != end) {
 			NotificationChain msgs = null;
@@ -917,6 +944,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PositiveInt getMinutesDuration() {
 		return minutesDuration;
 	}
@@ -941,6 +969,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMinutesDuration(PositiveInt newMinutesDuration) {
 		if (newMinutesDuration != minutesDuration) {
 			NotificationChain msgs = null;
@@ -960,6 +989,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Period> getRequestedPeriod() {
 		if (requestedPeriod == null) {
 			requestedPeriod = new EObjectContainmentEList<Period>(Period.class, this, FhirPackage.APPOINTMENT__REQUESTED_PERIOD);
@@ -972,6 +1002,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getSlot() {
 		if (slot == null) {
 			slot = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.APPOINTMENT__SLOT);
@@ -984,6 +1015,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getAccount() {
 		if (account == null) {
 			account = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.APPOINTMENT__ACCOUNT);
@@ -996,6 +1028,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getCreated() {
 		return created;
 	}
@@ -1020,6 +1053,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCreated(DateTime newCreated) {
 		if (newCreated != created) {
 			NotificationChain msgs = null;
@@ -1039,6 +1073,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getCancellationDate() {
 		return cancellationDate;
 	}
@@ -1063,6 +1098,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCancellationDate(DateTime newCancellationDate) {
 		if (newCancellationDate != cancellationDate) {
 			NotificationChain msgs = null;
@@ -1082,6 +1118,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.APPOINTMENT__NOTE);
@@ -1094,6 +1131,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getPatientInstruction() {
 		if (patientInstruction == null) {
 			patientInstruction = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.APPOINTMENT__PATIENT_INSTRUCTION);
@@ -1106,6 +1144,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getBasedOn() {
 		if (basedOn == null) {
 			basedOn = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.APPOINTMENT__BASED_ON);
@@ -1118,6 +1157,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubject() {
 		return subject;
 	}
@@ -1142,6 +1182,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubject(Reference newSubject) {
 		if (newSubject != subject) {
 			NotificationChain msgs = null;
@@ -1161,6 +1202,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<AppointmentParticipant> getParticipant() {
 		if (participant == null) {
 			participant = new EObjectContainmentEList<AppointmentParticipant>(AppointmentParticipant.class, this, FhirPackage.APPOINTMENT__PARTICIPANT);
@@ -1173,6 +1215,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PositiveInt getRecurrenceId() {
 		return recurrenceId;
 	}
@@ -1197,6 +1240,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRecurrenceId(PositiveInt newRecurrenceId) {
 		if (newRecurrenceId != recurrenceId) {
 			NotificationChain msgs = null;
@@ -1216,6 +1260,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getOccurrenceChanged() {
 		return occurrenceChanged;
 	}
@@ -1240,6 +1285,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOccurrenceChanged(org.hl7.fhir.Boolean newOccurrenceChanged) {
 		if (newOccurrenceChanged != occurrenceChanged) {
 			NotificationChain msgs = null;
@@ -1259,6 +1305,7 @@ public class AppointmentImpl extends DomainResourceImpl implements Appointment {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<AppointmentRecurrenceTemplate> getRecurrenceTemplate() {
 		if (recurrenceTemplate == null) {
 			recurrenceTemplate = new EObjectContainmentEList<AppointmentRecurrenceTemplate>(AppointmentRecurrenceTemplate.class, this, FhirPackage.APPOINTMENT__RECURRENCE_TEMPLATE);

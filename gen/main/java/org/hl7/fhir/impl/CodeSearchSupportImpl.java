@@ -79,6 +79,7 @@ public class CodeSearchSupportImpl extends ElementImpl implements CodeSearchSupp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeSearchSupportEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class CodeSearchSupportImpl extends ElementImpl implements CodeSearchSupp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(CodeSearchSupportEnum newValue) {
 		CodeSearchSupportEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class CodeSearchSupportImpl extends ElementImpl implements CodeSearchSupp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		CodeSearchSupportEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class CodeSearchSupportImpl extends ElementImpl implements CodeSearchSupp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

@@ -79,6 +79,7 @@ public class IdentifierUseImpl extends ElementImpl implements IdentifierUse {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public IdentifierUseEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class IdentifierUseImpl extends ElementImpl implements IdentifierUse {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(IdentifierUseEnum newValue) {
 		IdentifierUseEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class IdentifierUseImpl extends ElementImpl implements IdentifierUse {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		IdentifierUseEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class IdentifierUseImpl extends ElementImpl implements IdentifierUse {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

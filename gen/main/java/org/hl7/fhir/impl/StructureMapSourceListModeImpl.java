@@ -79,6 +79,7 @@ public class StructureMapSourceListModeImpl extends ElementImpl implements Struc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public StructureMapSourceListModeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class StructureMapSourceListModeImpl extends ElementImpl implements Struc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(StructureMapSourceListModeEnum newValue) {
 		StructureMapSourceListModeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class StructureMapSourceListModeImpl extends ElementImpl implements Struc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		StructureMapSourceListModeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class StructureMapSourceListModeImpl extends ElementImpl implements Struc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

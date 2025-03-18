@@ -217,6 +217,7 @@ public class VisionPrescriptionLensSpecificationImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getProduct() {
 		return product;
 	}
@@ -241,6 +242,7 @@ public class VisionPrescriptionLensSpecificationImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProduct(CodeableConcept newProduct) {
 		if (newProduct != product) {
 			NotificationChain msgs = null;
@@ -260,6 +262,7 @@ public class VisionPrescriptionLensSpecificationImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public VisionEyes getEye() {
 		return eye;
 	}
@@ -284,6 +287,7 @@ public class VisionPrescriptionLensSpecificationImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEye(VisionEyes newEye) {
 		if (newEye != eye) {
 			NotificationChain msgs = null;
@@ -303,6 +307,7 @@ public class VisionPrescriptionLensSpecificationImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Decimal getSphere() {
 		return sphere;
 	}
@@ -327,6 +332,7 @@ public class VisionPrescriptionLensSpecificationImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSphere(Decimal newSphere) {
 		if (newSphere != sphere) {
 			NotificationChain msgs = null;
@@ -346,6 +352,7 @@ public class VisionPrescriptionLensSpecificationImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Decimal getCylinder() {
 		return cylinder;
 	}
@@ -370,6 +377,7 @@ public class VisionPrescriptionLensSpecificationImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCylinder(Decimal newCylinder) {
 		if (newCylinder != cylinder) {
 			NotificationChain msgs = null;
@@ -389,6 +397,7 @@ public class VisionPrescriptionLensSpecificationImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Integer getAxis() {
 		return axis;
 	}
@@ -413,6 +422,7 @@ public class VisionPrescriptionLensSpecificationImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAxis(org.hl7.fhir.Integer newAxis) {
 		if (newAxis != axis) {
 			NotificationChain msgs = null;
@@ -432,6 +442,7 @@ public class VisionPrescriptionLensSpecificationImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<VisionPrescriptionPrism> getPrism() {
 		if (prism == null) {
 			prism = new EObjectContainmentEList<VisionPrescriptionPrism>(VisionPrescriptionPrism.class, this, FhirPackage.VISION_PRESCRIPTION_LENS_SPECIFICATION__PRISM);
@@ -444,6 +455,7 @@ public class VisionPrescriptionLensSpecificationImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Decimal getAdd() {
 		return add;
 	}
@@ -468,6 +480,7 @@ public class VisionPrescriptionLensSpecificationImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAdd(Decimal newAdd) {
 		if (newAdd != add) {
 			NotificationChain msgs = null;
@@ -487,6 +500,7 @@ public class VisionPrescriptionLensSpecificationImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Decimal getPower() {
 		return power;
 	}
@@ -511,6 +525,7 @@ public class VisionPrescriptionLensSpecificationImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPower(Decimal newPower) {
 		if (newPower != power) {
 			NotificationChain msgs = null;
@@ -530,6 +545,7 @@ public class VisionPrescriptionLensSpecificationImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Decimal getBackCurve() {
 		return backCurve;
 	}
@@ -554,6 +570,7 @@ public class VisionPrescriptionLensSpecificationImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBackCurve(Decimal newBackCurve) {
 		if (newBackCurve != backCurve) {
 			NotificationChain msgs = null;
@@ -573,6 +590,7 @@ public class VisionPrescriptionLensSpecificationImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Decimal getDiameter() {
 		return diameter;
 	}
@@ -597,6 +615,7 @@ public class VisionPrescriptionLensSpecificationImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDiameter(Decimal newDiameter) {
 		if (newDiameter != diameter) {
 			NotificationChain msgs = null;
@@ -616,6 +635,7 @@ public class VisionPrescriptionLensSpecificationImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getDuration() {
 		return duration;
 	}
@@ -640,6 +660,7 @@ public class VisionPrescriptionLensSpecificationImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDuration(Quantity newDuration) {
 		if (newDuration != duration) {
 			NotificationChain msgs = null;
@@ -659,6 +680,7 @@ public class VisionPrescriptionLensSpecificationImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getColor() {
 		return color;
 	}
@@ -683,6 +705,7 @@ public class VisionPrescriptionLensSpecificationImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setColor(org.hl7.fhir.String newColor) {
 		if (newColor != color) {
 			NotificationChain msgs = null;
@@ -702,6 +725,7 @@ public class VisionPrescriptionLensSpecificationImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getBrand() {
 		return brand;
 	}
@@ -726,6 +750,7 @@ public class VisionPrescriptionLensSpecificationImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBrand(org.hl7.fhir.String newBrand) {
 		if (newBrand != brand) {
 			NotificationChain msgs = null;
@@ -745,6 +770,7 @@ public class VisionPrescriptionLensSpecificationImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.VISION_PRESCRIPTION_LENS_SPECIFICATION__NOTE);

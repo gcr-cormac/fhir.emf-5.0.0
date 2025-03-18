@@ -78,6 +78,7 @@ public class MedicationKnowledgeIndicationGuidelineImpl extends BackboneElementI
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getIndication() {
 		if (indication == null) {
 			indication = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.MEDICATION_KNOWLEDGE_INDICATION_GUIDELINE__INDICATION);
@@ -90,6 +91,7 @@ public class MedicationKnowledgeIndicationGuidelineImpl extends BackboneElementI
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MedicationKnowledgeDosingGuideline> getDosingGuideline() {
 		if (dosingGuideline == null) {
 			dosingGuideline = new EObjectContainmentEList<MedicationKnowledgeDosingGuideline>(MedicationKnowledgeDosingGuideline.class, this, FhirPackage.MEDICATION_KNOWLEDGE_INDICATION_GUIDELINE__DOSING_GUIDELINE);

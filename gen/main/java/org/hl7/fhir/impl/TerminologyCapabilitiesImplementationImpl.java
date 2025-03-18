@@ -73,6 +73,7 @@ public class TerminologyCapabilitiesImplementationImpl extends BackboneElementIm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDescription() {
 		return description;
 	}
@@ -97,6 +98,7 @@ public class TerminologyCapabilitiesImplementationImpl extends BackboneElementIm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(org.hl7.fhir.String newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -116,6 +118,7 @@ public class TerminologyCapabilitiesImplementationImpl extends BackboneElementIm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Url getUrl() {
 		return url;
 	}
@@ -140,6 +143,7 @@ public class TerminologyCapabilitiesImplementationImpl extends BackboneElementIm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUrl(Url newUrl) {
 		if (newUrl != url) {
 			NotificationChain msgs = null;

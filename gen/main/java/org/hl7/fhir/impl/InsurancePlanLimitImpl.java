@@ -74,6 +74,7 @@ public class InsurancePlanLimitImpl extends BackboneElementImpl implements Insur
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getValue() {
 		return value;
 	}
@@ -98,6 +99,7 @@ public class InsurancePlanLimitImpl extends BackboneElementImpl implements Insur
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(Quantity newValue) {
 		if (newValue != value) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class InsurancePlanLimitImpl extends BackboneElementImpl implements Insur
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -141,6 +144,7 @@ public class InsurancePlanLimitImpl extends BackboneElementImpl implements Insur
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;

@@ -74,6 +74,7 @@ public class TestReportRequirementImpl extends BackboneElementImpl implements Te
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getLinkUri() {
 		return linkUri;
 	}
@@ -98,6 +99,7 @@ public class TestReportRequirementImpl extends BackboneElementImpl implements Te
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLinkUri(Uri newLinkUri) {
 		if (newLinkUri != linkUri) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class TestReportRequirementImpl extends BackboneElementImpl implements Te
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getLinkCanonical() {
 		return linkCanonical;
 	}
@@ -141,6 +144,7 @@ public class TestReportRequirementImpl extends BackboneElementImpl implements Te
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLinkCanonical(Canonical newLinkCanonical) {
 		if (newLinkCanonical != linkCanonical) {
 			NotificationChain msgs = null;

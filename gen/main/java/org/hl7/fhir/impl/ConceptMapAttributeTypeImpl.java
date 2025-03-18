@@ -79,6 +79,7 @@ public class ConceptMapAttributeTypeImpl extends ElementImpl implements ConceptM
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ConceptMapAttributeTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ConceptMapAttributeTypeImpl extends ElementImpl implements ConceptM
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ConceptMapAttributeTypeEnum newValue) {
 		ConceptMapAttributeTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ConceptMapAttributeTypeImpl extends ElementImpl implements ConceptM
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ConceptMapAttributeTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ConceptMapAttributeTypeImpl extends ElementImpl implements ConceptM
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

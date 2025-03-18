@@ -493,6 +493,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.SERVICE_REQUEST__IDENTIFIER);
@@ -505,6 +506,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Canonical> getInstantiatesCanonical() {
 		if (instantiatesCanonical == null) {
 			instantiatesCanonical = new EObjectContainmentEList<Canonical>(Canonical.class, this, FhirPackage.SERVICE_REQUEST__INSTANTIATES_CANONICAL);
@@ -517,6 +519,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Uri> getInstantiatesUri() {
 		if (instantiatesUri == null) {
 			instantiatesUri = new EObjectContainmentEList<Uri>(Uri.class, this, FhirPackage.SERVICE_REQUEST__INSTANTIATES_URI);
@@ -529,6 +532,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getBasedOn() {
 		if (basedOn == null) {
 			basedOn = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.SERVICE_REQUEST__BASED_ON);
@@ -541,6 +545,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getReplaces() {
 		if (replaces == null) {
 			replaces = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.SERVICE_REQUEST__REPLACES);
@@ -553,6 +558,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Identifier getRequisition() {
 		return requisition;
 	}
@@ -577,6 +583,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRequisition(Identifier newRequisition) {
 		if (newRequisition != requisition) {
 			NotificationChain msgs = null;
@@ -596,6 +603,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public RequestStatus getStatus() {
 		return status;
 	}
@@ -620,6 +628,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(RequestStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -639,6 +648,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public RequestIntent getIntent() {
 		return intent;
 	}
@@ -663,6 +673,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIntent(RequestIntent newIntent) {
 		if (newIntent != intent) {
 			NotificationChain msgs = null;
@@ -682,6 +693,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCategory() {
 		if (category == null) {
 			category = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.SERVICE_REQUEST__CATEGORY);
@@ -694,6 +706,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public RequestPriority getPriority() {
 		return priority;
 	}
@@ -718,6 +731,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPriority(RequestPriority newPriority) {
 		if (newPriority != priority) {
 			NotificationChain msgs = null;
@@ -737,6 +751,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getDoNotPerform() {
 		return doNotPerform;
 	}
@@ -761,6 +776,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDoNotPerform(org.hl7.fhir.Boolean newDoNotPerform) {
 		if (newDoNotPerform != doNotPerform) {
 			NotificationChain msgs = null;
@@ -780,6 +796,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getCode() {
 		return code;
 	}
@@ -804,6 +821,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableReference newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -823,6 +841,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ServiceRequestOrderDetail> getOrderDetail() {
 		if (orderDetail == null) {
 			orderDetail = new EObjectContainmentEList<ServiceRequestOrderDetail>(ServiceRequestOrderDetail.class, this, FhirPackage.SERVICE_REQUEST__ORDER_DETAIL);
@@ -835,6 +854,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getQuantityQuantity() {
 		return quantityQuantity;
 	}
@@ -859,6 +879,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setQuantityQuantity(Quantity newQuantityQuantity) {
 		if (newQuantityQuantity != quantityQuantity) {
 			NotificationChain msgs = null;
@@ -878,6 +899,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Ratio getQuantityRatio() {
 		return quantityRatio;
 	}
@@ -902,6 +924,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setQuantityRatio(Ratio newQuantityRatio) {
 		if (newQuantityRatio != quantityRatio) {
 			NotificationChain msgs = null;
@@ -921,6 +944,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Range getQuantityRange() {
 		return quantityRange;
 	}
@@ -945,6 +969,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setQuantityRange(Range newQuantityRange) {
 		if (newQuantityRange != quantityRange) {
 			NotificationChain msgs = null;
@@ -964,6 +989,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubject() {
 		return subject;
 	}
@@ -988,6 +1014,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubject(Reference newSubject) {
 		if (newSubject != subject) {
 			NotificationChain msgs = null;
@@ -1007,6 +1034,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getFocus() {
 		if (focus == null) {
 			focus = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.SERVICE_REQUEST__FOCUS);
@@ -1019,6 +1047,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getEncounter() {
 		return encounter;
 	}
@@ -1043,6 +1072,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEncounter(Reference newEncounter) {
 		if (newEncounter != encounter) {
 			NotificationChain msgs = null;
@@ -1062,6 +1092,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getOccurrenceDateTime() {
 		return occurrenceDateTime;
 	}
@@ -1086,6 +1117,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOccurrenceDateTime(DateTime newOccurrenceDateTime) {
 		if (newOccurrenceDateTime != occurrenceDateTime) {
 			NotificationChain msgs = null;
@@ -1105,6 +1137,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getOccurrencePeriod() {
 		return occurrencePeriod;
 	}
@@ -1129,6 +1162,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOccurrencePeriod(Period newOccurrencePeriod) {
 		if (newOccurrencePeriod != occurrencePeriod) {
 			NotificationChain msgs = null;
@@ -1148,6 +1182,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Timing getOccurrenceTiming() {
 		return occurrenceTiming;
 	}
@@ -1172,6 +1207,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOccurrenceTiming(Timing newOccurrenceTiming) {
 		if (newOccurrenceTiming != occurrenceTiming) {
 			NotificationChain msgs = null;
@@ -1191,6 +1227,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getAsNeededBoolean() {
 		return asNeededBoolean;
 	}
@@ -1215,6 +1252,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAsNeededBoolean(org.hl7.fhir.Boolean newAsNeededBoolean) {
 		if (newAsNeededBoolean != asNeededBoolean) {
 			NotificationChain msgs = null;
@@ -1234,6 +1272,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getAsNeededCodeableConcept() {
 		return asNeededCodeableConcept;
 	}
@@ -1258,6 +1297,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAsNeededCodeableConcept(CodeableConcept newAsNeededCodeableConcept) {
 		if (newAsNeededCodeableConcept != asNeededCodeableConcept) {
 			NotificationChain msgs = null;
@@ -1277,6 +1317,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getAuthoredOn() {
 		return authoredOn;
 	}
@@ -1301,6 +1342,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAuthoredOn(DateTime newAuthoredOn) {
 		if (newAuthoredOn != authoredOn) {
 			NotificationChain msgs = null;
@@ -1320,6 +1362,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getRequester() {
 		return requester;
 	}
@@ -1344,6 +1387,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRequester(Reference newRequester) {
 		if (newRequester != requester) {
 			NotificationChain msgs = null;
@@ -1363,6 +1407,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getPerformerType() {
 		return performerType;
 	}
@@ -1387,6 +1432,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPerformerType(CodeableConcept newPerformerType) {
 		if (newPerformerType != performerType) {
 			NotificationChain msgs = null;
@@ -1406,6 +1452,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getPerformer() {
 		if (performer == null) {
 			performer = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.SERVICE_REQUEST__PERFORMER);
@@ -1418,6 +1465,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getLocation() {
 		if (location == null) {
 			location = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.SERVICE_REQUEST__LOCATION);
@@ -1430,6 +1478,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getReason() {
 		if (reason == null) {
 			reason = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.SERVICE_REQUEST__REASON);
@@ -1442,6 +1491,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getInsurance() {
 		if (insurance == null) {
 			insurance = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.SERVICE_REQUEST__INSURANCE);
@@ -1454,6 +1504,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getSupportingInfo() {
 		if (supportingInfo == null) {
 			supportingInfo = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.SERVICE_REQUEST__SUPPORTING_INFO);
@@ -1466,6 +1517,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getSpecimen() {
 		if (specimen == null) {
 			specimen = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.SERVICE_REQUEST__SPECIMEN);
@@ -1478,6 +1530,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getBodySite() {
 		if (bodySite == null) {
 			bodySite = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.SERVICE_REQUEST__BODY_SITE);
@@ -1490,6 +1543,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getBodyStructure() {
 		return bodyStructure;
 	}
@@ -1514,6 +1568,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBodyStructure(Reference newBodyStructure) {
 		if (newBodyStructure != bodyStructure) {
 			NotificationChain msgs = null;
@@ -1533,6 +1588,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.SERVICE_REQUEST__NOTE);
@@ -1545,6 +1601,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ServiceRequestPatientInstruction> getPatientInstruction() {
 		if (patientInstruction == null) {
 			patientInstruction = new EObjectContainmentEList<ServiceRequestPatientInstruction>(ServiceRequestPatientInstruction.class, this, FhirPackage.SERVICE_REQUEST__PATIENT_INSTRUCTION);
@@ -1557,6 +1614,7 @@ public class ServiceRequestImpl extends DomainResourceImpl implements ServiceReq
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getRelevantHistory() {
 		if (relevantHistory == null) {
 			relevantHistory = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.SERVICE_REQUEST__RELEVANT_HISTORY);

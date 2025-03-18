@@ -96,6 +96,7 @@ public class SubstancePolymerStartingMaterialImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -120,6 +121,7 @@ public class SubstancePolymerStartingMaterialImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -139,6 +141,7 @@ public class SubstancePolymerStartingMaterialImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCategory() {
 		return category;
 	}
@@ -163,6 +166,7 @@ public class SubstancePolymerStartingMaterialImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCategory(CodeableConcept newCategory) {
 		if (newCategory != category) {
 			NotificationChain msgs = null;
@@ -182,6 +186,7 @@ public class SubstancePolymerStartingMaterialImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getIsDefining() {
 		return isDefining;
 	}
@@ -206,6 +211,7 @@ public class SubstancePolymerStartingMaterialImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIsDefining(org.hl7.fhir.Boolean newIsDefining) {
 		if (newIsDefining != isDefining) {
 			NotificationChain msgs = null;
@@ -225,6 +231,7 @@ public class SubstancePolymerStartingMaterialImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getAmount() {
 		return amount;
 	}
@@ -249,6 +256,7 @@ public class SubstancePolymerStartingMaterialImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAmount(Quantity newAmount) {
 		if (newAmount != amount) {
 			NotificationChain msgs = null;

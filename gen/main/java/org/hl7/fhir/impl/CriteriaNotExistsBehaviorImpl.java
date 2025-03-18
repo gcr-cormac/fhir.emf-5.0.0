@@ -79,6 +79,7 @@ public class CriteriaNotExistsBehaviorImpl extends ElementImpl implements Criter
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CriteriaNotExistsBehaviorEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class CriteriaNotExistsBehaviorImpl extends ElementImpl implements Criter
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(CriteriaNotExistsBehaviorEnum newValue) {
 		CriteriaNotExistsBehaviorEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class CriteriaNotExistsBehaviorImpl extends ElementImpl implements Criter
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		CriteriaNotExistsBehaviorEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class CriteriaNotExistsBehaviorImpl extends ElementImpl implements Criter
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

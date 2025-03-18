@@ -149,6 +149,7 @@ public class SubstanceSourceMaterialOrganismImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getFamily() {
 		return family;
 	}
@@ -173,6 +174,7 @@ public class SubstanceSourceMaterialOrganismImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFamily(CodeableConcept newFamily) {
 		if (newFamily != family) {
 			NotificationChain msgs = null;
@@ -192,6 +194,7 @@ public class SubstanceSourceMaterialOrganismImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getGenus() {
 		return genus;
 	}
@@ -216,6 +219,7 @@ public class SubstanceSourceMaterialOrganismImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setGenus(CodeableConcept newGenus) {
 		if (newGenus != genus) {
 			NotificationChain msgs = null;
@@ -235,6 +239,7 @@ public class SubstanceSourceMaterialOrganismImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getSpecies() {
 		return species;
 	}
@@ -259,6 +264,7 @@ public class SubstanceSourceMaterialOrganismImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSpecies(CodeableConcept newSpecies) {
 		if (newSpecies != species) {
 			NotificationChain msgs = null;
@@ -278,6 +284,7 @@ public class SubstanceSourceMaterialOrganismImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getIntraspecificType() {
 		return intraspecificType;
 	}
@@ -302,6 +309,7 @@ public class SubstanceSourceMaterialOrganismImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIntraspecificType(CodeableConcept newIntraspecificType) {
 		if (newIntraspecificType != intraspecificType) {
 			NotificationChain msgs = null;
@@ -321,6 +329,7 @@ public class SubstanceSourceMaterialOrganismImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getIntraspecificDescription() {
 		return intraspecificDescription;
 	}
@@ -345,6 +354,7 @@ public class SubstanceSourceMaterialOrganismImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIntraspecificDescription(org.hl7.fhir.String newIntraspecificDescription) {
 		if (newIntraspecificDescription != intraspecificDescription) {
 			NotificationChain msgs = null;
@@ -364,6 +374,7 @@ public class SubstanceSourceMaterialOrganismImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SubstanceSourceMaterialAuthor> getAuthor() {
 		if (author == null) {
 			author = new EObjectContainmentEList<SubstanceSourceMaterialAuthor>(SubstanceSourceMaterialAuthor.class, this, FhirPackage.SUBSTANCE_SOURCE_MATERIAL_ORGANISM__AUTHOR);
@@ -376,6 +387,7 @@ public class SubstanceSourceMaterialOrganismImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SubstanceSourceMaterialHybrid getHybrid() {
 		return hybrid;
 	}
@@ -400,6 +412,7 @@ public class SubstanceSourceMaterialOrganismImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setHybrid(SubstanceSourceMaterialHybrid newHybrid) {
 		if (newHybrid != hybrid) {
 			NotificationChain msgs = null;
@@ -419,6 +432,7 @@ public class SubstanceSourceMaterialOrganismImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SubstanceSourceMaterialOrganismGeneral getOrganismGeneral() {
 		return organismGeneral;
 	}
@@ -443,6 +457,7 @@ public class SubstanceSourceMaterialOrganismImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOrganismGeneral(SubstanceSourceMaterialOrganismGeneral newOrganismGeneral) {
 		if (newOrganismGeneral != organismGeneral) {
 			NotificationChain msgs = null;

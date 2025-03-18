@@ -115,6 +115,7 @@ public class InventoryItemInstanceImpl extends BackboneElementImpl implements In
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.INVENTORY_ITEM_INSTANCE__IDENTIFIER);
@@ -127,6 +128,7 @@ public class InventoryItemInstanceImpl extends BackboneElementImpl implements In
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getLotNumber() {
 		return lotNumber;
 	}
@@ -151,6 +153,7 @@ public class InventoryItemInstanceImpl extends BackboneElementImpl implements In
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLotNumber(org.hl7.fhir.String newLotNumber) {
 		if (newLotNumber != lotNumber) {
 			NotificationChain msgs = null;
@@ -170,6 +173,7 @@ public class InventoryItemInstanceImpl extends BackboneElementImpl implements In
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getExpiry() {
 		return expiry;
 	}
@@ -194,6 +198,7 @@ public class InventoryItemInstanceImpl extends BackboneElementImpl implements In
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExpiry(DateTime newExpiry) {
 		if (newExpiry != expiry) {
 			NotificationChain msgs = null;
@@ -213,6 +218,7 @@ public class InventoryItemInstanceImpl extends BackboneElementImpl implements In
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubject() {
 		return subject;
 	}
@@ -237,6 +243,7 @@ public class InventoryItemInstanceImpl extends BackboneElementImpl implements In
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubject(Reference newSubject) {
 		if (newSubject != subject) {
 			NotificationChain msgs = null;
@@ -256,6 +263,7 @@ public class InventoryItemInstanceImpl extends BackboneElementImpl implements In
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getLocation() {
 		return location;
 	}
@@ -280,6 +288,7 @@ public class InventoryItemInstanceImpl extends BackboneElementImpl implements In
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLocation(Reference newLocation) {
 		if (newLocation != location) {
 			NotificationChain msgs = null;

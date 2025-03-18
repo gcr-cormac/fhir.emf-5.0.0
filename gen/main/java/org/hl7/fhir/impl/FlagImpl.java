@@ -150,6 +150,7 @@ public class FlagImpl extends DomainResourceImpl implements Flag {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.FLAG__IDENTIFIER);
@@ -162,6 +163,7 @@ public class FlagImpl extends DomainResourceImpl implements Flag {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public FlagStatus getStatus() {
 		return status;
 	}
@@ -186,6 +188,7 @@ public class FlagImpl extends DomainResourceImpl implements Flag {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(FlagStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -205,6 +208,7 @@ public class FlagImpl extends DomainResourceImpl implements Flag {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCategory() {
 		if (category == null) {
 			category = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.FLAG__CATEGORY);
@@ -217,6 +221,7 @@ public class FlagImpl extends DomainResourceImpl implements Flag {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -241,6 +246,7 @@ public class FlagImpl extends DomainResourceImpl implements Flag {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -260,6 +266,7 @@ public class FlagImpl extends DomainResourceImpl implements Flag {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubject() {
 		return subject;
 	}
@@ -284,6 +291,7 @@ public class FlagImpl extends DomainResourceImpl implements Flag {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubject(Reference newSubject) {
 		if (newSubject != subject) {
 			NotificationChain msgs = null;
@@ -303,6 +311,7 @@ public class FlagImpl extends DomainResourceImpl implements Flag {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getPeriod() {
 		return period;
 	}
@@ -327,6 +336,7 @@ public class FlagImpl extends DomainResourceImpl implements Flag {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriod(Period newPeriod) {
 		if (newPeriod != period) {
 			NotificationChain msgs = null;
@@ -346,6 +356,7 @@ public class FlagImpl extends DomainResourceImpl implements Flag {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getEncounter() {
 		return encounter;
 	}
@@ -370,6 +381,7 @@ public class FlagImpl extends DomainResourceImpl implements Flag {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEncounter(Reference newEncounter) {
 		if (newEncounter != encounter) {
 			NotificationChain msgs = null;
@@ -389,6 +401,7 @@ public class FlagImpl extends DomainResourceImpl implements Flag {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getAuthor() {
 		return author;
 	}
@@ -413,6 +426,7 @@ public class FlagImpl extends DomainResourceImpl implements Flag {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAuthor(Reference newAuthor) {
 		if (newAuthor != author) {
 			NotificationChain msgs = null;

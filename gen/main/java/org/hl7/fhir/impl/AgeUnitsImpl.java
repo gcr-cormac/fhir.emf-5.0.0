@@ -79,6 +79,7 @@ public class AgeUnitsImpl extends ElementImpl implements AgeUnits {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AgeUnitsEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class AgeUnitsImpl extends ElementImpl implements AgeUnits {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(AgeUnitsEnum newValue) {
 		AgeUnitsEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class AgeUnitsImpl extends ElementImpl implements AgeUnits {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		AgeUnitsEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class AgeUnitsImpl extends ElementImpl implements AgeUnits {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

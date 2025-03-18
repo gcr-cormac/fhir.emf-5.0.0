@@ -79,6 +79,7 @@ public class ParticipantResourceTypesImpl extends ElementImpl implements Partici
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ParticipantResourceTypesEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ParticipantResourceTypesImpl extends ElementImpl implements Partici
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ParticipantResourceTypesEnum newValue) {
 		ParticipantResourceTypesEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ParticipantResourceTypesImpl extends ElementImpl implements Partici
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ParticipantResourceTypesEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ParticipantResourceTypesImpl extends ElementImpl implements Partici
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

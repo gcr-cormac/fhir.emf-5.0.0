@@ -106,6 +106,7 @@ public class SubscriptionTopicQueryCriteriaImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPrevious() {
 		return previous;
 	}
@@ -130,6 +131,7 @@ public class SubscriptionTopicQueryCriteriaImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPrevious(org.hl7.fhir.String newPrevious) {
 		if (newPrevious != previous) {
 			NotificationChain msgs = null;
@@ -149,6 +151,7 @@ public class SubscriptionTopicQueryCriteriaImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CriteriaNotExistsBehavior getResultForCreate() {
 		return resultForCreate;
 	}
@@ -173,6 +176,7 @@ public class SubscriptionTopicQueryCriteriaImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setResultForCreate(CriteriaNotExistsBehavior newResultForCreate) {
 		if (newResultForCreate != resultForCreate) {
 			NotificationChain msgs = null;
@@ -192,6 +196,7 @@ public class SubscriptionTopicQueryCriteriaImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getCurrent() {
 		return current;
 	}
@@ -216,6 +221,7 @@ public class SubscriptionTopicQueryCriteriaImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCurrent(org.hl7.fhir.String newCurrent) {
 		if (newCurrent != current) {
 			NotificationChain msgs = null;
@@ -235,6 +241,7 @@ public class SubscriptionTopicQueryCriteriaImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CriteriaNotExistsBehavior getResultForDelete() {
 		return resultForDelete;
 	}
@@ -259,6 +266,7 @@ public class SubscriptionTopicQueryCriteriaImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setResultForDelete(CriteriaNotExistsBehavior newResultForDelete) {
 		if (newResultForDelete != resultForDelete) {
 			NotificationChain msgs = null;
@@ -278,6 +286,7 @@ public class SubscriptionTopicQueryCriteriaImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getRequireBoth() {
 		return requireBoth;
 	}
@@ -302,6 +311,7 @@ public class SubscriptionTopicQueryCriteriaImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRequireBoth(org.hl7.fhir.Boolean newRequireBoth) {
 		if (newRequireBoth != requireBoth) {
 			NotificationChain msgs = null;

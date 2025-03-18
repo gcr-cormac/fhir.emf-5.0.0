@@ -79,6 +79,7 @@ public class NameUseImpl extends ElementImpl implements NameUse {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public NameUseEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class NameUseImpl extends ElementImpl implements NameUse {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(NameUseEnum newValue) {
 		NameUseEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class NameUseImpl extends ElementImpl implements NameUse {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		NameUseEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class NameUseImpl extends ElementImpl implements NameUse {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

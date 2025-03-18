@@ -74,6 +74,7 @@ public class MeasureTermImpl extends BackboneElementImpl implements MeasureTerm 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -98,6 +99,7 @@ public class MeasureTermImpl extends BackboneElementImpl implements MeasureTerm 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class MeasureTermImpl extends BackboneElementImpl implements MeasureTerm 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDefinition() {
 		return definition;
 	}
@@ -141,6 +144,7 @@ public class MeasureTermImpl extends BackboneElementImpl implements MeasureTerm 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDefinition(Markdown newDefinition) {
 		if (newDefinition != definition) {
 			NotificationChain msgs = null;

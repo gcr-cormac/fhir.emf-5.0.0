@@ -93,6 +93,7 @@ public class ContractSignerImpl extends BackboneElementImpl implements ContractS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getType() {
 		return type;
 	}
@@ -117,6 +118,7 @@ public class ContractSignerImpl extends BackboneElementImpl implements ContractS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(Coding newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -136,6 +138,7 @@ public class ContractSignerImpl extends BackboneElementImpl implements ContractS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getParty() {
 		return party;
 	}
@@ -160,6 +163,7 @@ public class ContractSignerImpl extends BackboneElementImpl implements ContractS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setParty(Reference newParty) {
 		if (newParty != party) {
 			NotificationChain msgs = null;
@@ -179,6 +183,7 @@ public class ContractSignerImpl extends BackboneElementImpl implements ContractS
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Signature> getSignature() {
 		if (signature == null) {
 			signature = new EObjectContainmentEList<Signature>(Signature.class, this, FhirPackage.CONTRACT_SIGNER__SIGNATURE);

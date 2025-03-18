@@ -130,6 +130,7 @@ public class MedicationAdministrationDosageImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getText() {
 		return text;
 	}
@@ -154,6 +155,7 @@ public class MedicationAdministrationDosageImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setText(org.hl7.fhir.String newText) {
 		if (newText != text) {
 			NotificationChain msgs = null;
@@ -173,6 +175,7 @@ public class MedicationAdministrationDosageImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getSite() {
 		return site;
 	}
@@ -197,6 +200,7 @@ public class MedicationAdministrationDosageImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSite(CodeableConcept newSite) {
 		if (newSite != site) {
 			NotificationChain msgs = null;
@@ -216,6 +220,7 @@ public class MedicationAdministrationDosageImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getRoute() {
 		return route;
 	}
@@ -240,6 +245,7 @@ public class MedicationAdministrationDosageImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRoute(CodeableConcept newRoute) {
 		if (newRoute != route) {
 			NotificationChain msgs = null;
@@ -259,6 +265,7 @@ public class MedicationAdministrationDosageImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getMethod() {
 		return method;
 	}
@@ -283,6 +290,7 @@ public class MedicationAdministrationDosageImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMethod(CodeableConcept newMethod) {
 		if (newMethod != method) {
 			NotificationChain msgs = null;
@@ -302,6 +310,7 @@ public class MedicationAdministrationDosageImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getDose() {
 		return dose;
 	}
@@ -326,6 +335,7 @@ public class MedicationAdministrationDosageImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDose(Quantity newDose) {
 		if (newDose != dose) {
 			NotificationChain msgs = null;
@@ -345,6 +355,7 @@ public class MedicationAdministrationDosageImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Ratio getRateRatio() {
 		return rateRatio;
 	}
@@ -369,6 +380,7 @@ public class MedicationAdministrationDosageImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRateRatio(Ratio newRateRatio) {
 		if (newRateRatio != rateRatio) {
 			NotificationChain msgs = null;
@@ -388,6 +400,7 @@ public class MedicationAdministrationDosageImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getRateQuantity() {
 		return rateQuantity;
 	}
@@ -412,6 +425,7 @@ public class MedicationAdministrationDosageImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRateQuantity(Quantity newRateQuantity) {
 		if (newRateQuantity != rateQuantity) {
 			NotificationChain msgs = null;

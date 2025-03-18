@@ -74,6 +74,7 @@ public class ContractLegalImpl extends BackboneElementImpl implements ContractLe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Attachment getContentAttachment() {
 		return contentAttachment;
 	}
@@ -98,6 +99,7 @@ public class ContractLegalImpl extends BackboneElementImpl implements ContractLe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setContentAttachment(Attachment newContentAttachment) {
 		if (newContentAttachment != contentAttachment) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class ContractLegalImpl extends BackboneElementImpl implements ContractLe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getContentReference() {
 		return contentReference;
 	}
@@ -141,6 +144,7 @@ public class ContractLegalImpl extends BackboneElementImpl implements ContractLe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setContentReference(Reference newContentReference) {
 		if (newContentReference != contentReference) {
 			NotificationChain msgs = null;

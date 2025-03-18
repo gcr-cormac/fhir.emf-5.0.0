@@ -73,6 +73,7 @@ public class ClinicalImpressionFindingImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getItem() {
 		return item;
 	}
@@ -97,6 +98,7 @@ public class ClinicalImpressionFindingImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setItem(CodeableReference newItem) {
 		if (newItem != item) {
 			NotificationChain msgs = null;
@@ -116,6 +118,7 @@ public class ClinicalImpressionFindingImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getBasis() {
 		return basis;
 	}
@@ -140,6 +143,7 @@ public class ClinicalImpressionFindingImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBasis(org.hl7.fhir.String newBasis) {
 		if (newBasis != basis) {
 			NotificationChain msgs = null;

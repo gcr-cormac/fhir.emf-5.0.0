@@ -152,6 +152,7 @@ public class ExampleScenarioOperationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getType() {
 		return type;
 	}
@@ -176,6 +177,7 @@ public class ExampleScenarioOperationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(Coding newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -195,6 +197,7 @@ public class ExampleScenarioOperationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getTitle() {
 		return title;
 	}
@@ -219,6 +222,7 @@ public class ExampleScenarioOperationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(org.hl7.fhir.String newTitle) {
 		if (newTitle != title) {
 			NotificationChain msgs = null;
@@ -238,6 +242,7 @@ public class ExampleScenarioOperationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getInitiator() {
 		return initiator;
 	}
@@ -262,6 +267,7 @@ public class ExampleScenarioOperationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInitiator(org.hl7.fhir.String newInitiator) {
 		if (newInitiator != initiator) {
 			NotificationChain msgs = null;
@@ -281,6 +287,7 @@ public class ExampleScenarioOperationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getReceiver() {
 		return receiver;
 	}
@@ -305,6 +312,7 @@ public class ExampleScenarioOperationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReceiver(org.hl7.fhir.String newReceiver) {
 		if (newReceiver != receiver) {
 			NotificationChain msgs = null;
@@ -324,6 +332,7 @@ public class ExampleScenarioOperationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -348,6 +357,7 @@ public class ExampleScenarioOperationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -367,6 +377,7 @@ public class ExampleScenarioOperationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getInitiatorActive() {
 		return initiatorActive;
 	}
@@ -391,6 +402,7 @@ public class ExampleScenarioOperationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInitiatorActive(org.hl7.fhir.Boolean newInitiatorActive) {
 		if (newInitiatorActive != initiatorActive) {
 			NotificationChain msgs = null;
@@ -410,6 +422,7 @@ public class ExampleScenarioOperationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getReceiverActive() {
 		return receiverActive;
 	}
@@ -434,6 +447,7 @@ public class ExampleScenarioOperationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReceiverActive(org.hl7.fhir.Boolean newReceiverActive) {
 		if (newReceiverActive != receiverActive) {
 			NotificationChain msgs = null;
@@ -453,6 +467,7 @@ public class ExampleScenarioOperationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ExampleScenarioContainedInstance getRequest() {
 		return request;
 	}
@@ -477,6 +492,7 @@ public class ExampleScenarioOperationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRequest(ExampleScenarioContainedInstance newRequest) {
 		if (newRequest != request) {
 			NotificationChain msgs = null;
@@ -496,6 +512,7 @@ public class ExampleScenarioOperationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ExampleScenarioContainedInstance getResponse() {
 		return response;
 	}
@@ -520,6 +537,7 @@ public class ExampleScenarioOperationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setResponse(ExampleScenarioContainedInstance newResponse) {
 		if (newResponse != response) {
 			NotificationChain msgs = null;

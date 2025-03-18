@@ -292,6 +292,7 @@ public class MedicationKnowledgeImpl extends MetadataResourceImpl implements Med
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.MEDICATION_KNOWLEDGE__IDENTIFIER);
@@ -304,6 +305,7 @@ public class MedicationKnowledgeImpl extends MetadataResourceImpl implements Med
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -328,6 +330,7 @@ public class MedicationKnowledgeImpl extends MetadataResourceImpl implements Med
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -347,6 +350,7 @@ public class MedicationKnowledgeImpl extends MetadataResourceImpl implements Med
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public MedicationKnowledgeStatusCodes getStatus() {
 		return status;
 	}
@@ -371,6 +375,7 @@ public class MedicationKnowledgeImpl extends MetadataResourceImpl implements Med
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(MedicationKnowledgeStatusCodes newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -390,6 +395,7 @@ public class MedicationKnowledgeImpl extends MetadataResourceImpl implements Med
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getAuthor() {
 		return author;
 	}
@@ -414,6 +420,7 @@ public class MedicationKnowledgeImpl extends MetadataResourceImpl implements Med
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAuthor(Reference newAuthor) {
 		if (newAuthor != author) {
 			NotificationChain msgs = null;
@@ -433,6 +440,7 @@ public class MedicationKnowledgeImpl extends MetadataResourceImpl implements Med
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getIntendedJurisdiction() {
 		if (intendedJurisdiction == null) {
 			intendedJurisdiction = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.MEDICATION_KNOWLEDGE__INTENDED_JURISDICTION);
@@ -445,6 +453,7 @@ public class MedicationKnowledgeImpl extends MetadataResourceImpl implements Med
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<org.hl7.fhir.String> getName() {
 		if (name == null) {
 			name = new EObjectContainmentEList<org.hl7.fhir.String>(org.hl7.fhir.String.class, this, FhirPackage.MEDICATION_KNOWLEDGE__NAME);
@@ -457,6 +466,7 @@ public class MedicationKnowledgeImpl extends MetadataResourceImpl implements Med
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MedicationKnowledgeRelatedMedicationKnowledge> getRelatedMedicationKnowledge() {
 		if (relatedMedicationKnowledge == null) {
 			relatedMedicationKnowledge = new EObjectContainmentEList<MedicationKnowledgeRelatedMedicationKnowledge>(MedicationKnowledgeRelatedMedicationKnowledge.class, this, FhirPackage.MEDICATION_KNOWLEDGE__RELATED_MEDICATION_KNOWLEDGE);
@@ -469,6 +479,7 @@ public class MedicationKnowledgeImpl extends MetadataResourceImpl implements Med
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getAssociatedMedication() {
 		if (associatedMedication == null) {
 			associatedMedication = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.MEDICATION_KNOWLEDGE__ASSOCIATED_MEDICATION);
@@ -481,6 +492,7 @@ public class MedicationKnowledgeImpl extends MetadataResourceImpl implements Med
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getProductType() {
 		if (productType == null) {
 			productType = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.MEDICATION_KNOWLEDGE__PRODUCT_TYPE);
@@ -493,6 +505,7 @@ public class MedicationKnowledgeImpl extends MetadataResourceImpl implements Med
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MedicationKnowledgeMonograph> getMonograph() {
 		if (monograph == null) {
 			monograph = new EObjectContainmentEList<MedicationKnowledgeMonograph>(MedicationKnowledgeMonograph.class, this, FhirPackage.MEDICATION_KNOWLEDGE__MONOGRAPH);
@@ -505,6 +518,7 @@ public class MedicationKnowledgeImpl extends MetadataResourceImpl implements Med
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getPreparationInstruction() {
 		return preparationInstruction;
 	}
@@ -529,6 +543,7 @@ public class MedicationKnowledgeImpl extends MetadataResourceImpl implements Med
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPreparationInstruction(Markdown newPreparationInstruction) {
 		if (newPreparationInstruction != preparationInstruction) {
 			NotificationChain msgs = null;
@@ -548,6 +563,7 @@ public class MedicationKnowledgeImpl extends MetadataResourceImpl implements Med
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MedicationKnowledgeCost> getCost() {
 		if (cost == null) {
 			cost = new EObjectContainmentEList<MedicationKnowledgeCost>(MedicationKnowledgeCost.class, this, FhirPackage.MEDICATION_KNOWLEDGE__COST);
@@ -560,6 +576,7 @@ public class MedicationKnowledgeImpl extends MetadataResourceImpl implements Med
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MedicationKnowledgeMonitoringProgram> getMonitoringProgram() {
 		if (monitoringProgram == null) {
 			monitoringProgram = new EObjectContainmentEList<MedicationKnowledgeMonitoringProgram>(MedicationKnowledgeMonitoringProgram.class, this, FhirPackage.MEDICATION_KNOWLEDGE__MONITORING_PROGRAM);
@@ -572,6 +589,7 @@ public class MedicationKnowledgeImpl extends MetadataResourceImpl implements Med
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MedicationKnowledgeIndicationGuideline> getIndicationGuideline() {
 		if (indicationGuideline == null) {
 			indicationGuideline = new EObjectContainmentEList<MedicationKnowledgeIndicationGuideline>(MedicationKnowledgeIndicationGuideline.class, this, FhirPackage.MEDICATION_KNOWLEDGE__INDICATION_GUIDELINE);
@@ -584,6 +602,7 @@ public class MedicationKnowledgeImpl extends MetadataResourceImpl implements Med
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MedicationKnowledgeMedicineClassification> getMedicineClassification() {
 		if (medicineClassification == null) {
 			medicineClassification = new EObjectContainmentEList<MedicationKnowledgeMedicineClassification>(MedicationKnowledgeMedicineClassification.class, this, FhirPackage.MEDICATION_KNOWLEDGE__MEDICINE_CLASSIFICATION);
@@ -596,6 +615,7 @@ public class MedicationKnowledgeImpl extends MetadataResourceImpl implements Med
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MedicationKnowledgePackaging> getPackaging() {
 		if (packaging == null) {
 			packaging = new EObjectContainmentEList<MedicationKnowledgePackaging>(MedicationKnowledgePackaging.class, this, FhirPackage.MEDICATION_KNOWLEDGE__PACKAGING);
@@ -608,6 +628,7 @@ public class MedicationKnowledgeImpl extends MetadataResourceImpl implements Med
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getClinicalUseIssue() {
 		if (clinicalUseIssue == null) {
 			clinicalUseIssue = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.MEDICATION_KNOWLEDGE__CLINICAL_USE_ISSUE);
@@ -620,6 +641,7 @@ public class MedicationKnowledgeImpl extends MetadataResourceImpl implements Med
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MedicationKnowledgeStorageGuideline> getStorageGuideline() {
 		if (storageGuideline == null) {
 			storageGuideline = new EObjectContainmentEList<MedicationKnowledgeStorageGuideline>(MedicationKnowledgeStorageGuideline.class, this, FhirPackage.MEDICATION_KNOWLEDGE__STORAGE_GUIDELINE);
@@ -632,6 +654,7 @@ public class MedicationKnowledgeImpl extends MetadataResourceImpl implements Med
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MedicationKnowledgeRegulatory> getRegulatory() {
 		if (regulatory == null) {
 			regulatory = new EObjectContainmentEList<MedicationKnowledgeRegulatory>(MedicationKnowledgeRegulatory.class, this, FhirPackage.MEDICATION_KNOWLEDGE__REGULATORY);
@@ -644,6 +667,7 @@ public class MedicationKnowledgeImpl extends MetadataResourceImpl implements Med
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public MedicationKnowledgeDefinitional getDefinitional() {
 		return definitional;
 	}
@@ -668,6 +692,7 @@ public class MedicationKnowledgeImpl extends MetadataResourceImpl implements Med
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDefinitional(MedicationKnowledgeDefinitional newDefinitional) {
 		if (newDefinitional != definitional) {
 			NotificationChain msgs = null;

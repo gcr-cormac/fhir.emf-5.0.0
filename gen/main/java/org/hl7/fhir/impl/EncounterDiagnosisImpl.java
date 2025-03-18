@@ -78,6 +78,7 @@ public class EncounterDiagnosisImpl extends BackboneElementImpl implements Encou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getCondition() {
 		if (condition == null) {
 			condition = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.ENCOUNTER_DIAGNOSIS__CONDITION);
@@ -90,6 +91,7 @@ public class EncounterDiagnosisImpl extends BackboneElementImpl implements Encou
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getUse() {
 		if (use == null) {
 			use = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.ENCOUNTER_DIAGNOSIS__USE);

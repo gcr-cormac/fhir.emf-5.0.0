@@ -74,6 +74,7 @@ public class EvidenceReportRelatesToImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ReportRelationshipType getCode() {
 		return code;
 	}
@@ -98,6 +99,7 @@ public class EvidenceReportRelatesToImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(ReportRelationshipType newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class EvidenceReportRelatesToImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EvidenceReportTarget getTarget() {
 		return target;
 	}
@@ -141,6 +144,7 @@ public class EvidenceReportRelatesToImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTarget(EvidenceReportTarget newTarget) {
 		if (newTarget != target) {
 			NotificationChain msgs = null;

@@ -128,6 +128,7 @@ public class ImagingSelectionInstanceImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Id getUid() {
 		return uid;
 	}
@@ -152,6 +153,7 @@ public class ImagingSelectionInstanceImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUid(Id newUid) {
 		if (newUid != uid) {
 			NotificationChain msgs = null;
@@ -171,6 +173,7 @@ public class ImagingSelectionInstanceImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public UnsignedInt getNumber() {
 		return number;
 	}
@@ -195,6 +198,7 @@ public class ImagingSelectionInstanceImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNumber(UnsignedInt newNumber) {
 		if (newNumber != number) {
 			NotificationChain msgs = null;
@@ -214,6 +218,7 @@ public class ImagingSelectionInstanceImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getSopClass() {
 		return sopClass;
 	}
@@ -238,6 +243,7 @@ public class ImagingSelectionInstanceImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSopClass(Coding newSopClass) {
 		if (newSopClass != sopClass) {
 			NotificationChain msgs = null;
@@ -257,6 +263,7 @@ public class ImagingSelectionInstanceImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<org.hl7.fhir.String> getSubset() {
 		if (subset == null) {
 			subset = new EObjectContainmentEList<org.hl7.fhir.String>(org.hl7.fhir.String.class, this, FhirPackage.IMAGING_SELECTION_INSTANCE__SUBSET);
@@ -269,6 +276,7 @@ public class ImagingSelectionInstanceImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ImagingSelectionImageRegion2D> getImageRegion2D() {
 		if (imageRegion2D == null) {
 			imageRegion2D = new EObjectContainmentEList<ImagingSelectionImageRegion2D>(ImagingSelectionImageRegion2D.class, this, FhirPackage.IMAGING_SELECTION_INSTANCE__IMAGE_REGION2_D);
@@ -281,6 +289,7 @@ public class ImagingSelectionInstanceImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ImagingSelectionImageRegion3D> getImageRegion3D() {
 		if (imageRegion3D == null) {
 			imageRegion3D = new EObjectContainmentEList<ImagingSelectionImageRegion3D>(ImagingSelectionImageRegion3D.class, this, FhirPackage.IMAGING_SELECTION_INSTANCE__IMAGE_REGION3_D);

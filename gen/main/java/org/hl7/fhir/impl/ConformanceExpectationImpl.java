@@ -79,6 +79,7 @@ public class ConformanceExpectationImpl extends ElementImpl implements Conforman
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ConformanceExpectationEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ConformanceExpectationImpl extends ElementImpl implements Conforman
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ConformanceExpectationEnum newValue) {
 		ConformanceExpectationEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ConformanceExpectationImpl extends ElementImpl implements Conforman
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ConformanceExpectationEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ConformanceExpectationImpl extends ElementImpl implements Conforman
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

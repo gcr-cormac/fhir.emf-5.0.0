@@ -105,6 +105,7 @@ public class DeviceDefinitionChargeItemImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getChargeItemCode() {
 		return chargeItemCode;
 	}
@@ -129,6 +130,7 @@ public class DeviceDefinitionChargeItemImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setChargeItemCode(CodeableReference newChargeItemCode) {
 		if (newChargeItemCode != chargeItemCode) {
 			NotificationChain msgs = null;
@@ -148,6 +150,7 @@ public class DeviceDefinitionChargeItemImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getCount() {
 		return count;
 	}
@@ -172,6 +175,7 @@ public class DeviceDefinitionChargeItemImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCount(Quantity newCount) {
 		if (newCount != count) {
 			NotificationChain msgs = null;
@@ -191,6 +195,7 @@ public class DeviceDefinitionChargeItemImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getEffectivePeriod() {
 		return effectivePeriod;
 	}
@@ -215,6 +220,7 @@ public class DeviceDefinitionChargeItemImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEffectivePeriod(Period newEffectivePeriod) {
 		if (newEffectivePeriod != effectivePeriod) {
 			NotificationChain msgs = null;
@@ -234,6 +240,7 @@ public class DeviceDefinitionChargeItemImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<UsageContext> getUseContext() {
 		if (useContext == null) {
 			useContext = new EObjectContainmentEList<UsageContext>(UsageContext.class, this, FhirPackage.DEVICE_DEFINITION_CHARGE_ITEM__USE_CONTEXT);

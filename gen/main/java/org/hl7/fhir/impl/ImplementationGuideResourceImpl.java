@@ -139,6 +139,7 @@ public class ImplementationGuideResourceImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getReference() {
 		return reference;
 	}
@@ -163,6 +164,7 @@ public class ImplementationGuideResourceImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReference(Reference newReference) {
 		if (newReference != reference) {
 			NotificationChain msgs = null;
@@ -182,6 +184,7 @@ public class ImplementationGuideResourceImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<FHIRVersion> getFhirVersion() {
 		if (fhirVersion == null) {
 			fhirVersion = new EObjectContainmentEList<FHIRVersion>(FHIRVersion.class, this, FhirPackage.IMPLEMENTATION_GUIDE_RESOURCE__FHIR_VERSION);
@@ -194,6 +197,7 @@ public class ImplementationGuideResourceImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -218,6 +222,7 @@ public class ImplementationGuideResourceImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -237,6 +242,7 @@ public class ImplementationGuideResourceImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -261,6 +267,7 @@ public class ImplementationGuideResourceImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -280,6 +287,7 @@ public class ImplementationGuideResourceImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getIsExample() {
 		return isExample;
 	}
@@ -304,6 +312,7 @@ public class ImplementationGuideResourceImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIsExample(org.hl7.fhir.Boolean newIsExample) {
 		if (newIsExample != isExample) {
 			NotificationChain msgs = null;
@@ -323,6 +332,7 @@ public class ImplementationGuideResourceImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Canonical> getProfile() {
 		if (profile == null) {
 			profile = new EObjectContainmentEList<Canonical>(Canonical.class, this, FhirPackage.IMPLEMENTATION_GUIDE_RESOURCE__PROFILE);
@@ -335,6 +345,7 @@ public class ImplementationGuideResourceImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Id getGroupingId() {
 		return groupingId;
 	}
@@ -359,6 +370,7 @@ public class ImplementationGuideResourceImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setGroupingId(Id newGroupingId) {
 		if (newGroupingId != groupingId) {
 			NotificationChain msgs = null;

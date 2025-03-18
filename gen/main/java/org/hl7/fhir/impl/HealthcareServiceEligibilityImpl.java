@@ -74,6 +74,7 @@ public class HealthcareServiceEligibilityImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -98,6 +99,7 @@ public class HealthcareServiceEligibilityImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class HealthcareServiceEligibilityImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getComment() {
 		return comment;
 	}
@@ -141,6 +144,7 @@ public class HealthcareServiceEligibilityImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setComment(Markdown newComment) {
 		if (newComment != comment) {
 			NotificationChain msgs = null;

@@ -84,6 +84,7 @@ public class DeviceConformsToImpl extends BackboneElementImpl implements DeviceC
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCategory() {
 		return category;
 	}
@@ -108,6 +109,7 @@ public class DeviceConformsToImpl extends BackboneElementImpl implements DeviceC
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCategory(CodeableConcept newCategory) {
 		if (newCategory != category) {
 			NotificationChain msgs = null;
@@ -127,6 +129,7 @@ public class DeviceConformsToImpl extends BackboneElementImpl implements DeviceC
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getSpecification() {
 		return specification;
 	}
@@ -151,6 +154,7 @@ public class DeviceConformsToImpl extends BackboneElementImpl implements DeviceC
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSpecification(CodeableConcept newSpecification) {
 		if (newSpecification != specification) {
 			NotificationChain msgs = null;
@@ -170,6 +174,7 @@ public class DeviceConformsToImpl extends BackboneElementImpl implements DeviceC
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersion() {
 		return version;
 	}
@@ -194,6 +199,7 @@ public class DeviceConformsToImpl extends BackboneElementImpl implements DeviceC
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersion(org.hl7.fhir.String newVersion) {
 		if (newVersion != version) {
 			NotificationChain msgs = null;

@@ -467,6 +467,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getAbbr1() {
 		return abbr1;
 	}
@@ -476,6 +477,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAbbr1(String newAbbr1) {
 		String oldAbbr1 = abbr1;
 		abbr1 = newAbbr1;
@@ -488,6 +490,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AlignType getAlign() {
 		return align;
 	}
@@ -497,6 +500,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAlign(AlignType newAlign) {
 		AlignType oldAlign = align;
 		align = newAlign == null ? ALIGN_EDEFAULT : newAlign;
@@ -511,6 +515,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetAlign() {
 		AlignType oldAlign = align;
 		boolean oldAlignESet = alignESet;
@@ -525,6 +530,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetAlign() {
 		return alignESet;
 	}
@@ -534,6 +540,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Object getAxis() {
 		return axis;
 	}
@@ -543,6 +550,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAxis(Object newAxis) {
 		Object oldAxis = axis;
 		axis = newAxis;
@@ -555,6 +563,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getChar() {
 		return char_;
 	}
@@ -564,6 +573,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setChar(String newChar) {
 		String oldChar = char_;
 		char_ = newChar;
@@ -576,6 +586,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getCharoff() {
 		return charoff;
 	}
@@ -585,6 +596,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCharoff(String newCharoff) {
 		String oldCharoff = charoff;
 		charoff = newCharoff;
@@ -597,6 +609,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public List<String> getClass_() {
 		return class_;
 	}
@@ -606,6 +619,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setClass(List<String> newClass) {
 		List<String> oldClass = class_;
 		class_ = newClass;
@@ -618,6 +632,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public BigInteger getColspan() {
 		return colspan;
 	}
@@ -627,6 +642,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setColspan(BigInteger newColspan) {
 		BigInteger oldColspan = colspan;
 		colspan = newColspan;
@@ -641,6 +657,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetColspan() {
 		BigInteger oldColspan = colspan;
 		boolean oldColspanESet = colspanESet;
@@ -655,6 +672,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetColspan() {
 		return colspanESet;
 	}
@@ -664,6 +682,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DirType getDir() {
 		return dir;
 	}
@@ -673,6 +692,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDir(DirType newDir) {
 		DirType oldDir = dir;
 		dir = newDir == null ? DIR_EDEFAULT : newDir;
@@ -687,6 +707,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetDir() {
 		DirType oldDir = dir;
 		boolean oldDirESet = dirESet;
@@ -701,6 +722,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetDir() {
 		return dirESet;
 	}
@@ -710,6 +732,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public List<String> getHeaders() {
 		return headers;
 	}
@@ -719,6 +742,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setHeaders(List<String> newHeaders) {
 		List<String> oldHeaders = headers;
 		headers = newHeaders;
@@ -731,6 +755,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getId() {
 		return id;
 	}
@@ -740,6 +765,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setId(String newId) {
 		String oldId = id;
 		id = newId;
@@ -752,6 +778,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getLang() {
 		return lang;
 	}
@@ -761,6 +788,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLang(String newLang) {
 		String oldLang = lang;
 		lang = newLang;
@@ -773,6 +801,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Object getLang1() {
 		return lang1;
 	}
@@ -782,6 +811,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLang1(Object newLang1) {
 		Object oldLang1 = lang1;
 		lang1 = newLang1;
@@ -794,6 +824,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public BigInteger getRowspan() {
 		return rowspan;
 	}
@@ -803,6 +834,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRowspan(BigInteger newRowspan) {
 		BigInteger oldRowspan = rowspan;
 		rowspan = newRowspan;
@@ -817,6 +849,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetRowspan() {
 		BigInteger oldRowspan = rowspan;
 		boolean oldRowspanESet = rowspanESet;
@@ -831,6 +864,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetRowspan() {
 		return rowspanESet;
 	}
@@ -840,6 +874,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Scope getScope() {
 		return scope;
 	}
@@ -849,6 +884,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setScope(Scope newScope) {
 		Scope oldScope = scope;
 		scope = newScope == null ? SCOPE_EDEFAULT : newScope;
@@ -863,6 +899,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetScope() {
 		Scope oldScope = scope;
 		boolean oldScopeESet = scopeESet;
@@ -877,6 +914,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetScope() {
 		return scopeESet;
 	}
@@ -886,6 +924,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getStyle() {
 		return style;
 	}
@@ -895,6 +934,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStyle(String newStyle) {
 		String oldStyle = style;
 		style = newStyle;
@@ -907,6 +947,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getTitle() {
 		return title;
 	}
@@ -916,6 +957,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(String newTitle) {
 		String oldTitle = title;
 		title = newTitle;
@@ -928,6 +970,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ValignType getValign() {
 		return valign;
 	}
@@ -937,6 +980,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValign(ValignType newValign) {
 		ValignType oldValign = valign;
 		valign = newValign == null ? VALIGN_EDEFAULT : newValign;
@@ -951,6 +995,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValign() {
 		ValignType oldValign = valign;
 		boolean oldValignESet = valignESet;
@@ -965,6 +1010,7 @@ public class TdTypeImpl extends FlowImpl implements TdType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValign() {
 		return valignESet;
 	}

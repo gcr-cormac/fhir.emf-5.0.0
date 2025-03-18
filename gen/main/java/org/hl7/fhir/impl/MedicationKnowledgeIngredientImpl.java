@@ -109,6 +109,7 @@ public class MedicationKnowledgeIngredientImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getItem() {
 		return item;
 	}
@@ -133,6 +134,7 @@ public class MedicationKnowledgeIngredientImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setItem(CodeableReference newItem) {
 		if (newItem != item) {
 			NotificationChain msgs = null;
@@ -152,6 +154,7 @@ public class MedicationKnowledgeIngredientImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -176,6 +179,7 @@ public class MedicationKnowledgeIngredientImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -195,6 +199,7 @@ public class MedicationKnowledgeIngredientImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Ratio getStrengthRatio() {
 		return strengthRatio;
 	}
@@ -219,6 +224,7 @@ public class MedicationKnowledgeIngredientImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStrengthRatio(Ratio newStrengthRatio) {
 		if (newStrengthRatio != strengthRatio) {
 			NotificationChain msgs = null;
@@ -238,6 +244,7 @@ public class MedicationKnowledgeIngredientImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getStrengthCodeableConcept() {
 		return strengthCodeableConcept;
 	}
@@ -262,6 +269,7 @@ public class MedicationKnowledgeIngredientImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStrengthCodeableConcept(CodeableConcept newStrengthCodeableConcept) {
 		if (newStrengthCodeableConcept != strengthCodeableConcept) {
 			NotificationChain msgs = null;
@@ -281,6 +289,7 @@ public class MedicationKnowledgeIngredientImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getStrengthQuantity() {
 		return strengthQuantity;
 	}
@@ -305,6 +314,7 @@ public class MedicationKnowledgeIngredientImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStrengthQuantity(Quantity newStrengthQuantity) {
 		if (newStrengthQuantity != strengthQuantity) {
 			NotificationChain msgs = null;

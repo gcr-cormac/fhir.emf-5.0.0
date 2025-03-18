@@ -74,6 +74,7 @@ public class TestPlanDependency1Impl extends BackboneElementImpl implements Test
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -98,6 +99,7 @@ public class TestPlanDependency1Impl extends BackboneElementImpl implements Test
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class TestPlanDependency1Impl extends BackboneElementImpl implements Test
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getPredecessor() {
 		return predecessor;
 	}
@@ -141,6 +144,7 @@ public class TestPlanDependency1Impl extends BackboneElementImpl implements Test
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPredecessor(Reference newPredecessor) {
 		if (newPredecessor != predecessor) {
 			NotificationChain msgs = null;

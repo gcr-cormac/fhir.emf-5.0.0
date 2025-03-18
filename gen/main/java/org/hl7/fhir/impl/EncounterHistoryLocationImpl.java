@@ -74,6 +74,7 @@ public class EncounterHistoryLocationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getLocation() {
 		return location;
 	}
@@ -98,6 +99,7 @@ public class EncounterHistoryLocationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLocation(Reference newLocation) {
 		if (newLocation != location) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class EncounterHistoryLocationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getForm() {
 		return form;
 	}
@@ -141,6 +144,7 @@ public class EncounterHistoryLocationImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setForm(CodeableConcept newForm) {
 		if (newForm != form) {
 			NotificationChain msgs = null;

@@ -79,6 +79,7 @@ public class TestReportStatusImpl extends ElementImpl implements TestReportStatu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TestReportStatusEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class TestReportStatusImpl extends ElementImpl implements TestReportStatu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(TestReportStatusEnum newValue) {
 		TestReportStatusEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class TestReportStatusImpl extends ElementImpl implements TestReportStatu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		TestReportStatusEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class TestReportStatusImpl extends ElementImpl implements TestReportStatu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

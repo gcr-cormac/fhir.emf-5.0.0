@@ -79,6 +79,7 @@ public class NamingSystemIdentifierTypeImpl extends ElementImpl implements Namin
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public NamingSystemIdentifierTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class NamingSystemIdentifierTypeImpl extends ElementImpl implements Namin
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(NamingSystemIdentifierTypeEnum newValue) {
 		NamingSystemIdentifierTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class NamingSystemIdentifierTypeImpl extends ElementImpl implements Namin
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		NamingSystemIdentifierTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class NamingSystemIdentifierTypeImpl extends ElementImpl implements Namin
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

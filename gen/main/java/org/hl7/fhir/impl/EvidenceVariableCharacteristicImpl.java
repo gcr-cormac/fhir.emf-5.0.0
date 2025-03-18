@@ -245,6 +245,7 @@ public class EvidenceVariableCharacteristicImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Id getLinkId() {
 		return linkId;
 	}
@@ -269,6 +270,7 @@ public class EvidenceVariableCharacteristicImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLinkId(Id newLinkId) {
 		if (newLinkId != linkId) {
 			NotificationChain msgs = null;
@@ -288,6 +290,7 @@ public class EvidenceVariableCharacteristicImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -312,6 +315,7 @@ public class EvidenceVariableCharacteristicImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -331,6 +335,7 @@ public class EvidenceVariableCharacteristicImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.EVIDENCE_VARIABLE_CHARACTERISTIC__NOTE);
@@ -343,6 +348,7 @@ public class EvidenceVariableCharacteristicImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getExclude() {
 		return exclude;
 	}
@@ -367,6 +373,7 @@ public class EvidenceVariableCharacteristicImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExclude(org.hl7.fhir.Boolean newExclude) {
 		if (newExclude != exclude) {
 			NotificationChain msgs = null;
@@ -386,6 +393,7 @@ public class EvidenceVariableCharacteristicImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getDefinitionReference() {
 		return definitionReference;
 	}
@@ -410,6 +418,7 @@ public class EvidenceVariableCharacteristicImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDefinitionReference(Reference newDefinitionReference) {
 		if (newDefinitionReference != definitionReference) {
 			NotificationChain msgs = null;
@@ -429,6 +438,7 @@ public class EvidenceVariableCharacteristicImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getDefinitionCanonical() {
 		return definitionCanonical;
 	}
@@ -453,6 +463,7 @@ public class EvidenceVariableCharacteristicImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDefinitionCanonical(Canonical newDefinitionCanonical) {
 		if (newDefinitionCanonical != definitionCanonical) {
 			NotificationChain msgs = null;
@@ -472,6 +483,7 @@ public class EvidenceVariableCharacteristicImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getDefinitionCodeableConcept() {
 		return definitionCodeableConcept;
 	}
@@ -496,6 +508,7 @@ public class EvidenceVariableCharacteristicImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDefinitionCodeableConcept(CodeableConcept newDefinitionCodeableConcept) {
 		if (newDefinitionCodeableConcept != definitionCodeableConcept) {
 			NotificationChain msgs = null;
@@ -515,6 +528,7 @@ public class EvidenceVariableCharacteristicImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Expression getDefinitionExpression() {
 		return definitionExpression;
 	}
@@ -539,6 +553,7 @@ public class EvidenceVariableCharacteristicImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDefinitionExpression(Expression newDefinitionExpression) {
 		if (newDefinitionExpression != definitionExpression) {
 			NotificationChain msgs = null;
@@ -558,6 +573,7 @@ public class EvidenceVariableCharacteristicImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Id getDefinitionId() {
 		return definitionId;
 	}
@@ -582,6 +598,7 @@ public class EvidenceVariableCharacteristicImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDefinitionId(Id newDefinitionId) {
 		if (newDefinitionId != definitionId) {
 			NotificationChain msgs = null;
@@ -601,6 +618,7 @@ public class EvidenceVariableCharacteristicImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EvidenceVariableDefinitionByTypeAndValue getDefinitionByTypeAndValue() {
 		return definitionByTypeAndValue;
 	}
@@ -625,6 +643,7 @@ public class EvidenceVariableCharacteristicImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDefinitionByTypeAndValue(EvidenceVariableDefinitionByTypeAndValue newDefinitionByTypeAndValue) {
 		if (newDefinitionByTypeAndValue != definitionByTypeAndValue) {
 			NotificationChain msgs = null;
@@ -644,6 +663,7 @@ public class EvidenceVariableCharacteristicImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EvidenceVariableDefinitionByCombination getDefinitionByCombination() {
 		return definitionByCombination;
 	}
@@ -668,6 +688,7 @@ public class EvidenceVariableCharacteristicImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDefinitionByCombination(EvidenceVariableDefinitionByCombination newDefinitionByCombination) {
 		if (newDefinitionByCombination != definitionByCombination) {
 			NotificationChain msgs = null;
@@ -687,6 +708,7 @@ public class EvidenceVariableCharacteristicImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getInstancesQuantity() {
 		return instancesQuantity;
 	}
@@ -711,6 +733,7 @@ public class EvidenceVariableCharacteristicImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInstancesQuantity(Quantity newInstancesQuantity) {
 		if (newInstancesQuantity != instancesQuantity) {
 			NotificationChain msgs = null;
@@ -730,6 +753,7 @@ public class EvidenceVariableCharacteristicImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Range getInstancesRange() {
 		return instancesRange;
 	}
@@ -754,6 +778,7 @@ public class EvidenceVariableCharacteristicImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInstancesRange(Range newInstancesRange) {
 		if (newInstancesRange != instancesRange) {
 			NotificationChain msgs = null;
@@ -773,6 +798,7 @@ public class EvidenceVariableCharacteristicImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getDurationQuantity() {
 		return durationQuantity;
 	}
@@ -797,6 +823,7 @@ public class EvidenceVariableCharacteristicImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDurationQuantity(Quantity newDurationQuantity) {
 		if (newDurationQuantity != durationQuantity) {
 			NotificationChain msgs = null;
@@ -816,6 +843,7 @@ public class EvidenceVariableCharacteristicImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Range getDurationRange() {
 		return durationRange;
 	}
@@ -840,6 +868,7 @@ public class EvidenceVariableCharacteristicImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDurationRange(Range newDurationRange) {
 		if (newDurationRange != durationRange) {
 			NotificationChain msgs = null;
@@ -859,6 +888,7 @@ public class EvidenceVariableCharacteristicImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<EvidenceVariableTimeFromEvent> getTimeFromEvent() {
 		if (timeFromEvent == null) {
 			timeFromEvent = new EObjectContainmentEList<EvidenceVariableTimeFromEvent>(EvidenceVariableTimeFromEvent.class, this, FhirPackage.EVIDENCE_VARIABLE_CHARACTERISTIC__TIME_FROM_EVENT);

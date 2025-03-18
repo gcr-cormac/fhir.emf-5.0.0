@@ -81,6 +81,7 @@ public class EpisodeOfCareReasonImpl extends BackboneElementImpl implements Epis
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getUse() {
 		return use;
 	}
@@ -105,6 +106,7 @@ public class EpisodeOfCareReasonImpl extends BackboneElementImpl implements Epis
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUse(CodeableConcept newUse) {
 		if (newUse != use) {
 			NotificationChain msgs = null;
@@ -124,6 +126,7 @@ public class EpisodeOfCareReasonImpl extends BackboneElementImpl implements Epis
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getValue() {
 		if (value == null) {
 			value = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.EPISODE_OF_CARE_REASON__VALUE);

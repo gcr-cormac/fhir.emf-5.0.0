@@ -79,6 +79,7 @@ public class MedicationRequestIntentImpl extends ElementImpl implements Medicati
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public MedicationRequestIntentEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class MedicationRequestIntentImpl extends ElementImpl implements Medicati
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(MedicationRequestIntentEnum newValue) {
 		MedicationRequestIntentEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class MedicationRequestIntentImpl extends ElementImpl implements Medicati
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		MedicationRequestIntentEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class MedicationRequestIntentImpl extends ElementImpl implements Medicati
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

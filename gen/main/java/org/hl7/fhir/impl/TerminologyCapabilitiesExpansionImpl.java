@@ -114,6 +114,7 @@ public class TerminologyCapabilitiesExpansionImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getHierarchical() {
 		return hierarchical;
 	}
@@ -138,6 +139,7 @@ public class TerminologyCapabilitiesExpansionImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setHierarchical(org.hl7.fhir.Boolean newHierarchical) {
 		if (newHierarchical != hierarchical) {
 			NotificationChain msgs = null;
@@ -157,6 +159,7 @@ public class TerminologyCapabilitiesExpansionImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getPaging() {
 		return paging;
 	}
@@ -181,6 +184,7 @@ public class TerminologyCapabilitiesExpansionImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPaging(org.hl7.fhir.Boolean newPaging) {
 		if (newPaging != paging) {
 			NotificationChain msgs = null;
@@ -200,6 +204,7 @@ public class TerminologyCapabilitiesExpansionImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getIncomplete() {
 		return incomplete;
 	}
@@ -224,6 +229,7 @@ public class TerminologyCapabilitiesExpansionImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIncomplete(org.hl7.fhir.Boolean newIncomplete) {
 		if (newIncomplete != incomplete) {
 			NotificationChain msgs = null;
@@ -243,6 +249,7 @@ public class TerminologyCapabilitiesExpansionImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<TerminologyCapabilitiesParameter> getParameter() {
 		if (parameter == null) {
 			parameter = new EObjectContainmentEList<TerminologyCapabilitiesParameter>(TerminologyCapabilitiesParameter.class, this, FhirPackage.TERMINOLOGY_CAPABILITIES_EXPANSION__PARAMETER);
@@ -255,6 +262,7 @@ public class TerminologyCapabilitiesExpansionImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getTextFilter() {
 		return textFilter;
 	}
@@ -279,6 +287,7 @@ public class TerminologyCapabilitiesExpansionImpl extends BackboneElementImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTextFilter(Markdown newTextFilter) {
 		if (newTextFilter != textFilter) {
 			NotificationChain msgs = null;

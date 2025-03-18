@@ -184,6 +184,7 @@ public class PackagedProductDefinitionPackagingImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.PACKAGED_PRODUCT_DEFINITION_PACKAGING__IDENTIFIER);
@@ -196,6 +197,7 @@ public class PackagedProductDefinitionPackagingImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -220,6 +222,7 @@ public class PackagedProductDefinitionPackagingImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -239,6 +242,7 @@ public class PackagedProductDefinitionPackagingImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getComponentPart() {
 		return componentPart;
 	}
@@ -263,6 +267,7 @@ public class PackagedProductDefinitionPackagingImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setComponentPart(org.hl7.fhir.Boolean newComponentPart) {
 		if (newComponentPart != componentPart) {
 			NotificationChain msgs = null;
@@ -282,6 +287,7 @@ public class PackagedProductDefinitionPackagingImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Integer getQuantity() {
 		return quantity;
 	}
@@ -306,6 +312,7 @@ public class PackagedProductDefinitionPackagingImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setQuantity(org.hl7.fhir.Integer newQuantity) {
 		if (newQuantity != quantity) {
 			NotificationChain msgs = null;
@@ -325,6 +332,7 @@ public class PackagedProductDefinitionPackagingImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getMaterial() {
 		if (material == null) {
 			material = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.PACKAGED_PRODUCT_DEFINITION_PACKAGING__MATERIAL);
@@ -337,6 +345,7 @@ public class PackagedProductDefinitionPackagingImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getAlternateMaterial() {
 		if (alternateMaterial == null) {
 			alternateMaterial = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.PACKAGED_PRODUCT_DEFINITION_PACKAGING__ALTERNATE_MATERIAL);
@@ -349,6 +358,7 @@ public class PackagedProductDefinitionPackagingImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ProductShelfLife> getShelfLifeStorage() {
 		if (shelfLifeStorage == null) {
 			shelfLifeStorage = new EObjectContainmentEList<ProductShelfLife>(ProductShelfLife.class, this, FhirPackage.PACKAGED_PRODUCT_DEFINITION_PACKAGING__SHELF_LIFE_STORAGE);
@@ -361,6 +371,7 @@ public class PackagedProductDefinitionPackagingImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getManufacturer() {
 		if (manufacturer == null) {
 			manufacturer = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.PACKAGED_PRODUCT_DEFINITION_PACKAGING__MANUFACTURER);
@@ -373,6 +384,7 @@ public class PackagedProductDefinitionPackagingImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<PackagedProductDefinitionProperty> getProperty() {
 		if (property == null) {
 			property = new EObjectContainmentEList<PackagedProductDefinitionProperty>(PackagedProductDefinitionProperty.class, this, FhirPackage.PACKAGED_PRODUCT_DEFINITION_PACKAGING__PROPERTY);
@@ -385,6 +397,7 @@ public class PackagedProductDefinitionPackagingImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<PackagedProductDefinitionContainedItem> getContainedItem() {
 		if (containedItem == null) {
 			containedItem = new EObjectContainmentEList<PackagedProductDefinitionContainedItem>(PackagedProductDefinitionContainedItem.class, this, FhirPackage.PACKAGED_PRODUCT_DEFINITION_PACKAGING__CONTAINED_ITEM);
@@ -397,6 +410,7 @@ public class PackagedProductDefinitionPackagingImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<PackagedProductDefinitionPackaging> getPackaging() {
 		if (packaging == null) {
 			packaging = new EObjectContainmentEList<PackagedProductDefinitionPackaging>(PackagedProductDefinitionPackaging.class, this, FhirPackage.PACKAGED_PRODUCT_DEFINITION_PACKAGING__PACKAGING);

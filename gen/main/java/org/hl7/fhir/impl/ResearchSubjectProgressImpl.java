@@ -118,6 +118,7 @@ public class ResearchSubjectProgressImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -142,6 +143,7 @@ public class ResearchSubjectProgressImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -161,6 +163,7 @@ public class ResearchSubjectProgressImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getSubjectState() {
 		return subjectState;
 	}
@@ -185,6 +188,7 @@ public class ResearchSubjectProgressImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubjectState(CodeableConcept newSubjectState) {
 		if (newSubjectState != subjectState) {
 			NotificationChain msgs = null;
@@ -204,6 +208,7 @@ public class ResearchSubjectProgressImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getMilestone() {
 		return milestone;
 	}
@@ -228,6 +233,7 @@ public class ResearchSubjectProgressImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMilestone(CodeableConcept newMilestone) {
 		if (newMilestone != milestone) {
 			NotificationChain msgs = null;
@@ -247,6 +253,7 @@ public class ResearchSubjectProgressImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getReason() {
 		return reason;
 	}
@@ -271,6 +278,7 @@ public class ResearchSubjectProgressImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReason(CodeableConcept newReason) {
 		if (newReason != reason) {
 			NotificationChain msgs = null;
@@ -290,6 +298,7 @@ public class ResearchSubjectProgressImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getStartDate() {
 		return startDate;
 	}
@@ -314,6 +323,7 @@ public class ResearchSubjectProgressImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStartDate(DateTime newStartDate) {
 		if (newStartDate != startDate) {
 			NotificationChain msgs = null;
@@ -333,6 +343,7 @@ public class ResearchSubjectProgressImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getEndDate() {
 		return endDate;
 	}
@@ -357,6 +368,7 @@ public class ResearchSubjectProgressImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEndDate(DateTime newEndDate) {
 		if (newEndDate != endDate) {
 			NotificationChain msgs = null;

@@ -93,6 +93,7 @@ public class EvidenceVariableDefinitionByCombinationImpl extends BackboneElement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CharacteristicCombination getCode() {
 		return code;
 	}
@@ -117,6 +118,7 @@ public class EvidenceVariableDefinitionByCombinationImpl extends BackboneElement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CharacteristicCombination newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -136,6 +138,7 @@ public class EvidenceVariableDefinitionByCombinationImpl extends BackboneElement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PositiveInt getThreshold() {
 		return threshold;
 	}
@@ -160,6 +163,7 @@ public class EvidenceVariableDefinitionByCombinationImpl extends BackboneElement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setThreshold(PositiveInt newThreshold) {
 		if (newThreshold != threshold) {
 			NotificationChain msgs = null;
@@ -179,6 +183,7 @@ public class EvidenceVariableDefinitionByCombinationImpl extends BackboneElement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<EvidenceVariableCharacteristic> getCharacteristic() {
 		if (characteristic == null) {
 			characteristic = new EObjectContainmentEList<EvidenceVariableCharacteristic>(EvidenceVariableCharacteristic.class, this, FhirPackage.EVIDENCE_VARIABLE_DEFINITION_BY_COMBINATION__CHARACTERISTIC);

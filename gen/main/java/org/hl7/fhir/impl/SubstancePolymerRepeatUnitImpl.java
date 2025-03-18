@@ -115,6 +115,7 @@ public class SubstancePolymerRepeatUnitImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getUnit() {
 		return unit;
 	}
@@ -139,6 +140,7 @@ public class SubstancePolymerRepeatUnitImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUnit(org.hl7.fhir.String newUnit) {
 		if (newUnit != unit) {
 			NotificationChain msgs = null;
@@ -158,6 +160,7 @@ public class SubstancePolymerRepeatUnitImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getOrientation() {
 		return orientation;
 	}
@@ -182,6 +185,7 @@ public class SubstancePolymerRepeatUnitImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOrientation(CodeableConcept newOrientation) {
 		if (newOrientation != orientation) {
 			NotificationChain msgs = null;
@@ -201,6 +205,7 @@ public class SubstancePolymerRepeatUnitImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Integer getAmount() {
 		return amount;
 	}
@@ -225,6 +230,7 @@ public class SubstancePolymerRepeatUnitImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAmount(org.hl7.fhir.Integer newAmount) {
 		if (newAmount != amount) {
 			NotificationChain msgs = null;
@@ -244,6 +250,7 @@ public class SubstancePolymerRepeatUnitImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SubstancePolymerDegreeOfPolymerisation> getDegreeOfPolymerisation() {
 		if (degreeOfPolymerisation == null) {
 			degreeOfPolymerisation = new EObjectContainmentEList<SubstancePolymerDegreeOfPolymerisation>(SubstancePolymerDegreeOfPolymerisation.class, this, FhirPackage.SUBSTANCE_POLYMER_REPEAT_UNIT__DEGREE_OF_POLYMERISATION);
@@ -256,6 +263,7 @@ public class SubstancePolymerRepeatUnitImpl extends BackboneElementImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SubstancePolymerStructuralRepresentation> getStructuralRepresentation() {
 		if (structuralRepresentation == null) {
 			structuralRepresentation = new EObjectContainmentEList<SubstancePolymerStructuralRepresentation>(SubstancePolymerStructuralRepresentation.class, this, FhirPackage.SUBSTANCE_POLYMER_REPEAT_UNIT__STRUCTURAL_REPRESENTATION);

@@ -93,6 +93,7 @@ public class TimingImpl extends BackboneTypeImpl implements Timing {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<DateTime> getEvent() {
 		if (event == null) {
 			event = new EObjectContainmentEList<DateTime>(DateTime.class, this, FhirPackage.TIMING__EVENT);
@@ -105,6 +106,7 @@ public class TimingImpl extends BackboneTypeImpl implements Timing {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TimingRepeat getRepeat() {
 		return repeat;
 	}
@@ -129,6 +131,7 @@ public class TimingImpl extends BackboneTypeImpl implements Timing {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRepeat(TimingRepeat newRepeat) {
 		if (newRepeat != repeat) {
 			NotificationChain msgs = null;
@@ -148,6 +151,7 @@ public class TimingImpl extends BackboneTypeImpl implements Timing {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -172,6 +176,7 @@ public class TimingImpl extends BackboneTypeImpl implements Timing {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;

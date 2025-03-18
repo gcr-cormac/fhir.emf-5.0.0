@@ -127,6 +127,7 @@ public class NutritionOrderOralDietImpl extends BackboneElementImpl implements N
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getType() {
 		if (type == null) {
 			type = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.NUTRITION_ORDER_ORAL_DIET__TYPE);
@@ -139,6 +140,7 @@ public class NutritionOrderOralDietImpl extends BackboneElementImpl implements N
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public NutritionOrderSchedule getSchedule() {
 		return schedule;
 	}
@@ -163,6 +165,7 @@ public class NutritionOrderOralDietImpl extends BackboneElementImpl implements N
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSchedule(NutritionOrderSchedule newSchedule) {
 		if (newSchedule != schedule) {
 			NotificationChain msgs = null;
@@ -182,6 +185,7 @@ public class NutritionOrderOralDietImpl extends BackboneElementImpl implements N
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<NutritionOrderNutrient> getNutrient() {
 		if (nutrient == null) {
 			nutrient = new EObjectContainmentEList<NutritionOrderNutrient>(NutritionOrderNutrient.class, this, FhirPackage.NUTRITION_ORDER_ORAL_DIET__NUTRIENT);
@@ -194,6 +198,7 @@ public class NutritionOrderOralDietImpl extends BackboneElementImpl implements N
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<NutritionOrderTexture> getTexture() {
 		if (texture == null) {
 			texture = new EObjectContainmentEList<NutritionOrderTexture>(NutritionOrderTexture.class, this, FhirPackage.NUTRITION_ORDER_ORAL_DIET__TEXTURE);
@@ -206,6 +211,7 @@ public class NutritionOrderOralDietImpl extends BackboneElementImpl implements N
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getFluidConsistencyType() {
 		if (fluidConsistencyType == null) {
 			fluidConsistencyType = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.NUTRITION_ORDER_ORAL_DIET__FLUID_CONSISTENCY_TYPE);
@@ -218,6 +224,7 @@ public class NutritionOrderOralDietImpl extends BackboneElementImpl implements N
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getInstruction() {
 		return instruction;
 	}
@@ -242,6 +249,7 @@ public class NutritionOrderOralDietImpl extends BackboneElementImpl implements N
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInstruction(org.hl7.fhir.String newInstruction) {
 		if (newInstruction != instruction) {
 			NotificationChain msgs = null;

@@ -341,6 +341,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getLabel() {
 		return label;
 	}
@@ -365,6 +366,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLabel(org.hl7.fhir.String newLabel) {
 		if (newLabel != label) {
 			NotificationChain msgs = null;
@@ -384,6 +386,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDescription() {
 		return description;
 	}
@@ -408,6 +411,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(org.hl7.fhir.String newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -427,6 +431,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AssertionDirectionType getDirection() {
 		return direction;
 	}
@@ -451,6 +456,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDirection(AssertionDirectionType newDirection) {
 		if (newDirection != direction) {
 			NotificationChain msgs = null;
@@ -470,6 +476,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getCompareToSourceId() {
 		return compareToSourceId;
 	}
@@ -494,6 +501,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCompareToSourceId(org.hl7.fhir.String newCompareToSourceId) {
 		if (newCompareToSourceId != compareToSourceId) {
 			NotificationChain msgs = null;
@@ -513,6 +521,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getCompareToSourceExpression() {
 		return compareToSourceExpression;
 	}
@@ -537,6 +546,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCompareToSourceExpression(org.hl7.fhir.String newCompareToSourceExpression) {
 		if (newCompareToSourceExpression != compareToSourceExpression) {
 			NotificationChain msgs = null;
@@ -556,6 +566,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getCompareToSourcePath() {
 		return compareToSourcePath;
 	}
@@ -580,6 +591,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCompareToSourcePath(org.hl7.fhir.String newCompareToSourcePath) {
 		if (newCompareToSourcePath != compareToSourcePath) {
 			NotificationChain msgs = null;
@@ -599,6 +611,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Code getContentType() {
 		return contentType;
 	}
@@ -623,6 +636,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setContentType(Code newContentType) {
 		if (newContentType != contentType) {
 			NotificationChain msgs = null;
@@ -642,6 +656,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AssertionManualCompletionType getDefaultManualCompletion() {
 		return defaultManualCompletion;
 	}
@@ -666,6 +681,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDefaultManualCompletion(AssertionManualCompletionType newDefaultManualCompletion) {
 		if (newDefaultManualCompletion != defaultManualCompletion) {
 			NotificationChain msgs = null;
@@ -685,6 +701,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getExpression() {
 		return expression;
 	}
@@ -709,6 +726,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExpression(org.hl7.fhir.String newExpression) {
 		if (newExpression != expression) {
 			NotificationChain msgs = null;
@@ -728,6 +746,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getHeaderField() {
 		return headerField;
 	}
@@ -752,6 +771,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setHeaderField(org.hl7.fhir.String newHeaderField) {
 		if (newHeaderField != headerField) {
 			NotificationChain msgs = null;
@@ -771,6 +791,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getMinimumId() {
 		return minimumId;
 	}
@@ -795,6 +816,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMinimumId(org.hl7.fhir.String newMinimumId) {
 		if (newMinimumId != minimumId) {
 			NotificationChain msgs = null;
@@ -814,6 +836,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getNavigationLinks() {
 		return navigationLinks;
 	}
@@ -838,6 +861,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNavigationLinks(org.hl7.fhir.Boolean newNavigationLinks) {
 		if (newNavigationLinks != navigationLinks) {
 			NotificationChain msgs = null;
@@ -857,6 +881,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AssertionOperatorType getOperator() {
 		return operator;
 	}
@@ -881,6 +906,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOperator(AssertionOperatorType newOperator) {
 		if (newOperator != operator) {
 			NotificationChain msgs = null;
@@ -900,6 +926,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPath() {
 		return path;
 	}
@@ -924,6 +951,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPath(org.hl7.fhir.String newPath) {
 		if (newPath != path) {
 			NotificationChain msgs = null;
@@ -943,6 +971,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TestScriptRequestMethodCode getRequestMethod() {
 		return requestMethod;
 	}
@@ -967,6 +996,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRequestMethod(TestScriptRequestMethodCode newRequestMethod) {
 		if (newRequestMethod != requestMethod) {
 			NotificationChain msgs = null;
@@ -986,6 +1016,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getRequestURL() {
 		return requestURL;
 	}
@@ -1010,6 +1041,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRequestURL(org.hl7.fhir.String newRequestURL) {
 		if (newRequestURL != requestURL) {
 			NotificationChain msgs = null;
@@ -1029,6 +1061,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getResource() {
 		return resource;
 	}
@@ -1053,6 +1086,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setResource(Uri newResource) {
 		if (newResource != resource) {
 			NotificationChain msgs = null;
@@ -1072,6 +1106,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AssertionResponseTypes getResponse() {
 		return response;
 	}
@@ -1096,6 +1131,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setResponse(AssertionResponseTypes newResponse) {
 		if (newResponse != response) {
 			NotificationChain msgs = null;
@@ -1115,6 +1151,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getResponseCode() {
 		return responseCode;
 	}
@@ -1139,6 +1176,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setResponseCode(org.hl7.fhir.String newResponseCode) {
 		if (newResponseCode != responseCode) {
 			NotificationChain msgs = null;
@@ -1158,6 +1196,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Id getSourceId() {
 		return sourceId;
 	}
@@ -1182,6 +1221,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSourceId(Id newSourceId) {
 		if (newSourceId != sourceId) {
 			NotificationChain msgs = null;
@@ -1201,6 +1241,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getStopTestOnFail() {
 		return stopTestOnFail;
 	}
@@ -1225,6 +1266,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStopTestOnFail(org.hl7.fhir.Boolean newStopTestOnFail) {
 		if (newStopTestOnFail != stopTestOnFail) {
 			NotificationChain msgs = null;
@@ -1244,6 +1286,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Id getValidateProfileId() {
 		return validateProfileId;
 	}
@@ -1268,6 +1311,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValidateProfileId(Id newValidateProfileId) {
 		if (newValidateProfileId != validateProfileId) {
 			NotificationChain msgs = null;
@@ -1287,6 +1331,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getValue() {
 		return value;
 	}
@@ -1311,6 +1356,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(org.hl7.fhir.String newValue) {
 		if (newValue != value) {
 			NotificationChain msgs = null;
@@ -1330,6 +1376,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getWarningOnly() {
 		return warningOnly;
 	}
@@ -1354,6 +1401,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setWarningOnly(org.hl7.fhir.Boolean newWarningOnly) {
 		if (newWarningOnly != warningOnly) {
 			NotificationChain msgs = null;
@@ -1373,6 +1421,7 @@ public class TestScriptAssertImpl extends BackboneElementImpl implements TestScr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<TestScriptRequirement> getRequirement() {
 		if (requirement == null) {
 			requirement = new EObjectContainmentEList<TestScriptRequirement>(TestScriptRequirement.class, this, FhirPackage.TEST_SCRIPT_ASSERT__REQUIREMENT);

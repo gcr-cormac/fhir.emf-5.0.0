@@ -79,6 +79,7 @@ public class ObservationStatusImpl extends ElementImpl implements ObservationSta
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ObservationStatusEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ObservationStatusImpl extends ElementImpl implements ObservationSta
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ObservationStatusEnum newValue) {
 		ObservationStatusEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ObservationStatusImpl extends ElementImpl implements ObservationSta
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ObservationStatusEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ObservationStatusImpl extends ElementImpl implements ObservationSta
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

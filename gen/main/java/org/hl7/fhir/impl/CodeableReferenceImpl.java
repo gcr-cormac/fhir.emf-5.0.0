@@ -74,6 +74,7 @@ public class CodeableReferenceImpl extends DataTypeImpl implements CodeableRefer
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getConcept() {
 		return concept;
 	}
@@ -98,6 +99,7 @@ public class CodeableReferenceImpl extends DataTypeImpl implements CodeableRefer
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setConcept(CodeableConcept newConcept) {
 		if (newConcept != concept) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class CodeableReferenceImpl extends DataTypeImpl implements CodeableRefer
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getReference() {
 		return reference;
 	}
@@ -141,6 +144,7 @@ public class CodeableReferenceImpl extends DataTypeImpl implements CodeableRefer
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReference(Reference newReference) {
 		if (newReference != reference) {
 			NotificationChain msgs = null;

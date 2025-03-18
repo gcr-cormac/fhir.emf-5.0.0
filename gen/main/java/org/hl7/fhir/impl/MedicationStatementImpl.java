@@ -278,6 +278,7 @@ public class MedicationStatementImpl extends DomainResourceImpl implements Medic
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.MEDICATION_STATEMENT__IDENTIFIER);
@@ -290,6 +291,7 @@ public class MedicationStatementImpl extends DomainResourceImpl implements Medic
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getPartOf() {
 		if (partOf == null) {
 			partOf = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.MEDICATION_STATEMENT__PART_OF);
@@ -302,6 +304,7 @@ public class MedicationStatementImpl extends DomainResourceImpl implements Medic
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public MedicationStatementStatusCodes getStatus() {
 		return status;
 	}
@@ -326,6 +329,7 @@ public class MedicationStatementImpl extends DomainResourceImpl implements Medic
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(MedicationStatementStatusCodes newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -345,6 +349,7 @@ public class MedicationStatementImpl extends DomainResourceImpl implements Medic
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCategory() {
 		if (category == null) {
 			category = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.MEDICATION_STATEMENT__CATEGORY);
@@ -357,6 +362,7 @@ public class MedicationStatementImpl extends DomainResourceImpl implements Medic
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getMedication() {
 		return medication;
 	}
@@ -381,6 +387,7 @@ public class MedicationStatementImpl extends DomainResourceImpl implements Medic
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMedication(CodeableReference newMedication) {
 		if (newMedication != medication) {
 			NotificationChain msgs = null;
@@ -400,6 +407,7 @@ public class MedicationStatementImpl extends DomainResourceImpl implements Medic
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubject() {
 		return subject;
 	}
@@ -424,6 +432,7 @@ public class MedicationStatementImpl extends DomainResourceImpl implements Medic
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubject(Reference newSubject) {
 		if (newSubject != subject) {
 			NotificationChain msgs = null;
@@ -443,6 +452,7 @@ public class MedicationStatementImpl extends DomainResourceImpl implements Medic
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getEncounter() {
 		return encounter;
 	}
@@ -467,6 +477,7 @@ public class MedicationStatementImpl extends DomainResourceImpl implements Medic
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEncounter(Reference newEncounter) {
 		if (newEncounter != encounter) {
 			NotificationChain msgs = null;
@@ -486,6 +497,7 @@ public class MedicationStatementImpl extends DomainResourceImpl implements Medic
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getEffectiveDateTime() {
 		return effectiveDateTime;
 	}
@@ -510,6 +522,7 @@ public class MedicationStatementImpl extends DomainResourceImpl implements Medic
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEffectiveDateTime(DateTime newEffectiveDateTime) {
 		if (newEffectiveDateTime != effectiveDateTime) {
 			NotificationChain msgs = null;
@@ -529,6 +542,7 @@ public class MedicationStatementImpl extends DomainResourceImpl implements Medic
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getEffectivePeriod() {
 		return effectivePeriod;
 	}
@@ -553,6 +567,7 @@ public class MedicationStatementImpl extends DomainResourceImpl implements Medic
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEffectivePeriod(Period newEffectivePeriod) {
 		if (newEffectivePeriod != effectivePeriod) {
 			NotificationChain msgs = null;
@@ -572,6 +587,7 @@ public class MedicationStatementImpl extends DomainResourceImpl implements Medic
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Timing getEffectiveTiming() {
 		return effectiveTiming;
 	}
@@ -596,6 +612,7 @@ public class MedicationStatementImpl extends DomainResourceImpl implements Medic
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEffectiveTiming(Timing newEffectiveTiming) {
 		if (newEffectiveTiming != effectiveTiming) {
 			NotificationChain msgs = null;
@@ -615,6 +632,7 @@ public class MedicationStatementImpl extends DomainResourceImpl implements Medic
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getDateAsserted() {
 		return dateAsserted;
 	}
@@ -639,6 +657,7 @@ public class MedicationStatementImpl extends DomainResourceImpl implements Medic
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDateAsserted(DateTime newDateAsserted) {
 		if (newDateAsserted != dateAsserted) {
 			NotificationChain msgs = null;
@@ -658,6 +677,7 @@ public class MedicationStatementImpl extends DomainResourceImpl implements Medic
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getInformationSource() {
 		if (informationSource == null) {
 			informationSource = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.MEDICATION_STATEMENT__INFORMATION_SOURCE);
@@ -670,6 +690,7 @@ public class MedicationStatementImpl extends DomainResourceImpl implements Medic
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getDerivedFrom() {
 		if (derivedFrom == null) {
 			derivedFrom = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.MEDICATION_STATEMENT__DERIVED_FROM);
@@ -682,6 +703,7 @@ public class MedicationStatementImpl extends DomainResourceImpl implements Medic
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getReason() {
 		if (reason == null) {
 			reason = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.MEDICATION_STATEMENT__REASON);
@@ -694,6 +716,7 @@ public class MedicationStatementImpl extends DomainResourceImpl implements Medic
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.MEDICATION_STATEMENT__NOTE);
@@ -706,6 +729,7 @@ public class MedicationStatementImpl extends DomainResourceImpl implements Medic
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getRelatedClinicalInformation() {
 		if (relatedClinicalInformation == null) {
 			relatedClinicalInformation = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.MEDICATION_STATEMENT__RELATED_CLINICAL_INFORMATION);
@@ -718,6 +742,7 @@ public class MedicationStatementImpl extends DomainResourceImpl implements Medic
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getRenderedDosageInstruction() {
 		return renderedDosageInstruction;
 	}
@@ -742,6 +767,7 @@ public class MedicationStatementImpl extends DomainResourceImpl implements Medic
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRenderedDosageInstruction(Markdown newRenderedDosageInstruction) {
 		if (newRenderedDosageInstruction != renderedDosageInstruction) {
 			NotificationChain msgs = null;
@@ -761,6 +787,7 @@ public class MedicationStatementImpl extends DomainResourceImpl implements Medic
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Dosage> getDosage() {
 		if (dosage == null) {
 			dosage = new EObjectContainmentEList<Dosage>(Dosage.class, this, FhirPackage.MEDICATION_STATEMENT__DOSAGE);
@@ -773,6 +800,7 @@ public class MedicationStatementImpl extends DomainResourceImpl implements Medic
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public MedicationStatementAdherence getAdherence() {
 		return adherence;
 	}
@@ -797,6 +825,7 @@ public class MedicationStatementImpl extends DomainResourceImpl implements Medic
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAdherence(MedicationStatementAdherence newAdherence) {
 		if (newAdherence != adherence) {
 			NotificationChain msgs = null;

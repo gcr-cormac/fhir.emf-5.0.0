@@ -109,6 +109,7 @@ public class CareTeamParticipantImpl extends BackboneElementImpl implements Care
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getRole() {
 		return role;
 	}
@@ -133,6 +134,7 @@ public class CareTeamParticipantImpl extends BackboneElementImpl implements Care
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRole(CodeableConcept newRole) {
 		if (newRole != role) {
 			NotificationChain msgs = null;
@@ -152,6 +154,7 @@ public class CareTeamParticipantImpl extends BackboneElementImpl implements Care
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getMember() {
 		return member;
 	}
@@ -176,6 +179,7 @@ public class CareTeamParticipantImpl extends BackboneElementImpl implements Care
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMember(Reference newMember) {
 		if (newMember != member) {
 			NotificationChain msgs = null;
@@ -195,6 +199,7 @@ public class CareTeamParticipantImpl extends BackboneElementImpl implements Care
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getOnBehalfOf() {
 		return onBehalfOf;
 	}
@@ -219,6 +224,7 @@ public class CareTeamParticipantImpl extends BackboneElementImpl implements Care
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOnBehalfOf(Reference newOnBehalfOf) {
 		if (newOnBehalfOf != onBehalfOf) {
 			NotificationChain msgs = null;
@@ -238,6 +244,7 @@ public class CareTeamParticipantImpl extends BackboneElementImpl implements Care
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getCoveragePeriod() {
 		return coveragePeriod;
 	}
@@ -262,6 +269,7 @@ public class CareTeamParticipantImpl extends BackboneElementImpl implements Care
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCoveragePeriod(Period newCoveragePeriod) {
 		if (newCoveragePeriod != coveragePeriod) {
 			NotificationChain msgs = null;
@@ -281,6 +289,7 @@ public class CareTeamParticipantImpl extends BackboneElementImpl implements Care
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Timing getCoverageTiming() {
 		return coverageTiming;
 	}
@@ -305,6 +314,7 @@ public class CareTeamParticipantImpl extends BackboneElementImpl implements Care
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCoverageTiming(Timing newCoverageTiming) {
 		if (newCoverageTiming != coverageTiming) {
 			NotificationChain msgs = null;

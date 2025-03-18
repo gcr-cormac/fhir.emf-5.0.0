@@ -73,6 +73,7 @@ public class PersonCommunicationImpl extends BackboneElementImpl implements Pers
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getLanguage() {
 		return language;
 	}
@@ -97,6 +98,7 @@ public class PersonCommunicationImpl extends BackboneElementImpl implements Pers
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLanguage(CodeableConcept newLanguage) {
 		if (newLanguage != language) {
 			NotificationChain msgs = null;
@@ -116,6 +118,7 @@ public class PersonCommunicationImpl extends BackboneElementImpl implements Pers
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getPreferred() {
 		return preferred;
 	}
@@ -140,6 +143,7 @@ public class PersonCommunicationImpl extends BackboneElementImpl implements Pers
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPreferred(org.hl7.fhir.Boolean newPreferred) {
 		if (newPreferred != preferred) {
 			NotificationChain msgs = null;

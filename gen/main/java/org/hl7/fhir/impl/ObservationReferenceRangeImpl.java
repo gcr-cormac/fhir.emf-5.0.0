@@ -138,6 +138,7 @@ public class ObservationReferenceRangeImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getLow() {
 		return low;
 	}
@@ -162,6 +163,7 @@ public class ObservationReferenceRangeImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLow(Quantity newLow) {
 		if (newLow != low) {
 			NotificationChain msgs = null;
@@ -181,6 +183,7 @@ public class ObservationReferenceRangeImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getHigh() {
 		return high;
 	}
@@ -205,6 +208,7 @@ public class ObservationReferenceRangeImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setHigh(Quantity newHigh) {
 		if (newHigh != high) {
 			NotificationChain msgs = null;
@@ -224,6 +228,7 @@ public class ObservationReferenceRangeImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getNormalValue() {
 		return normalValue;
 	}
@@ -248,6 +253,7 @@ public class ObservationReferenceRangeImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNormalValue(CodeableConcept newNormalValue) {
 		if (newNormalValue != normalValue) {
 			NotificationChain msgs = null;
@@ -267,6 +273,7 @@ public class ObservationReferenceRangeImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -291,6 +298,7 @@ public class ObservationReferenceRangeImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -310,6 +318,7 @@ public class ObservationReferenceRangeImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getAppliesTo() {
 		if (appliesTo == null) {
 			appliesTo = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.OBSERVATION_REFERENCE_RANGE__APPLIES_TO);
@@ -322,6 +331,7 @@ public class ObservationReferenceRangeImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Range getAge() {
 		return age;
 	}
@@ -346,6 +356,7 @@ public class ObservationReferenceRangeImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAge(Range newAge) {
 		if (newAge != age) {
 			NotificationChain msgs = null;
@@ -365,6 +376,7 @@ public class ObservationReferenceRangeImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getText() {
 		return text;
 	}
@@ -389,6 +401,7 @@ public class ObservationReferenceRangeImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setText(Markdown newText) {
 		if (newText != text) {
 			NotificationChain msgs = null;

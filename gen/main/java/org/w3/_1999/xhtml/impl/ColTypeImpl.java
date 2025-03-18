@@ -365,6 +365,7 @@ public class ColTypeImpl extends MinimalEObjectImpl.Container implements ColType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AlignType getAlign() {
 		return align;
 	}
@@ -374,6 +375,7 @@ public class ColTypeImpl extends MinimalEObjectImpl.Container implements ColType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAlign(AlignType newAlign) {
 		AlignType oldAlign = align;
 		align = newAlign == null ? ALIGN_EDEFAULT : newAlign;
@@ -388,6 +390,7 @@ public class ColTypeImpl extends MinimalEObjectImpl.Container implements ColType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetAlign() {
 		AlignType oldAlign = align;
 		boolean oldAlignESet = alignESet;
@@ -402,6 +405,7 @@ public class ColTypeImpl extends MinimalEObjectImpl.Container implements ColType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetAlign() {
 		return alignESet;
 	}
@@ -411,6 +415,7 @@ public class ColTypeImpl extends MinimalEObjectImpl.Container implements ColType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getChar() {
 		return char_;
 	}
@@ -420,6 +425,7 @@ public class ColTypeImpl extends MinimalEObjectImpl.Container implements ColType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setChar(String newChar) {
 		String oldChar = char_;
 		char_ = newChar;
@@ -432,6 +438,7 @@ public class ColTypeImpl extends MinimalEObjectImpl.Container implements ColType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getCharoff() {
 		return charoff;
 	}
@@ -441,6 +448,7 @@ public class ColTypeImpl extends MinimalEObjectImpl.Container implements ColType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCharoff(String newCharoff) {
 		String oldCharoff = charoff;
 		charoff = newCharoff;
@@ -453,6 +461,7 @@ public class ColTypeImpl extends MinimalEObjectImpl.Container implements ColType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public List<String> getClass_() {
 		return class_;
 	}
@@ -462,6 +471,7 @@ public class ColTypeImpl extends MinimalEObjectImpl.Container implements ColType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setClass(List<String> newClass) {
 		List<String> oldClass = class_;
 		class_ = newClass;
@@ -474,6 +484,7 @@ public class ColTypeImpl extends MinimalEObjectImpl.Container implements ColType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DirType getDir() {
 		return dir;
 	}
@@ -483,6 +494,7 @@ public class ColTypeImpl extends MinimalEObjectImpl.Container implements ColType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDir(DirType newDir) {
 		DirType oldDir = dir;
 		dir = newDir == null ? DIR_EDEFAULT : newDir;
@@ -497,6 +509,7 @@ public class ColTypeImpl extends MinimalEObjectImpl.Container implements ColType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetDir() {
 		DirType oldDir = dir;
 		boolean oldDirESet = dirESet;
@@ -511,6 +524,7 @@ public class ColTypeImpl extends MinimalEObjectImpl.Container implements ColType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetDir() {
 		return dirESet;
 	}
@@ -520,6 +534,7 @@ public class ColTypeImpl extends MinimalEObjectImpl.Container implements ColType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getId() {
 		return id;
 	}
@@ -529,6 +544,7 @@ public class ColTypeImpl extends MinimalEObjectImpl.Container implements ColType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setId(String newId) {
 		String oldId = id;
 		id = newId;
@@ -541,6 +557,7 @@ public class ColTypeImpl extends MinimalEObjectImpl.Container implements ColType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getLang() {
 		return lang;
 	}
@@ -550,6 +567,7 @@ public class ColTypeImpl extends MinimalEObjectImpl.Container implements ColType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLang(String newLang) {
 		String oldLang = lang;
 		lang = newLang;
@@ -562,6 +580,7 @@ public class ColTypeImpl extends MinimalEObjectImpl.Container implements ColType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Object getLang1() {
 		return lang1;
 	}
@@ -571,6 +590,7 @@ public class ColTypeImpl extends MinimalEObjectImpl.Container implements ColType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLang1(Object newLang1) {
 		Object oldLang1 = lang1;
 		lang1 = newLang1;
@@ -583,6 +603,7 @@ public class ColTypeImpl extends MinimalEObjectImpl.Container implements ColType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public BigInteger getSpan() {
 		return span;
 	}
@@ -592,6 +613,7 @@ public class ColTypeImpl extends MinimalEObjectImpl.Container implements ColType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSpan(BigInteger newSpan) {
 		BigInteger oldSpan = span;
 		span = newSpan;
@@ -606,6 +628,7 @@ public class ColTypeImpl extends MinimalEObjectImpl.Container implements ColType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetSpan() {
 		BigInteger oldSpan = span;
 		boolean oldSpanESet = spanESet;
@@ -620,6 +643,7 @@ public class ColTypeImpl extends MinimalEObjectImpl.Container implements ColType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetSpan() {
 		return spanESet;
 	}
@@ -629,6 +653,7 @@ public class ColTypeImpl extends MinimalEObjectImpl.Container implements ColType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getStyle() {
 		return style;
 	}
@@ -638,6 +663,7 @@ public class ColTypeImpl extends MinimalEObjectImpl.Container implements ColType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStyle(String newStyle) {
 		String oldStyle = style;
 		style = newStyle;
@@ -650,6 +676,7 @@ public class ColTypeImpl extends MinimalEObjectImpl.Container implements ColType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getTitle() {
 		return title;
 	}
@@ -659,6 +686,7 @@ public class ColTypeImpl extends MinimalEObjectImpl.Container implements ColType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(String newTitle) {
 		String oldTitle = title;
 		title = newTitle;
@@ -671,6 +699,7 @@ public class ColTypeImpl extends MinimalEObjectImpl.Container implements ColType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ValignType getValign() {
 		return valign;
 	}
@@ -680,6 +709,7 @@ public class ColTypeImpl extends MinimalEObjectImpl.Container implements ColType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValign(ValignType newValign) {
 		ValignType oldValign = valign;
 		valign = newValign == null ? VALIGN_EDEFAULT : newValign;
@@ -694,6 +724,7 @@ public class ColTypeImpl extends MinimalEObjectImpl.Container implements ColType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValign() {
 		ValignType oldValign = valign;
 		boolean oldValignESet = valignESet;
@@ -708,6 +739,7 @@ public class ColTypeImpl extends MinimalEObjectImpl.Container implements ColType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValign() {
 		return valignESet;
 	}
@@ -717,6 +749,7 @@ public class ColTypeImpl extends MinimalEObjectImpl.Container implements ColType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getWidth() {
 		return width;
 	}
@@ -726,6 +759,7 @@ public class ColTypeImpl extends MinimalEObjectImpl.Container implements ColType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setWidth(String newWidth) {
 		String oldWidth = width;
 		width = newWidth;

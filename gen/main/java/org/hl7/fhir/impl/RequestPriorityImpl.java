@@ -79,6 +79,7 @@ public class RequestPriorityImpl extends ElementImpl implements RequestPriority 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public RequestPriorityEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class RequestPriorityImpl extends ElementImpl implements RequestPriority 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(RequestPriorityEnum newValue) {
 		RequestPriorityEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class RequestPriorityImpl extends ElementImpl implements RequestPriority 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		RequestPriorityEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class RequestPriorityImpl extends ElementImpl implements RequestPriority 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

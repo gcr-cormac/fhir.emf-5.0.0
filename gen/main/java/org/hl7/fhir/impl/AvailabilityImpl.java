@@ -78,6 +78,7 @@ public class AvailabilityImpl extends DataTypeImpl implements Availability {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<AvailabilityAvailableTime> getAvailableTime() {
 		if (availableTime == null) {
 			availableTime = new EObjectContainmentEList<AvailabilityAvailableTime>(AvailabilityAvailableTime.class, this, FhirPackage.AVAILABILITY__AVAILABLE_TIME);
@@ -90,6 +91,7 @@ public class AvailabilityImpl extends DataTypeImpl implements Availability {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<AvailabilityNotAvailableTime> getNotAvailableTime() {
 		if (notAvailableTime == null) {
 			notAvailableTime = new EObjectContainmentEList<AvailabilityNotAvailableTime>(AvailabilityNotAvailableTime.class, this, FhirPackage.AVAILABILITY__NOT_AVAILABLE_TIME);

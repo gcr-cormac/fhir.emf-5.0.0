@@ -98,6 +98,7 @@ public class EvidenceReportTargetImpl extends BackboneElementImpl implements Evi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getUrl() {
 		return url;
 	}
@@ -122,6 +123,7 @@ public class EvidenceReportTargetImpl extends BackboneElementImpl implements Evi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUrl(Uri newUrl) {
 		if (newUrl != url) {
 			NotificationChain msgs = null;
@@ -141,6 +143,7 @@ public class EvidenceReportTargetImpl extends BackboneElementImpl implements Evi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Identifier getIdentifier() {
 		return identifier;
 	}
@@ -165,6 +168,7 @@ public class EvidenceReportTargetImpl extends BackboneElementImpl implements Evi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIdentifier(Identifier newIdentifier) {
 		if (newIdentifier != identifier) {
 			NotificationChain msgs = null;
@@ -184,6 +188,7 @@ public class EvidenceReportTargetImpl extends BackboneElementImpl implements Evi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDisplay() {
 		return display;
 	}
@@ -208,6 +213,7 @@ public class EvidenceReportTargetImpl extends BackboneElementImpl implements Evi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDisplay(Markdown newDisplay) {
 		if (newDisplay != display) {
 			NotificationChain msgs = null;
@@ -227,6 +233,7 @@ public class EvidenceReportTargetImpl extends BackboneElementImpl implements Evi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getResource() {
 		return resource;
 	}
@@ -251,6 +258,7 @@ public class EvidenceReportTargetImpl extends BackboneElementImpl implements Evi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setResource(Reference newResource) {
 		if (newResource != resource) {
 			NotificationChain msgs = null;

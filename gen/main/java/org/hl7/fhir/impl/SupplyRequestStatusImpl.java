@@ -79,6 +79,7 @@ public class SupplyRequestStatusImpl extends ElementImpl implements SupplyReques
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SupplyRequestStatusEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class SupplyRequestStatusImpl extends ElementImpl implements SupplyReques
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(SupplyRequestStatusEnum newValue) {
 		SupplyRequestStatusEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class SupplyRequestStatusImpl extends ElementImpl implements SupplyReques
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		SupplyRequestStatusEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class SupplyRequestStatusImpl extends ElementImpl implements SupplyReques
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

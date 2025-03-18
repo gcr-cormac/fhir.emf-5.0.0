@@ -79,6 +79,7 @@ public class AssertionManualCompletionTypeImpl extends ElementImpl implements As
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AssertionManualCompletionTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class AssertionManualCompletionTypeImpl extends ElementImpl implements As
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(AssertionManualCompletionTypeEnum newValue) {
 		AssertionManualCompletionTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class AssertionManualCompletionTypeImpl extends ElementImpl implements As
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		AssertionManualCompletionTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class AssertionManualCompletionTypeImpl extends ElementImpl implements As
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

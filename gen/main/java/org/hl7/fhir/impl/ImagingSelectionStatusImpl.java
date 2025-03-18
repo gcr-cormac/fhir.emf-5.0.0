@@ -79,6 +79,7 @@ public class ImagingSelectionStatusImpl extends ElementImpl implements ImagingSe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ImagingSelectionStatusEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ImagingSelectionStatusImpl extends ElementImpl implements ImagingSe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ImagingSelectionStatusEnum newValue) {
 		ImagingSelectionStatusEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ImagingSelectionStatusImpl extends ElementImpl implements ImagingSe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ImagingSelectionStatusEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ImagingSelectionStatusImpl extends ElementImpl implements ImagingSe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

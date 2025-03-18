@@ -81,6 +81,7 @@ public class AuditEventOutcomeImpl extends BackboneElementImpl implements AuditE
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getCode() {
 		return code;
 	}
@@ -105,6 +106,7 @@ public class AuditEventOutcomeImpl extends BackboneElementImpl implements AuditE
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(Coding newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -124,6 +126,7 @@ public class AuditEventOutcomeImpl extends BackboneElementImpl implements AuditE
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getDetail() {
 		if (detail == null) {
 			detail = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.AUDIT_EVENT_OUTCOME__DETAIL);

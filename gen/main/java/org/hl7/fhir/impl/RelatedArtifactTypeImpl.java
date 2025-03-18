@@ -79,6 +79,7 @@ public class RelatedArtifactTypeImpl extends ElementImpl implements RelatedArtif
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public RelatedArtifactTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class RelatedArtifactTypeImpl extends ElementImpl implements RelatedArtif
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(RelatedArtifactTypeEnum newValue) {
 		RelatedArtifactTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class RelatedArtifactTypeImpl extends ElementImpl implements RelatedArtif
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		RelatedArtifactTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class RelatedArtifactTypeImpl extends ElementImpl implements RelatedArtif
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

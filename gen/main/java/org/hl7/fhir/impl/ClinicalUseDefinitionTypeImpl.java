@@ -79,6 +79,7 @@ public class ClinicalUseDefinitionTypeImpl extends ElementImpl implements Clinic
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ClinicalUseDefinitionTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ClinicalUseDefinitionTypeImpl extends ElementImpl implements Clinic
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ClinicalUseDefinitionTypeEnum newValue) {
 		ClinicalUseDefinitionTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ClinicalUseDefinitionTypeImpl extends ElementImpl implements Clinic
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ClinicalUseDefinitionTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ClinicalUseDefinitionTypeImpl extends ElementImpl implements Clinic
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

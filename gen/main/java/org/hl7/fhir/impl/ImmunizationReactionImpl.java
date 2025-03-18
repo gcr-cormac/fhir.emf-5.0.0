@@ -85,6 +85,7 @@ public class ImmunizationReactionImpl extends BackboneElementImpl implements Imm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getDate() {
 		return date;
 	}
@@ -109,6 +110,7 @@ public class ImmunizationReactionImpl extends BackboneElementImpl implements Imm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDate(DateTime newDate) {
 		if (newDate != date) {
 			NotificationChain msgs = null;
@@ -128,6 +130,7 @@ public class ImmunizationReactionImpl extends BackboneElementImpl implements Imm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getManifestation() {
 		return manifestation;
 	}
@@ -152,6 +155,7 @@ public class ImmunizationReactionImpl extends BackboneElementImpl implements Imm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setManifestation(CodeableReference newManifestation) {
 		if (newManifestation != manifestation) {
 			NotificationChain msgs = null;
@@ -171,6 +175,7 @@ public class ImmunizationReactionImpl extends BackboneElementImpl implements Imm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getReported() {
 		return reported;
 	}
@@ -195,6 +200,7 @@ public class ImmunizationReactionImpl extends BackboneElementImpl implements Imm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReported(org.hl7.fhir.Boolean newReported) {
 		if (newReported != reported) {
 			NotificationChain msgs = null;

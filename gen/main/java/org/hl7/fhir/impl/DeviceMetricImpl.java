@@ -164,6 +164,7 @@ public class DeviceMetricImpl extends DomainResourceImpl implements DeviceMetric
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.DEVICE_METRIC__IDENTIFIER);
@@ -176,6 +177,7 @@ public class DeviceMetricImpl extends DomainResourceImpl implements DeviceMetric
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -200,6 +202,7 @@ public class DeviceMetricImpl extends DomainResourceImpl implements DeviceMetric
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -219,6 +222,7 @@ public class DeviceMetricImpl extends DomainResourceImpl implements DeviceMetric
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getUnit() {
 		return unit;
 	}
@@ -243,6 +247,7 @@ public class DeviceMetricImpl extends DomainResourceImpl implements DeviceMetric
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUnit(CodeableConcept newUnit) {
 		if (newUnit != unit) {
 			NotificationChain msgs = null;
@@ -262,6 +267,7 @@ public class DeviceMetricImpl extends DomainResourceImpl implements DeviceMetric
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getDevice() {
 		return device;
 	}
@@ -286,6 +292,7 @@ public class DeviceMetricImpl extends DomainResourceImpl implements DeviceMetric
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDevice(Reference newDevice) {
 		if (newDevice != device) {
 			NotificationChain msgs = null;
@@ -305,6 +312,7 @@ public class DeviceMetricImpl extends DomainResourceImpl implements DeviceMetric
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DeviceMetricOperationalStatus getOperationalStatus() {
 		return operationalStatus;
 	}
@@ -329,6 +337,7 @@ public class DeviceMetricImpl extends DomainResourceImpl implements DeviceMetric
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOperationalStatus(DeviceMetricOperationalStatus newOperationalStatus) {
 		if (newOperationalStatus != operationalStatus) {
 			NotificationChain msgs = null;
@@ -348,6 +357,7 @@ public class DeviceMetricImpl extends DomainResourceImpl implements DeviceMetric
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ColorCodesOrRGB getColor() {
 		return color;
 	}
@@ -372,6 +382,7 @@ public class DeviceMetricImpl extends DomainResourceImpl implements DeviceMetric
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setColor(ColorCodesOrRGB newColor) {
 		if (newColor != color) {
 			NotificationChain msgs = null;
@@ -391,6 +402,7 @@ public class DeviceMetricImpl extends DomainResourceImpl implements DeviceMetric
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DeviceMetricCategory getCategory() {
 		return category;
 	}
@@ -415,6 +427,7 @@ public class DeviceMetricImpl extends DomainResourceImpl implements DeviceMetric
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCategory(DeviceMetricCategory newCategory) {
 		if (newCategory != category) {
 			NotificationChain msgs = null;
@@ -434,6 +447,7 @@ public class DeviceMetricImpl extends DomainResourceImpl implements DeviceMetric
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getMeasurementFrequency() {
 		return measurementFrequency;
 	}
@@ -458,6 +472,7 @@ public class DeviceMetricImpl extends DomainResourceImpl implements DeviceMetric
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMeasurementFrequency(Quantity newMeasurementFrequency) {
 		if (newMeasurementFrequency != measurementFrequency) {
 			NotificationChain msgs = null;
@@ -477,6 +492,7 @@ public class DeviceMetricImpl extends DomainResourceImpl implements DeviceMetric
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<DeviceMetricCalibration> getCalibration() {
 		if (calibration == null) {
 			calibration = new EObjectContainmentEList<DeviceMetricCalibration>(DeviceMetricCalibration.class, this, FhirPackage.DEVICE_METRIC__CALIBRATION);

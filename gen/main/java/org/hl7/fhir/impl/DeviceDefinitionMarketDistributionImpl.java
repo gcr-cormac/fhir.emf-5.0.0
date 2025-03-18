@@ -74,6 +74,7 @@ public class DeviceDefinitionMarketDistributionImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getMarketPeriod() {
 		return marketPeriod;
 	}
@@ -98,6 +99,7 @@ public class DeviceDefinitionMarketDistributionImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMarketPeriod(Period newMarketPeriod) {
 		if (newMarketPeriod != marketPeriod) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class DeviceDefinitionMarketDistributionImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getSubJurisdiction() {
 		return subJurisdiction;
 	}
@@ -141,6 +144,7 @@ public class DeviceDefinitionMarketDistributionImpl extends BackboneElementImpl 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubJurisdiction(Uri newSubJurisdiction) {
 		if (newSubJurisdiction != subJurisdiction) {
 			NotificationChain msgs = null;

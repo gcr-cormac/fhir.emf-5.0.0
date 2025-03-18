@@ -322,6 +322,7 @@ public class CarePlanImpl extends DomainResourceImpl implements CarePlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.CARE_PLAN__IDENTIFIER);
@@ -334,6 +335,7 @@ public class CarePlanImpl extends DomainResourceImpl implements CarePlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Canonical> getInstantiatesCanonical() {
 		if (instantiatesCanonical == null) {
 			instantiatesCanonical = new EObjectContainmentEList<Canonical>(Canonical.class, this, FhirPackage.CARE_PLAN__INSTANTIATES_CANONICAL);
@@ -346,6 +348,7 @@ public class CarePlanImpl extends DomainResourceImpl implements CarePlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Uri> getInstantiatesUri() {
 		if (instantiatesUri == null) {
 			instantiatesUri = new EObjectContainmentEList<Uri>(Uri.class, this, FhirPackage.CARE_PLAN__INSTANTIATES_URI);
@@ -358,6 +361,7 @@ public class CarePlanImpl extends DomainResourceImpl implements CarePlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getBasedOn() {
 		if (basedOn == null) {
 			basedOn = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.CARE_PLAN__BASED_ON);
@@ -370,6 +374,7 @@ public class CarePlanImpl extends DomainResourceImpl implements CarePlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getReplaces() {
 		if (replaces == null) {
 			replaces = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.CARE_PLAN__REPLACES);
@@ -382,6 +387,7 @@ public class CarePlanImpl extends DomainResourceImpl implements CarePlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getPartOf() {
 		if (partOf == null) {
 			partOf = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.CARE_PLAN__PART_OF);
@@ -394,6 +400,7 @@ public class CarePlanImpl extends DomainResourceImpl implements CarePlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public RequestStatus getStatus() {
 		return status;
 	}
@@ -418,6 +425,7 @@ public class CarePlanImpl extends DomainResourceImpl implements CarePlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(RequestStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -437,6 +445,7 @@ public class CarePlanImpl extends DomainResourceImpl implements CarePlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CarePlanIntent getIntent() {
 		return intent;
 	}
@@ -461,6 +470,7 @@ public class CarePlanImpl extends DomainResourceImpl implements CarePlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIntent(CarePlanIntent newIntent) {
 		if (newIntent != intent) {
 			NotificationChain msgs = null;
@@ -480,6 +490,7 @@ public class CarePlanImpl extends DomainResourceImpl implements CarePlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCategory() {
 		if (category == null) {
 			category = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.CARE_PLAN__CATEGORY);
@@ -492,6 +503,7 @@ public class CarePlanImpl extends DomainResourceImpl implements CarePlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getTitle() {
 		return title;
 	}
@@ -516,6 +528,7 @@ public class CarePlanImpl extends DomainResourceImpl implements CarePlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(org.hl7.fhir.String newTitle) {
 		if (newTitle != title) {
 			NotificationChain msgs = null;
@@ -535,6 +548,7 @@ public class CarePlanImpl extends DomainResourceImpl implements CarePlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDescription() {
 		return description;
 	}
@@ -559,6 +573,7 @@ public class CarePlanImpl extends DomainResourceImpl implements CarePlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(org.hl7.fhir.String newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -578,6 +593,7 @@ public class CarePlanImpl extends DomainResourceImpl implements CarePlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubject() {
 		return subject;
 	}
@@ -602,6 +618,7 @@ public class CarePlanImpl extends DomainResourceImpl implements CarePlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubject(Reference newSubject) {
 		if (newSubject != subject) {
 			NotificationChain msgs = null;
@@ -621,6 +638,7 @@ public class CarePlanImpl extends DomainResourceImpl implements CarePlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getEncounter() {
 		return encounter;
 	}
@@ -645,6 +663,7 @@ public class CarePlanImpl extends DomainResourceImpl implements CarePlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEncounter(Reference newEncounter) {
 		if (newEncounter != encounter) {
 			NotificationChain msgs = null;
@@ -664,6 +683,7 @@ public class CarePlanImpl extends DomainResourceImpl implements CarePlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getPeriod() {
 		return period;
 	}
@@ -688,6 +708,7 @@ public class CarePlanImpl extends DomainResourceImpl implements CarePlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriod(Period newPeriod) {
 		if (newPeriod != period) {
 			NotificationChain msgs = null;
@@ -707,6 +728,7 @@ public class CarePlanImpl extends DomainResourceImpl implements CarePlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getCreated() {
 		return created;
 	}
@@ -731,6 +753,7 @@ public class CarePlanImpl extends DomainResourceImpl implements CarePlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCreated(DateTime newCreated) {
 		if (newCreated != created) {
 			NotificationChain msgs = null;
@@ -750,6 +773,7 @@ public class CarePlanImpl extends DomainResourceImpl implements CarePlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getCustodian() {
 		return custodian;
 	}
@@ -774,6 +798,7 @@ public class CarePlanImpl extends DomainResourceImpl implements CarePlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCustodian(Reference newCustodian) {
 		if (newCustodian != custodian) {
 			NotificationChain msgs = null;
@@ -793,6 +818,7 @@ public class CarePlanImpl extends DomainResourceImpl implements CarePlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getContributor() {
 		if (contributor == null) {
 			contributor = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.CARE_PLAN__CONTRIBUTOR);
@@ -805,6 +831,7 @@ public class CarePlanImpl extends DomainResourceImpl implements CarePlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getCareTeam() {
 		if (careTeam == null) {
 			careTeam = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.CARE_PLAN__CARE_TEAM);
@@ -817,6 +844,7 @@ public class CarePlanImpl extends DomainResourceImpl implements CarePlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getAddresses() {
 		if (addresses == null) {
 			addresses = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.CARE_PLAN__ADDRESSES);
@@ -829,6 +857,7 @@ public class CarePlanImpl extends DomainResourceImpl implements CarePlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getSupportingInfo() {
 		if (supportingInfo == null) {
 			supportingInfo = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.CARE_PLAN__SUPPORTING_INFO);
@@ -841,6 +870,7 @@ public class CarePlanImpl extends DomainResourceImpl implements CarePlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getGoal() {
 		if (goal == null) {
 			goal = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.CARE_PLAN__GOAL);
@@ -853,6 +883,7 @@ public class CarePlanImpl extends DomainResourceImpl implements CarePlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CarePlanActivity> getActivity() {
 		if (activity == null) {
 			activity = new EObjectContainmentEList<CarePlanActivity>(CarePlanActivity.class, this, FhirPackage.CARE_PLAN__ACTIVITY);
@@ -865,6 +896,7 @@ public class CarePlanImpl extends DomainResourceImpl implements CarePlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.CARE_PLAN__NOTE);

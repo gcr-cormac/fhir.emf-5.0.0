@@ -84,6 +84,7 @@ public class RatioRangeImpl extends DataTypeImpl implements RatioRange {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getLowNumerator() {
 		return lowNumerator;
 	}
@@ -108,6 +109,7 @@ public class RatioRangeImpl extends DataTypeImpl implements RatioRange {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLowNumerator(Quantity newLowNumerator) {
 		if (newLowNumerator != lowNumerator) {
 			NotificationChain msgs = null;
@@ -127,6 +129,7 @@ public class RatioRangeImpl extends DataTypeImpl implements RatioRange {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getHighNumerator() {
 		return highNumerator;
 	}
@@ -151,6 +154,7 @@ public class RatioRangeImpl extends DataTypeImpl implements RatioRange {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setHighNumerator(Quantity newHighNumerator) {
 		if (newHighNumerator != highNumerator) {
 			NotificationChain msgs = null;
@@ -170,6 +174,7 @@ public class RatioRangeImpl extends DataTypeImpl implements RatioRange {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getDenominator() {
 		return denominator;
 	}
@@ -194,6 +199,7 @@ public class RatioRangeImpl extends DataTypeImpl implements RatioRange {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDenominator(Quantity newDenominator) {
 		if (newDenominator != denominator) {
 			NotificationChain msgs = null;

@@ -80,6 +80,7 @@ public class DeviceUsageAdherenceImpl extends BackboneElementImpl implements Dev
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -104,6 +105,7 @@ public class DeviceUsageAdherenceImpl extends BackboneElementImpl implements Dev
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -123,6 +125,7 @@ public class DeviceUsageAdherenceImpl extends BackboneElementImpl implements Dev
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getReason() {
 		if (reason == null) {
 			reason = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.DEVICE_USAGE_ADHERENCE__REASON);

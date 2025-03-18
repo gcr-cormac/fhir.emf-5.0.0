@@ -79,6 +79,7 @@ public class SPDXLicenseImpl extends ElementImpl implements SPDXLicense {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SPDXLicenseEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class SPDXLicenseImpl extends ElementImpl implements SPDXLicense {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(SPDXLicenseEnum newValue) {
 		SPDXLicenseEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class SPDXLicenseImpl extends ElementImpl implements SPDXLicense {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		SPDXLicenseEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class SPDXLicenseImpl extends ElementImpl implements SPDXLicense {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

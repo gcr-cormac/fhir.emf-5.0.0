@@ -154,6 +154,7 @@ public class PlanDefinitionTargetImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getMeasure() {
 		return measure;
 	}
@@ -178,6 +179,7 @@ public class PlanDefinitionTargetImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMeasure(CodeableConcept newMeasure) {
 		if (newMeasure != measure) {
 			NotificationChain msgs = null;
@@ -197,6 +199,7 @@ public class PlanDefinitionTargetImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getDetailQuantity() {
 		return detailQuantity;
 	}
@@ -221,6 +224,7 @@ public class PlanDefinitionTargetImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDetailQuantity(Quantity newDetailQuantity) {
 		if (newDetailQuantity != detailQuantity) {
 			NotificationChain msgs = null;
@@ -240,6 +244,7 @@ public class PlanDefinitionTargetImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Range getDetailRange() {
 		return detailRange;
 	}
@@ -264,6 +269,7 @@ public class PlanDefinitionTargetImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDetailRange(Range newDetailRange) {
 		if (newDetailRange != detailRange) {
 			NotificationChain msgs = null;
@@ -283,6 +289,7 @@ public class PlanDefinitionTargetImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getDetailCodeableConcept() {
 		return detailCodeableConcept;
 	}
@@ -307,6 +314,7 @@ public class PlanDefinitionTargetImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDetailCodeableConcept(CodeableConcept newDetailCodeableConcept) {
 		if (newDetailCodeableConcept != detailCodeableConcept) {
 			NotificationChain msgs = null;
@@ -326,6 +334,7 @@ public class PlanDefinitionTargetImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDetailString() {
 		return detailString;
 	}
@@ -350,6 +359,7 @@ public class PlanDefinitionTargetImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDetailString(org.hl7.fhir.String newDetailString) {
 		if (newDetailString != detailString) {
 			NotificationChain msgs = null;
@@ -369,6 +379,7 @@ public class PlanDefinitionTargetImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getDetailBoolean() {
 		return detailBoolean;
 	}
@@ -393,6 +404,7 @@ public class PlanDefinitionTargetImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDetailBoolean(org.hl7.fhir.Boolean newDetailBoolean) {
 		if (newDetailBoolean != detailBoolean) {
 			NotificationChain msgs = null;
@@ -412,6 +424,7 @@ public class PlanDefinitionTargetImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Integer getDetailInteger() {
 		return detailInteger;
 	}
@@ -436,6 +449,7 @@ public class PlanDefinitionTargetImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDetailInteger(org.hl7.fhir.Integer newDetailInteger) {
 		if (newDetailInteger != detailInteger) {
 			NotificationChain msgs = null;
@@ -455,6 +469,7 @@ public class PlanDefinitionTargetImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Ratio getDetailRatio() {
 		return detailRatio;
 	}
@@ -479,6 +494,7 @@ public class PlanDefinitionTargetImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDetailRatio(Ratio newDetailRatio) {
 		if (newDetailRatio != detailRatio) {
 			NotificationChain msgs = null;
@@ -498,6 +514,7 @@ public class PlanDefinitionTargetImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Duration getDue() {
 		return due;
 	}
@@ -522,6 +539,7 @@ public class PlanDefinitionTargetImpl extends BackboneElementImpl implements Pla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDue(Duration newDue) {
 		if (newDue != due) {
 			NotificationChain msgs = null;

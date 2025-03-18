@@ -108,6 +108,7 @@ public class NutritionOrderSupplementImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getType() {
 		return type;
 	}
@@ -132,6 +133,7 @@ public class NutritionOrderSupplementImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableReference newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -151,6 +153,7 @@ public class NutritionOrderSupplementImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getProductName() {
 		return productName;
 	}
@@ -175,6 +178,7 @@ public class NutritionOrderSupplementImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProductName(org.hl7.fhir.String newProductName) {
 		if (newProductName != productName) {
 			NotificationChain msgs = null;
@@ -194,6 +198,7 @@ public class NutritionOrderSupplementImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public NutritionOrderSchedule1 getSchedule() {
 		return schedule;
 	}
@@ -218,6 +223,7 @@ public class NutritionOrderSupplementImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSchedule(NutritionOrderSchedule1 newSchedule) {
 		if (newSchedule != schedule) {
 			NotificationChain msgs = null;
@@ -237,6 +243,7 @@ public class NutritionOrderSupplementImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getQuantity() {
 		return quantity;
 	}
@@ -261,6 +268,7 @@ public class NutritionOrderSupplementImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setQuantity(Quantity newQuantity) {
 		if (newQuantity != quantity) {
 			NotificationChain msgs = null;
@@ -280,6 +288,7 @@ public class NutritionOrderSupplementImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getInstruction() {
 		return instruction;
 	}
@@ -304,6 +313,7 @@ public class NutritionOrderSupplementImpl extends BackboneElementImpl implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInstruction(org.hl7.fhir.String newInstruction) {
 		if (newInstruction != instruction) {
 			NotificationChain msgs = null;

@@ -92,6 +92,7 @@ public class LinkageImpl extends DomainResourceImpl implements Linkage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getActive() {
 		return active;
 	}
@@ -116,6 +117,7 @@ public class LinkageImpl extends DomainResourceImpl implements Linkage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setActive(org.hl7.fhir.Boolean newActive) {
 		if (newActive != active) {
 			NotificationChain msgs = null;
@@ -135,6 +137,7 @@ public class LinkageImpl extends DomainResourceImpl implements Linkage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getAuthor() {
 		return author;
 	}
@@ -159,6 +162,7 @@ public class LinkageImpl extends DomainResourceImpl implements Linkage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAuthor(Reference newAuthor) {
 		if (newAuthor != author) {
 			NotificationChain msgs = null;
@@ -178,6 +182,7 @@ public class LinkageImpl extends DomainResourceImpl implements Linkage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<LinkageItem> getItem() {
 		if (item == null) {
 			item = new EObjectContainmentEList<LinkageItem>(LinkageItem.class, this, FhirPackage.LINKAGE__ITEM);

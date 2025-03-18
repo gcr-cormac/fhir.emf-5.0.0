@@ -176,6 +176,7 @@ public class DataRequirementImpl extends DataTypeImpl implements DataRequirement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Code getType() {
 		return type;
 	}
@@ -200,6 +201,7 @@ public class DataRequirementImpl extends DataTypeImpl implements DataRequirement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(Code newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -219,6 +221,7 @@ public class DataRequirementImpl extends DataTypeImpl implements DataRequirement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Canonical> getProfile() {
 		if (profile == null) {
 			profile = new EObjectContainmentEList<Canonical>(Canonical.class, this, FhirPackage.DATA_REQUIREMENT__PROFILE);
@@ -231,6 +234,7 @@ public class DataRequirementImpl extends DataTypeImpl implements DataRequirement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getSubjectCodeableConcept() {
 		return subjectCodeableConcept;
 	}
@@ -255,6 +259,7 @@ public class DataRequirementImpl extends DataTypeImpl implements DataRequirement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubjectCodeableConcept(CodeableConcept newSubjectCodeableConcept) {
 		if (newSubjectCodeableConcept != subjectCodeableConcept) {
 			NotificationChain msgs = null;
@@ -274,6 +279,7 @@ public class DataRequirementImpl extends DataTypeImpl implements DataRequirement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubjectReference() {
 		return subjectReference;
 	}
@@ -298,6 +304,7 @@ public class DataRequirementImpl extends DataTypeImpl implements DataRequirement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubjectReference(Reference newSubjectReference) {
 		if (newSubjectReference != subjectReference) {
 			NotificationChain msgs = null;
@@ -317,6 +324,7 @@ public class DataRequirementImpl extends DataTypeImpl implements DataRequirement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<org.hl7.fhir.String> getMustSupport() {
 		if (mustSupport == null) {
 			mustSupport = new EObjectContainmentEList<org.hl7.fhir.String>(org.hl7.fhir.String.class, this, FhirPackage.DATA_REQUIREMENT__MUST_SUPPORT);
@@ -329,6 +337,7 @@ public class DataRequirementImpl extends DataTypeImpl implements DataRequirement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<DataRequirementCodeFilter> getCodeFilter() {
 		if (codeFilter == null) {
 			codeFilter = new EObjectContainmentEList<DataRequirementCodeFilter>(DataRequirementCodeFilter.class, this, FhirPackage.DATA_REQUIREMENT__CODE_FILTER);
@@ -341,6 +350,7 @@ public class DataRequirementImpl extends DataTypeImpl implements DataRequirement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<DataRequirementDateFilter> getDateFilter() {
 		if (dateFilter == null) {
 			dateFilter = new EObjectContainmentEList<DataRequirementDateFilter>(DataRequirementDateFilter.class, this, FhirPackage.DATA_REQUIREMENT__DATE_FILTER);
@@ -353,6 +363,7 @@ public class DataRequirementImpl extends DataTypeImpl implements DataRequirement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<DataRequirementValueFilter> getValueFilter() {
 		if (valueFilter == null) {
 			valueFilter = new EObjectContainmentEList<DataRequirementValueFilter>(DataRequirementValueFilter.class, this, FhirPackage.DATA_REQUIREMENT__VALUE_FILTER);
@@ -365,6 +376,7 @@ public class DataRequirementImpl extends DataTypeImpl implements DataRequirement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PositiveInt getLimit() {
 		return limit;
 	}
@@ -389,6 +401,7 @@ public class DataRequirementImpl extends DataTypeImpl implements DataRequirement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLimit(PositiveInt newLimit) {
 		if (newLimit != limit) {
 			NotificationChain msgs = null;
@@ -408,6 +421,7 @@ public class DataRequirementImpl extends DataTypeImpl implements DataRequirement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<DataRequirementSort> getSort() {
 		if (sort == null) {
 			sort = new EObjectContainmentEList<DataRequirementSort>(DataRequirementSort.class, this, FhirPackage.DATA_REQUIREMENT__SORT);

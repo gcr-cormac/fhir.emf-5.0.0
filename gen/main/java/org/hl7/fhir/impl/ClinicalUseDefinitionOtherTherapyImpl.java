@@ -74,6 +74,7 @@ public class ClinicalUseDefinitionOtherTherapyImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getRelationshipType() {
 		return relationshipType;
 	}
@@ -98,6 +99,7 @@ public class ClinicalUseDefinitionOtherTherapyImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRelationshipType(CodeableConcept newRelationshipType) {
 		if (newRelationshipType != relationshipType) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class ClinicalUseDefinitionOtherTherapyImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getTreatment() {
 		return treatment;
 	}
@@ -141,6 +144,7 @@ public class ClinicalUseDefinitionOtherTherapyImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTreatment(CodeableReference newTreatment) {
 		if (newTreatment != treatment) {
 			NotificationChain msgs = null;

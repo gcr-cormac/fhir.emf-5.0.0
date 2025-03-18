@@ -74,6 +74,7 @@ public class LinkageItemImpl extends BackboneElementImpl implements LinkageItem 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public LinkageType getType() {
 		return type;
 	}
@@ -98,6 +99,7 @@ public class LinkageItemImpl extends BackboneElementImpl implements LinkageItem 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(LinkageType newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class LinkageItemImpl extends BackboneElementImpl implements LinkageItem 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getResource() {
 		return resource;
 	}
@@ -141,6 +144,7 @@ public class LinkageItemImpl extends BackboneElementImpl implements LinkageItem 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setResource(Reference newResource) {
 		if (newResource != resource) {
 			NotificationChain msgs = null;

@@ -79,6 +79,7 @@ public class EpisodeOfCareStatusImpl extends ElementImpl implements EpisodeOfCar
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EpisodeOfCareStatusEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class EpisodeOfCareStatusImpl extends ElementImpl implements EpisodeOfCar
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(EpisodeOfCareStatusEnum newValue) {
 		EpisodeOfCareStatusEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class EpisodeOfCareStatusImpl extends ElementImpl implements EpisodeOfCar
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		EpisodeOfCareStatusEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class EpisodeOfCareStatusImpl extends ElementImpl implements EpisodeOfCar
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

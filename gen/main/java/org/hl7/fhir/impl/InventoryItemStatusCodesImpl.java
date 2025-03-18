@@ -79,6 +79,7 @@ public class InventoryItemStatusCodesImpl extends ElementImpl implements Invento
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public InventoryItemStatusCodesEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class InventoryItemStatusCodesImpl extends ElementImpl implements Invento
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(InventoryItemStatusCodesEnum newValue) {
 		InventoryItemStatusCodesEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class InventoryItemStatusCodesImpl extends ElementImpl implements Invento
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		InventoryItemStatusCodesEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class InventoryItemStatusCodesImpl extends ElementImpl implements Invento
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

@@ -379,6 +379,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.CHARGE_ITEM__IDENTIFIER);
@@ -391,6 +392,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Uri> getDefinitionUri() {
 		if (definitionUri == null) {
 			definitionUri = new EObjectContainmentEList<Uri>(Uri.class, this, FhirPackage.CHARGE_ITEM__DEFINITION_URI);
@@ -403,6 +405,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Canonical> getDefinitionCanonical() {
 		if (definitionCanonical == null) {
 			definitionCanonical = new EObjectContainmentEList<Canonical>(Canonical.class, this, FhirPackage.CHARGE_ITEM__DEFINITION_CANONICAL);
@@ -415,6 +418,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ChargeItemStatus getStatus() {
 		return status;
 	}
@@ -439,6 +443,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(ChargeItemStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -458,6 +463,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getPartOf() {
 		if (partOf == null) {
 			partOf = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.CHARGE_ITEM__PART_OF);
@@ -470,6 +476,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -494,6 +501,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -513,6 +521,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubject() {
 		return subject;
 	}
@@ -537,6 +546,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubject(Reference newSubject) {
 		if (newSubject != subject) {
 			NotificationChain msgs = null;
@@ -556,6 +566,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getEncounter() {
 		return encounter;
 	}
@@ -580,6 +591,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEncounter(Reference newEncounter) {
 		if (newEncounter != encounter) {
 			NotificationChain msgs = null;
@@ -599,6 +611,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getOccurrenceDateTime() {
 		return occurrenceDateTime;
 	}
@@ -623,6 +636,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOccurrenceDateTime(DateTime newOccurrenceDateTime) {
 		if (newOccurrenceDateTime != occurrenceDateTime) {
 			NotificationChain msgs = null;
@@ -642,6 +656,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getOccurrencePeriod() {
 		return occurrencePeriod;
 	}
@@ -666,6 +681,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOccurrencePeriod(Period newOccurrencePeriod) {
 		if (newOccurrencePeriod != occurrencePeriod) {
 			NotificationChain msgs = null;
@@ -685,6 +701,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Timing getOccurrenceTiming() {
 		return occurrenceTiming;
 	}
@@ -709,6 +726,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOccurrenceTiming(Timing newOccurrenceTiming) {
 		if (newOccurrenceTiming != occurrenceTiming) {
 			NotificationChain msgs = null;
@@ -728,6 +746,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ChargeItemPerformer> getPerformer() {
 		if (performer == null) {
 			performer = new EObjectContainmentEList<ChargeItemPerformer>(ChargeItemPerformer.class, this, FhirPackage.CHARGE_ITEM__PERFORMER);
@@ -740,6 +759,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getPerformingOrganization() {
 		return performingOrganization;
 	}
@@ -764,6 +784,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPerformingOrganization(Reference newPerformingOrganization) {
 		if (newPerformingOrganization != performingOrganization) {
 			NotificationChain msgs = null;
@@ -783,6 +804,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getRequestingOrganization() {
 		return requestingOrganization;
 	}
@@ -807,6 +829,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRequestingOrganization(Reference newRequestingOrganization) {
 		if (newRequestingOrganization != requestingOrganization) {
 			NotificationChain msgs = null;
@@ -826,6 +849,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getCostCenter() {
 		return costCenter;
 	}
@@ -850,6 +874,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCostCenter(Reference newCostCenter) {
 		if (newCostCenter != costCenter) {
 			NotificationChain msgs = null;
@@ -869,6 +894,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getQuantity() {
 		return quantity;
 	}
@@ -893,6 +919,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setQuantity(Quantity newQuantity) {
 		if (newQuantity != quantity) {
 			NotificationChain msgs = null;
@@ -912,6 +939,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getBodysite() {
 		if (bodysite == null) {
 			bodysite = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.CHARGE_ITEM__BODYSITE);
@@ -924,6 +952,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public MonetaryComponent getUnitPriceComponent() {
 		return unitPriceComponent;
 	}
@@ -948,6 +977,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUnitPriceComponent(MonetaryComponent newUnitPriceComponent) {
 		if (newUnitPriceComponent != unitPriceComponent) {
 			NotificationChain msgs = null;
@@ -967,6 +997,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public MonetaryComponent getTotalPriceComponent() {
 		return totalPriceComponent;
 	}
@@ -991,6 +1022,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTotalPriceComponent(MonetaryComponent newTotalPriceComponent) {
 		if (newTotalPriceComponent != totalPriceComponent) {
 			NotificationChain msgs = null;
@@ -1010,6 +1042,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getOverrideReason() {
 		return overrideReason;
 	}
@@ -1034,6 +1067,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOverrideReason(CodeableConcept newOverrideReason) {
 		if (newOverrideReason != overrideReason) {
 			NotificationChain msgs = null;
@@ -1053,6 +1087,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getEnterer() {
 		return enterer;
 	}
@@ -1077,6 +1112,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEnterer(Reference newEnterer) {
 		if (newEnterer != enterer) {
 			NotificationChain msgs = null;
@@ -1096,6 +1132,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getEnteredDate() {
 		return enteredDate;
 	}
@@ -1120,6 +1157,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEnteredDate(DateTime newEnteredDate) {
 		if (newEnteredDate != enteredDate) {
 			NotificationChain msgs = null;
@@ -1139,6 +1177,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getReason() {
 		if (reason == null) {
 			reason = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.CHARGE_ITEM__REASON);
@@ -1151,6 +1190,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getService() {
 		if (service == null) {
 			service = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.CHARGE_ITEM__SERVICE);
@@ -1163,6 +1203,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getProduct() {
 		if (product == null) {
 			product = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.CHARGE_ITEM__PRODUCT);
@@ -1175,6 +1216,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getAccount() {
 		if (account == null) {
 			account = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.CHARGE_ITEM__ACCOUNT);
@@ -1187,6 +1229,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.CHARGE_ITEM__NOTE);
@@ -1199,6 +1242,7 @@ public class ChargeItemImpl extends DomainResourceImpl implements ChargeItem {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getSupportingInformation() {
 		if (supportingInformation == null) {
 			supportingInformation = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.CHARGE_ITEM__SUPPORTING_INFORMATION);

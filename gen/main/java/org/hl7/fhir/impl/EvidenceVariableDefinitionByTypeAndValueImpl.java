@@ -172,6 +172,7 @@ public class EvidenceVariableDefinitionByTypeAndValueImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -196,6 +197,7 @@ public class EvidenceVariableDefinitionByTypeAndValueImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -215,6 +217,7 @@ public class EvidenceVariableDefinitionByTypeAndValueImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getMethod() {
 		if (method == null) {
 			method = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.EVIDENCE_VARIABLE_DEFINITION_BY_TYPE_AND_VALUE__METHOD);
@@ -227,6 +230,7 @@ public class EvidenceVariableDefinitionByTypeAndValueImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getDevice() {
 		return device;
 	}
@@ -251,6 +255,7 @@ public class EvidenceVariableDefinitionByTypeAndValueImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDevice(Reference newDevice) {
 		if (newDevice != device) {
 			NotificationChain msgs = null;
@@ -270,6 +275,7 @@ public class EvidenceVariableDefinitionByTypeAndValueImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getValueCodeableConcept() {
 		return valueCodeableConcept;
 	}
@@ -294,6 +300,7 @@ public class EvidenceVariableDefinitionByTypeAndValueImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueCodeableConcept(CodeableConcept newValueCodeableConcept) {
 		if (newValueCodeableConcept != valueCodeableConcept) {
 			NotificationChain msgs = null;
@@ -313,6 +320,7 @@ public class EvidenceVariableDefinitionByTypeAndValueImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getValueBoolean() {
 		return valueBoolean;
 	}
@@ -337,6 +345,7 @@ public class EvidenceVariableDefinitionByTypeAndValueImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueBoolean(org.hl7.fhir.Boolean newValueBoolean) {
 		if (newValueBoolean != valueBoolean) {
 			NotificationChain msgs = null;
@@ -356,6 +365,7 @@ public class EvidenceVariableDefinitionByTypeAndValueImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getValueQuantity() {
 		return valueQuantity;
 	}
@@ -380,6 +390,7 @@ public class EvidenceVariableDefinitionByTypeAndValueImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueQuantity(Quantity newValueQuantity) {
 		if (newValueQuantity != valueQuantity) {
 			NotificationChain msgs = null;
@@ -399,6 +410,7 @@ public class EvidenceVariableDefinitionByTypeAndValueImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Range getValueRange() {
 		return valueRange;
 	}
@@ -423,6 +435,7 @@ public class EvidenceVariableDefinitionByTypeAndValueImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueRange(Range newValueRange) {
 		if (newValueRange != valueRange) {
 			NotificationChain msgs = null;
@@ -442,6 +455,7 @@ public class EvidenceVariableDefinitionByTypeAndValueImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getValueReference() {
 		return valueReference;
 	}
@@ -466,6 +480,7 @@ public class EvidenceVariableDefinitionByTypeAndValueImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueReference(Reference newValueReference) {
 		if (newValueReference != valueReference) {
 			NotificationChain msgs = null;
@@ -485,6 +500,7 @@ public class EvidenceVariableDefinitionByTypeAndValueImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Id getValueId() {
 		return valueId;
 	}
@@ -509,6 +525,7 @@ public class EvidenceVariableDefinitionByTypeAndValueImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueId(Id newValueId) {
 		if (newValueId != valueId) {
 			NotificationChain msgs = null;
@@ -528,6 +545,7 @@ public class EvidenceVariableDefinitionByTypeAndValueImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getOffset() {
 		return offset;
 	}
@@ -552,6 +570,7 @@ public class EvidenceVariableDefinitionByTypeAndValueImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOffset(CodeableConcept newOffset) {
 		if (newOffset != offset) {
 			NotificationChain msgs = null;

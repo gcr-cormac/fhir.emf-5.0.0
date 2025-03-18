@@ -79,6 +79,7 @@ public class PropertyRepresentationImpl extends ElementImpl implements PropertyR
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PropertyRepresentationEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class PropertyRepresentationImpl extends ElementImpl implements PropertyR
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(PropertyRepresentationEnum newValue) {
 		PropertyRepresentationEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class PropertyRepresentationImpl extends ElementImpl implements PropertyR
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		PropertyRepresentationEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class PropertyRepresentationImpl extends ElementImpl implements PropertyR
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

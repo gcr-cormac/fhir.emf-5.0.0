@@ -79,6 +79,7 @@ public class ExplanationOfBenefitStatusImpl extends ElementImpl implements Expla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ExplanationOfBenefitStatusEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ExplanationOfBenefitStatusImpl extends ElementImpl implements Expla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ExplanationOfBenefitStatusEnum newValue) {
 		ExplanationOfBenefitStatusEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ExplanationOfBenefitStatusImpl extends ElementImpl implements Expla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ExplanationOfBenefitStatusEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ExplanationOfBenefitStatusImpl extends ElementImpl implements Expla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

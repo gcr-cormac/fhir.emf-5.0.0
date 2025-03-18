@@ -178,6 +178,7 @@ public class SpecimenCollectionImpl extends BackboneElementImpl implements Speci
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getCollector() {
 		return collector;
 	}
@@ -202,6 +203,7 @@ public class SpecimenCollectionImpl extends BackboneElementImpl implements Speci
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCollector(Reference newCollector) {
 		if (newCollector != collector) {
 			NotificationChain msgs = null;
@@ -221,6 +223,7 @@ public class SpecimenCollectionImpl extends BackboneElementImpl implements Speci
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getCollectedDateTime() {
 		return collectedDateTime;
 	}
@@ -245,6 +248,7 @@ public class SpecimenCollectionImpl extends BackboneElementImpl implements Speci
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCollectedDateTime(DateTime newCollectedDateTime) {
 		if (newCollectedDateTime != collectedDateTime) {
 			NotificationChain msgs = null;
@@ -264,6 +268,7 @@ public class SpecimenCollectionImpl extends BackboneElementImpl implements Speci
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getCollectedPeriod() {
 		return collectedPeriod;
 	}
@@ -288,6 +293,7 @@ public class SpecimenCollectionImpl extends BackboneElementImpl implements Speci
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCollectedPeriod(Period newCollectedPeriod) {
 		if (newCollectedPeriod != collectedPeriod) {
 			NotificationChain msgs = null;
@@ -307,6 +313,7 @@ public class SpecimenCollectionImpl extends BackboneElementImpl implements Speci
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Duration getDuration() {
 		return duration;
 	}
@@ -331,6 +338,7 @@ public class SpecimenCollectionImpl extends BackboneElementImpl implements Speci
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDuration(Duration newDuration) {
 		if (newDuration != duration) {
 			NotificationChain msgs = null;
@@ -350,6 +358,7 @@ public class SpecimenCollectionImpl extends BackboneElementImpl implements Speci
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getQuantity() {
 		return quantity;
 	}
@@ -374,6 +383,7 @@ public class SpecimenCollectionImpl extends BackboneElementImpl implements Speci
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setQuantity(Quantity newQuantity) {
 		if (newQuantity != quantity) {
 			NotificationChain msgs = null;
@@ -393,6 +403,7 @@ public class SpecimenCollectionImpl extends BackboneElementImpl implements Speci
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getMethod() {
 		return method;
 	}
@@ -417,6 +428,7 @@ public class SpecimenCollectionImpl extends BackboneElementImpl implements Speci
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMethod(CodeableConcept newMethod) {
 		if (newMethod != method) {
 			NotificationChain msgs = null;
@@ -436,6 +448,7 @@ public class SpecimenCollectionImpl extends BackboneElementImpl implements Speci
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getDevice() {
 		return device;
 	}
@@ -460,6 +473,7 @@ public class SpecimenCollectionImpl extends BackboneElementImpl implements Speci
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDevice(CodeableReference newDevice) {
 		if (newDevice != device) {
 			NotificationChain msgs = null;
@@ -479,6 +493,7 @@ public class SpecimenCollectionImpl extends BackboneElementImpl implements Speci
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getProcedure() {
 		return procedure;
 	}
@@ -503,6 +518,7 @@ public class SpecimenCollectionImpl extends BackboneElementImpl implements Speci
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProcedure(Reference newProcedure) {
 		if (newProcedure != procedure) {
 			NotificationChain msgs = null;
@@ -522,6 +538,7 @@ public class SpecimenCollectionImpl extends BackboneElementImpl implements Speci
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getBodySite() {
 		return bodySite;
 	}
@@ -546,6 +563,7 @@ public class SpecimenCollectionImpl extends BackboneElementImpl implements Speci
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBodySite(CodeableReference newBodySite) {
 		if (newBodySite != bodySite) {
 			NotificationChain msgs = null;
@@ -565,6 +583,7 @@ public class SpecimenCollectionImpl extends BackboneElementImpl implements Speci
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getFastingStatusCodeableConcept() {
 		return fastingStatusCodeableConcept;
 	}
@@ -589,6 +608,7 @@ public class SpecimenCollectionImpl extends BackboneElementImpl implements Speci
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFastingStatusCodeableConcept(CodeableConcept newFastingStatusCodeableConcept) {
 		if (newFastingStatusCodeableConcept != fastingStatusCodeableConcept) {
 			NotificationChain msgs = null;
@@ -608,6 +628,7 @@ public class SpecimenCollectionImpl extends BackboneElementImpl implements Speci
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Duration getFastingStatusDuration() {
 		return fastingStatusDuration;
 	}
@@ -632,6 +653,7 @@ public class SpecimenCollectionImpl extends BackboneElementImpl implements Speci
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFastingStatusDuration(Duration newFastingStatusDuration) {
 		if (newFastingStatusDuration != fastingStatusDuration) {
 			NotificationChain msgs = null;

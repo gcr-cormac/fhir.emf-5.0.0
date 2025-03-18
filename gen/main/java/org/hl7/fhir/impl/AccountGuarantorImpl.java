@@ -85,6 +85,7 @@ public class AccountGuarantorImpl extends BackboneElementImpl implements Account
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getParty() {
 		return party;
 	}
@@ -109,6 +110,7 @@ public class AccountGuarantorImpl extends BackboneElementImpl implements Account
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setParty(Reference newParty) {
 		if (newParty != party) {
 			NotificationChain msgs = null;
@@ -128,6 +130,7 @@ public class AccountGuarantorImpl extends BackboneElementImpl implements Account
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getOnHold() {
 		return onHold;
 	}
@@ -152,6 +155,7 @@ public class AccountGuarantorImpl extends BackboneElementImpl implements Account
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOnHold(org.hl7.fhir.Boolean newOnHold) {
 		if (newOnHold != onHold) {
 			NotificationChain msgs = null;
@@ -171,6 +175,7 @@ public class AccountGuarantorImpl extends BackboneElementImpl implements Account
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getPeriod() {
 		return period;
 	}
@@ -195,6 +200,7 @@ public class AccountGuarantorImpl extends BackboneElementImpl implements Account
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriod(Period newPeriod) {
 		if (newPeriod != period) {
 			NotificationChain msgs = null;

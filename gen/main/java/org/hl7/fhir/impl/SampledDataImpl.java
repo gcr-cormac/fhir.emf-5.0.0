@@ -166,6 +166,7 @@ public class SampledDataImpl extends DataTypeImpl implements SampledData {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getOrigin() {
 		return origin;
 	}
@@ -190,6 +191,7 @@ public class SampledDataImpl extends DataTypeImpl implements SampledData {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOrigin(Quantity newOrigin) {
 		if (newOrigin != origin) {
 			NotificationChain msgs = null;
@@ -209,6 +211,7 @@ public class SampledDataImpl extends DataTypeImpl implements SampledData {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Decimal getInterval() {
 		return interval;
 	}
@@ -233,6 +236,7 @@ public class SampledDataImpl extends DataTypeImpl implements SampledData {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInterval(Decimal newInterval) {
 		if (newInterval != interval) {
 			NotificationChain msgs = null;
@@ -252,6 +256,7 @@ public class SampledDataImpl extends DataTypeImpl implements SampledData {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Code getIntervalUnit() {
 		return intervalUnit;
 	}
@@ -276,6 +281,7 @@ public class SampledDataImpl extends DataTypeImpl implements SampledData {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIntervalUnit(Code newIntervalUnit) {
 		if (newIntervalUnit != intervalUnit) {
 			NotificationChain msgs = null;
@@ -295,6 +301,7 @@ public class SampledDataImpl extends DataTypeImpl implements SampledData {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Decimal getFactor() {
 		return factor;
 	}
@@ -319,6 +326,7 @@ public class SampledDataImpl extends DataTypeImpl implements SampledData {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFactor(Decimal newFactor) {
 		if (newFactor != factor) {
 			NotificationChain msgs = null;
@@ -338,6 +346,7 @@ public class SampledDataImpl extends DataTypeImpl implements SampledData {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Decimal getLowerLimit() {
 		return lowerLimit;
 	}
@@ -362,6 +371,7 @@ public class SampledDataImpl extends DataTypeImpl implements SampledData {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLowerLimit(Decimal newLowerLimit) {
 		if (newLowerLimit != lowerLimit) {
 			NotificationChain msgs = null;
@@ -381,6 +391,7 @@ public class SampledDataImpl extends DataTypeImpl implements SampledData {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Decimal getUpperLimit() {
 		return upperLimit;
 	}
@@ -405,6 +416,7 @@ public class SampledDataImpl extends DataTypeImpl implements SampledData {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUpperLimit(Decimal newUpperLimit) {
 		if (newUpperLimit != upperLimit) {
 			NotificationChain msgs = null;
@@ -424,6 +436,7 @@ public class SampledDataImpl extends DataTypeImpl implements SampledData {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PositiveInt getDimensions() {
 		return dimensions;
 	}
@@ -448,6 +461,7 @@ public class SampledDataImpl extends DataTypeImpl implements SampledData {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDimensions(PositiveInt newDimensions) {
 		if (newDimensions != dimensions) {
 			NotificationChain msgs = null;
@@ -467,6 +481,7 @@ public class SampledDataImpl extends DataTypeImpl implements SampledData {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getCodeMap() {
 		return codeMap;
 	}
@@ -491,6 +506,7 @@ public class SampledDataImpl extends DataTypeImpl implements SampledData {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCodeMap(Canonical newCodeMap) {
 		if (newCodeMap != codeMap) {
 			NotificationChain msgs = null;
@@ -510,6 +526,7 @@ public class SampledDataImpl extends DataTypeImpl implements SampledData {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getOffsets() {
 		return offsets;
 	}
@@ -534,6 +551,7 @@ public class SampledDataImpl extends DataTypeImpl implements SampledData {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOffsets(org.hl7.fhir.String newOffsets) {
 		if (newOffsets != offsets) {
 			NotificationChain msgs = null;
@@ -553,6 +571,7 @@ public class SampledDataImpl extends DataTypeImpl implements SampledData {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SampledDataDataType getData() {
 		return data;
 	}
@@ -577,6 +596,7 @@ public class SampledDataImpl extends DataTypeImpl implements SampledData {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setData(SampledDataDataType newData) {
 		if (newData != data) {
 			NotificationChain msgs = null;

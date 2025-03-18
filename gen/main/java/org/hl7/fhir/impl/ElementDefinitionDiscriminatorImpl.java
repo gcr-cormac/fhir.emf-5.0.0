@@ -73,6 +73,7 @@ public class ElementDefinitionDiscriminatorImpl extends BackboneTypeImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DiscriminatorType getType() {
 		return type;
 	}
@@ -97,6 +98,7 @@ public class ElementDefinitionDiscriminatorImpl extends BackboneTypeImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(DiscriminatorType newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -116,6 +118,7 @@ public class ElementDefinitionDiscriminatorImpl extends BackboneTypeImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPath() {
 		return path;
 	}
@@ -140,6 +143,7 @@ public class ElementDefinitionDiscriminatorImpl extends BackboneTypeImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPath(org.hl7.fhir.String newPath) {
 		if (newPath != path) {
 			NotificationChain msgs = null;

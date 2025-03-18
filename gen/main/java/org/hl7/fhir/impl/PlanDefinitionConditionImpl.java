@@ -74,6 +74,7 @@ public class PlanDefinitionConditionImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ActionConditionKind getKind() {
 		return kind;
 	}
@@ -98,6 +99,7 @@ public class PlanDefinitionConditionImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setKind(ActionConditionKind newKind) {
 		if (newKind != kind) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class PlanDefinitionConditionImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Expression getExpression() {
 		return expression;
 	}
@@ -141,6 +144,7 @@ public class PlanDefinitionConditionImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExpression(Expression newExpression) {
 		if (newExpression != expression) {
 			NotificationChain msgs = null;

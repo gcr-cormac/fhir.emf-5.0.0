@@ -103,6 +103,7 @@ public class ExplanationOfBenefitReviewOutcomeImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getDecision() {
 		return decision;
 	}
@@ -127,6 +128,7 @@ public class ExplanationOfBenefitReviewOutcomeImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDecision(CodeableConcept newDecision) {
 		if (newDecision != decision) {
 			NotificationChain msgs = null;
@@ -146,6 +148,7 @@ public class ExplanationOfBenefitReviewOutcomeImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getReason() {
 		if (reason == null) {
 			reason = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.EXPLANATION_OF_BENEFIT_REVIEW_OUTCOME__REASON);
@@ -158,6 +161,7 @@ public class ExplanationOfBenefitReviewOutcomeImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPreAuthRef() {
 		return preAuthRef;
 	}
@@ -182,6 +186,7 @@ public class ExplanationOfBenefitReviewOutcomeImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPreAuthRef(org.hl7.fhir.String newPreAuthRef) {
 		if (newPreAuthRef != preAuthRef) {
 			NotificationChain msgs = null;
@@ -201,6 +206,7 @@ public class ExplanationOfBenefitReviewOutcomeImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getPreAuthPeriod() {
 		return preAuthPeriod;
 	}
@@ -225,6 +231,7 @@ public class ExplanationOfBenefitReviewOutcomeImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPreAuthPeriod(Period newPreAuthPeriod) {
 		if (newPreAuthPeriod != preAuthPeriod) {
 			NotificationChain msgs = null;

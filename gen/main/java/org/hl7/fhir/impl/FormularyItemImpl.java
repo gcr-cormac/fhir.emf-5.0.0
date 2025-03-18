@@ -93,6 +93,7 @@ public class FormularyItemImpl extends DomainResourceImpl implements FormularyIt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.FORMULARY_ITEM__IDENTIFIER);
@@ -105,6 +106,7 @@ public class FormularyItemImpl extends DomainResourceImpl implements FormularyIt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -129,6 +131,7 @@ public class FormularyItemImpl extends DomainResourceImpl implements FormularyIt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -148,6 +151,7 @@ public class FormularyItemImpl extends DomainResourceImpl implements FormularyIt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public FormularyItemStatusCodes getStatus() {
 		return status;
 	}
@@ -172,6 +176,7 @@ public class FormularyItemImpl extends DomainResourceImpl implements FormularyIt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(FormularyItemStatusCodes newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;

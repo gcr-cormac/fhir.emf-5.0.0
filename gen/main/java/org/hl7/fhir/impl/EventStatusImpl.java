@@ -79,6 +79,7 @@ public class EventStatusImpl extends ElementImpl implements EventStatus {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EventStatusEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class EventStatusImpl extends ElementImpl implements EventStatus {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(EventStatusEnum newValue) {
 		EventStatusEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class EventStatusImpl extends ElementImpl implements EventStatus {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		EventStatusEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class EventStatusImpl extends ElementImpl implements EventStatus {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

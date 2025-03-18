@@ -79,6 +79,7 @@ public class TaskIntentImpl extends ElementImpl implements TaskIntent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TaskIntentEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class TaskIntentImpl extends ElementImpl implements TaskIntent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(TaskIntentEnum newValue) {
 		TaskIntentEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class TaskIntentImpl extends ElementImpl implements TaskIntent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		TaskIntentEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class TaskIntentImpl extends ElementImpl implements TaskIntent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

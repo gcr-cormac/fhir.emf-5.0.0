@@ -79,6 +79,7 @@ public class ReportRelationshipTypeImpl extends ElementImpl implements ReportRel
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ReportRelationshipTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ReportRelationshipTypeImpl extends ElementImpl implements ReportRel
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ReportRelationshipTypeEnum newValue) {
 		ReportRelationshipTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ReportRelationshipTypeImpl extends ElementImpl implements ReportRel
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ReportRelationshipTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ReportRelationshipTypeImpl extends ElementImpl implements ReportRel
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

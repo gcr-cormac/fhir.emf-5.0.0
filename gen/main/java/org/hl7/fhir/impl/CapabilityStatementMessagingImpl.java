@@ -105,6 +105,7 @@ public class CapabilityStatementMessagingImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CapabilityStatementEndpoint> getEndpoint() {
 		if (endpoint == null) {
 			endpoint = new EObjectContainmentEList<CapabilityStatementEndpoint>(CapabilityStatementEndpoint.class, this, FhirPackage.CAPABILITY_STATEMENT_MESSAGING__ENDPOINT);
@@ -117,6 +118,7 @@ public class CapabilityStatementMessagingImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public UnsignedInt getReliableCache() {
 		return reliableCache;
 	}
@@ -141,6 +143,7 @@ public class CapabilityStatementMessagingImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReliableCache(UnsignedInt newReliableCache) {
 		if (newReliableCache != reliableCache) {
 			NotificationChain msgs = null;
@@ -160,6 +163,7 @@ public class CapabilityStatementMessagingImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDocumentation() {
 		return documentation;
 	}
@@ -184,6 +188,7 @@ public class CapabilityStatementMessagingImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDocumentation(Markdown newDocumentation) {
 		if (newDocumentation != documentation) {
 			NotificationChain msgs = null;
@@ -203,6 +208,7 @@ public class CapabilityStatementMessagingImpl extends BackboneElementImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CapabilityStatementSupportedMessage> getSupportedMessage() {
 		if (supportedMessage == null) {
 			supportedMessage = new EObjectContainmentEList<CapabilityStatementSupportedMessage>(CapabilityStatementSupportedMessage.class, this, FhirPackage.CAPABILITY_STATEMENT_MESSAGING__SUPPORTED_MESSAGE);

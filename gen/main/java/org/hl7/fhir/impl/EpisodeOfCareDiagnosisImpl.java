@@ -81,6 +81,7 @@ public class EpisodeOfCareDiagnosisImpl extends BackboneElementImpl implements E
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getCondition() {
 		if (condition == null) {
 			condition = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.EPISODE_OF_CARE_DIAGNOSIS__CONDITION);
@@ -93,6 +94,7 @@ public class EpisodeOfCareDiagnosisImpl extends BackboneElementImpl implements E
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getUse() {
 		return use;
 	}
@@ -117,6 +119,7 @@ public class EpisodeOfCareDiagnosisImpl extends BackboneElementImpl implements E
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUse(CodeableConcept newUse) {
 		if (newUse != use) {
 			NotificationChain msgs = null;

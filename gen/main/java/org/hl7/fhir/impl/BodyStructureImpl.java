@@ -151,6 +151,7 @@ public class BodyStructureImpl extends DomainResourceImpl implements BodyStructu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.BODY_STRUCTURE__IDENTIFIER);
@@ -163,6 +164,7 @@ public class BodyStructureImpl extends DomainResourceImpl implements BodyStructu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getActive() {
 		return active;
 	}
@@ -187,6 +189,7 @@ public class BodyStructureImpl extends DomainResourceImpl implements BodyStructu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setActive(org.hl7.fhir.Boolean newActive) {
 		if (newActive != active) {
 			NotificationChain msgs = null;
@@ -206,6 +209,7 @@ public class BodyStructureImpl extends DomainResourceImpl implements BodyStructu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getMorphology() {
 		return morphology;
 	}
@@ -230,6 +234,7 @@ public class BodyStructureImpl extends DomainResourceImpl implements BodyStructu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMorphology(CodeableConcept newMorphology) {
 		if (newMorphology != morphology) {
 			NotificationChain msgs = null;
@@ -249,6 +254,7 @@ public class BodyStructureImpl extends DomainResourceImpl implements BodyStructu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<BodyStructureIncludedStructure> getIncludedStructure() {
 		if (includedStructure == null) {
 			includedStructure = new EObjectContainmentEList<BodyStructureIncludedStructure>(BodyStructureIncludedStructure.class, this, FhirPackage.BODY_STRUCTURE__INCLUDED_STRUCTURE);
@@ -261,6 +267,7 @@ public class BodyStructureImpl extends DomainResourceImpl implements BodyStructu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<BodyStructureIncludedStructure> getExcludedStructure() {
 		if (excludedStructure == null) {
 			excludedStructure = new EObjectContainmentEList<BodyStructureIncludedStructure>(BodyStructureIncludedStructure.class, this, FhirPackage.BODY_STRUCTURE__EXCLUDED_STRUCTURE);
@@ -273,6 +280,7 @@ public class BodyStructureImpl extends DomainResourceImpl implements BodyStructu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -297,6 +305,7 @@ public class BodyStructureImpl extends DomainResourceImpl implements BodyStructu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -316,6 +325,7 @@ public class BodyStructureImpl extends DomainResourceImpl implements BodyStructu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Attachment> getImage() {
 		if (image == null) {
 			image = new EObjectContainmentEList<Attachment>(Attachment.class, this, FhirPackage.BODY_STRUCTURE__IMAGE);
@@ -328,6 +338,7 @@ public class BodyStructureImpl extends DomainResourceImpl implements BodyStructu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getPatient() {
 		return patient;
 	}
@@ -352,6 +363,7 @@ public class BodyStructureImpl extends DomainResourceImpl implements BodyStructu
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPatient(Reference newPatient) {
 		if (newPatient != patient) {
 			NotificationChain msgs = null;

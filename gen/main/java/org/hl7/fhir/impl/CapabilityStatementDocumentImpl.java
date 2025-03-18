@@ -86,6 +86,7 @@ public class CapabilityStatementDocumentImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DocumentMode getMode() {
 		return mode;
 	}
@@ -110,6 +111,7 @@ public class CapabilityStatementDocumentImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMode(DocumentMode newMode) {
 		if (newMode != mode) {
 			NotificationChain msgs = null;
@@ -129,6 +131,7 @@ public class CapabilityStatementDocumentImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDocumentation() {
 		return documentation;
 	}
@@ -153,6 +156,7 @@ public class CapabilityStatementDocumentImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDocumentation(Markdown newDocumentation) {
 		if (newDocumentation != documentation) {
 			NotificationChain msgs = null;
@@ -172,6 +176,7 @@ public class CapabilityStatementDocumentImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getProfile() {
 		return profile;
 	}
@@ -196,6 +201,7 @@ public class CapabilityStatementDocumentImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProfile(Canonical newProfile) {
 		if (newProfile != profile) {
 			NotificationChain msgs = null;

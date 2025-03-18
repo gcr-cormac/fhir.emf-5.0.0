@@ -137,6 +137,7 @@ public class ImplementationGuidePageImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Url getSourceUrl() {
 		return sourceUrl;
 	}
@@ -161,6 +162,7 @@ public class ImplementationGuidePageImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSourceUrl(Url newSourceUrl) {
 		if (newSourceUrl != sourceUrl) {
 			NotificationChain msgs = null;
@@ -180,6 +182,7 @@ public class ImplementationGuidePageImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getSourceString() {
 		return sourceString;
 	}
@@ -204,6 +207,7 @@ public class ImplementationGuidePageImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSourceString(org.hl7.fhir.String newSourceString) {
 		if (newSourceString != sourceString) {
 			NotificationChain msgs = null;
@@ -223,6 +227,7 @@ public class ImplementationGuidePageImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getSourceMarkdown() {
 		return sourceMarkdown;
 	}
@@ -247,6 +252,7 @@ public class ImplementationGuidePageImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSourceMarkdown(Markdown newSourceMarkdown) {
 		if (newSourceMarkdown != sourceMarkdown) {
 			NotificationChain msgs = null;
@@ -266,6 +272,7 @@ public class ImplementationGuidePageImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Url getName() {
 		return name;
 	}
@@ -290,6 +297,7 @@ public class ImplementationGuidePageImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(Url newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -309,6 +317,7 @@ public class ImplementationGuidePageImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getTitle() {
 		return title;
 	}
@@ -333,6 +342,7 @@ public class ImplementationGuidePageImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(org.hl7.fhir.String newTitle) {
 		if (newTitle != title) {
 			NotificationChain msgs = null;
@@ -352,6 +362,7 @@ public class ImplementationGuidePageImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public GuidePageGeneration getGeneration() {
 		return generation;
 	}
@@ -376,6 +387,7 @@ public class ImplementationGuidePageImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setGeneration(GuidePageGeneration newGeneration) {
 		if (newGeneration != generation) {
 			NotificationChain msgs = null;
@@ -395,6 +407,7 @@ public class ImplementationGuidePageImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ImplementationGuidePage> getPage() {
 		if (page == null) {
 			page = new EObjectContainmentEList<ImplementationGuidePage>(ImplementationGuidePage.class, this, FhirPackage.IMPLEMENTATION_GUIDE_PAGE__PAGE);

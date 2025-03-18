@@ -252,6 +252,7 @@ public class GoalImpl extends DomainResourceImpl implements Goal {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.GOAL__IDENTIFIER);
@@ -264,6 +265,7 @@ public class GoalImpl extends DomainResourceImpl implements Goal {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public GoalLifecycleStatus getLifecycleStatus() {
 		return lifecycleStatus;
 	}
@@ -288,6 +290,7 @@ public class GoalImpl extends DomainResourceImpl implements Goal {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLifecycleStatus(GoalLifecycleStatus newLifecycleStatus) {
 		if (newLifecycleStatus != lifecycleStatus) {
 			NotificationChain msgs = null;
@@ -307,6 +310,7 @@ public class GoalImpl extends DomainResourceImpl implements Goal {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getAchievementStatus() {
 		return achievementStatus;
 	}
@@ -331,6 +335,7 @@ public class GoalImpl extends DomainResourceImpl implements Goal {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAchievementStatus(CodeableConcept newAchievementStatus) {
 		if (newAchievementStatus != achievementStatus) {
 			NotificationChain msgs = null;
@@ -350,6 +355,7 @@ public class GoalImpl extends DomainResourceImpl implements Goal {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCategory() {
 		if (category == null) {
 			category = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.GOAL__CATEGORY);
@@ -362,6 +368,7 @@ public class GoalImpl extends DomainResourceImpl implements Goal {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getContinuous() {
 		return continuous;
 	}
@@ -386,6 +393,7 @@ public class GoalImpl extends DomainResourceImpl implements Goal {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setContinuous(org.hl7.fhir.Boolean newContinuous) {
 		if (newContinuous != continuous) {
 			NotificationChain msgs = null;
@@ -405,6 +413,7 @@ public class GoalImpl extends DomainResourceImpl implements Goal {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getPriority() {
 		return priority;
 	}
@@ -429,6 +438,7 @@ public class GoalImpl extends DomainResourceImpl implements Goal {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPriority(CodeableConcept newPriority) {
 		if (newPriority != priority) {
 			NotificationChain msgs = null;
@@ -448,6 +458,7 @@ public class GoalImpl extends DomainResourceImpl implements Goal {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getDescription() {
 		return description;
 	}
@@ -472,6 +483,7 @@ public class GoalImpl extends DomainResourceImpl implements Goal {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(CodeableConcept newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -491,6 +503,7 @@ public class GoalImpl extends DomainResourceImpl implements Goal {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubject() {
 		return subject;
 	}
@@ -515,6 +528,7 @@ public class GoalImpl extends DomainResourceImpl implements Goal {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubject(Reference newSubject) {
 		if (newSubject != subject) {
 			NotificationChain msgs = null;
@@ -534,6 +548,7 @@ public class GoalImpl extends DomainResourceImpl implements Goal {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getStartDate() {
 		return startDate;
 	}
@@ -558,6 +573,7 @@ public class GoalImpl extends DomainResourceImpl implements Goal {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStartDate(Date newStartDate) {
 		if (newStartDate != startDate) {
 			NotificationChain msgs = null;
@@ -577,6 +593,7 @@ public class GoalImpl extends DomainResourceImpl implements Goal {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getStartCodeableConcept() {
 		return startCodeableConcept;
 	}
@@ -601,6 +618,7 @@ public class GoalImpl extends DomainResourceImpl implements Goal {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStartCodeableConcept(CodeableConcept newStartCodeableConcept) {
 		if (newStartCodeableConcept != startCodeableConcept) {
 			NotificationChain msgs = null;
@@ -620,6 +638,7 @@ public class GoalImpl extends DomainResourceImpl implements Goal {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<GoalTarget> getTarget() {
 		if (target == null) {
 			target = new EObjectContainmentEList<GoalTarget>(GoalTarget.class, this, FhirPackage.GOAL__TARGET);
@@ -632,6 +651,7 @@ public class GoalImpl extends DomainResourceImpl implements Goal {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getStatusDate() {
 		return statusDate;
 	}
@@ -656,6 +676,7 @@ public class GoalImpl extends DomainResourceImpl implements Goal {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatusDate(Date newStatusDate) {
 		if (newStatusDate != statusDate) {
 			NotificationChain msgs = null;
@@ -675,6 +696,7 @@ public class GoalImpl extends DomainResourceImpl implements Goal {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getStatusReason() {
 		return statusReason;
 	}
@@ -699,6 +721,7 @@ public class GoalImpl extends DomainResourceImpl implements Goal {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatusReason(org.hl7.fhir.String newStatusReason) {
 		if (newStatusReason != statusReason) {
 			NotificationChain msgs = null;
@@ -718,6 +741,7 @@ public class GoalImpl extends DomainResourceImpl implements Goal {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSource() {
 		return source;
 	}
@@ -742,6 +766,7 @@ public class GoalImpl extends DomainResourceImpl implements Goal {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSource(Reference newSource) {
 		if (newSource != source) {
 			NotificationChain msgs = null;
@@ -761,6 +786,7 @@ public class GoalImpl extends DomainResourceImpl implements Goal {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getAddresses() {
 		if (addresses == null) {
 			addresses = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.GOAL__ADDRESSES);
@@ -773,6 +799,7 @@ public class GoalImpl extends DomainResourceImpl implements Goal {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.GOAL__NOTE);
@@ -785,6 +812,7 @@ public class GoalImpl extends DomainResourceImpl implements Goal {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getOutcome() {
 		if (outcome == null) {
 			outcome = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.GOAL__OUTCOME);

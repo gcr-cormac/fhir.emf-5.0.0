@@ -92,6 +92,7 @@ public class MeasureReportStratifierImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getLinkId() {
 		return linkId;
 	}
@@ -116,6 +117,7 @@ public class MeasureReportStratifierImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLinkId(org.hl7.fhir.String newLinkId) {
 		if (newLinkId != linkId) {
 			NotificationChain msgs = null;
@@ -135,6 +137,7 @@ public class MeasureReportStratifierImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -159,6 +162,7 @@ public class MeasureReportStratifierImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -178,6 +182,7 @@ public class MeasureReportStratifierImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MeasureReportStratum> getStratum() {
 		if (stratum == null) {
 			stratum = new EObjectContainmentEList<MeasureReportStratum>(MeasureReportStratum.class, this, FhirPackage.MEASURE_REPORT_STRATIFIER__STRATUM);

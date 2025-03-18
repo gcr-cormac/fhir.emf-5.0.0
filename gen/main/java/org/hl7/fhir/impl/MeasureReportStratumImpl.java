@@ -209,6 +209,7 @@ public class MeasureReportStratumImpl extends BackboneElementImpl implements Mea
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getValueCodeableConcept() {
 		return valueCodeableConcept;
 	}
@@ -233,6 +234,7 @@ public class MeasureReportStratumImpl extends BackboneElementImpl implements Mea
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueCodeableConcept(CodeableConcept newValueCodeableConcept) {
 		if (newValueCodeableConcept != valueCodeableConcept) {
 			NotificationChain msgs = null;
@@ -252,6 +254,7 @@ public class MeasureReportStratumImpl extends BackboneElementImpl implements Mea
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getValueBoolean() {
 		return valueBoolean;
 	}
@@ -276,6 +279,7 @@ public class MeasureReportStratumImpl extends BackboneElementImpl implements Mea
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueBoolean(org.hl7.fhir.Boolean newValueBoolean) {
 		if (newValueBoolean != valueBoolean) {
 			NotificationChain msgs = null;
@@ -295,6 +299,7 @@ public class MeasureReportStratumImpl extends BackboneElementImpl implements Mea
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getValueQuantity() {
 		return valueQuantity;
 	}
@@ -319,6 +324,7 @@ public class MeasureReportStratumImpl extends BackboneElementImpl implements Mea
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueQuantity(Quantity newValueQuantity) {
 		if (newValueQuantity != valueQuantity) {
 			NotificationChain msgs = null;
@@ -338,6 +344,7 @@ public class MeasureReportStratumImpl extends BackboneElementImpl implements Mea
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Range getValueRange() {
 		return valueRange;
 	}
@@ -362,6 +369,7 @@ public class MeasureReportStratumImpl extends BackboneElementImpl implements Mea
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueRange(Range newValueRange) {
 		if (newValueRange != valueRange) {
 			NotificationChain msgs = null;
@@ -381,6 +389,7 @@ public class MeasureReportStratumImpl extends BackboneElementImpl implements Mea
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getValueReference() {
 		return valueReference;
 	}
@@ -405,6 +414,7 @@ public class MeasureReportStratumImpl extends BackboneElementImpl implements Mea
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueReference(Reference newValueReference) {
 		if (newValueReference != valueReference) {
 			NotificationChain msgs = null;
@@ -424,6 +434,7 @@ public class MeasureReportStratumImpl extends BackboneElementImpl implements Mea
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MeasureReportComponent> getComponent() {
 		if (component == null) {
 			component = new EObjectContainmentEList<MeasureReportComponent>(MeasureReportComponent.class, this, FhirPackage.MEASURE_REPORT_STRATUM__COMPONENT);
@@ -436,6 +447,7 @@ public class MeasureReportStratumImpl extends BackboneElementImpl implements Mea
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MeasureReportPopulation1> getPopulation() {
 		if (population == null) {
 			population = new EObjectContainmentEList<MeasureReportPopulation1>(MeasureReportPopulation1.class, this, FhirPackage.MEASURE_REPORT_STRATUM__POPULATION);
@@ -448,6 +460,7 @@ public class MeasureReportStratumImpl extends BackboneElementImpl implements Mea
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getMeasureScoreQuantity() {
 		return measureScoreQuantity;
 	}
@@ -472,6 +485,7 @@ public class MeasureReportStratumImpl extends BackboneElementImpl implements Mea
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMeasureScoreQuantity(Quantity newMeasureScoreQuantity) {
 		if (newMeasureScoreQuantity != measureScoreQuantity) {
 			NotificationChain msgs = null;
@@ -491,6 +505,7 @@ public class MeasureReportStratumImpl extends BackboneElementImpl implements Mea
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getMeasureScoreDateTime() {
 		return measureScoreDateTime;
 	}
@@ -515,6 +530,7 @@ public class MeasureReportStratumImpl extends BackboneElementImpl implements Mea
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMeasureScoreDateTime(DateTime newMeasureScoreDateTime) {
 		if (newMeasureScoreDateTime != measureScoreDateTime) {
 			NotificationChain msgs = null;
@@ -534,6 +550,7 @@ public class MeasureReportStratumImpl extends BackboneElementImpl implements Mea
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getMeasureScoreCodeableConcept() {
 		return measureScoreCodeableConcept;
 	}
@@ -558,6 +575,7 @@ public class MeasureReportStratumImpl extends BackboneElementImpl implements Mea
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMeasureScoreCodeableConcept(CodeableConcept newMeasureScoreCodeableConcept) {
 		if (newMeasureScoreCodeableConcept != measureScoreCodeableConcept) {
 			NotificationChain msgs = null;
@@ -577,6 +595,7 @@ public class MeasureReportStratumImpl extends BackboneElementImpl implements Mea
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getMeasureScorePeriod() {
 		return measureScorePeriod;
 	}
@@ -601,6 +620,7 @@ public class MeasureReportStratumImpl extends BackboneElementImpl implements Mea
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMeasureScorePeriod(Period newMeasureScorePeriod) {
 		if (newMeasureScorePeriod != measureScorePeriod) {
 			NotificationChain msgs = null;
@@ -620,6 +640,7 @@ public class MeasureReportStratumImpl extends BackboneElementImpl implements Mea
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Range getMeasureScoreRange() {
 		return measureScoreRange;
 	}
@@ -644,6 +665,7 @@ public class MeasureReportStratumImpl extends BackboneElementImpl implements Mea
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMeasureScoreRange(Range newMeasureScoreRange) {
 		if (newMeasureScoreRange != measureScoreRange) {
 			NotificationChain msgs = null;
@@ -663,6 +685,7 @@ public class MeasureReportStratumImpl extends BackboneElementImpl implements Mea
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Duration getMeasureScoreDuration() {
 		return measureScoreDuration;
 	}
@@ -687,6 +710,7 @@ public class MeasureReportStratumImpl extends BackboneElementImpl implements Mea
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMeasureScoreDuration(Duration newMeasureScoreDuration) {
 		if (newMeasureScoreDuration != measureScoreDuration) {
 			NotificationChain msgs = null;

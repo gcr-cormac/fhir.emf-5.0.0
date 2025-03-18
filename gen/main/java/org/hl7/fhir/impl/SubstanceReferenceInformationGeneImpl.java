@@ -92,6 +92,7 @@ public class SubstanceReferenceInformationGeneImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getGeneSequenceOrigin() {
 		return geneSequenceOrigin;
 	}
@@ -116,6 +117,7 @@ public class SubstanceReferenceInformationGeneImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setGeneSequenceOrigin(CodeableConcept newGeneSequenceOrigin) {
 		if (newGeneSequenceOrigin != geneSequenceOrigin) {
 			NotificationChain msgs = null;
@@ -135,6 +137,7 @@ public class SubstanceReferenceInformationGeneImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getGene() {
 		return gene;
 	}
@@ -159,6 +162,7 @@ public class SubstanceReferenceInformationGeneImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setGene(CodeableConcept newGene) {
 		if (newGene != gene) {
 			NotificationChain msgs = null;
@@ -178,6 +182,7 @@ public class SubstanceReferenceInformationGeneImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getSource() {
 		if (source == null) {
 			source = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.SUBSTANCE_REFERENCE_INFORMATION_GENE__SOURCE);

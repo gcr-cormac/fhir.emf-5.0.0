@@ -73,6 +73,7 @@ public class DeviceDefinitionHasPartImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getReference() {
 		return reference;
 	}
@@ -97,6 +98,7 @@ public class DeviceDefinitionHasPartImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReference(Reference newReference) {
 		if (newReference != reference) {
 			NotificationChain msgs = null;
@@ -116,6 +118,7 @@ public class DeviceDefinitionHasPartImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Integer getCount() {
 		return count;
 	}
@@ -140,6 +143,7 @@ public class DeviceDefinitionHasPartImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCount(org.hl7.fhir.Integer newCount) {
 		if (newCount != count) {
 			NotificationChain msgs = null;

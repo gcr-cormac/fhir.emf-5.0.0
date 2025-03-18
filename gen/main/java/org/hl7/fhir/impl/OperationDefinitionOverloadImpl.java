@@ -79,6 +79,7 @@ public class OperationDefinitionOverloadImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<org.hl7.fhir.String> getParameterName() {
 		if (parameterName == null) {
 			parameterName = new EObjectContainmentEList<org.hl7.fhir.String>(org.hl7.fhir.String.class, this, FhirPackage.OPERATION_DEFINITION_OVERLOAD__PARAMETER_NAME);
@@ -91,6 +92,7 @@ public class OperationDefinitionOverloadImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getComment() {
 		return comment;
 	}
@@ -115,6 +117,7 @@ public class OperationDefinitionOverloadImpl extends BackboneElementImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setComment(org.hl7.fhir.String newComment) {
 		if (newComment != comment) {
 			NotificationChain msgs = null;

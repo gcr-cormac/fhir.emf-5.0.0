@@ -79,6 +79,7 @@ public class FHIRVersionImpl extends ElementImpl implements FHIRVersion {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public FHIRVersionEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class FHIRVersionImpl extends ElementImpl implements FHIRVersion {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(FHIRVersionEnum newValue) {
 		FHIRVersionEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class FHIRVersionImpl extends ElementImpl implements FHIRVersion {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		FHIRVersionEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class FHIRVersionImpl extends ElementImpl implements FHIRVersion {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

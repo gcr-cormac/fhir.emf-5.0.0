@@ -79,6 +79,7 @@ public class ConsentDataMeaningImpl extends ElementImpl implements ConsentDataMe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ConsentDataMeaningEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ConsentDataMeaningImpl extends ElementImpl implements ConsentDataMe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ConsentDataMeaningEnum newValue) {
 		ConsentDataMeaningEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ConsentDataMeaningImpl extends ElementImpl implements ConsentDataMe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ConsentDataMeaningEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ConsentDataMeaningImpl extends ElementImpl implements ConsentDataMe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

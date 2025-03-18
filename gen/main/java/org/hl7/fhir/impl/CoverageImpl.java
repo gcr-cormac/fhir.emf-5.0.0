@@ -287,6 +287,7 @@ public class CoverageImpl extends DomainResourceImpl implements Coverage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.COVERAGE__IDENTIFIER);
@@ -299,6 +300,7 @@ public class CoverageImpl extends DomainResourceImpl implements Coverage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public FinancialResourceStatusCodes getStatus() {
 		return status;
 	}
@@ -323,6 +325,7 @@ public class CoverageImpl extends DomainResourceImpl implements Coverage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(FinancialResourceStatusCodes newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -342,6 +345,7 @@ public class CoverageImpl extends DomainResourceImpl implements Coverage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Kind getKind() {
 		return kind;
 	}
@@ -366,6 +370,7 @@ public class CoverageImpl extends DomainResourceImpl implements Coverage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setKind(Kind newKind) {
 		if (newKind != kind) {
 			NotificationChain msgs = null;
@@ -385,6 +390,7 @@ public class CoverageImpl extends DomainResourceImpl implements Coverage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CoveragePaymentBy> getPaymentBy() {
 		if (paymentBy == null) {
 			paymentBy = new EObjectContainmentEList<CoveragePaymentBy>(CoveragePaymentBy.class, this, FhirPackage.COVERAGE__PAYMENT_BY);
@@ -397,6 +403,7 @@ public class CoverageImpl extends DomainResourceImpl implements Coverage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -421,6 +428,7 @@ public class CoverageImpl extends DomainResourceImpl implements Coverage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -440,6 +448,7 @@ public class CoverageImpl extends DomainResourceImpl implements Coverage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getPolicyHolder() {
 		return policyHolder;
 	}
@@ -464,6 +473,7 @@ public class CoverageImpl extends DomainResourceImpl implements Coverage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPolicyHolder(Reference newPolicyHolder) {
 		if (newPolicyHolder != policyHolder) {
 			NotificationChain msgs = null;
@@ -483,6 +493,7 @@ public class CoverageImpl extends DomainResourceImpl implements Coverage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubscriber() {
 		return subscriber;
 	}
@@ -507,6 +518,7 @@ public class CoverageImpl extends DomainResourceImpl implements Coverage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubscriber(Reference newSubscriber) {
 		if (newSubscriber != subscriber) {
 			NotificationChain msgs = null;
@@ -526,6 +538,7 @@ public class CoverageImpl extends DomainResourceImpl implements Coverage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getSubscriberId() {
 		if (subscriberId == null) {
 			subscriberId = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.COVERAGE__SUBSCRIBER_ID);
@@ -538,6 +551,7 @@ public class CoverageImpl extends DomainResourceImpl implements Coverage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getBeneficiary() {
 		return beneficiary;
 	}
@@ -562,6 +576,7 @@ public class CoverageImpl extends DomainResourceImpl implements Coverage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBeneficiary(Reference newBeneficiary) {
 		if (newBeneficiary != beneficiary) {
 			NotificationChain msgs = null;
@@ -581,6 +596,7 @@ public class CoverageImpl extends DomainResourceImpl implements Coverage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDependent() {
 		return dependent;
 	}
@@ -605,6 +621,7 @@ public class CoverageImpl extends DomainResourceImpl implements Coverage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDependent(org.hl7.fhir.String newDependent) {
 		if (newDependent != dependent) {
 			NotificationChain msgs = null;
@@ -624,6 +641,7 @@ public class CoverageImpl extends DomainResourceImpl implements Coverage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getRelationship() {
 		return relationship;
 	}
@@ -648,6 +666,7 @@ public class CoverageImpl extends DomainResourceImpl implements Coverage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRelationship(CodeableConcept newRelationship) {
 		if (newRelationship != relationship) {
 			NotificationChain msgs = null;
@@ -667,6 +686,7 @@ public class CoverageImpl extends DomainResourceImpl implements Coverage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getPeriod() {
 		return period;
 	}
@@ -691,6 +711,7 @@ public class CoverageImpl extends DomainResourceImpl implements Coverage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriod(Period newPeriod) {
 		if (newPeriod != period) {
 			NotificationChain msgs = null;
@@ -710,6 +731,7 @@ public class CoverageImpl extends DomainResourceImpl implements Coverage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getInsurer() {
 		return insurer;
 	}
@@ -734,6 +756,7 @@ public class CoverageImpl extends DomainResourceImpl implements Coverage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInsurer(Reference newInsurer) {
 		if (newInsurer != insurer) {
 			NotificationChain msgs = null;
@@ -753,6 +776,7 @@ public class CoverageImpl extends DomainResourceImpl implements Coverage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CoverageClass> getClass_() {
 		if (class_ == null) {
 			class_ = new EObjectContainmentEList<CoverageClass>(CoverageClass.class, this, FhirPackage.COVERAGE__CLASS);
@@ -765,6 +789,7 @@ public class CoverageImpl extends DomainResourceImpl implements Coverage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PositiveInt getOrder() {
 		return order;
 	}
@@ -789,6 +814,7 @@ public class CoverageImpl extends DomainResourceImpl implements Coverage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOrder(PositiveInt newOrder) {
 		if (newOrder != order) {
 			NotificationChain msgs = null;
@@ -808,6 +834,7 @@ public class CoverageImpl extends DomainResourceImpl implements Coverage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getNetwork() {
 		return network;
 	}
@@ -832,6 +859,7 @@ public class CoverageImpl extends DomainResourceImpl implements Coverage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNetwork(org.hl7.fhir.String newNetwork) {
 		if (newNetwork != network) {
 			NotificationChain msgs = null;
@@ -851,6 +879,7 @@ public class CoverageImpl extends DomainResourceImpl implements Coverage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CoverageCostToBeneficiary> getCostToBeneficiary() {
 		if (costToBeneficiary == null) {
 			costToBeneficiary = new EObjectContainmentEList<CoverageCostToBeneficiary>(CoverageCostToBeneficiary.class, this, FhirPackage.COVERAGE__COST_TO_BENEFICIARY);
@@ -863,6 +892,7 @@ public class CoverageImpl extends DomainResourceImpl implements Coverage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getSubrogation() {
 		return subrogation;
 	}
@@ -887,6 +917,7 @@ public class CoverageImpl extends DomainResourceImpl implements Coverage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubrogation(org.hl7.fhir.Boolean newSubrogation) {
 		if (newSubrogation != subrogation) {
 			NotificationChain msgs = null;
@@ -906,6 +937,7 @@ public class CoverageImpl extends DomainResourceImpl implements Coverage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getContract() {
 		if (contract == null) {
 			contract = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.COVERAGE__CONTRACT);
@@ -918,6 +950,7 @@ public class CoverageImpl extends DomainResourceImpl implements Coverage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getInsurancePlan() {
 		return insurancePlan;
 	}
@@ -942,6 +975,7 @@ public class CoverageImpl extends DomainResourceImpl implements Coverage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInsurancePlan(Reference newInsurancePlan) {
 		if (newInsurancePlan != insurancePlan) {
 			NotificationChain msgs = null;

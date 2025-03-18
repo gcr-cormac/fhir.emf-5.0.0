@@ -92,6 +92,7 @@ public class NutritionOrderSchedule1Impl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Timing> getTiming() {
 		if (timing == null) {
 			timing = new EObjectContainmentEList<Timing>(Timing.class, this, FhirPackage.NUTRITION_ORDER_SCHEDULE1__TIMING);
@@ -104,6 +105,7 @@ public class NutritionOrderSchedule1Impl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getAsNeeded() {
 		return asNeeded;
 	}
@@ -128,6 +130,7 @@ public class NutritionOrderSchedule1Impl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAsNeeded(org.hl7.fhir.Boolean newAsNeeded) {
 		if (newAsNeeded != asNeeded) {
 			NotificationChain msgs = null;
@@ -147,6 +150,7 @@ public class NutritionOrderSchedule1Impl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getAsNeededFor() {
 		return asNeededFor;
 	}
@@ -171,6 +175,7 @@ public class NutritionOrderSchedule1Impl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAsNeededFor(CodeableConcept newAsNeededFor) {
 		if (newAsNeededFor != asNeededFor) {
 			NotificationChain msgs = null;

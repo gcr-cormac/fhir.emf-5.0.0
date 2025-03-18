@@ -233,6 +233,7 @@ public class GenomicStudyImpl extends DomainResourceImpl implements GenomicStudy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.GENOMIC_STUDY__IDENTIFIER);
@@ -245,6 +246,7 @@ public class GenomicStudyImpl extends DomainResourceImpl implements GenomicStudy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public GenomicStudyStatus getStatus() {
 		return status;
 	}
@@ -269,6 +271,7 @@ public class GenomicStudyImpl extends DomainResourceImpl implements GenomicStudy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(GenomicStudyStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -288,6 +291,7 @@ public class GenomicStudyImpl extends DomainResourceImpl implements GenomicStudy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getType() {
 		if (type == null) {
 			type = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.GENOMIC_STUDY__TYPE);
@@ -300,6 +304,7 @@ public class GenomicStudyImpl extends DomainResourceImpl implements GenomicStudy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubject() {
 		return subject;
 	}
@@ -324,6 +329,7 @@ public class GenomicStudyImpl extends DomainResourceImpl implements GenomicStudy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubject(Reference newSubject) {
 		if (newSubject != subject) {
 			NotificationChain msgs = null;
@@ -343,6 +349,7 @@ public class GenomicStudyImpl extends DomainResourceImpl implements GenomicStudy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getEncounter() {
 		return encounter;
 	}
@@ -367,6 +374,7 @@ public class GenomicStudyImpl extends DomainResourceImpl implements GenomicStudy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEncounter(Reference newEncounter) {
 		if (newEncounter != encounter) {
 			NotificationChain msgs = null;
@@ -386,6 +394,7 @@ public class GenomicStudyImpl extends DomainResourceImpl implements GenomicStudy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getStartDate() {
 		return startDate;
 	}
@@ -410,6 +419,7 @@ public class GenomicStudyImpl extends DomainResourceImpl implements GenomicStudy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStartDate(DateTime newStartDate) {
 		if (newStartDate != startDate) {
 			NotificationChain msgs = null;
@@ -429,6 +439,7 @@ public class GenomicStudyImpl extends DomainResourceImpl implements GenomicStudy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getBasedOn() {
 		if (basedOn == null) {
 			basedOn = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.GENOMIC_STUDY__BASED_ON);
@@ -441,6 +452,7 @@ public class GenomicStudyImpl extends DomainResourceImpl implements GenomicStudy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getReferrer() {
 		return referrer;
 	}
@@ -465,6 +477,7 @@ public class GenomicStudyImpl extends DomainResourceImpl implements GenomicStudy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReferrer(Reference newReferrer) {
 		if (newReferrer != referrer) {
 			NotificationChain msgs = null;
@@ -484,6 +497,7 @@ public class GenomicStudyImpl extends DomainResourceImpl implements GenomicStudy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getInterpreter() {
 		if (interpreter == null) {
 			interpreter = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.GENOMIC_STUDY__INTERPRETER);
@@ -496,6 +510,7 @@ public class GenomicStudyImpl extends DomainResourceImpl implements GenomicStudy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getReason() {
 		if (reason == null) {
 			reason = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.GENOMIC_STUDY__REASON);
@@ -508,6 +523,7 @@ public class GenomicStudyImpl extends DomainResourceImpl implements GenomicStudy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getInstantiatesCanonical() {
 		return instantiatesCanonical;
 	}
@@ -532,6 +548,7 @@ public class GenomicStudyImpl extends DomainResourceImpl implements GenomicStudy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInstantiatesCanonical(Canonical newInstantiatesCanonical) {
 		if (newInstantiatesCanonical != instantiatesCanonical) {
 			NotificationChain msgs = null;
@@ -551,6 +568,7 @@ public class GenomicStudyImpl extends DomainResourceImpl implements GenomicStudy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getInstantiatesUri() {
 		return instantiatesUri;
 	}
@@ -575,6 +593,7 @@ public class GenomicStudyImpl extends DomainResourceImpl implements GenomicStudy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInstantiatesUri(Uri newInstantiatesUri) {
 		if (newInstantiatesUri != instantiatesUri) {
 			NotificationChain msgs = null;
@@ -594,6 +613,7 @@ public class GenomicStudyImpl extends DomainResourceImpl implements GenomicStudy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.GENOMIC_STUDY__NOTE);
@@ -606,6 +626,7 @@ public class GenomicStudyImpl extends DomainResourceImpl implements GenomicStudy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -630,6 +651,7 @@ public class GenomicStudyImpl extends DomainResourceImpl implements GenomicStudy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -649,6 +671,7 @@ public class GenomicStudyImpl extends DomainResourceImpl implements GenomicStudy
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<GenomicStudyAnalysis> getAnalysis() {
 		if (analysis == null) {
 			analysis = new EObjectContainmentEList<GenomicStudyAnalysis>(GenomicStudyAnalysis.class, this, FhirPackage.GENOMIC_STUDY__ANALYSIS);

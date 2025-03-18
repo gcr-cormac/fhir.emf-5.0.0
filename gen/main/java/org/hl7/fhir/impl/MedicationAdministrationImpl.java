@@ -321,6 +321,7 @@ public class MedicationAdministrationImpl extends DomainResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.MEDICATION_ADMINISTRATION__IDENTIFIER);
@@ -333,6 +334,7 @@ public class MedicationAdministrationImpl extends DomainResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getBasedOn() {
 		if (basedOn == null) {
 			basedOn = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.MEDICATION_ADMINISTRATION__BASED_ON);
@@ -345,6 +347,7 @@ public class MedicationAdministrationImpl extends DomainResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getPartOf() {
 		if (partOf == null) {
 			partOf = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.MEDICATION_ADMINISTRATION__PART_OF);
@@ -357,6 +360,7 @@ public class MedicationAdministrationImpl extends DomainResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public MedicationAdministrationStatusCodes getStatus() {
 		return status;
 	}
@@ -381,6 +385,7 @@ public class MedicationAdministrationImpl extends DomainResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(MedicationAdministrationStatusCodes newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -400,6 +405,7 @@ public class MedicationAdministrationImpl extends DomainResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getStatusReason() {
 		if (statusReason == null) {
 			statusReason = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.MEDICATION_ADMINISTRATION__STATUS_REASON);
@@ -412,6 +418,7 @@ public class MedicationAdministrationImpl extends DomainResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCategory() {
 		if (category == null) {
 			category = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.MEDICATION_ADMINISTRATION__CATEGORY);
@@ -424,6 +431,7 @@ public class MedicationAdministrationImpl extends DomainResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getMedication() {
 		return medication;
 	}
@@ -448,6 +456,7 @@ public class MedicationAdministrationImpl extends DomainResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMedication(CodeableReference newMedication) {
 		if (newMedication != medication) {
 			NotificationChain msgs = null;
@@ -467,6 +476,7 @@ public class MedicationAdministrationImpl extends DomainResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubject() {
 		return subject;
 	}
@@ -491,6 +501,7 @@ public class MedicationAdministrationImpl extends DomainResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubject(Reference newSubject) {
 		if (newSubject != subject) {
 			NotificationChain msgs = null;
@@ -510,6 +521,7 @@ public class MedicationAdministrationImpl extends DomainResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getEncounter() {
 		return encounter;
 	}
@@ -534,6 +546,7 @@ public class MedicationAdministrationImpl extends DomainResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEncounter(Reference newEncounter) {
 		if (newEncounter != encounter) {
 			NotificationChain msgs = null;
@@ -553,6 +566,7 @@ public class MedicationAdministrationImpl extends DomainResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getSupportingInformation() {
 		if (supportingInformation == null) {
 			supportingInformation = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.MEDICATION_ADMINISTRATION__SUPPORTING_INFORMATION);
@@ -565,6 +579,7 @@ public class MedicationAdministrationImpl extends DomainResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getOccurenceDateTime() {
 		return occurenceDateTime;
 	}
@@ -589,6 +604,7 @@ public class MedicationAdministrationImpl extends DomainResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOccurenceDateTime(DateTime newOccurenceDateTime) {
 		if (newOccurenceDateTime != occurenceDateTime) {
 			NotificationChain msgs = null;
@@ -608,6 +624,7 @@ public class MedicationAdministrationImpl extends DomainResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getOccurencePeriod() {
 		return occurencePeriod;
 	}
@@ -632,6 +649,7 @@ public class MedicationAdministrationImpl extends DomainResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOccurencePeriod(Period newOccurencePeriod) {
 		if (newOccurencePeriod != occurencePeriod) {
 			NotificationChain msgs = null;
@@ -651,6 +669,7 @@ public class MedicationAdministrationImpl extends DomainResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Timing getOccurenceTiming() {
 		return occurenceTiming;
 	}
@@ -675,6 +694,7 @@ public class MedicationAdministrationImpl extends DomainResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOccurenceTiming(Timing newOccurenceTiming) {
 		if (newOccurenceTiming != occurenceTiming) {
 			NotificationChain msgs = null;
@@ -694,6 +714,7 @@ public class MedicationAdministrationImpl extends DomainResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getRecorded() {
 		return recorded;
 	}
@@ -718,6 +739,7 @@ public class MedicationAdministrationImpl extends DomainResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRecorded(DateTime newRecorded) {
 		if (newRecorded != recorded) {
 			NotificationChain msgs = null;
@@ -737,6 +759,7 @@ public class MedicationAdministrationImpl extends DomainResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getIsSubPotent() {
 		return isSubPotent;
 	}
@@ -761,6 +784,7 @@ public class MedicationAdministrationImpl extends DomainResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIsSubPotent(org.hl7.fhir.Boolean newIsSubPotent) {
 		if (newIsSubPotent != isSubPotent) {
 			NotificationChain msgs = null;
@@ -780,6 +804,7 @@ public class MedicationAdministrationImpl extends DomainResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getSubPotentReason() {
 		if (subPotentReason == null) {
 			subPotentReason = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.MEDICATION_ADMINISTRATION__SUB_POTENT_REASON);
@@ -792,6 +817,7 @@ public class MedicationAdministrationImpl extends DomainResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<MedicationAdministrationPerformer> getPerformer() {
 		if (performer == null) {
 			performer = new EObjectContainmentEList<MedicationAdministrationPerformer>(MedicationAdministrationPerformer.class, this, FhirPackage.MEDICATION_ADMINISTRATION__PERFORMER);
@@ -804,6 +830,7 @@ public class MedicationAdministrationImpl extends DomainResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getReason() {
 		if (reason == null) {
 			reason = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.MEDICATION_ADMINISTRATION__REASON);
@@ -816,6 +843,7 @@ public class MedicationAdministrationImpl extends DomainResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getRequest() {
 		return request;
 	}
@@ -840,6 +868,7 @@ public class MedicationAdministrationImpl extends DomainResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRequest(Reference newRequest) {
 		if (newRequest != request) {
 			NotificationChain msgs = null;
@@ -859,6 +888,7 @@ public class MedicationAdministrationImpl extends DomainResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getDevice() {
 		if (device == null) {
 			device = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.MEDICATION_ADMINISTRATION__DEVICE);
@@ -871,6 +901,7 @@ public class MedicationAdministrationImpl extends DomainResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.MEDICATION_ADMINISTRATION__NOTE);
@@ -883,6 +914,7 @@ public class MedicationAdministrationImpl extends DomainResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public MedicationAdministrationDosage getDosage() {
 		return dosage;
 	}
@@ -907,6 +939,7 @@ public class MedicationAdministrationImpl extends DomainResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDosage(MedicationAdministrationDosage newDosage) {
 		if (newDosage != dosage) {
 			NotificationChain msgs = null;
@@ -926,6 +959,7 @@ public class MedicationAdministrationImpl extends DomainResourceImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getEventHistory() {
 		if (eventHistory == null) {
 			eventHistory = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.MEDICATION_ADMINISTRATION__EVENT_HISTORY);

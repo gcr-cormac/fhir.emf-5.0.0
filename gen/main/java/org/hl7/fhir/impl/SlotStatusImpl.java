@@ -79,6 +79,7 @@ public class SlotStatusImpl extends ElementImpl implements SlotStatus {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SlotStatusEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class SlotStatusImpl extends ElementImpl implements SlotStatus {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(SlotStatusEnum newValue) {
 		SlotStatusEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class SlotStatusImpl extends ElementImpl implements SlotStatus {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		SlotStatusEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class SlotStatusImpl extends ElementImpl implements SlotStatus {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

@@ -138,6 +138,7 @@ public class EnrollmentRequestImpl extends DomainResourceImpl implements Enrollm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.ENROLLMENT_REQUEST__IDENTIFIER);
@@ -150,6 +151,7 @@ public class EnrollmentRequestImpl extends DomainResourceImpl implements Enrollm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public FinancialResourceStatusCodes getStatus() {
 		return status;
 	}
@@ -174,6 +176,7 @@ public class EnrollmentRequestImpl extends DomainResourceImpl implements Enrollm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(FinancialResourceStatusCodes newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -193,6 +196,7 @@ public class EnrollmentRequestImpl extends DomainResourceImpl implements Enrollm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getCreated() {
 		return created;
 	}
@@ -217,6 +221,7 @@ public class EnrollmentRequestImpl extends DomainResourceImpl implements Enrollm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCreated(DateTime newCreated) {
 		if (newCreated != created) {
 			NotificationChain msgs = null;
@@ -236,6 +241,7 @@ public class EnrollmentRequestImpl extends DomainResourceImpl implements Enrollm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getInsurer() {
 		return insurer;
 	}
@@ -260,6 +266,7 @@ public class EnrollmentRequestImpl extends DomainResourceImpl implements Enrollm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInsurer(Reference newInsurer) {
 		if (newInsurer != insurer) {
 			NotificationChain msgs = null;
@@ -279,6 +286,7 @@ public class EnrollmentRequestImpl extends DomainResourceImpl implements Enrollm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getProvider() {
 		return provider;
 	}
@@ -303,6 +311,7 @@ public class EnrollmentRequestImpl extends DomainResourceImpl implements Enrollm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProvider(Reference newProvider) {
 		if (newProvider != provider) {
 			NotificationChain msgs = null;
@@ -322,6 +331,7 @@ public class EnrollmentRequestImpl extends DomainResourceImpl implements Enrollm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getCandidate() {
 		return candidate;
 	}
@@ -346,6 +356,7 @@ public class EnrollmentRequestImpl extends DomainResourceImpl implements Enrollm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCandidate(Reference newCandidate) {
 		if (newCandidate != candidate) {
 			NotificationChain msgs = null;
@@ -365,6 +376,7 @@ public class EnrollmentRequestImpl extends DomainResourceImpl implements Enrollm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getCoverage() {
 		return coverage;
 	}
@@ -389,6 +401,7 @@ public class EnrollmentRequestImpl extends DomainResourceImpl implements Enrollm
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCoverage(Reference newCoverage) {
 		if (newCoverage != coverage) {
 			NotificationChain msgs = null;

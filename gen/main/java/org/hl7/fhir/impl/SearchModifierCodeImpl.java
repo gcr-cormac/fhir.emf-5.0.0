@@ -79,6 +79,7 @@ public class SearchModifierCodeImpl extends ElementImpl implements SearchModifie
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SearchModifierCodeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class SearchModifierCodeImpl extends ElementImpl implements SearchModifie
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(SearchModifierCodeEnum newValue) {
 		SearchModifierCodeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class SearchModifierCodeImpl extends ElementImpl implements SearchModifie
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		SearchModifierCodeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class SearchModifierCodeImpl extends ElementImpl implements SearchModifie
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

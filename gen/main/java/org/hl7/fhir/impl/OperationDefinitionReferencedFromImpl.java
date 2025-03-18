@@ -72,6 +72,7 @@ public class OperationDefinitionReferencedFromImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getSource() {
 		return source;
 	}
@@ -96,6 +97,7 @@ public class OperationDefinitionReferencedFromImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSource(org.hl7.fhir.String newSource) {
 		if (newSource != source) {
 			NotificationChain msgs = null;
@@ -115,6 +117,7 @@ public class OperationDefinitionReferencedFromImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getSourceId() {
 		return sourceId;
 	}
@@ -139,6 +142,7 @@ public class OperationDefinitionReferencedFromImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSourceId(org.hl7.fhir.String newSourceId) {
 		if (newSourceId != sourceId) {
 			NotificationChain msgs = null;

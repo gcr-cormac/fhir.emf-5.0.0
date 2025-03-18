@@ -172,6 +172,7 @@ public class SubstanceReferenceInformationTargetImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Identifier getTarget() {
 		return target;
 	}
@@ -196,6 +197,7 @@ public class SubstanceReferenceInformationTargetImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTarget(Identifier newTarget) {
 		if (newTarget != target) {
 			NotificationChain msgs = null;
@@ -215,6 +217,7 @@ public class SubstanceReferenceInformationTargetImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -239,6 +242,7 @@ public class SubstanceReferenceInformationTargetImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -258,6 +262,7 @@ public class SubstanceReferenceInformationTargetImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getInteraction() {
 		return interaction;
 	}
@@ -282,6 +287,7 @@ public class SubstanceReferenceInformationTargetImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInteraction(CodeableConcept newInteraction) {
 		if (newInteraction != interaction) {
 			NotificationChain msgs = null;
@@ -301,6 +307,7 @@ public class SubstanceReferenceInformationTargetImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getOrganism() {
 		return organism;
 	}
@@ -325,6 +332,7 @@ public class SubstanceReferenceInformationTargetImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOrganism(CodeableConcept newOrganism) {
 		if (newOrganism != organism) {
 			NotificationChain msgs = null;
@@ -344,6 +352,7 @@ public class SubstanceReferenceInformationTargetImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getOrganismType() {
 		return organismType;
 	}
@@ -368,6 +377,7 @@ public class SubstanceReferenceInformationTargetImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOrganismType(CodeableConcept newOrganismType) {
 		if (newOrganismType != organismType) {
 			NotificationChain msgs = null;
@@ -387,6 +397,7 @@ public class SubstanceReferenceInformationTargetImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getAmountQuantity() {
 		return amountQuantity;
 	}
@@ -411,6 +422,7 @@ public class SubstanceReferenceInformationTargetImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAmountQuantity(Quantity newAmountQuantity) {
 		if (newAmountQuantity != amountQuantity) {
 			NotificationChain msgs = null;
@@ -430,6 +442,7 @@ public class SubstanceReferenceInformationTargetImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Range getAmountRange() {
 		return amountRange;
 	}
@@ -454,6 +467,7 @@ public class SubstanceReferenceInformationTargetImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAmountRange(Range newAmountRange) {
 		if (newAmountRange != amountRange) {
 			NotificationChain msgs = null;
@@ -473,6 +487,7 @@ public class SubstanceReferenceInformationTargetImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getAmountString() {
 		return amountString;
 	}
@@ -497,6 +512,7 @@ public class SubstanceReferenceInformationTargetImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAmountString(org.hl7.fhir.String newAmountString) {
 		if (newAmountString != amountString) {
 			NotificationChain msgs = null;
@@ -516,6 +532,7 @@ public class SubstanceReferenceInformationTargetImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getAmountType() {
 		return amountType;
 	}
@@ -540,6 +557,7 @@ public class SubstanceReferenceInformationTargetImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAmountType(CodeableConcept newAmountType) {
 		if (newAmountType != amountType) {
 			NotificationChain msgs = null;
@@ -559,6 +577,7 @@ public class SubstanceReferenceInformationTargetImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getSource() {
 		if (source == null) {
 			source = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.SUBSTANCE_REFERENCE_INFORMATION_TARGET__SOURCE);

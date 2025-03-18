@@ -79,6 +79,7 @@ public class StrandTypeImpl extends ElementImpl implements StrandType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public StrandTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class StrandTypeImpl extends ElementImpl implements StrandType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(StrandTypeEnum newValue) {
 		StrandTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class StrandTypeImpl extends ElementImpl implements StrandType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		StrandTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class StrandTypeImpl extends ElementImpl implements StrandType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

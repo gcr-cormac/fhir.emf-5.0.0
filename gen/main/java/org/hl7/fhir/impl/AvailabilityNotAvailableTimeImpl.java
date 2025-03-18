@@ -73,6 +73,7 @@ public class AvailabilityNotAvailableTimeImpl extends DataTypeImpl implements Av
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDescription() {
 		return description;
 	}
@@ -97,6 +98,7 @@ public class AvailabilityNotAvailableTimeImpl extends DataTypeImpl implements Av
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(org.hl7.fhir.String newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -116,6 +118,7 @@ public class AvailabilityNotAvailableTimeImpl extends DataTypeImpl implements Av
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getDuring() {
 		return during;
 	}
@@ -140,6 +143,7 @@ public class AvailabilityNotAvailableTimeImpl extends DataTypeImpl implements Av
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDuring(Period newDuring) {
 		if (newDuring != during) {
 			NotificationChain msgs = null;

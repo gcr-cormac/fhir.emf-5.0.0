@@ -230,6 +230,7 @@ public class RegulatedAuthorizationImpl extends DomainResourceImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.REGULATED_AUTHORIZATION__IDENTIFIER);
@@ -242,6 +243,7 @@ public class RegulatedAuthorizationImpl extends DomainResourceImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getSubject() {
 		if (subject == null) {
 			subject = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.REGULATED_AUTHORIZATION__SUBJECT);
@@ -254,6 +256,7 @@ public class RegulatedAuthorizationImpl extends DomainResourceImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -278,6 +281,7 @@ public class RegulatedAuthorizationImpl extends DomainResourceImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -297,6 +301,7 @@ public class RegulatedAuthorizationImpl extends DomainResourceImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -321,6 +326,7 @@ public class RegulatedAuthorizationImpl extends DomainResourceImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -340,6 +346,7 @@ public class RegulatedAuthorizationImpl extends DomainResourceImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getRegion() {
 		if (region == null) {
 			region = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.REGULATED_AUTHORIZATION__REGION);
@@ -352,6 +359,7 @@ public class RegulatedAuthorizationImpl extends DomainResourceImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getStatus() {
 		return status;
 	}
@@ -376,6 +384,7 @@ public class RegulatedAuthorizationImpl extends DomainResourceImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(CodeableConcept newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -395,6 +404,7 @@ public class RegulatedAuthorizationImpl extends DomainResourceImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getStatusDate() {
 		return statusDate;
 	}
@@ -419,6 +429,7 @@ public class RegulatedAuthorizationImpl extends DomainResourceImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatusDate(DateTime newStatusDate) {
 		if (newStatusDate != statusDate) {
 			NotificationChain msgs = null;
@@ -438,6 +449,7 @@ public class RegulatedAuthorizationImpl extends DomainResourceImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getValidityPeriod() {
 		return validityPeriod;
 	}
@@ -462,6 +474,7 @@ public class RegulatedAuthorizationImpl extends DomainResourceImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValidityPeriod(Period newValidityPeriod) {
 		if (newValidityPeriod != validityPeriod) {
 			NotificationChain msgs = null;
@@ -481,6 +494,7 @@ public class RegulatedAuthorizationImpl extends DomainResourceImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getIndication() {
 		if (indication == null) {
 			indication = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.REGULATED_AUTHORIZATION__INDICATION);
@@ -493,6 +507,7 @@ public class RegulatedAuthorizationImpl extends DomainResourceImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getIntendedUse() {
 		return intendedUse;
 	}
@@ -517,6 +532,7 @@ public class RegulatedAuthorizationImpl extends DomainResourceImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIntendedUse(CodeableConcept newIntendedUse) {
 		if (newIntendedUse != intendedUse) {
 			NotificationChain msgs = null;
@@ -536,6 +552,7 @@ public class RegulatedAuthorizationImpl extends DomainResourceImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getBasis() {
 		if (basis == null) {
 			basis = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.REGULATED_AUTHORIZATION__BASIS);
@@ -548,6 +565,7 @@ public class RegulatedAuthorizationImpl extends DomainResourceImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getHolder() {
 		return holder;
 	}
@@ -572,6 +590,7 @@ public class RegulatedAuthorizationImpl extends DomainResourceImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setHolder(Reference newHolder) {
 		if (newHolder != holder) {
 			NotificationChain msgs = null;
@@ -591,6 +610,7 @@ public class RegulatedAuthorizationImpl extends DomainResourceImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getRegulator() {
 		return regulator;
 	}
@@ -615,6 +635,7 @@ public class RegulatedAuthorizationImpl extends DomainResourceImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRegulator(Reference newRegulator) {
 		if (newRegulator != regulator) {
 			NotificationChain msgs = null;
@@ -634,6 +655,7 @@ public class RegulatedAuthorizationImpl extends DomainResourceImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getAttachedDocument() {
 		if (attachedDocument == null) {
 			attachedDocument = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.REGULATED_AUTHORIZATION__ATTACHED_DOCUMENT);
@@ -646,6 +668,7 @@ public class RegulatedAuthorizationImpl extends DomainResourceImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public RegulatedAuthorizationCase getCase() {
 		return case_;
 	}
@@ -670,6 +693,7 @@ public class RegulatedAuthorizationImpl extends DomainResourceImpl implements Re
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCase(RegulatedAuthorizationCase newCase) {
 		if (newCase != case_) {
 			NotificationChain msgs = null;

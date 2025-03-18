@@ -79,6 +79,7 @@ public class GuidanceResponseStatusImpl extends ElementImpl implements GuidanceR
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public GuidanceResponseStatusEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class GuidanceResponseStatusImpl extends ElementImpl implements GuidanceR
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(GuidanceResponseStatusEnum newValue) {
 		GuidanceResponseStatusEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class GuidanceResponseStatusImpl extends ElementImpl implements GuidanceR
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		GuidanceResponseStatusEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class GuidanceResponseStatusImpl extends ElementImpl implements GuidanceR
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

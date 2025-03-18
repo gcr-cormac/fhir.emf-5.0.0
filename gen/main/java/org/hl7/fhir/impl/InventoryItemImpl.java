@@ -222,6 +222,7 @@ public class InventoryItemImpl extends DomainResourceImpl implements InventoryIt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.INVENTORY_ITEM__IDENTIFIER);
@@ -234,6 +235,7 @@ public class InventoryItemImpl extends DomainResourceImpl implements InventoryIt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public InventoryItemStatusCodes getStatus() {
 		return status;
 	}
@@ -258,6 +260,7 @@ public class InventoryItemImpl extends DomainResourceImpl implements InventoryIt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(InventoryItemStatusCodes newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -277,6 +280,7 @@ public class InventoryItemImpl extends DomainResourceImpl implements InventoryIt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCategory() {
 		if (category == null) {
 			category = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.INVENTORY_ITEM__CATEGORY);
@@ -289,6 +293,7 @@ public class InventoryItemImpl extends DomainResourceImpl implements InventoryIt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCode() {
 		if (code == null) {
 			code = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.INVENTORY_ITEM__CODE);
@@ -301,6 +306,7 @@ public class InventoryItemImpl extends DomainResourceImpl implements InventoryIt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<InventoryItemName> getName() {
 		if (name == null) {
 			name = new EObjectContainmentEList<InventoryItemName>(InventoryItemName.class, this, FhirPackage.INVENTORY_ITEM__NAME);
@@ -313,6 +319,7 @@ public class InventoryItemImpl extends DomainResourceImpl implements InventoryIt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<InventoryItemResponsibleOrganization> getResponsibleOrganization() {
 		if (responsibleOrganization == null) {
 			responsibleOrganization = new EObjectContainmentEList<InventoryItemResponsibleOrganization>(InventoryItemResponsibleOrganization.class, this, FhirPackage.INVENTORY_ITEM__RESPONSIBLE_ORGANIZATION);
@@ -325,6 +332,7 @@ public class InventoryItemImpl extends DomainResourceImpl implements InventoryIt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public InventoryItemDescription getDescription() {
 		return description;
 	}
@@ -349,6 +357,7 @@ public class InventoryItemImpl extends DomainResourceImpl implements InventoryIt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(InventoryItemDescription newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -368,6 +377,7 @@ public class InventoryItemImpl extends DomainResourceImpl implements InventoryIt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getInventoryStatus() {
 		if (inventoryStatus == null) {
 			inventoryStatus = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.INVENTORY_ITEM__INVENTORY_STATUS);
@@ -380,6 +390,7 @@ public class InventoryItemImpl extends DomainResourceImpl implements InventoryIt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getBaseUnit() {
 		return baseUnit;
 	}
@@ -404,6 +415,7 @@ public class InventoryItemImpl extends DomainResourceImpl implements InventoryIt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBaseUnit(CodeableConcept newBaseUnit) {
 		if (newBaseUnit != baseUnit) {
 			NotificationChain msgs = null;
@@ -423,6 +435,7 @@ public class InventoryItemImpl extends DomainResourceImpl implements InventoryIt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getNetContent() {
 		return netContent;
 	}
@@ -447,6 +460,7 @@ public class InventoryItemImpl extends DomainResourceImpl implements InventoryIt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNetContent(Quantity newNetContent) {
 		if (newNetContent != netContent) {
 			NotificationChain msgs = null;
@@ -466,6 +480,7 @@ public class InventoryItemImpl extends DomainResourceImpl implements InventoryIt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<InventoryItemAssociation> getAssociation() {
 		if (association == null) {
 			association = new EObjectContainmentEList<InventoryItemAssociation>(InventoryItemAssociation.class, this, FhirPackage.INVENTORY_ITEM__ASSOCIATION);
@@ -478,6 +493,7 @@ public class InventoryItemImpl extends DomainResourceImpl implements InventoryIt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<InventoryItemCharacteristic> getCharacteristic() {
 		if (characteristic == null) {
 			characteristic = new EObjectContainmentEList<InventoryItemCharacteristic>(InventoryItemCharacteristic.class, this, FhirPackage.INVENTORY_ITEM__CHARACTERISTIC);
@@ -490,6 +506,7 @@ public class InventoryItemImpl extends DomainResourceImpl implements InventoryIt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public InventoryItemInstance getInstance() {
 		return instance;
 	}
@@ -514,6 +531,7 @@ public class InventoryItemImpl extends DomainResourceImpl implements InventoryIt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInstance(InventoryItemInstance newInstance) {
 		if (newInstance != instance) {
 			NotificationChain msgs = null;
@@ -533,6 +551,7 @@ public class InventoryItemImpl extends DomainResourceImpl implements InventoryIt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getProductReference() {
 		return productReference;
 	}
@@ -557,6 +576,7 @@ public class InventoryItemImpl extends DomainResourceImpl implements InventoryIt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProductReference(Reference newProductReference) {
 		if (newProductReference != productReference) {
 			NotificationChain msgs = null;

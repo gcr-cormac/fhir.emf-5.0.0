@@ -97,6 +97,7 @@ public class ListEntryImpl extends BackboneElementImpl implements ListEntry {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getFlag() {
 		return flag;
 	}
@@ -121,6 +122,7 @@ public class ListEntryImpl extends BackboneElementImpl implements ListEntry {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFlag(CodeableConcept newFlag) {
 		if (newFlag != flag) {
 			NotificationChain msgs = null;
@@ -140,6 +142,7 @@ public class ListEntryImpl extends BackboneElementImpl implements ListEntry {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getDeleted() {
 		return deleted;
 	}
@@ -164,6 +167,7 @@ public class ListEntryImpl extends BackboneElementImpl implements ListEntry {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDeleted(org.hl7.fhir.Boolean newDeleted) {
 		if (newDeleted != deleted) {
 			NotificationChain msgs = null;
@@ -183,6 +187,7 @@ public class ListEntryImpl extends BackboneElementImpl implements ListEntry {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getDate() {
 		return date;
 	}
@@ -207,6 +212,7 @@ public class ListEntryImpl extends BackboneElementImpl implements ListEntry {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDate(DateTime newDate) {
 		if (newDate != date) {
 			NotificationChain msgs = null;
@@ -226,6 +232,7 @@ public class ListEntryImpl extends BackboneElementImpl implements ListEntry {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getItem() {
 		return item;
 	}
@@ -250,6 +257,7 @@ public class ListEntryImpl extends BackboneElementImpl implements ListEntry {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setItem(Reference newItem) {
 		if (newItem != item) {
 			NotificationChain msgs = null;

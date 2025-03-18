@@ -173,6 +173,7 @@ public class AppointmentRecurrenceTemplateImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getTimezone() {
 		return timezone;
 	}
@@ -197,6 +198,7 @@ public class AppointmentRecurrenceTemplateImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTimezone(CodeableConcept newTimezone) {
 		if (newTimezone != timezone) {
 			NotificationChain msgs = null;
@@ -216,6 +218,7 @@ public class AppointmentRecurrenceTemplateImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getRecurrenceType() {
 		return recurrenceType;
 	}
@@ -240,6 +243,7 @@ public class AppointmentRecurrenceTemplateImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRecurrenceType(CodeableConcept newRecurrenceType) {
 		if (newRecurrenceType != recurrenceType) {
 			NotificationChain msgs = null;
@@ -259,6 +263,7 @@ public class AppointmentRecurrenceTemplateImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getLastOccurrenceDate() {
 		return lastOccurrenceDate;
 	}
@@ -283,6 +288,7 @@ public class AppointmentRecurrenceTemplateImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLastOccurrenceDate(Date newLastOccurrenceDate) {
 		if (newLastOccurrenceDate != lastOccurrenceDate) {
 			NotificationChain msgs = null;
@@ -302,6 +308,7 @@ public class AppointmentRecurrenceTemplateImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PositiveInt getOccurrenceCount() {
 		return occurrenceCount;
 	}
@@ -326,6 +333,7 @@ public class AppointmentRecurrenceTemplateImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOccurrenceCount(PositiveInt newOccurrenceCount) {
 		if (newOccurrenceCount != occurrenceCount) {
 			NotificationChain msgs = null;
@@ -345,6 +353,7 @@ public class AppointmentRecurrenceTemplateImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Date> getOccurrenceDate() {
 		if (occurrenceDate == null) {
 			occurrenceDate = new EObjectContainmentEList<Date>(Date.class, this, FhirPackage.APPOINTMENT_RECURRENCE_TEMPLATE__OCCURRENCE_DATE);
@@ -357,6 +366,7 @@ public class AppointmentRecurrenceTemplateImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AppointmentWeeklyTemplate getWeeklyTemplate() {
 		return weeklyTemplate;
 	}
@@ -381,6 +391,7 @@ public class AppointmentRecurrenceTemplateImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setWeeklyTemplate(AppointmentWeeklyTemplate newWeeklyTemplate) {
 		if (newWeeklyTemplate != weeklyTemplate) {
 			NotificationChain msgs = null;
@@ -400,6 +411,7 @@ public class AppointmentRecurrenceTemplateImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AppointmentMonthlyTemplate getMonthlyTemplate() {
 		return monthlyTemplate;
 	}
@@ -424,6 +436,7 @@ public class AppointmentRecurrenceTemplateImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMonthlyTemplate(AppointmentMonthlyTemplate newMonthlyTemplate) {
 		if (newMonthlyTemplate != monthlyTemplate) {
 			NotificationChain msgs = null;
@@ -443,6 +456,7 @@ public class AppointmentRecurrenceTemplateImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AppointmentYearlyTemplate getYearlyTemplate() {
 		return yearlyTemplate;
 	}
@@ -467,6 +481,7 @@ public class AppointmentRecurrenceTemplateImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setYearlyTemplate(AppointmentYearlyTemplate newYearlyTemplate) {
 		if (newYearlyTemplate != yearlyTemplate) {
 			NotificationChain msgs = null;
@@ -486,6 +501,7 @@ public class AppointmentRecurrenceTemplateImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Date> getExcludingDate() {
 		if (excludingDate == null) {
 			excludingDate = new EObjectContainmentEList<Date>(Date.class, this, FhirPackage.APPOINTMENT_RECURRENCE_TEMPLATE__EXCLUDING_DATE);
@@ -498,6 +514,7 @@ public class AppointmentRecurrenceTemplateImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<PositiveInt> getExcludingRecurrenceId() {
 		if (excludingRecurrenceId == null) {
 			excludingRecurrenceId = new EObjectContainmentEList<PositiveInt>(PositiveInt.class, this, FhirPackage.APPOINTMENT_RECURRENCE_TEMPLATE__EXCLUDING_RECURRENCE_ID);

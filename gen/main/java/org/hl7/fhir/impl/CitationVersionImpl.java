@@ -73,6 +73,7 @@ public class CitationVersionImpl extends BackboneElementImpl implements Citation
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getValue() {
 		return value;
 	}
@@ -97,6 +98,7 @@ public class CitationVersionImpl extends BackboneElementImpl implements Citation
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(org.hl7.fhir.String newValue) {
 		if (newValue != value) {
 			NotificationChain msgs = null;
@@ -116,6 +118,7 @@ public class CitationVersionImpl extends BackboneElementImpl implements Citation
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getBaseCitation() {
 		return baseCitation;
 	}
@@ -140,6 +143,7 @@ public class CitationVersionImpl extends BackboneElementImpl implements Citation
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBaseCitation(Reference newBaseCitation) {
 		if (newBaseCitation != baseCitation) {
 			NotificationChain msgs = null;

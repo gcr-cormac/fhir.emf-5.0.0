@@ -84,6 +84,7 @@ public class DeviceNameImpl extends BackboneElementImpl implements DeviceName {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getValue() {
 		return value;
 	}
@@ -108,6 +109,7 @@ public class DeviceNameImpl extends BackboneElementImpl implements DeviceName {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(org.hl7.fhir.String newValue) {
 		if (newValue != value) {
 			NotificationChain msgs = null;
@@ -127,6 +129,7 @@ public class DeviceNameImpl extends BackboneElementImpl implements DeviceName {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DeviceNameType getType() {
 		return type;
 	}
@@ -151,6 +154,7 @@ public class DeviceNameImpl extends BackboneElementImpl implements DeviceName {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(DeviceNameType newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -170,6 +174,7 @@ public class DeviceNameImpl extends BackboneElementImpl implements DeviceName {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getDisplay() {
 		return display;
 	}
@@ -194,6 +199,7 @@ public class DeviceNameImpl extends BackboneElementImpl implements DeviceName {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDisplay(org.hl7.fhir.Boolean newDisplay) {
 		if (newDisplay != display) {
 			NotificationChain msgs = null;

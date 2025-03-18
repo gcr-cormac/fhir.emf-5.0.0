@@ -348,6 +348,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getUrl() {
 		return url;
 	}
@@ -372,6 +373,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUrl(Uri newUrl) {
 		if (newUrl != url) {
 			NotificationChain msgs = null;
@@ -391,6 +393,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.IMPLEMENTATION_GUIDE__IDENTIFIER);
@@ -403,6 +406,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersion() {
 		return version;
 	}
@@ -427,6 +431,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersion(org.hl7.fhir.String newVersion) {
 		if (newVersion != version) {
 			NotificationChain msgs = null;
@@ -446,6 +451,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersionAlgorithmString() {
 		return versionAlgorithmString;
 	}
@@ -470,6 +476,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersionAlgorithmString(org.hl7.fhir.String newVersionAlgorithmString) {
 		if (newVersionAlgorithmString != versionAlgorithmString) {
 			NotificationChain msgs = null;
@@ -489,6 +496,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getVersionAlgorithmCoding() {
 		return versionAlgorithmCoding;
 	}
@@ -513,6 +521,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersionAlgorithmCoding(Coding newVersionAlgorithmCoding) {
 		if (newVersionAlgorithmCoding != versionAlgorithmCoding) {
 			NotificationChain msgs = null;
@@ -532,6 +541,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -556,6 +566,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -575,6 +586,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getTitle() {
 		return title;
 	}
@@ -599,6 +611,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(org.hl7.fhir.String newTitle) {
 		if (newTitle != title) {
 			NotificationChain msgs = null;
@@ -618,6 +631,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PublicationStatus getStatus() {
 		return status;
 	}
@@ -642,6 +656,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(PublicationStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -661,6 +676,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getExperimental() {
 		return experimental;
 	}
@@ -685,6 +701,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExperimental(org.hl7.fhir.Boolean newExperimental) {
 		if (newExperimental != experimental) {
 			NotificationChain msgs = null;
@@ -704,6 +721,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getDate() {
 		return date;
 	}
@@ -728,6 +746,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDate(DateTime newDate) {
 		if (newDate != date) {
 			NotificationChain msgs = null;
@@ -747,6 +766,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPublisher() {
 		return publisher;
 	}
@@ -771,6 +791,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPublisher(org.hl7.fhir.String newPublisher) {
 		if (newPublisher != publisher) {
 			NotificationChain msgs = null;
@@ -790,6 +811,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getContact() {
 		if (contact == null) {
 			contact = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.IMPLEMENTATION_GUIDE__CONTACT);
@@ -802,6 +824,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -826,6 +849,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -845,6 +869,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<UsageContext> getUseContext() {
 		if (useContext == null) {
 			useContext = new EObjectContainmentEList<UsageContext>(UsageContext.class, this, FhirPackage.IMPLEMENTATION_GUIDE__USE_CONTEXT);
@@ -857,6 +882,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getJurisdiction() {
 		if (jurisdiction == null) {
 			jurisdiction = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.IMPLEMENTATION_GUIDE__JURISDICTION);
@@ -869,6 +895,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getPurpose() {
 		return purpose;
 	}
@@ -893,6 +920,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPurpose(Markdown newPurpose) {
 		if (newPurpose != purpose) {
 			NotificationChain msgs = null;
@@ -912,6 +940,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getCopyright() {
 		return copyright;
 	}
@@ -936,6 +965,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCopyright(Markdown newCopyright) {
 		if (newCopyright != copyright) {
 			NotificationChain msgs = null;
@@ -955,6 +985,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getCopyrightLabel() {
 		return copyrightLabel;
 	}
@@ -979,6 +1010,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCopyrightLabel(org.hl7.fhir.String newCopyrightLabel) {
 		if (newCopyrightLabel != copyrightLabel) {
 			NotificationChain msgs = null;
@@ -998,6 +1030,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Id getPackageId() {
 		return packageId;
 	}
@@ -1022,6 +1055,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPackageId(Id newPackageId) {
 		if (newPackageId != packageId) {
 			NotificationChain msgs = null;
@@ -1041,6 +1075,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SPDXLicense getLicense() {
 		return license;
 	}
@@ -1065,6 +1100,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLicense(SPDXLicense newLicense) {
 		if (newLicense != license) {
 			NotificationChain msgs = null;
@@ -1084,6 +1120,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<FHIRVersion> getFhirVersion() {
 		if (fhirVersion == null) {
 			fhirVersion = new EObjectContainmentEList<FHIRVersion>(FHIRVersion.class, this, FhirPackage.IMPLEMENTATION_GUIDE__FHIR_VERSION);
@@ -1096,6 +1133,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ImplementationGuideDependsOn> getDependsOn() {
 		if (dependsOn == null) {
 			dependsOn = new EObjectContainmentEList<ImplementationGuideDependsOn>(ImplementationGuideDependsOn.class, this, FhirPackage.IMPLEMENTATION_GUIDE__DEPENDS_ON);
@@ -1108,6 +1146,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ImplementationGuideGlobal> getGlobal() {
 		if (global == null) {
 			global = new EObjectContainmentEList<ImplementationGuideGlobal>(ImplementationGuideGlobal.class, this, FhirPackage.IMPLEMENTATION_GUIDE__GLOBAL);
@@ -1120,6 +1159,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ImplementationGuideDefinition getDefinition() {
 		return definition;
 	}
@@ -1144,6 +1184,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDefinition(ImplementationGuideDefinition newDefinition) {
 		if (newDefinition != definition) {
 			NotificationChain msgs = null;
@@ -1163,6 +1204,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ImplementationGuideManifest getManifest() {
 		return manifest;
 	}
@@ -1187,6 +1229,7 @@ public class ImplementationGuideImpl extends CanonicalResourceImpl implements Im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setManifest(ImplementationGuideManifest newManifest) {
 		if (newManifest != manifest) {
 			NotificationChain msgs = null;

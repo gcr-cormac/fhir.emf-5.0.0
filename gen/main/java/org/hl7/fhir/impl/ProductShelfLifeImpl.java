@@ -103,6 +103,7 @@ public class ProductShelfLifeImpl extends BackboneTypeImpl implements ProductShe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -127,6 +128,7 @@ public class ProductShelfLifeImpl extends BackboneTypeImpl implements ProductShe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -146,6 +148,7 @@ public class ProductShelfLifeImpl extends BackboneTypeImpl implements ProductShe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Duration getPeriodDuration() {
 		return periodDuration;
 	}
@@ -170,6 +173,7 @@ public class ProductShelfLifeImpl extends BackboneTypeImpl implements ProductShe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriodDuration(Duration newPeriodDuration) {
 		if (newPeriodDuration != periodDuration) {
 			NotificationChain msgs = null;
@@ -189,6 +193,7 @@ public class ProductShelfLifeImpl extends BackboneTypeImpl implements ProductShe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPeriodString() {
 		return periodString;
 	}
@@ -213,6 +218,7 @@ public class ProductShelfLifeImpl extends BackboneTypeImpl implements ProductShe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriodString(org.hl7.fhir.String newPeriodString) {
 		if (newPeriodString != periodString) {
 			NotificationChain msgs = null;
@@ -232,6 +238,7 @@ public class ProductShelfLifeImpl extends BackboneTypeImpl implements ProductShe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getSpecialPrecautionsForStorage() {
 		if (specialPrecautionsForStorage == null) {
 			specialPrecautionsForStorage = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.PRODUCT_SHELF_LIFE__SPECIAL_PRECAUTIONS_FOR_STORAGE);

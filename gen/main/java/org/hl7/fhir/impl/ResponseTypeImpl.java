@@ -79,6 +79,7 @@ public class ResponseTypeImpl extends ElementImpl implements ResponseType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ResponseTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ResponseTypeImpl extends ElementImpl implements ResponseType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ResponseTypeEnum newValue) {
 		ResponseTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ResponseTypeImpl extends ElementImpl implements ResponseType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ResponseTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ResponseTypeImpl extends ElementImpl implements ResponseType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

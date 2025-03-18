@@ -79,6 +79,7 @@ public class RelatedArtifactTypeExpandedImpl extends ElementImpl implements Rela
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public RelatedArtifactTypeExpandedEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class RelatedArtifactTypeExpandedImpl extends ElementImpl implements Rela
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(RelatedArtifactTypeExpandedEnum newValue) {
 		RelatedArtifactTypeExpandedEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class RelatedArtifactTypeExpandedImpl extends ElementImpl implements Rela
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		RelatedArtifactTypeExpandedEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class RelatedArtifactTypeExpandedImpl extends ElementImpl implements Rela
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

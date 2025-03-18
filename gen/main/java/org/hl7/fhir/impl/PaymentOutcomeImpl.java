@@ -79,6 +79,7 @@ public class PaymentOutcomeImpl extends ElementImpl implements PaymentOutcome {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PaymentOutcomeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class PaymentOutcomeImpl extends ElementImpl implements PaymentOutcome {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(PaymentOutcomeEnum newValue) {
 		PaymentOutcomeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class PaymentOutcomeImpl extends ElementImpl implements PaymentOutcome {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		PaymentOutcomeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class PaymentOutcomeImpl extends ElementImpl implements PaymentOutcome {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

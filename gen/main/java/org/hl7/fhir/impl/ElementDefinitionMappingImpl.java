@@ -97,6 +97,7 @@ public class ElementDefinitionMappingImpl extends BackboneTypeImpl implements El
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Id getIdentity() {
 		return identity;
 	}
@@ -121,6 +122,7 @@ public class ElementDefinitionMappingImpl extends BackboneTypeImpl implements El
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIdentity(Id newIdentity) {
 		if (newIdentity != identity) {
 			NotificationChain msgs = null;
@@ -140,6 +142,7 @@ public class ElementDefinitionMappingImpl extends BackboneTypeImpl implements El
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Code getLanguage() {
 		return language;
 	}
@@ -164,6 +167,7 @@ public class ElementDefinitionMappingImpl extends BackboneTypeImpl implements El
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLanguage(Code newLanguage) {
 		if (newLanguage != language) {
 			NotificationChain msgs = null;
@@ -183,6 +187,7 @@ public class ElementDefinitionMappingImpl extends BackboneTypeImpl implements El
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getMap() {
 		return map;
 	}
@@ -207,6 +212,7 @@ public class ElementDefinitionMappingImpl extends BackboneTypeImpl implements El
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMap(org.hl7.fhir.String newMap) {
 		if (newMap != map) {
 			NotificationChain msgs = null;
@@ -226,6 +232,7 @@ public class ElementDefinitionMappingImpl extends BackboneTypeImpl implements El
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getComment() {
 		return comment;
 	}
@@ -250,6 +257,7 @@ public class ElementDefinitionMappingImpl extends BackboneTypeImpl implements El
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setComment(Markdown newComment) {
 		if (newComment != comment) {
 			NotificationChain msgs = null;

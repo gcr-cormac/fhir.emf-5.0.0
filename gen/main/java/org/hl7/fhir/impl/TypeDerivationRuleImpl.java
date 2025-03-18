@@ -79,6 +79,7 @@ public class TypeDerivationRuleImpl extends ElementImpl implements TypeDerivatio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TypeDerivationRuleEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class TypeDerivationRuleImpl extends ElementImpl implements TypeDerivatio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(TypeDerivationRuleEnum newValue) {
 		TypeDerivationRuleEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class TypeDerivationRuleImpl extends ElementImpl implements TypeDerivatio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		TypeDerivationRuleEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class TypeDerivationRuleImpl extends ElementImpl implements TypeDerivatio
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

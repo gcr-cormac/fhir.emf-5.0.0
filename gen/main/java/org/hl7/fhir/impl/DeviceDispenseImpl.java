@@ -298,6 +298,7 @@ public class DeviceDispenseImpl extends DomainResourceImpl implements DeviceDisp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.DEVICE_DISPENSE__IDENTIFIER);
@@ -310,6 +311,7 @@ public class DeviceDispenseImpl extends DomainResourceImpl implements DeviceDisp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getBasedOn() {
 		if (basedOn == null) {
 			basedOn = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.DEVICE_DISPENSE__BASED_ON);
@@ -322,6 +324,7 @@ public class DeviceDispenseImpl extends DomainResourceImpl implements DeviceDisp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getPartOf() {
 		if (partOf == null) {
 			partOf = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.DEVICE_DISPENSE__PART_OF);
@@ -334,6 +337,7 @@ public class DeviceDispenseImpl extends DomainResourceImpl implements DeviceDisp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DeviceDispenseStatusCodes getStatus() {
 		return status;
 	}
@@ -358,6 +362,7 @@ public class DeviceDispenseImpl extends DomainResourceImpl implements DeviceDisp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(DeviceDispenseStatusCodes newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -377,6 +382,7 @@ public class DeviceDispenseImpl extends DomainResourceImpl implements DeviceDisp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getStatusReason() {
 		return statusReason;
 	}
@@ -401,6 +407,7 @@ public class DeviceDispenseImpl extends DomainResourceImpl implements DeviceDisp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatusReason(CodeableReference newStatusReason) {
 		if (newStatusReason != statusReason) {
 			NotificationChain msgs = null;
@@ -420,6 +427,7 @@ public class DeviceDispenseImpl extends DomainResourceImpl implements DeviceDisp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCategory() {
 		if (category == null) {
 			category = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.DEVICE_DISPENSE__CATEGORY);
@@ -432,6 +440,7 @@ public class DeviceDispenseImpl extends DomainResourceImpl implements DeviceDisp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableReference getDevice() {
 		return device;
 	}
@@ -456,6 +465,7 @@ public class DeviceDispenseImpl extends DomainResourceImpl implements DeviceDisp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDevice(CodeableReference newDevice) {
 		if (newDevice != device) {
 			NotificationChain msgs = null;
@@ -475,6 +485,7 @@ public class DeviceDispenseImpl extends DomainResourceImpl implements DeviceDisp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubject() {
 		return subject;
 	}
@@ -499,6 +510,7 @@ public class DeviceDispenseImpl extends DomainResourceImpl implements DeviceDisp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubject(Reference newSubject) {
 		if (newSubject != subject) {
 			NotificationChain msgs = null;
@@ -518,6 +530,7 @@ public class DeviceDispenseImpl extends DomainResourceImpl implements DeviceDisp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getReceiver() {
 		return receiver;
 	}
@@ -542,6 +555,7 @@ public class DeviceDispenseImpl extends DomainResourceImpl implements DeviceDisp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReceiver(Reference newReceiver) {
 		if (newReceiver != receiver) {
 			NotificationChain msgs = null;
@@ -561,6 +575,7 @@ public class DeviceDispenseImpl extends DomainResourceImpl implements DeviceDisp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getEncounter() {
 		return encounter;
 	}
@@ -585,6 +600,7 @@ public class DeviceDispenseImpl extends DomainResourceImpl implements DeviceDisp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEncounter(Reference newEncounter) {
 		if (newEncounter != encounter) {
 			NotificationChain msgs = null;
@@ -604,6 +620,7 @@ public class DeviceDispenseImpl extends DomainResourceImpl implements DeviceDisp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getSupportingInformation() {
 		if (supportingInformation == null) {
 			supportingInformation = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.DEVICE_DISPENSE__SUPPORTING_INFORMATION);
@@ -616,6 +633,7 @@ public class DeviceDispenseImpl extends DomainResourceImpl implements DeviceDisp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<DeviceDispensePerformer> getPerformer() {
 		if (performer == null) {
 			performer = new EObjectContainmentEList<DeviceDispensePerformer>(DeviceDispensePerformer.class, this, FhirPackage.DEVICE_DISPENSE__PERFORMER);
@@ -628,6 +646,7 @@ public class DeviceDispenseImpl extends DomainResourceImpl implements DeviceDisp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getLocation() {
 		return location;
 	}
@@ -652,6 +671,7 @@ public class DeviceDispenseImpl extends DomainResourceImpl implements DeviceDisp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLocation(Reference newLocation) {
 		if (newLocation != location) {
 			NotificationChain msgs = null;
@@ -671,6 +691,7 @@ public class DeviceDispenseImpl extends DomainResourceImpl implements DeviceDisp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -695,6 +716,7 @@ public class DeviceDispenseImpl extends DomainResourceImpl implements DeviceDisp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -714,6 +736,7 @@ public class DeviceDispenseImpl extends DomainResourceImpl implements DeviceDisp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getQuantity() {
 		return quantity;
 	}
@@ -738,6 +761,7 @@ public class DeviceDispenseImpl extends DomainResourceImpl implements DeviceDisp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setQuantity(Quantity newQuantity) {
 		if (newQuantity != quantity) {
 			NotificationChain msgs = null;
@@ -757,6 +781,7 @@ public class DeviceDispenseImpl extends DomainResourceImpl implements DeviceDisp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getPreparedDate() {
 		return preparedDate;
 	}
@@ -781,6 +806,7 @@ public class DeviceDispenseImpl extends DomainResourceImpl implements DeviceDisp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPreparedDate(DateTime newPreparedDate) {
 		if (newPreparedDate != preparedDate) {
 			NotificationChain msgs = null;
@@ -800,6 +826,7 @@ public class DeviceDispenseImpl extends DomainResourceImpl implements DeviceDisp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getWhenHandedOver() {
 		return whenHandedOver;
 	}
@@ -824,6 +851,7 @@ public class DeviceDispenseImpl extends DomainResourceImpl implements DeviceDisp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setWhenHandedOver(DateTime newWhenHandedOver) {
 		if (newWhenHandedOver != whenHandedOver) {
 			NotificationChain msgs = null;
@@ -843,6 +871,7 @@ public class DeviceDispenseImpl extends DomainResourceImpl implements DeviceDisp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getDestination() {
 		return destination;
 	}
@@ -867,6 +896,7 @@ public class DeviceDispenseImpl extends DomainResourceImpl implements DeviceDisp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDestination(Reference newDestination) {
 		if (newDestination != destination) {
 			NotificationChain msgs = null;
@@ -886,6 +916,7 @@ public class DeviceDispenseImpl extends DomainResourceImpl implements DeviceDisp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.DEVICE_DISPENSE__NOTE);
@@ -898,6 +929,7 @@ public class DeviceDispenseImpl extends DomainResourceImpl implements DeviceDisp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getUsageInstruction() {
 		return usageInstruction;
 	}
@@ -922,6 +954,7 @@ public class DeviceDispenseImpl extends DomainResourceImpl implements DeviceDisp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUsageInstruction(Markdown newUsageInstruction) {
 		if (newUsageInstruction != usageInstruction) {
 			NotificationChain msgs = null;
@@ -941,6 +974,7 @@ public class DeviceDispenseImpl extends DomainResourceImpl implements DeviceDisp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getEventHistory() {
 		if (eventHistory == null) {
 			eventHistory = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.DEVICE_DISPENSE__EVENT_HISTORY);

@@ -81,6 +81,7 @@ public class CompositionEventImpl extends BackboneElementImpl implements Composi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getPeriod() {
 		return period;
 	}
@@ -105,6 +106,7 @@ public class CompositionEventImpl extends BackboneElementImpl implements Composi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriod(Period newPeriod) {
 		if (newPeriod != period) {
 			NotificationChain msgs = null;
@@ -124,6 +126,7 @@ public class CompositionEventImpl extends BackboneElementImpl implements Composi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getDetail() {
 		if (detail == null) {
 			detail = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.COMPOSITION_EVENT__DETAIL);

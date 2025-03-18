@@ -75,6 +75,7 @@ public class NarrativeImpl extends DataTypeImpl implements Narrative {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public NarrativeStatus getStatus() {
 		return status;
 	}
@@ -99,6 +100,7 @@ public class NarrativeImpl extends DataTypeImpl implements Narrative {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(NarrativeStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -118,6 +120,7 @@ public class NarrativeImpl extends DataTypeImpl implements Narrative {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DivType getDiv() {
 		return div;
 	}
@@ -142,6 +145,7 @@ public class NarrativeImpl extends DataTypeImpl implements Narrative {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDiv(DivType newDiv) {
 		if (newDiv != div) {
 			NotificationChain msgs = null;

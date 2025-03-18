@@ -74,6 +74,7 @@ public class TestPlanTestRunImpl extends BackboneElementImpl implements TestPlan
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getNarrative() {
 		return narrative;
 	}
@@ -98,6 +99,7 @@ public class TestPlanTestRunImpl extends BackboneElementImpl implements TestPlan
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNarrative(Markdown newNarrative) {
 		if (newNarrative != narrative) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class TestPlanTestRunImpl extends BackboneElementImpl implements TestPlan
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TestPlanScript getScript() {
 		return script;
 	}
@@ -141,6 +144,7 @@ public class TestPlanTestRunImpl extends BackboneElementImpl implements TestPlan
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setScript(TestPlanScript newScript) {
 		if (newScript != script) {
 			NotificationChain msgs = null;

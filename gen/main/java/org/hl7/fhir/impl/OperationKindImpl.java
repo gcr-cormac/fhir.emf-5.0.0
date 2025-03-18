@@ -79,6 +79,7 @@ public class OperationKindImpl extends ElementImpl implements OperationKind {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public OperationKindEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class OperationKindImpl extends ElementImpl implements OperationKind {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(OperationKindEnum newValue) {
 		OperationKindEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class OperationKindImpl extends ElementImpl implements OperationKind {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		OperationKindEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class OperationKindImpl extends ElementImpl implements OperationKind {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

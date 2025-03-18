@@ -81,6 +81,7 @@ public class MedicationKnowledgeDosageImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -105,6 +106,7 @@ public class MedicationKnowledgeDosageImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -124,6 +126,7 @@ public class MedicationKnowledgeDosageImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Dosage> getDosage() {
 		if (dosage == null) {
 			dosage = new EObjectContainmentEList<Dosage>(Dosage.class, this, FhirPackage.MEDICATION_KNOWLEDGE_DOSAGE__DOSAGE);

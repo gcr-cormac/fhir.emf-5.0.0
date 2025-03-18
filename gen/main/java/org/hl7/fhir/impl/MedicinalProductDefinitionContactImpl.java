@@ -74,6 +74,7 @@ public class MedicinalProductDefinitionContactImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -98,6 +99,7 @@ public class MedicinalProductDefinitionContactImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class MedicinalProductDefinitionContactImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getContact() {
 		return contact;
 	}
@@ -141,6 +144,7 @@ public class MedicinalProductDefinitionContactImpl extends BackboneElementImpl i
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setContact(Reference newContact) {
 		if (newContact != contact) {
 			NotificationChain msgs = null;

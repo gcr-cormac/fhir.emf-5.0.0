@@ -96,6 +96,7 @@ public class StructureMapStructureImpl extends BackboneElementImpl implements St
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getUrl() {
 		return url;
 	}
@@ -120,6 +121,7 @@ public class StructureMapStructureImpl extends BackboneElementImpl implements St
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUrl(Canonical newUrl) {
 		if (newUrl != url) {
 			NotificationChain msgs = null;
@@ -139,6 +141,7 @@ public class StructureMapStructureImpl extends BackboneElementImpl implements St
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public StructureMapModelMode getMode() {
 		return mode;
 	}
@@ -163,6 +166,7 @@ public class StructureMapStructureImpl extends BackboneElementImpl implements St
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMode(StructureMapModelMode newMode) {
 		if (newMode != mode) {
 			NotificationChain msgs = null;
@@ -182,6 +186,7 @@ public class StructureMapStructureImpl extends BackboneElementImpl implements St
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getAlias() {
 		return alias;
 	}
@@ -206,6 +211,7 @@ public class StructureMapStructureImpl extends BackboneElementImpl implements St
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAlias(org.hl7.fhir.String newAlias) {
 		if (newAlias != alias) {
 			NotificationChain msgs = null;
@@ -225,6 +231,7 @@ public class StructureMapStructureImpl extends BackboneElementImpl implements St
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDocumentation() {
 		return documentation;
 	}
@@ -249,6 +256,7 @@ public class StructureMapStructureImpl extends BackboneElementImpl implements St
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDocumentation(org.hl7.fhir.String newDocumentation) {
 		if (newDocumentation != documentation) {
 			NotificationChain msgs = null;

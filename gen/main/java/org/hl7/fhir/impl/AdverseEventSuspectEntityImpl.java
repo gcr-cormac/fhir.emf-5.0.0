@@ -86,6 +86,7 @@ public class AdverseEventSuspectEntityImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getInstanceCodeableConcept() {
 		return instanceCodeableConcept;
 	}
@@ -110,6 +111,7 @@ public class AdverseEventSuspectEntityImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInstanceCodeableConcept(CodeableConcept newInstanceCodeableConcept) {
 		if (newInstanceCodeableConcept != instanceCodeableConcept) {
 			NotificationChain msgs = null;
@@ -129,6 +131,7 @@ public class AdverseEventSuspectEntityImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getInstanceReference() {
 		return instanceReference;
 	}
@@ -153,6 +156,7 @@ public class AdverseEventSuspectEntityImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInstanceReference(Reference newInstanceReference) {
 		if (newInstanceReference != instanceReference) {
 			NotificationChain msgs = null;
@@ -172,6 +176,7 @@ public class AdverseEventSuspectEntityImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AdverseEventCausality getCausality() {
 		return causality;
 	}
@@ -196,6 +201,7 @@ public class AdverseEventSuspectEntityImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCausality(AdverseEventCausality newCausality) {
 		if (newCausality != causality) {
 			NotificationChain msgs = null;

@@ -427,6 +427,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.CLAIM__IDENTIFIER);
@@ -439,6 +440,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getTraceNumber() {
 		if (traceNumber == null) {
 			traceNumber = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.CLAIM__TRACE_NUMBER);
@@ -451,6 +453,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public FinancialResourceStatusCodes getStatus() {
 		return status;
 	}
@@ -475,6 +478,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(FinancialResourceStatusCodes newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -494,6 +498,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -518,6 +523,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -537,6 +543,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getSubType() {
 		return subType;
 	}
@@ -561,6 +568,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubType(CodeableConcept newSubType) {
 		if (newSubType != subType) {
 			NotificationChain msgs = null;
@@ -580,6 +588,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Use getUse() {
 		return use;
 	}
@@ -604,6 +613,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUse(Use newUse) {
 		if (newUse != use) {
 			NotificationChain msgs = null;
@@ -623,6 +633,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getPatient() {
 		return patient;
 	}
@@ -647,6 +658,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPatient(Reference newPatient) {
 		if (newPatient != patient) {
 			NotificationChain msgs = null;
@@ -666,6 +678,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getBillablePeriod() {
 		return billablePeriod;
 	}
@@ -690,6 +703,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBillablePeriod(Period newBillablePeriod) {
 		if (newBillablePeriod != billablePeriod) {
 			NotificationChain msgs = null;
@@ -709,6 +723,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getCreated() {
 		return created;
 	}
@@ -733,6 +748,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCreated(DateTime newCreated) {
 		if (newCreated != created) {
 			NotificationChain msgs = null;
@@ -752,6 +768,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getEnterer() {
 		return enterer;
 	}
@@ -776,6 +793,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEnterer(Reference newEnterer) {
 		if (newEnterer != enterer) {
 			NotificationChain msgs = null;
@@ -795,6 +813,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getInsurer() {
 		return insurer;
 	}
@@ -819,6 +838,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInsurer(Reference newInsurer) {
 		if (newInsurer != insurer) {
 			NotificationChain msgs = null;
@@ -838,6 +858,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getProvider() {
 		return provider;
 	}
@@ -862,6 +883,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProvider(Reference newProvider) {
 		if (newProvider != provider) {
 			NotificationChain msgs = null;
@@ -881,6 +903,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getPriority() {
 		return priority;
 	}
@@ -905,6 +928,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPriority(CodeableConcept newPriority) {
 		if (newPriority != priority) {
 			NotificationChain msgs = null;
@@ -924,6 +948,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getFundsReserve() {
 		return fundsReserve;
 	}
@@ -948,6 +973,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFundsReserve(CodeableConcept newFundsReserve) {
 		if (newFundsReserve != fundsReserve) {
 			NotificationChain msgs = null;
@@ -967,6 +993,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ClaimRelated> getRelated() {
 		if (related == null) {
 			related = new EObjectContainmentEList<ClaimRelated>(ClaimRelated.class, this, FhirPackage.CLAIM__RELATED);
@@ -979,6 +1006,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getPrescription() {
 		return prescription;
 	}
@@ -1003,6 +1031,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPrescription(Reference newPrescription) {
 		if (newPrescription != prescription) {
 			NotificationChain msgs = null;
@@ -1022,6 +1051,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getOriginalPrescription() {
 		return originalPrescription;
 	}
@@ -1046,6 +1076,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOriginalPrescription(Reference newOriginalPrescription) {
 		if (newOriginalPrescription != originalPrescription) {
 			NotificationChain msgs = null;
@@ -1065,6 +1096,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ClaimPayee getPayee() {
 		return payee;
 	}
@@ -1089,6 +1121,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPayee(ClaimPayee newPayee) {
 		if (newPayee != payee) {
 			NotificationChain msgs = null;
@@ -1108,6 +1141,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getReferral() {
 		return referral;
 	}
@@ -1132,6 +1166,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReferral(Reference newReferral) {
 		if (newReferral != referral) {
 			NotificationChain msgs = null;
@@ -1151,6 +1186,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getEncounter() {
 		if (encounter == null) {
 			encounter = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.CLAIM__ENCOUNTER);
@@ -1163,6 +1199,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getFacility() {
 		return facility;
 	}
@@ -1187,6 +1224,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFacility(Reference newFacility) {
 		if (newFacility != facility) {
 			NotificationChain msgs = null;
@@ -1206,6 +1244,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getDiagnosisRelatedGroup() {
 		return diagnosisRelatedGroup;
 	}
@@ -1230,6 +1269,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDiagnosisRelatedGroup(CodeableConcept newDiagnosisRelatedGroup) {
 		if (newDiagnosisRelatedGroup != diagnosisRelatedGroup) {
 			NotificationChain msgs = null;
@@ -1249,6 +1289,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ClaimEvent> getEvent() {
 		if (event == null) {
 			event = new EObjectContainmentEList<ClaimEvent>(ClaimEvent.class, this, FhirPackage.CLAIM__EVENT);
@@ -1261,6 +1302,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ClaimCareTeam> getCareTeam() {
 		if (careTeam == null) {
 			careTeam = new EObjectContainmentEList<ClaimCareTeam>(ClaimCareTeam.class, this, FhirPackage.CLAIM__CARE_TEAM);
@@ -1273,6 +1315,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ClaimSupportingInfo> getSupportingInfo() {
 		if (supportingInfo == null) {
 			supportingInfo = new EObjectContainmentEList<ClaimSupportingInfo>(ClaimSupportingInfo.class, this, FhirPackage.CLAIM__SUPPORTING_INFO);
@@ -1285,6 +1328,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ClaimDiagnosis> getDiagnosis() {
 		if (diagnosis == null) {
 			diagnosis = new EObjectContainmentEList<ClaimDiagnosis>(ClaimDiagnosis.class, this, FhirPackage.CLAIM__DIAGNOSIS);
@@ -1297,6 +1341,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ClaimProcedure> getProcedure() {
 		if (procedure == null) {
 			procedure = new EObjectContainmentEList<ClaimProcedure>(ClaimProcedure.class, this, FhirPackage.CLAIM__PROCEDURE);
@@ -1309,6 +1354,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ClaimInsurance> getInsurance() {
 		if (insurance == null) {
 			insurance = new EObjectContainmentEList<ClaimInsurance>(ClaimInsurance.class, this, FhirPackage.CLAIM__INSURANCE);
@@ -1321,6 +1367,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ClaimAccident getAccident() {
 		return accident;
 	}
@@ -1345,6 +1392,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAccident(ClaimAccident newAccident) {
 		if (newAccident != accident) {
 			NotificationChain msgs = null;
@@ -1364,6 +1412,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Money getPatientPaid() {
 		return patientPaid;
 	}
@@ -1388,6 +1437,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPatientPaid(Money newPatientPaid) {
 		if (newPatientPaid != patientPaid) {
 			NotificationChain msgs = null;
@@ -1407,6 +1457,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ClaimItem> getItem() {
 		if (item == null) {
 			item = new EObjectContainmentEList<ClaimItem>(ClaimItem.class, this, FhirPackage.CLAIM__ITEM);
@@ -1419,6 +1470,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Money getTotal() {
 		return total;
 	}
@@ -1443,6 +1495,7 @@ public class ClaimImpl extends DomainResourceImpl implements Claim {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTotal(Money newTotal) {
 		if (newTotal != total) {
 			NotificationChain msgs = null;

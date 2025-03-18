@@ -79,6 +79,7 @@ public class AllResourceTypesImpl extends ElementImpl implements AllResourceType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AllResourceTypesEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class AllResourceTypesImpl extends ElementImpl implements AllResourceType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(AllResourceTypesEnum newValue) {
 		AllResourceTypesEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class AllResourceTypesImpl extends ElementImpl implements AllResourceType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		AllResourceTypesEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class AllResourceTypesImpl extends ElementImpl implements AllResourceType
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

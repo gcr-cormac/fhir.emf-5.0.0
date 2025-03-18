@@ -143,6 +143,7 @@ public class MedicinalProductDefinitionCharacteristicImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -167,6 +168,7 @@ public class MedicinalProductDefinitionCharacteristicImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -186,6 +188,7 @@ public class MedicinalProductDefinitionCharacteristicImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getValueCodeableConcept() {
 		return valueCodeableConcept;
 	}
@@ -210,6 +213,7 @@ public class MedicinalProductDefinitionCharacteristicImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueCodeableConcept(CodeableConcept newValueCodeableConcept) {
 		if (newValueCodeableConcept != valueCodeableConcept) {
 			NotificationChain msgs = null;
@@ -229,6 +233,7 @@ public class MedicinalProductDefinitionCharacteristicImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getValueMarkdown() {
 		return valueMarkdown;
 	}
@@ -253,6 +258,7 @@ public class MedicinalProductDefinitionCharacteristicImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueMarkdown(Markdown newValueMarkdown) {
 		if (newValueMarkdown != valueMarkdown) {
 			NotificationChain msgs = null;
@@ -272,6 +278,7 @@ public class MedicinalProductDefinitionCharacteristicImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getValueQuantity() {
 		return valueQuantity;
 	}
@@ -296,6 +303,7 @@ public class MedicinalProductDefinitionCharacteristicImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueQuantity(Quantity newValueQuantity) {
 		if (newValueQuantity != valueQuantity) {
 			NotificationChain msgs = null;
@@ -315,6 +323,7 @@ public class MedicinalProductDefinitionCharacteristicImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Integer getValueInteger() {
 		return valueInteger;
 	}
@@ -339,6 +348,7 @@ public class MedicinalProductDefinitionCharacteristicImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueInteger(org.hl7.fhir.Integer newValueInteger) {
 		if (newValueInteger != valueInteger) {
 			NotificationChain msgs = null;
@@ -358,6 +368,7 @@ public class MedicinalProductDefinitionCharacteristicImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getValueDate() {
 		return valueDate;
 	}
@@ -382,6 +393,7 @@ public class MedicinalProductDefinitionCharacteristicImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueDate(Date newValueDate) {
 		if (newValueDate != valueDate) {
 			NotificationChain msgs = null;
@@ -401,6 +413,7 @@ public class MedicinalProductDefinitionCharacteristicImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getValueBoolean() {
 		return valueBoolean;
 	}
@@ -425,6 +438,7 @@ public class MedicinalProductDefinitionCharacteristicImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueBoolean(org.hl7.fhir.Boolean newValueBoolean) {
 		if (newValueBoolean != valueBoolean) {
 			NotificationChain msgs = null;
@@ -444,6 +458,7 @@ public class MedicinalProductDefinitionCharacteristicImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Attachment getValueAttachment() {
 		return valueAttachment;
 	}
@@ -468,6 +483,7 @@ public class MedicinalProductDefinitionCharacteristicImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueAttachment(Attachment newValueAttachment) {
 		if (newValueAttachment != valueAttachment) {
 			NotificationChain msgs = null;

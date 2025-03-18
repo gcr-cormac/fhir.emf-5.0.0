@@ -79,6 +79,7 @@ public class GuidePageGenerationImpl extends ElementImpl implements GuidePageGen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public GuidePageGenerationEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class GuidePageGenerationImpl extends ElementImpl implements GuidePageGen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(GuidePageGenerationEnum newValue) {
 		GuidePageGenerationEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class GuidePageGenerationImpl extends ElementImpl implements GuidePageGen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		GuidePageGenerationEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class GuidePageGenerationImpl extends ElementImpl implements GuidePageGen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

@@ -333,6 +333,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getUrl() {
 		return url;
 	}
@@ -357,6 +358,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUrl(Uri newUrl) {
 		if (newUrl != url) {
 			NotificationChain msgs = null;
@@ -376,6 +378,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.TEST_PLAN__IDENTIFIER);
@@ -388,6 +391,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersion() {
 		return version;
 	}
@@ -412,6 +416,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersion(org.hl7.fhir.String newVersion) {
 		if (newVersion != version) {
 			NotificationChain msgs = null;
@@ -431,6 +436,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getVersionAlgorithmString() {
 		return versionAlgorithmString;
 	}
@@ -455,6 +461,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersionAlgorithmString(org.hl7.fhir.String newVersionAlgorithmString) {
 		if (newVersionAlgorithmString != versionAlgorithmString) {
 			NotificationChain msgs = null;
@@ -474,6 +481,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getVersionAlgorithmCoding() {
 		return versionAlgorithmCoding;
 	}
@@ -498,6 +506,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setVersionAlgorithmCoding(Coding newVersionAlgorithmCoding) {
 		if (newVersionAlgorithmCoding != versionAlgorithmCoding) {
 			NotificationChain msgs = null;
@@ -517,6 +526,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -541,6 +551,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -560,6 +571,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getTitle() {
 		return title;
 	}
@@ -584,6 +596,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(org.hl7.fhir.String newTitle) {
 		if (newTitle != title) {
 			NotificationChain msgs = null;
@@ -603,6 +616,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PublicationStatus getStatus() {
 		return status;
 	}
@@ -627,6 +641,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(PublicationStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -646,6 +661,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getExperimental() {
 		return experimental;
 	}
@@ -670,6 +686,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExperimental(org.hl7.fhir.Boolean newExperimental) {
 		if (newExperimental != experimental) {
 			NotificationChain msgs = null;
@@ -689,6 +706,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getDate() {
 		return date;
 	}
@@ -713,6 +731,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDate(DateTime newDate) {
 		if (newDate != date) {
 			NotificationChain msgs = null;
@@ -732,6 +751,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getPublisher() {
 		return publisher;
 	}
@@ -756,6 +776,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPublisher(org.hl7.fhir.String newPublisher) {
 		if (newPublisher != publisher) {
 			NotificationChain msgs = null;
@@ -775,6 +796,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactDetail> getContact() {
 		if (contact == null) {
 			contact = new EObjectContainmentEList<ContactDetail>(ContactDetail.class, this, FhirPackage.TEST_PLAN__CONTACT);
@@ -787,6 +809,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -811,6 +834,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -830,6 +854,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<UsageContext> getUseContext() {
 		if (useContext == null) {
 			useContext = new EObjectContainmentEList<UsageContext>(UsageContext.class, this, FhirPackage.TEST_PLAN__USE_CONTEXT);
@@ -842,6 +867,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getJurisdiction() {
 		if (jurisdiction == null) {
 			jurisdiction = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.TEST_PLAN__JURISDICTION);
@@ -854,6 +880,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getPurpose() {
 		return purpose;
 	}
@@ -878,6 +905,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPurpose(Markdown newPurpose) {
 		if (newPurpose != purpose) {
 			NotificationChain msgs = null;
@@ -897,6 +925,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getCopyright() {
 		return copyright;
 	}
@@ -921,6 +950,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCopyright(Markdown newCopyright) {
 		if (newCopyright != copyright) {
 			NotificationChain msgs = null;
@@ -940,6 +970,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getCopyrightLabel() {
 		return copyrightLabel;
 	}
@@ -964,6 +995,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCopyrightLabel(org.hl7.fhir.String newCopyrightLabel) {
 		if (newCopyrightLabel != copyrightLabel) {
 			NotificationChain msgs = null;
@@ -983,6 +1015,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCategory() {
 		if (category == null) {
 			category = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.TEST_PLAN__CATEGORY);
@@ -995,6 +1028,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getScope() {
 		if (scope == null) {
 			scope = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.TEST_PLAN__SCOPE);
@@ -1007,6 +1041,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getTestTools() {
 		return testTools;
 	}
@@ -1031,6 +1066,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTestTools(Markdown newTestTools) {
 		if (newTestTools != testTools) {
 			NotificationChain msgs = null;
@@ -1050,6 +1086,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<TestPlanDependency> getDependency() {
 		if (dependency == null) {
 			dependency = new EObjectContainmentEList<TestPlanDependency>(TestPlanDependency.class, this, FhirPackage.TEST_PLAN__DEPENDENCY);
@@ -1062,6 +1099,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getExitCriteria() {
 		return exitCriteria;
 	}
@@ -1086,6 +1124,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setExitCriteria(Markdown newExitCriteria) {
 		if (newExitCriteria != exitCriteria) {
 			NotificationChain msgs = null;
@@ -1105,6 +1144,7 @@ public class TestPlanImpl extends CanonicalResourceImpl implements TestPlan {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<TestPlanTestCase> getTestCase() {
 		if (testCase == null) {
 			testCase = new EObjectContainmentEList<TestPlanTestCase>(TestPlanTestCase.class, this, FhirPackage.TEST_PLAN__TEST_CASE);

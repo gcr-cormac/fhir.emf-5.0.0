@@ -73,6 +73,7 @@ public class SubstanceSourceMaterialAuthorImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getAuthorType() {
 		return authorType;
 	}
@@ -97,6 +98,7 @@ public class SubstanceSourceMaterialAuthorImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAuthorType(CodeableConcept newAuthorType) {
 		if (newAuthorType != authorType) {
 			NotificationChain msgs = null;
@@ -116,6 +118,7 @@ public class SubstanceSourceMaterialAuthorImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getAuthorDescription() {
 		return authorDescription;
 	}
@@ -140,6 +143,7 @@ public class SubstanceSourceMaterialAuthorImpl extends BackboneElementImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAuthorDescription(org.hl7.fhir.String newAuthorDescription) {
 		if (newAuthorDescription != authorDescription) {
 			NotificationChain msgs = null;

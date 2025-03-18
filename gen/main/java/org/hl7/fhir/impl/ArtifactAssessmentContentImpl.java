@@ -174,6 +174,7 @@ public class ArtifactAssessmentContentImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ArtifactAssessmentInformationType getInformationType() {
 		return informationType;
 	}
@@ -198,6 +199,7 @@ public class ArtifactAssessmentContentImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInformationType(ArtifactAssessmentInformationType newInformationType) {
 		if (newInformationType != informationType) {
 			NotificationChain msgs = null;
@@ -217,6 +219,7 @@ public class ArtifactAssessmentContentImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getSummary() {
 		return summary;
 	}
@@ -241,6 +244,7 @@ public class ArtifactAssessmentContentImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSummary(Markdown newSummary) {
 		if (newSummary != summary) {
 			NotificationChain msgs = null;
@@ -260,6 +264,7 @@ public class ArtifactAssessmentContentImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -284,6 +289,7 @@ public class ArtifactAssessmentContentImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -303,6 +309,7 @@ public class ArtifactAssessmentContentImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getClassifier() {
 		if (classifier == null) {
 			classifier = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.ARTIFACT_ASSESSMENT_CONTENT__CLASSIFIER);
@@ -315,6 +322,7 @@ public class ArtifactAssessmentContentImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getQuantity() {
 		return quantity;
 	}
@@ -339,6 +347,7 @@ public class ArtifactAssessmentContentImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setQuantity(Quantity newQuantity) {
 		if (newQuantity != quantity) {
 			NotificationChain msgs = null;
@@ -358,6 +367,7 @@ public class ArtifactAssessmentContentImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getAuthor() {
 		return author;
 	}
@@ -382,6 +392,7 @@ public class ArtifactAssessmentContentImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAuthor(Reference newAuthor) {
 		if (newAuthor != author) {
 			NotificationChain msgs = null;
@@ -401,6 +412,7 @@ public class ArtifactAssessmentContentImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Uri> getPath() {
 		if (path == null) {
 			path = new EObjectContainmentEList<Uri>(Uri.class, this, FhirPackage.ARTIFACT_ASSESSMENT_CONTENT__PATH);
@@ -413,6 +425,7 @@ public class ArtifactAssessmentContentImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<RelatedArtifact> getRelatedArtifact() {
 		if (relatedArtifact == null) {
 			relatedArtifact = new EObjectContainmentEList<RelatedArtifact>(RelatedArtifact.class, this, FhirPackage.ARTIFACT_ASSESSMENT_CONTENT__RELATED_ARTIFACT);
@@ -425,6 +438,7 @@ public class ArtifactAssessmentContentImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getFreeToShare() {
 		return freeToShare;
 	}
@@ -449,6 +463,7 @@ public class ArtifactAssessmentContentImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFreeToShare(org.hl7.fhir.Boolean newFreeToShare) {
 		if (newFreeToShare != freeToShare) {
 			NotificationChain msgs = null;
@@ -468,6 +483,7 @@ public class ArtifactAssessmentContentImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ArtifactAssessmentContent> getComponent() {
 		if (component == null) {
 			component = new EObjectContainmentEList<ArtifactAssessmentContent>(ArtifactAssessmentContent.class, this, FhirPackage.ARTIFACT_ASSESSMENT_CONTENT__COMPONENT);

@@ -108,6 +108,7 @@ public class BundleResponseImpl extends BackboneElementImpl implements BundleRes
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getStatus() {
 		return status;
 	}
@@ -132,6 +133,7 @@ public class BundleResponseImpl extends BackboneElementImpl implements BundleRes
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(org.hl7.fhir.String newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -151,6 +153,7 @@ public class BundleResponseImpl extends BackboneElementImpl implements BundleRes
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Uri getLocation() {
 		return location;
 	}
@@ -175,6 +178,7 @@ public class BundleResponseImpl extends BackboneElementImpl implements BundleRes
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLocation(Uri newLocation) {
 		if (newLocation != location) {
 			NotificationChain msgs = null;
@@ -194,6 +198,7 @@ public class BundleResponseImpl extends BackboneElementImpl implements BundleRes
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getEtag() {
 		return etag;
 	}
@@ -218,6 +223,7 @@ public class BundleResponseImpl extends BackboneElementImpl implements BundleRes
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEtag(org.hl7.fhir.String newEtag) {
 		if (newEtag != etag) {
 			NotificationChain msgs = null;
@@ -237,6 +243,7 @@ public class BundleResponseImpl extends BackboneElementImpl implements BundleRes
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Instant getLastModified() {
 		return lastModified;
 	}
@@ -261,6 +268,7 @@ public class BundleResponseImpl extends BackboneElementImpl implements BundleRes
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLastModified(Instant newLastModified) {
 		if (newLastModified != lastModified) {
 			NotificationChain msgs = null;
@@ -280,6 +288,7 @@ public class BundleResponseImpl extends BackboneElementImpl implements BundleRes
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ResourceContainer getOutcome() {
 		return outcome;
 	}
@@ -304,6 +313,7 @@ public class BundleResponseImpl extends BackboneElementImpl implements BundleRes
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOutcome(ResourceContainer newOutcome) {
 		if (newOutcome != outcome) {
 			NotificationChain msgs = null;

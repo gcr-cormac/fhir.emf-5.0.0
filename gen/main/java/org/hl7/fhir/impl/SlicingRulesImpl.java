@@ -79,6 +79,7 @@ public class SlicingRulesImpl extends ElementImpl implements SlicingRules {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SlicingRulesEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class SlicingRulesImpl extends ElementImpl implements SlicingRules {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(SlicingRulesEnum newValue) {
 		SlicingRulesEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class SlicingRulesImpl extends ElementImpl implements SlicingRules {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		SlicingRulesEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class SlicingRulesImpl extends ElementImpl implements SlicingRules {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

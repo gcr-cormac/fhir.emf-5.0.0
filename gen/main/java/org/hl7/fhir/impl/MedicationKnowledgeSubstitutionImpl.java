@@ -73,6 +73,7 @@ public class MedicationKnowledgeSubstitutionImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -97,6 +98,7 @@ public class MedicationKnowledgeSubstitutionImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -116,6 +118,7 @@ public class MedicationKnowledgeSubstitutionImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getAllowed() {
 		return allowed;
 	}
@@ -140,6 +143,7 @@ public class MedicationKnowledgeSubstitutionImpl extends BackboneElementImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAllowed(org.hl7.fhir.Boolean newAllowed) {
 		if (newAllowed != allowed) {
 			NotificationChain msgs = null;

@@ -79,6 +79,7 @@ public class OperationParameterUseImpl extends ElementImpl implements OperationP
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public OperationParameterUseEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class OperationParameterUseImpl extends ElementImpl implements OperationP
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(OperationParameterUseEnum newValue) {
 		OperationParameterUseEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class OperationParameterUseImpl extends ElementImpl implements OperationP
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		OperationParameterUseEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class OperationParameterUseImpl extends ElementImpl implements OperationP
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

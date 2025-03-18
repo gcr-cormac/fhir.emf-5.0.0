@@ -79,6 +79,7 @@ public class ConditionalReadStatusImpl extends ElementImpl implements Conditiona
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ConditionalReadStatusEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ConditionalReadStatusImpl extends ElementImpl implements Conditiona
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ConditionalReadStatusEnum newValue) {
 		ConditionalReadStatusEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ConditionalReadStatusImpl extends ElementImpl implements Conditiona
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ConditionalReadStatusEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ConditionalReadStatusImpl extends ElementImpl implements Conditiona
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

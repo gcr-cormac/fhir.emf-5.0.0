@@ -73,6 +73,7 @@ public class ImmunizationProgramEligibilityImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getProgram() {
 		return program;
 	}
@@ -97,6 +98,7 @@ public class ImmunizationProgramEligibilityImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProgram(CodeableConcept newProgram) {
 		if (newProgram != program) {
 			NotificationChain msgs = null;
@@ -116,6 +118,7 @@ public class ImmunizationProgramEligibilityImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getProgramStatus() {
 		return programStatus;
 	}
@@ -140,6 +143,7 @@ public class ImmunizationProgramEligibilityImpl extends BackboneElementImpl impl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProgramStatus(CodeableConcept newProgramStatus) {
 		if (newProgramStatus != programStatus) {
 			NotificationChain msgs = null;

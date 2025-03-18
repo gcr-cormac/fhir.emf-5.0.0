@@ -114,6 +114,7 @@ public class ValueSetComposeImpl extends BackboneElementImpl implements ValueSet
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Date getLockedDate() {
 		return lockedDate;
 	}
@@ -138,6 +139,7 @@ public class ValueSetComposeImpl extends BackboneElementImpl implements ValueSet
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLockedDate(Date newLockedDate) {
 		if (newLockedDate != lockedDate) {
 			NotificationChain msgs = null;
@@ -157,6 +159,7 @@ public class ValueSetComposeImpl extends BackboneElementImpl implements ValueSet
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getInactive() {
 		return inactive;
 	}
@@ -181,6 +184,7 @@ public class ValueSetComposeImpl extends BackboneElementImpl implements ValueSet
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setInactive(org.hl7.fhir.Boolean newInactive) {
 		if (newInactive != inactive) {
 			NotificationChain msgs = null;
@@ -200,6 +204,7 @@ public class ValueSetComposeImpl extends BackboneElementImpl implements ValueSet
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ValueSetInclude> getInclude() {
 		if (include == null) {
 			include = new EObjectContainmentEList<ValueSetInclude>(ValueSetInclude.class, this, FhirPackage.VALUE_SET_COMPOSE__INCLUDE);
@@ -212,6 +217,7 @@ public class ValueSetComposeImpl extends BackboneElementImpl implements ValueSet
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ValueSetInclude> getExclude() {
 		if (exclude == null) {
 			exclude = new EObjectContainmentEList<ValueSetInclude>(ValueSetInclude.class, this, FhirPackage.VALUE_SET_COMPOSE__EXCLUDE);
@@ -224,6 +230,7 @@ public class ValueSetComposeImpl extends BackboneElementImpl implements ValueSet
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<org.hl7.fhir.String> getProperty() {
 		if (property == null) {
 			property = new EObjectContainmentEList<org.hl7.fhir.String>(org.hl7.fhir.String.class, this, FhirPackage.VALUE_SET_COMPOSE__PROPERTY);

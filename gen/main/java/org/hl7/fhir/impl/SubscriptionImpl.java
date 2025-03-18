@@ -258,6 +258,7 @@ public class SubscriptionImpl extends DomainResourceImpl implements Subscription
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.SUBSCRIPTION__IDENTIFIER);
@@ -270,6 +271,7 @@ public class SubscriptionImpl extends DomainResourceImpl implements Subscription
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -294,6 +296,7 @@ public class SubscriptionImpl extends DomainResourceImpl implements Subscription
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -313,6 +316,7 @@ public class SubscriptionImpl extends DomainResourceImpl implements Subscription
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SubscriptionStatusCodes getStatus() {
 		return status;
 	}
@@ -337,6 +341,7 @@ public class SubscriptionImpl extends DomainResourceImpl implements Subscription
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(SubscriptionStatusCodes newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -356,6 +361,7 @@ public class SubscriptionImpl extends DomainResourceImpl implements Subscription
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Canonical getTopic() {
 		return topic;
 	}
@@ -380,6 +386,7 @@ public class SubscriptionImpl extends DomainResourceImpl implements Subscription
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTopic(Canonical newTopic) {
 		if (newTopic != topic) {
 			NotificationChain msgs = null;
@@ -399,6 +406,7 @@ public class SubscriptionImpl extends DomainResourceImpl implements Subscription
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ContactPoint> getContact() {
 		if (contact == null) {
 			contact = new EObjectContainmentEList<ContactPoint>(ContactPoint.class, this, FhirPackage.SUBSCRIPTION__CONTACT);
@@ -411,6 +419,7 @@ public class SubscriptionImpl extends DomainResourceImpl implements Subscription
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Instant getEnd() {
 		return end;
 	}
@@ -435,6 +444,7 @@ public class SubscriptionImpl extends DomainResourceImpl implements Subscription
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEnd(Instant newEnd) {
 		if (newEnd != end) {
 			NotificationChain msgs = null;
@@ -454,6 +464,7 @@ public class SubscriptionImpl extends DomainResourceImpl implements Subscription
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getManagingEntity() {
 		return managingEntity;
 	}
@@ -478,6 +489,7 @@ public class SubscriptionImpl extends DomainResourceImpl implements Subscription
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setManagingEntity(Reference newManagingEntity) {
 		if (newManagingEntity != managingEntity) {
 			NotificationChain msgs = null;
@@ -497,6 +509,7 @@ public class SubscriptionImpl extends DomainResourceImpl implements Subscription
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getReason() {
 		return reason;
 	}
@@ -521,6 +534,7 @@ public class SubscriptionImpl extends DomainResourceImpl implements Subscription
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setReason(org.hl7.fhir.String newReason) {
 		if (newReason != reason) {
 			NotificationChain msgs = null;
@@ -540,6 +554,7 @@ public class SubscriptionImpl extends DomainResourceImpl implements Subscription
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SubscriptionFilterBy> getFilterBy() {
 		if (filterBy == null) {
 			filterBy = new EObjectContainmentEList<SubscriptionFilterBy>(SubscriptionFilterBy.class, this, FhirPackage.SUBSCRIPTION__FILTER_BY);
@@ -552,6 +567,7 @@ public class SubscriptionImpl extends DomainResourceImpl implements Subscription
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Coding getChannelType() {
 		return channelType;
 	}
@@ -576,6 +592,7 @@ public class SubscriptionImpl extends DomainResourceImpl implements Subscription
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setChannelType(Coding newChannelType) {
 		if (newChannelType != channelType) {
 			NotificationChain msgs = null;
@@ -595,6 +612,7 @@ public class SubscriptionImpl extends DomainResourceImpl implements Subscription
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Url getEndpoint() {
 		return endpoint;
 	}
@@ -619,6 +637,7 @@ public class SubscriptionImpl extends DomainResourceImpl implements Subscription
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEndpoint(Url newEndpoint) {
 		if (newEndpoint != endpoint) {
 			NotificationChain msgs = null;
@@ -638,6 +657,7 @@ public class SubscriptionImpl extends DomainResourceImpl implements Subscription
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<SubscriptionParameter> getParameter() {
 		if (parameter == null) {
 			parameter = new EObjectContainmentEList<SubscriptionParameter>(SubscriptionParameter.class, this, FhirPackage.SUBSCRIPTION__PARAMETER);
@@ -650,6 +670,7 @@ public class SubscriptionImpl extends DomainResourceImpl implements Subscription
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public UnsignedInt getHeartbeatPeriod() {
 		return heartbeatPeriod;
 	}
@@ -674,6 +695,7 @@ public class SubscriptionImpl extends DomainResourceImpl implements Subscription
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setHeartbeatPeriod(UnsignedInt newHeartbeatPeriod) {
 		if (newHeartbeatPeriod != heartbeatPeriod) {
 			NotificationChain msgs = null;
@@ -693,6 +715,7 @@ public class SubscriptionImpl extends DomainResourceImpl implements Subscription
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public UnsignedInt getTimeout() {
 		return timeout;
 	}
@@ -717,6 +740,7 @@ public class SubscriptionImpl extends DomainResourceImpl implements Subscription
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTimeout(UnsignedInt newTimeout) {
 		if (newTimeout != timeout) {
 			NotificationChain msgs = null;
@@ -736,6 +760,7 @@ public class SubscriptionImpl extends DomainResourceImpl implements Subscription
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Code getContentType() {
 		return contentType;
 	}
@@ -760,6 +785,7 @@ public class SubscriptionImpl extends DomainResourceImpl implements Subscription
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setContentType(Code newContentType) {
 		if (newContentType != contentType) {
 			NotificationChain msgs = null;
@@ -779,6 +805,7 @@ public class SubscriptionImpl extends DomainResourceImpl implements Subscription
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public SubscriptionPayloadContent getContent() {
 		return content;
 	}
@@ -803,6 +830,7 @@ public class SubscriptionImpl extends DomainResourceImpl implements Subscription
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setContent(SubscriptionPayloadContent newContent) {
 		if (newContent != content) {
 			NotificationChain msgs = null;
@@ -822,6 +850,7 @@ public class SubscriptionImpl extends DomainResourceImpl implements Subscription
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PositiveInt getMaxCount() {
 		return maxCount;
 	}
@@ -846,6 +875,7 @@ public class SubscriptionImpl extends DomainResourceImpl implements Subscription
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMaxCount(PositiveInt newMaxCount) {
 		if (newMaxCount != maxCount) {
 			NotificationChain msgs = null;

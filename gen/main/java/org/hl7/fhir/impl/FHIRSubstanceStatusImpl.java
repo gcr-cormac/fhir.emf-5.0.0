@@ -79,6 +79,7 @@ public class FHIRSubstanceStatusImpl extends ElementImpl implements FHIRSubstanc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public FHIRSubstanceStatusEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class FHIRSubstanceStatusImpl extends ElementImpl implements FHIRSubstanc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(FHIRSubstanceStatusEnum newValue) {
 		FHIRSubstanceStatusEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class FHIRSubstanceStatusImpl extends ElementImpl implements FHIRSubstanc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		FHIRSubstanceStatusEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class FHIRSubstanceStatusImpl extends ElementImpl implements FHIRSubstanc
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

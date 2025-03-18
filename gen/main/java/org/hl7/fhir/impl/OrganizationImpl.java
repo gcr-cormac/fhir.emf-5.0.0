@@ -173,6 +173,7 @@ public class OrganizationImpl extends DomainResourceImpl implements Organization
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.ORGANIZATION__IDENTIFIER);
@@ -185,6 +186,7 @@ public class OrganizationImpl extends DomainResourceImpl implements Organization
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getActive() {
 		return active;
 	}
@@ -209,6 +211,7 @@ public class OrganizationImpl extends DomainResourceImpl implements Organization
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setActive(org.hl7.fhir.Boolean newActive) {
 		if (newActive != active) {
 			NotificationChain msgs = null;
@@ -228,6 +231,7 @@ public class OrganizationImpl extends DomainResourceImpl implements Organization
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getType() {
 		if (type == null) {
 			type = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.ORGANIZATION__TYPE);
@@ -240,6 +244,7 @@ public class OrganizationImpl extends DomainResourceImpl implements Organization
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getName() {
 		return name;
 	}
@@ -264,6 +269,7 @@ public class OrganizationImpl extends DomainResourceImpl implements Organization
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(org.hl7.fhir.String newName) {
 		if (newName != name) {
 			NotificationChain msgs = null;
@@ -283,6 +289,7 @@ public class OrganizationImpl extends DomainResourceImpl implements Organization
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<org.hl7.fhir.String> getAlias() {
 		if (alias == null) {
 			alias = new EObjectContainmentEList<org.hl7.fhir.String>(org.hl7.fhir.String.class, this, FhirPackage.ORGANIZATION__ALIAS);
@@ -295,6 +302,7 @@ public class OrganizationImpl extends DomainResourceImpl implements Organization
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -319,6 +327,7 @@ public class OrganizationImpl extends DomainResourceImpl implements Organization
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -338,6 +347,7 @@ public class OrganizationImpl extends DomainResourceImpl implements Organization
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ExtendedContactDetail> getContact() {
 		if (contact == null) {
 			contact = new EObjectContainmentEList<ExtendedContactDetail>(ExtendedContactDetail.class, this, FhirPackage.ORGANIZATION__CONTACT);
@@ -350,6 +360,7 @@ public class OrganizationImpl extends DomainResourceImpl implements Organization
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getPartOf() {
 		return partOf;
 	}
@@ -374,6 +385,7 @@ public class OrganizationImpl extends DomainResourceImpl implements Organization
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPartOf(Reference newPartOf) {
 		if (newPartOf != partOf) {
 			NotificationChain msgs = null;
@@ -393,6 +405,7 @@ public class OrganizationImpl extends DomainResourceImpl implements Organization
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getEndpoint() {
 		if (endpoint == null) {
 			endpoint = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.ORGANIZATION__ENDPOINT);
@@ -405,6 +418,7 @@ public class OrganizationImpl extends DomainResourceImpl implements Organization
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<OrganizationQualification> getQualification() {
 		if (qualification == null) {
 			qualification = new EObjectContainmentEList<OrganizationQualification>(OrganizationQualification.class, this, FhirPackage.ORGANIZATION__QUALIFICATION);

@@ -233,6 +233,7 @@ public class AuditEventImpl extends DomainResourceImpl implements AuditEvent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getCategory() {
 		if (category == null) {
 			category = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.AUDIT_EVENT__CATEGORY);
@@ -245,6 +246,7 @@ public class AuditEventImpl extends DomainResourceImpl implements AuditEvent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -269,6 +271,7 @@ public class AuditEventImpl extends DomainResourceImpl implements AuditEvent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -288,6 +291,7 @@ public class AuditEventImpl extends DomainResourceImpl implements AuditEvent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AuditEventAction getAction() {
 		return action;
 	}
@@ -312,6 +316,7 @@ public class AuditEventImpl extends DomainResourceImpl implements AuditEvent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAction(AuditEventAction newAction) {
 		if (newAction != action) {
 			NotificationChain msgs = null;
@@ -331,6 +336,7 @@ public class AuditEventImpl extends DomainResourceImpl implements AuditEvent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AuditEventSeverity getSeverity() {
 		return severity;
 	}
@@ -355,6 +361,7 @@ public class AuditEventImpl extends DomainResourceImpl implements AuditEvent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSeverity(AuditEventSeverity newSeverity) {
 		if (newSeverity != severity) {
 			NotificationChain msgs = null;
@@ -374,6 +381,7 @@ public class AuditEventImpl extends DomainResourceImpl implements AuditEvent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getOccurredPeriod() {
 		return occurredPeriod;
 	}
@@ -398,6 +406,7 @@ public class AuditEventImpl extends DomainResourceImpl implements AuditEvent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOccurredPeriod(Period newOccurredPeriod) {
 		if (newOccurredPeriod != occurredPeriod) {
 			NotificationChain msgs = null;
@@ -417,6 +426,7 @@ public class AuditEventImpl extends DomainResourceImpl implements AuditEvent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getOccurredDateTime() {
 		return occurredDateTime;
 	}
@@ -441,6 +451,7 @@ public class AuditEventImpl extends DomainResourceImpl implements AuditEvent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOccurredDateTime(DateTime newOccurredDateTime) {
 		if (newOccurredDateTime != occurredDateTime) {
 			NotificationChain msgs = null;
@@ -460,6 +471,7 @@ public class AuditEventImpl extends DomainResourceImpl implements AuditEvent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Instant getRecorded() {
 		return recorded;
 	}
@@ -484,6 +496,7 @@ public class AuditEventImpl extends DomainResourceImpl implements AuditEvent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRecorded(Instant newRecorded) {
 		if (newRecorded != recorded) {
 			NotificationChain msgs = null;
@@ -503,6 +516,7 @@ public class AuditEventImpl extends DomainResourceImpl implements AuditEvent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AuditEventOutcome getOutcome() {
 		return outcome;
 	}
@@ -527,6 +541,7 @@ public class AuditEventImpl extends DomainResourceImpl implements AuditEvent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOutcome(AuditEventOutcome newOutcome) {
 		if (newOutcome != outcome) {
 			NotificationChain msgs = null;
@@ -546,6 +561,7 @@ public class AuditEventImpl extends DomainResourceImpl implements AuditEvent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getAuthorization() {
 		if (authorization == null) {
 			authorization = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.AUDIT_EVENT__AUTHORIZATION);
@@ -558,6 +574,7 @@ public class AuditEventImpl extends DomainResourceImpl implements AuditEvent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getBasedOn() {
 		if (basedOn == null) {
 			basedOn = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.AUDIT_EVENT__BASED_ON);
@@ -570,6 +587,7 @@ public class AuditEventImpl extends DomainResourceImpl implements AuditEvent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getPatient() {
 		return patient;
 	}
@@ -594,6 +612,7 @@ public class AuditEventImpl extends DomainResourceImpl implements AuditEvent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPatient(Reference newPatient) {
 		if (newPatient != patient) {
 			NotificationChain msgs = null;
@@ -613,6 +632,7 @@ public class AuditEventImpl extends DomainResourceImpl implements AuditEvent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getEncounter() {
 		return encounter;
 	}
@@ -637,6 +657,7 @@ public class AuditEventImpl extends DomainResourceImpl implements AuditEvent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEncounter(Reference newEncounter) {
 		if (newEncounter != encounter) {
 			NotificationChain msgs = null;
@@ -656,6 +677,7 @@ public class AuditEventImpl extends DomainResourceImpl implements AuditEvent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<AuditEventAgent> getAgent() {
 		if (agent == null) {
 			agent = new EObjectContainmentEList<AuditEventAgent>(AuditEventAgent.class, this, FhirPackage.AUDIT_EVENT__AGENT);
@@ -668,6 +690,7 @@ public class AuditEventImpl extends DomainResourceImpl implements AuditEvent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AuditEventSource getSource() {
 		return source;
 	}
@@ -692,6 +715,7 @@ public class AuditEventImpl extends DomainResourceImpl implements AuditEvent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSource(AuditEventSource newSource) {
 		if (newSource != source) {
 			NotificationChain msgs = null;
@@ -711,6 +735,7 @@ public class AuditEventImpl extends DomainResourceImpl implements AuditEvent {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<AuditEventEntity> getEntity() {
 		if (entity == null) {
 			entity = new EObjectContainmentEList<AuditEventEntity>(AuditEventEntity.class, this, FhirPackage.AUDIT_EVENT__ENTITY);

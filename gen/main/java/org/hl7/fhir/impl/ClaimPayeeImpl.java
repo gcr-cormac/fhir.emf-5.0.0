@@ -74,6 +74,7 @@ public class ClaimPayeeImpl extends BackboneElementImpl implements ClaimPayee {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getType() {
 		return type;
 	}
@@ -98,6 +99,7 @@ public class ClaimPayeeImpl extends BackboneElementImpl implements ClaimPayee {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setType(CodeableConcept newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class ClaimPayeeImpl extends BackboneElementImpl implements ClaimPayee {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getParty() {
 		return party;
 	}
@@ -141,6 +144,7 @@ public class ClaimPayeeImpl extends BackboneElementImpl implements ClaimPayee {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setParty(Reference newParty) {
 		if (newParty != party) {
 			NotificationChain msgs = null;

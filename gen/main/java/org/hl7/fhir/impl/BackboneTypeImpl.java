@@ -66,6 +66,7 @@ public class BackboneTypeImpl extends DataTypeImpl implements BackboneType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Extension> getModifierExtension() {
 		if (modifierExtension == null) {
 			modifierExtension = new EObjectContainmentEList<Extension>(Extension.class, this, FhirPackage.BACKBONE_TYPE__MODIFIER_EXTENSION);

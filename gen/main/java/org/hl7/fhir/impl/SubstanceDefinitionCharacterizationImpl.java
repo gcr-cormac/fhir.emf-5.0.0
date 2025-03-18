@@ -104,6 +104,7 @@ public class SubstanceDefinitionCharacterizationImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getTechnique() {
 		return technique;
 	}
@@ -128,6 +129,7 @@ public class SubstanceDefinitionCharacterizationImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTechnique(CodeableConcept newTechnique) {
 		if (newTechnique != technique) {
 			NotificationChain msgs = null;
@@ -147,6 +149,7 @@ public class SubstanceDefinitionCharacterizationImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getForm() {
 		return form;
 	}
@@ -171,6 +174,7 @@ public class SubstanceDefinitionCharacterizationImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setForm(CodeableConcept newForm) {
 		if (newForm != form) {
 			NotificationChain msgs = null;
@@ -190,6 +194,7 @@ public class SubstanceDefinitionCharacterizationImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -214,6 +219,7 @@ public class SubstanceDefinitionCharacterizationImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -233,6 +239,7 @@ public class SubstanceDefinitionCharacterizationImpl extends BackboneElementImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Attachment> getFile() {
 		if (file == null) {
 			file = new EObjectContainmentEList<Attachment>(Attachment.class, this, FhirPackage.SUBSTANCE_DEFINITION_CHARACTERIZATION__FILE);

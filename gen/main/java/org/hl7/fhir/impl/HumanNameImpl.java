@@ -136,6 +136,7 @@ public class HumanNameImpl extends DataTypeImpl implements HumanName {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public NameUse getUse() {
 		return use;
 	}
@@ -160,6 +161,7 @@ public class HumanNameImpl extends DataTypeImpl implements HumanName {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setUse(NameUse newUse) {
 		if (newUse != use) {
 			NotificationChain msgs = null;
@@ -179,6 +181,7 @@ public class HumanNameImpl extends DataTypeImpl implements HumanName {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getText() {
 		return text;
 	}
@@ -203,6 +206,7 @@ public class HumanNameImpl extends DataTypeImpl implements HumanName {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setText(org.hl7.fhir.String newText) {
 		if (newText != text) {
 			NotificationChain msgs = null;
@@ -222,6 +226,7 @@ public class HumanNameImpl extends DataTypeImpl implements HumanName {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getFamily() {
 		return family;
 	}
@@ -246,6 +251,7 @@ public class HumanNameImpl extends DataTypeImpl implements HumanName {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFamily(org.hl7.fhir.String newFamily) {
 		if (newFamily != family) {
 			NotificationChain msgs = null;
@@ -265,6 +271,7 @@ public class HumanNameImpl extends DataTypeImpl implements HumanName {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<org.hl7.fhir.String> getGiven() {
 		if (given == null) {
 			given = new EObjectContainmentEList<org.hl7.fhir.String>(org.hl7.fhir.String.class, this, FhirPackage.HUMAN_NAME__GIVEN);
@@ -277,6 +284,7 @@ public class HumanNameImpl extends DataTypeImpl implements HumanName {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<org.hl7.fhir.String> getPrefix() {
 		if (prefix == null) {
 			prefix = new EObjectContainmentEList<org.hl7.fhir.String>(org.hl7.fhir.String.class, this, FhirPackage.HUMAN_NAME__PREFIX);
@@ -289,6 +297,7 @@ public class HumanNameImpl extends DataTypeImpl implements HumanName {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<org.hl7.fhir.String> getSuffix() {
 		if (suffix == null) {
 			suffix = new EObjectContainmentEList<org.hl7.fhir.String>(org.hl7.fhir.String.class, this, FhirPackage.HUMAN_NAME__SUFFIX);
@@ -301,6 +310,7 @@ public class HumanNameImpl extends DataTypeImpl implements HumanName {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getPeriod() {
 		return period;
 	}
@@ -325,6 +335,7 @@ public class HumanNameImpl extends DataTypeImpl implements HumanName {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPeriod(Period newPeriod) {
 		if (newPeriod != period) {
 			NotificationChain msgs = null;

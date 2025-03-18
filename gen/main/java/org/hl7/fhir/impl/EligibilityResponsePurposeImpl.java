@@ -79,6 +79,7 @@ public class EligibilityResponsePurposeImpl extends ElementImpl implements Eligi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EligibilityResponsePurposeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class EligibilityResponsePurposeImpl extends ElementImpl implements Eligi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(EligibilityResponsePurposeEnum newValue) {
 		EligibilityResponsePurposeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class EligibilityResponsePurposeImpl extends ElementImpl implements Eligi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		EligibilityResponsePurposeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class EligibilityResponsePurposeImpl extends ElementImpl implements Eligi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

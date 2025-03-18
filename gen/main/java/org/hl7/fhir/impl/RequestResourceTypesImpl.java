@@ -79,6 +79,7 @@ public class RequestResourceTypesImpl extends ElementImpl implements RequestReso
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public RequestResourceTypesEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class RequestResourceTypesImpl extends ElementImpl implements RequestReso
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(RequestResourceTypesEnum newValue) {
 		RequestResourceTypesEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class RequestResourceTypesImpl extends ElementImpl implements RequestReso
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		RequestResourceTypesEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class RequestResourceTypesImpl extends ElementImpl implements RequestReso
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

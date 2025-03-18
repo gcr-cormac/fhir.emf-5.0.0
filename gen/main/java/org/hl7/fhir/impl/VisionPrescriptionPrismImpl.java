@@ -74,6 +74,7 @@ public class VisionPrescriptionPrismImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Decimal getAmount() {
 		return amount;
 	}
@@ -98,6 +99,7 @@ public class VisionPrescriptionPrismImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAmount(Decimal newAmount) {
 		if (newAmount != amount) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class VisionPrescriptionPrismImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public VisionBase getBase() {
 		return base;
 	}
@@ -141,6 +144,7 @@ public class VisionPrescriptionPrismImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBase(VisionBase newBase) {
 		if (newBase != base) {
 			NotificationChain msgs = null;

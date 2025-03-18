@@ -79,6 +79,7 @@ public class ProvenanceEntityRoleImpl extends ElementImpl implements ProvenanceE
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ProvenanceEntityRoleEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class ProvenanceEntityRoleImpl extends ElementImpl implements ProvenanceE
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(ProvenanceEntityRoleEnum newValue) {
 		ProvenanceEntityRoleEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class ProvenanceEntityRoleImpl extends ElementImpl implements ProvenanceE
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		ProvenanceEntityRoleEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class ProvenanceEntityRoleImpl extends ElementImpl implements ProvenanceE
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

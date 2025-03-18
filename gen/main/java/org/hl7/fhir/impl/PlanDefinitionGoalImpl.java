@@ -137,6 +137,7 @@ public class PlanDefinitionGoalImpl extends BackboneElementImpl implements PlanD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCategory() {
 		return category;
 	}
@@ -161,6 +162,7 @@ public class PlanDefinitionGoalImpl extends BackboneElementImpl implements PlanD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCategory(CodeableConcept newCategory) {
 		if (newCategory != category) {
 			NotificationChain msgs = null;
@@ -180,6 +182,7 @@ public class PlanDefinitionGoalImpl extends BackboneElementImpl implements PlanD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getDescription() {
 		return description;
 	}
@@ -204,6 +207,7 @@ public class PlanDefinitionGoalImpl extends BackboneElementImpl implements PlanD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(CodeableConcept newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -223,6 +227,7 @@ public class PlanDefinitionGoalImpl extends BackboneElementImpl implements PlanD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getPriority() {
 		return priority;
 	}
@@ -247,6 +252,7 @@ public class PlanDefinitionGoalImpl extends BackboneElementImpl implements PlanD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPriority(CodeableConcept newPriority) {
 		if (newPriority != priority) {
 			NotificationChain msgs = null;
@@ -266,6 +272,7 @@ public class PlanDefinitionGoalImpl extends BackboneElementImpl implements PlanD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getStart() {
 		return start;
 	}
@@ -290,6 +297,7 @@ public class PlanDefinitionGoalImpl extends BackboneElementImpl implements PlanD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStart(CodeableConcept newStart) {
 		if (newStart != start) {
 			NotificationChain msgs = null;
@@ -309,6 +317,7 @@ public class PlanDefinitionGoalImpl extends BackboneElementImpl implements PlanD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getAddresses() {
 		if (addresses == null) {
 			addresses = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.PLAN_DEFINITION_GOAL__ADDRESSES);
@@ -321,6 +330,7 @@ public class PlanDefinitionGoalImpl extends BackboneElementImpl implements PlanD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<RelatedArtifact> getDocumentation() {
 		if (documentation == null) {
 			documentation = new EObjectContainmentEList<RelatedArtifact>(RelatedArtifact.class, this, FhirPackage.PLAN_DEFINITION_GOAL__DOCUMENTATION);
@@ -333,6 +343,7 @@ public class PlanDefinitionGoalImpl extends BackboneElementImpl implements PlanD
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<PlanDefinitionTarget> getTarget() {
 		if (target == null) {
 			target = new EObjectContainmentEList<PlanDefinitionTarget>(PlanDefinitionTarget.class, this, FhirPackage.PLAN_DEFINITION_GOAL__TARGET);

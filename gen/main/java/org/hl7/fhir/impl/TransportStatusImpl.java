@@ -79,6 +79,7 @@ public class TransportStatusImpl extends ElementImpl implements TransportStatus 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TransportStatusEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class TransportStatusImpl extends ElementImpl implements TransportStatus 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(TransportStatusEnum newValue) {
 		TransportStatusEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class TransportStatusImpl extends ElementImpl implements TransportStatus 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		TransportStatusEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class TransportStatusImpl extends ElementImpl implements TransportStatus 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

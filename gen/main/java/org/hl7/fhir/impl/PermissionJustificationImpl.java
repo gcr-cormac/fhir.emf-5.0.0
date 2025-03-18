@@ -78,6 +78,7 @@ public class PermissionJustificationImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getBasis() {
 		if (basis == null) {
 			basis = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.PERMISSION_JUSTIFICATION__BASIS);
@@ -90,6 +91,7 @@ public class PermissionJustificationImpl extends BackboneElementImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getEvidence() {
 		if (evidence == null) {
 			evidence = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.PERMISSION_JUSTIFICATION__EVIDENCE);

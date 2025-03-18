@@ -79,6 +79,7 @@ public class TaskStatusImpl extends ElementImpl implements TaskStatus {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TaskStatusEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class TaskStatusImpl extends ElementImpl implements TaskStatus {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(TaskStatusEnum newValue) {
 		TaskStatusEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class TaskStatusImpl extends ElementImpl implements TaskStatus {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		TaskStatusEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class TaskStatusImpl extends ElementImpl implements TaskStatus {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

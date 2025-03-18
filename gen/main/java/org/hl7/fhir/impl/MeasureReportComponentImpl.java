@@ -131,6 +131,7 @@ public class MeasureReportComponentImpl extends BackboneElementImpl implements M
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getLinkId() {
 		return linkId;
 	}
@@ -155,6 +156,7 @@ public class MeasureReportComponentImpl extends BackboneElementImpl implements M
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setLinkId(org.hl7.fhir.String newLinkId) {
 		if (newLinkId != linkId) {
 			NotificationChain msgs = null;
@@ -174,6 +176,7 @@ public class MeasureReportComponentImpl extends BackboneElementImpl implements M
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -198,6 +201,7 @@ public class MeasureReportComponentImpl extends BackboneElementImpl implements M
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -217,6 +221,7 @@ public class MeasureReportComponentImpl extends BackboneElementImpl implements M
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getValueCodeableConcept() {
 		return valueCodeableConcept;
 	}
@@ -241,6 +246,7 @@ public class MeasureReportComponentImpl extends BackboneElementImpl implements M
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueCodeableConcept(CodeableConcept newValueCodeableConcept) {
 		if (newValueCodeableConcept != valueCodeableConcept) {
 			NotificationChain msgs = null;
@@ -260,6 +266,7 @@ public class MeasureReportComponentImpl extends BackboneElementImpl implements M
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getValueBoolean() {
 		return valueBoolean;
 	}
@@ -284,6 +291,7 @@ public class MeasureReportComponentImpl extends BackboneElementImpl implements M
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueBoolean(org.hl7.fhir.Boolean newValueBoolean) {
 		if (newValueBoolean != valueBoolean) {
 			NotificationChain msgs = null;
@@ -303,6 +311,7 @@ public class MeasureReportComponentImpl extends BackboneElementImpl implements M
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Quantity getValueQuantity() {
 		return valueQuantity;
 	}
@@ -327,6 +336,7 @@ public class MeasureReportComponentImpl extends BackboneElementImpl implements M
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueQuantity(Quantity newValueQuantity) {
 		if (newValueQuantity != valueQuantity) {
 			NotificationChain msgs = null;
@@ -346,6 +356,7 @@ public class MeasureReportComponentImpl extends BackboneElementImpl implements M
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Range getValueRange() {
 		return valueRange;
 	}
@@ -370,6 +381,7 @@ public class MeasureReportComponentImpl extends BackboneElementImpl implements M
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueRange(Range newValueRange) {
 		if (newValueRange != valueRange) {
 			NotificationChain msgs = null;
@@ -389,6 +401,7 @@ public class MeasureReportComponentImpl extends BackboneElementImpl implements M
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getValueReference() {
 		return valueReference;
 	}
@@ -413,6 +426,7 @@ public class MeasureReportComponentImpl extends BackboneElementImpl implements M
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValueReference(Reference newValueReference) {
 		if (newValueReference != valueReference) {
 			NotificationChain msgs = null;

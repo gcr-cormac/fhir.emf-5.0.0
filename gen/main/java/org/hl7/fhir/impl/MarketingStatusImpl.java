@@ -108,6 +108,7 @@ public class MarketingStatusImpl extends BackboneTypeImpl implements MarketingSt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCountry() {
 		return country;
 	}
@@ -132,6 +133,7 @@ public class MarketingStatusImpl extends BackboneTypeImpl implements MarketingSt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCountry(CodeableConcept newCountry) {
 		if (newCountry != country) {
 			NotificationChain msgs = null;
@@ -151,6 +153,7 @@ public class MarketingStatusImpl extends BackboneTypeImpl implements MarketingSt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getJurisdiction() {
 		return jurisdiction;
 	}
@@ -175,6 +178,7 @@ public class MarketingStatusImpl extends BackboneTypeImpl implements MarketingSt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setJurisdiction(CodeableConcept newJurisdiction) {
 		if (newJurisdiction != jurisdiction) {
 			NotificationChain msgs = null;
@@ -194,6 +198,7 @@ public class MarketingStatusImpl extends BackboneTypeImpl implements MarketingSt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getStatus() {
 		return status;
 	}
@@ -218,6 +223,7 @@ public class MarketingStatusImpl extends BackboneTypeImpl implements MarketingSt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(CodeableConcept newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -237,6 +243,7 @@ public class MarketingStatusImpl extends BackboneTypeImpl implements MarketingSt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Period getDateRange() {
 		return dateRange;
 	}
@@ -261,6 +268,7 @@ public class MarketingStatusImpl extends BackboneTypeImpl implements MarketingSt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDateRange(Period newDateRange) {
 		if (newDateRange != dateRange) {
 			NotificationChain msgs = null;
@@ -280,6 +288,7 @@ public class MarketingStatusImpl extends BackboneTypeImpl implements MarketingSt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getRestoreDate() {
 		return restoreDate;
 	}
@@ -304,6 +313,7 @@ public class MarketingStatusImpl extends BackboneTypeImpl implements MarketingSt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setRestoreDate(DateTime newRestoreDate) {
 		if (newRestoreDate != restoreDate) {
 			NotificationChain msgs = null;

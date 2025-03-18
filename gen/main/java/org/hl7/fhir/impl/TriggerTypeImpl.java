@@ -79,6 +79,7 @@ public class TriggerTypeImpl extends ElementImpl implements TriggerType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TriggerTypeEnum getValue() {
 		return value;
 	}
@@ -88,6 +89,7 @@ public class TriggerTypeImpl extends ElementImpl implements TriggerType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(TriggerTypeEnum newValue) {
 		TriggerTypeEnum oldValue = value;
 		value = newValue == null ? VALUE_EDEFAULT : newValue;
@@ -102,6 +104,7 @@ public class TriggerTypeImpl extends ElementImpl implements TriggerType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void unsetValue() {
 		TriggerTypeEnum oldValue = value;
 		boolean oldValueESet = valueESet;
@@ -116,6 +119,7 @@ public class TriggerTypeImpl extends ElementImpl implements TriggerType {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public boolean isSetValue() {
 		return valueESet;
 	}

@@ -267,6 +267,7 @@ public class RequestOrchestrationImpl extends DomainResourceImpl implements Requ
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Identifier> getIdentifier() {
 		if (identifier == null) {
 			identifier = new EObjectContainmentEList<Identifier>(Identifier.class, this, FhirPackage.REQUEST_ORCHESTRATION__IDENTIFIER);
@@ -279,6 +280,7 @@ public class RequestOrchestrationImpl extends DomainResourceImpl implements Requ
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Canonical> getInstantiatesCanonical() {
 		if (instantiatesCanonical == null) {
 			instantiatesCanonical = new EObjectContainmentEList<Canonical>(Canonical.class, this, FhirPackage.REQUEST_ORCHESTRATION__INSTANTIATES_CANONICAL);
@@ -291,6 +293,7 @@ public class RequestOrchestrationImpl extends DomainResourceImpl implements Requ
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Uri> getInstantiatesUri() {
 		if (instantiatesUri == null) {
 			instantiatesUri = new EObjectContainmentEList<Uri>(Uri.class, this, FhirPackage.REQUEST_ORCHESTRATION__INSTANTIATES_URI);
@@ -303,6 +306,7 @@ public class RequestOrchestrationImpl extends DomainResourceImpl implements Requ
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getBasedOn() {
 		if (basedOn == null) {
 			basedOn = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.REQUEST_ORCHESTRATION__BASED_ON);
@@ -315,6 +319,7 @@ public class RequestOrchestrationImpl extends DomainResourceImpl implements Requ
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getReplaces() {
 		if (replaces == null) {
 			replaces = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.REQUEST_ORCHESTRATION__REPLACES);
@@ -327,6 +332,7 @@ public class RequestOrchestrationImpl extends DomainResourceImpl implements Requ
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Identifier getGroupIdentifier() {
 		return groupIdentifier;
 	}
@@ -351,6 +357,7 @@ public class RequestOrchestrationImpl extends DomainResourceImpl implements Requ
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setGroupIdentifier(Identifier newGroupIdentifier) {
 		if (newGroupIdentifier != groupIdentifier) {
 			NotificationChain msgs = null;
@@ -370,6 +377,7 @@ public class RequestOrchestrationImpl extends DomainResourceImpl implements Requ
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public RequestStatus getStatus() {
 		return status;
 	}
@@ -394,6 +402,7 @@ public class RequestOrchestrationImpl extends DomainResourceImpl implements Requ
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setStatus(RequestStatus newStatus) {
 		if (newStatus != status) {
 			NotificationChain msgs = null;
@@ -413,6 +422,7 @@ public class RequestOrchestrationImpl extends DomainResourceImpl implements Requ
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public RequestIntent getIntent() {
 		return intent;
 	}
@@ -437,6 +447,7 @@ public class RequestOrchestrationImpl extends DomainResourceImpl implements Requ
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIntent(RequestIntent newIntent) {
 		if (newIntent != intent) {
 			NotificationChain msgs = null;
@@ -456,6 +467,7 @@ public class RequestOrchestrationImpl extends DomainResourceImpl implements Requ
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public RequestPriority getPriority() {
 		return priority;
 	}
@@ -480,6 +492,7 @@ public class RequestOrchestrationImpl extends DomainResourceImpl implements Requ
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPriority(RequestPriority newPriority) {
 		if (newPriority != priority) {
 			NotificationChain msgs = null;
@@ -499,6 +512,7 @@ public class RequestOrchestrationImpl extends DomainResourceImpl implements Requ
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCode() {
 		return code;
 	}
@@ -523,6 +537,7 @@ public class RequestOrchestrationImpl extends DomainResourceImpl implements Requ
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCode(CodeableConcept newCode) {
 		if (newCode != code) {
 			NotificationChain msgs = null;
@@ -542,6 +557,7 @@ public class RequestOrchestrationImpl extends DomainResourceImpl implements Requ
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getSubject() {
 		return subject;
 	}
@@ -566,6 +582,7 @@ public class RequestOrchestrationImpl extends DomainResourceImpl implements Requ
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSubject(Reference newSubject) {
 		if (newSubject != subject) {
 			NotificationChain msgs = null;
@@ -585,6 +602,7 @@ public class RequestOrchestrationImpl extends DomainResourceImpl implements Requ
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getEncounter() {
 		return encounter;
 	}
@@ -609,6 +627,7 @@ public class RequestOrchestrationImpl extends DomainResourceImpl implements Requ
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setEncounter(Reference newEncounter) {
 		if (newEncounter != encounter) {
 			NotificationChain msgs = null;
@@ -628,6 +647,7 @@ public class RequestOrchestrationImpl extends DomainResourceImpl implements Requ
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DateTime getAuthoredOn() {
 		return authoredOn;
 	}
@@ -652,6 +672,7 @@ public class RequestOrchestrationImpl extends DomainResourceImpl implements Requ
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAuthoredOn(DateTime newAuthoredOn) {
 		if (newAuthoredOn != authoredOn) {
 			NotificationChain msgs = null;
@@ -671,6 +692,7 @@ public class RequestOrchestrationImpl extends DomainResourceImpl implements Requ
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Reference getAuthor() {
 		return author;
 	}
@@ -695,6 +717,7 @@ public class RequestOrchestrationImpl extends DomainResourceImpl implements Requ
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAuthor(Reference newAuthor) {
 		if (newAuthor != author) {
 			NotificationChain msgs = null;
@@ -714,6 +737,7 @@ public class RequestOrchestrationImpl extends DomainResourceImpl implements Requ
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableReference> getReason() {
 		if (reason == null) {
 			reason = new EObjectContainmentEList<CodeableReference>(CodeableReference.class, this, FhirPackage.REQUEST_ORCHESTRATION__REASON);
@@ -726,6 +750,7 @@ public class RequestOrchestrationImpl extends DomainResourceImpl implements Requ
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getGoal() {
 		if (goal == null) {
 			goal = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.REQUEST_ORCHESTRATION__GOAL);
@@ -738,6 +763,7 @@ public class RequestOrchestrationImpl extends DomainResourceImpl implements Requ
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Annotation> getNote() {
 		if (note == null) {
 			note = new EObjectContainmentEList<Annotation>(Annotation.class, this, FhirPackage.REQUEST_ORCHESTRATION__NOTE);
@@ -750,6 +776,7 @@ public class RequestOrchestrationImpl extends DomainResourceImpl implements Requ
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<RequestOrchestrationAction> getAction() {
 		if (action == null) {
 			action = new EObjectContainmentEList<RequestOrchestrationAction>(RequestOrchestrationAction.class, this, FhirPackage.REQUEST_ORCHESTRATION__ACTION);

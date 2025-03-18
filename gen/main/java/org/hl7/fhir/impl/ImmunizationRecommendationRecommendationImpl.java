@@ -193,6 +193,7 @@ public class ImmunizationRecommendationRecommendationImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getVaccineCode() {
 		if (vaccineCode == null) {
 			vaccineCode = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.IMMUNIZATION_RECOMMENDATION_RECOMMENDATION__VACCINE_CODE);
@@ -205,6 +206,7 @@ public class ImmunizationRecommendationRecommendationImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getTargetDisease() {
 		if (targetDisease == null) {
 			targetDisease = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.IMMUNIZATION_RECOMMENDATION_RECOMMENDATION__TARGET_DISEASE);
@@ -217,6 +219,7 @@ public class ImmunizationRecommendationRecommendationImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getContraindicatedVaccineCode() {
 		if (contraindicatedVaccineCode == null) {
 			contraindicatedVaccineCode = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.IMMUNIZATION_RECOMMENDATION_RECOMMENDATION__CONTRAINDICATED_VACCINE_CODE);
@@ -229,6 +232,7 @@ public class ImmunizationRecommendationRecommendationImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getForecastStatus() {
 		return forecastStatus;
 	}
@@ -253,6 +257,7 @@ public class ImmunizationRecommendationRecommendationImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setForecastStatus(CodeableConcept newForecastStatus) {
 		if (newForecastStatus != forecastStatus) {
 			NotificationChain msgs = null;
@@ -272,6 +277,7 @@ public class ImmunizationRecommendationRecommendationImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<CodeableConcept> getForecastReason() {
 		if (forecastReason == null) {
 			forecastReason = new EObjectContainmentEList<CodeableConcept>(CodeableConcept.class, this, FhirPackage.IMMUNIZATION_RECOMMENDATION_RECOMMENDATION__FORECAST_REASON);
@@ -284,6 +290,7 @@ public class ImmunizationRecommendationRecommendationImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ImmunizationRecommendationDateCriterion> getDateCriterion() {
 		if (dateCriterion == null) {
 			dateCriterion = new EObjectContainmentEList<ImmunizationRecommendationDateCriterion>(ImmunizationRecommendationDateCriterion.class, this, FhirPackage.IMMUNIZATION_RECOMMENDATION_RECOMMENDATION__DATE_CRITERION);
@@ -296,6 +303,7 @@ public class ImmunizationRecommendationRecommendationImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Markdown getDescription() {
 		return description;
 	}
@@ -320,6 +328,7 @@ public class ImmunizationRecommendationRecommendationImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDescription(Markdown newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
@@ -339,6 +348,7 @@ public class ImmunizationRecommendationRecommendationImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getSeries() {
 		return series;
 	}
@@ -363,6 +373,7 @@ public class ImmunizationRecommendationRecommendationImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSeries(org.hl7.fhir.String newSeries) {
 		if (newSeries != series) {
 			NotificationChain msgs = null;
@@ -382,6 +393,7 @@ public class ImmunizationRecommendationRecommendationImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getDoseNumber() {
 		return doseNumber;
 	}
@@ -406,6 +418,7 @@ public class ImmunizationRecommendationRecommendationImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDoseNumber(org.hl7.fhir.String newDoseNumber) {
 		if (newDoseNumber != doseNumber) {
 			NotificationChain msgs = null;
@@ -425,6 +438,7 @@ public class ImmunizationRecommendationRecommendationImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.String getSeriesDoses() {
 		return seriesDoses;
 	}
@@ -449,6 +463,7 @@ public class ImmunizationRecommendationRecommendationImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSeriesDoses(org.hl7.fhir.String newSeriesDoses) {
 		if (newSeriesDoses != seriesDoses) {
 			NotificationChain msgs = null;
@@ -468,6 +483,7 @@ public class ImmunizationRecommendationRecommendationImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getSupportingImmunization() {
 		if (supportingImmunization == null) {
 			supportingImmunization = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.IMMUNIZATION_RECOMMENDATION_RECOMMENDATION__SUPPORTING_IMMUNIZATION);
@@ -480,6 +496,7 @@ public class ImmunizationRecommendationRecommendationImpl extends BackboneElemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Reference> getSupportingPatientInformation() {
 		if (supportingPatientInformation == null) {
 			supportingPatientInformation = new EObjectContainmentEList<Reference>(Reference.class, this, FhirPackage.IMMUNIZATION_RECOMMENDATION_RECOMMENDATION__SUPPORTING_PATIENT_INFORMATION);

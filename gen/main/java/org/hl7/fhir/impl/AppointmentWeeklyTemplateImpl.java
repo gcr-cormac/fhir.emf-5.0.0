@@ -139,6 +139,7 @@ public class AppointmentWeeklyTemplateImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getMonday() {
 		return monday;
 	}
@@ -163,6 +164,7 @@ public class AppointmentWeeklyTemplateImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMonday(org.hl7.fhir.Boolean newMonday) {
 		if (newMonday != monday) {
 			NotificationChain msgs = null;
@@ -182,6 +184,7 @@ public class AppointmentWeeklyTemplateImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getTuesday() {
 		return tuesday;
 	}
@@ -206,6 +209,7 @@ public class AppointmentWeeklyTemplateImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTuesday(org.hl7.fhir.Boolean newTuesday) {
 		if (newTuesday != tuesday) {
 			NotificationChain msgs = null;
@@ -225,6 +229,7 @@ public class AppointmentWeeklyTemplateImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getWednesday() {
 		return wednesday;
 	}
@@ -249,6 +254,7 @@ public class AppointmentWeeklyTemplateImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setWednesday(org.hl7.fhir.Boolean newWednesday) {
 		if (newWednesday != wednesday) {
 			NotificationChain msgs = null;
@@ -268,6 +274,7 @@ public class AppointmentWeeklyTemplateImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getThursday() {
 		return thursday;
 	}
@@ -292,6 +299,7 @@ public class AppointmentWeeklyTemplateImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setThursday(org.hl7.fhir.Boolean newThursday) {
 		if (newThursday != thursday) {
 			NotificationChain msgs = null;
@@ -311,6 +319,7 @@ public class AppointmentWeeklyTemplateImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getFriday() {
 		return friday;
 	}
@@ -335,6 +344,7 @@ public class AppointmentWeeklyTemplateImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFriday(org.hl7.fhir.Boolean newFriday) {
 		if (newFriday != friday) {
 			NotificationChain msgs = null;
@@ -354,6 +364,7 @@ public class AppointmentWeeklyTemplateImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getSaturday() {
 		return saturday;
 	}
@@ -378,6 +389,7 @@ public class AppointmentWeeklyTemplateImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSaturday(org.hl7.fhir.Boolean newSaturday) {
 		if (newSaturday != saturday) {
 			NotificationChain msgs = null;
@@ -397,6 +409,7 @@ public class AppointmentWeeklyTemplateImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public org.hl7.fhir.Boolean getSunday() {
 		return sunday;
 	}
@@ -421,6 +434,7 @@ public class AppointmentWeeklyTemplateImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSunday(org.hl7.fhir.Boolean newSunday) {
 		if (newSunday != sunday) {
 			NotificationChain msgs = null;
@@ -440,6 +454,7 @@ public class AppointmentWeeklyTemplateImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PositiveInt getWeekInterval() {
 		return weekInterval;
 	}
@@ -464,6 +479,7 @@ public class AppointmentWeeklyTemplateImpl extends BackboneElementImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setWeekInterval(PositiveInt newWeekInterval) {
 		if (newWeekInterval != weekInterval) {
 			NotificationChain msgs = null;

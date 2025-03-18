@@ -74,6 +74,7 @@ public class MoneyImpl extends DataTypeImpl implements Money {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Decimal getValue() {
 		return value;
 	}
@@ -98,6 +99,7 @@ public class MoneyImpl extends DataTypeImpl implements Money {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(Decimal newValue) {
 		if (newValue != value) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class MoneyImpl extends DataTypeImpl implements Money {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Code getCurrency() {
 		return currency;
 	}
@@ -141,6 +144,7 @@ public class MoneyImpl extends DataTypeImpl implements Money {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCurrency(Code newCurrency) {
 		if (newCurrency != currency) {
 			NotificationChain msgs = null;

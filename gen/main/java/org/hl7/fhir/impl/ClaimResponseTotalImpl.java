@@ -74,6 +74,7 @@ public class ClaimResponseTotalImpl extends BackboneElementImpl implements Claim
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CodeableConcept getCategory() {
 		return category;
 	}
@@ -98,6 +99,7 @@ public class ClaimResponseTotalImpl extends BackboneElementImpl implements Claim
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setCategory(CodeableConcept newCategory) {
 		if (newCategory != category) {
 			NotificationChain msgs = null;
@@ -117,6 +119,7 @@ public class ClaimResponseTotalImpl extends BackboneElementImpl implements Claim
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Money getAmount() {
 		return amount;
 	}
@@ -141,6 +144,7 @@ public class ClaimResponseTotalImpl extends BackboneElementImpl implements Claim
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAmount(Money newAmount) {
 		if (newAmount != amount) {
 			NotificationChain msgs = null;
